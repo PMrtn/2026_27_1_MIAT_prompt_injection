@@ -1,0 +1,143 @@
+{
+  "train": {
+    "total": 7462,
+    "by_label": {
+      "0": 3774,
+      "1": 3688
+    },
+    "by_lang_label": {
+      "en/0": 2327,
+      "en/1": 2242,
+      "hu/0": 1447,
+      "hu/1": 1446
+    },
+    "by_family": {
+      "S1": 735,
+      "S2": 751,
+      "S3": 724,
+      "S4": 726,
+      "S5": 752,
+      "benign": 3774
+    },
+    "hard_negative_benign": 900,
+    "by_carrier_type": {
+      "assistant_docs": 216,
+      "calendar_invite": 482,
+      "calendar_json": 396,
+      "contact_card": 406,
+      "document": 514,
+      "email": 413,
+      "how_to": 202,
+      "it_runbook": 194,
+      "meeting_actions": 188,
+      "news": 497,
+      "none": 299,
+      "order_json": 411,
+      "policy": 220,
+      "product_reviews": 526,
+      "recipe": 194,
+      "request_email": 206,
+      "search_results": 406,
+      "security_awareness": 192,
+      "snippet": 292,
+      "support_ticket": 469,
+      "transactions_json": 277,
+      "web_page": 462
+    }
+  },
+  "val": {
+    "total": 1570,
+    "by_label": {
+      "0": 793,
+      "1": 777
+    },
+    "by_lang_label": {
+      "en/0": 478,
+      "en/1": 442,
+      "hu/0": 315,
+      "hu/1": 335
+    },
+    "by_family": {
+      "S1": 154,
+      "S2": 159,
+      "S3": 158,
+      "S4": 145,
+      "S5": 161,
+      "benign": 793
+    },
+    "hard_negative_benign": 172,
+    "by_carrier_type": {
+      "assistant_docs": 34,
+      "calendar_invite": 110,
+      "calendar_json": 95,
+      "contact_card": 98,
+      "document": 90,
+      "email": 81,
+      "how_to": 30,
+      "it_runbook": 40,
+      "meeting_actions": 38,
+      "news": 98,
+      "none": 60,
+      "order_json": 94,
+      "policy": 44,
+      "product_reviews": 92,
+      "recipe": 47,
+      "request_email": 34,
+      "search_results": 92,
+      "security_awareness": 56,
+      "snippet": 59,
+      "support_ticket": 100,
+      "transactions_json": 62,
+      "web_page": 116
+    }
+  },
+  "test": {
+    "total": 2321,
+    "by_label": {
+      "0": 823,
+      "1": 1498
+    },
+    "by_lang_label": {
+      "en/0": 498,
+      "en/1": 870,
+      "hu/0": 325,
+      "hu/1": 628
+    },
+    "by_family": {
+      "S1": 160,
+      "S2": 134,
+      "S3": 171,
+      "S4": 156,
+      "S5": 146,
+      "U1": 250,
+      "U2": 215,
+      "U3": 266,
+      "benign": 823
+    },
+    "hard_negative_benign": 231,
+    "by_carrier_type": {
+      "assistant_docs": 75,
+      "calendar_invite": 135,
+      "calendar_json": 76,
+      "contact_card": 144,
+      "document": 144,
+      "email": 133,
+      "how_to": 102,
+      "it_runbook": 66,
+      "meeting_actions": 84,
+      "news": 143,
+      "none": 119,
+      "order_json": 138,
+      "policy": 54,
+      "product_reviews": 141,
+      "recipe": 75,
+      "request_email": 63,
+      "search_results": 117,
+      "security_awareness": 78,
+      "snippet": 115,
+      "support_ticket": 123,
+      "transactions_json": 73,
+      "web_page": 123
+    }
+  }
+}
