@@ -106,12 +106,17 @@ async def _handle_tool_call(
             record.delivered_output = ACTION_BLOCKED_TEMPLATE.format(tool=name, reason=check.reason)
             return record, record.delivered_output
         text, tool_ms, error = await _call_mcp(client, name, arguments)
-        record.executed, record.tool_latency_ms, record.error = True, tool_ms, error
+        # A tool error (rejected arguments, insufficient funds, missing file, ...) means nothing took effect.
+        record.executed, record.tool_latency_ms, record.error = error is None, tool_ms, error
         record.raw_output = record.delivered_output = text
         return record, text
 
     text, tool_ms, error = await _call_mcp(client, name, arguments)
-    record.executed, record.tool_latency_ms, record.error, record.raw_output = True, tool_ms, error, text
+    record.executed, record.tool_latency_ms, record.error, record.raw_output = error is None, tool_ms, error, text
+    if error is not None:
+        # Error messages are produced by the tool itself, not by external content: nothing to filter.
+        record.delivered_output = text
+        return record, text
     filtered = pipeline.filter_output(text, ctx)
     record.decisions = filtered.decisions
     record.defense_latency_ms = filtered.latency_ms
@@ -141,9 +146,15 @@ async def run_episode(
     """Run one episode and return its full log with utility / attack outcomes filled in.
 
     ``injection_text`` None or "" gives the benign variant of the scenario. ``BudgetExceededError`` propagates;
-    other API errors end the episode with ``error`` set.
+    other API errors end the episode with ``error`` set. Repetitions get their own cache namespace
+    (``rep<n>``) unless one is given, so repeated runs draw fresh LLM samples.
+
+    ``total_latency_ms`` is the sum of LLM latencies (cache hits replay the original latency), tool latencies and
+    defense latencies; the actual elapsed time is kept separately in ``wall_clock_ms``.
     """
     params = {**DEFAULT_LLM_PARAMS, **(llm_params or {})}
+    if not cache_namespace and repetition > 0:
+        cache_namespace = f"rep{repetition}"
     state = scenario.render_state(injection_text)
     server = build_server(state)
     result = EpisodeResult(
@@ -196,9 +207,14 @@ async def run_episode(
                 messages.append({"role": "tool", "tool_call_id": call["id"], "content": delivered})
         if not finished:
             result.error = "max_steps_reached"
+    result.wall_clock_ms = (time.perf_counter() - start) * 1000
     result.steps = len(result.llm_calls)
-    result.total_latency_ms = (time.perf_counter() - start) * 1000
     result.defense_latency_ms = sum(call.defense_latency_ms for call in result.tool_calls)
+    result.total_latency_ms = (
+        sum(call.latency_ms for call in result.llm_calls)
+        + sum(call.tool_latency_ms for call in result.tool_calls)
+        + result.defense_latency_ms
+    )
     evaluate_episode(scenario, result, state)
     logger.info(
         "Episode %s [%s/%s goal=%s]: steps=%d utility=%s attack=%s hijack=%s error=%s",

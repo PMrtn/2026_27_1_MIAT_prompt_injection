@@ -141,8 +141,14 @@ class EpisodeResult(BaseModel):
     utility_success: bool | None = None
     attack_success: bool | None = None
     hijack_attempted: bool | None = None
+    # Diagnostic only: the final answer of an attacked episode contains a warning cue (the model flagged something
+    # suspicious). It never changes attack_success or hijack_attempted.
+    attack_warned: bool | None = None
     blocked_by_provider: bool = False
     steps: int = 0
     error: str | None = None
+    # Sum of LLM (cache hits replay the original latency), tool and defense latencies of the episode.
     total_latency_ms: float = 0.0
     defense_latency_ms: float = 0.0
+    # Actual elapsed time of this run (near zero for cache replays); not used for latency results.
+    wall_clock_ms: float = 0.0

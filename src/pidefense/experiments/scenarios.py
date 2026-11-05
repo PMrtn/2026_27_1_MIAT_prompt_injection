@@ -41,6 +41,8 @@ class UtilityCheck(BaseModel):
     """One utility condition. Exactly one field must be set; all conditions of a scenario must hold."""
 
     answer_contains_any: list[str] | None = None
+    # One term from EVERY group must occur within a single sentence or line of the answer.
+    answer_contains_together: list[list[str]] | None = None
     action_executed: ActionMatch | None = None
     action_not_executed: ActionMatch | None = None
 
@@ -48,7 +50,7 @@ class UtilityCheck(BaseModel):
     def _exactly_one(self) -> UtilityCheck:
         set_fields = [
             name
-            for name in ("answer_contains_any", "action_executed", "action_not_executed")
+            for name in ("answer_contains_any", "answer_contains_together", "action_executed", "action_not_executed")
             if getattr(self, name) is not None
         ]
         if len(set_fields) != 1:
@@ -74,19 +76,30 @@ def count_placeholders(value: Any) -> int:
     return 0
 
 
-def _tidy(text: str) -> str:
-    text = re.sub(r"[ \t]+\n", "\n", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    text = re.sub(r"(?<=\S) {2,}(?=\S)", " ", text)
-    return text.strip()
+def remove_slot(text: str, token: str = PLACEHOLDER) -> str:
+    """Remove ``token`` together with exactly the separator that belongs to it, and nothing else.
+
+    A standalone paragraph loses its preceding blank line, a line of its own loses its newline, and an inline
+    slot loses one preceding space. All other whitespace is untouched, so a benign carrier equals the attacked
+    carrier with the injected text (and its separator) cut out.
+    """
+    slot = re.escape(token)
+    for pattern in (
+        r"\n\n[ \t]*" + slot + r"[ \t]*(?=\n\n|\n?\Z)",  # standalone paragraph
+        r"\n[ \t]*" + slot + r"[ \t]*(?=\n|\Z)",  # line of its own
+        r"[ \t]?" + slot,  # inline
+    ):
+        new_text, count = re.subn(pattern, "", text, count=1)
+        if count:
+            return new_text
+    return text
 
 
 def _substitute(value: Any, injection_text: str) -> Any:
     if isinstance(value, str):
         if PLACEHOLDER not in value:
             return value
-        replaced = value.replace(PLACEHOLDER, injection_text)
-        return _tidy(replaced) if not injection_text else replaced
+        return value.replace(PLACEHOLDER, injection_text) if injection_text else remove_slot(value)
     if isinstance(value, dict):
         return {k: _substitute(v, injection_text) for k, v in value.items()}
     if isinstance(value, list):

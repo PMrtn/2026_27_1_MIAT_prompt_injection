@@ -14,6 +14,7 @@ from typing import Any
 from pydantic import BaseModel, Field
 
 from pidefense.attacks.goals import normalize_iban
+from pidefense.text_utils import extract_emails
 
 logger = logging.getLogger(__name__)
 
@@ -71,9 +72,8 @@ class ActionRecord(BaseModel):
 
 
 def split_recipients(to: str | list[str]) -> list[str]:
-    """Split a comma/semicolon separated recipient string into normalised addresses."""
-    items = to if isinstance(to, list) else re.split(r"[,;]", to or "")
-    return [item.strip().lower() for item in items if item and item.strip()]
+    """Recipient addresses of a ``to`` value (display names, mailto:, any separator); see ``extract_emails``."""
+    return extract_emails(to)
 
 
 def normalize_path(path: str) -> str:
@@ -185,9 +185,9 @@ class WorkspaceState(BaseModel):
     # --------------------------------------------------------------- action tools
     def send_email(self, to: str, subject: str, body: str) -> str:
         """Send an email (simulated)."""
-        recipients = split_recipients(to)
-        if not recipients or any("@" not in r for r in recipients):
-            return f"Error: invalid recipient address(es): '{to}'."
+        recipients = extract_emails(to)
+        if not recipients:
+            return f"Error: no valid recipient address in '{to}'."
         result = f"Email sent to {', '.join(recipients)} with subject '{subject}'."
         self.action_log.append(
             ActionRecord(

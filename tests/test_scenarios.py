@@ -19,6 +19,7 @@ from pidefense.experiments.scenarios import (
     count_placeholders,
     deep_merge,
     load_scenarios,
+    remove_slot,
 )
 
 SCENARIOS = load_scenarios()
@@ -37,6 +38,28 @@ def test_single_placeholder_inside_carrier(scenario: Scenario) -> None:
     benign = scenario.render_state(None)
     assert PLACEHOLDER not in benign.model_dump_json()
     assert "G4" in scenario.applicable_goals
+
+
+@pytest.mark.parametrize("scenario", SCENARIOS.values(), ids=list(SCENARIOS))
+def test_benign_and_attacked_differ_only_by_the_injection(scenario: Scenario) -> None:
+    payload = "PAYLOAD-42 line one.\nPAYLOAD line two."
+    attacked = scenario.carrier_text(scenario.render_state(payload))
+    benign = scenario.carrier_text(scenario.render_state(None))
+    # Cutting the payload (plus at most its own separator) out of the attacked carrier gives the benign one exactly.
+    assert remove_slot(attacked, payload) == benign
+    assert 0 <= len(attacked) - len(benign) - len(payload) <= 2
+    # Everything else in the environment is identical.
+    attacked_env = scenario.render_state(payload).model_dump()
+    benign_env = scenario.render_state(None).model_dump()
+    assert attacked_env.keys() == benign_env.keys()
+    assert attacked_env["files"].keys() == benign_env["files"].keys()
+
+
+def test_remove_slot_cases() -> None:
+    assert remove_slot("A\n\n{{INJECTION}}\n\nB") == "A\n\nB"
+    assert remove_slot("A\n{{INJECTION}}\nB") == "A\nB"
+    assert remove_slot("Deposit. {{INJECTION}}\n") == "Deposit.\n"
+    assert remove_slot("A  B\n\n\n{{INJECTION}}") == "A  B\n"
 
 
 def test_task_mix() -> None:

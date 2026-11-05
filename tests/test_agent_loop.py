@@ -7,6 +7,8 @@ from __future__ import annotations
 import json
 from typing import Any
 
+import pytest
+
 from pidefense.agent import SYSTEM_PROMPT, run_episode
 from pidefense.attacks.goals import ATTACKER_EMAIL
 from pidefense.defenses import WITHHELD_TEMPLATE, ActionPolicy, DefensePipeline, OutputDefense
@@ -37,6 +39,7 @@ class ScriptedLLM:
         self.turns = list(turns)
         self.seen: list[list[dict[str, Any]]] = []
         self.tools: list[dict[str, Any]] | None = None
+        self.namespaces: list[str] = []
 
     async def chat(
         self,
@@ -48,7 +51,7 @@ class ScriptedLLM:
         **params: Any,
     ) -> LLMResponse:
         assert purpose.startswith("episode:") and "reasoning_effort" in params
-        assert isinstance(cache_namespace, str)
+        self.namespaces.append(cache_namespace)
         self.seen.append([dict(m) for m in messages])
         self.tools = tools
         return self.turns.pop(0)
@@ -145,3 +148,67 @@ async def test_max_steps_and_bad_arguments() -> None:
         max_steps=2,
     )
     assert result.error == "max_steps_reached" and result.tool_calls[0].error and not result.tool_calls[0].executed
+
+
+async def test_total_latency_is_sum_of_components_including_cache_replays() -> None:
+    replay = _tool_turn(("read_email", {"email_id": "e1"}))
+    replay.latency_ms, replay.from_cache = 1500.0, True
+    final = _final("Thursday 14:00; renewal by 15 November.")
+    final.latency_ms = 700.0
+    result = await run_episode(
+        ScriptedLLM([replay, final]),
+        SCENARIO,
+        None,
+        DefensePipeline(output_defenses=[_BlockIgnore()]),
+        config_name="t",
+        model="m",
+        episode_id="e",
+    )
+    expected = (
+        sum(c.latency_ms for c in result.llm_calls)
+        + sum(c.tool_latency_ms for c in result.tool_calls)
+        + sum(c.defense_latency_ms for c in result.tool_calls)
+    )
+    assert result.total_latency_ms == pytest.approx(expected)
+    assert result.total_latency_ms >= 2200.0
+    assert 0 < result.wall_clock_ms < result.total_latency_ms
+    assert result.llm_calls[0].from_cache and result.llm_calls[0].latency_ms == 1500.0
+
+
+async def test_tool_errors_are_not_executed() -> None:
+    llm = ScriptedLLM(
+        [
+            _tool_turn(
+                ("read_email", {"email_id": "nope"}),
+                ("delete_file", {"path": "does/not/exist.txt"}),
+                ("transfer_money", {"iban": "HU86 1040 0016 5056 5252 5154 1012", "amount": "lots"}),
+                ("read_email", {"email_id": "e1"}),
+            ),
+            _final("Done."),
+        ]
+    )
+    result = await run_episode(
+        llm,
+        SCENARIO,
+        None,
+        DefensePipeline(output_defenses=[_BlockIgnore()]),
+        config_name="t",
+        model="m",
+        episode_id="e",
+    )
+    missing_email, missing_file, bad_amount, ok = result.tool_calls
+    for call in (missing_email, missing_file, bad_amount):
+        assert call.executed is False and call.error and call.delivered_output == call.raw_output
+        assert not call.decisions  # tool error messages are not filtered
+    assert "no email" in (missing_email.error or "") and "not found" in (missing_file.error or "")
+    assert ok.executed is True and ok.error is None and ok.decisions
+    assert llm.seen[1][-4]["content"] == missing_email.delivered_output
+
+
+async def test_repetitions_get_their_own_cache_namespace() -> None:
+    llm = ScriptedLLM([_final("a"), _final("b"), _final("c")])
+    kwargs: dict[str, Any] = {"config_name": "t", "model": "m", "episode_id": "e"}
+    await run_episode(llm, SCENARIO, None, DefensePipeline(), repetition=0, **kwargs)
+    await run_episode(llm, SCENARIO, None, DefensePipeline(), repetition=2, **kwargs)
+    await run_episode(llm, SCENARIO, None, DefensePipeline(), repetition=2, cache_namespace="custom", **kwargs)
+    assert llm.namespaces == ["", "rep2", "custom"]
