@@ -1,0 +1,27 @@
+# Exact versions used for the reported results (WSL Ubuntu, Python 3.12.3, CUDA torch on GTX 1660 SUPER).
+# Install: scripts/setup_env.sh
+torch==2.15.0
+transformers==5.22.1
+tokenizers==0.23.3
+datasets==5.1.0
+accelerate==1.15.0
+safetensors==0.8.0
+scikit-learn==1.9.1
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+PyYAML==6.0.3
+pydantic==2.14.3
+mcp==2.3.0
+openai==3.46.0
+azure-identity==1.27.0
+Faker==40.44.0
+tqdm==4.70.1
+# dev
+pytest==9.2.0
+pytest-asyncio==1.4.1.post1
+black==26.10.1
+isort==9.0.2
+pylint==4.1.3

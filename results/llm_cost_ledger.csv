@@ -1,0 +1,2 @@
+timestamp,purpose,deployment,prompt_tokens,cached_tokens,cache_write_tokens,completion_tokens,reasoning_tokens,cost_usd
+2026-11-05T21:26:48+00:00,smoke,gpt-5.6-luna,11,0,0,4,0,0.00000700
