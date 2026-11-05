@@ -5,6 +5,7 @@ Smoke test (one tiny billed call): ``python -m pidefense.llm "Reply with exactly
 
 from __future__ import annotations
 
+import json
 import logging
 import time
 from dataclasses import dataclass, field
@@ -16,6 +17,7 @@ from openai import AsyncOpenAI
 from pidefense.config import LLMSettings
 from pidefense.llm.cache import ResponseCache
 from pidefense.llm.cost import CostLedger, TokenUsage
+from pidefense.llm.ratelimit import TokenRateLimiter, estimate_tokens
 
 logger = logging.getLogger(__name__)
 
@@ -94,6 +96,9 @@ class AzureChatClient:
             self.settings.ledger_path, self.settings.budget_warn_usd, self.settings.budget_hard_usd
         )
         self.cache = cache
+        self.limiter = (
+            TokenRateLimiter(self.settings.tokens_per_minute) if self.settings.tokens_per_minute > 0 else None
+        )
         self._client: AsyncOpenAI | None = None
         self._credential: Any = None
 
@@ -166,7 +171,11 @@ class AzureChatClient:
                 return self._from_raw(hit["raw"], float(hit.get("latency_ms", 0.0)), 0.0, from_cache=True)
 
         self.ledger.ensure_budget()
-        start = time.perf_counter()
+        reservation = None
+        if self.limiter is not None:
+            estimate = estimate_tokens(len(json.dumps(request, default=str)), request.get("max_completion_tokens"))
+            reservation = await self.limiter.acquire(estimate)
+        start = time.perf_counter()  # measured after any rate-limit wait
         try:
             completion = await self._get_client().chat.completions.create(**request)
         except openai.BadRequestError as exc:
@@ -183,6 +192,8 @@ class AzureChatClient:
         latency_ms = (time.perf_counter() - start) * 1000
         raw = completion.model_dump()
         usage = TokenUsage.from_usage_dict(raw.get("usage"))
+        if reservation is not None:
+            TokenRateLimiter.settle(reservation, usage.prompt_tokens + usage.completion_tokens)
         cost = self.ledger.record(purpose, self.settings.deployment, usage, self.settings.pricing)
         if self.cache is not None and key is not None:
             self.cache.put(key, {"raw": raw, "latency_ms": latency_ms})

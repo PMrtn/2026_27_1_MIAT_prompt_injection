@@ -53,6 +53,8 @@ class LLMSettings:
     ledger_path: Path = REPO_ROOT / "results" / "llm_cost_ledger.csv"
     max_retries: int = 6
     timeout_s: float = 180.0
+    # Client-side cap, well below the deployment quota (250K TPM), because the deployment is shared. 0 disables it.
+    tokens_per_minute: int = 150_000
 
     @classmethod
     def from_env(cls) -> LLMSettings:
@@ -68,4 +70,5 @@ class LLMSettings:
             budget_warn_usd=_env_float("PIDEFENSE_BUDGET_WARN_USD", defaults.budget_warn_usd),
             budget_hard_usd=_env_float("PIDEFENSE_BUDGET_HARD_USD", defaults.budget_hard_usd),
             ledger_path=Path(os.environ.get("PIDEFENSE_LEDGER_PATH", str(defaults.ledger_path))),
+            tokens_per_minute=int(_env_float("PIDEFENSE_TPM", defaults.tokens_per_minute)),
         )
