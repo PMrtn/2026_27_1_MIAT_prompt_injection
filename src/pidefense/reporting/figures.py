@@ -1,4 +1,4 @@
-"""Static report figures (PDF for LaTeX, PNG for slides) from the committed result tables.
+"""Static report figures (PNG for the Markdown report and the slides, PDF as vector copy) from the result tables.
 
 Colour follows the entity in every figure: config 'none' blue, 'guardrails' and the regex classifier orange,
 'ml' and DistilBERT aqua, 'combined' yellow, TF-IDF violet (validated categorical palette, light mode).
@@ -25,8 +25,8 @@ from pidefense.logging_utils import setup_logging  # noqa: E402  pylint: disable
 logger = logging.getLogger(__name__)
 
 FIG_DIR = REPO_ROOT / "docs" / "report" / "figures"
-E2E_DIR = REPO_ROOT / "results" / "e2e"
 DET_DIR = REPO_ROOT / "results" / "detector"
+LAYERS_DIR = REPO_ROOT / "results" / "layers"
 
 SURFACE = "#ffffff"
 INK = "#0b0b0b"
@@ -38,8 +38,16 @@ CONFIG_COLORS = {"none": "#2a78d6", "guardrails": "#eb6834", "ml": "#1baf7a", "c
 CONFIG_LABELS = {"none": "1 none", "guardrails": "2 guardrails", "ml": "3 ML", "combined": "4 combined"}
 MODEL_COLORS = {"regex_guardrail": "#eb6834", "tfidf_lr": "#6250d6", "distilbert": "#1baf7a"}
 MODEL_LABELS = {"regex_guardrail": "Regex (R1+R2)", "tfidf_lr": "TF-IDF + LR", "distilbert": "DistilBERT"}
-SEQUENTIAL = ["#f4f8fd", "#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
 CONFIG_ORDER = ["none", "guardrails", "ml", "combined"]
+DEFENDED = ["guardrails", "ml", "combined"]
+WITH_ACTION_POLICY = frozenset({"guardrails", "combined"})
+FAMILY_GROUPS = {"S": "Known families\n(S1-S5)", "U": "Unseen families\n(U1-U3)", "P": "Ops-native\n(P1-P8)"}
+EVAL_SETS = [
+    ("test_seen", "Known families\n(test split)"),
+    ("test_unseen", "Unseen families\n(test split)"),
+    ("ood_ops_all", "OpsPilot domain\n(never trained on)"),
+    ("external", "deepset public set\n(chat prompts)"),
+]
 
 
 def _style() -> None:
@@ -82,123 +90,89 @@ def _save(fig: plt.Figure, name: str) -> None:
     logger.info("Wrote figure %s", name)
 
 
-def _ci_bounds(text: str) -> tuple[float, float]:
-    low, high = text.strip("[]").split(",")
-    return float(low), float(high)
+def _label_bars(ax: plt.Axes, positions: np.ndarray, values: list[float]) -> None:
+    for pos, value in zip(positions, values):
+        ax.text(pos, value + 0.015, f"{value:.0%}", ha="center", va="bottom", fontsize=7, color=INK)
 
 
-def _bar_panel(ax: plt.Axes, summary: pd.DataFrame, column: str, title: str, with_ci: bool) -> None:
-    configs = [c for c in CONFIG_ORDER if c in set(summary["config"])]
-    values = [float(summary.loc[summary["config"] == c, column].iloc[0]) for c in configs]
-    x = np.arange(len(configs))
-    ax.bar(x, values, width=0.62, color=[CONFIG_COLORS[c] for c in configs], edgecolor=SURFACE, linewidth=1.5)
-    if with_ci and f"{column}_ci" in summary:
-        bounds = [_ci_bounds(summary.loc[summary["config"] == c, f"{column}_ci"].iloc[0]) for c in configs]
-        lower = [v - b[0] for v, b in zip(values, bounds)]
-        upper = [b[1] - v for v, b in zip(values, bounds)]
-        ax.errorbar(x, values, yerr=[lower, upper], fmt="none", ecolor=INK_2, elinewidth=1, capsize=3)
-        tops = [b[1] for b in bounds]
-    else:
-        tops = values
-    for xi, value, top in zip(x, values, tops):
-        ax.text(
-            xi,
-            top + 0.02,
-            f"{value:.0%}" if value >= 0.01 or value == 0 else f"{value:.1%}",
-            ha="center",
-            va="bottom",
-            fontsize=8,
-            color=INK,
+def _grouped_bars(
+    ax: plt.Axes, groups: list[str], series: dict[str, list[float]], colors: dict[str, str], labels: dict[str, str]
+) -> None:
+    """Vertical grouped bars, one colour per series, value printed above every bar."""
+    x = np.arange(len(groups))
+    width = 0.8 / len(series)
+    for index, (name, values) in enumerate(series.items()):
+        positions = x + (index - (len(series) - 1) / 2) * width
+        ax.bar(
+            positions,
+            values,
+            width=width * 0.92,
+            color=colors[name],
+            label=labels[name],
+            edgecolor=SURFACE,
+            linewidth=1,
         )
-    ax.set_xticks(x, [CONFIG_LABELS[c] for c in configs], rotation=0)
-    ax.set_ylim(0, max(1.0, max(tops) + 0.12) if column.startswith("utility") else max(0.05, max(tops) * 1.25 + 0.02))
+        _label_bars(ax, positions, values)
+    ax.set_xticks(x, groups)
+    ax.set_ylim(0, 1.12)
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0, decimals=0))
-    ax.set_title(title, loc="left")
 
 
-def fig_e2e_overview(summary: pd.DataFrame) -> None:
-    """ASR, benign utility and tool-output FPR per configuration (small multiples, one axis each)."""
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.0))
-    _bar_panel(axes[0], summary, "asr", "Attack success rate (95% CI)", True)
-    _bar_panel(axes[1], summary, "utility_benign", "Benign task utility (95% CI)", True)
-    _bar_panel(axes[2], summary, "tool_fpr", "False positive rate (benign tool outputs)", False)
-    for ax in axes:
-        ax.tick_params(axis="x", labelsize=7.5)
-    fig.tight_layout(w_pad=2.0)
-    _save(fig, "e2e_overview")
+def fig_generalization(metrics: dict[str, dict[str, dict[str, float]]]) -> None:
+    """Recall of each classifier on increasingly unfamiliar evaluation sets (thresholds fixed on validation)."""
+    models = [m for m in ("regex_guardrail", "tfidf_lr", "distilbert") if m in metrics]
+    sets = [(key, label) for key, label in EVAL_SETS if all(key in metrics[m] for m in models)]
+    fig, ax = plt.subplots(figsize=(7.4, 3.3))
+    _grouped_bars(
+        ax,
+        [label for _, label in sets],
+        {m: [metrics[m][key]["recall"] for key, _ in sets] for m in models},
+        MODEL_COLORS,
+        MODEL_LABELS,
+    )
+    ax.set_title("Share of injected samples detected, from familiar to new attacks", loc="left")
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.22), ncol=len(models))
+    _save(fig, "generalization")
 
 
-def fig_asr_by_family(table: pd.DataFrame) -> None:
-    """Heatmap: ASR per attack family (rows) and configuration (columns), sequential single hue."""
-    configs = [c for c in CONFIG_ORDER if c in table.columns]
-    data = table[configs].to_numpy(dtype=float)
-    cmap = matplotlib.colors.LinearSegmentedColormap.from_list("seq", SEQUENTIAL)
-    fig, ax = plt.subplots(figsize=(5.2, 3.6))
-    vmax = max(0.05, float(np.nanmax(data)))
-    ax.imshow(data, cmap=cmap, vmin=0, vmax=vmax, aspect="auto")
-    ax.grid(False)
-    for (row, col), value in np.ndenumerate(data):
-        ax.text(
-            col,
-            row,
-            "–" if np.isnan(value) else f"{value:.0%}",
-            ha="center",
-            va="center",
-            fontsize=8,
-            color="#ffffff" if value > 0.55 * vmax else INK,
-        )
-    ax.set_xticks(range(len(configs)), [CONFIG_LABELS[c] for c in configs])
-    labels = [f"{family} (n={int(n)})" for family, n in zip(table.index, table["n"])]
-    ax.set_yticks(range(len(table.index)), labels)
-    ax.set_title("Attack success rate by attack family", loc="left")
-    for spine in ax.spines.values():
-        spine.set_visible(False)
-    _save(fig, "asr_by_family")
-
-
-def fig_tradeoff(sweep: pd.DataFrame, summary: pd.DataFrame, deployed: float) -> None:
-    """Estimated ASR vs FPR over the detector threshold, with the four measured configurations."""
-    fig, ax = plt.subplots(figsize=(5.2, 3.6))
-    ax.grid(True, axis="both")
-    for config, label in (("ml", "ML only (threshold sweep)"), ("combined", "Guardrails + ML (threshold sweep)")):
-        sub = sweep[sweep["config"] == config].sort_values("tool_fpr_est")
-        ax.plot(sub["tool_fpr_est"], sub["asr_est"], color=CONFIG_COLORS[config], linewidth=2, label=label)
-        at = sub.iloc[(sub["threshold"] - deployed).abs().argsort()[:1]]
-        ax.plot(
-            at["tool_fpr_est"],
-            at["asr_est"],
-            marker="o",
-            markersize=8,
-            color=CONFIG_COLORS[config],
-            markeredgecolor=SURFACE,
-            markeredgewidth=2,
-            linestyle="none",
-        )
-    for config in CONFIG_ORDER:
-        row = summary[summary["config"] == config]
-        if row.empty:
-            continue
-        x, y = float(row["tool_fpr"].iloc[0]), float(row["asr"].iloc[0])
-        ax.plot(
-            x,
-            y,
-            marker="s",
-            markersize=8,
-            color=CONFIG_COLORS[config],
-            markeredgecolor=INK,
-            markeredgewidth=0.8,
-            linestyle="none",
-        )
-        ax.annotate(CONFIG_LABELS[config], (x, y), xytext=(6, 4), textcoords="offset points", fontsize=7.5, color=INK_2)
-    ax.set_xlabel("False positive rate on benign tool outputs")
-    ax.set_ylabel("Attack success rate")
-    ax.xaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0, decimals=0))
-    ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0, decimals=0))
-    ax.set_xlim(left=-0.01)
-    ax.set_ylim(bottom=-0.01)
-    ax.set_title("Security / usability trade-off (squares = measured)", loc="left")
-    ax.legend(loc="upper right")
-    _save(fig, "tradeoff")
+def fig_layers(attacks: pd.DataFrame) -> None:
+    """Offline coverage of every attack: carrier withheld (by family group) and attack stopped (by domain)."""
+    configs = [c for c in DEFENDED if f"blocked_{c}" in attacks]
+    l0 = attacks[attacks["level"] == "L0"].copy()
+    l0["group"] = l0["family"].str[0]
+    groups = [g for g in FAMILY_GROUPS if g in set(l0["group"])]
+    fig, (ax_w, ax_s) = plt.subplots(1, 2, figsize=(10.5, 3.3), gridspec_kw={"width_ratios": [3, 2]})
+    _grouped_bars(
+        ax_w,
+        [f"{FAMILY_GROUPS[g]}\nn={int((l0['group'] == g).sum())}" for g in groups],
+        {c: [float(l0.loc[l0["group"] == g, f"blocked_{c}"].astype(bool).mean()) for g in groups] for c in configs},
+        CONFIG_COLORS,
+        CONFIG_LABELS,
+    )
+    ax_w.set_title("Injected tool output withheld before the LLM sees it", loc="left")
+    domains = [("office", "Office"), ("ops", "OpsPilot")]
+    stopped: dict[str, list[float]] = {}
+    for config in configs:
+        values = []
+        for domain, _ in domains:
+            sub = l0[l0["domain"] == domain]
+            blocked = sub[f"blocked_{config}"].astype(bool)
+            if config in WITH_ACTION_POLICY:
+                blocked = blocked | sub["r3_blocks_action"].astype(bool)
+            values.append(float(blocked.mean()))
+        stopped[config] = values
+    _grouped_bars(
+        ax_s,
+        [f"{label}\nn={int((l0['domain'] == domain).sum())}" for domain, label in domains],
+        stopped,
+        CONFIG_COLORS,
+        CONFIG_LABELS,
+    )
+    ax_s.set_title("Attack stopped (withheld or action vetoed)", loc="left")
+    fig.tight_layout(w_pad=2.5)
+    handles, labels = ax_w.get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.0), ncol=len(configs))
+    _save(fig, "layers")
 
 
 def fig_latency(latency: pd.DataFrame) -> None:
@@ -379,21 +353,14 @@ def main() -> None:
     import json  # pylint: disable=import-outside-toplevel
 
     fig_architecture()
-
     if (DET_DIR / "metrics.json").exists():
-        fig_classifier(json.loads((DET_DIR / "metrics.json").read_text(encoding="utf-8")))
+        metrics = json.loads((DET_DIR / "metrics.json").read_text(encoding="utf-8"))
+        fig_classifier(metrics)
+        fig_generalization(metrics)
     if (DET_DIR / "latency.csv").exists():
         fig_latency(pd.read_csv(DET_DIR / "latency.csv"))
-    if (E2E_DIR / "summary.csv").exists():
-        summary = pd.read_csv(E2E_DIR / "summary.csv")
-        fig_e2e_overview(summary)
-        if (E2E_DIR / "asr_by_family.csv").exists():
-            fig_asr_by_family(pd.read_csv(E2E_DIR / "asr_by_family.csv", index_col=0))
-        sweep_path = E2E_DIR / "threshold_sweep.csv"
-        threshold_path = REPO_ROOT / "artifacts" / "detector" / "best" / "threshold.json"
-        if sweep_path.exists() and threshold_path.exists():
-            deployed = json.loads(threshold_path.read_text())["threshold"]
-            fig_tradeoff(pd.read_csv(sweep_path), summary, deployed)
+    if (LAYERS_DIR / "attack_outputs.csv").exists():
+        fig_layers(pd.read_csv(LAYERS_DIR / "attack_outputs.csv"))
 
 
 if __name__ == "__main__":

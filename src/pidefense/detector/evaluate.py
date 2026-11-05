@@ -76,25 +76,35 @@ def _ood_slices(ood: list[Sample]) -> dict[str, list[int]]:
     return slices
 
 
+def _models(train: list[Sample], val: list[Sample], baselines_only: bool) -> dict[str, tuple[Scorer, float]]:
+    """Scorer and decision threshold per classifier; TF-IDF is refit and its threshold chosen on validation."""
+    tfidf = TfidfBaseline().fit(train)
+    tfidf.threshold = select_threshold([s.label for s in val], tfidf.score([s.text for s in val]), TARGET_FPR)
+    tfidf.save()
+    models: dict[str, tuple[Scorer, float]] = {
+        "regex_guardrail": (RegexBaseline().score, 0.5),
+        "tfidf_lr": (tfidf.score, tfidf.threshold),
+    }
+    if not baselines_only:
+        detector = InjectionDetector()
+        models["distilbert"] = (detector.score, detector.threshold)
+    return models
+
+
 def main() -> None:
     """CLI entry point."""
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--skip-external", action="store_true")
+    parser.add_argument(
+        "--baselines-only", action="store_true", help="evaluate only the regex and TF-IDF baselines (no checkpoint)"
+    )
     args = parser.parse_args()
     setup_logging()
 
     train, val, test = load_split("train"), load_split("val"), load_split("test")
     external = [] if args.skip_external else load_external()
 
-    tfidf = TfidfBaseline().fit(train)
-    tfidf.threshold = select_threshold([s.label for s in val], tfidf.score([s.text for s in val]), TARGET_FPR)
-    tfidf.save()
-    detector = InjectionDetector()
-    models: dict[str, tuple[Scorer, float]] = {
-        "regex_guardrail": (RegexBaseline().score, 0.5),
-        "tfidf_lr": (tfidf.score, tfidf.threshold),
-        "distilbert": (detector.score, detector.threshold),
-    }
+    models = _models(train, val, args.baselines_only)
 
     ood = _load_ood()
     ood_column: dict[str, list[float]] = {}
