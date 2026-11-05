@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- project ---
+artifacts/
+models/
+results/raw/
+data/raw/
+docs/report/build/
+*.ckpt
+*.safetensors
