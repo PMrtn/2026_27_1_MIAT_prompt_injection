@@ -147,7 +147,8 @@ def _coerce(value: Any) -> Any:
     return parsed if isinstance(parsed, (bool, int, float, str)) or parsed is None else value
 
 
-class OpsState:  # pylint: disable=too-many-public-methods  (one method per MCP tool)
+# One public method per MCP tool, hence many public methods.
+class OpsState:  # pylint: disable=too-many-public-methods
     """Mutable world of one ops episode."""
 
     def __init__(self, environment: OpsEnvironment, carrier: str, injection_text: str = "") -> None:
