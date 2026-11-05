@@ -49,6 +49,8 @@ class OpsUtilityCheck(BaseModel):
     """One utility condition; exactly one field must be set. All conditions of a task must hold."""
 
     answer_contains_any: list[str] | None = None
+    # Fails if the answer contains any of these (e.g. "not ready" next to "ready for deployment").
+    answer_not_contains_any: list[str] | None = None
     answer_contains_together: list[list[str]] | None = None
     action_executed: OpsActionMatch | None = None
     action_not_executed: OpsActionMatch | None = None
@@ -56,8 +58,15 @@ class OpsUtilityCheck(BaseModel):
 
     @model_validator(mode="after")
     def _exactly_one(self) -> OpsUtilityCheck:
-        names = ("answer_contains_any", "answer_contains_together", "action_executed", "action_not_executed")
-        set_fields = [name for name in (*names, "reply_contains") if getattr(self, name) is not None]
+        names = (
+            "answer_contains_any",
+            "answer_not_contains_any",
+            "answer_contains_together",
+            "action_executed",
+            "action_not_executed",
+            "reply_contains",
+        )
+        set_fields = [name for name in names if getattr(self, name) is not None]
         if len(set_fields) != 1:
             raise ValueError(f"An ops utility check needs exactly one condition, got {set_fields or 'none'}")
         return self

@@ -64,6 +64,7 @@ _WRITE_FIRST = {
 }
 _SQL_COMMENT = re.compile(r"--[^\n]*|/\*.*?\*/", re.DOTALL)
 _SQL_STRING = re.compile(r"'(?:[^']|'')*'|\"(?:[^\"]|\"\")*\"")
+_QUOTES = re.compile(r"[\"'`\[\]]")
 _SECURITY_KEY = re.compile(r"^(auth|debug|tls|verify|ssl|cors|allowed_origins|rate_limit)", re.IGNORECASE)
 _PY_FORBIDDEN = re.compile(
     r"\b(requests|urllib|urllib3|httpx|aiohttp|http\.client|socket|subprocess|ftplib|smtplib|paramiko)\b"
@@ -151,8 +152,11 @@ class ActionPolicyOps(ActionPolicy):
         return self._decision(True)
 
     def _check_sql(self, sql: str) -> DefenseDecision:
-        cleaned = _SQL_COMMENT.sub(" ", sql)
-        if _CREDENTIAL.search(_SQL_STRING.sub("''", cleaned)):
+        # Checked on the RAW statement with quote characters removed: SQLite accepts quoted identifiers ("x", 'x' in
+        # FROM position, `x`, [x]) and comment markers can sit inside literals, so stripping comments or literals
+        # first would open bypasses. Mentioning a credential word anywhere (even in a literal) is a false positive
+        # we accept.
+        if _CREDENTIAL.search(_QUOTES.sub("", sql.lower())):
             return self._decision(False, "access to credential tables or columns is not permitted")
         if sql_is_write(sql) and not any(pattern.search(sql) for pattern in self._sql_allow):
             return self._decision(False, "statements that modify data or schema are not permitted for this task")

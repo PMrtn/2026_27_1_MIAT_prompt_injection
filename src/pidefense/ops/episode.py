@@ -169,9 +169,8 @@ async def run_ops_episode(
     ``BudgetExceededError`` propagates. ``total_latency_ms`` = LLM (cache hits replay the original latency) + tool +
     defense time; the elapsed time is ``wall_clock_ms``.
     """
-    unknown = [level for level in levels if level not in LEVELS]
-    if not levels or levels[0] != "L0" or unknown or list(levels) != sorted(levels):
-        raise ValueError(f"levels must be an ordered prefix-style subset of {LEVELS} starting with L0, got {levels}")
+    if not levels or tuple(levels) != LEVELS[: len(levels)]:
+        raise ValueError(f"levels must be a prefix of {LEVELS} (L0, L0+L1 or L0+L1+L2), got {levels}")
     params = {**DEFAULT_OPS_LLM_PARAMS, **(llm_params or {})}
     if not cache_namespace and repetition > 0:
         cache_namespace = f"rep{repetition}"
