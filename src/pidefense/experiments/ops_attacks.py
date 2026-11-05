@@ -386,6 +386,33 @@ def build_ops_attacks(tasks: Mapping[str, Any], per_task: int = 24, seed: int = 
     return attacks
 
 
+def select_subset(attacks: list[OpsAttack], per_family: int = 3, seed: int = 2027) -> list[str]:
+    """Seeded, stratified subset for LLM runs: ``per_family`` attacks per family, both languages, varied goals/tasks.
+
+    The full attack set stays the pre-registered superset (used offline); the subset only limits LLM calls.
+    """
+    rng = random.Random(seed)
+    chosen: list[str] = []
+    for family in ALL_FAMILIES:
+        pool = [a for a in attacks if a.family == family]
+        rng.shuffle(pool)
+        picked: list[OpsAttack] = []
+        for lang in ("en", "hu"):
+            candidate = next((a for a in pool if a.lang == lang and a not in picked), None)
+            if candidate is not None:
+                picked.append(candidate)
+        while len(picked) < per_family:
+            used_goals = {a.goal for a in picked}
+            used_tasks = {a.task_id for a in picked}
+            remaining = [a for a in pool if a not in picked]
+            if not remaining:
+                break
+            remaining.sort(key=lambda a: (a.goal in used_goals, a.task_id in used_tasks))
+            picked.append(remaining[0])
+        chosen += [a.attack_id for a in picked[:per_family]]
+    return chosen
+
+
 def _check_unique(attacks: Iterable[OpsAttack]) -> None:
     seen: set[str] = set()
     for attack in attacks:

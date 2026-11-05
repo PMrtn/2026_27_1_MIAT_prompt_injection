@@ -70,8 +70,13 @@ def frame(records: list[dict[str, Any]], payloads: dict[str, str]) -> pd.DataFra
                 "lang": rec.get("lang"),
                 "goal": rec.get("goal"),
                 "success_L0": bool(levels.get("L0", {}).get("success")) if is_attack else None,
-                "success_L1": bool(levels.get("L1", {}).get("success")) if is_attack else None,
-                "attempted_L1": bool(levels.get("L1", {}).get("attempted")) if is_attack else None,
+                # Cumulative: with stop-on-success, L1 is skipped when L0 already succeeded.
+                "success_L1": bool((levels.get("L1") or levels.get("L0") or {}).get("success")) if is_attack else None,
+                "attempted_L1": (
+                    bool(levels.get("L0", {}).get("attempted") or levels.get("L1", {}).get("attempted"))
+                    if is_attack
+                    else None
+                ),
                 "utility": bool(rec.get("utility_success")),
                 "delivered": any(not c.get("blocked_by") for c in carrier_reads) if is_attack else None,
                 "payload_read": bool(carrier_reads) if is_attack else None,

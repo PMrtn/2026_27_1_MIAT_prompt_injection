@@ -1,0 +1,4 @@
+domain,level,config,n,payload_withheld,action_vetoed,stopped,withheld_seen,withheld_unseen,withheld_ops_native,benign_outputs,benign_fpr
+office,L0,guardrails,192,0.0833,0.5833,0.6198,0.1333,0.0000,,62,0.0000
+ops,L0,guardrails,192,0.0469,1.0000,1.0000,0.1500,0.0000,0.0000,0,
+ops,L1,guardrails,192,0.0469,1.0000,1.0000,0.1500,0.0000,0.0000,0,
