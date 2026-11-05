@@ -40,7 +40,7 @@ class _Scripted:
     def __init__(self, turns: list[LLMResponse]) -> None:
         self.turns = list(turns)
 
-    async def chat(self, messages: list[dict[str, Any]], tools: Any = None, **_: Any) -> LLMResponse:
+    async def chat(self, _messages: list[dict[str, Any]], _tools: Any = None, **_: Any) -> LLMResponse:
         return self.turns.pop(0)
 
 
