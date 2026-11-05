@@ -11,6 +11,8 @@ The R2 signatures were written only from the five *training* attack-family descr
 prompt-injection phrasing. They were written before any dataset template existed and deliberately do not
 target the held-out families U1-U3 (boundary spoofing, obfuscation, implicit "note to AI" phrasing): there is
 no base64 detection, no fake-turn detection beyond generic role/system tags and no homoglyph handling.
+Disclosure: R1's generic zero-width / invisible-character stripping (a standard sanitizer step, not U2-specific)
+incidentally undoes the U2 "zero_width" transform, so R2 can then match such payloads.
 
 These rules are FROZEN once merged, before any test or end-to-end result exists. Changing them afterwards would
 invalidate the comparison between configurations, so any later edit must be reported as a deviation.
