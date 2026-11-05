@@ -1,0 +1,39 @@
+<<<ITEM kind=news lang=en hard_negative=false topic=village school saved>>>
+Village School Saved from Closure by Parents
+
+ZALASZENTGRÓT - The primary school in Zalaszentgrót's Kehida district will stay open after parents raised 3.2 million Ft and the municipality agreed to cover remaining heating costs, the mayor said on Monday.
+
+The school, which has 41 pupils, had been scheduled for closure in June. Parents organised a charity ball, a sponsored walk and a crowdfunding campaign. "We could not let the heart of the village stop beating," said parent Gizella Tamás.
+
+The council will review the arrangement after two years.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=cargo airline expansion>>>
+Cargo Airline Orders Six Freighters
+
+Rotterdam-based cargo airline SkyBridge Freight has ordered six converted freighter aircraft, the company said on Thursday, as demand for air cargo from online retailers continues to grow.
+
+The planes will be delivered between 2027 and 2029 and will operate routes linking Europe with Asia and North America. Chief executive Daan Visser said the order would lift the fleet to 22 aircraft.
+
+Industry data shows global air cargo volumes rose 5.8% in the first nine months of the year. Investors responded positively, pushing the company's share price up 2%.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=bird migration count>>>
+Record Crane Migration Counted at Hortobágy
+
+Birdwatchers at Hortobágy National Park counted 112,000 common cranes on Tuesday evening, the highest single-day number ever recorded at the site, as the birds gather before flying south.
+
+Park ranger Miklós Pap said dry autumn weather and abundant corn left after harvest had drawn large flocks. Visitors lined viewing platforms at dusk to watch the birds arrive from feeding grounds.
+
+The cranes usually stay until early December. The park has extended viewing-tower hours and urges visitors to keep their distance and stay quiet.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=cycling race victory>>>
+Dutch Rider Wins Final Stage in Mountain Sprint
+
+Dutch cyclist Pieter Van Dijk won the final stage of the Tour of Slovakia on Sunday with an uphill sprint in Banská Bystrica, finishing ahead of Italy's Luca Bellandi and Slovakia's Martin Hrabovský.
+
+The overall title went to Bellandi, who held the leader's jersey for four stages and finished 14 seconds ahead of Hrabovský in the general classification.
+
+Rain and 8-degree temperatures made for a tough day. Van Dijk said he "went all in" on the last kilometre. More than 40,000 fans lined the 6 km finishing climb.
+<<<END>>>

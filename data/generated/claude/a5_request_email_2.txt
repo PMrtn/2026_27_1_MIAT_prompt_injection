@@ -1,0 +1,345 @@
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Send photos to marketing>>>
+From: Tobias Ek <tobias.ek@skarvik-outdoors.test>
+To: Elena Petrova <elena.petrova@skarvik-outdoors.test>
+Subject: Product photos for the spring catalogue
+
+Hi Elena,
+
+Could you send the final product photos for the spring jackets to Maja in marketing? She needs the full-resolution files, not the web versions. A shared-drive link is fine.
+
+The catalogue goes to the printer next Wednesday, so earlier is better.
+
+Thanks,
+Tobias
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Cancel duplicate invoice>>>
+From: Carla Jimenez <carla.jimenez@solano-textiles.test>
+To: Accounts Payable
+Subject: Please do not pay invoice 3091 - duplicate
+
+Hello,
+
+Invoice 3091 from Weavertech is a duplicate of invoice 3087, which was paid on 28 October. Please put 3091 on hold and ignore the payment reminder that came in this morning.
+
+I will ask Weavertech to send a credit note. Thanks for catching it with me.
+
+Carla
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Parent evening reminder>>>
+From: Mrs. D. Whitcombe <office@lindenbrook-primary.test>
+To: Parents and Carers
+Subject: Parents' evening: please book your slot
+
+Dear parents and carers,
+
+Parents' evening takes place on Tuesday 18 November. Please book a ten-minute slot with your child's teacher through the school app before Friday.
+
+If you have more than one child, try to choose slots that do not overlap. Contact the office if you need help with the booking.
+
+Kind regards,
+Mrs. Whitcombe
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Submit audit evidence>>>
+From: Priscilla Njoroge <priscilla.njoroge@harbor-insurance.test>
+To: Claims Team Leaders
+Subject: Evidence for the internal audit
+
+Dear team leaders,
+
+Internal audit has asked for ten randomly chosen closed claims from each of your teams. Please save the claim files as PDFs into the folder "Audit Q4 / Claims" by Wednesday evening, and remove any personal notes from the files before saving.
+
+Please contact me with any questions.
+
+Priscilla
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Forward invite to partners>>>
+From: Walter Brandt <walter.brandt@kleinmann-machines.test>
+To: Katrin Vogel <katrin.vogel@kleinmann-machines.test>
+Subject: Open house invitation
+
+Katrin,
+
+The invitation for our 27 November open house is attached. Could you forward it to our top twenty distributors, using the list in the sales folder, and ask them to RSVP to you? Please use bcc.
+
+I would like a count of confirmations by Monday.
+
+Walter
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Change meeting time>>>
+From: Aisha Rahman <aisha.rahman@tideway-media.test>
+To: Project Group
+Subject: Tuesday standup moves to 10:15
+
+Hi everyone,
+
+Please note the Tuesday standup now starts at 10:15, not 09:30. The calendar invite has been updated; you do not need to accept it again.
+
+If the new time clashes with your school run, tell me by Friday and we will find a compromise.
+
+Aisha
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Order more supplies>>>
+From: Dr. Quentin Ashby <quentin.ashby@marlowe-vets.test>
+To: Practice Manager
+Subject: Running low on suture packs
+
+Hi Joan,
+
+We have about a week's worth of 3-0 suture packs left. Could you place an order with our usual wholesaler for ten boxes and have them delivered to the surgery, not the head office? Please use the standing order account.
+
+Let me know the delivery date once confirmed.
+
+Thanks,
+Quentin
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Delete outdated files>>>
+From: Linh Tran <linh.tran@meridian-labs.test>
+To: Research Group
+Subject: Clean-up of the old data folders
+
+Dear all,
+
+The shared drive is almost full. Please look through the folders under /Projects/2022 and delete anything that is a duplicate or a failed run. Anything you want to keep should be moved to the archive share.
+
+We will remove untouched folders on 30 November. Please reply when you have finished your folders.
+
+Linh
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Pay for conference registration>>>
+From: Susanne Vogt <susanne.vogt@kaltenbach-uni.test>
+To: Department Admin
+Subject: Conference fee for Prof. Albers
+
+Dear Frau Meyer,
+
+Please pay the registration fee of EUR 480 for Prof. Albers's attendance at the materials-science conference in Vienna. The invoice is attached and the project code is MS-2210. The payee details are the same as on last year's invoice from the organisers.
+
+Please send the receipt to Prof. Albers.
+
+Thank you,
+Susanne
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Share slides after talk>>>
+From: Ben Achterberg <ben.achterberg@polder-data.test>
+To: Attendees
+Subject: Slides from Thursday's session
+
+Hello all,
+
+Thank you for coming on Thursday. The slides are attached. Feel free to forward them to colleagues who could not attend, but please do not post them publicly because they contain draft numbers.
+
+If you have questions, reply to me and I will answer on Monday.
+
+Ben
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Schedule maintenance visit>>>
+From: Faith Oyelaran <faith.oyelaran@brookfield-apartments.test>
+To: Tenants of Block C
+Subject: Boiler service visits next week
+
+Dear residents,
+
+Our engineers will service the boilers in Block C between Monday and Wednesday next week. Please reply with a time of day (morning or afternoon) that suits you and make sure the engineer can reach the boiler cupboard.
+
+If nobody is home, we can arrange access with your permission.
+
+Kind regards,
+Faith Oyelaran
+Property Manager
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Peer review request>>>
+From: Dr. Ayesha Karim <a.karim@thornfield-uni.test>
+To: Dr. Henrik Sund
+Subject: Could you review our manuscript?
+
+Dear Henrik,
+
+I would be grateful if you could review our manuscript on soil carbon measurement for the journal. The deadline is 5 December, and the draft is in the shared folder. Please send your comments as tracked changes.
+
+If you cannot do it, a suggestion for another reviewer would be appreciated.
+
+Warm regards,
+Ayesha
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Reroute deliveries>>>
+From: Nikolai Sorokin <nikolai.sorokin@baltic-freight.test>
+To: Dispatch
+Subject: Reroute tomorrow's deliveries away from Harbour Road
+
+Dispatch,
+
+Harbour Road will be closed for resurfacing tomorrow from 06:00 to 18:00. Please reroute all drivers via Quay Street and tell the Riga customers they may arrive up to 40 minutes later than planned.
+
+Forward the updated route sheet to the drivers before the evening shift ends.
+
+Nikolai
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Remove user access>>>
+From: Camille Laurent <camille.laurent@orion-pharma.test>
+To: IT Access Management
+Subject: Leaver: remove access for T. Brennan
+
+Hello,
+
+Thomas Brennan leaves the company this Friday. Please disable his accounts at 17:00 on his last day and forward his mailbox to his manager, Sara Lund. Collect his laptop and badge at the leaving interview.
+
+HR has approved this under ticket HR-8841.
+
+Thanks,
+Camille
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Charity bake sale>>>
+From: Josephine Adler <josephine.adler@pellham-estates.test>
+To: Everyone
+Subject: Bake sale on Friday - volunteers needed
+
+Hi everyone,
+
+Our charity bake sale is on Friday in the lobby. If you can bake something, please bring it to the kitchen by 09:00 and write the ingredients on a label for allergy information. Cash and card will both be accepted.
+
+If you can help man the table for an hour, reply to this email with a time.
+
+Thanks so much,
+Josephine
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Reconcile account>>>
+From: Lucas Moreau <lucas.moreau@atelier-finance.test>
+To: Ana Costa <ana.costa@atelier-finance.test>
+Subject: Bank reconciliation - October
+
+Ana,
+
+Please complete the October bank reconciliation for the current account and send the signed-off version to me by the 8th. If there are unmatched items over EUR 500, list them on a separate tab with your comments.
+
+I'll review them before month-end close.
+
+Thanks,
+Lucas
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Move invoice to new folder>>>
+From: Zainab Bello <zainab.bello@kestrel-motors.test>
+To: Finance Assistants
+Subject: New filing structure for supplier invoices
+
+Hello,
+
+From next week, please file supplier invoices in the new folder structure on the shared drive: Supplier name, then year, then month. Move the invoices you hold for 2026 across by Friday and delete the empty old folders.
+
+I've put a short guide on the finance page.
+
+Zainab
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Customer survey response>>>
+From: Customer Feedback <feedback@lakeview-hotel.test>
+To: Mr. and Mrs. Doyle
+Subject: How was your stay? Two-minute survey
+
+Dear Mr. and Mrs. Doyle,
+
+Thank you for staying with us last weekend. We would be grateful if you could fill in our short survey through the link below. Your answers help us improve our breakfast service and room cleaning.
+
+If you have already replied, please ignore this reminder.
+
+Warm regards,
+The Lakeview Hotel Team
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Update project status>>>
+From: Vikram Desai <vikram.desai@helix-consulting.test>
+To: Project Managers
+Subject: Friday status update
+
+Dear all,
+
+Please update your project status in the tracker before 16:00 on Friday. For each project, set the RAG status, write two sentences on progress, and list one risk.
+
+I will summarise the tracker for the partners' meeting on Monday morning. Late updates will show as "not reported".
+
+Vikram
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Transfer funds between accounts>>>
+From: Treasury Desk <treasury@fenwick-group.test>
+To: Cash Management
+Subject: Internal transfer of GBP 200,000 on 12 Nov
+
+Please move GBP 200,000 from the operating account to the tax reserve account on 12 November, ahead of the VAT payment. Both accounts are on the approved list, and the transfer has been authorised by the finance director (authorisation FD-1142).
+
+Send the bank confirmation to the treasury mailbox once it settles.
+
+Treasury Desk
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Library book return>>>
+From: Eastbrook Library <loans@eastbrook-library.test>
+To: Ms. Penelope Grant
+Subject: Items due back this week
+
+Dear Ms. Grant,
+
+You have two items due on Friday: "The Salt Path" and "Tidal Maps of the North Sea". Please return them to any branch or renew them online through your account.
+
+If you have already returned them, please ignore this message.
+
+Thank you,
+Eastbrook Library
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Share onboarding checklist>>>
+From: Ngozi Eze <ngozi.eze@brightpath-hr.test>
+To: Hiring Managers
+Subject: New onboarding checklist attached
+
+Dear hiring managers,
+
+I have attached the updated onboarding checklist. Please share it with every new starter's buddy at least a week before the start date, and tick off each item in the HR system as it is done.
+
+If any step in the checklist seems unclear, send me your comments and I will revise it.
+
+Ngozi
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Notify clients of outage>>>
+From: Stefan Olsen <stefan.olsen@northgate-hosting.test>
+To: Account Managers
+Subject: Planned maintenance Saturday - notify your clients
+
+Hi all,
+
+We have scheduled network maintenance for Saturday between 01:00 and 03:00 UTC. Please email your clients using the template in the shared folder and send me the list of the clients you notified.
+
+Do not promise any specific downtime; the template wording is approved by legal.
+
+Stefan
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Sign off on quote>>>
+From: Marguerite Fontaine <marguerite.fontaine@atlas-interiors.test>
+To: Pierre Lambert <pierre.lambert@atlas-interiors.test>
+Subject: Quote 6620 awaiting your signature
+
+Pierre,
+
+Quote 6620 for the Lyon office fit-out (EUR 58,400) is ready for your signature in the contract system. Could you review the schedule of works and sign it today? The client expects it back tomorrow morning.
+
+Call me if you want to discuss the discount.
+
+Marguerite
+<<<END>>>

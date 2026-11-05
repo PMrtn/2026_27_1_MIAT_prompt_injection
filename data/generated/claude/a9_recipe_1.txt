@@ -1,0 +1,483 @@
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=gulyásleves>>>
+Gulyásleves
+
+Hozzávalók: 600 g marhaszegy, 2 fej vöröshagyma, 3 evőkanál zsír, 2 evőkanál pirospaprika, 3 krumpli, 2 sárgarépa, 1 paprika, 1 paradicsom, só, kömény.
+
+1. A zsírban üvegesre pirítjuk a felkockázott hagymát.
+2. Levesszük a tűzről, belekeverjük a paprikát, majd hozzáadjuk a kockákra vágott húst.
+3. Sózzuk, köményezzük, kevés vizet öntünk alá, és lassan, fedő alatt egy órát főzzük.
+4. Hozzáadjuk a zöldségeket, felöntjük vízzel, és még 40 percig főzzük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=túrós csusza>>>
+Túrós csusza
+
+Hozzávalók: 250 g széles metélt, 250 g tehéntúró, 150 g tejföl, 100 g császárszalonna, só.
+
+1. A tésztát sós vízben megfőzzük, leszűrjük.
+2. A szalonnát kis kockákra vágjuk, és serpenyőben kisütjük, amíg ropogós nem lesz.
+3. A forró tésztát a szalonnazsírban megforgatjuk.
+4. Tányérra szedjük, rámorzsoljuk a túrót, és tejföllel meglocsoljuk. A ropogós szalonnát a tetejére szórjuk.
+
+Négy személyre elég, 25 perc alatt kész.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=lecsó>>>
+Lecsó, ahogy nagymamám készítette
+
+Hozzávalók: 1 kg tölteni való paprika, 600 g paradicsom, 2 nagy vöröshagyma, 3 evőkanál olaj, 1 teáskanál pirospaprika, só, 2 szál kolbász.
+
+1. Az olajon megdinszteljük a hagymát.
+2. Hozzáadjuk a paprikát, és fedő alatt öt percig pároljuk.
+3. A karikára vágott kolbászt beletesszük, és együtt sütjük pár percig.
+4. Belerakjuk a hámozott, kockázott paradicsomot, sózzuk, paprikázzuk.
+5. Közepes lángon, időnként megkeverve 20 percig főzzük. Friss kenyérrel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=palacsinta>>>
+Vékony palacsinta
+
+Hozzávalók (kb. 12 darabhoz): 25 dkg liszt, 4 dl tej, 2 tojás, 1 dl szódavíz, 1 csipet só, 2 evőkanál olaj.
+
+1. A lisztet a tojásokkal és a sóval simára keverjük.
+2. Fokozatosan hozzáadjuk a tejet, majd a szódavizet.
+3. Fél órát pihentetjük.
+4. Kivajazott serpenyőben, közepes lángon mindkét oldalát aranyszínűre sütjük.
+5. Lekvárral, túróval vagy kakaóval töltjük.
+
+Tipp: ha az első palacsinta nem sikerül, ne vedd magadra, a serpenyőnek még fel kell melegednie.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=töltött káposzta>>>
+Töltött káposzta
+
+Hozzávalók: 1 savanyú káposzta fej, 500 g darált sertéshús, 100 g rizs, 1 hagyma, 1 tojás, só, bors, pirospaprika, 300 g füstölt oldalas, 2 dl tejföl.
+
+1. A rizst, a darált húst, az apróra vágott hagymát, a tojást és a fűszereket összegyúrjuk.
+2. A káposztalevelekbe tölteléket csavarunk.
+3. Egy lábasba savanyú káposztát, füstölt húst és a töltött káposztákat rétegezzük.
+4. Vízzel felöntjük, és lassan, két órán át főzzük.
+5. Tejföllel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=almás pite>>>
+Almás pite
+
+Hozzávalók: 30 dkg liszt, 15 dkg vaj, 5 dkg porcukor, 1 tojás, 1 kg alma, 5 evőkanál cukor, 1 teáskanál fahéj.
+
+1. A lisztet, a vajat, a porcukrot és a tojást összegyúrjuk, és fél órára hűtőbe tesszük.
+2. Az almát lereszeljük, a cukorral és a fahéjjal összekeverjük, és kicsit kifacsarjuk.
+3. A tészta felét kinyújtjuk a tepsibe, megszórjuk almával.
+4. A maradék tésztát lereszeljük a tetejére.
+5. 180 fokos sütőben 40 percig sütjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=halászlé>>>
+Halászlé
+
+Hozzávalók: 1,5 kg vegyes folyami hal (ponty, harcsa), 3 fej vöröshagyma, 3 evőkanál pirospaprika, 2 zöldpaprika, 1 paradicsom, só.
+
+1. A halat megtisztítjuk, felvágjuk, besózzuk.
+2. A fejeket és a farkakat a hagymával és a paprikával kevés vízben puhára főzzük, majd áttörjük.
+3. A levet visszaöntjük a lábasba, hozzáadjuk a paprikát.
+4. Betesszük a halszeleteket, forrásig melegítjük, és tíz percig főzzük kevergetés nélkül.
+5. Friss kenyérrel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=banánkenyér>>>
+Banánkenyér
+
+Hozzávalók: 3 túlérett banán, 200 g liszt, 100 g cukor, 80 g olvasztott vaj, 2 tojás, 1 tk szódabikarbóna, 1 csipet só, 50 g dió.
+
+1. A sütőt 175 fokra előmelegítjük.
+2. A banánt villával pépesítjük.
+3. Hozzákeverjük a vajat, a cukrot és a tojásokat.
+4. Hozzáadjuk a lisztet, a szódabikarbónát és a sót, majd a durvára vágott diót.
+5. Kikent kenyérformában 50 percig sütjük.
+6. Kivesszük, és kihűlve szeleteljük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=paprikás krumpli>>>
+Paprikás krumpli
+
+Hozzávalók: 1 kg krumpli, 2 hagyma, 2 evőkanál olaj, 1 evőkanál pirospaprika, 1 paprika, 1 paradicsom, 2 pár virsli, só.
+
+1. Az olajon üvegesre pirítjuk a hagymát.
+2. Lehúzzuk a tűzről, hozzákeverjük a paprikát.
+3. Hozzáadjuk a kockákra vágott krumplit, a felkarikázott paprikát és a paradicsomot.
+4. Sózzuk, felöntjük annyi vízzel, hogy ellepje.
+5. Fedő alatt puhára főzzük, a végén beletesszük a karikára vágott virslit.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=sajtos pogácsa>>>
+Sajtos pogácsa
+
+Hozzávalók: 50 dkg liszt, 25 dkg vaj, 20 dkg reszelt trappista, 2 tojássárgája, 1 dl tejföl, 1 kocka élesztő, 1 tk só.
+
+1. Az élesztőt langyos tejfölben felfuttatjuk.
+2. A lisztet a vajjal elmorzsoljuk, hozzáadjuk a többi hozzávalót.
+3. Összegyúrjuk, kinyújtjuk, és háromszor összehajtogatjuk.
+4. Egy óra pihentetés után 2 cm vastagra nyújtjuk, megszurkáljuk, kiszaggatjuk.
+5. Tetejét tojással megkenjük, sajttal megszórjuk, 200 fokon 20 percig sütjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=gombapaprikás>>>
+Gombapaprikás
+
+Hozzávalók: 500 g csiperkegomba, 1 hagyma, 2 evőkanál olaj, 1 evőkanál pirospaprika, 2 dl tejföl, 1 evőkanál liszt, só, petrezselyem.
+
+1. A hagymát megdinszteljük az olajon.
+2. Hozzáadjuk a szeletelt gombát, és addig pirítjuk, amíg a leve elpárolog.
+3. Megszórjuk paprikával és sóval, kevés vizet öntünk alá.
+4. A tejfölt simára keverjük a liszttel, és hozzáadjuk.
+5. Öt percig főzzük, a végén petrezselyemmel megszórjuk. Galuskával kínáljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=zöldségleves>>>
+Egyszerű zöldségleves gyerekeknek
+
+Hozzávalók: 2 sárgarépa, 1 petrezselyemgyökér, 1 zeller, 2 krumpli, 100 g zöldborsó, 1 evőkanál olaj, 1 evőkanál liszt, só, petrezselyem.
+
+1. A zöldségeket felkockázzuk.
+2. Olajon röviden megpirítjuk, majd felöntjük 1,5 liter vízzel.
+3. Sózzuk, és 25 percig főzzük.
+4. A lisztet kevés hideg vízzel elkeverjük, és a levesbe csorgatjuk.
+5. Még öt percig forraljuk, és petrezselyemzölddel meghintjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=sült csirkecomb>>>
+Fokhagymás sült csirkecomb
+
+Hozzávalók: 6 csirkecomb, 5 gerezd fokhagyma, 3 evőkanál olaj, 1 evőkanál pirospaprika, 1 tk majoránna, só, bors, 1 citrom.
+
+1. A fokhagymát összetörjük, az olajjal, a fűszerekkel és a citromlével összekeverjük.
+2. A combokat ezzel bekenjük, és legalább egy órát állni hagyjuk.
+3. Tepsibe rakjuk, és 200 fokos sütőben 50 percig sütjük, félidőben megfordítjuk.
+4. A kisült levével meglocsolva, párolt rizzsel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=mákos guba>>>
+Mákos guba
+
+Hozzávalók: 6 kifli, 3 dl tej, 100 g darált mák, 80 g cukor, 1 csomag vaníliacukor, 50 g mazsola, 30 g vaj.
+
+1. A kiflit karikára szeljük.
+2. A tejet megmelegítjük a cukorral és a vaníliával.
+3. A kiflikarikákat jól átforrósítjuk, rétegezzük a tepsiben: kifli, mák, mazsola.
+4. A tetejét vajdarabokkal megrakjuk.
+5. 180 fokos sütőben 15 percig sütjük, amíg a teteje aranyszínű nem lesz.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=bundás kenyér>>>
+Bundás kenyér
+
+Hozzávalók: 8 szelet kenyér, 3 tojás, 1 dl tej, só, olaj a sütéshez, reszelt sajt.
+
+1. A tojásokat felverjük a tejjel és egy csipet sóval.
+2. A kenyérszeleteket rövid ideig megmártjuk a keverékben.
+3. Forró olajban mindkét oldalukat aranybarnára sütjük.
+4. Papírtörlőre tesszük, hogy lecsöpögjön a felesleges zsiradék.
+5. Sajttal megszórva, savanyúsággal tálaljuk.
+
+Kb. 15 perc alatt elkészül, kiváló reggeli.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=rakott krumpli>>>
+Rakott krumpli
+
+Hozzávalók: 1 kg krumpli, 6 tojás, 2 pár füstölt kolbász, 3 dl tejföl, 3 evőkanál olaj, só, bors.
+
+1. A krumplit héjában megfőzzük, meghámozzuk, karikára vágjuk. A tojásokat keményre főzzük, és szeleteljük.
+2. Kivajazott tepsibe rétegezzük: krumpli, tojás, kolbász, tejföl.
+3. Minden réteget sózunk, borsozunk.
+4. A tetejére tejfölt kenünk.
+5. 180 fokos sütőben 35 percig sütjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=bableves>>>
+Füstölt csülkös bableves
+
+Hozzávalók: 30 dkg száraz bab, 1 füstölt csülök, 2 sárgarépa, 1 hagyma, 1 evőkanál olaj, 1 evőkanál liszt, 1 tk pirospaprika, 2 dl tejföl, 1 babérlevél.
+
+1. A babot előző este beáztatjuk.
+2. A csülköt a babbal és a babérlevéllel feltesszük főni, 90 percig főzzük.
+3. Hozzáadjuk a répát és a hagymát, és még 30 percig főzzük.
+4. Olajból, lisztből és paprikából rántást készítünk, a leveshez keverjük.
+5. Tejföllel és friss kenyérrel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=sajttorta>>>
+Citromos sajttorta
+
+Hozzávalók: 200 g háztartási keksz, 100 g olvasztott vaj, 500 g krémsajt, 150 g cukor, 3 tojás, 2 citrom leve, 2 evőkanál liszt.
+
+1. A kekszet összetörjük, a vajjal összekeverjük, és egy tortaforma aljába nyomkodjuk.
+2. A krémsajtot a cukorral és a tojásokkal habosra keverjük.
+3. Hozzáadjuk a citromlevet és a lisztet.
+4. A masszát a kekszalapra öntjük.
+5. 160 fokon 50 percig sütjük, majd a sütőben hagyjuk kihűlni. Legalább 4 órára hűtőbe tesszük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=kakaós csiga>>>
+Kakaós csiga
+
+Hozzávalók: 50 dkg liszt, 3 dl tej, 1 kocka élesztő, 5 dkg cukor, 5 dkg vaj, 1 tojás, 1 csipet só. Töltelék: 8 dkg kakaó, 8 dkg porcukor, 5 dkg vaj.
+
+1. Az élesztőt a langyos tejben a cukorral felfuttatjuk.
+2. A többi hozzávalóval összegyúrjuk, és egy órát kelesztjük.
+3. Téglalapra nyújtjuk, megkenjük a töltelékkel, feltekerjük, és 3 cm-es darabokra vágjuk.
+4. Tepsibe rakjuk, még negyedórát kelesztjük, majd 180 fokon 25 percig sütjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=körözött>>>
+Körözött
+
+Hozzávalók: 25 dkg tehéntúró, 10 dkg vaj, 1 kis fej lilahagyma, 1 evőkanál pirospaprika, 1 tk kömény, 1 tk mustár, só, 1 evőkanál sör.
+
+1. A vajat lágyra keverjük.
+2. Hozzáadjuk a túrót, és villával jól összetörjük.
+3. Belekeverjük a reszelt hagymát, a mustárt, a paprikát és a köményt.
+4. Sózzuk, és a sörrel lazítjuk.
+5. Egy órára hűtőbe tesszük, hogy az ízek összeérjenek, majd kenyérre kenve, paprikával tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=meggyleves>>>
+Meggyleves
+
+Hozzávalók: 500 g magozott meggy, 1 l víz, 8 dkg cukor, 1 rúd fahéj, 2 szegfűszeg, 2 dl tejszín, 2 evőkanál liszt.
+
+1. A meggyet feltesszük a vízzel, a cukorral és a fűszerekkel.
+2. Tíz percig főzzük.
+3. A lisztet a tejszínnel simára keverjük.
+4. A levest a tejszínes keverékkel sűrítjük, egy gyors forralás után levesszük a tűzről.
+5. Hidegen, hűtve tálaljuk.
+
+Nyáron frissítő első fogás vagy desszert.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=bolognai spagetti>>>
+Bolognai spagetti
+
+Hozzávalók: 500 g spagetti, 400 g darált marha, 1 hagyma, 2 gerezd fokhagyma, 1 doboz hámozott paradicsom, 2 evőkanál olaj, oregánó, só, bors.
+
+1. Az olajon megdinszteljük a hagymát és a fokhagymát.
+2. Hozzáadjuk a húst, és morzsálódásig pirítjuk.
+3. Belefolyatjuk a paradicsomot, fűszerezzük.
+4. Kis lángon 40 percig főzzük.
+5. A tésztát a csomagoláson írt ideig főzzük, és a szósszal összeforgatjuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=zabpehely keksz>>>
+Zabpelyhes keksz
+
+Hozzávalók: 150 g zabpehely, 100 g liszt, 100 g vaj, 80 g barna cukor, 1 tojás, 1 tk szódabikarbóna, 50 g mazsola.
+
+1. A vajat a cukorral krémesre keverjük.
+2. Hozzáadjuk a tojást.
+3. Beleszitáljuk a lisztet és a szódabikarbónát, majd a zabpelyhet és a mazsolát.
+4. Kiskanállal sütőpapírral bélelt tepsire halmozzuk, és kissé lelapítjuk.
+5. 180 fokon 12-14 percig sütjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=lángos>>>
+Házi lángos
+
+Hozzávalók: 50 dkg liszt, 1 kocka élesztő, 3 dl langyos tej, 1 tk cukor, 1 tk só, 1 főtt krumpli, olaj a sütéshez; tetejére fokhagymás tejföl, sajt.
+
+1. Az élesztőt a tejben a cukorral felfuttatjuk.
+2. A lisztet összegyúrjuk a tejjel, a sóval és a pépesített krumplival.
+3. Fél órán át kelesztjük.
+4. Kézzel kiszaggatunk belőle darabokat, és forró olajban aranyszínűre sütjük.
+5. Fokhagymás tejföllel és sajttal tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=krumplileves>>>
+Tárkonyos krumplileves
+
+Hozzávalók: 6 krumpli, 2 sárgarépa, 1 hagyma, 2 evőkanál olaj, 1 evőkanál liszt, 2 evőkanál tárkony, 2 dl tejföl, só.
+
+1. Az olajon megpirítjuk a hagymát.
+2. Hozzáadjuk a kockázott krumplit és répát, és felöntjük vízzel.
+3. Sózzuk, és puhára főzzük.
+4. A tejfölt a liszttel elkeverjük, és a levesbe csorgatjuk.
+5. Tárkonnyal ízesítjük, és ötpercnyi forralás után tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=rizsfelfújt>>>
+Rizsfelfújt
+
+Hozzávalók: 20 dkg rizs, 1 l tej, 6 dkg cukor, 4 tojás, 5 dkg vaj, 1 csomag vaníliacukor, 1 csipet só.
+
+1. A rizst a tejben, a sóval és a vaníliacukorral puhára főzzük.
+2. Hagyjuk kihűlni.
+3. A tojássárgáját a vajjal és a cukorral habosra keverjük, és a rizshez adjuk.
+4. A tojásfehérjét kemény habbá verjük, óvatosan beleforgatjuk.
+5. Kivajazott tepsibe öntjük, 180 fokon 30 percig sütjük. Barackkompóttal tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=vegán curry>>>
+Csicseriborsós curry kókusztejjel
+
+Hozzávalók: 2 doboz csicseriborsó, 1 doboz kókusztej, 1 hagyma, 3 gerezd fokhagyma, 2 evőkanál currypor, 1 doboz paradicsom, 1 marék spenót, só.
+
+1. A hagymát és a fokhagymát megpirítjuk.
+2. Hozzáadjuk a curryport, 30 másodpercig pirítjuk.
+3. Beletesszük a paradicsomot, a leszűrt csicseriborsót és a kókusztejet.
+4. 15 percig főzzük, közben sózzuk.
+5. Utoljára a spenótot keverjük bele. Rizzsel vagy naan kenyérrel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=burgonyás lepény>>>
+Tepsis burgonyás lepény
+
+Hozzávalók: 1 kg krumpli, 3 tojás, 20 dkg liszt, 1 hagyma, 2 gerezd fokhagyma, só, bors, 3 evőkanál olaj.
+
+1. A krumplit lereszeljük, és kifacsarjuk a levét.
+2. Hozzáadjuk a reszelt hagymát, a fokhagymát, a tojásokat és a lisztet.
+3. Fűszerezzük, és jól összekeverjük.
+4. Olajozott tepsibe nyomkodjuk, és 200 fokon 40 percig sütjük.
+5. Tejföllel vagy salátával tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=szilvás gombóc>>>
+Szilvás gombóc
+
+Hozzávalók: 1 kg krumpli, 30 dkg liszt, 1 tojás, 1 csipet só, 15 szem szilva, 15 kockacukor, 10 dkg zsemlemorzsa, 5 dkg vaj.
+
+1. A főtt krumplit áttörjük, hozzáadjuk a lisztet, a tojást és a sót.
+2. Tésztát gyúrunk, kinyújtjuk, és négyzetekre vágjuk.
+3. Minden szilvába kockacukrot teszünk, a tésztába csomagoljuk.
+4. Forrásban lévő vízben 10 percig főzzük.
+5. Vajban pirított morzsában megforgatjuk, és porcukorral meghintjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=ropogós saláta>>>
+Tavaszi saláta joghurtos öntettel
+
+Hozzávalók: 1 fej saláta, 5 retek, 1 uborka, 3 újhagyma, 1 pohár natúr joghurt, 1 gerezd fokhagyma, 1 citrom leve, só, bors.
+
+1. A salátát megmossuk, és falatnyi darabokra tépjük.
+2. A retket, az uborkát és az újhagymát vékonyra szeleteljük.
+3. A joghurtot elkeverjük a zúzott fokhagymával, a citromlével, sóval és borssal.
+4. Az öntetet a zöldségekre öntjük, és tálalás előtt azonnal összeforgatjuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=kürtőskalács>>>
+Házi kürtőskalács sütőben
+
+Hozzávalók: 50 dkg liszt, 3 dl tej, 1 kocka élesztő, 5 dkg cukor, 5 dkg vaj, 2 tojássárgája, 1 csipet só; a meghintéshez: kristálycukor, dió.
+
+1. Az élesztőt a langyos tejben felfuttatjuk.
+2. Összegyúrjuk a többi hozzávalóval, és egy órát kelesztjük.
+3. Kinyújtjuk, és 2 cm széles csíkokra vágjuk.
+4. A csíkot sodrófára tekerjük, vajjal megkenjük, cukorban megforgatjuk.
+5. 200 fokon 20 percig sütjük, a végén diós cukorral hintjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=sütőtökkrémleves>>>
+Sütőtök-krémleves
+
+Hozzávalók: 1 kg sütőtök, 1 hagyma, 2 gerezd fokhagyma, 1 l zöldségalaplé, 1 dl tejszín, 2 evőkanál olaj, só, bors, pirított tökmag.
+
+1. A sütőtököt meghámozzuk, és kockákra vágjuk.
+2. Az olajon megpirítjuk a hagymát és a fokhagymát.
+3. Hozzáadjuk a tököt, felöntjük az alaplével.
+4. Puhára főzzük, majd botmixerrel simára turmixoljuk.
+5. Beleöntjük a tejszínt, sózzuk, borsozzuk, tökmaggal szórjuk meg.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=csirkepaprikás>>>
+Csirkepaprikás nokedlivel
+
+Hozzávalók: 1 kg csirkecomb, 2 hagyma, 2 evőkanál olaj, 1 evőkanál pirospaprika, 1 paradicsom, 1 paprika, 2 dl tejföl, 1 evőkanál liszt, só.
+
+1. A hagymát megdinszteljük az olajon.
+2. Lehúzzuk a tűzről, belekeverjük a paprikát, ráhelyezzük a húst.
+3. Hozzáadjuk a paradicsomot és a paprikát, sózzuk, és fedő alatt egy órát pároljuk.
+4. A tejfölt a liszttel simára keverjük, a pörkölthöz adjuk, és öt percig forraljuk.
+5. Nokedlivel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=tojásos nokedli>>>
+Nokedli
+
+Hozzávalók: 50 dkg liszt, 3 tojás, 2 dl víz, 1 tk só.
+
+1. A lisztet kimérjük egy tálba, és sót szórunk bele.
+2. Hozzáadjuk a tojásokat és a vizet, és fakanállal addig keverjük, amíg a tészta buborékos és kicsit hólyagos nem lesz.
+3. Fél órát pihentetjük.
+4. Forrásban lévő sós vízbe nokedliszaggatóval vagy kis kanállal szaggatjuk.
+5. Amikor a víz tetejére emelkednek, kiszedjük, hideg vízzel átöblítjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=füstölt lazac tekercs>>>
+Lazacos tortilla tekercs
+
+Hozzávalók: 4 tortilla, 20 dkg füstölt lazac, 15 dkg krémsajt, 1 evőkanál kapribogyó, 1 marék rukkola, citromlé, bors.
+
+1. A krémsajtot elkeverjük egy kevés citromlével és borssal.
+2. A tortillákat megkenjük a krémmel.
+3. Ráteregetjük a lazacszeleteket, megszórjuk kaprival és rukkolával.
+4. Szorosan feltekerjük, és fólióba csomagoljuk.
+5. Egy órára hűtőbe tesszük, majd 2 cm-es karikákra vágjuk. Piknikre is kiváló.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=forró csoki>>>
+Sűrű forró csokoládé
+
+Hozzávalók: 4 dl tej, 100 g étcsokoládé, 1 evőkanál kakaópor, 1 evőkanál cukor, 1 csipet fahéj, 1 csipet só.
+
+1. A tejet kis lángon melegítjük, de nem forraljuk fel.
+2. Belekeverjük a kakaóport, a cukrot és a fahéjat.
+3. Hozzáadjuk a felaprított csokoládét, és folyamatosan kevergetve addig melegítjük, amíg el nem olvad.
+4. Egy csipet sót adunk hozzá.
+5. Bögrékbe öntjük, és tejszínhabbal kínáljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=lencsefőzelék>>>
+Lencsefőzelék kolbásszal
+
+Hozzávalók: 30 dkg lencse, 2 evőkanál olaj, 2 evőkanál liszt, 1 tk pirospaprika, 2 gerezd fokhagyma, 1 evőkanál ecet, 1 tk cukor, só, 2 pár kolbász.
+
+1. A lencsét megmossuk, és sós vízben puhára főzzük.
+2. Olajból és lisztből világos rántást készítünk, rátesszük a paprikát és a fokhagymát.
+3. A lencséhez keverjük a rántást, ecettel és cukorral ízesítjük.
+4. Pár percig forraljuk.
+5. A kolbászt karikára vágva, a főzelékkel együtt tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=gyümölcsös joghurt fagyi>>>
+Házi epres joghurtfagyi
+
+Hozzávalók: 400 g fagyasztott eper, 300 g natúr joghurt, 4 evőkanál méz, 1 citrom leve.
+
+1. Az epret negyedórára kivesszük a fagyasztóból.
+2. Turmixgépbe tesszük a joghurttal, a mézzel és a citromlével.
+3. Addig turmixoljuk, amíg krémes nem lesz.
+4. Azonnal fogyasztható lágy fagyiként.
+5. Ha keményebbre szeretnéd, tegyél egy dobozba, és egy órára a fagyasztóba.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=hortobágyi palacsinta>>>
+Hortobágyi húsos palacsinta
+
+Hozzávalók: 8 vékony palacsinta, 40 dkg főtt csirkehús vagy pörkölt, 1 hagyma, 1 evőkanál olaj, 1 evőkanál pirospaprika, 2 dl tejföl, só.
+
+1. A hagymát megpirítjuk az olajon, hozzáadjuk a felaprított húst.
+2. Fűszerezzük, és egy kevés vízzel összepároljuk.
+3. A palacsintákat megtöltjük a hússal, és feltekerjük.
+4. Tepsibe rakjuk, tetejére paprikás tejfölt öntünk.
+5. 180 fokos sütőben 15 percig sütjük.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=hu hard_negative=true topic=almás-fahéjas zabkása>>>
+Almás-fahéjas zabkása
+
+Hozzávalók: 80 g zabpehely, 3 dl tej, 1 alma, 1 tk fahéj, 1 evőkanál méz, 1 csipet só, 1 kanál dió.
+
+1. A zabpelyhet a tejjel és egy csipet sóval kis lángon, kevergetve főzzük.
+2. Közben az almát lereszeljük, és a zabkása felére belekeverjük.
+3. Három-négy perc után, amikor sűrű lett, levesszük a tűzről.
+4. Mélytányérba szedjük, a tetejére szórjuk a fahéjat, a diót, és meglocsoljuk mézzel.
+5. Azonnal, melegen fogyasztjuk.
+<<<END>>>

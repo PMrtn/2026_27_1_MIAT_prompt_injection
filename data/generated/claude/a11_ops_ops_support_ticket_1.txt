@@ -1,0 +1,139 @@
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=missing settlement payout>>>
+Subject: Settlement for 29 Oct not received
+
+Hi Valdora Pay support, I run a small bakery chain (merchant ID VP-20481). Our daily settlement for 29 October should have landed on 31 October, but the bank account shows nothing. The dashboard says "Settled" with batch ref STL-88213. Could you confirm the payout was actually released and give me the bank trace number? Our accountant is closing the month on Friday and we need this reconciled. Thanks, Imre Takacs
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=webhook delivery failures>>>
+Ticket #QF-55102 - priority: high
+
+Since about 09:40 UTC today our endpoint https://hooks.greenleaf-shop.test/quillfin has stopped receiving payment.succeeded events. Our server logs show no incoming requests at all, yet your dashboard lists the deliveries as "pending retry". We changed nothing on our side except renewing the TLS certificate yesterday. Is it possible your side rejects the new chain? Please advise on which intermediate you expect.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=duplicate card charge>>>
+Dear Brightmoor team,
+
+A customer of ours, Ms. Okonkwo, was charged twice for order 77410 (two authorizations of 84.90 EUR, a few seconds apart). We use your hosted checkout, and our own logs show only one order creation. She is understandably upset. Please check whether one of the authorizations can be voided before it captures, or tell us how to refund the second. Transaction IDs: bm_tx_9f31a and bm_tx_9f31c.
+
+Regards, Dalia, Customer Care, Hollis Home Goods
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=API rate limit 429>>>
+We are getting HTTP 429 from the /v2/payment-intents endpoint during our flash sale, roughly 1 in 6 requests. Our contract says 300 requests per second and we are nowhere near that by our own metrics (peaking around 120 rps). Is the limit applied per API key or per IP? We route all traffic through a single NAT gateway, so maybe that is the cause. Could you raise the ceiling for the next 48 hours? Merchant: Korvex Outfitters. Contact: platform@korvex-outfitters.test
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=chargeback evidence upload>>>
+Hello, I'm trying to submit evidence for chargeback CB-2026-04417 but the upload form returns "File rejected" for every PDF I try, even a tiny one-page invoice at 40 KB. The deadline shown is 8 November. Is there a size or format restriction that is not documented? I also tried PNG. Browser is Firefox 131 on Linux, if that matters. Please let me know if I can email the documents instead.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=3DS authentication failing>>>
+Subject: 3-D Secure challenge never appears on mobile
+
+Our Lumenpay integration works on desktop, but on iOS Safari customers pay by card and the 3DS iframe stays blank, after which the payment times out. Android Chrome is fine. We use the redirect flow in test mode successfully. Production started failing after our app update on Monday. We have not changed the SDK version (4.12.2). Attached is a HAR file from one failed attempt. Merchant ID LP-7731-B. Any hint is welcome.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=payout bank details change>>>
+Hi, we have switched banks and need to update the payout account for Tessaro Furniture Ltd. The new IBAN is in the signed form we uploaded to the portal this morning (document name "bank-change-signed.pdf"). Please confirm what verification you need, and whether the Friday payout will still go to the old account. We would rather delay that payout by a day than have it bounce. Thanks, Nina Haldorsen, finance.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=declined transactions spike>>>
+Ticket opened by Halden Financial merchant desk.
+
+Over the last two hours our decline rate jumped from the usual 4% to about 19%. Most declines carry reason code 05 (do not honor) and they affect several different issuers, so we doubt it is customer behaviour. We did not change checkout, pricing or fraud rules. Can you check whether there is an issuer-side or acquirer routing problem? Sample transaction IDs are attached in the CSV, 41 rows.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=refund stuck pending>>>
+Three refunds issued on 2 November are still showing "pending" in the Pinecrest portal after five business days. Amounts: 19.99, 249.00 and 12.50 GBP. The customers keep emailing us asking where their money is, and I have run out of polite ways to explain. Is there a known delay with refunds to debit cards? Refund IDs rf_30b1, rf_30b4 and rf_30c9. Please escalate if it is not routine.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=sandbox API keys>>>
+Good morning,
+
+I am a developer at a new merchant, Oakridge Garden Supplies, and our sandbox secret key stopped working after I regenerated it. The old key was revoked, as expected, but the new one returns 401 "invalid credentials" even though I copied it from the dashboard. Could there be a propagation delay? It has been about 30 minutes. I did not paste the key here, only its last four characters: 9Qx2.
+
+Thanks, Pavel
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=PCI questionnaire help>>>
+We were told by our account manager that we must complete the SAQ A questionnaire by the end of the month. We only use your hosted payment page and never touch card data. Is there a pre-filled template, or a shortcut for merchants like us? Also, does the quarterly vulnerability scan apply to us at all? Our site is a static brochure with a link to checkout. Zephyra Travel Co., contact Ines.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=currency conversion mismatch>>>
+Customers paying in CHF see one amount at checkout, but the settlement report shows a different EUR value than we calculated with your published rate. Example: order 51822, 120.00 CHF at checkout, settled as 123.74 EUR. By our math with the daily rate it should be about 124.60. Is there a conversion margin we missed in the contract, or is this a bug? Please send the rate used on 3 November. Marlowe & Finch Books.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=terminal offline POS>>>
+Our card terminals at the Ostrava store (3 units, serial prefix OV-T8) show "Network unavailable" since opening time. The store's Wi-Fi and wired internet are working, we can browse fine. We rebooted twice. Other stores are unaffected. Might be a firewall or DNS issue specific to that location, or an issue at your end for that terminal group? Customers are paying cash only, so we'd appreciate quick help.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=invoice fee question>>>
+Hello Calder Pay billing,
+
+On the October invoice (INV-2026-10-3391) there is a line "Scheme fee adjustment" of 412.18 EUR that I cannot find in our pricing schedule. Previous months did not have it. Could you explain what triggered it, and whether it is a one-off? I would like a breakdown by card scheme if possible, so I can forward it to our CFO. No rush, but before the 15th would be ideal.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=tokenized card reuse>>>
+We store card tokens for subscriptions (Nimbus Ledger Software). Since last week some token-based renewals fail with error "token_not_found", although the same tokens worked in September. The customers have not deleted their cards as far as we know. Did you rotate or expire tokens in any region? About 140 subscriptions are affected, all created before 1 July. List attached. We need to know before the next billing run at 02:00 UTC.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=Apple Pay setup>>>
+Can you help us enable Apple Pay on our domain shop.fenwick-tea.test? We uploaded the domain verification file to /.well-known/ as in your guide, but the dashboard still shows "Verification failed". The file returns HTTP 200 with content-type text/plain when I curl it. We sit behind a CDN, which might cache or redirect it. Please tell us the exact URL you fetch and from which user agent.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=reporting export timeout>>>
+The transaction export from the Auralis merchant portal times out for any date range longer than 7 days. We need the whole of Q3 (about 380k transactions) for our auditors. Support previously suggested the API, but I'm not a developer. Is there a way for you to generate the CSV on your side and send a secure download link? Happy to split into months if that helps.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=payment link expired>>>
+Hi. We send payment links to clients by email, and several said the link "has expired" within minutes of receiving it. The default expiry in our settings is 72 hours. Example link ID pl_7c2e91, created yesterday 15:12. Did the expiry setting get reset by the portal update? We lost two invoices' worth of payments today because of this. Tidewater Marine Services, accounts team.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=account reserve release>>>
+Subject: Rolling reserve release date
+
+Our contract with Redfern Payments states a 10% rolling reserve held for 90 days. The first reserve tranche (June) should have been released on 4 October, but the reserve balance in the portal has not changed. Could you confirm the release schedule and whether there is something pending on our side, such as a document? We are planning inventory purchases that depend on that cash. Thank you, Solvane Cosmetics, finance director.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=SDK upgrade error>>>
+After upgrading the Kestrel Pay Android SDK from 3.8 to 3.11 our build fails with "Duplicate class com.kestrel.core.Crypto found in modules". We include another vendor's library that seems to bundle the same package. Is there an artifact variant without the embedded crypto module, or an official exclude rule? Gradle 8.5, AGP 8.3. We would prefer not to pin back to 3.8 because of the card-scheme update.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=intermittent timeouts API>>>
+Ironbridge Logistics here. Between 14:00 and 14:25 UTC we observed roughly 8% of calls to POST /charges timing out at 30 seconds. Retries with the same idempotency key succeeded, but we are unsure whether any customer was charged twice before we retried. Could you confirm that idempotency is honored across a timeout, and give us the list of charges created in that window under our account? Request IDs are in the attached log.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=remittance payout delay>>>
+Hello! Our payouts to recipients in the Philippines took 4 days this week instead of the usual 1-2. Mosaic Remit's customers are complaining and our own support is swamped. Is a local bank holiday or a corridor partner issue to blame? Please let us know the expected timing for the 12 payouts still shown as "in transit" (batch PO-4471) and whether we should tell customers to wait.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=user access request>>>
+Hi support, our employee Yusuf Demir left the company on Friday and still has admin access to our Larkspur Florals merchant portal. I tried removing him but the "Remove user" button is greyed out, probably because he is the original account owner. Can you transfer ownership to me (Carla Mendes, carla@larkspur-florals.test) after verifying my identity? Please tell me what documents you need.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=fraud rule false positives>>>
+Your risk engine is blocking legitimate repeat customers on our site since the weekend. We see "risk_score 91" on orders from customers with years of history, some from the same device and address as before. Quantara Electronics normally sees blocks on less than 0.5% of orders; this week it is over 6%. Can someone review whether a model or rule update was deployed? We can supply order numbers for review.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=VAT on fees>>>
+Quick question for Wexford Learning Ltd: should the processing fees on the monthly statement include VAT? Our previous provider invoiced VAT separately, and I do not see a VAT line on yours. If fees are VAT-exempt, could you please add a short statement about this to the invoice, since our auditors will ask? Also, which entity name and VAT number should appear on our side? Thank you.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=settlement report format>>>
+We would like the daily settlement report in CAMT.053 instead of CSV so that our ERP can import it automatically. Does Yarrow Pay offer this, and what is the process to switch? Also, can the report be delivered via SFTP instead of email? Our IT team can provide a public key. We process roughly 2,500 transactions per day, mostly domestic cards. No urgency, aiming for the new quarter.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=checkout page slow>>>
+The hosted checkout page for Cobalt Harbor Boats loads in 8-10 seconds for customers in Australia since last Thursday, versus about 1.5 seconds before. Test from Sydney with curl shows the delay is in the first byte from checkout.cobaltharbor-pay.test. Europe is fine. Could there be a routing or CDN issue for the APAC region? We are heading into our biggest sales weekend and want to rule this out.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=ACH return codes>>>
+Hello, we received three ACH returns this week with code R02 and one with R10, but our customers say they authorised the debit. We are Pelham Utilities, collecting monthly bills via your direct debit product. Could you explain how to tell whether R10 means the customer disputed it, and how many days we have to respond? Also, is there a way to get return notifications by webhook instead of the daily file?
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=multi-currency payouts>>>
+Dunmore Imports asked to receive payouts in USD rather than GBP, because most of our supplier invoices are in dollars. I looked in the portal settings but could not find a currency option. Is this something support has to enable? If it is, what are the conversion fees compared to the automatic GBP payout? We would also like to know whether we can keep both currencies at once, split by sales channel.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=en hard_negative=false topic=subscription retry logic>>>
+Trellis Fitness: our failed recurring payments are retried by your system at 1, 3 and 7 days, but I recall reading that the schedule can be customized. Our members complain about getting a retry on the day before payday, when their balance is low. We would prefer retries at 2, 5 and 9 days. Is the retry policy configurable per merchant, or only in the enterprise plan? Please point me to the relevant documentation.
+<<<END>>>

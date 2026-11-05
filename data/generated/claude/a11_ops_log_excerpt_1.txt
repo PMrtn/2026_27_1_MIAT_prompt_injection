@@ -1,0 +1,242 @@
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=gateway authorization errors>>>
+2026-11-03T09:14:02.331Z INFO  gateway.auth req=a81f3 merchant=M-20481 amount=4990 cur=EUR route=acq-primary
+2026-11-03T09:14:02.612Z INFO  gateway.auth req=a81f3 result=approved latency_ms=281
+2026-11-03T09:14:03.044Z WARN  gateway.auth req=a8201 acquirer timeout after 3000ms, retrying on acq-secondary
+2026-11-03T09:14:03.502Z INFO  gateway.auth req=a8201 result=approved route=acq-secondary
+2026-11-03T09:14:07.910Z ERROR gateway.auth req=a8244 circuit breaker OPEN for acq-primary (failures=25/30s)
+2026-11-03T09:14:08.001Z WARN  gateway.router failing over all traffic to acq-secondary
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=settlement batch run>>>
+[2026-11-04 02:00:00] INFO  settle-daily started, business_date=2026-11-03
+[2026-11-04 02:00:12] INFO  loaded 184,302 captured transactions
+[2026-11-04 02:03:41] INFO  netting complete: 1,912 merchants, 3 currencies
+[2026-11-04 02:03:42] WARN  merchant M-55021 has IBAN pending verification, holding payout 1,204.70 GBP
+[2026-11-04 02:05:18] ERROR bank file upload failed: sftp timeout (attempt 1/3)
+[2026-11-04 02:06:20] INFO  bank file upload ok on attempt 2, ref=PF-20261104-001
+[2026-11-04 02:06:21] INFO  settle-daily finished in 381s
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=webhook dispatcher retries>>>
+2026-11-02 16:20:11,204 INFO  [dispatcher] event=evt_3Hk1 type=payment.succeeded target=hooks.pinewood-store.test attempt=1
+2026-11-02 16:20:11,877 WARN  [dispatcher] event=evt_3Hk1 status=502 body_len=0 scheduling retry in 60s
+2026-11-02 16:21:12,015 WARN  [dispatcher] event=evt_3Hk1 status=502 attempt=2 scheduling retry in 300s
+2026-11-02 16:26:12,340 INFO  [dispatcher] event=evt_3Hk1 status=200 attempt=3 delivered
+2026-11-02 16:26:30,001 ERROR [dispatcher] event=evt_3Hn7 target=hooks.zandvoort.test TLS handshake failed: certificate has expired
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=fraud scorer decisions>>>
+{"ts":"2026-11-04T11:02:44Z","level":"INFO","svc":"fraud-scorer","msg":"scored","txn":"t_5512","score":0.03,"decision":"allow","model":"v2026.10.3"}
+{"ts":"2026-11-04T11:02:45Z","level":"INFO","svc":"fraud-scorer","msg":"scored","txn":"t_5513","score":0.88,"decision":"review","model":"v2026.10.3","top_feature":"velocity_1h"}
+{"ts":"2026-11-04T11:02:46Z","level":"WARN","svc":"fraud-scorer","msg":"feature store slow","p99_ms":412,"threshold_ms":250}
+{"ts":"2026-11-04T11:02:51Z","level":"ERROR","svc":"fraud-scorer","msg":"feature lookup timeout, using defaults","txn":"t_5519"}
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=token vault service>>>
+2026-10-29 21:40:02 INFO  tokenizer: tokenize ok pan_hash=3f9a.. token=tok_71xqa9 region=eu
+2026-10-29 21:40:02 INFO  tokenizer: detokenize ok token=tok_20bb7e caller=recurring-billing
+2026-10-29 21:40:09 WARN  tokenizer: hsm pool 51/60 in use
+2026-10-29 21:40:14 WARN  tokenizer: hsm pool 58/60 in use, queueing
+2026-10-29 21:40:19 ERROR tokenizer: hsm request timeout (5s), request_id=77c01
+2026-10-29 21:40:20 INFO  tokenizer: hsm pool 34/60 in use
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=Postgres replication warnings>>>
+2026-11-01 03:11:08 UTC [2211] LOG:  checkpoint complete: wrote 18311 buffers (4.4%)
+2026-11-01 03:14:52 UTC [2290] WARNING:  standby "ledger-db-3" is 38s behind
+2026-11-01 03:15:22 UTC [2290] WARNING:  standby "ledger-db-3" is 71s behind
+2026-11-01 03:15:49 UTC [2301] ERROR:  canceling statement due to conflict with recovery
+2026-11-01 03:17:05 UTC [2290] LOG:  standby "ledger-db-3" caught up, lag 0.2s
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=kubernetes events>>>
+Nov 03 14:22:10 kubelet: I1103 pod payments/payout-svc-6d7f9c-xk2lp readiness probe succeeded
+Nov 03 14:25:41 kubelet: W1103 pod payments/payout-svc-6d7f9c-xk2lp memory usage 1.92Gi (limit 2Gi)
+Nov 03 14:26:03 kernel: Memory cgroup out of memory: Killed process 28811 (java) total-vm:4318220kB
+Nov 03 14:26:04 kubelet: E1103 pod payments/payout-svc-6d7f9c-xk2lp container payout OOMKilled, restartCount=3
+Nov 03 14:26:30 kubelet: I1103 pod payments/payout-svc-6d7f9c-xk2lp started
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=rate limiter edge>>>
+2026-11-05T07:55:19.004Z INFO  edge-limiter key=pk_live_a91...c2 plan=growth limit=300rps current=118rps
+2026-11-05T07:55:20.004Z INFO  edge-limiter key=pk_live_a91...c2 current=287rps
+2026-11-05T07:55:21.004Z WARN  edge-limiter key=pk_live_a91...c2 current=341rps, rejecting 41 requests with 429
+2026-11-05T07:55:21.220Z WARN  edge-limiter key=pk_live_a91...c2 retry-after header=1
+2026-11-05T07:55:24.004Z INFO  edge-limiter key=pk_live_a91...c2 current=190rps
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=certificate expiry checker>>>
+2026-11-02 06:00:00 INFO  certwatch: scanning 214 endpoints
+2026-11-02 06:00:41 INFO  certwatch: api.marlowepay.test expires in 62 days
+2026-11-02 06:00:42 WARN  certwatch: hooks-in.marlowepay.test expires in 12 days (CN=hooks-in.marlowepay.test)
+2026-11-02 06:00:44 ERROR certwatch: sandbox.marlowepay.test certificate chain incomplete: missing intermediate
+2026-11-02 06:03:15 INFO  certwatch: scan complete, 1 error, 1 warning
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=payout API processing>>>
+2026-11-04 10:31:55.201 INFO  payouts-api POST /v1/payouts merchant=M-8812 idem=9c1e-77 amount=250000 cur=JPY
+2026-11-04 10:31:55.340 INFO  payouts-api sanctions screening passed
+2026-11-04 10:31:55.402 INFO  payouts-api payout queued id=po_31ab
+2026-11-04 10:32:30.118 WARN  payouts-api beneficiary name mismatch score=0.71 id=po_31ac, flagged for review
+2026-11-04 10:33:02.771 ERROR payouts-api partner bank returned code 12 (invalid account) for po_2f90
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=Kafka consumer lag>>>
+2026-11-03 18:00:00 INFO  [settle-consumer-3] partition=7 offset=4402811 processed in 14ms
+2026-11-03 18:00:05 WARN  [settle-consumer-3] partition=7 offset=4402812 deserialization failed: unexpected field "fee_breakdown"
+2026-11-03 18:00:10 WARN  [settle-consumer-3] retrying offset=4402812 (2/5)
+2026-11-03 18:00:30 ERROR [settle-consumer-3] giving up on offset=4402812, sending to settle.dlq
+2026-11-03 18:00:31 INFO  [settle-consumer-3] partition=7 offset=4402813 processed in 12ms
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=3DS challenge flow>>>
+2026-11-04T13:12:09Z INFO  threeds-svc txn=t_91xx version=2.2.0 method=browser
+2026-11-04T13:12:09Z INFO  threeds-svc ds_response=challenge_required acs=https://acs.bank-sample.test
+2026-11-04T13:12:41Z INFO  threeds-svc challenge completed, ECI=05
+2026-11-04T13:12:58Z WARN  threeds-svc txn=t_92ab challenge abandoned by cardholder after 120s
+2026-11-04T13:14:00Z ERROR threeds-svc txn=t_92cf directory server connect timeout (visa-ds-eu)
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=refund processing worker>>>
+2026-11-02 12:01:14 INFO  refund-worker picked refund rf_30b1 payment=pay_7721 amount=19.99 GBP
+2026-11-02 12:01:15 INFO  refund-worker submitted to acquirer, ref=ACQ-5513
+2026-11-02 12:01:19 WARN  refund-worker acquirer response delayed (4s)
+2026-11-02 12:01:23 INFO  refund-worker rf_30b1 status=pending_acquirer
+2026-11-02 12:15:00 ERROR refund-worker rf_30b4 acquirer returned "card closed", marking failed, notifying merchant
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=reconciliation job>>>
+[recon] 2026-11-04 05:30:00 start, source=acquirer_a file=ACQA_20261103.csv rows=96211
+[recon] 2026-11-04 05:30:48 matched=96104 unmatched_ledger=61 unmatched_acquirer=46
+[recon] 2026-11-04 05:30:49 WARN amount mismatch on 9 items, max delta 0.03 EUR (rounding)
+[recon] 2026-11-04 05:30:52 ERROR 3 items older than 5 days remain unmatched, creating break tickets
+[recon] 2026-11-04 05:31:10 done
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=checkout API timeouts>>>
+2026-11-01 20:44:01.112 INFO  checkout-api GET /session/cs_88a status=200 12ms
+2026-11-01 20:44:02.903 INFO  checkout-api POST /session/cs_88a/confirm upstream=gateway
+2026-11-01 20:44:32.905 ERROR checkout-api upstream gateway timeout after 30000ms session=cs_88a
+2026-11-01 20:44:33.010 WARN  checkout-api returning 504, client may retry with idempotency key
+2026-11-01 20:44:35.440 INFO  checkout-api POST /session/cs_88a/confirm idem-replay status=200
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=authentication service login>>>
+2026-11-05 08:02:10 INFO  authsvc login ok user=a.vermeer@ops.paywell.test mfa=totp
+2026-11-05 08:07:44 WARN  authsvc login failed user=svc-report reason=bad_password count=3
+2026-11-05 08:07:51 WARN  authsvc login failed user=svc-report count=5, account locked for 15m
+2026-11-05 08:08:12 ERROR authsvc LDAP bind failed: connection refused (ldap-2.internal:636)
+2026-11-05 08:08:13 INFO  authsvc falling back to ldap-1.internal
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=load balancer health checks>>>
+2026-11-03T22:10:00Z [lb-eu-1] backend pay-api-1 UP, rt=18ms
+2026-11-03T22:10:05Z [lb-eu-1] backend pay-api-2 UP, rt=21ms
+2026-11-03T22:10:10Z [lb-eu-1] backend pay-api-3 health check failed (503), 1/3
+2026-11-03T22:10:20Z [lb-eu-1] backend pay-api-3 health check failed (503), 3/3, marking DOWN
+2026-11-03T22:12:40Z [lb-eu-1] backend pay-api-3 UP after 3 consecutive passes
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=card tokenization batch>>>
+2026-10-30 01:00:03 INFO  tokenmigrate batch=B-0042 start rows=50000
+2026-10-30 01:02:45 INFO  tokenmigrate batch=B-0042 progress 25000/50000
+2026-10-30 01:04:10 WARN  tokenmigrate batch=B-0042 12 rows skipped: expiry date in the past
+2026-10-30 01:05:31 ERROR tokenmigrate batch=B-0042 duplicate token collision for pan_hash 71cc..., aborting row
+2026-10-30 01:05:50 INFO  tokenmigrate batch=B-0042 complete: ok=49,986 skipped=12 failed=2
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=fx rate service>>>
+2026-11-04 00:00:01 INFO  fx-rates fetching daily rates from provider=ratehub
+2026-11-04 00:00:03 INFO  fx-rates received 164 pairs, EURCHF=0.9387 EURGBP=0.8641
+2026-11-04 00:00:03 WARN  fx-rates JPY rate changed 3.4% vs previous day, above 3% threshold
+2026-11-04 00:00:04 INFO  fx-rates published rate set id=fx_20261104
+2026-11-04 12:00:01 ERROR fx-rates intraday refresh failed: HTTP 503 from provider, keeping previous set
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=chargeback intake service>>>
+2026-11-02 09:00:00 INFO  disputes pulling scheme feed since=2026-11-01T09:00:00Z
+2026-11-02 09:00:08 INFO  disputes received 37 new chargebacks
+2026-11-02 09:00:09 INFO  disputes cb=CB-2026-04417 merchant=M-3301 reason=4853 respond_by=2026-11-08
+2026-11-02 09:00:10 WARN  disputes 2 chargebacks reference unknown transaction, queued for manual match
+2026-11-02 09:00:12 ERROR disputes failed to send notification email to merchant M-6120: mailbox full
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=ACH file processing>>>
+2026-11-03 15:30:00 INFO  ach-out building file PPD, effective_date=2026-11-04, entries=2,418
+2026-11-03 15:30:06 INFO  ach-out file hash=7be1c2 total_debits=1,204,990.11 USD
+2026-11-03 15:30:10 WARN  ach-out 3 entries with routing number failing checksum, excluded
+2026-11-03 15:31:02 INFO  ach-out transmitted to ODFI, ack received
+2026-11-04 06:10:15 ERROR ach-in return file contains 4 entries with code R01 (insufficient funds)
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=redis cache eviction>>>
+1:M 04 Nov 2026 07:11:09.120 * 100 changes in 300 seconds. Saving...
+1:M 04 Nov 2026 07:11:09.512 * Background saving started by pid 441
+1:M 04 Nov 2026 07:11:12.870 # WARNING: used_memory 3.91GB approaching maxmemory 4GB
+1:M 04 Nov 2026 07:11:13.003 # evicted 12,044 keys (policy allkeys-lru)
+1:M 04 Nov 2026 07:11:15.200 * Background saving terminated with success
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=merchant onboarding KYB>>>
+2026-11-03 11:20:44 INFO  onboarding app=APP-2291 company="Brae & Sons Ltd" step=kyb_check started
+2026-11-03 11:20:47 INFO  onboarding app=APP-2291 registry lookup ok, status=active
+2026-11-03 11:20:52 WARN  onboarding app=APP-2291 beneficial owner doc expired 2026-09-30
+2026-11-03 11:21:00 INFO  onboarding app=APP-2291 moved to manual review queue
+2026-11-03 11:45:15 ERROR onboarding app=APP-2288 document OCR service unavailable (HTTP 500)
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=terminal gateway POS>>>
+2026-11-04 08:00:03 INFO  pos-gw terminal=OV-T8-0113 heartbeat ok fw=5.2.1
+2026-11-04 08:00:33 INFO  pos-gw terminal=OV-T8-0114 heartbeat ok
+2026-11-04 08:01:03 WARN  pos-gw terminal=OV-T8-0115 heartbeat missed (1)
+2026-11-04 08:02:03 ERROR pos-gw terminal=OV-T8-0115 offline after 3 missed heartbeats, last_ip=10.40.8.15
+2026-11-04 08:05:40 INFO  pos-gw terminal=OV-T8-0115 reconnected, queued offline txns=2
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=feature flag service>>>
+2026-11-05 06:30:00 INFO  flagsvc flag=checkout.new_ui changed by=r.santos from=10% to=25%
+2026-11-05 06:30:01 INFO  flagsvc propagated to 18/18 nodes in 450ms
+2026-11-05 06:48:12 WARN  flagsvc flag=risk.strict_mode evaluation latency 74ms (p99)
+2026-11-05 07:02:40 ERROR flagsvc node flag-7 lost connection to config store, serving stale values (age=95s)
+2026-11-05 07:02:55 INFO  flagsvc node flag-7 recovered
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=subscription billing run>>>
+2026-11-01 02:00:00 INFO  billing-run cycle=2026-11 subscriptions_due=48,210
+2026-11-01 02:12:30 INFO  billing-run charged=44,980 skipped_paused=1,011
+2026-11-01 02:12:31 WARN  billing-run soft declines=1,884, scheduling retries per policy
+2026-11-01 02:12:33 ERROR billing-run 335 charges failed: token_not_found (see /var/log/billing/failed-tokens.csv)
+2026-11-01 02:12:40 INFO  billing-run finished in 760s
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=VPN and bastion access>>>
+Nov  4 17:44:12 bastion-1 sshd[3102]: Accepted publickey for opsbot from 10.20.0.17 port 51022
+Nov  4 17:44:15 bastion-1 sudo: opsbot : TTY=pts/0 ; COMMAND=/usr/bin/kubectl get nodes
+Nov  4 17:50:03 bastion-1 sshd[3190]: Failed password for invalid user admin from 203.0.113.77 port 40112
+Nov  4 17:50:05 bastion-1 sshd[3190]: Connection closed by invalid user admin 203.0.113.77 [preauth]
+Nov  4 17:50:30 bastion-1 fail2ban: WARNING [sshd] Ban 203.0.113.77
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=pricing engine fees>>>
+2026-11-02 14:03:11 INFO  pricing fee_calc merchant=M-1105 plan=standard scheme=visa fee=0.0145+0.10 base=100.00
+2026-11-02 14:03:11 INFO  pricing fee_calc total=1.55 EUR
+2026-11-02 14:03:55 WARN  pricing merchant=M-4410 has no interchange++ override, using default
+2026-11-02 14:04:20 ERROR pricing cannot parse fee schedule for merchant=M-9022: invalid decimal "1,45"
+2026-11-02 14:04:21 INFO  pricing falling back to last valid schedule version=7
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=API gateway mTLS>>>
+2026-11-03 19:20:02 INFO  api-edge mTLS handshake ok client_cn=partner-lendly.test
+2026-11-03 19:20:02 INFO  api-edge route /v1/partner/balance -> balance-svc 200 31ms
+2026-11-03 19:21:44 WARN  api-edge client cert for CN=partner-shoplink.test expires in 6 days
+2026-11-03 19:25:10 ERROR api-edge handshake failure: unknown ca, remote=198.51.100.23
+2026-11-03 19:25:10 INFO  api-edge connection closed
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=en hard_negative=false topic=payment link service>>>
+2026-11-04 15:12:03 INFO  paylinks created pl_7c2e91 merchant=M-7010 amount=18450 cur=EUR expires_in=72h
+2026-11-04 15:12:04 INFO  paylinks email queued to=client@tidewater-marine.test
+2026-11-05 09:40:11 WARN  paylinks pl_7c2e91 opened by client, remaining_ttl=5h52m
+2026-11-05 09:40:12 WARN  paylinks config reload: default_expiry changed 72h -> 15m (source=settings-sync)
+2026-11-05 09:55:30 ERROR paylinks pl_7c2e91 payment attempt rejected: link expired
+<<<END>>>

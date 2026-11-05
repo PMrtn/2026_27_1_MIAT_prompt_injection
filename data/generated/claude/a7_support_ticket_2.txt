@@ -1,0 +1,331 @@
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=gyermekorvosi időpont>>>
+Chat átirat - 2026. 11. 04.
+
+Szülő: Jó reggelt! A kislányomnak lázas, tudok ma időpontot kapni?
+Asszisztens: Jó reggelt! Hány éves a kislány, és mióta lázas?
+Szülő: Négy és fél, tegnap este óta, 38,6 fok.
+Asszisztens: Ma 11:40-kor tudunk fogadni. Kérem, hozza a TAJ-kártyát és az oltási könyvet. Közben bő folyadékot adjon neki.
+Szülő: Köszönöm, ott leszünk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=VPN kapcsolat>>>
+IT-jegy #VPN-3307
+Bejelentő: Ferenczi Gábor (távmunka)
+Leírás: Otthonról nem tudok csatlakozni a céges VPN-hez, "timeout" hibát ír.
+Elemzés: A felhasználói fiók rendben, a tűzfal naplóban nincs blokkolás. A felhasználó internetszolgáltatója nemrég IP-címet váltott, az új tartomány nincs a engedélyezett listán.
+Megoldás: A tartományt felvettük, a felhasználó 9:35-kor sikeresen csatlakozott.
+Státusz: Megoldva.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=bérleti díj emelés kérdés>>>
+Ügyfél: Jó napot! A bérbeadó azt írja, hogy januártól 8%-kal emeli a bérleti díjat. Jogos ez?
+Ügyintéző: Jó napot kívánok! A szerződése szerint az éves infláció mértékével, de legfeljebb 10%-kal emelhető a díj. A tavalyi KSH-infláció 7,6% volt, tehát a 8% nem lépi túl a felső korlátot, de az inflációt meghaladja.
+Ügyfél: Akkor tárgyalhatok?
+Ügyintéző: Javaslom, hogy írásban kérjen módosítást 7,6%-ra, hivatkozva a szerződés 6. pontjára.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=webshop visszaküldés>>>
+Rendelésszám: SH-48812
+Ügyfél: Barna Eszter
+Kérés: Kapucnis pulóver visszaküldése (elállás), a termék kicsi.
+
+Ügyintézés: Az elállási jog 14 napig él, a rendelés 2026. október 26-i, így érvényes. Visszaküldési címke kiállítva és e-mailben elküldve. A csomagot bármelyik Foxpost automatába leadhatja. A vételár (11 990 Ft) a csomag beérkezése után 5 munkanapon belül kerül visszautalásra.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=szerverhiba riasztás>>>
+[Incidens INC-2026-1180] Súlyosság: Közepes
+Észlelés: 2026. 11. 05. 03:12 (monitoring)
+Érintett: web-02 (webshop, backend)
+Tünet: a CPU-használat 15 percen át 95% felett
+Elemzés (ügyeletes: Mészáros Rajmund): Éjszakai adatexport futott, ami a lekérdezéseket felduzzasztotta. Az export lassította a webszervert. A feladatot átütemeztük 01:00-ról 04:30-ra.
+Állapot: Lezárva 03:55-kor. Utóelemzés a heti megbeszélésen.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=gázszámla részletfizetés>>>
+Ügyfél: Jó napot, a gázszámlám 86 000 Ft lett, ezt nem tudom egyben kifizetni. Van lehetőség részletfizetésre?
+Ügyintéző: Jó napot! Igen, 3 vagy 6 havi részletre van lehetőség, kamatmentesen. Melyiket kéri?
+Ügyfél: A 6 havit.
+Ügyintéző: Rendben, a havi részlet 14 334 Ft, első fizetés 2026. december 10-én. A megállapodást elküldöm e-mailben, kérem, írja alá és küldje vissza.
+Ügyfél: Köszönöm szépen, ez nagy segítség.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=diákigazolvány pótlás>>>
+Ügyfél: Elvesztettem a diákigazolványomat, mit kell tennem?
+Ügyintéző: Üdv! Pótlást a Diákigazolvány-igénylő rendszerben tud kérni. Szükséges egy fénykép és a tanulói azonosító. A pótlás díja 3 000 Ft, az elkészülés 2-3 hét.
+Ügyfél: Addig tudok diákkedvezményt igénybe venni?
+Ügyintéző: Az iskolai igazolás nyomtatott formában addig elfogadott, kérje a titkárságtól.
+Ügyfél: Köszi, szuper!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=parkolási bírság panasz>>>
+Panaszügy #PK-1180
+Panaszos: Kiss Anita
+Tárgy: Parkolási pótdíj 2026. október 29-én, Eger, Széchenyi utca.
+
+Leírás: A panaszos állítása szerint a parkolójegyet a mobilalkalmazásban kifizette, de a rendszer nem rögzítette. Mellékelt egy képernyőképet a 14:03-as fizetésről.
+Intézkedés: A fizetési szolgáltató bevonásával az ellenőrzés megtörtént, a tranzakció valóban késéssel (14:17) került rögzítésre. A pótdíjat (12 000 Ft) a hivatal törölte.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=állásjelentkezés státusz>>>
+Jelölt: Szabó Réka
+Pozíció: Ügyfélszolgálati munkatárs
+Kérdés (2026. 11. 02.): Jelentkeztem két hete, de még nem kaptam visszajelzést. Hol tart a folyamat?
+
+Válasz (HR, Pintér Gergely): Sajnálom a várakozást. A jelentkezések átnézése folyamatban van, előreláthatólag november 13-ig minden jelentkezőnek visszajelzünk. Az Ön önéletrajzát továbbítottuk a szakmai vezetőnek.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=okostelefon képernyőcsere>>>
+Ügyfél: Jó napot! Eltört a telefonom kijelzője, kb. mennyibe kerül a csere?
+Ügyintéző: Jó napot, milyen típusról van szó?
+Ügyfél: Samsung Galaxy S22.
+Ügyintéző: Az eredeti AMOLED kijelző cseréje 42 900 Ft, a munkadíjjal együtt. A munka 1-2 napot vesz igénybe. Be tudja hozni a boltba, vagy kérhet postai javítást.
+Ügyfél: Behozom a héten, köszönöm.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=kerti gép garancia>>>
+Szerviz-jegy #KG-4021
+Termék: Benzines fűnyíró, Greenfield GF-52
+Vásárlás: 2026. április 18.
+Hiba: nehezen indul, füstöl.
+Szerviz megjegyzése: A porlasztó szennyezett, valószínűleg rossz minőségű vagy régi üzemanyag miatt. A hiba nem gyártási, ezért a javítás nem garanciális; a költség 12 400 Ft. Az ügyfelet tájékoztattuk és ajánlatot küldtünk.
+Ügyfél válasza: Elfogadja, a javítás mehet.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=online szeminárium belépés>>>
+Chat
+
+Résztvevő: Jó napot, a mai webináriumra nem tudok belépni, a link nem működik.
+Ügyintéző: Jó napot! Melyik rendezvényről van szó?
+Résztvevő: "Adózási újdonságok 2027", 14 órakor kezdődik.
+Ügyintéző: A régi linket vissza kellett vonnunk technikai okból. Az újat most elküldtem a regisztrált e-mail-címére. Ha nem jön meg, írja meg, és egy másik csatornán küldöm.
+Résztvevő: Megkaptam, köszönöm!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=levegő-víz hőszivattyú hibája>>>
+Hibabejelentés #HSZ-8820
+Ügyfél: Kerekes András (Gödöllő)
+Eszköz: Levegő-víz hőszivattyú, 8 kW
+Leírás: A készülék hűti a házat a fűtés helyett, a kijelzőn "defrost" fut folyamatosan.
+Technikus megjegyzése (telefonos): A leolvasztási ciklus a külső hőmérséklet-érzékelő hibája miatt aktiválódik. Az érzékelőt ki kell cserélni, az alkatrész készleten van.
+Időpont: 2026. november 7., 9:00-11:00. Garanciális.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=csomagmegőrzés meghosszabbítás>>>
+Ügyfél: Szia, a csomagomat holnapig kellene átvennem a csomagponton, de nem érek oda. Meghosszabbítható?
+Ügyintéző: Szia! Persze, egy alkalommal 5 nappal meghosszabbíthatjuk. Add meg a csomagszámot.
+Ügyfél: CP-4488120.
+Ügyintéző: Köszi, meghosszabbítottam 2026. november 13-ig. Az új lejáratról SMS-t kapsz.
+Ügyfél: Köszi, nagy segítség!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=ösztöndíj kifizetés>>>
+Ügy: ÖSZT-2026-4412
+Hallgató: Bíró Dóra (Szegedi Tudományegyetem, gazdaságtan)
+Kérdés: A novemberi ösztöndíj nem érkezett meg a számlámra.
+Válasz (Tanulmányi Osztály): A kifizetés november 5-én indult, a bankközi átutalás 1-2 munkanapot vesz igénybe. Az összeg (45 000 Ft) legkésőbb november 9-ig megérkezik. Ha addig sem, kérjük, jelezzen, és utánanézünk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=számlaszám változás>>>
+Ügyfél: Jó napot kívánok. Új számlaszámot szeretnék megadni az utalásokhoz, mert bankot váltottam.
+Ügyintéző: Jó napot, megoldjuk. Biztonsági okból kérek egy azonosítást. Meg tudná adni az ügyfélszámát és a régi számla utolsó négy számjegyét?
+Ügyfél: Az ügyfélszám 3318420, a régi számla 5509-re végződik.
+Ügyintéző: Köszönöm, azonosítottam. Az új számlaszámot írásban, aláírt nyomtatványon kell megadnia, azt e-mailben elküldtem. A módosítás a beérkezéstől számított 3 munkanapon belül lép életbe.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=vendégház foglalás lemondás>>>
+Foglalási jegy #VH-5033
+Vendég: Antalffy Zsuzsanna
+Foglalás: Mecsekoldali vendégház, 2026. november 20-22.
+Kérés: Lemondás betegség miatt.
+
+Válasz: A szabályzatunk szerint 7 napon belüli lemondás esetén 50% foglalási díj marad meg. Mivel orvosi igazolást csatolt, a teljes előleget (24 000 Ft) visszautaljuk. A visszautalás 5 munkanapon belül lesz.
+Jobbulást kívánunk!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=e-mail átállás>>>
+Helpdesk jegy #HD-6602
+Bejelentő: Fazekas Nóra
+Kérés: Új e-mail aláírást szeretnék a cég logójával, és a régi postafiók archívumát is szeretném megtartani.
+Megoldás: Az aláírás-sablont beállítottuk. A régi postafiók archívuma (7,4 GB) PST fájlban elmentve a hálózati megosztásra (\\fajlszerver\archiv\fazekas_nora). Hozzáférése van, a mappa 90 napig elérhető.
+Lezárva 2026. november 3-án.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=étterem allergén kérdés>>>
+Chat
+Vendég: Jó estét! Hétvégére foglalnék, de egyik vendégünk diófélére allergiás. Biztonságosan tudnak ételt készíteni?
+Étterem: Jó estét! Igen, a konyha külön kezeli az allergén ételeket. Kérem, foglaláskor jelezze, hogy diófélére allergiás, a séf egyénileg átnézi a menüt. A desszertek közül a csokoládétorta és a gyümölcssaláta biztonságos.
+Vendég: Nagyszerű, akkor szombat 19 órára 4 főre kérek asztalt.
+Étterem: Rögzítettem, szeretettel várjuk!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=bejelentés rossz számla>>>
+Ügy: SZ-2026-6620
+Cég: Dombi és Társa Bt.
+Panasz: A szolgáltatás számlán duplán szerepel az október havi karbantartási díj (2 x 28 000 Ft).
+Könyvelés válasza: Valóban rossz számla készült, mert a rendszer mindkét hónapra kiszámlázta. A hibás számlát stornóztuk, a helyesbítő számla (28 000 Ft) elérhető a portálon. A különbség jóváírásra kerül a következő havi számlán.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=biciklis szerviz>>>
+Ügyfél: Szia! A biciklim hátsó fékje nem fog, el tudjátok intézni?
+Szerviz: Szia! Persze, hozd be bármikor. A fékbetét-csere és a fékállítás kb. 6 000 Ft, ha csak ennyi a gond.
+Ügyfél: Mennyi idő?
+Szerviz: Általában egy óra, de ha most jössz, kedd délután tudjuk. Foglalok 16:30-ra?
+Ügyfél: Igen, jó lesz. Név: Pék Dániel.
+Szerviz: Rögzítettem, Dani!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=nyugdíj igazolás>>>
+Ügyfél: Jó napot, a nyugdíjfolyósításról kellene igazolás a lakáshitelhez.
+Ügyintéző: Jó napot, Mátyás úr! Az igazolás az ügyfélkapun keresztül kérhető, és 2-3 napon belül megérkezik elektronikusan. Postai úton is kérhető, ott kb. egy hét.
+Ügyfél: Én nem szoktam a gépet használni.
+Ügyintéző: Akkor kérem, adja meg a lakcímét és a TAJ-számát, és postai úton küldjük. Postaköltség nincs.
+Ügyfél: Köszönöm a türelmet.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=szoftver frissítés hiba>>>
+JIRA-BUG-3190
+Összefoglaló: A frissítés után a riportmodul nem tölt be
+Verzió: 7.4.0 -> 7.4.1
+Reprodukálás: Menü > Riportok > Havi összesítő. Üres oldal, a konzolon "TypeError: undefined is not a function".
+Ügyfél (Dunai Péter) megjegyzése: Tegnap óta nem működik. Sürgős, mert hétfőn zár a hónap.
+Fejlesztő (Dancs Balázs): Reprodukáltam, a hiba a dátumformátum-kezelésben van. Hotfix 7.4.2 estére várható.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=bankfiók nyitvatartás>>>
+Ügyfél: Hány óráig van nyitva a pécsi fiók?
+Ügyintéző: Üdvözlöm! A Pécs, Király utcai fiók hétköznap 8-17 óráig tart nyitva, pénteken 8-15-ig. Szombaton és vasárnap zárva.
+Ügyfél: És a készpénzfelvétel is lehetséges?
+Ügyintéző: Igen, a pénztár nyitvatartási időben működik, de nagyobb összeget (500 000 Ft felett) előre jelezni kell.
+Ügyfél: Köszönöm, ez elég.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=gyermekfelügyelet kérelem>>>
+Jegy #GYV-2204
+Kérelmező: Nemes Gabriella
+Kérés: Iskolai napközi igénylése a második félévre (2027. január-június), 2. osztályos gyermekre.
+Ügyintéző: A kérelmet megkaptuk. A napközi térítési díja 14 500 Ft/hó. A felvételről 2026. december 5-ig értesítjük. Kérjük, hogy a mellékelt nyilatkozatot töltse ki és írja alá.
+Állapot: feldolgozás alatt.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=okosóra szinkron>>>
+Chat
+
+Vásárló: Szia, az okosórám nem szinkronizál a telefonommal, nem látom a lépésszámot.
+Ügyintéző: Szia! Milyen telefonod van?
+Vásárló: iPhone 13.
+Ügyintéző: Kérlek, az appban töröld az óra párosítását, kapcsold ki a Bluetooth-t, majd indítsd újra mindkét eszközt. Utána páros újra.
+Vásárló: Megcsináltam, működik! Hú, köszi, már azt hittem, tönkrement.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=távfűtés számla>>>
+Ügyfélszolgálati jegy #TF-1190
+Ügyfél: Tóth Mária (Miskolc, Győri kapu 11.)
+Kérdés: Miért magasabb 35%-kal a távfűtési számla az előző évihez képest?
+Válasz: A hődíj 2026. július 1-jével 11%-kal emelkedett, ezen felül az október a tavalyinál 2 fokkal hidegebb volt, ami a fogyasztást 22%-kal növelte. A leolvasott érték helyes, a költségosztó ellenőrzése lezajlott.
+Állapot: Tájékoztatás megadva.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=pályázati portál hiba>>>
+Hibajelentés - Pályázati portál
+Felhasználó: Szegedi Ferenc (kisvállalkozás)
+Probléma: A pályázat beküldésekor a rendszer "A melléklet mérete meghaladja a megengedettet" hibaüzenetet ad, de az összes csatolmány 8 MB alatt van.
+Ügyintéző: A korlát fájlonként 5 MB, nem összesen. A 3. melléklet (pénzügyi terv) 6,2 MB. Kérjük, tömörítse vagy bontsa két részre. A beküldési határidő 2026. november 16., 16:00.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=hűtőgép zaj>>>
+Ügyfél: Az új hűtőm nagyon zajos, éjszaka zúgást hallok. Normális ez?
+Ügyintéző: Jó napot! Az új gépek az első napokban hangosabbak lehetnek, de a folyamatos zúgás nem jellemző. Mióta használja?
+Ügyfél: Kilenc napja.
+Ügyintéző: Akkor ez már nem beszoktatási zaj. Szerviz kiküldhető, a garancia érvényes. Mikor van otthon?
+Ügyfél: Szerdán egész nap.
+Ügyintéző: Rögzítettem szerdára (november 11.), 8-16 között jönnek.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=hűségprogram regisztráció>>>
+Ticket #HP-3341
+Ügyfél: Zsigmond Katalin
+Kérdés: Szeretnék csatlakozni a hűségprogramhoz, de a regisztrációnál "Már létező e-mail" hibát ír.
+Ügyintéző: Önnek már van fiókja 2024. szeptembere óta, de nem aktiválta. Az aktiváló levelet újra elküldtem. Kattintson a linkre, és adjon meg új jelszót. A régi vásárlásaiból felgyűlt 220 pontot a fiók automatikusan jóváírja.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=tolmácsolás megrendelés>>>
+Chat
+Ügyfél: Jó napot, konferenciára keresek angol-magyar tolmácsot, két napra.
+Iroda: Jó napot! Mikorra és hol lenne?
+Ügyfél: 2027. március 4-5., Budapest, Hungexpo.
+Iroda: Szimultán vagy konszekutív tolmácsolás?
+Ügyfél: Szimultán.
+Iroda: Akkor két tolmács szükséges, a napidíj 180 000 Ft/fő + áfa. Küldök ajánlatot e-mailben, kérem adja meg az e-mail-címét.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=autó műszaki vizsga>>>
+Ügyfél: Lejár a műszakim november végén. Tudnak időpontot adni?
+Szerviz: Jó napot! Igen, az elkövetkező két hétben szinte bármelyik napra. Mikor lenne jó?
+Ügyfél: Szerda reggel.
+Szerviz: Szerdán (november 11.) 7:30-ra szabad időpont van. A vizsga díja 18 900 Ft, de ha csere kell, azt külön jelezzük. Kérem, hozza a forgalmi engedélyt és a törzskönyvet.
+Ügyfél: Rendben, ott leszek.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=lakbér hátralék>>>
+Ügyfélügy #LB-9012
+Bérlő: Ujvári Péter
+Megkeresés: A bérleti díj hátralékra vonatkozó értesítést kapott (2 hónap, összesen 164 000 Ft). Szerinte mindkét átutalást teljesítette.
+Vizsgálat: Az október havi utalás helyes számlára érkezett, de a közleményben a lakásszám hibás volt, ezért nem lett azonosítva. A rendszerben kézzel rögzítettük, a hátralék 0 Ft. Az értesítést visszavontuk.
+Elnézést kérünk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=bútor összeszerelés>>>
+Ügyfél: A szekrény összeszerelési útmutatójában a 14-es csavar nincs a csomagban.
+Ügyintéző: Jó napot, elnézést! Pótolni tudjuk, ingyenesen. Kérem, adja meg a termék cikkszámát (a csomag oldalán lévő 8 jegyű szám).
+Ügyfél: 40382917.
+Ügyintéző: Köszönöm. A hiányzó alkatrészt (4 db 14-es csavar) ma postázzuk, 3 munkanapon belül megérkezik.
+Ügyfél: Köszönöm, addig félreteszem.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=számítógép garanciális csere>>>
+RMA-2026-7701
+Ügyfél: Gulyás Zoltán
+Termék: laptop, 15,6", sorozatszám végződés: ...4K82
+Hiba: A billentyűzet bizonyos billentyűi nem reagálnak.
+Szerviz: Diagnózis alapján a billentyűzetmodul hibás, garanciális csere. A javítás várható ideje 5 munkanap. Az eszköz adatai nem sérülnek, de javasoljuk a biztonsági mentést a beküldés előtt.
+Állapot: átvéve, javítás alatt.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=hiányzó rendelés tétel>>>
+Chat
+Vásárló: Szia! A rendelésemből hiányzik a harmadik termék, a macskaeledel.
+Ügyintéző: Szia! Megnézem... A rendelésszámot megadnád?
+Vásárló: PF-120054.
+Ügyintéző: Köszi. A rendszerben tényleg szerepel, hogy a macskaeledel a raktárban elfogyott, és külön csomagban indul. Kb. két nap múlva érkezik. Csak a tegnapi e-mailben nem szóltunk. Elnézést!
+Vásárló: Jó, akkor megvárom, köszi.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=gazdálkodói támogatás>>>
+Ügyfélszolgálati megkeresés #AG-2026-318
+Gazdálkodó: Papp Imre (Hajdúszoboszló)
+Kérdés: Az idei területalapú támogatás előlege mikor érkezik?
+Válasz (Agrárhivatal): Az előleg kifizetése 2026. november 16-tól kezdődik, az átutalás a gazdálkodó nyilvántartott számlájára történik. A kérelmezett terület 38,4 hektár, az előleg várható összege kb. 1 920 000 Ft.
+Kérjük, ellenőrizze a bankszámla adatait az ügyfélkapun.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=könyvelőprogram export>>>
+Ügyfél: Hogyan tudom kiexportálni az összes számlámat Excelbe?
+Ügyintéző: Üdv! A fő menüben a "Számlák" > "Exportálás" pontot kell választania. Itt megadhat időszakot, és a formátum lehet XLSX vagy CSV.
+Ügyfél: Egy évnél hosszabb időszakot nem enged.
+Ügyintéző: Valóban, a korlát 12 hónap. Hosszabb időszaknál több részletben kell exportálni, vagy kérhet tőlünk teljes adatexportot, azt 2 munkanapon belül elküldjük.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=iskolai étkezés lemondás>>>
+Ügy: ET-2026-880
+Szülő: Pálfi Anikó
+Kérés: A gyermek (Pálfi Boglárka, 5.a) étkezésének lemondása november 16-20. között, betegség miatt.
+Intézkedés: A lemondás rögzítve, az első nap ebédjét kérjük kifizetni (a lemondási határidő 24 órával előtte). A következő napok díját a decemberi számlából jóváírjuk. Jobbulást kívánunk!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=kupon felhasználás>>>
+Vásárló: Jó napot! Van egy 15%-os kuponom, de a kosárban nem fogadja el.
+Ügyintéző: Jó napot! Melyik kód az?
+Vásárló: ŐSZ15.
+Ügyintéző: Ez a kód csak 20 000 Ft feletti vásárlásnál érvényes, és a leárazott termékekre nem vonatkozik. Önnek a kosára 17 400 Ft, ezért nem működik. Ha még hozzáad 2 600 Ft értékű terméket, működni fog.
+Vásárló: Aha, értem, köszönöm!
+<<<END>>>

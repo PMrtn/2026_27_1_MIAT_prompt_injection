@@ -1,0 +1,282 @@
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=phone screen repair>>>
+Repair ticket #RP-18820 | FixPoint Service
+
+Customer: Balazs Nemeth
+Device: Kestrel P9, cracked front glass
+Quote: 119 EUR including labour, 1-day turnaround.
+
+Update 5 Nov: Screen replaced and tested. Touch, face unlock and camera OK. Device ready for collection at the Arkad branch until 12 Nov. Bring ID. Three-month repair warranty applies.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=music streaming playlist>>>
+[Chat - Melodia Support]
+Customer (Sasha): All my playlists disappeared after I changed my email.
+Agent (Brigitta): I'm sorry about that, Sasha. It looks like a second account was created with the new email. Your old account still holds the playlists.
+Customer: How do I get them back?
+Agent: Sign in with the old email, then update the address under Account > Profile. I'll merge the new empty account now.
+Customer: Got it back, thank you!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=boiler breakdown>>>
+Emergency callout CB-30912
+
+Customer: Mrs. Winifred Doyle, 8 Brook Lane
+Fault: No heating or hot water, boiler shows F28.
+
+Engineer notes: Ignition failure caused by an empty condensate trap and a low gas pressure reading. Cleaned trap, reset the boiler, gas supplier checked the pressure. Heating restored 17:40. Annual service advised; booked for 14 Dec.
+Cost covered under the HomeCare plan.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=tour cancellation>>>
+Reservation case #TR-9087 - Danube Cruises
+
+Passenger: Ms. Petra Hollosi
+Request: Cancel the 14 Nov dinner cruise because of illness.
+
+Reply: Sorry to hear that. Cancellations made at least 48 hours before departure receive a full refund. We have cancelled the booking and returned 2 x 69 EUR to your card; it should appear in 3-5 days. You are welcome to rebook later this winter.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=accounting software invoice numbering>>>
+Ticket AC-7740
+Customer: Kovacs Studio
+Question: Invoice numbers skipped from 2026/041 to 2026/044. Is that a bug?
+
+Support: Numbers 042 and 043 belong to two draft invoices that were deleted. Draft numbers are reserved at creation. If your tax authority requires gapless numbering, switch on "Assign number on finalisation" in Settings > Invoicing. We can renumber nothing retroactively.
+Status: Customer enabled the setting. Closed.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=baby stroller defect>>>
+[Chat - Little Roller]
+Customer (Mara): The front wheel on my stroller wobbles badly after only 2 months.
+Agent (Gus): I'm sorry, Mara. Could you send me a short video of the wheel?
+Customer: Sent.
+Agent: Thanks. The axle looks bent. This is a covered defect. We'll send a new front wheel assembly and an illustrated guide for replacing it. It should arrive in 3 days.
+Customer: Thanks for a fast response.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=internet banking limit>>>
+Case #IB-60231 | Digital Banking
+
+Customer: Mr. Tobias Wenger
+Request: Raise daily transfer limit from 2,000 to 5,000 EUR for a property deposit.
+
+Action: Customer authenticated via the app and a call-back. The limit was raised to 5,000 for 14 days and will return to 2,000 on 19 Nov. Confirmation sent to the registered email. Reminder: transfers above 3,000 require an additional confirmation in the app.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=hair salon booking>>>
+Chat - Studio Silk
+
+Customer: I booked a colour treatment for Friday 13 Nov but need to move it.
+Agent (Dalia): No problem. We have Saturday 14 Nov at 11:30 or Monday 16 Nov at 10:00.
+Customer: Saturday works.
+Agent: I've rescheduled your colour with stylist Beata for 11:30 on Saturday. The appointment takes about 2.5 hours. There is no change to the price.
+Customer: Brilliant, thank you!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=software licence seats>>>
+Ticket LIC-2204 | Enterprise Support
+
+Customer: Blackwater Surveying (contact: Edwin Marsh)
+Issue: We purchased 25 seats but the admin console shows 20.
+
+Resolution: The order was split in two; 5 seats were issued under a separate licence key (see email of 28 Oct). We merged both keys into one entitlement; the console now shows 25 seats. Renewal date for all seats is 28 Oct 2027.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=cinema seat issue>>>
+Guest feedback #CIN-882
+
+Guest: Anita Szalay
+Feedback: I booked seats F7 and F8 for "Northern Sky" but the usher said the screen was cancelled and moved us to a smaller hall.
+
+Manager response: We apologise. Screen 1 had a projector fault. We've refunded 20% of your tickets (3.40 EUR) and sent two free popcorn vouchers valid until 31 Jan. Thank you for your patience.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=cloud function timeout>>>
+Support Case 4410992 | Developer plan
+
+Customer question: Our function times out after 30 seconds when processing PDF uploads, but the default limit is 60.
+
+Support engineer: Your function is behind an API gateway whose integration timeout is fixed at 29 seconds, so the gateway returns an error before the function finishes. Consider using an asynchronous pattern: store the file and process it via a queue. Documentation link was supplied. The customer acknowledged and closed the case.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=dishwasher error code>>>
+[Chat - HomeBright Appliances]
+Customer: Dishwasher is showing E24 and won't drain.
+Agent (Szabolcs): E24 usually means a blocked drain hose or filter. Please unplug the machine, remove the bottom rack and clean the filter at the bottom.
+Customer: There was a lot of gunk. Cleaning now...
+Customer: Done. Started a rinse cycle, and it's draining.
+Agent: Excellent. Cleaning the filter monthly prevents this.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=online tutoring refund>>>
+Ticket #TUT-3318
+
+Parent: Ms. Karolina Vincze
+Message: My son missed his tutoring session on 3 Nov because the tutor didn't join. I was still charged.
+
+Response: We apologise. The tutor had a connection problem and the session was not logged as delivered. The 25 EUR charge has been refunded and we have arranged a free replacement session, which we have offered for Thursday at 17:00. Please confirm if that works.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=telehealth video visit>>>
+Patient support #TH-7740
+
+Patient: Mr. Rudolf Bauer
+Concern: Could not join video appointment at 09:30, saw "waiting room closed."
+
+Support: The appointment link had been generated for 9:30 AM Eastern time, a time zone setting error. Dr. Lenz has rebooked you for today at 14:15. A new link was sent by email and SMS. We've corrected the time zone setting in your profile.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=mattress return>>>
+Chat log - Slumber Co.
+
+Customer (Eddie): I've had the mattress for 20 days and it's too firm. Can I return it?
+Agent (Margo): Yes! We have a 100-night trial. We'll arrange a free pickup and refund you in full.
+Customer: Do I need the original packaging?
+Agent: No, we collect it as it is. Pickup slots next week are Tuesday and Wednesday.
+Customer: Wednesday morning, then.
+Agent: Booked. A refund follows 5-7 days after collection.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=bus pass lost>>>
+Customer Service Record - City Transit
+
+Passenger: Ms. Natasa Jovanovic
+Issue: Lost monthly pass (number 20-448-190), still 18 days valid.
+
+Handled by counter staff: Pass blocked at 10:12. A replacement card issued for a 5 EUR fee; the remaining validity was transferred to the new card. Passenger was advised to register the card online to avoid the fee next time.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=webshop wrong invoice>>>
+Ticket WS-1177
+
+Customer: Kozma & Fia Bt.
+Complaint: The invoice shows the wrong VAT number.
+
+Accounting: We apologise. The VAT number was entered with a typo (last digit). We have cancelled invoice 2026-8841 and issued a corrected invoice 2026-8852 with the right VAT number. Both documents have been emailed, and the cancellation has no impact on your payment.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=video game download>>>
+[Live chat - PixelForge Games]
+Customer (Joel): Game 'Starlit Reach' stuck at "Updating 99%".
+Agent (Rina): Please try "Verify game files" in the launcher.
+Customer: Found 3 corrupted files, redownloading.
+Customer: Finished and the game starts!
+Agent: Glad it worked. Also, a 2.1 patch will be released next week which improves loading times.
+Customer: Awesome, thanks.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=home visit nurse scheduling>>>
+Care coordination ticket #CC-2051
+
+Client: Mrs. Ilona Boda
+Request from family: the nurse visit on Thursday needs to be earlier; Mrs. Boda has a doctor's appointment at 11:00.
+
+Coordinator (Hedvig): Moved the visit from 10:30 to 08:30 with nurse Ágnes. She will bring the usual supplies and check blood pressure. The family has been informed by phone, and the updated care plan is in the portal.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=cloud storage quota>>>
+Support ticket #CS-5509
+
+User: Mikhail Orlov
+Question: "Storage says 100% full but I only have 40 GB of files on a 50 GB plan."
+
+Reply: Your plan includes 50 GB shared among files, email and photo backups. Photo backups from your phone account for 11 GB, and the trash holds 3 GB. Emptying the trash will free that space immediately. You can also upgrade to 200 GB for 2.99 per month.
+User: Emptied trash. Fixed.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=garden centre return>>>
+Customer chat - Greenfield Garden Centre
+
+Customer (Bertha): I bought a pot of rosemary and it died in a week. Can I get a replacement?
+Agent (Sam): I'm sorry! Plants have a 30-day guarantee. Please bring it with your receipt, and we'll exchange it.
+Customer: I've lost the receipt but paid by card.
+Agent: No problem; we can look up the purchase with your loyalty card number or the last 4 digits of your card.
+Customer: Perfect, I'll come tomorrow.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=pension statement query>>>
+Enquiry 2026/PN/10442
+
+Member: Mr. Gerald Fitzwilliam
+Query: Statement shows my contributions as 3,120 for the year but my payslips total 3,600.
+
+Response: Your employer submitted November's contribution late; it will appear on your next statement. We have confirmed receipt of 11 months (3,300) with the last two months processed together in December. A revised statement can be sent on request. No investment impact is expected.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=printer cartridge compatibility>>>
+Pre-sales chat 11:31
+
+Customer: Will cartridge XL-510 work in my Inkwell 3200?
+Agent (Pal): The 3200 uses XL-512; XL-510 is for the 2xxx series, so it won't fit. I'd recommend XL-512 black, 14.90, or the combo pack at 39.90.
+Customer: Combo pack, then.
+Agent: Good choice, it's about 20% cheaper per page. I can add it to your basket if you'd like.
+Customer: Please do.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=taxi overcharge>>>
+Complaint ID TX-1904 | RideNow
+
+Passenger: Katinka Olah
+Trip: 3 Nov, 23:10, Airport to Vaci Street. Fare 9,800 HUF; expected about 7,500.
+
+Review: GPS trace shows a detour of 6 km due to a road closure which the driver followed from the navigation system. The fare has been recalculated for the direct route and 2,100 HUF refunded to the passenger's card. Driver feedback recorded.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=conference badge reprint>>>
+Onsite desk log - InnoWeek Expo
+
+Attendee: Dr. Sigrid Aalto
+Problem: Badge shows the wrong organisation (Aalto Univ. instead of Aalto Biotech).
+
+Resolution: Corrected in the registration system and a new badge printed at 09:42. The old badge was collected and shredded. Attendee also asked about the gala dinner; confirmed on the list for Table 12.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=paint colour mismatch>>>
+Ticket 3345 | ColorWorks Paints
+
+Customer: Mr. Oskar Dahl
+Issue: The paint I mixed in "Sea Mist" looks greener than the sample card.
+
+Advisor: Colour appears different on large surfaces and under different lighting. Batch check shows the tint was mixed correctly (code SM-204, within tolerance). We offered a free 0.5 L tester pot in "Sea Mist Light" for a test patch. Customer accepted and will return unopened tins within 14 days if undecided.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=co-working desk access>>>
+[Chat - Hubspace Coworking]
+Member (Lydia): My key card isn't opening the 3rd-floor door.
+Community manager (Bence): Hi Lydia! Your plan is Hot Desk (ground and 1st floor). The 3rd floor is for dedicated desks only.
+Member: Ah, I thought I could use the quiet room there.
+Bence: You can book the 1st-floor quiet room through the app. Alternatively, you can upgrade to a dedicated desk for 90 EUR more per month.
+Member: I'll stick with the quiet room. Thanks!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=hosting website down>>>
+Priority ticket #HST-90321
+
+Customer: Pavel Sokolov (pavelsokolov-photo.test)
+Report: Website returns 503 since 7:30.
+
+Status log:
+07:52 - Reviewed: PHP worker pool exhausted by a bot flood
+08:10 - Blocked offending IP ranges and increased worker limit
+08:25 - Site is online
+Recommended enabling the caching plugin and the firewall rules we've suggested. Ticket closed after customer confirmation at 08:40.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=wedding venue enquiry>>>
+Enquiry thread - Castle Rosenau Events
+
+Couple: Eva and Christian Lehner
+Question: Is the garden terrace available for a ceremony on 12 June 2027, for about 80 guests? What are the costs?
+
+Reply (Events manager Sabine): Yes, the date is available. The terrace and ceremony setup are 1,800 EUR, and the banquet room for 80 guests with menu starts at 95 EUR per head. We can hold the date for 10 days. Would Saturday afternoon be good for a visit?
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=password manager sync>>>
+Ticket #PM-0072
+
+User: Delia Moraru
+Problem: New passwords saved on my laptop aren't appearing on my phone.
+
+Support: Sync is paused on the phone since the app was updated; the permission "Run in background" was reset. Re-enable it in phone settings and open the app once. Support also checked the server: all 18 items are on the account. User confirmed the sync works.
+Status: Resolved
+<<<END>>>

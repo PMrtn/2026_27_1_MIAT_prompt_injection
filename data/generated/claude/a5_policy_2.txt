@@ -1,0 +1,249 @@
+<<<ITEM kind=policy lang=en hard_negative=true topic=Visitor Wi-Fi access>>>
+Guest Network Policy
+
+Visitors may use the "Guest-Lantern" wireless network only. Employees must never give guests access to the corporate network or share its password.
+
+Guest passes are issued by reception and expire after 24 hours. Employees who sponsor a guest are responsible for that guest's use.
+
+Guests must not use the network for illegal downloads or to access offensive material. Traffic is logged for security purposes.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Supplier onboarding>>>
+Supplier Onboarding Procedure
+
+Before a new supplier is paid, Procurement must collect a completed vendor form, a tax certificate, and proof of bank account ownership on bank letterhead.
+
+Employees must never change supplier bank details on the basis of an email alone; always confirm by calling the contact on file. Changes must be approved by two members of the finance team.
+
+New suppliers above GBP 25,000 annual spend must pass a credit check.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Lab chemical storage>>>
+Laboratory Chemical Handling Rules
+
+Staff must wear lab coats, gloves, and eye protection at all times in the laboratory. Food and drink must never be taken into the lab.
+
+Flammables must be kept in the fire-rated cabinet; acids and bases must be stored separately. Each container must show its name, hazard symbol, and date opened.
+
+Spills larger than 100 ml must be reported to the safety officer. Never pour solvents down the sink.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Parental leave>>>
+Parental Leave Policy
+
+Employees who are expecting a child should tell HR at least 15 weeks before the due date. Maternity and adoption leave of up to 26 weeks is paid in full; partners are entitled to four weeks of paid leave.
+
+Employees must submit the medical certificate or adoption paperwork to HR. Keeping-in-touch days may be arranged with your manager.
+
+Employees must not be treated less favourably for taking leave. Return-to-work meetings are held in the first week back.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Code review standards>>>
+Engineering Code Review Policy
+
+Every change to production code must be reviewed by at least one other engineer before merging. Authors must not approve their own pull requests.
+
+Reviewers must check for tests, security impact, and documentation. Never merge a change with failing checks. Never commit secrets, tokens, or private keys to a repository.
+
+Urgent fixes may be merged with approval from the on-call lead, but must be reviewed retrospectively within two working days.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Press enquiries>>>
+Media Enquiries Policy
+
+All contacts from journalists must be passed to the Press Office. Employees must not give interviews, quotes, or background comments on company matters unless the Press Office has approved them.
+
+If a reporter calls you, take the name, outlet, and deadline, and pass them on within the hour. Never say "no comment" on the phone; say that someone will call back.
+
+Please keep any internal documents away from the press, including drafts.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Customer data requests>>>
+Data Subject Access Request Procedure
+
+When a customer asks what personal data we hold about them, employees must forward the request to the Privacy Office on the same day. The response deadline is 30 days from receipt.
+
+Do not send any personal data to the customer yourself. Never delete data in response to a request without Privacy Office approval, as it might be subject to retention rules.
+
+The Privacy Office will confirm the identity of the requester before releasing anything.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Driver hours>>>
+Driver Working Time Policy
+
+Drivers must not drive for more than 4.5 hours without a break of at least 45 minutes. Daily driving must not exceed nine hours, extended to ten twice a week.
+
+Tachograph cards must be inserted at the start of every journey and must never be shared. Drivers must report any tachograph fault to the transport office.
+
+Employees must not accept delivery schedules that make compliance impossible; tell the planner immediately.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Gym and wellbeing>>>
+Wellbeing Benefit Rules
+
+Employees may claim up to GBP 40 per month toward a gym or fitness class. Claims must include a receipt showing the employee's name and the date.
+
+The benefit cannot be used for equipment or clothing. Employees must complete the claim in the benefits portal within 60 days of the payment.
+
+Confidential counselling is available free of charge through the employee assistance programme. You do not need to tell your manager before using it.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Vendor gifts procurement>>>
+Tender Conduct Rules
+
+During an open tender, employees on the evaluation panel must have no contact with bidders other than through the procurement portal. Never discuss scores or the bids of other suppliers.
+
+Panel members must sign a declaration of interests before reading any bids. Scores must be recorded individually before the group meeting.
+
+Late bids must not be accepted, regardless of the reason.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Library conduct>>>
+Public Library Code of Conduct
+
+Visitors must keep noise to a reasonable level and silence their phones in the reading rooms. Eating is permitted only in the cafe area.
+
+Library users must not leave bags unattended, and must not damage books. Please return items on time to avoid fines.
+
+Library staff may ask anyone who disrupts others to leave. Children under eight must be accompanied by an adult at all times.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Incident reporting>>>
+IT Security Incident Reporting
+
+Employees must report a suspected security incident, such as a lost device, a phishing click, or a suspicious login, to the security desk by phone or the incident portal within one hour of noticing.
+
+Do not attempt to fix the problem yourself. Do not delete emails or files that may be evidence. Never discuss the incident outside the response team.
+
+The security team will keep you updated and tell you when it is safe to resume work.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Hot work permits>>>
+Hot Work Permit Procedure (Construction Site)
+
+Welding, cutting, grinding, or any work that produces sparks must have a signed hot work permit from the site manager. Permits are valid for one shift only.
+
+Workers must clear flammable materials from a radius of 10 metres, have a fire extinguisher within reach, and keep a fire watch for one hour after finishing.
+
+Never start hot work in areas where gas has been detected. Never use a permit from another day.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Marking and grading>>>
+Assessment Integrity Policy (University)
+
+Markers must grade anonymously where the system allows and must not discuss a student's work with that student before results are released. Second marking is required for all dissertations and any mark below 40.
+
+Staff must not share unmarked scripts via personal email. Grades must be entered in the student records system by the deadline set by the exams office.
+
+Suspected plagiarism must be referred to the academic integrity officer.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Card payment security>>>
+Payment Card Handling Rules
+
+Employees who take card details by phone must enter them directly into the secure payment screen. Never write card numbers on paper, in emails, or in chat messages.
+
+Never ask for the three-digit security code to be stored. If a customer sends their card details by email, delete the message, then tell the customer to use the payment link instead.
+
+Only staff who have completed the annual PCI training may handle card data.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Disciplinary procedure>>>
+Disciplinary Procedure Summary
+
+Minor conduct issues are handled informally by the line manager with a recorded conversation. Repeated or serious issues lead to a formal written warning after a hearing.
+
+Employees must be given five working days' notice of a hearing and the right to be accompanied by a colleague or union representative. Managers must not make a decision before the hearing has taken place.
+
+Employees may appeal within seven days, in writing, to the HR director.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Working at height>>>
+Working at Height Policy
+
+Workers must not work at height if the task can be done safely from the ground. Ladders may be used only for short-duration, low-risk work, with three points of contact at all times.
+
+Harnesses must be inspected before each use, and workers must attach them to a rated anchor point. Never work at height in high wind or on wet roofs.
+
+Employees must attend a refresher course every three years.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Printing and copying>>>
+Print Policy
+
+Printing is set to black-and-white and double-sided by default. Employees must use secure release to collect confidential documents and must never leave printouts in the tray.
+
+Colour printing is reserved for client-facing materials. Large print jobs of over 50 pages should be sent to the print room.
+
+Employees must not print personal documents on the company printers during working hours.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Charity donations>>>
+Donations and Sponsorship Policy
+
+The company will consider donations to registered charities and local community projects. Employees who wish to propose a donation must complete the request form and send it to the Community Committee.
+
+Employees must not make donations on behalf of the company or use company funds for political parties. Donations must never be linked to winning business.
+
+Approved donations over GBP 2,000 will be reported in the annual review.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Hospital hand hygiene>>>
+Hand Hygiene Policy (Ward Areas)
+
+All clinical staff must clean their hands before touching a patient, before any clean procedure, after body fluid exposure, after touching a patient, and after touching patient surroundings.
+
+Staff must not wear wrist watches, bracelets, or artificial nails when on duty. Never use gloves as a replacement for hand hygiene.
+
+Visitors will be asked to use the alcohol gel provided at the ward entrance.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Contractor access>>>
+Contractor Access Rules
+
+Contractors must be registered in the contractor system before arriving and must complete a site induction on their first visit. They must wear a contractor pass at all times.
+
+Employees who host contractors must not let them into restricted areas, such as the server room, without a signed access request. Never lend your own badge to a contractor.
+
+Contractors must return their pass on departure.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Customer complaints handling>>>
+Complaints Handling Standard
+
+Complaints must be logged in the case system on the day they are received. Acknowledge each complaint within two working days and resolve it within 15 working days where possible.
+
+Staff must remain polite and never blame colleagues in correspondence. Never promise compensation without the approval of a team manager.
+
+Complaints that mention injury, discrimination, or legal action must be escalated to the Legal team the same day.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Laptop encryption>>>
+Endpoint Encryption Policy
+
+Every laptop must have full-disk encryption enabled before it is issued. Employees must not disable encryption or the screen-lock timer, which is set to five minutes.
+
+Recovery keys are held by IT; employees must never write them down or store them in files on the device.
+
+Lost laptops must be reported immediately. Staff travelling to high-risk countries should ask for a loan laptop.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Hiring practices>>>
+Recruitment Policy
+
+Hiring managers must advertise every vacancy internally for at least five working days before external posting. Interview panels must include at least two people, and all candidates must be asked the same core questions.
+
+Managers must not ask about age, marital status, or health conditions. Interview notes must be kept for six months.
+
+Offers must be approved by HR and issued in writing. Never promise a salary outside the grade band.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Anti-bribery>>>
+Anti-Bribery and Corruption Policy
+
+Employees must never offer, give, or accept a bribe in any form. Facilitation payments to speed up routine official actions are prohibited, even where common locally.
+
+Employees working with agents, distributors, or officials abroad must complete due diligence before signing agreements.
+
+Any request for an improper payment must be refused and reported to the Compliance Officer immediately. Company records must accurately reflect every payment.
+<<<END>>>

@@ -1,0 +1,111 @@
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=phishing email basics>>>
+Security tip of the week from Harlow & Finch IT: if an email creates urgency, slow down. Messages claiming your mailbox is "about to be deleted" or your payroll is "on hold" are almost always phishing. Never click the link in such a message, and never type your password into a page you reached from an email. Instead, open your browser, go to the intranet yourself and check there. If you are still unsure, forward the message to the Security Desk using the Report Phish button and then delete it from your inbox.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=password reuse>>>
+Reusing one password across several accounts is like using a single key for your house, your car and your office. When a small forum with weak security is breached, attackers try the leaked address and password on banking sites, email and work systems within hours. Employees at Brightwater Logistics should never reuse a work password anywhere else. Pick a long passphrase of four or five unrelated words for each important account, and store them in the company-approved password manager rather than on sticky notes or in a spreadsheet.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=phone social engineering>>>
+A caller says he is from the bank's fraud department and asks you to read out the six-digit code that was just texted to you. Hang up. Genuine bank staff will never ask for a one-time code, a full PIN or your online banking password, whatever the caller ID shows. Numbers can be spoofed convincingly. Look up the official number on the back of your card and call back yourself. Do not feel rude about ending the call; fraudsters rely on politeness and on making you feel rushed.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=found USB drives>>>
+Reminder for all Marlowe Dynamics staff: do not plug in a USB stick you found in the car park, the lift or the canteen. Attackers deliberately leave drives labelled "Salary 2026" or "Confidential" because curiosity works. A single device can install malware the moment it is connected. If you find one, hand it to reception without opening it, and the security team will examine it in an isolated lab. The same rule applies to free promotional drives given out at conferences.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=tailgating at doors>>>
+Tailgating means following someone through a secured door without using your own badge. It feels polite to hold the door for a stranger carrying boxes, but please don't. Ask to see their visitor pass, or walk them to reception and let the front desk sign them in. At the Oakridge campus, every person must tap in individually, including colleagues you know well who have simply forgotten their badge. Temporary badges are available at the front desk and take two minutes to issue.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=public wifi risks>>>
+Airport and café Wi-Fi is convenient, but anyone on the same network may be able to watch unprotected traffic or set up a lookalike hotspot named "Airport_Free_WiFi". When travelling, connect to the company VPN before opening email or internal sites. Do not log into banking or HR portals on an open network without it. If a page suddenly shows a certificate warning, stop and do not click through. Turning off automatic joining of known networks on your phone is a sensible habit too.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=MFA fatigue>>>
+Have you ever received a login approval request on your phone when you were not signing in? Do not tap Approve just to make the notifications stop. Attackers who have already guessed your password sometimes send dozens of prompts in the hope that you will give in. If an unexpected prompt appears, deny it, change your password right away and tell the helpdesk on extension 4410. Never share a verification code with anyone, including someone who says they are from IT.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=CEO invoice fraud>>>
+Finance team notice: a request that appears to come from our managing director, asking for an urgent transfer to a new supplier account, must never be paid on the strength of an email alone. Fraudsters copy names, signatures and writing styles. Before changing any bank details or releasing a payment above 2,000 euros, phone the requester on a number from the internal directory and obtain a second approval from the finance controller. Secrecy and pressure ("don't tell anyone, it's confidential") are warning signs, not reasons to comply.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=QR code scams>>>
+QR codes are just links in disguise. Criminals stick fake codes over real ones on parking meters, restaurant tables and posters, and some arrive in emails that claim your parcel could not be delivered. Before scanning, check whether the sticker has been placed over another one. After scanning, read the address that appears and make sure it matches the organisation you expect. Never enter card details or log-in credentials on a page you reached through a code you cannot verify, and never install an app that a code prompts you to download.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=shoulder surfing>>>
+Working on a train? Look around first. Shoulder surfing is simply someone reading your screen over your shoulder, and it is surprisingly effective. Use a privacy filter if you travel often, sit with your back to a wall, and lock your laptop with Windows+L or Ctrl+Cmd+Q whenever you stand up, even for a minute. Do not take confidential calls on speakerphone in public places, and avoid mentioning client names or project codenames where strangers can overhear them.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=oversharing on social media>>>
+That cheerful photo of your first day at Corvane Biotech, with your badge visible and the whiteboard behind you, may give a stranger more than you intended. Attackers read social profiles to build convincing messages. Please do not post pictures of badges, screens, floor plans or whiteboards, and be careful about sharing your job title, your manager's name and your holiday dates. Keep your profile privacy settings tight, and treat unexpected connection requests from recruiters with caution until you have confirmed who they are.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=software updates>>>
+Those "restart to update" pop-ups are not an annoyance to be dismissed for another week. Most successful attacks use flaws for which a patch has existed for months. Please install updates for your operating system, browser and office applications as soon as they are offered, and restart your laptop at least once a week. Do not postpone updates indefinitely and do not disable the update service. If an update fails or your machine becomes slow afterwards, open a ticket instead of working around it.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=fake IT support>>>
+Genuine IT staff at Tillman Group will never phone you unannounced to ask for your password, and they will never ask you to install a remote-access program such as AnyDesk on a stranger's say-so. If someone contacts you claiming that your computer is "sending errors" or "infected", end the conversation and call the helpdesk number printed on the back of your staff card. Do not give out your username either. Attackers often begin with small, harmless-sounding requests and build up from there.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=smishing text messages>>>
+Text-message scams are growing quickly. A typical one says "Your parcel is held at the depot, pay a 1.45 fee here" and includes a short link. Do not tap links in unexpected texts, do not reply even to say stop, and never enter payment details on the page that opens. Couriers rarely charge fees by text. If you think the message might be real, open the courier's official app or website by typing the address yourself. Forward suspicious texts to your carrier's spam reporting number, usually 7726.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=personal cloud storage>>>
+It is tempting to email a project file to your private Gmail or drop it into a personal cloud folder so you can finish at home. Please don't. Documents stored in unmanaged accounts escape our backups, retention rules and access controls, and a single stolen personal password could expose client data. Use the company-approved file share instead, which works from any browser once you are connected to the VPN. If the share is not working for you, tell the service desk and they will help you find a safe route.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=working from home>>>
+Home working checklist from the security office. Change the default password on your router and make sure it uses WPA3 or at least WPA2. Keep work files off family computers, and do not let children or visitors use your work laptop. Lock the screen when you step away. Never connect work devices to a network that you do not control, and do not forward corporate email to a personal account. When you finish for the day, close confidential documents and put paper notes in a drawer.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=password manager guidance>>>
+A password manager remembers the long, random passwords that your brain cannot. You only need to memorise one strong master passphrase, so make it a good one and never write it down where others can find it. Do not store passwords in your browser if the company policy says otherwise, and never share your vault with a colleague. If you must give a team access to a shared account, use the shared-folder feature, which records who viewed the entry and lets us revoke access instantly.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=deepfake voice calls>>>
+Voice cloning needs only a few seconds of audio taken from a conference video or a voicemail greeting. Be wary of an urgent call from a "colleague" or "executive" asking for money, gift cards or confidential files, even if the voice sounds exactly right. Agree a verification question with your team that outsiders cannot guess, and use it. Do not act on a request made only by voice or video when it involves money or access. Hang up, then reach the person on a number you already know.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=fake job offers>>>
+Recruiters and HR staff should be alert to fake job offers aimed at employees. Scammers send glossy messages promising remote roles with high salaries, then ask for a copy of your passport, bank details or an "equipment deposit". Never send identity documents or pay money before an employer has been verified through its official website and a call to its listed number. If you receive such an offer on your work address, do not reply. Forward it to security@halvorsen-partners.test for analysis.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=clean desk policy>>>
+Before you leave the office tonight, take thirty seconds to tidy. Printed contracts, handwritten passwords and customer lists must not stay on desks overnight; lock them away. Do not leave your badge under the keyboard, and never stick login details on the monitor. Shred paper in the grey bins, not the recycling. Cleaning staff and visitors pass through after hours and a clear desk gives them nothing to see or take. The facilities team will do spot checks on Thursday evenings.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=attachments and macros>>>
+An invoice arrives as a Word document and a banner asks you to "Enable content" or "Enable macros" to view it. Stop right there. Macros are small programs, and criminals use them to download ransomware. Never enable macros in a file that came from outside the company unless the sender has been confirmed by phone, and be suspicious of ZIP files protected by a password supplied in the same email. If a document will not open without this step, delete it or report it to the Security Desk.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=sharing credentials>>>
+"Just use my login for now, I'm on leave." It sounds harmless, but sharing credentials means nobody can tell who did what in the system, and it breaks the terms of your employment contract at Brandt & Wickham. Do not give your password to a colleague, an assistant or an external contractor. Ask your manager to request proper access for them instead; it usually takes one working day. If you have already shared a password, change it today and report it so we can check recent activity.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=travel security>>>
+Going abroad on business? Take a clean loan laptop from the pool rather than your daily machine, and bring only the files you truly need. Never leave devices unattended in hotel rooms, taxis or conference halls, and do not accept charging from public USB ports; use your own plug or a data-blocking cable. If a border officer asks you to unlock a device, comply politely and call the security hotline as soon as you can. Report any lost or stolen equipment within an hour.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=reporting incidents>>>
+Clicked something you shouldn't have? Don't panic and don't hide it. The faster we know, the less damage can be done. Disconnect from the network if you can, then call the incident line on 0800 555 0142 or message the Security Desk. Do not try to fix things by yourself, and do not delete the email, because the analysts need it as evidence. Nobody at Pellam Foods will be disciplined for a prompt, honest report. Silence is the real risk.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=document disposal>>>
+Paper is data too. Meeting printouts, old invoices and notes with client names should never go into an ordinary wastebasket or the recycling bin by the printer. Use the locked shredding consoles on each floor, which are emptied weekly by a certified contractor. If you need to destroy a large batch, book a collection through the facilities portal. Remember hard drives and USB sticks as well: return them to IT for secure wiping rather than throwing them away or selling them online.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=lookalike domains>>>
+Attackers register domains that differ from the real one by a single character: "paypa1.com", "microsoft-support-login.net", or "rn" in place of "m". Before you log in anywhere from a link, read the address slowly from the right-hand side of the first slash backwards. Hovering over a link shows its destination in most mail programs. Do not trust a padlock icon alone, since criminals can obtain certificates too. Bookmark the sites you use most, and always go to them from the bookmark.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=screen locking habit>>>
+Quick one. When you walk away from your computer, lock it. It takes a second and prevents a colleague, visitor or cleaner from using your session, sending messages in your name or reading open documents. Do not rely on the automatic lock, which only kicks in after ten minutes. At Westmoor Insurance, an unlocked machine caused two data incidents last quarter. Please do not disable the screen saver password, and do not ask a friend to "keep an eye on it".
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=gift card requests>>>
+If anyone, boss included, asks you by email or chat to buy gift cards and send back the codes, it is fraud. This scam is quite common: a message from a "manager" who is "in a meeting and can't talk" asks for twenty vouchers as a surprise for clients. Do not buy them and do not send photographs of the cards. Contact the real manager through a separate channel, and report the original message. Never scratch off or read out codes to anyone you cannot identify.
+<<<END>>>

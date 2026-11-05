@@ -1,0 +1,369 @@
+<<<ITEM kind=news lang=en hard_negative=false topic=local bridge reopening>>>
+Old Mill Bridge Reopens After 14-Month Repair
+
+SZEGED - The Old Mill Bridge reopened to traffic on Tuesday morning after a 14-month restoration that cost 1.9 billion Ft. Mayor Katalin Orbán cut the ribbon alongside engineers from the contracting firm Tiszahíd Kft.
+
+The bridge, built in 1912, had been closed after inspectors found corrosion in its steel supports. Cyclists and pedestrians now have a separate lane, and the weight limit has been raised to 20 tonnes.
+
+Local shop owners said the closure had cut trade by up to a quarter. "We are very glad to see the cars again," said baker Imre Sebestyén.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=quarterly earnings>>>
+Norvik Shipping Posts Higher Third-Quarter Profit
+
+Oslo-based Norvik Shipping reported a third-quarter net profit of 212 million NOK, up 18% from the same period last year, as higher freight rates offset rising fuel costs.
+
+Revenue rose to 3.1 billion NOK. Chief executive Solveig Aasen told analysts that the company's fleet of 34 vessels had operated at 94% utilisation. The board raised its full-year dividend guidance to 2.40 NOK per share.
+
+Shares closed 3.2% higher in Oslo. Analysts at Nordhavn Securities called the result "solid but unlikely to be repeated if demand softens in the spring."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=exoplanet discovery>>>
+Astronomers Find Rocky Planet in Habitable Zone of Nearby Star
+
+An international team has identified a rocky planet roughly 1.3 times the size of Earth orbiting a red dwarf 38 light years away, according to a paper published this week.
+
+The planet, named Wolf-Kessler b, completes an orbit every 21 days and sits within the zone where liquid water could exist. Lead author Dr. Yusuf Demir of the Istanbul Observatory said follow-up observations with a space telescope are planned for next year to look for an atmosphere.
+
+"It is far too early to speak of life," Demir cautioned. "But it is a very promising target."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=football cup result>>>
+Late Goal Sends Ferencváros Youth Side Into Cup Final
+
+Debrecen - A 89th-minute header from substitute Dániel Mészáros sent Ferencváros' under-19 side into the national youth cup final with a 2-1 win over Debrecen on Wednesday night.
+
+Debrecen led after twelve minutes through a Gergő Tóth penalty, but the visitors equalised on the stroke of half-time. Goalkeeper Noémi Vass made three saves in the closing stages to keep the scores level before Mészáros struck.
+
+The final will be played on 28 November at the Groupama Arena. Coach László Pap praised his players' composure under pressure.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=city library expansion>>>
+Library Opens Late-Night Study Hall for Students
+
+LEEDS - The Central Library has begun opening a study hall until midnight on weekdays, following a petition by more than 1,200 students from the city's universities.
+
+The scheme, funded by a 90,000 GBP grant, provides quiet desks, free printing and access to a night warden. Library director Marcus Pell said usage on the first night was "far beyond our expectations," with 180 visitors recorded.
+
+The pilot will run until June, after which the council will decide whether to make it permanent. Students said the extended hours were especially valuable during exam season.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=art prize winner>>>
+Lisbon Sculptor Wins Mediterranean Art Prize
+
+Lisbon-based sculptor Inês Carvalho has been awarded this year's Mediterranean Art Prize for "Tide Table," a 6-metre installation made from reclaimed ship timber.
+
+The jury, chaired by curator Giorgos Pappas, described the work as "quiet, monumental and unexpectedly tender." The prize carries 40,000 EUR and a solo exhibition at the Museum of Contemporary Art in Athens next autumn.
+
+Carvalho, 41, said she had collected the wood over six years from shipyards along the Tagus. "Every plank has a history," she said. "I wanted people to hear it."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=hospital new wing>>>
+County Hospital Opens New Children's Wing
+
+KAPOSVÁR - The county hospital has opened a new 60-bed children's wing, replacing a 1970s building that staff said was overdue for demolition. The 4.2 billion Ft project was funded jointly by the state and the EU.
+
+The wing includes a dedicated emergency department, a play therapy room and rooms for parents to stay overnight. Chief paediatrician Dr. Gabriella Szalai said the changes would shorten waiting times for children needing specialist care.
+
+Patients will be transferred in stages during the next two weeks. The old building will be demolished in the spring.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=harvest yield report>>>
+Wine Harvest Smaller but Higher Quality, Growers Say
+
+Wine growers in the Tokaj region report that this year's harvest is about 15% smaller than average, but the quality of the grapes is excellent.
+
+A dry August and warm September concentrated sugars in the fruit. "The acid balance is the best we have seen in a decade," said winemaker Rita Csányi of the Kővágó estate. Frost in April had already reduced yields in lower vineyards.
+
+Prices for bulk wine are expected to rise by up to 8%. The region's growers' association will release official figures at the end of November.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=tech layoffs>>>
+Berlin Software Firm Cuts 120 Jobs in Restructuring
+
+Berlin - Software company Kronwerk AG announced on Thursday that it will cut 120 jobs, around 9% of its workforce, as it shifts focus from consumer apps to enterprise products.
+
+Chief executive Jana Liebermann said the decision was "difficult but necessary" following two years of declining app revenue. Affected employees will be offered severance packages and help finding new roles.
+
+The works council said it would negotiate for longer notice periods. Kronwerk said it expects the restructuring to be completed by the end of March and to save 14 million EUR annually.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=marathon results>>>
+Kipchoge-Style Finish as Kenyan Wins Budapest Marathon
+
+Kenya's Samuel Kiprono won the Budapest Marathon on Sunday in 2:08:41, breaking the course record by 34 seconds. He pulled clear at 35 km and finished almost two minutes ahead of Ethiopia's Dawit Mekonnen.
+
+In the women's race, Hungarian runner Anna Fazekas finished third in 2:29:52, her personal best and a national season's best. Temperatures of 9 degrees Celsius and little wind made for ideal conditions.
+
+More than 14,000 runners took part. Organisers said next year's race would introduce an additional half-marathon wave to reduce congestion at the start.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=housing market report>>>
+Home Prices Rise 5.4% in Third Quarter, Agency Says
+
+Residential property prices in Budapest increased 5.4% year on year in the third quarter, according to figures from the Central Statistical Office, slightly slower than the 6.1% rise recorded in the second quarter.
+
+Prices outside the capital grew faster, at 7.2%, driven by demand in towns near Lake Balaton. The average price per square metre in Budapest reached 1.04 million Ft.
+
+Analysts said high mortgage rates are cooling the market, but limited supply keeps prices firm. Transactions fell 3% compared with the previous quarter.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=school lunch programme>>>
+Free School Lunches Extended to All Primary Pupils
+
+The education ministry announced on Monday that free school meals will be extended to every primary school pupil from next September, a move affecting roughly 420,000 children.
+
+Minister Péter Antal said the programme will cost 38 billion Ft annually and will prioritise locally sourced vegetables and dairy. Teachers' unions welcomed the decision, but caterers warned that kitchens in small villages might need investment.
+
+Pilot schemes in six counties found that attendance improved and afternoon concentration was better. Opposition parties asked how the plan would be funded.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=wind farm approval>>>
+Council Approves Offshore Wind Farm Off Danish Coast
+
+The Danish Energy Agency has approved a 600-megawatt offshore wind farm to be built 25 km off the coast of Jutland. Construction is scheduled to begin in 2028, with the first turbines delivering power in 2030.
+
+The project, led by energy company Vindal and pension fund partners, will include 40 turbines and supply electricity to roughly 600,000 homes. Local fishermen's groups raised concerns about access to fishing grounds, and the developer promised compensation.
+
+Environment minister Karen Holm called the approval "a major step toward our 2035 climate goals."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=theatre premiere>>>
+Nemzeti Stages a Bold New "Cherry Orchard"
+
+The National Theatre opened its season on Friday with a stripped-down production of Chekhov's "The Cherry Orchard," directed by Eszter Kelemen. Set on a bare stage with a single tree suspended from the ceiling, the staging puts emphasis on language and silence.
+
+Critics were broadly positive. Reviewer Tamás Gáspár praised lead actress Dóra Hajdú as "devastating and funny in equal measure," though some found the three-hour running time long.
+
+The production runs until January, with matinee performances on Sundays. Tickets start at 3,500 Ft.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=data breach disclosure>>>
+Regional Retailer Confirms Customer Data Incident
+
+Midlands retailer Hartley & Gray confirmed on Wednesday that an unauthorised party accessed an internal marketing database, exposing names and email addresses of approximately 85,000 customers.
+
+The company said no payment details or passwords were affected. It notified the Information Commissioner's Office within 72 hours and began contacting affected customers by email.
+
+A spokesperson said the vulnerability, in a third-party email tool, had been fixed. Customers are advised to be alert to unexpected messages. An independent forensic review is under way.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=city bike scheme>>>
+Bike-Share Scheme Hits One Million Rides
+
+Vienna's public bike-share system reached its one-millionth ride this week, just 11 months after launch. The milestone was marked with a free coffee for the rider, 27-year-old nurse Lena Gruber.
+
+The scheme has 4,200 bikes and 380 docking stations. Most trips are under 20 minutes, and usage peaks at the morning and evening commutes. City transport councillor Martin Weiss said the operator would add 60 stations in the outer districts next spring.
+
+A winter service plan will keep half the fleet available through the cold months.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=vaccine trial results>>>
+Trial Shows New Flu Vaccine Cuts Hospitalisations by 41%
+
+A large clinical trial involving 22,000 adults over 65 has shown that a new high-dose flu vaccine reduced flu-related hospital admissions by 41% compared with the standard dose, researchers reported in a medical journal on Tuesday.
+
+The trial ran across 90 centres in seven countries over two winters. Side effects were mostly mild, including sore arms and fatigue.
+
+Dr. Henrik Sørensen of Aarhus University, who led the study, said the findings could influence national immunisation programmes. Regulators are expected to review the data in the first half of next year.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=airline route launch>>>
+Budget Carrier Adds Debrecen-Dublin Route
+
+Low-cost airline Shamrock Air will launch a twice-weekly service between Debrecen and Dublin from 1 April, the company announced. Fares will start at 39 EUR one way.
+
+Flights will operate on Tuesdays and Saturdays using 189-seat Boeing 737s. Debrecen airport manager Gábor Nyitrai said the route would serve a large community of Hungarian workers in Ireland as well as students and tourists.
+
+The airport has seen passenger numbers grow 22% this year. Shamrock said it may add a third weekly flight in summer if demand is strong.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=chess tournament>>>
+Teenager Stuns Grandmaster at Tbilisi Open
+
+Fifteen-year-old Nino Beridze of Georgia defeated top seed Grandmaster Viktor Hellström in the fifth round of the Tbilisi Open on Tuesday, a result that sent a murmur through the playing hall.
+
+Beridze, rated 2,310, sacrificed a pawn early and unleashed a combination on the kingside that forced resignation on move 38. "I just kept calculating," she said afterwards, smiling shyly.
+
+She now shares the lead with two other players on 4.5 points. The tournament concludes on Saturday with four more rounds still to play.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=farm subsidy update>>>
+Farmers to Receive Drought Support Payments in December
+
+Hungarian farmers affected by this summer's drought will receive emergency support payments of up to 50,000 Ft per hectare beginning in mid-December, the agriculture ministry announced.
+
+Around 18,000 farms in the Great Plain counties are eligible, with a total budget of 12 billion Ft. Applications must be submitted online by 30 November.
+
+The farmers' union welcomed the move but said the amount covers only part of the losses. Maize yields in some areas fell by more than 40%, according to industry estimates.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=museum donation>>>
+Collector Donates 300 Medieval Manuscripts to University
+
+A retired banker from Zurich, Rudolf Brenner, has donated his collection of 300 medieval manuscripts and early printed books to the University of Basel, the university said on Thursday.
+
+The collection includes a 13th-century psalter, a rare herbal and several illuminated prayer books. Brenner, 82, assembled the collection over fifty years. "These books should be read, not locked in a vault," he said.
+
+The university plans to digitise the entire collection and make it freely accessible online by 2029. A public exhibition of highlights is scheduled for next autumn.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=power outage storm>>>
+Storm Leaves 40,000 Homes Without Power in Western Hungary
+
+Strong winds with gusts of up to 110 km/h swept across western Hungary overnight, knocking out electricity to some 40,000 households in Győr-Moson-Sopron and Vas counties.
+
+Network operator reported that crews worked through the night, and by midday on Thursday power had been restored to about 28,000 homes. Fallen trees blocked several minor roads, and rail services between Győr and Sopron were suspended for three hours.
+
+No injuries were reported. The meteorological service said conditions would ease by the evening but warned of icy patches on Friday morning.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=startup accelerator>>>
+Accelerator Picks Eight Startups for Winter Cohort
+
+The Danube Launchpad accelerator has named eight startups for its winter programme, selected from 340 applications. The cohort includes a company that makes biodegradable fishing nets, a medical-scheduling platform and a drone-mapping service for vineyards.
+
+Each team will receive 50,000 EUR in funding and four months of mentoring. Programme director Ágnes Rózsa said the standard of applications had risen sharply this year.
+
+The cohort will present at a demo day on 24 March in Budapest, where investors from across Central Europe are expected to attend.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=rail line electrification>>>
+Electrification of Szeged-Hódmezővásárhely Line Completed
+
+The 27 km railway line between Szeged and Hódmezővásárhely has been fully electrified, the national railway company said on Monday. Electric trains will replace diesel units from the December timetable change.
+
+The 24 billion Ft project also included new platforms, level-crossing upgrades and step-free access at five stations. Journey times will fall from 32 to 26 minutes.
+
+Commuters welcomed the changes. "The old trains were slow and noisy," said student Boglárka Szűcs, who travels daily. A free open day with train rides is planned for 5 December.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=olympic qualifier>>>
+Hungarian Swimmers Qualify Relay Team for Games
+
+Hungary's women's 4x100 metre freestyle relay team secured qualification for next year's Olympic Games with a national-record time of 3:35.12 at the European qualifier in Madrid on Saturday.
+
+The team, comprising Boglárka Kapás, Dalma Sebestyén, Flóra Nagy and Lili Vörös, finished second behind the Netherlands. Coach Zoltán Hegedűs said the result was a reward for two years of training camp work.
+
+Individual qualification races continue next month in Budapest, where several swimmers hope to secure additional places.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=bank interest rates>>>
+Central Bank Holds Base Rate at 6.5%
+
+The Hungarian National Bank kept its benchmark interest rate unchanged at 6.5% on Tuesday, in line with analysts' expectations, citing persistent services inflation and uncertainty in global markets.
+
+Annual inflation slowed to 4.3% in October from 4.8% in September. Governor Mihály Varga told reporters that the monetary council would consider rate cuts "when the data justify it, not before."
+
+The forint was little changed after the decision, trading at 389 against the euro. The next rate meeting is scheduled for 24 November.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=zoo animal birth>>>
+Baby Red Panda Born at Veszprém Zoo
+
+Keepers at Veszprém Zoo are celebrating the birth of a red panda cub, the first in the zoo's history. The cub, born on 18 October, is doing well and is being cared for by its mother, Mirri.
+
+The zoo said it would remain out of sight in its nesting box for another few weeks. Visitors can watch the family on a live camera on the zoo's website.
+
+Red pandas are endangered in the wild, with fewer than 10,000 thought to remain. Zoo director Ildikó Balog said the birth was part of a European breeding programme.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=municipal election>>>
+Turnout Low in Municipal By-Election
+
+Just 23% of eligible voters cast their ballots in Sunday's by-election for the vacant council seat in Ward 4, officials said. Independent candidate Zoltán Boros won with 41% of the vote, ahead of the ruling party's candidate on 36%.
+
+The seat became vacant after the previous councillor moved abroad. Election commissioner Edit Lázár attributed the low turnout to cold weather and voter fatigue.
+
+Boros said his first priority would be improving pavements around the primary school. He will be sworn in at the next council meeting on 17 November.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=supply chain disruption>>>
+Port Strike Delays Container Shipments Across Northern Europe
+
+A three-day strike by dock workers in Antwerp and Hamburg has left more than 60 container ships waiting offshore, according to shipping data firm MarineWatch. Retailers have warned that deliveries of winter goods could be delayed by up to two weeks.
+
+Union leaders say the dispute centres on pay and automation plans. Employers described their offer as "generous."
+
+Logistics firms are rerouting some cargo through Rotterdam and Gdańsk, though capacity there is also limited. Talks are scheduled to resume on Monday.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=science medal award>>>
+Hungarian Chemist Receives International Medal
+
+Professor Ilona Fülöp of the University of Szeged has been awarded the Curie-Sklodowska Medal for her work on catalysts that make plastic recycling more efficient.
+
+Her team's process breaks down mixed polyester waste at lower temperatures than existing methods, cutting energy use by roughly a third. A pilot plant is now operating in Győr.
+
+"Science is a team sport," Fülöp said at the ceremony in Warsaw. "This medal belongs to my students as much as to me." She will deliver a lecture at the Hungarian Academy of Sciences next month.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=food festival>>>
+Thousands Flock to Street Food Festival in Cluj
+
+More than 25,000 people attended the weekend street food festival in Cluj-Napoca, which brought together 80 vendors from Romania, Hungary and Serbia.
+
+Crowd favourites included grilled sausages from Transylvania, chimney cakes in unusual flavours and a vegan langos stand that sold out by Saturday afternoon. A cooking competition for amateur chefs was won by retired teacher Maria Pop with her stuffed cabbage.
+
+Organiser Andrei Marinescu said the event, now in its fifth year, had doubled in size since 2022. Plans are under way for a spring edition.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=consumer protection fine>>>
+Regulator Fines Telecom Provider Over Misleading Contracts
+
+The consumer protection authority has fined mobile operator Zenith Telecom 450 million Ft for misleading advertising of its "unlimited" data plans, which in practice slowed speeds after 30 GB.
+
+Investigators said the company failed to make this limit clear in its adverts and contracts. About 600,000 customers were affected.
+
+Zenith said it would appeal. It has been ordered to change its advertising and to inform customers in writing within 60 days. Consumer group spokesperson Réka Dobos welcomed the ruling as "a signal to the whole industry."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=robotics competition>>>
+School Robotics Team Wins Regional Title
+
+A team of five students from Bethlen Gábor Secondary School in Hódmezővásárhely won the regional robotics championship on Saturday with a robot that can sort recycling by material.
+
+The team, mentored by physics teacher Judit Szabados, beat 26 rivals in the final. Their machine uses a camera and a simple neural network to separate paper, plastic and metal with 94% accuracy.
+
+They will compete in the national finals in Győr in March. "We worked through every school holiday," said team captain Márk Lukács. "Winning felt unreal."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=tourism numbers>>>
+Hungary Welcomes Record Number of Visitors
+
+Hungary received 17.8 million foreign visitors in the first ten months of the year, a record, according to the Hungarian Tourism Agency. The increase of 6% over last year was led by tourists from Germany, Austria and Poland.
+
+Spa towns such as Hévíz and Zalakaros saw especially strong growth, while Budapest hotels reported an average occupancy of 74%.
+
+Agency head Eszter Kiss said extended flight connections and increased cultural events had contributed to the result. The sector, however, faces a shortage of seasonal workers.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=pharmacy shortage>>>
+Pharmacies Report Shortage of Children's Fever Medicine
+
+Pharmacists across the country say that supplies of liquid paracetamol for children are running low, as the winter respiratory season begins early.
+
+The Chamber of Pharmacists said that one supplier had delayed a shipment because of a production issue, and that deliveries would normalise within two weeks. In the meantime, pharmacies are offering alternative forms such as suppositories.
+
+Parents are advised to consult a pharmacist about suitable alternatives and not to stockpile. The medicines agency said it is monitoring the situation closely and has authorised additional imports.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=film award>>>
+Polish Drama Takes Top Prize at Film Festival
+
+"The Quiet Orchard," a Polish drama directed by Magdalena Wrona, won the Golden Prize at the Karlovy Vary film festival on Saturday night. The film follows a widowed farmer who forms an unlikely friendship with a young Ukrainian migrant worker.
+
+The jury called it "a patient, humane portrait of loneliness and solidarity." The best actor award went to Italian performer Matteo Ferri for his role in a family comedy.
+
+More than 130 films were screened to about 120,000 visitors during the nine-day event.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=road safety campaign>>>
+Traffic Deaths Fall to Lowest Level in Decades
+
+Road fatalities in Hungary fell by 11% in the first nine months of the year, reaching the lowest level since records began, the national police headquarters said.
+
+Officials credited more speed cameras, stricter penalties for mobile phone use and improved road markings. Motorcycle deaths, however, rose slightly.
+
+The interior ministry plans to launch a new campaign aimed at young drivers in December. Road safety expert Dr. Csaba Pintér said that continued reductions would require investment in rural roads, where most fatal accidents still occur.
+<<<END>>>

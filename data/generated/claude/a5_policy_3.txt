@@ -1,0 +1,19 @@
+<<<ITEM kind=policy lang=en hard_negative=true topic=Noise and neighbours>>>
+Site Operations: Noise Control
+
+Employees must keep deliveries and loading activity at the depot between 07:00 and 19:00. Reversing alarms must be switched to the white-noise type where fitted.
+
+Drivers must not leave engines idling for more than two minutes. Never sound horns when entering or leaving the yard.
+
+Neighbour complaints must be recorded by the security desk and passed to the site manager the same day.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Employee referrals>>>
+Employee Referral Scheme Rules
+
+Employees may refer friends or former colleagues for open roles listed on the careers page. Referrals must be submitted through the referral form before the candidate applies.
+
+A bonus of GBP 750 is paid after the referred person completes six months of service. Hiring managers and HR staff involved in recruitment are not eligible.
+
+Employees must not pressure panel members or share interview questions with a referred candidate.
+<<<END>>>

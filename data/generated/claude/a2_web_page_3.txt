@@ -1,0 +1,365 @@
+<<<ITEM kind=web_page lang=en hard_negative=false topic=coffee roaster>>>
+Small Batch, Big Flavour: Meet Ember Coffee Roasters
+
+Ember roasts in 12 kg batches every Tuesday and Friday in a converted garage in Szeged. Founder Dóra Lengyel buys green beans directly from three cooperatives in Colombia, Ethiopia and Guatemala.
+
+Subscriptions: choose a 250 g or 1 kg bag every two or four weeks, delivered by post. Prices start at 3,900 Ft.
+Tasting notes this month: Ethiopia Guji (blueberry, jasmine), Colombia Huila (caramel, red apple).
+
+Visit the roastery on Saturdays from 9:00 to 13:00 for a free cupping session.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=bus strike notice>>>
+Industrial Action: Service Disruption on 12 November
+
+Members of the transport workers' union will take part in a 24-hour strike on Thursday 12 November. As a result, Valley Bus Company expects to run only about 30% of its normal timetable.
+
+Services most likely to operate: routes 1, 4 and 9 during morning and evening peaks. School buses will run as normal.
+
+Tickets and passes remain valid on trains operated by Northern Rail. Refunds for unused day tickets can be requested through the website for 28 days after the strike. We apologise for any inconvenience and will publish live updates from 5:00 on the day.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=pension scheme guide>>>
+Voluntary Pension Savings: The Basics
+
+A voluntary pension fund lets you save for retirement on top of the state pension. Contributions of up to 20% of your annual income can qualify for a tax credit, capped at 130,000 Ft per year.
+
+Funds differ in risk. Younger savers often choose higher-growth portfolios with more shares, moving gradually towards bonds and cash as retirement approaches.
+
+Check the fund's annual charge, which can range from 0.5% to 1.8%. Over thirty years, a one-point difference can reduce your final pot by roughly a quarter. You can usually change providers without penalty after twelve months.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=data centre project>>>
+Building the Kelder Data Centre in Groningen
+
+Construction of the 24 MW Kelder facility reached its halfway point this month. The first two halls, built from prefabricated steel modules, will be ready for customers in March 2027.
+
+Design highlights: free-air cooling for most of the year, rainwater harvesting for the cooling towers and waste heat supplied to a neighbouring greenhouse operation.
+
+The project has created 140 construction jobs and will employ 45 permanent staff. Neighbours can drop in to a public information session on the last Wednesday of each month at the site office.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=cat care advice>>>
+Keeping Your Indoor Cat Happy
+
+Indoor cats live longer and safer lives, but they need stimulation. Provide a tall scratching post, window perches and at least one daily play session of fifteen minutes.
+
+Food puzzles slow down fast eaters and engage natural hunting instincts. Rotate toys every week so they stay interesting.
+
+Annual vet visits should include a dental check, as gum disease is common in cats over four. Fresh water must always be available; many cats prefer a fountain to a bowl. If your cat suddenly hides, stops eating or uses the litter tray differently, see your vet promptly.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=property tax info>>>
+Building Tax and Land Tax: Annual Notices
+
+Owners of residential property will receive their annual local tax notice by 15 March. The tax is calculated on the usable floor area of the building and the area of the land.
+
+Rates for 2027 in our municipality: 1,100 Ft per square metre for buildings and 220 Ft per square metre for land, unchanged from last year. Pensioners over 70 living alone may apply for a 50% reduction.
+
+Payment is due in two instalments: 15 March and 15 September. Payments can be made by bank transfer, at a post office or via the online portal.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=indie game devlog>>>
+Devlog #23: The Lighthouse Update
+
+Hello, lighthouse keepers! This month we finally finished the weather system. Storms now roll in from the west, waves batter the rocks, and your lamp can flicker if you forget to refuel it.
+
+We also fixed 41 bugs, including the infamous one where seagulls dropped through the floor. Thank you to everyone who sent save files.
+
+Next on the list: a new boat for the supply runs, a tutorial rewrite, and Hungarian and Polish translations. The beta opens to Patreon backers on 1 December, with a wider release in the new year.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=swimming pool timetable>>>
+Aqua Centre Siófok - Pool Timetable (Winter)
+
+Lap swimming: Monday to Friday 6:00-8:30 and 17:00-21:00; weekends 8:00-12:00.
+Family swim: Saturday and Sunday 13:00-16:30.
+Aqua aerobics: Tuesday and Thursday 10:00.
+Learn-to-swim lessons for children: Monday and Wednesday 16:00-18:00.
+
+The 25 m pool is heated to 28 degrees Celsius. The leisure pool and sauna are closed for maintenance on 16 and 17 November. Single entry costs 2,200 Ft; a monthly pass is 18,500 Ft. Children under 3 swim free. Swimming caps are mandatory in all lanes.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=physics lecture series>>>
+Public Lecture Series: The Physics of Everyday Things
+
+The Department of Physics invites the public to a four-part evening series on the science behind familiar objects. Lectures are given in plain language and no background is needed.
+
+3 December: How does a microwave oven work? (Dr. Balázs Orosz)
+10 December: Why is the sky blue and the sunset red? (Prof. Hannah Lindgren)
+17 December: Inside a battery (Dr. Samira Qureshi)
+7 January: Why do bridges stand up? (Dr. Peter Wolf)
+
+All lectures start at 18:30 in Lecture Hall 2 and are free of charge. Tea and biscuits are served beforehand.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=company about page>>>
+About Harbor & Finch
+
+Harbor & Finch is an independent architecture studio based in Dublin, founded in 2011 by Niamh Harbor and Tom Finch. Our team of eighteen designs schools, community buildings and homes, always with an eye on low carbon construction.
+
+Selected work includes the Ballycar Primary School extension, the Lough View Library and a net-zero housing scheme in Cork.
+
+We are a certified B Corporation and publish our annual sustainability report on this site. Visitors are welcome at our studio on Pearse Lane by appointment.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=baby products review>>>
+Best Baby Monitors of 2026: Our Tests
+
+We tested nine monitors over six weeks, assessing picture quality, range, battery life and ease of setup. Parents of toddlers and newborns helped with the trials.
+
+Top pick: the Lumi Watch 360, with a sharp night-vision picture, a 10-hour battery and a simple app. Price: 139 EUR.
+Best budget: the SafeNest Basic at 59 EUR, with reliable range but a smaller screen.
+Best for large homes: the Beacon Pro, with up to 400 m outdoor range.
+
+None of the models with cloud streaming earned our top rating for privacy, and we recommend changing default passwords during setup.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=volunteer programme>>>
+Become a River Guardian
+
+River Guardians is a volunteer programme that monitors water quality in the Tisza basin. Volunteers collect monthly samples, record the presence of insects and fish and photograph any pollution incidents.
+
+No scientific background is needed. We provide training, test kits and waders. Typical commitment: one Saturday morning each month.
+
+Last year, our 85 volunteers reported 23 incidents, leading to four fines against polluters. A new group is starting in Szolnok in January. An information evening will be held on 9 December at the town library.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=accounting software features>>>
+LedgerLeaf: Bookkeeping Made Calm
+
+Automatic bank feeds, invoice reminders and VAT reports in one tidy dashboard. LedgerLeaf is built for freelancers and small teams who would rather not think about accounting every week.
+
+Plans:
+Solo - 9 EUR per month: up to 50 invoices, one user
+Team - 24 EUR per month: unlimited invoices, five users, expense scanning
+Studio - 49 EUR per month: everything plus multi-currency and an accountant portal
+
+All plans include a 30-day free trial and no setup fee. Data is stored in EU data centres and encrypted at rest.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=baking recipe>>>
+Poppy Seed Beigli: A Christmas Classic
+
+Beigli, the rolled sweet bread filled with poppy seeds or walnuts, is a staple of the Hungarian holiday table. This version makes two rolls.
+
+Dough: 500 g flour, 250 g butter, 200 ml milk, 40 g sugar, 25 g yeast, 1 egg.
+Filling: 250 g ground poppy seeds, 120 g sugar, 150 ml milk, 1 tbsp honey, lemon zest.
+
+Prepare the dough and let it rest for an hour. Roll into rectangles, spread with filling, roll up tightly and brush with egg yolk. Bake at 180 degrees Celsius for 40 minutes. The classic marbled crust appears if you chill the rolls before baking.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=cybersecurity awareness>>>
+October Cybersecurity Awareness Month: Staff Resources
+
+All colleagues are invited to join this month's activities. Sessions on phishing, password managers and safe remote working will be held on Wednesdays at 12:30 in the training room and online.
+
+Quick reminders:
+- Use a unique passphrase for each work account
+- Enable multi-factor authentication wherever it is offered
+- Lock your screen when you step away
+- Report suspicious emails with the Report button in your mail client
+
+The security team will publish a short quiz on 28 October; the top three scorers will receive a voucher for a local bookshop.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=art gallery opening>>>
+New Exhibition: Threadbare, Textile Works by Mariam Okonkwo
+
+Galeria Nova presents the first solo show in Central Europe by Nigerian-British artist Mariam Okonkwo. Large-scale hanging pieces made from recycled clothing explore migration, memory and the labour behind everyday garments.
+
+Opening reception: Friday 20 November, 18:00. The artist will speak at 19:00.
+Exhibition runs until 31 January 2027.
+Gallery hours: Tuesday to Saturday 11:00-18:00. Admission is free.
+
+A catalogue with an essay by critic Julia Hartmann will be available at the gallery shop.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=poultry farm sustainability>>>
+Free-Range Eggs from Hajnal Farm
+
+At Hajnal Farm in Zala county, 6,000 hens roam across 14 hectares of orchard and pasture. Birds are housed in mobile coops that are moved every few weeks, giving the grass time to recover.
+
+Hens are fed a grain mix grown on the farm, supplemented by local sunflower meal. Eggs are collected daily, graded and delivered within 48 hours to shops and cafés within 80 km.
+
+Visitors may buy directly from the farm shop on Saturdays between 8:00 and 12:00. Boxes of ten cost 1,800 Ft. School groups are welcome to book guided visits in spring.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=airport parking>>>
+Long-Stay Parking at Liszt Ferenc Airport
+
+Pre-book online to secure the lowest rates. Prices start at 6,500 Ft for the first day and drop to 2,900 Ft per additional day for stays over a week.
+
+Car park P3 is a ten-minute shuttle ride from the terminals; shuttles run every 15 minutes around the clock. Spaces closer to the terminal in P1 cost up to double.
+
+Bookings can be cancelled free of charge up to 24 hours before arrival. Vehicles over 2.1 metres in height are not accepted in the multi-storey car parks. Electric vehicle charging is available in P2 at 120 Ft per kWh.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=climate research summary>>>
+Summary: Warming and Alpine Glacier Retreat
+
+A new study from the Innsbruck Centre for Mountain Research finds that Alpine glaciers lost 5.6% of their volume between 2022 and 2025, the fastest three-year decline on record. Researchers combined satellite altimetry with field measurements from 120 glaciers.
+
+The authors warn that glaciers below 3,000 metres may largely disappear by 2060 under current emission pathways. Meltwater peaks, they note, are likely to arrive earlier in the season, affecting hydropower and river navigation.
+
+The paper was published in an open-access journal; the dataset is available at the centre's repository.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=coworking space>>>
+Hive Cowork - Desks in the Heart of Brno
+
+Whether you need a hot desk for a day or a private office for a team, Hive has a spot for you. Our space on Masarykova street offers fast internet, meeting rooms, phone booths and unlimited coffee.
+
+Hot desk: 12 EUR per day, 120 EUR per month
+Dedicated desk: 190 EUR per month
+Private office (4 people): 780 EUR per month
+
+Members can attend weekly Friday breakfasts and monthly founder talks. Bike storage and showers are available. Book a free tour online; we are open 7:00 to 22:00 on weekdays.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=heritage railway>>>
+Narrow-Gauge Steam Days on the Mátra Line
+
+On the first Sunday of each month between April and November, our restored 1948 steam locomotive hauls vintage carriages along the 18 km scenic line from Gyöngyös to Mátrafüred.
+
+Departures: 10:15 and 14:00 from Gyöngyös; return trips at 12:00 and 16:00. The journey takes about 50 minutes.
+
+Fares: adults 3,500 Ft return, children 1,700 Ft, family tickets 8,900 Ft. The railway is run entirely by volunteers, and every ticket helps fund the restoration of our second locomotive. A buffet car serves tea and cake.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=customs import rules>>>
+Importing Goods from Outside the EU: Customs Basics
+
+Goods arriving from non-EU countries are subject to customs duty and import VAT. The amount depends on the product classification, its origin and its value.
+
+For consignments under 150 EUR, no customs duty is due, but VAT is charged at the standard rate of 27% in Hungary. Postal and courier companies usually collect the VAT before delivery or through a small handling fee.
+
+Commercial importers must obtain an EORI number and file customs declarations. Certain goods, such as food, plants and medicines, may require permits or inspection. Always confirm requirements before ordering.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=knitting club>>>
+The Wednesday Stitchers
+
+Every Wednesday from 14:00 to 16:00, the Margit Library community room fills with the click of needles. Our friendly knitting and crochet group welcomes everyone, from absolute beginners to experienced makers.
+
+We bring our own projects, share patterns and swap yarn. This winter we are making hats and scarves for the neonatal ward at the county hospital; so far we have finished 61 hats.
+
+There is no fee, though we pass a basket for tea and biscuits. Beginners can borrow needles and a starter ball of wool. Just turn up on any Wednesday.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=eye clinic services>>>
+Szemklinika Vision Centre - Services
+
+Our specialist eye clinic in Budapest provides a complete range of care, from routine sight tests to cataract surgery.
+
+Comprehensive eye exam (45 minutes): 14,000 Ft
+Contact lens fitting: 8,500 Ft
+Glaucoma screening: 11,000 Ft
+Cataract surgery: price after consultation
+
+Children's appointments include a play area and a colourful test chart. Results of tests are explained at the end of your visit. Please bring your current glasses and a list of medicines you take. Open Monday to Friday from 8:00 to 19:00.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=startup funding round>>>
+Cobalt Grid Raises 12 Million EUR to Expand Battery Storage
+
+Tallinn-based Cobalt Grid has completed a Series A round of 12 million EUR led by Baltic Growth Partners, with participation from two existing investors. The company designs software that coordinates home batteries into virtual power plants.
+
+CEO Mart Kask said the funding will support expansion into Poland and Germany and double the engineering team to 40 by the end of 2027.
+
+Cobalt Grid currently manages 9,500 home batteries and earned revenue of 3.4 million EUR in 2025. The round closed on 29 October.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=taxi app help>>>
+Help Centre: Payments and Receipts
+
+How do I change my payment method?
+Open the app, tap Account, then Payment, and choose Add Card or select another saved option.
+
+Can I get a receipt for my trip?
+Yes. Receipts are emailed automatically after each trip. You can also find them under Your Trips. For business trips, add your company's tax number in Account settings.
+
+Why was I charged a cancellation fee?
+A fee of 500 Ft applies if you cancel more than three minutes after a driver accepts your request.
+
+Contact support through the in-app chat for any other billing questions.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=science fair students>>>
+Young Scientists Fair 2026: Winners Announced
+
+Over 240 students from 58 schools presented projects at the regional fair in Miskolc last weekend. The overall prize went to sixteen-year-old Bence Takács for a low-cost sensor that detects mould in grain stores.
+
+Other winners: Zsófia Kerekes (biology) for research into pollinator habitats on rooftops, and a team from Kazinczy Grammar School (engineering) for a solar-powered water purifier.
+
+The top five entries will represent the region at the national finals in Budapest on 26 February. Organisers thanked local companies for sponsoring prizes and equipment.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=beekeeping basics>>>
+Winter Preparation for Beekeepers
+
+As temperatures fall, colonies cluster to keep the queen warm. Your job is to ensure they have enough stores and a dry hive.
+
+Checklist for November:
+- Weigh or heft hives to confirm 15 to 20 kg of honey and syrup stores
+- Fit mouse guards across entrances
+- Tilt hives slightly forward so condensation drains out
+- Check for varroa mite counts and treat if needed before the cold sets in
+
+Avoid opening the hive in cold weather. Listen at the side with a stethoscope or a piece of tubing instead. A gentle hum means all is well.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=bank branch closure notice>>>
+Notice: Changes to Our Branch Network
+
+From 15 January 2027, our Tatabánya Dózsa branch will close permanently. Customers are welcome at our Tatabánya Centre branch, which is a ten-minute walk away and will extend its opening hours to 17:00 on weekdays.
+
+Cash machines at Dózsa will remain available until 30 January. All accounts, cards and safe-deposit boxes will be transferred automatically; no action is needed.
+
+We understand that some customers rely on in-branch services. A mobile branch will visit the Dózsa district every Tuesday between 10:00 and 13:00 from February.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=outdoor equipment shop>>>
+Trailhead Outfitters - Winter Sale
+
+Up to 40% off jackets, boots and thermal layers until 30 November.
+
+Highlights:
+Summit Pro 3-layer shell jacket, was 249 EUR, now 169 EUR
+Nordic Merino base layer set, was 89 EUR, now 59 EUR
+Frostline insulated hiking boots, was 179 EUR, now 119 EUR
+
+Our staff can advise on fitting and layering. Boots can be resoled in our workshop. Delivery is free for orders over 80 EUR, and returns are accepted within 60 days. Stock is limited, and sizes sell out quickly.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=driving test info>>>
+Booking Your Theory and Practical Driving Test
+
+The theory test must be passed before you can book the practical test. It has 55 multiple-choice questions, and you need at least 50 correct answers. Fees: 4,600 Ft.
+
+The practical test lasts around 25 minutes and includes driving in town, parking and an emergency stop. The fee is 11,000 Ft.
+
+Tests can be booked online up to three months in advance. Cancel at least two working days before the appointment to avoid losing your fee. Bring your learner's permit, photo ID and a vehicle with working dual controls if your instructor provides one.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=music school enrolment>>>
+Enrolment Open at the Bartók Music Academy
+
+Spring semester enrolment is open until 15 January. Lessons are offered in piano, violin, guitar, flute, voice and drums for children from age 5 and adults of all levels.
+
+Individual lessons: 30 minutes weekly, 28,000 Ft per month
+Group classes: 60 minutes weekly, 14,000 Ft per month
+Ensembles and choir: free for enrolled students
+
+An open day with taster lessons takes place on Saturday 12 December from 10:00 to 14:00. Instruments can be rented for 3,000 Ft per month. Scholarships are available for talented students from low-income families.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=smart meter rollout>>>
+Smart Meter Installation: What Happens Next
+
+Over the next 18 months, Northgate Energy will replace around 220,000 older meters in the region with smart meters. Customers will receive a letter at least 14 days before their installation.
+
+An engineer will visit for 45 to 60 minutes. Your electricity supply will be switched off briefly, so please save any work on computers. Someone aged 18 or over must be present.
+
+Smart meters send readings automatically, so estimated bills will become a thing of the past. An in-home display shows your usage in real time. Installation is free of charge.
+<<<END>>>

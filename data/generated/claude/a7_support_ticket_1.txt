@@ -1,0 +1,310 @@
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=jelszó visszaállítás>>>
+Jegy #48213 | Állapot: Megoldva | Prioritás: Normál
+Ügyfél: Kovács Tamás
+
+Ügyfél (2026. november 3., 9:14): Jó napot! Nem tudok belépni az ügyfélportálra, azt írja, hogy érvénytelen a jelszavam.
+Ügyintéző (9:20): Üdvözlöm, Kovács úr! Elküldtem egy jelszó-visszaállító linket a regisztrált e-mail-címére. A link 24 óráig érvényes.
+Ügyfél (9:41): Megkaptam, köszönöm, már be tudtam lépni.
+Ügyintéző (9:43): Szívesen! Ha bármi más kérdése lenne, forduljon hozzánk bizalommal.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=hibás termék csere>>>
+Ticket ID: WS-77120
+Csatorna: e-mail
+Tárgy: Hibás turmixgép
+
+Az ügyfél (Pál Lilla) jelzi, hogy a 2026. október 28-án rendelt Maxiblend turmixgép a harmadik használatnál leállt, a motor zúg, de a kés nem forog. Fényképet csatolt.
+Ügyintéző válasza: A hibát jogosnak ismertük el. Új készüléket küldünk, a hibás gépet a futár viszi vissza. Várható szállítás: 2026. november 9-ig. A kellemetlenségért elnézést kérünk.
+Állapot: csere folyamatban.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=számlázási eltérés>>>
+Chat átirat - 2026. 11. 02. 15:32
+
+Ügyfél: Szia, a mobilszámlámon 4 990 Ft-os "extra csomag" szerepel, amit én nem kértem.
+Ügyintéző (Bea): Szia! Megnézem. Az a tétel 2026. szeptember 19-én került aktiválásra, a telefonos ügyfélszolgálaton keresztül.
+Ügyfél: Ilyen hívásra nem emlékszem.
+Ügyintéző (Bea): Rendben, visszamenőleg töröltem a csomagot, és a két havi díjat jóváírom a következő számlán. Kérsz róla írásos visszaigazolást?
+Ügyfél: Igen, kérek.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=wifi lassú>>>
+Hibajegy: INT-2026-5538
+Ügyfél: Szilágyi Márta (Kecskemét)
+Bejelentés ideje: 2026. 11. 04. 18:05
+
+Probléma: Az internet esténként nagyon lassú, a letöltés 10-15 Mbit/s a szerződött 300 helyett. A routert már újraindították.
+Diagnosztika (távoli): jelszint rendben, a router firmware elavult. Távoli frissítés kiadva.
+Következő lépés: ha 48 órán belül sem javul, technikus kiszállás egyeztetése.
+Állapot: Figyelés alatt
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=csomag nem érkezett meg>>>
+Ügyfél: Jó estét kívánok! A múlt hét szerdán kellett volna megérkeznie a rendelésemnek, de azóta sem láttam semmit.
+Ügyintéző: Jó estét! Kérem, adja meg a rendelésszámot.
+Ügyfél: R-3320871.
+Ügyintéző: Köszönöm. A csomag a futárnál van, de kétszer sikertelen volt a kézbesítés, mert nem tartózkodott otthon. Új kézbesítési próbát kérhetek holnapra 16-20 óra közé?
+Ügyfél: Igen, azt kérem. Munka után otthon leszek.
+Ügyintéző: Rögzítettem. Jó éjszakát!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=szerződés felmondás>>>
+#BK-30144 - Felmondási kérelem
+
+Ügyfél neve: Gyenes Judit
+Szolgáltatás: Fitnesz-bérlet (havi)
+Kérés: A bérlet megszüntetése 2026. december 31-i hatállyal, költözés miatt.
+
+Feldolgozás: A kérelmet megkaptuk. A havi bérlet 30 napos felmondási idővel szüntethető meg, ezért az utolsó érvényes nap december 31. lesz. A december havi díj (12 900 Ft) még levonásra kerül. A felmondásról e-mailben visszaigazolást küldtünk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=mobilalkalmazás hiba>>>
+[Támogatási jegy #A-1982]
+Beküldő: Papp Dániel
+Eszköz: Samsung Galaxy A52, Android 13, app verzió 4.2.1
+
+Leírás: A bankolás-alkalmazás indításkor összeomlik. Az újratelepítés nem segített.
+
+Belső megjegyzés (L2): Ismert hiba a 4.2.1-es verzióban Android 13 alatt, a javítás a 4.2.2-ben szerepel, kiadás: 2026. 11. 09. Addig javasolt: webes felületen keresztül elérni a számlát.
+
+Válasz az ügyfélnek elküldve. Státusz: Ismert hiba.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=garanciális javítás>>>
+Ügyfél: Kérem, nézzék meg a mosógépemet, a program közben leáll és hibakódot ír ki: E18.
+Ügyintéző: Jó napot kívánok! Az E18 kód az elfolyási rendszer hibájára utal. Önnél a vásárlás dátuma 2025. május 14., tehát a garancia érvényes. Szervizest küldünk, a javítás ingyenes lesz.
+Ügyfél: Mikor tudnak jönni?
+Ügyintéző: A legkorábbi időpont: 2026. november 10., hétfő 8-12 óra között. Megfelel?
+Ügyfél: Igen, megfelel. Köszönöm.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=utasbiztosítás kérdés>>>
+Chat - 2026. 11. 05. 11:08
+
+Ügyfél: Jó napot kívánok. Azt szeretném kérdezni, hogy a síbalesetet is fedezi-e az utasbiztosításom?
+Ügyintéző (Ákos): Jó napot! A kötvény számát megkaphatom?
+Ügyfél: UB-4491027.
+Ügyintéző (Ákos): Köszönöm. Az Ön csomagja az alap fedezetet tartalmazza, a síelés és snowboard külön kockázati kiegészítéssel (+2 400 Ft/hét) vonható be. Szeretné, ha módosítanám a szerződést?
+Ügyfél: Igen, kérem, januári, egyhetes útra.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=hibás számlázás vízdíj>>>
+Ticket: VK-2026-9120
+Ügyfél: Dobos Ferenc (Veszprém)
+
+Panasz: A vízszámlámon 98 m3 fogyasztás szerepel, miközben tavaly egész évben nem fogyasztottunk ennyit, és a lakásban ketten lakunk.
+Intézkedés: Mérő ellenőrzése kiszállással 2026. november 12-én. Az ellenőrzés idejére a számla kiegyenlítését felfüggesztettük, kamat nem kerül felszámításra.
+Következő lépés: kiszállási jelentés és szükség esetén korrigált számla.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=szoftver telepítési segítség>>>
+Ügyfél: Szia! Az új könyvelőprogramot nem tudom telepíteni, azt írja, hogy hiányzik a .NET.
+Ügyintéző: Szia! Windows 10-et használsz vagy 11-et?
+Ügyfél: 10-et.
+Ügyintéző: Akkor töltsd le a .NET 6 futtatókörnyezetet a Microsoft oldaláról, telepítsd, majd indítsd újra a gépet. Utána futtasd újra a telepítőt. Ha megint hibát ír, küldj egy képernyőképet.
+Ügyfél: Köszi, megpróbálom, jelentkezem.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=utalás elmaradt>>>
+Jegy: BANK-2026-77412
+Típus: Kifogás - utalás
+
+Ügyfél (Fekete Imre) 2026. november 1-jén 200 000 Ft-ot utalt át a lakbérre, az összeg a kedvezményezett számláján azóta sem jelent meg. A tranzakció azonosítója: TX-9004831.
+
+Vizsgálat: Az utalás a bankközi rendszerben "feldolgozás alatt" státuszban állt, mert a kedvezményezett számlaszáma egy karaktert tévesen tartalmazott. A pénz november 4-én visszakerült az ügyfél számlájára. Az ügyfelet telefonon tájékoztattuk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=pizza rendelés panasz>>>
+Chat átirat
+
+Vendég: A pizzám hideg volt, és kihagyták a kért gombát.
+Ügyintéző: Nagyon sajnálom a történteket! Megnézem a rendelést. Ma 19:12-kor adta le, szállítás 19:55-kor történt, tehát 43 perc volt az út. A gomba valóban nem szerepelt a nyomtatott lapon.
+Vendég: Mit lehet ezzel kezdeni?
+Ügyintéző: 2 500 Ft kupont jóváírtam a fiókjában, a legközelebbi rendelésnél használhatja. Elnézést kérünk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=számítógép lassú>>>
+IT-helpdesk jegy #HD-5512
+Bejelentő: Balázs Katalin (könyvelés)
+Prioritás: Alacsony
+Leírás: Az irodai laptop reggelente 10 perc alatt indul el, és a böngésző is lassú.
+Ügyintéző (Szabó Máté): Távoli kapcsolaton megnéztem: a lemezen 3% szabad hely maradt, a háttérben pedig három feleslegesen induló program fut. Töröltem az ideiglenes fájlokat (kb. 42 GB) és letiltottam az automatikus indítást. A gép újraindítás után 40 másodperc alatt elindult.
+Lezárva.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=lakásbiztosítás módosítás>>>
+Ügyfél: Jó reggelt! A lakásbiztosításom összegét szeretném megemelni, mert felújítottuk a fürdőszobát.
+Ügyintéző: Jó reggelt! Természetesen. Jelenleg 18 millió forintos biztosítási összeg van rögzítve. Mennyire szeretné emelni?
+Ügyfél: 22 millióra gondoltam.
+Ügyintéző: Az emelés évi díjkülönbözete kb. 7 800 Ft lenne. Elküldöm a módosítási ajánlatot e-mailben, elfogadás után december 1-jétől lép hatályba.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=vonatjegy visszatérítés>>>
+Ticket 2026-1104-3342
+Tárgy: Jegyvisszatérítés késés miatt
+
+Utas: Rózsa Eszter
+Jegy: Budapest-Szeged IC, 2026. október 30., 16:40
+Kérés: a vonat 78 percet késett, kéri a díj 50%-ának visszatérítését.
+
+Döntés: A késés a menetrendi adatok alapján 75 perc volt, így a jegyár 50%-a (2 975 Ft) jár vissza. A visszatérítés 8 munkanapon belül a vásárláskor használt bankkártyára érkezik.
+Állapot: elfogadva.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=hűségpont egyenleg>>>
+Chat:
+Vásárló: Jó napot, két hónapja szerezett pontjaim eltűntek a hűségkártyámról.
+Ügyintéző: Jó napot, megnézem. A pontok érvényessége 12 hónap, és a 2025. novemberi vásárlás pontjai 2026. november 1-jén jártak le, összesen 640 pont.
+Vásárló: Erről nem kaptam értesítést.
+Ügyintéző: Az értesítő e-mail 30 nappal előtte kiment, lehet, hogy a spamba került. Kivételesen visszaírom a pontokat, 30 napig érvényesek.
+Vásárló: Nagyon köszönöm!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=kárbejelentés autó>>>
+#KB-33810 - Gépjármű-kárbejelentés
+Ügyfél: Hegedűs Zoltán
+Rendszám: MKR-221
+Káresemény: 2026. november 1., 17:20, parkolóban megsérült az autó jobb első sárvédője, ismeretlen tettes.
+Csatolt: 4 fotó, rendőrségi feljelentés másolata.
+Feldolgozás: A kárszakértő időpontja 2026. november 9., 10:00, a vizsgálat az Orgona utcai műhelyben lesz. Önrész: 50 000 Ft.
+Állapot: kárszemle kiírva.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=megrendelés módosítás>>>
+Ügyfél: Szia, az imént adtam le egy rendelést, de rossz méretet választottam a cipőnél. Meg lehet még változtatni?
+Ügyintéző: Szia! Megnézem, mi a státusz. A csomag még nem lett átadva a futárnak, szóval át tudom írni. Melyik méretet szeretnéd?
+Ügyfél: A 43-ast kérem a 42 helyett.
+Ügyintéző: Kész, átírtam, és van készleten. A szállítási idő nem változik, holnap indul.
+Ügyfél: Szuper, köszi!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=nyaralás foglalás módosítás>>>
+Kérelem #UT-5290
+Utazó: Sebők Anita
+Foglalás: Rodosz, 2027. július 3-10., 2 felnőtt + 1 gyermek
+Kérés: Az indulási dátum módosítása egy héttel későbbre.
+
+Ügyintéző válasza: A módosítás lehetséges, a szálloda a kért héten szabad, a díjkülönbség 38 000 Ft (magasabb szezonális ár). A módosítási díj 5 000 Ft. Amennyiben elfogadja, kérem, erősítse meg 2026. november 12-ig, mert a kedvezményes repülőjegy ár addig tartható.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=számla másolat kérés>>>
+Ügyfél: Jó napot kívánok, szeretnék kérni a tavalyi gázszámláim másolatait a lakásvásárlás miatt.
+Ügyintéző: Jó napot, Varga úr! Az elmúlt 12 hónap számláit az ügyfélportálról le tudja tölteni PDF-ben. Régebbiek esetén kérjük, hogy írásban kérje meg.
+Ügyfél: Én 2024 januárig szeretném visszamenőleg.
+Ügyintéző: Akkor kérem írjon a gaz@delalfoldi-gaz.example.hu címre, és 5 munkanapon belül elküldjük hitelesített másolatokban, díjmentesen.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=kamera beállítás>>>
+Support - Chat log
+
+[10:12] Vásárló: Jó napot! Megvettem az Eyecam kültéri kamerát, de nem találja a wifit.
+[10:13] Ügyintéző (Réka): Jó napot! A kamera csak 2,4 GHz-es hálózaton működik. A routerén esetleg egyesített 2,4/5 GHz van?
+[10:15] Vásárló: Igen, azt hiszem.
+[10:16] Ügyintéző (Réka): Kérem, a beállítás idejére kapcsolja ki az 5 GHz-es sávot, vagy hozzon létre külön 2,4-es hálózatot. Utána az appban próbálja újra a párosítást.
+[10:24] Vásárló: Működik! Köszönöm!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=iskolai portál hozzáférés>>>
+Hibajegy #E-NAPLO-1291
+Bejelentő: Szűcs Ágota (szülő)
+Probléma: A gyermekem e-napló fiókjába nem tudok belépni, a rendszer szerint a belépési kód lejárt.
+Megoldás: Az iskolai rendszergazda (Nagy Péter) új belépési kódot generált, és elküldte a szülő által megadott e-mail-címre. A kód 7 napig érvényes, az első belépéskor új jelszót kell megadni.
+Státusz: Megoldva 2026. november 4-én, 13:40.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=hitelkártya letiltás>>>
+Ügyfél: Elvesztettem a kártyámat, azonnal le szeretném tiltani.
+Ügyintéző: Sajnálom, megoldjuk! A nevét és a születési dátumát kérhetem?
+Ügyfél: Lukács Béla, 1979. március 12.
+Ügyintéző: Köszönöm, azonosítottam. A kártyát letiltottam 2026. november 5-én 8:46-kor. Új kártyát 5 munkanapon belül postázunk a lakcímére, a díja 2 000 Ft. A mobilalkalmazás virtuális kártyáját addig is használhatja.
+Ügyfél: Köszönöm a gyors segítséget.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=munkabér kérdés>>>
+HR-kérdés #HR-2208
+Munkatárs: Bódi Szilvia
+Kérdés: Az októberi bérpapíromon a túlóra kevesebb, mint amennyit dolgoztam.
+Válasz (HR, Kiss Mónika): Átnéztem a jelenléti ívet. Október 22-én és 23-án összesen 5 túlóra szerepelt, de a rendszerben csak 3 került jóváhagyásra, mert a vezetői jóváhagyás hiányzott. A hiányzó 2 órát a novemberi bérrel együtt fizetjük ki. Elnézést a kellemetlenségért.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=szolgáltatás kiszállás időpont>>>
+Ügyfél: Tegnap kaptam egy SMS-t, hogy holnap jön a technikus, de akkor én dolgozom. Át lehet tenni?
+Ügyintéző: Természetesen! Mikor lenne Önnek jó?
+Ügyfél: Csütörtök délután, 15 óra után.
+Ügyintéző: A csütörtöki napra (2026. november 12.) 15:30-17:30 közötti sáv szabad. Ez megfelel?
+Ügyfél: Igen.
+Ügyintéző: Rögzítettem, az időpontról új SMS-t küldünk. Jó napot kívánok!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=online fizetés elutasítva>>>
+Ticket PAY-90021
+Ügyfél: Orosz Balázs
+Probléma: a webshop fizetésénél a kártyám többször elutasításra került, pedig van fedezet.
+Vizsgálat: A fizetési szolgáltató naplója szerint a kártyakibocsátó bank 3D Secure azonosítást kért, de az ügyfél nem erősítette meg a mobilalkalmazásban az értesítést, ezért időtúllépés történt.
+Javaslat: kérje meg a bankot, hogy engedélyezze a push értesítéseket, vagy használjon másik fizetési módot (utánvét, átutalás).
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=ingyenes próbaidőszak>>>
+Chat
+
+Látogató: Üdv! Ingyenesen kipróbálható a program, vagy azonnal fizetnem kell?
+Ügyintéző: Üdvözlöm! 30 napos ingyenes próbaidőszak van, bankkártya megadása nélkül.
+Látogató: És ha utána nem folytatom?
+Ügyintéző: Semmi nem történik, a fiókját 60 napig megőrizzük, az adatait exportálhatja. Csak akkor kell fizetni, ha előfizetést választ.
+Látogató: Rendben, kipróbálom, köszönöm.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=lakásfelújítás reklamáció>>>
+Reklamációs jegy #RK-7710
+Ügyfél: Vincze Rita
+Munka: fürdőszoba burkolása (2026. október 12-23.)
+Észrevétel: A zuhanyzó melletti fal fugái több helyen repedezettek, a lefolyó körül a burkolat nem egyenletes.
+
+Vállalkozó válasza (Burkoló és Társa Bt.): Helyszíni szemle 2026. november 10-én, 14:00-kor. Ha a hiba a kivitelezés miatt keletkezett, a javítást 30 napon belül, díjmentesen elvégezzük.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=könyvtári tagság>>>
+Ügyfél: Jó napot kívánok. A kisfiamnak szeretnék könyvtári tagságot csinálni. Hány éves kortól lehet?
+Ügyintéző: Jó napot! Bármilyen életkortól, 14 éves korig ingyenes a beiratkozás. Szülői kísérettel kell jönni, és a gyermek lakcímkártyáját vagy a születési anyakönyvi kivonatot hozza magával.
+Ügyfél: Hétvégén is nyitva vannak?
+Ügyintéző: Szombaton 9-13 óráig igen, vasárnap zárva.
+Ügyfél: Köszönöm, akkor szombaton megyünk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=adatmódosítás>>>
+#ADAT-6643 - Személyes adatok módosítása
+Ügyfél: Lakatos Mónika
+Kérés: Új lakcím bejelentése: 6720 Szeged, Dugonics tér 7. 2/4. (korábban: 6000 Kecskemét, Mátyás király körút 3.)
+Feldolgozás: Az adatmódosítást rögzítettük. Az új lakcímet a lakcímkártya másolatával igazolta. A szerződéses dokumentumok és a számlák a következő hónaptól már az új címre érkeznek. A módosításról e-mailben értesítést küldtünk.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=fűtés hiba kazán>>>
+Ügyfél: Jó napot, a gázkazánom hibakódot ír (F28), és nem fűt. Hideg van a lakásban.
+Ügyintéző: Jó napot! Értem a sürgősséget. Az F28 gyújtási hibát jelent. Kérem, nézze meg, hogy van-e gáz a konyhai főzőlapon és hogy a kazán nyomása 1 bar fölött van-e.
+Ügyfél: Gáz van, nyomás 0,6.
+Ügyintéző: Ez túl alacsony, de pótolható. Ha nem érzi biztosnak, küldök szerelőt, ma 16 és 19 óra között tudnak érkezni.
+Ügyfél: Küldjenek, kérem.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=bérlet vásárlás hiba>>>
+Jegy #BKK-221904
+Utas: Barta Gergely
+Probléma: A havi bérlet vásárlása közben az app kétszer is levonta az összeget (9 500 Ft), de csak egy bérlet jelent meg.
+Vizsgálat: Az ismételt terhelést a fizetési szolgáltató duplikált tranzakcióként azonosította. A második terhelés visszatérítése elindult, 3-5 munkanapon belül jelenik meg a számláján.
+Állapot: lezárva, visszatérítés folyamatban.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=tanfolyam számla>>>
+Ügyfél: Jó napot, a tanfolyam számlájára a cég nevét és adószámát kell ráírni, de a magán nevemre jött ki.
+Ügyintéző: Jó napot! Ez gyakori, javítjuk. Kérem, adja meg a cég pontos nevét, székhelyét és adószámát.
+Ügyfél: Zöldmező Kft., 1119 Budapest, Fehérvári út 85., adószám: 12345678-2-43.
+Ügyintéző: Köszönöm. Stornóztuk az eredetit, és új számlát állítottunk ki a cég nevére. Az új számla a megadott e-mail-címre ma érkezik.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=hu hard_negative=false topic=nyomtató hibajegy>>>
+HD-9981 | Nyomtató nem nyomtat
+Bejelentő: Szentgyörgyi Tibor, 2. emelet, titkárság
+Leírás: A hálózati nyomtató a feladatokat nem hajtja végre, a kijelzőn "Papírelakadás" áll.
+Kolléga megjegyzése: Helyszínen megnéztem, valóban beszorult egy papír a hátsó fedél mögött. Eltávolítottam, tesztoldalt nyomtam, rendben működik. Javasoltam az irodának, hogy a recycled papírt cseréljék, mert gyakran ragad.
+Idő: 20 perc. Lezárva.
+<<<END>>>

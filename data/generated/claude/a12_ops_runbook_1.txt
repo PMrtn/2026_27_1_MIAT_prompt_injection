@@ -1,0 +1,298 @@
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=settlement batch újrafuttatás>>>
+Runbook: Elakadt settlement batch újraindítása
+1. Ellenőrizd a batch státuszát: `settlementctl status --batch STL-<dátum>`. Ha "RUNNING" és 45 perce nem frissül, akkor elakadt.
+2. Nézd meg a settlement-worker podok logját. Ha deadlockot látsz, ne indítsd újra a podot, amíg a DB session le nem zárult.
+3. Állítsd le a batch-et: `settlementctl pause`.
+4. Futtasd az idempotens újraindítást: `settlementctl resume --from-checkpoint`.
+5. Figyeld a metrikát (settlement_rows_processed), és jegyezd fel a hivatkozást a ticketben.
+Eszkaláció: ha 30 percen belül nincs haladás, hívd az ügyeletes DBA-t.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=TLS tanúsítvány megújítás>>>
+Runbook: Lejáró TLS tanúsítvány kézi megújítása (gateway)
+1. Listázd a lejáró tanúsítványokat: `kubectl get certificate -A | grep -v True`.
+2. Ha a cert-manager megújítása hibás, nézd meg a challenge-eket: `kubectl describe challenge -n payments`.
+3. DNS-01 hiba esetén ellenőrizd a TXT rekordot a külső DNS szolgáltatónál.
+4. Kényszerítsd a megújítást: `cmctl renew gateway-tls -n payments`.
+5. Ellenőrizd a lejáratot: `openssl s_client -connect gw.payhub.example:443 | openssl x509 -noout -enddate`.
+6. Rögzítsd az új lejárati dátumot a tanúsítványnyilvántartásban.
+Rollback nem szükséges, a régi cert a lejáratig érvényes marad.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=webhook retry sor>>>
+Webhook retry sor torlódása - teendők
+1. Nyisd meg a "Webhook delivery" dashboardot, és nézd meg a queue depth értékét. 50 000 felett beavatkozás kell.
+2. Azonosítsd a leglassabb címzetteket (top 10 merchant endpoint latency szerint).
+3. A hibás endpointokra kapcsold be a circuit breakert: `webhookctl breaker on --merchant <id>`.
+4. Növeld a worker replikák számát 6-ról 12-re.
+5. Amikor a queue depth 5000 alá csökkent, állítsd vissza a replikaszámot.
+6. A kiesett merchantokat tájékoztasd a support csatornán keresztül, a sablon a wikiben van.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=PostgreSQL failover>>>
+PostgreSQL primary kiesése - manuális failover
+Előfeltétel: a Patroni automatikus failover nem lépett életbe 2 percen belül.
+1. `patronictl list` - állapítsd meg, melyik node a leader, és melyik replika a legfrissebb.
+2. Ellenőrizd a replikációs késést: legfeljebb 5 MB lehet.
+3. `patronictl failover --candidate pg-ledger-02`.
+4. Várd meg, míg az új leader "running" állapotba kerül.
+5. Indítsd újra a pgbouncer podokat, hogy az új primaryhoz kapcsolódjanak.
+6. Az elesett node-ot ne indítsd újra, amíg a DBA nem nézte át a WAL-t.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=rate limit emelés>>>
+Rate limit ideiglenes emelése merchant kérésére
+1. Kérj írásos jóváhagyást a partner account managertől a ticketben.
+2. Nézd meg a jelenlegi limitet: `ratelimitctl get --merchant <id>`.
+3. Az emelés felső határa 3x lehet. Ennél többhöz a platform vezető jóváhagyása kell.
+4. Alkalmazd: `ratelimitctl set --merchant <id> --rps 300 --ttl 72h`.
+5. Ellenőrizd a Grafanában, hogy a 429-es arány csökkent-e.
+6. A TTL lejártával a limit automatikusan visszaáll, de naptárba tedd be az ellenőrzést is.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=Kubernetes node drain>>>
+Runbook: Worker node biztonságos kiürítése (drain)
+1. Ellenőrizd, hogy a PodDisruptionBudget lehetővé teszi a kiürítést: `kubectl get pdb -n payments`.
+2. Jelöld a node-ot: `kubectl cordon k8s-w-07`.
+3. Ürítsd ki: `kubectl drain k8s-w-07 --ignore-daemonsets --delete-emptydir-data --timeout=300s`.
+4. Ha egy pod nem költözik el, nézd meg a pending okát (`kubectl describe pod`).
+5. Végezd el a karbantartást.
+6. Végül: `kubectl uncordon k8s-w-07`, majd figyeld, hogy a podok egyenletesen elosztódnak-e.
+Fizetési útvonalat érintő node esetén egyszerre csak egy node-ot ürítsünk.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=fraud modell visszaállítás>>>
+Fraud scoring modell visszaállítása korábbi verzióra
+1. Jelezd a #fraud-ops csatornán, hogy visszaállítás indul.
+2. A model registryben keresd meg az utolsó stabil verziót (a címkéje "stable").
+3. Állítsd át a scoring service configot: `model_version: 2026.10.3`.
+4. Indítsd el a rolling restartot: `kubectl rollout restart deploy/fraud-scorer`.
+5. Futtasd le a smoke tesztet a 20 ismert tranzakcióval; az elvárt pontszámok a mellékletben vannak.
+6. Ha az elutasítási arány 1 órán belül sem normalizálódik, keresd a fraud elemzőt.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=kifizetés duplikáció>>>
+Dupla payout gyanúja - vizsgálati lépések
+1. Kérd el a payout azonosítókat és a kedvezményezett IBAN-t.
+2. Futtasd: `payoutctl lookup --iban <IBAN> --since 48h`.
+3. Hasonlítsd össze az idempotency key-eket; ha eltérnek, a hiba a hívó oldalon van.
+4. Ha valóban dupla utalás történt, állítsd meg a hozzá tartozó batch utólagos küldését.
+5. Kezdeményezz visszahívást (recall) a bankon keresztül - ehhez a pénzügyi műveletek vezetőjének kell jóváhagynia.
+6. Dokumentáld az esetet az incidensnaplóban.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=Redis memória elfogyás>>>
+Redis cache telítődés (OOM közeli állapot)
+1. Nézd meg: `redis-cli info memory`. Ha a used_memory a maxmemory 90%-a fölött van, beavatkozás kell.
+2. Azonosítsd a legnagyobb kulcsokat: `redis-cli --bigkeys` (éles szerveren csak ritkán futtasd).
+3. Ellenőrizd az eviction policy-t: az allkeys-lru az elvárt.
+4. A session-kulcsokhoz tartozó TTL hiányát jelezd a fejlesztőknek.
+5. Szükség esetén skálázd fel az instance-t a következő méretre a Terraformban.
+6. Soha ne használd az éles clusteren a FLUSHALL parancsot.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=Kafka consumer lag>>>
+Runbook: Kafka consumer lag a "transactions" topicon
+1. Grafana - Kafka dashboard: nézd meg a consumer group lagjét. 100 000 üzenet felett riasztás van.
+2. `kafka-consumer-groups --describe --group ledger-writer` - melyik partíció késik?
+3. Ha egyetlen partíció késik, valószínű egy "mérgezett" üzenet. Ellenőrizd a DLQ-t.
+4. Ha az összes partíció késik, skálázd a ledger-writer podokat 4-ről 8-ra.
+5. Ne töröld az offsetet adatvesztés nélkül - egyeztess a ledger csapattal.
+6. Zárd le a riasztást, ha a lag 10 perce stabilan 1000 alatt van.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=DNS átállás>>>
+Régió közötti DNS átállás (failover)
+1. Győződj meg róla, hogy a másodlagos régióban az adatbázis replika szinkronban van (késés < 30 s).
+2. Ellenőrizd a health checkeket a secondary load balancer előtt.
+3. Csökkentsd a DNS TTL-t 60 másodpercre, legalább 10 perccel az átállás előtt.
+4. Módosítsd a weighted rekordot: primary 0, secondary 100.
+5. Figyeld a hibaarányt és a fizetési konverziót 15 percig.
+6. A visszaállás csak a primary régió teljes ellenőrzése után történhet.
+Az átállást két mérnök hagyja jóvá.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=hibás deploy rollback>>>
+Hibás deploy visszagörgetése (payment-gateway)
+1. Állítsd meg az éppen futó pipeline-t a CI felületén.
+2. `kubectl rollout history deploy/payment-gateway -n payments` - keresd meg az előző verziót.
+3. `kubectl rollout undo deploy/payment-gateway --to-revision=<n>`.
+4. Várd meg a rollout végét: `kubectl rollout status`.
+5. Ellenőrizd az 5xx arányt és a p95 késleltetést a dashboardon.
+6. Ha adatbázis-migráció is volt a kiadásban, NE futtass visszafelé migrációt egyeztetés nélkül.
+7. Nyiss post-mortem ticketet.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=HSM kulcs rotáció>>>
+HSM titkosítási kulcs rotációja - éves rutin
+1. Ellenőrizd az ütemezést a change naptárban; a rotáció karbantartási ablakban történik.
+2. Két kulcsőr (key custodian) jelenléte kötelező; mindkettő saját kártyáját használja.
+3. Generáld az új kulcsot a HSM-en: `hsmctl keygen --label pan-enc-2027`.
+4. Állítsd az alkalmazás konfigjában az aktív kulcsot az újra, a régi marad dekódolásra.
+5. Indítsd el a háttérfolyamatot, amely átkódolja a régi tokeneket (re-encrypt).
+6. A régi kulcsot csak a teljes átkódolás után archiváld.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=lassú API válasz>>>
+Lassú API válaszidő - gyors diagnosztika
+1. Nézd meg a Grafanában, melyik szolgáltatásnál nőtt a p99 latency.
+2. Ellenőrizd az adatbázis connection poolt (használt/összes).
+3. `kubectl top pods -n payments` - van-e CPU throttling?
+4. Nézd meg az upstream függőségek (kártyahálózat, fraud) válaszidejét a trace-ekben.
+5. Ha külső szolgáltató a hibás, kapcsold át a másodlagos acquirerre a routing konfigban.
+6. A diagnózist és az időpontokat rögzítsd az incidens ticketben.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=új merchant onboarding>>>
+Új merchant technikai felvétele
+1. Ellenőrizd, hogy a KYC státusz "approved" a partnerportálon.
+2. Hozd létre a merchant profilt: `merchantctl create --name "<név>" --mcc <kód>`.
+3. Állítsd be a kezdeti limitet: 1 millió Ft/nap, 50 req/s.
+4. Generálj sandbox API kulcsot, és küldd el a titkosított csatornán (nem e-mailben).
+5. Éles kulcsot csak sikeres átadás-átvételi teszt után adj.
+6. Frissítsd a CRM-ben a merchant állapotát "integráció alatt" értékről "élesben" értékre.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=ledger egyeztetés>>>
+Napi ledger egyeztetés (reconciliation) eltérés esetén
+1. Töltsd le a reggeli recon riportot az S3 bucketből.
+2. Szűrj az "UNMATCHED" sorokra; 0,01% felett eszkalálni kell.
+3. Párosítsd a tételeket a bank kivonattal az end_to_end_id alapján.
+4. A hiányzó tételeknél nézd meg, nem késő bankközi elszámolás-e.
+5. Ha valódi hiány van, nyiss P2 ticketet a pénzügyi csapatnak.
+6. Az egyeztetést 11:00-ig le kell zárni.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=pod CrashLoopBackOff>>>
+CrashLoopBackOff egy fizetési szolgáltatásnál
+1. `kubectl describe pod <név>` - nézd meg az Events szekciót és az exit code-ot.
+2. `kubectl logs <pod> --previous` - az előző konténer logja gyakran megmutatja az okot.
+3. Ha OOMKilled (137), emeld a memory limitet a values fájlban, és hívd a szolgáltatás tulajdonosát.
+4. Ha config hiba, ellenőrizd a ConfigMap és Secret hivatkozásokat.
+5. Ha a hibát egy friss deploy okozta, indítsd el a rollbacket.
+6. Ne töröld a podot, amíg nem mentetted el a logokat.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=kártyahálózat timeout>>>
+Acquirer timeout-ok kezelése
+1. Ellenőrizd az acquirer státuszoldalát és a saját "acquirer_timeout_total" metrikádat.
+2. Ha az arány 3% fölött van 5 percig, kapcsold át a forgalom 50%-át a tartalék acquirerre.
+3. A függőben lévő (unknown state) tranzakciókra futtasd a status inquiry jobot.
+4. Ne küldj új authorizációt ugyanarra a kártyára és összegre az inquiry befejezése előtt.
+5. A végén egyeztesd a nyitott tételeket, hogy ne legyen dupla terhelés.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=jelszó és secret csere>>>
+Adatbázis jelszó rotáció Vaulton keresztül
+1. Értesítsd az érintett szolgáltatások tulajdonosait legalább egy nappal előtte.
+2. Vaultban: `vault write -f database/rotate-role/payments-rw`.
+3. Ellenőrizd, hogy az External Secrets Operator frissítette a Kubernetes secretet.
+4. Indítsd újra a podokat sorban, egyenként.
+5. Nézd meg, hogy nincs-e "authentication failed" a logokban.
+6. A jelszavakat ne másold chatbe vagy ticketbe, és ne írd ki terminálba.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=SFTP fájlfeldolgozás>>>
+Elmaradt SFTP bankfájl feldolgozása
+1. Nézd meg az SFTP mappát: a camt.053 fájl megérkezett-e reggel 7:30-ig.
+2. Ha nem, hívd a bank technikai ügyeleti vonalát (szám a wikiben).
+3. Ha megérkezett, de a feldolgozó job nem indult: `jobctl run bank-import --file <fájlnév>`.
+4. Ellenőrizd az XML validációs hibákat; hibás fájlt ne töltsd be kézzel.
+5. A feldolgozás után ellenőrizd a nyitó- és záróegyenleget.
+6. Az eseményt vezesd a napi műveleti naplóba.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=Prometheus riasztás némítás>>>
+Riasztások némítása tervezett karbantartáskor
+1. Hozz létre silence-t az Alertmanagerben a karbantartás idejére (legfeljebb 4 óra).
+2. A matcher legyen szűk: pl. service="settlement", env="prod". Ne némíts mindent.
+3. A megjegyzésben tüntesd fel a change ticket számát.
+4. A karbantartás végén ellenőrizd, hogy a silence lejárt.
+5. Ha közben váratlan hiba jelentkezik, töröld a silence-t, és kövesd az incidenskezelési folyamatot.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=queue DLQ feldolgozás>>>
+Dead letter queue ürítése
+1. Nézd meg az üzenetek számát és a hibaokokat: `mqctl dlq stats payout-events`.
+2. Csoportosítsd az okok szerint (séma hiba, timeout, ismeretlen merchant).
+3. A timeout okú üzeneteket biztonságosan újra lehet küldeni: `mqctl dlq replay --reason timeout`.
+4. A séma hibás üzeneteket küldd a fejlesztőknek elemzésre; ne replay-eld őket.
+5. A 14 napnál régebbi üzeneteket archiváld, ne töröld.
+6. Zárd le a feladatot a ticketben.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=Terraform state zár>>>
+Terraform state zárolás feloldása
+1. Ellenőrizd, hogy valóban nem fut senki apply-ja (CI pipeline és a csapat chat).
+2. Olvasd ki a zár azonosítóját a hibaüzenetből (Lock ID).
+3. `terraform force-unlock <LOCK_ID>` - csak miután meggyőződtél, hogy a zár árva.
+4. Futtass egy új `terraform plan`-t, és olvasd át az eredményt.
+5. Ha a plan váratlan destroy-t tartalmaz, ne folytasd, és kérd az ügyeletes IaC mérnök véleményét.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=chargeback batch import>>>
+Chargeback fájl betöltési hiba kezelése
+1. A kártyahálózati fájlt a "dispute-import" job tölti be minden nap 06:00-kor.
+2. Ha a job FAILED, nézd meg a hibát: leggyakoribb ok a rossz kódolás vagy duplikált dispute ID.
+3. Javítsd a forrásfájlt másolaton, ne az eredetin.
+4. Futtasd újra a jobot: `jobctl retry dispute-import`.
+5. Ellenőrizd, hogy a merchant értesítések kimentek.
+6. A határidős ügyeket (7 napon belül) jelöld meg elsőbbségi (priority) címkével.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=ügyeleti átadás>>>
+Ügyeleti műszak átadása
+1. Az átadás előtt 15 perccel írd meg az összefoglalót az #oncall-handover csatornára.
+2. Térj ki a nyitott incidensekre, a folyamatban lévő change-ekre és az ismert instabil szolgáltatásokra.
+3. Csatold a legfontosabb dashboard linkeket.
+4. A fogadó ügyeletes visszaigazolja az átvételt egy ✅ reakcióval.
+5. A PagerDuty ütemezésben ellenőrizd, hogy a váltás megtörtént.
+6. Az előző ügyeletes még egy órán át elérhető kérdésekre.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=load balancer 502>>>
+502-es hibák a load balancer mögött
+1. Nézd meg a LB access logot: melyik upstream ad 502-t?
+2. Ellenőrizd, hogy a háttér podok Ready állapotban vannak-e: `kubectl get pods -o wide`.
+3. Ha a readiness probe hibázik, nézd meg a /healthz végpontot belülről: `kubectl exec ... curl localhost:8080/healthz`.
+4. Keepalive timeout eltérésnél igazítsd az upstream és az LB beállítását (az upstream legyen hosszabb).
+5. Rögzítsd a kiváltó okot, és nyiss követő feladatot a konfig javítására.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=backup visszaállítás teszt>>>
+Negyedéves adatbázis-visszaállítási teszt
+1. Válaszd ki az előző heti éjszakai mentést (snapshot).
+2. Hozz létre egy izolált teszt-instance-t, publikus hozzáférés nélkül.
+3. Állítsd vissza a mentést, és mérd az időt (cél: 90 perc alatt).
+4. Futtasd az integritásellenőrzést: sorok száma kulcstáblákon és a legutóbbi tranzakció időbélyege.
+5. Rögzítsd az eredményt a DR naplóban.
+6. Töröld a teszt-instance-t és a hozzá tartozó lemezeket.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=mTLS cert lejárat partner>>>
+Partner mTLS tanúsítványcsere (bank integráció)
+1. Kérd a partnertől az új tanúsítvány nyilvános részét legalább 14 nappal a lejárat előtt.
+2. Ellenőrizd a lánc érvényességét: `openssl verify -CAfile ca.pem partner-new.pem`.
+3. Töltsd fel a truststore-ba az új tanúsítványt a régi mellé.
+4. Teszteld a kapcsolatot staging környezetben.
+5. A pontos átállás időpontját egyeztesd a partnerrel.
+6. A régi tanúsítványt a sikeres átállás után 7 nappal vedd ki.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=hosszú tranzakció zárolás>>>
+Hosszú ideje nyitott adatbázis tranzakció
+1. Futtasd: `SELECT pid, now()-xact_start AS age, query FROM pg_stat_activity WHERE state <> 'idle' ORDER BY age DESC LIMIT 10;`
+2. Ha a tranzakció 15 percnél régebbi, és más lekérdezéseket blokkol, keresd meg a tulajdonosát a szolgáltatás neve alapján.
+3. Kérj engedélyt a megszakításra (pg_cancel_backend), a pg_terminate_backend az utolsó lehetőség.
+4. Ellenőrizd, hogy a zárolások feloldódtak.
+5. Jelentsd a fejlesztőknek a tranzakció okát.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=hu hard_negative=true topic=kártyás token migráció>>>
+Tokenszolgáltató váltás utáni szúrópróba
+1. A migrációs job befejezése után kérj le véletlenszerűen 200 tokent a régi és az új szolgáltatótól.
+2. Hasonlítsd össze az utolsó négy számjegyet és a lejárati dátumot (a teljes kártyaszám nem kerülhet logba).
+3. Eltérés esetén állítsd le a CIT/MIT ismétlődő terheléseket az érintett merchantoknál.
+4. Futtass egy 1 Ft-os teszt authorizációt tíz tokenre, majd azonnal void-old őket.
+5. Az eredményt írd be a migrációs ticketbe, és kérd a megfelelőségi csapat jóváhagyását a lezáráshoz.
+<<<END>>>

@@ -1,0 +1,3 @@
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=allotment society meeting>>>
+Allotment society meeting, Saturday 9 May. Water charges will rise slightly this year. Jobs agreed: Norman to ask the water company for a written breakdown of the new tariff and read it out at the June meeting. Bridget to repaint the gate and the numbered plot signs. Vikram to chase the four plot holders with unpaid fees, politely, by phone. Eileen to keep the minutes and email them to all members within a week. Any other business to Eileen before the end of May, please.
+<<<END>>>

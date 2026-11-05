@@ -1,0 +1,376 @@
+<<<ITEM kind=email lang=en hard_negative=false topic=invoice payment terms>>>
+From: Accounts Receivable <ar@meridian-print.test>
+To: Attila Voros <attila.voros@voros-design.test>
+Subject: Invoice 2026-1187 - due 20 November
+
+Dear Attila,
+
+Invoice 2026-1187 for 2,340.00 EUR (brochure printing, 3,000 copies) is due on 20 November 2026. Payment details are on the invoice. Please quote the invoice number in the transfer reference. If payment has already been made, please ignore this note, and thank you!
+
+Kind regards,
+Meridian Print, Accounts
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=team offsite agenda>>>
+From: Dilnoza Karimova <dilnoza.karimova@copperleaf-tech.test>
+To: Product Team <product@copperleaf-tech.test>
+Subject: Offsite agenda (Lake Balaton, 3-4 Dec)
+
+Hi team,
+
+Here's the draft agenda. Day 1: roadmap review 10:00-12:30, lunch, then prioritisation workshop. Dinner at the Halaszcsarda at 19:30. Day 2: retro and 2027 OKRs, finishing by 14:00 so we avoid the traffic. The minibus leaves Budapest at 08:15. Please let me know about dietary needs by Friday. Comments on the agenda are welcome!
+
+D.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=train ticket>>>
+From: Rail Tickets <tickets@europacific-rail.test>
+To: Sven Nilsson <sven.nilsson@mailbox.test>
+Subject: Your e-ticket: Gothenburg to Stockholm
+
+Journey: Gothenburg C -> Stockholm C
+Date: Thu 12 Nov 2026
+Departs 07:02, arrives 09:58 (train 412)
+Coach 5, seat 31 (window, quiet zone)
+Fare: Standard flex, 589 SEK
+
+Show the QR code at the gate or to the conductor. Changes are free until departure in the Flex fare.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=dental check-up>>>
+From: Smile Dental <info@smiledental-leeds.test>
+To: Tariq Mahmood <tariq.mahmood@mailbox.test>
+Subject: Time for your six-month check-up
+
+Dear Tariq,
+
+It's been six months since your last visit, so we'd like to invite you for a routine check-up and hygiene appointment. We currently have availability on Monday afternoons and Thursday mornings. You can book online or call reception on 0113 555 0170. As always, if you have any concerns before then, we are happy to see you sooner.
+
+The Smile Dental team
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=property survey results>>>
+From: Surveyor <m.okonkwo@okonkwo-surveys.test>
+To: Elodie Martin <elodie.martin@mailbox.test>
+Subject: Survey report - 9 Linden Terrace
+
+Dear Elodie,
+
+Report attached. In short: the roof covering is serviceable with 5-8 years of life left; there is damp in the rear ground-floor wall (probably a failed gutter); electrics are dated and a full test is advised; windows are double-glazed and in good condition. I have flagged the damp as the item to negotiate on. Call me if you'd like to go through it.
+
+Michael Okonkwo MRICS
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=lecture cancellation>>>
+From: Prof. Lajos Meszaros <meszaros.lajos@egyetem-pest.test>
+To: Macroeconomics II students <macro2@egyetem-pest.test>
+Subject: Thursday's lecture cancelled
+
+Dear students,
+
+Unfortunately I am unwell, so Thursday's 10:15 lecture is cancelled. Slides for chapter 7 are on the course page and I will answer questions in the forum. The seminar groups run as normal. We will cover the material in the following week's lecture; there will be no change to the assignment deadline.
+
+Best wishes,
+L. Meszaros
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=payment failed notice>>>
+From: Billing <billing@streamnest-media.test>
+To: Chiara Romano <chiara.romano@mailbox.test>
+Subject: We couldn't process your payment
+
+Hi Chiara,
+
+We tried to charge 11.99 EUR for your StreamNest Premium subscription on 3 November, but the card on file was declined. We'll retry on 6 November and 9 November. To avoid any interruption, you can update your card in Account > Payment methods. Your watchlist and profiles are safe either way.
+
+The StreamNest team
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=parcel locker pickup>>>
+From: LockerPoint <notify@lockerpoint-hu.test>
+To: Balint Kardos <balint.kardos@mailbox.test>
+Subject: Parcel ready for collection
+
+Your parcel from Tech Haven is ready at locker #47, Westend Mall, level -1.
+Pickup code: 836 204
+Collect within 3 days (until 8 Nov, 23:59), after which it returns to the sender.
+Opening hours: 06:00-24:00.
+Tip: use the app to open the locker without typing the code.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=social media calendar>>>
+From: Rhiannon Price <rhiannon@oakandember-co.test>
+To: Social Team <social@oakandember-co.test>
+Subject: December content calendar - draft
+
+Hi everyone,
+
+I've dropped the December content calendar into the shared drive. Themes: week 1 gift guide, week 2 behind-the-scenes at the workshop, week 3 customer stories, week 4 slow holiday rituals. We have 3 reels, 9 carousels and 12 stories planned. Please add captions to your allocated posts by the 20th, and flag anything that needs a photoshoot.
+
+Rhi
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=arbitration clause review>>>
+From: Marta Kelemen <marta.kelemen@kelemen-ugyved.test>
+To: Gabor Szentes <gabor.szentes@szentes-trans.test>
+Subject: Distribution contract - arbitration clause
+
+Dear Gabor,
+
+I reviewed the distribution contract from Rhine Cargo GmbH. The arbitration clause names Vienna as the seat and requires a sole arbitrator, which is acceptable. However, clause 14.3 limits our right to claim for late delivery to 5% of the order value. I recommend we ask for 15%. I also suggest a fixed notice period for termination. Shall I draft a counter-proposal?
+
+Best,
+Marta Kelemen
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=customer complaint reply>>>
+From: Customer Care <care@baxter-and-lowe.test>
+To: Wendy Chambers <wendy.chambers@mailbox.test>
+Subject: Re: Damaged lamp - order BL-30458
+
+Dear Ms Chambers,
+
+I am very sorry that your table lamp arrived with a cracked shade. We have dispatched a replacement today by express courier (tracking BL 99 20 14), and there is no need to return the damaged one; you may recycle it. As a gesture of goodwill, we have also added a 10 GBP credit to your account.
+
+Yours sincerely,
+Owen Baxter
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=youth league registration>>>
+From: League Office <office@tri-county-youth-hockey.test>
+To: Team Managers <managers@tri-county-youth-hockey.test>
+Subject: Registration window opens 16 November
+
+Managers,
+
+Registration for the winter season opens Monday 16 November and closes Friday 4 December. Fees: U10 120, U13 145, U16 165. Rosters must include a medical contact for every player. Rink allocation will be published on 10 December. Teams with outstanding fees from last season cannot be scheduled until the balance has been cleared.
+
+League Office
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=food delivery receipt>>>
+From: Receipts <receipts@quickbite-delivery.test>
+To: Zita Hajdu <zita.hajdu@mailbox.test>
+Subject: Your QuickBite receipt - Pho House
+
+Order #QB-8831-2204
+Delivered 4 Nov 2026, 19:42
+
+1 x Pho bo large 3,490 HUF
+1 x Spring rolls (4) 1,790 HUF
+1 x Jasmine tea 790 HUF
+Delivery fee 590 HUF
+Tip 500 HUF
+Total 7,160 HUF (card ending 5512)
+
+Rate your courier in the app.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=network outage postmortem>>>
+From: Marcus Weil <marcus.weil@pinnacle-isp.test>
+To: Operations <ops@pinnacle-isp.test>
+Subject: Postmortem draft - Tuesday's core router outage
+
+Draft postmortem for Tuesday's incident (04:12-05:47 local). Root cause: a faulty line card on the core router in the Vienna POP, which triggered a routing flap. Redundant path failed to take over because of a stale BGP timer set during last month's maintenance. Actions: replace the line card (done), audit BGP timers across POPs (due 20 Nov), add alerting on flap counts. Comments by Thursday please.
+
+Marcus
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=symposium call for papers>>>
+From: Programme Committee <pc@energytransition-symposium.test>
+To: Mailing List <announce@energytransition-symposium.test>
+Subject: CFP: Energy Transition Symposium 2027 (deadline extended)
+
+The deadline for abstract submission to the Energy Transition Symposium (Gothenburg, 14-16 June 2027) is extended to 15 December 2026. We welcome contributions on grid flexibility, hydrogen, heat pumps and policy. Abstracts of 300 words, via the submission portal. Notifications go out on 20 February. Early-career researchers may apply for travel grants.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=tender evaluation notice>>>
+From: Procurement Department <procurement@szeged-city-hall.test>
+To: Bidders <tenders@szeged-city-hall.test>
+Subject: Tender SZ/2026/117 - evaluation timetable
+
+Dear bidders,
+
+This is to inform you that the evaluation of tenders for the refurbishment of the Tisza Street playground (reference SZ/2026/117) has begun. The evaluation committee expects to complete its work by 27 November 2026. Clarification questions may be sent in writing to the Procurement Department. Results will be communicated to all bidders simultaneously.
+
+Yours faithfully,
+Procurement Department
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=claim documents request>>>
+From: Claims Handler <claims@sterling-auto-cover.test>
+To: Dylan Fitzgerald <dylan.fitzgerald@mailbox.test>
+Subject: Claim AC-775210 - one more document needed
+
+Dear Mr Fitzgerald,
+
+Thank you for reporting the accident on 31 October. To progress your claim we need the repair estimate from your garage and a copy of the police reference, if one was issued. Please upload these in your online account. Once received, we expect to settle within 10 working days. Your no-claims discount is not affected while liability is being determined.
+
+Sterling Auto Cover
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=gas bill estimate>>>
+From: Billing Team <billing@hearthstone-gas.test>
+To: Ruth Abramson <ruth.abramson@mailbox.test>
+Subject: Estimated bill - please submit a meter reading
+
+Dear Ruth,
+
+Your last bill was based on an estimate because we haven't received a reading since August. Please send us your current reading via the app or your online account, and we'll correct the bill. If your reading is more than 15% different from our estimate, we'll adjust your payment plan automatically.
+
+Thank you,
+Hearthstone Gas
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=tyre change booking>>>
+From: Gyula Papp <info@papp-gumiszerviz.test>
+To: Reka Toth <reka.toth@mailbox.test>
+Subject: Winter tyre change - slot Saturday 8:40
+
+Dear Reka,
+
+Your slot for the changeover to winter tyres is Saturday 14 November at 08:40. The service takes about 45 minutes, including balancing; the cost is 14,500 HUF. If you want us to store your summer tyres, it's 9,000 HUF for the season. Please check that the locking wheel nut key is in the car. Thank you!
+
+Gyula Papp
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=hedge trimming quote>>>
+From: Greenfingers Garden Care <office@greenfingers-garden.test>
+To: Patricia Holloway <patricia.holloway@mailbox.test>
+Subject: Quote: hedge and tree work
+
+Hello Patricia,
+
+Thanks for showing us round on Tuesday. Our quote: trim 40 m of beech hedge, 140; reduce the apple tree by a third, 180; green waste removal, 60. Total 380, with VAT included. We can come on 17 or 18 November if the weather is dry. The apple tree work is best done now, while the tree is dormant.
+
+Kind regards,
+Greenfingers
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=flooring delivery>>>
+From: Deliveries <deliveries@oakline-floors.test>
+To: Rasmus Eliasson <rasmus.eliasson@mailbox.test>
+Subject: Your flooring delivery - Thursday 12 November
+
+Dear Rasmus,
+
+Your 38 m2 of Nordic Ash engineered oak (14 boxes) will be delivered on Thursday 12 November between 10:00 and 14:00. The driver will call 30 minutes before arriving. The boxes weigh about 22 kg each and will be left at the kerb unless you arrange help. We recommend storing them flat in the room where they will be installed for 48 hours.
+
+Oakline Floors
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=pre-launch briefing>>>
+From: Zainab Malik <zainab.malik@tessera-devices.test>
+To: Sales Team <sales@tessera-devices.test>
+Subject: Briefing: Tessera Hub launch call, Wed 11 Nov
+
+Hi all,
+
+On Wednesday at 15:00 CET we'll hold a 45-minute call on the Tessera Hub launch. I'll cover pricing (299 EUR list, 249 for early orders), the demo kit schedule and the top five customer objections with answers. Recording will be shared afterwards. Please try to join live so we can take questions. Dial-in details are in the calendar invite.
+
+Zainab
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=parents evening schedule>>>
+From: Ms. Orsolya Kelen <kelen.orsolya@vorosmarty-iskola.test>
+To: Parents of 3B <3b-parents@vorosmarty-iskola.test>
+Subject: Parents' evening - sign up
+
+Dear parents,
+
+Parents' evening for class 3B is on Tuesday 17 November, from 16:00 to 19:00. Each meeting lasts 10 minutes. Please choose a slot using the link below; first come, first served. If you cannot attend in person, a phone call can be arranged. Children are welcome to bring their notebooks to show their work.
+
+Warm regards,
+Orsolya Kelen
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=overdraft notice>>>
+From: Account Services <notifications@alder-credit-union.test>
+To: Nikolai Petrov <nikolai.petrov@mailbox.test>
+Subject: Low balance alert
+
+Hi Nikolai,
+
+Your Everyday Account (ending 0827) fell below your alert threshold of 100.00. Current available balance: 63.42. A scheduled payment of 120.00 to Riverside Fitness is due on 6 November. To avoid an unarranged overdraft fee, you can transfer funds from your savings account in the mobile app.
+
+Alder Credit Union
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=storage bucket lifecycle>>>
+From: Cloud Notifications <notify@skyharbor-cloud.test>
+To: Hana Yoshida <hana.yoshida@tidepool-data.test>
+Subject: Lifecycle rule applied to bucket tidepool-archive-01
+
+A lifecycle rule created by you on 29 October has run for the first time.
+
+Bucket: tidepool-archive-01
+Rule: move objects older than 90 days to Cold tier
+Objects transitioned: 18,402
+Data moved: 1.3 TB
+Estimated monthly saving: 21.60 USD
+
+You can view or edit the rule in the console under Storage > Lifecycle.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=theatre season subscription>>>
+From: Subscriptions <subs@lantern-theatre.test>
+To: Ilse Brandl <ilse.brandl@mailbox.test>
+Subject: Your 2027 season subscription
+
+Dear Ilse,
+
+Thank you for renewing your subscription. Your seats for the 2027 season (Row F, 8-9, stalls) are secured for all six productions, beginning with "The Winter Orchard" on 20 January. You can exchange tickets for another date up to 24 hours before a performance. We have also added a complimentary programme voucher to your account.
+
+Lantern Theatre Box Office
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=pet adoption follow-up>>>
+From: Happy Tails Rescue <adopt@happytails-rescue.test>
+To: Lilla Banyai <lilla.banyai@mailbox.test>
+Subject: How is Mochi settling in?
+
+Hi Lilla,
+
+It's been two weeks since Mochi went home with you, and we'd love to know how she is doing! Cats often take a few weeks to relax in a new place; hiding is perfectly normal. Please remember her second vaccination is due on 20 November (details in your adoption pack). Photos always make our volunteers' day.
+
+With warm wishes,
+Happy Tails Rescue
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=running club session>>>
+From: Dave Ashworth <dave@eastside-harriers.test>
+To: Club Members <members@eastside-harriers.test>
+Subject: Tuesday session: hills!
+
+Evening runners,
+
+Tuesday's session is hill repeats at Beacon Park. Meet at 18:45 by the cafe; head torches and reflective kit are a must as it will be dark. Beginners do 6 x 1 minute, intermediates 8 x 90 seconds, fast group 10 x 2 minutes. Warm-up is a 2 km jog. Tea and flapjacks afterwards at the Crown.
+
+Dave
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=exhibit loan request>>>
+From: Dr. Ayesha Karim <ayesha.karim@nationalmaritime-museum.test>
+To: Lenders <loans@nationalmaritime-museum.test>
+Subject: Loan request: 18th-century ship's chronometer
+
+Dear Mr Edmonds,
+
+On behalf of the National Maritime Museum, I would like to request a loan of the Harrow chronometer (c. 1782) for our exhibition "Measuring the Seas", 12 May - 30 September 2027. The museum provides full insurance cover, climate-controlled display and courier costs. A facilities report is attached. We would be grateful for a reply by 15 December.
+
+Yours sincerely,
+Ayesha Karim
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=workshop room booking>>>
+From: Facilities <facilities@brightpath-academy.test>
+To: Csaba Ormos <csaba.ormos@brightpath-academy.test>
+Subject: Room 2.14 booked for your workshop
+
+Hi Csaba,
+
+Room 2.14 is yours on Friday 20 November, 09:00-13:00, for the teacher training workshop. Capacity is 30 with a movable table layout; a projector and two flipcharts will be set up beforehand. Coffee and pastries are ordered for 10:15. Tell us by Wednesday if the headcount changes by more than five.
+
+Thanks,
+Facilities
+<<<END>>>

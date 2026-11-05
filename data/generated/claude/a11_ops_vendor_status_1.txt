@@ -1,0 +1,180 @@
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=acquirer connectivity incident>>>
+Status: Investigating (Rhine Acquiring Services)
+Posted 03 Nov 2026, 09:10 UTC
+
+We are investigating elevated authorization timeouts affecting a subset of EU card transactions routed through our primary processing cluster. Merchants may see increased declines with response code 91 (issuer or switch inoperative). Traffic is being shifted to the secondary cluster. We will post another update in 30 minutes.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=planned maintenance window>>>
+Scheduled maintenance: Saturday 14 November, 22:00-23:30 UTC
+
+Tidalpoint Payments will upgrade the settlement database. During the window, settlement report generation and the payout status API will be unavailable. Authorization and capture are not affected. Payouts due during the window will be processed immediately afterwards. No action is required from merchants.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=API deprecation notice>>>
+Deprecation notice: /v1/charges
+
+Version 1 of the Charges endpoint will be retired on 1 March 2027. Please migrate to /v2/payment-intents. The new endpoint supports SCA out of the box and returns structured decline codes. Requests to /v1/charges will return HTTP 410 after the sunset date. A migration guide with field mapping is available in the developer portal under "Upgrade".
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=certificate chain change>>>
+Notice to API clients (Caldera Card Services)
+
+On 20 November our API certificates will be issued by a new intermediate CA, "Caldera Issuing CA 3". Clients that pin intermediates must add the new fingerprint before this date. Clients that trust the root store only are not affected. A list of fingerprints is published on the developer portal. Please test against sandbox, which already uses the new chain.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=webhook delay resolved>>>
+Resolved - Webhook delivery delays
+
+Between 14:05 and 15:40 UTC, webhook events were delivered with delays of up to 25 minutes due to a queue backlog in the eu-central region. The backlog has been fully processed and delivery times are back to normal. No events were lost. A post-incident review will be published within five business days.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=API doc idempotency>>>
+Idempotency (API reference excerpt)
+
+To safely retry requests, send an Idempotency-Key header with a unique value (UUID v4 recommended) on POST requests. Keys are stored for 24 hours. If a request with the same key and a different body is received, the API returns HTTP 409 with error code idempotency_key_reuse. Responses to successful replays include the header Idempotent-Replayed: true.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=3DS service degradation>>>
+Degraded performance: 3-D Secure authentication
+
+Update 2: Some cardholders are experiencing delays when completing 3DS challenges for Mastercard-issued cards. Our provider has identified a faulty ACS node at one issuer and is rerouting. Frictionless flows continue normally. Estimated resolution: within 2 hours. Merchants need not take action; abandoned challenges can be retried by the cardholder.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=rate limits documentation>>>
+Rate limits (documentation excerpt, Fleetwood Pay API)
+
+Default limit: 100 requests per second per API key, with a burst allowance of 200 for up to 5 seconds. Exceeding the limit returns HTTP 429 with a Retry-After header in seconds. Webhook endpoint management calls are limited separately to 10 requests per second. Higher limits are available for enterprise plans; contact your account manager.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=bank holiday payout schedule>>>
+Payout schedule for the Armistice bank holiday
+
+Banking partners in Belgium and France are closed on Wednesday 11 November. Payouts scheduled for this date to EUR accounts in those countries will arrive on Thursday 12 November. Payouts to other countries are not affected. Same-day payouts requested after 14:00 CET on 10 November will also be processed on the 12th.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=card tokenization API changes>>>
+Changelog: Token API v3.4
+
+Added: network tokens are now returned in the field network_token.status with values active, suspended and deleted. Changed: the token lifecycle webhook now includes the reason for suspension. Fixed: detokenization requests with expired tokens returned HTTP 500 instead of 404. Upgrading is optional; v3.3 remains supported until June 2027.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=sandbox outage>>>
+Sandbox environment unavailable
+
+From 11:30 to approximately 13:00 UTC, the sandbox for Ostara Pay will be offline for a database migration. Production is unaffected. Test card numbers and API keys will persist but test transactions created today may be reset. If you have integration tests running in CI, please expect failures during this period.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=fraud API field update>>>
+Risk API update (release 2026.11)
+
+The response of POST /risk/assess now contains reason_codes, an array of up to five strings explaining the score. The score range remains 0-1000. Merchants who map scores to actions in their own systems should review thresholds, because the recalibrated model produces a slightly lower median. Release notes and recalibration charts are in the documentation.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=partner bank incident>>>
+Identified - Delays on instant SEPA payouts
+
+Our partner bank has reported intermittent failures with SEPA Instant credit transfers. Affected payouts are being retried automatically and may fall back to standard SEPA, arriving the next business day. We are monitoring and will update at 16:00 UTC. Funds are safe; no merchant action is required.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=PCI scope update>>>
+Security bulletin: Hosted fields library 5.2
+
+Release 5.2 of the hosted fields script updates the content security policy requirements. Merchants must add frame-src https://fields.helmsmanpay.test to their CSP header. Versions below 5.0 will stop receiving security updates on 31 December. The library remains PCI SAQ A eligible when loaded directly from our domain.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=settlement report format>>>
+Settlement report v2 (preview)
+
+A new settlement report schema is available in preview. It adds columns scheme_fee, interchange_fee and fx_rate_used per transaction, and the file is available in CSV and CAMT.053. The old format remains the default until 1 April. To opt in, set report_version=2 in the dashboard under Settings, Reports. We welcome feedback through your account manager.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=DNS migration notice>>>
+Heads up for firewall administrators
+
+We are moving api.pay-vertex.test to a new set of IP ranges on 18 November. If you allowlist our IPs, add the ranges listed at /docs/ip-ranges before that date. We recommend allowing by hostname where possible. The old ranges will stay active until 18 December to give you time to migrate.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=minor outage dashboard>>>
+Monitoring - Merchant dashboard login errors
+
+Some users received "Something went wrong" when signing in between 08:12 and 08:40 UTC. A configuration change to our identity provider was rolled back. All services are operating normally and we continue to monitor. API access using keys was not affected.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=refund API documentation>>>
+Refunds (API reference excerpt)
+
+POST /v2/refunds creates a refund against a captured payment. The amount can be lower than or equal to the remaining refundable amount; multiple partial refunds are allowed. Refunds to card normally take 5-10 business days to appear on the cardholder's statement. The refund object has status pending, succeeded or failed; failed refunds trigger the refund.failed webhook.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=scheme mandate change>>>
+Compliance update: card-on-file requirements
+
+Effective 1 January, card schemes require explicit consent records for stored credentials. Merchants using Stellaris tokens must send the new field customer_consent.timestamp with the first transaction. Existing stored credentials are grandfathered, but incomplete records may result in higher decline rates. Our guide explains the full requirements.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=terminal firmware release>>>
+Terminal firmware 5.3.0 rollout
+
+Firmware 5.3.0 for the Lyra T8 series will roll out over the air between 16 and 20 November, outside of business hours. It adds support for the updated contactless limit and fixes a rare freeze after offline transactions. Terminals will reboot once. Merchants can postpone the update by up to 7 days in the terminal management console.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=payout API docs>>>
+Payouts (API reference excerpt)
+
+POST /v1/payouts initiates a transfer to a verified bank account. Required fields: amount (minor units), currency, destination. The response contains status queued, and the payout moves to in_transit when submitted to the bank. Possible failure reasons include invalid_account, closed_account and sanctions_hold. The cut-off time for same-day processing is 14:30 UTC.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=elevated decline rates>>>
+Investigating - Elevated declines with code 05
+
+We are seeing a rise in generic declines from two large issuers in the UK. Our team has raised the issue with the issuers. At this time the fault does not appear to originate on our platform. Merchants can retry failed payments after 30 minutes. We will update this notice when issuers confirm resolution.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=data retention policy>>>
+Policy notice: log retention changes
+
+From 1 December, API request logs in the dashboard will be kept for 90 days instead of 180. Webhook delivery logs remain at 30 days. Merchants who need to keep longer histories should export logs via the Logs API or stream them to their own storage. Audit logs for user and permission changes are unaffected and stay at 7 years.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=SDK release notes>>>
+iOS SDK 6.1.0 released
+
+New: Apple Pay recurring payment requests, support for the iOS 19 payment sheet. Improved: reduced binary size by 18%. Fixed: crash when the app was backgrounded during 3DS. Breaking: the minimum supported iOS version is now 15. Installation via Swift Package Manager is recommended; CocoaPods support continues until next year.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=resolved database incident>>>
+Resolved - Payment reports temporarily stale
+
+Reports in the merchant portal showed data up to four hours old between 06:00 and 10:20 UTC because of a delayed replication job. The job has caught up; reports are current. Payment processing and settlement amounts were unaffected. We apologise for the inconvenience and are adding an alert for this lag.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=webhook signature docs>>>
+Verifying webhook signatures (documentation excerpt)
+
+Each webhook request includes the header X-Signature with a timestamp and an HMAC-SHA256 hash of the timestamp and the raw body, using your endpoint secret. Compute the hash over the raw bytes, not parsed JSON, and compare in constant time. Reject events with timestamps older than five minutes to prevent replay. Rotate secrets from the dashboard; both secrets are valid for 24 hours.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=multi-region failover test>>>
+Planned failover exercise: 5 December, 03:00 UTC
+
+We will run a controlled failover from the Frankfurt region to Dublin. You may observe up to two minutes of elevated latency and a small number of retried requests. Idempotency keys protect against duplicate charges. Webhook events may arrive out of order during the exercise; please make sure that your handlers are idempotent.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=chargeback API documentation>>>
+Disputes (API reference excerpt)
+
+GET /v2/disputes returns open and closed disputes. To respond, POST evidence to /v2/disputes/{id}/evidence with fields such as receipt, shipping_proof and customer_communication. Files must be PDF, PNG or JPEG under 5 MB each. You may only submit evidence once per dispute, so gather everything first. The response deadline appears in the field evidence_due_by.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=currency support addition>>>
+New currencies available
+
+Starting 9 November, merchants can accept payments in PLN, CZK and HUF with local settlement in the same currency. Existing multi-currency accounts need to enable the currencies in Settings. Conversion fees do not apply for same-currency settlement. Payouts in these currencies are processed on local banking days only.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=en hard_negative=false topic=Apple Pay domain verification>>>
+Apple Pay domain verification (documentation excerpt)
+
+Host the verification file at https://your-domain/.well-known/apple-developer-merchantid-domain-association with HTTP 200 and no redirects. The file must be served unchanged; CDNs that rewrite or compress text files may cause verification to fail. We fetch the file from our servers with the user agent PaymentsVerifier/1.0. After a successful check the domain appears as Verified in the dashboard within a few minutes.
+<<<END>>>

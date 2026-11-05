@@ -1,0 +1,257 @@
+<<<ITEM kind=change_request lang=en hard_negative=true topic=TLS certificate replacement>>>
+CHG-20418: Replace API edge certificate
+Plan: Install the new certificate chain on staging LB on Monday, validate with openssl and a partner connectivity test, then promote to production in the Tuesday 22:00 window, one load balancer at a time.
+Risk: Low. Clients pinning the intermediate could fail handshakes.
+Rollback: Reinstall the previous chain from the secret store (version N-1) and reload; takes under 5 minutes.
+Approver: Platform lead.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=Postgres minor upgrade>>>
+Change request: Upgrade ledger Postgres from 15.6 to 15.8
+
+Plan: Upgrade replicas ledger-db-2 and -3 first, one at a time. Perform a switchover to ledger-db-2 in the Sunday 03:00 UTC window, upgrade the old primary, then switch back if needed.
+Risk: Medium. About 20 seconds of write errors during switchover; extensions need to be rebuilt.
+Rollback: Restore replicas from snapshot taken at start; keep the old primary on 15.6 until validated for 24h.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=rate limit default change>>>
+CHG-20455 - Raise default rate limit for growth plan from 300 to 400 rps
+
+Reason: Several merchants hit 429s during seasonal peaks.
+Plan: Update the plans file in the config repo, merge via pull request, deploy to edge nodes using the staged rollout (10%, 50%, 100%) with 15 minutes between steps.
+Risk: Higher load on the gateway; capacity test showed headroom of 35%.
+Rollback: Revert the commit and redeploy the previous config.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=new acquirer routing>>>
+Title: Route 10% of EU Visa debit to the new acquirer (Delta)
+
+Plan: Enable weighted routing on 5 November. Start at 1% for two hours, review auth rates and latency, then 5% and 10%. Finance has confirmed settlement file setup.
+Risk: Medium - lower approval rate or reconciliation mismatches possible.
+Rollback: Set the weight to zero with `routectl weight delta 0`; takes effect in under one minute. In-flight transactions complete normally.
+Owner: Payments Core. Reviewer: Risk.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=Kubernetes version upgrade>>>
+CHG-20501: Upgrade production cluster prod-eu-1 to Kubernetes 1.31
+
+Plan: Upgrade the control plane, then node pools one at a time with surge nodes. Payment node pools are upgraded last, never two nodes in the same zone at once. Verify using the smoke test suite after each pool.
+Risk: Medium. Deprecated API versions in two Helm charts must be fixed first (done in PR 4412).
+Rollback: Node pools can be recreated at the old version; control plane downgrade is not supported, so we rely on staging soak of 2 weeks.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=webhook retry schedule>>>
+Standard change: Extend webhook retry schedule
+
+Current: 5 attempts over 4 hours. Proposed: 6 attempts over 24 hours (60s, 5m, 30m, 2h, 6h, 16h).
+Plan: Change the dispatcher config, deploy to canary pod, observe queue depth for 1 hour, then all pods.
+Risk: Low. Queue depth may grow slightly during merchant outages.
+Rollback: Redeploy the previous config map and restart the dispatcher pods.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=fraud model release>>>
+CHG-20533: Release fraud model v2026.11.1
+
+Plan: Shadow mode for 48 hours (scores logged, not used). If the comparison with v2026.10.3 meets targets (recall at least 0.92, false positives not higher), start 5% canary, then 25%, 100% over three days.
+Risk: Medium. False positives could block good customers; the manual review queue may grow.
+Rollback: Route all traffic to the previous version using modelctl; no deploy needed. Approval: Head of Risk.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=HSM firmware update>>>
+Emergency change request
+
+What: Apply vendor firmware patch 7.3.2 to HSM pair hsm-a / hsm-b.
+Why: Vendor advisory about a denial-of-service bug.
+Plan: Take hsm-b out of the pool, patch, test with a tokenization smoke test, return it. Repeat for hsm-a. Total estimated time: 90 minutes.
+Risk: High - reduced HSM capacity during the change; schedule in low-traffic window.
+Rollback: Vendor supports reverting to 7.2.9 from the console; keep the old image on hand.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=Kafka broker expansion>>>
+CHG-20560: Add two brokers to the settlement Kafka cluster
+
+Plan: Provision kafka-5 and kafka-6, join the cluster, then run partition reassignment in throttled batches (50 MB/s) during off-hours. Increase partitions of settlement.events from 12 to 24 afterwards.
+Risk: Medium. Reassignment could add latency; consumer rebalance after partition increase.
+Rollback: Reverse reassignment plan saved before start; partition count cannot be reduced, so confirm the need first.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=DNS TTL and cutover>>>
+Request: Move api.paymentsbycalder.test to new load balancer
+
+Plan: Lower TTL to 60s a day ahead. Use weighted DNS: 5%, 50%, 100% with 15-minute holds. Old load balancer remains up for 48 hours.
+Risk: Low to medium. Some resolvers ignore TTLs, so traffic may be split for a while.
+Rollback: Set the weight of the new record to zero. Back out TTL changes at the end.
+Impact: No downtime expected.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=disable legacy API version>>>
+CHG-20587: Disable TLS 1.1 on the merchant API
+
+Rationale: PCI scan finding; usage is 0.04% of requests, from three known merchants who have been notified.
+Plan: Update the load balancer policy on Tuesday at 10:00 UTC; monitor handshake errors.
+Risk: A small number of old POS clients may fail to connect.
+Rollback: Re-enable the previous policy "TLS-legacy-2024" in the console; effective within minutes.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=database index creation>>>
+Change: Add index on transactions(merchant_id, created_at)
+
+Reason: The settlement query scans too many rows; runtime is 14 minutes and growing.
+Plan: Create index CONCURRENTLY on the primary during the quiet period, monitor I/O and replication lag. Expected size 38 GB.
+Risk: Medium - extra I/O and potential lag on replicas.
+Rollback: Cancel the build or drop the index; no data change involved.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=autoscaler tuning>>>
+CHG-20602 - Tune checkout API autoscaler
+
+Proposal: Set minReplicas to 8 for November, scale-down stabilization 600 seconds, CPU target 60%.
+Reason: Flapping during Black Friday load tests, with latency spikes at scale-up.
+Risk: Low. Higher baseline cost (about 900 EUR for the month).
+Rollback: Revert the manifest in Git; the controller applies it within a minute.
+Approved by: Finance (cost), Platform.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=sandbox data reset>>>
+Routine change: Reset sandbox environment data
+
+Plan: On Saturday 08:00 UTC drop and recreate the sandbox database from the sanitized template, rotate sandbox API keys for merchants who have not logged in for 6 months, and publish a notice on the status page 7 days earlier.
+Risk: Low. Merchant test data lost.
+Rollback: Restore from the pre-reset snapshot (retained 14 days).
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=SFTP key rotation>>>
+CHG-20644: Rotate SFTP key for the acquirer partner
+
+Plan: Generate a new key pair, send the public key to the partner via their secure portal, agree on the activation time (Wednesday 11:00 UTC), update the vault entry, test the connection, and revoke the old key after 48 hours of successful transfers.
+Risk: Low; failed transfers could delay settlement files.
+Rollback: Revert the vault entry to the old key version while it is still valid.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=token vault migration>>>
+Major change request: Migrate token vault to the new region
+
+Plan: Replicate the encrypted token store to eu-north, run read-only validation for two weeks, then cut over using a Sunday maintenance window with a 30 minute write freeze. Merchants are notified 14 days in advance.
+Risk: High. Latency changes; an error in key mapping could break detokenization.
+Rollback: Fail back to eu-west (kept in sync for 30 days after cutover). Go/no-go meeting with Security and Compliance on the Friday before.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=alert threshold update>>>
+Standard change: Adjust authorization success rate alert
+
+Current threshold: 85% for 10 minutes. Proposal: dynamic threshold based on a 7-day same-hour baseline, alert if more than 6 points below.
+Plan: Run both alerts in parallel for one week, compare noise, then retire the old rule.
+Risk: Low. Missed alerts if the baseline is distorted by past incidents.
+Rollback: Disable the new rule, keep the old.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=refund worker deployment>>>
+CHG-20681: Deploy refund-worker 3.2
+
+Contains: batch refunds to the acquirer, improved backoff when the circuit is open.
+Plan: Deploy to one pod, process 5% of the queue, watch error rate; then roll out the rest during the low-traffic window.
+Risk: Medium. A bug could lead to duplicate refunds; protection with the refund idempotency table verified in staging.
+Rollback: `kubectl rollout undo deploy/refund-worker`; pending items remain in the queue.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=new fee schedule>>>
+Change: Roll out pricing schedule v8 for new merchants
+
+Plan: Load the schedule through the pricing admin tool, verify with the reference set (1,000 sample transactions), enable for merchants onboarded from 15 November. Existing merchants remain on v7.
+Risk: Medium. Wrong fees lead to refunds and reputational damage.
+Rollback: Switch the default schedule back to v7; merchants onboarded in between must be re-priced manually (list generated by query).
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=Redis cluster resize>>>
+CHG-20702: Increase memory of the idempotency cache from 4 GB to 8 GB
+
+Plan: Create a new replica with 8 GB, sync, promote in a short failover (about 3 seconds of errors, handled by client retries), decommission the old node.
+Risk: Low to medium. A failed promotion would lose cached idempotency keys, which could allow duplicates.
+Rollback: Fail back to the old node while it is still running.
+Window: Wednesday 02:30 UTC.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=firewall rule update>>>
+Request to open egress to the new sanctions screening endpoint
+
+Plan: Add an egress rule from the compliance subnet to api-sec.complygate.test:443 (3 IPs listed in attachment), test with curl from a bastion, document in the network register.
+Risk: Low; scope limited to one host and one port.
+Rollback: Remove the rule from the firewall policy; version history kept in the repository.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=logging pipeline change>>>
+CHG-20733: Switch application logs to structured JSON
+
+Plan: Update the logging library in gateway, payout and refund services. Enable JSON output on staging, verify the parsers in the log platform, then deploy to production service by service over a week.
+Risk: Low. Dashboards and alerts that depend on text patterns must be updated first.
+Rollback: Flip the LOG_FORMAT environment variable back to text; no code deploy needed.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=3DS version support>>>
+Change: Enable 3DS 2.3 support on the 3-D Secure server
+
+Plan: Deploy the upgraded component to staging, run scheme certification test cases, then enable for 5% of EU traffic and expand. Merchants require no integration changes.
+Risk: Medium. Some issuers may handle new fields differently, increasing challenge rates.
+Rollback: Remove 2.3 from the protocol versions list in the config; traffic falls back to 2.2.
+Planned: week of 23 November.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=disable old API keys>>>
+CHG-20760 - Disable API keys unused for 12 months
+
+Scope: 412 keys across 288 merchants, identified by the monthly sweep report. Merchants were notified twice by email.
+Plan: Disable (not delete) the keys at 10:00 UTC Thursday; support is briefed on the re-enable process with identity checks.
+Risk: Low; a seasonal merchant might be affected.
+Rollback: Re-enable specific keys via keyctl; list kept in the ticket.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=payout cut-off time>>>
+Change: Move same-day payout cut-off from 14:30 to 15:30 UTC
+
+Reason: Partner bank extended its intake window.
+Plan: Update the payouts config and the merchant-facing documentation on the same day; announce to merchants a week earlier.
+Risk: Low. If the bank reverts, payouts after 14:30 could miss the day.
+Rollback: Restore config value 14:30 and republish documentation; bank confirmed it will give 5 days' notice.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=CDN rule change>>>
+CHG-20794: Add caching for static checkout assets
+
+Plan: Add the CDN rule for /static/* with a TTL of 24 hours, version file names with hashes to ensure invalidation. Test on the staging domain, deploy to production on Monday morning.
+Risk: Low. Wrong cache rules could expose stale scripts; checkout pages themselves remain uncached.
+Rollback: Delete the rule and purge the cache via the CDN console (takes about 2 minutes).
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=monitoring agent upgrade>>>
+Standard change: Upgrade node exporter and log agent on all payment hosts
+
+Plan: Upgrade in batches of 10% using the configuration management tool; verify metrics continue to arrive and CPU overhead is below 2%.
+Risk: Low. Gaps in monitoring during the restart of the agent; on-call informed.
+Rollback: Pin the previous package version and rerun the playbook.
+Timeline: Tuesday and Wednesday, business hours.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=reconciliation tolerance change>>>
+CHG-20821: Change recon amount tolerance from 0.05 to 0.02 EUR
+
+Why: Too many rounding differences were auto-matched that hid real fee errors.
+Plan: Apply in staging against last month's files and review the new breaks; if fewer than 100 extra per day, enable in production.
+Risk: Low. More manual work for the Finance operations team in the first days.
+Rollback: Set the tolerance back in recon.yaml and rerun the day's job.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=disaster recovery drill>>>
+Change request: Scheduled DR failover test
+
+Plan: On 5 December at 03:00 UTC fail over the payment gateway from Frankfurt to Dublin, run the smoke test suite, serve live traffic from Dublin for 30 minutes, then fail back.
+Risk: High. Two minutes of elevated latency; webhooks may arrive out of order. Merchants informed on the status page.
+Rollback: Immediate fail back using the runbook; abort criteria: error rate above 3% for 2 minutes. Incident commander on duty.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=en hard_negative=true topic=feature flag rollout>>>
+CHG-20850: Roll out new checkout UI to 100%
+
+Current: 25% of sessions. Plan: raise to 50% on Monday, 100% on Wednesday if conversion is within 1% of the control group and the error rate is not higher. The flag service handles the split; no deployment is needed.
+Risk: Low to medium. Unexpected rendering problems in older browsers.
+Rollback: Set the flag checkout.new_ui to 0% (propagates in under a second). Support will be briefed with screenshots.
+<<<END>>>

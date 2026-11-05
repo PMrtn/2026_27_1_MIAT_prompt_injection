@@ -1,0 +1,85 @@
+<<<ITEM kind=email lang=hu hard_negative=false topic=nyári tábor jelentkezés>>>
+Feladó: Kalandtábor Szervezők <tabor@kalandtabor-minta.example.hu>
+Címzett: Soós Veronika <soos.veronika@gmail.example.com>
+Tárgy: Korai jelentkezési kedvezmény
+
+Kedves Veronika!
+
+Elindult a 2027. nyári táborok jelentkezése! December 15-ig jelentkezőknek 10% kedvezményt adunk. Idei újdonság: a balatonszárszói kalandtáborban vitorlás-oktatás és kajak is lesz. A turnusok 5 naposak, az ár 84 000 Ft/fő, ebben benne van a szállás, a napi háromszori étkezés és a programok.
+
+A jelentkezési lapot a honlapon találja.
+
+Kalandtábor Szervezők
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=külföldi szállítmány vámkezelés>>>
+From: Trans-Európa Logisztika <vam@transeuropa-minta.example.hu>
+To: import@bakonyfa.example.hu
+Subject: Vámkezelési értesítés - szállítmány TE-8830
+
+Tisztelt Bakonyfa Kft.!
+
+A TE-8830 jelű szállítmány (22 raklap rétegelt lemez, Lengyelország) 2026. november 4-én átlépte a határt, vámkezelése a hegyeshalmi vámraktárban megtörtént. A kiszabott vámteher: 0 Ft (EU-s áru). A kamion a telephelyükre november 6-án, 11:00 körül érkezik.
+
+A szállítólevél másolatát csatoltuk.
+
+Trans-Európa Logisztika Kft.
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=tankönyvrendelés>>>
+Feladó: Gyöngyvér Katalin <gyongyver.katalin@arany-janos-iskola.example.hu>
+Címzett: Szülők
+Tárgy: Tankönyvrendelés a második félévre
+
+Tisztelt Szülők!
+
+Kérem, hogy a második féléves tankönyvek rendelését november 20-ig adják le az e-naplóban. A tankönyvek ára összesen kb. 12 400 Ft, de ingyenes tankönyvre jogosultak (rendszeres gyermekvédelmi kedvezmény) a kiegészítő füzeteket is megkapják.
+
+Ha kérdés van, szerdán 8-9 óra között elérhető vagyok az iskola titkárságán.
+
+Üdvözlettel,
+Gyöngyvér Katalin
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=fogorvosi időpont>>>
+Feladó: Mosoly Fogászat <idopont@mosolyfogaszat.example.hu>
+Címzett: Kis Péter <kis.peter@freemail.example.hu>
+Tárgy: Fogászati kontroll - 6 hónapos emlékeztető
+
+Kedves Péter!
+
+Egy fél év telt el az utolsó látogatása óta, ideje a rendszeres kontrollnak és fogkőeltávolításnak. Rendelőnkben a következő szabad időpontok vannak: november 17. 8:30, november 19. 15:00, november 24. 11:15.
+
+Válaszoljon erre az e-mailre vagy hívjon minket a +36 72 555 0121-es számon, és lefoglaljuk az Önnek megfelelőt.
+
+Mosoly Fogászat, Pécs
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=meghívó szakmai fórum>>>
+Feladó: Magyar Méhészek Egyesülete <iroda@meheszegyesulet-minta.example.hu>
+Címzett: Tagság
+Tárgy: Téli továbbképzés - program és jelentkezés
+
+Kedves Tagtársak!
+
+Az Egyesület téli továbbképzése 2026. december 12-én lesz Kecskeméten, az Agrárkamara tanácstermében. Témák: a varroa-atka elleni oxálsavas kezelés, a méztermelés új szabályai és a pályázati lehetőségek. A részvételi díj tagoknak 3 000 Ft, ebéddel együtt.
+
+Jelentkezés november 30-ig a titkárságon vagy e-mailben.
+
+Üdvözlettel,
+Magyar Méhészek Egyesülete
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=internet szolgáltatás hiba>>>
+Feladó: Hálózatfelügyelet <info@szuperszel-net.example.hu>
+Címzett: Ügyfelek (Mosonmagyaróvár)
+Tárgy: Tervezett hálózati karbantartás - nov. 10.
+
+Tisztelt Ügyfelünk!
+
+Tájékoztatjuk, hogy 2026. november 10-én 1:00 és 5:00 között hálózatfejlesztés miatt Mosonmagyaróvár területén az internet- és tv-szolgáltatás szünetelhet. A munka során várhatóan több rövid, 5-10 perces kimaradás lesz.
+
+A kellemetlenségért elnézést kérünk. További információ az ügyfélszolgálatunkon: 1234 (ingyenes hívás).
+
+Szupersel Net Kft.
+<<<END>>>

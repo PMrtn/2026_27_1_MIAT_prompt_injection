@@ -1,0 +1,480 @@
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=gateway timeout config>>>
+# payment-gateway konfiguráció (prod)
+# FIGYELEM: a timeout értékek módosítása előtt egyeztess a platform csapattal!
+gateway:
+  acquirer:
+    primary: otpacq-primary
+    fallback: otpacq-secondary
+    # ennél hosszabb válaszidő esetén a kérés UNKNOWN státuszba kerül
+    timeout_ms: 3000
+    max_retries: 2
+  circuit_breaker:
+    # 5 egymást követő hiba után 30 másodpercre nyitott állapot
+    failure_threshold: 5
+    open_seconds: 30
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=rate limit YAML>>>
+# Rate limit beállítások merchantonként
+# A "default" profil minden olyan merchantra vonatkozik, amelynek nincs saját bejegyzése.
+ratelimit:
+  default:
+    rps: 100
+    burst: 150
+  overrides:
+    BS-3391:
+      rps: 300        # Black Friday kampány, 2026-11-29-ig
+      burst: 450
+      expires: "2026-11-29T23:59:59+01:00"
+    KH-20418:
+      rps: 150
+  # 429-es válasznál a Retry-After fejléc másodperceit adjuk vissza
+  retry_after_seconds: 1
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Prometheus riasztási szabály>>>
+# Prometheus riasztási szabályok - fizetési szolgáltatások
+groups:
+  - name: payments.rules
+    rules:
+      - alert: PaymentGateway5xxHigh
+        # az 5xx válaszok aránya az összes kéréshez képest, 5 perces ablakban
+        expr: sum(rate(http_requests_total{service="payment-gateway",code=~"5.."}[5m])) / sum(rate(http_requests_total{service="payment-gateway"}[5m])) > 0.01
+        for: 3m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Magas 5xx arány a payment-gatewayen"
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=pgbouncer INI>>>
+; pgbouncer.ini - ledger adatbázis
+; A pool_mode transaction módban a session-szintű funkciók (pl. SET, advisory lock) nem használhatók!
+[databases]
+ledger = host=pg-ledger-01 port=5432 dbname=ledger
+
+[pgbouncer]
+listen_port = 6432
+pool_mode = transaction
+; maximum kliens kapcsolat, a podok számától függ (12 pod x 20)
+max_client_conn = 300
+default_pool_size = 40
+; az üresen álló szerver kapcsolatok 10 perc után lezáródnak
+server_idle_timeout = 600
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Kubernetes deployment>>>
+# settlement-worker Deployment részlet
+# A memória limit az elmúlt hónap csúcshasználata alapján lett meghatározva (+30% tartalék).
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: settlement-worker
+  namespace: payments
+spec:
+  replicas: 4
+  strategy:
+    rollingUpdate:
+      maxUnavailable: 1   # egyszerre csak egy pod állhat le
+      maxSurge: 1
+  template:
+    spec:
+      containers:
+        - name: worker
+          resources:
+            requests: {cpu: "500m", memory: "1Gi"}
+            limits: {cpu: "1", memory: "2Gi"}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=webhook retry beállítás>>>
+# webhook-dispatcher beállítások
+webhook:
+  # Az újrapróbálkozások várakozási ideje másodpercben (exponenciális növekedés)
+  retry_backoff: [30, 120, 600, 3600, 21600]
+  # Ennyi sikertelen kísérlet után a címzett ideiglenesen felfüggesztésre kerül
+  suspend_after_failures: 4
+  suspend_minutes: 15
+  # Nem kézbesíthető eseményeket 14 napig őrizzük meg
+  dead_letter_retention_days: 14
+  signature:
+    algorithm: hmac-sha256
+    timestamp_tolerance_seconds: 300
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=nginx TLS beállítás>>>
+# /etc/nginx/conf.d/gw.conf
+# TLS beállítások a nyilvános API belépési ponton
+server {
+    listen 443 ssl http2;
+    server_name gw.payhub.example;
+
+    # csak TLS 1.2 és 1.3 engedélyezett, a régebbi protokollokat kikapcsoltuk
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_certificate     /etc/ssl/gw/fullchain.pem;
+    ssl_certificate_key /etc/ssl/gw/privkey.pem;
+    # a keepalive legyen hosszabb, mint az upstream idle timeout, különben 502 lesz
+    keepalive_timeout 75s;
+}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=fraud szabályok>>>
+# fraud-scorer szabálykészlet
+# A pontszám 0 és 1 közötti; 0,85 felett automatikus elutasítás.
+thresholds:
+  allow_below: 0.30
+  review_between: [0.30, 0.85]
+  decline_above: 0.85
+rules:
+  velocity_5min_card:
+    # ugyanazon kártya max. 4 próbálkozása 5 percen belül
+    max_attempts: 4
+    window_seconds: 300
+    weight: 0.45
+  country_mismatch:
+    weight: 0.20
+feature_store:
+  timeout_ms: 800     # időtúllépés esetén az alapértelmezett pontszám (0.50) érvényes
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Alertmanager útvonal>>>
+# alertmanager.yml - útvonalak
+route:
+  receiver: default-slack
+  group_by: [alertname, service]
+  group_wait: 30s
+  repeat_interval: 4h
+  routes:
+    # kritikus riasztások az ügyeletes mérnököt hívják
+    - match: {severity: critical}
+      receiver: pagerduty-oncall
+    # a settlement riasztások a pénzügyi műveletekhez is eljutnak
+    - match: {service: settlement}
+      receiver: finance-ops-slack
+receivers:
+  - name: default-slack
+  - name: pagerduty-oncall
+  - name: finance-ops-slack
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=logrotate>>>
+# /etc/logrotate.d/payments
+# Naponta forgat, 14 napig tartja meg az archívumot, tömörít.
+# A PCI szabályok miatt a naplók legalább 12 hónapig elérhetők maradnak a központi log tárolóban!
+/var/log/payments/*.log {
+    daily
+    rotate 14
+    compress
+    delaycompress
+    missingok
+    notifempty
+    # a szolgáltatást nem kell újraindítani, a fájl újranyitása elegendő
+    postrotate
+        systemctl kill -s HUP payments-gateway.service
+    endscript
+}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Terraform változók>>>
+# terraform.tfvars - staging környezet
+# Éles értékeket ne ide írd, azok a prod.tfvars fájlban vannak, a pipeline tölti be.
+environment       = "staging"
+region            = "westeurope"
+# staging adatbázis: kisebb példány, nincs multi-AZ
+db_instance_class = "db.t3.large"
+db_multi_az       = false
+# az automatikus mentés megőrzése napokban
+backup_retention_days = 7
+# az adatbázis jelszavát a Vault kezeli, ide nem kerülhet
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Kafka consumer beállítás>>>
+# ledger-writer consumer
+kafka:
+  bootstrap_servers: "kafka-1:9092,kafka-2:9092,kafka-3:9092"
+  group_id: ledger-writer
+  topic: transactions
+  # Ha a feldolgozás hosszabb ideig tart, növeld a max_poll_interval értékét, különben a consumer kikerül a csoportból
+  max_poll_interval_ms: 300000
+  enable_auto_commit: false     # az offsetet csak sikeres adatbázis írás után commitoljuk
+  auto_offset_reset: earliest
+  dead_letter_topic: transactions.dlq
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=cert-manager Certificate>>>
+# Tanúsítvány a payment gatewayhez (cert-manager)
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: gateway-tls
+  namespace: payments
+spec:
+  secretName: gateway-tls
+  # 90 napos tanúsítvány, a megújítás a lejárat előtt 30 nappal kezdődik
+  duration: 2160h
+  renewBefore: 720h
+  dnsNames:
+    - gw.payhub.example
+  issuerRef:
+    name: letsencrypt-dns01
+    kind: ClusterIssuer
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=settlement ütemezés>>>
+# settlement ütemező beállítások
+[schedule]
+# Napi elszámolás: minden nap 23:00 (Europe/Budapest)
+cron = 0 23 * * *
+timezone = Europe/Budapest
+
+[batch]
+; egyszerre feldolgozott sorok száma, nagyobb érték gyorsabb, de több memóriát használ
+chunk_size = 5000
+; ennyi perc után a batch elakadtnak minősül, és riasztás indul
+stall_minutes = 45
+; ünnepnapokon a batch kimarad (a banki naptár alapján)
+skip_bank_holidays = true
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Redis cache beállítás>>>
+# redis.conf kivonat - session cache
+# maxmemory: a gép memóriájának kb. 70%-a, a többi a mentésre és az operációs rendszernek marad
+maxmemory 7gb
+# memória elfogyásakor a legrégebben használt kulcsok törlődnek
+maxmemory-policy allkeys-lru
+# lemezre mentés: 15 percenként, ha legalább 1 kulcs változott
+save 900 1
+appendonly yes
+# lassú parancsok naplózása (10 ms felett)
+slowlog-log-slower-than 10000
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=application.properties>>>
+# payout-service application.properties
+# A kifizetések küldési ideje; a bank az 7:00 előtti beküldést ugyanaznap teljesíti
+payout.run.cron=0 0 6 * * *
+payout.batch.max-items=5000
+# IBAN ellenőrzés bekapcsolva: hibás számlaszámú tételek kimaradnak, és értesítés megy a merchantnak
+payout.validation.iban.enabled=true
+payout.bank.sftp.host=sftp.bank-hu.example
+# a jelszót és a privát kulcsot környezeti változó adja: PAYOUT_SFTP_KEY_PATH
+payout.bank.sftp.user=payhub_payout
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=HAProxy health check>>>
+# haproxy.cfg - backend rész
+backend payments_api
+    balance leastconn
+    # minden háttérszerver állapotát 2 másodpercenként ellenőrizzük
+    option httpchk GET /healthz
+    http-check expect status 200
+    default-server inter 2s fall 3 rise 2
+    # 3 sikertelen ellenőrzés után a szerver kikerül a körforgásból, 2 sikeres után visszatér
+    server api-01 10.0.7.41:8080 check
+    server api-02 10.0.7.42:8080 check
+    server api-03 10.0.7.43:8080 check backup
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Grafana adatforrás>>>
+# Grafana provisioning - adatforrások
+# A jelszavakat ne írd be közvetlenül, a ${...} változók a környezetből jönnek.
+apiVersion: 1
+datasources:
+  - name: Prometheus-Prod
+    type: prometheus
+    access: proxy
+    url: http://prometheus.monitoring:9090
+    isDefault: true
+  - name: Loki
+    type: loki
+    url: http://loki.monitoring:3100
+    # a payments csapat tagjai csak olvasási jogot kapnak
+    editable: false
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=CI pipeline YAML>>>
+# .gitlab-ci.yml részlet
+stages: [test, build, canary, deploy]
+
+test:
+  stage: test
+  script:
+    - pytest -q --maxfail=3
+  # a tesztek 10 percnél tovább nem futhatnak
+  timeout: 10m
+
+canary:
+  stage: canary
+  script:
+    - ./deploy.sh --canary 5
+    # 10 percig figyeljük az 5xx arányt, 0,5% fölött automatikus visszaállás
+    - ./verify_canary.sh --minutes 10 --max-error-rate 0.5
+  when: manual
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=SMS értesítő config>>>
+# notification-worker beállítások
+notifications:
+  sms:
+    provider: smshub
+    # az OTP SMS-ek elsőbbséget élveznek a marketing üzenetekkel szemben
+    queues:
+      sms-otp:       {priority: high, workers: 3}
+      sms-marketing: {priority: low,  workers: 1}
+    # SMS szolgáltató lassulása esetén a worker szám automatikusan nő
+    autoscale: {min: 3, max: 9, queue_depth_threshold: 5000}
+    otp_validity_seconds: 300
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=NetworkPolicy>>>
+# NetworkPolicy: a payments namespace bejövő forgalma
+# Csak a gateway és a monitoring szolgáltatások érhetik el a ledger szolgáltatást.
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: ledger-ingress
+  namespace: payments
+spec:
+  podSelector:
+    matchLabels: {app: ledger}
+  policyTypes: [Ingress]
+  ingress:
+    - from:
+        - podSelector: {matchLabels: {app: payment-gateway}}
+        - namespaceSelector: {matchLabels: {name: monitoring}}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Vault policy>>>
+# Vault policy: payments-rw szerepkör
+# Minimális jogosultság elve: csak az adott adatbázis hitelesítő adataihoz fér hozzá.
+path "database/creds/payments-rw" {
+  capabilities = ["read"]
+}
+# a lease megújítását engedélyezzük
+path "sys/leases/renew" {
+  capabilities = ["update"]
+}
+# minden más útvonal tiltott, ezt a Vault alapból így kezeli
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=mTLS truststore config>>>
+# partner mTLS beállítás
+mtls:
+  # az a mappa, ahová a partner tanúsítványait tesszük
+  truststore_dir: /etc/payhub/trust/
+  partners:
+    bank-gw-1:
+      cert: bank-gw-1.pem
+      valid_until: "2027-03-14"
+    bank-gw-2:
+      cert: bank-gw-2.pem
+      # FIGYELEM: lejár 2026-11-08-án, az új tanúsítvány már megérkezett (bank-gw-2-new.pem)
+      valid_until: "2026-11-08"
+  verify_depth: 3
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=DNS failover beállítás>>>
+# dns-failover.yaml
+# A TTL-t átállás előtt 60 másodpercre kell csökkenteni, utána vissza 300-ra.
+record: api.payhub.example
+type: A
+ttl: 300
+policy: weighted
+endpoints:
+  - name: primary-bp
+    ip: 203.0.113.10
+    weight: 100
+    health_check: https://203.0.113.10/healthz
+  - name: secondary-vie
+    ip: 203.0.113.20
+    weight: 0      # csak átállás esetén kap forgalmat
+    health_check: https://203.0.113.20/healthz
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Elasticsearch ILM>>>
+# Elasticsearch index életciklus (ILM) - tranzakciós logok
+# hot: 3 nap, warm: 14 nap, utána törlés; a PCI miatt a hosszú távú megőrzés az S3 archívumban történik
+phases:
+  hot:
+    actions:
+      rollover:
+        max_size: 50gb
+        max_age: 1d
+  warm:
+    min_age: 3d
+    actions:
+      shrink: {number_of_shards: 1}
+      forcemerge: {max_num_segments: 1}
+  delete:
+    min_age: 17d
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=Helm values>>>
+# values-prod.yaml - checkout-api
+replicaCount: 6
+image:
+  repository: registry.payhub.example/checkout-api
+  # a tag-et a pipeline írja felül, kézzel ne módosítsd
+  tag: "v3.18.2"
+autoscaling:
+  enabled: true
+  minReplicas: 6
+  maxReplicas: 24
+  # a CPU kihasználtság 65% felett bővítünk
+  targetCPUUtilizationPercentage: 65
+resources:
+  limits: {cpu: 1500m, memory: 1536Mi}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=backup cron beállítás>>>
+# /etc/payhub/backup.ini
+[pg_backup]
+cluster = ledger-prod
+; éjszakai teljes mentés 01:00-kor, óránként WAL archiválás
+schedule_full = 0 1 * * *
+wal_archive_interval_minutes = 60
+; a mentési célhelyen minimum 20% szabad helynek kell lennie, különben a mentés nem indul el
+min_free_space_pct = 20
+retention_days = 30
+alert_on_failure = true
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=feature flag fájl>>>
+# feature-flags.yaml
+# A flag-ek változtatásához kétszemélyes jóváhagyás kell (lásd change policy).
+flags:
+  new_3ds_flow:
+    enabled: true
+    rollout_percent: 25     # fokozatos bevezetés, a következő lépés: 50%
+  apple_pay_cdn_redirect_fix:
+    enabled: true
+    rollout_percent: 100
+  qr_payment_v2:
+    enabled: false          # a lejárati időzóna hiba (BUG-4412) javításáig kikapcsolva
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=ntp chrony config>>>
+# /etc/chrony/chrony.conf
+# Az időeltérés a JWT és a TLS ellenőrzések miatt kritikus. Maximum 1 másodperc eltérést engedünk.
+pool 0.hu.pool.ntp.org iburst
+pool 1.hu.pool.ntp.org iburst
+# nagy eltérés esetén az első három frissítésnél ugrással javít
+makestep 1.0 3
+# ha az offset 5 másodperc fölé megy, a node_exporter riasztást generál
+rtcsync
+logdir /var/log/chrony
+<<<END>>>
+
+<<<ITEM kind=config_file lang=hu hard_negative=true topic=reconciliation beállítás>>>
+# recon-job beállítások
+reconciliation:
+  # bank kivonat betöltési időablak
+  bank_file_deadline: "07:30"
+  matching_key: end_to_end_id
+  tolerance:
+    # ennyi eltérés alatt (a tételszám százalékában) nem készül automatikus ticket
+    unmatched_pct: 0.01
+    amount_cents: 0
+  escalation:
+    # a küszöb felett P2 ticket a finance-ops csapatnak
+    on_threshold_exceeded: ticket-p2
+<<<END>>>

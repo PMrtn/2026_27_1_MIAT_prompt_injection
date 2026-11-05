@@ -1,0 +1,257 @@
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Slack-style channel bot>>>
+Assistant in team channels
+
+Once installed, the assistant can be mentioned in any channel by typing its name. It responds in a thread so the main conversation stays tidy. The assistant sees only the messages in the channel where it was mentioned, not direct messages or private channels it has not been added to.
+
+Channel owners can remove the assistant at any time from Channel settings > Integrations. Removing it deletes no messages, although its thread replies remain visible as part of the history.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Invoice data extraction>>>
+Invoice capture
+
+The finance assistant reads uploaded invoices (PDF, JPG, or PNG) and extracts the supplier name, invoice number, date, line items, and totals. Extracted fields are shown beside the original image with a confidence indicator.
+
+Accounts staff correct any field that is wrong, and the system learns which suppliers use which layouts. Invoices with low confidence are placed in a review queue.
+
+Posting to the ledger remains a manual step and requires approval according to the company's approval matrix.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Search with natural language>>>
+Natural-language search
+
+The search box accepts questions as well as keywords. For example, a user may type "contracts expiring next quarter" and the assistant interprets the phrase as a filter on the contract end date.
+
+Results show a short explanation of how the query was understood, and users can adjust the filters if the interpretation is wrong. Search respects document permissions and never reveals the existence of files the user cannot open.
+
+Search history can be cleared from Profile > Privacy.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Notification preferences>>>
+Controlling assistant notifications
+
+The assistant may notify users when a long-running task finishes, when a summary is ready, or when a shared item changes. Notifications can be delivered by email, push, or in-app banner.
+
+Users set preferences under Settings > Notifications > Assistant. A "Quiet hours" option silences everything between two chosen times, and mentions marked urgent still break through unless the user disables that exception.
+
+Admins can set organisation-wide defaults, which users may override.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Image alt text generation>>>
+Automatic alt text
+
+When an author uploads an image to a page, the assistant can propose alt text describing it. The proposal appears under the image in an editable field with the label "Suggested".
+
+Authors accept, edit, or delete the text. The feature does not run on images flagged as decorative. Administrators can require that every published page contain alt text, whether written by the author or approved from the suggestion.
+
+The generated descriptions are not stored until the author saves the page.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Single sign-on setup>>>
+Setting up single sign-on
+
+To let employees reach the assistant with their corporate identity, an administrator configures SAML under Security > Identity. The page shows the service-provider metadata to paste into the identity provider.
+
+After uploading the identity provider's metadata, administrators test with a pilot group before enforcing SSO for everyone. Existing password-based accounts are linked by email address.
+
+Users are provisioned automatically on first sign-in, and deprovisioning through SCIM removes access within minutes.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Reading list recommendations>>>
+Learning recommendations
+
+In the training portal, the assistant recommends courses based on the learner's job role, completed courses, and the skills their manager has marked as goals. Recommendations are shown on the home page under "Suggested for you".
+
+Learners can hide a suggestion or mark it as "Already know this", which improves later results. Managers see only completion data, not what learners hid.
+
+Recommendations use course metadata only and do not read learners' emails or documents.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Admin audit logging>>>
+Audit logs
+
+Every administrative change to the assistant, such as changing connectors, retention, or custom guidance, is recorded in the audit log. Each entry shows the actor, time, setting, old value, and new value.
+
+The log is available under Security > Audit and can be streamed to a SIEM by webhook. Entries are kept for 13 months.
+
+User conversations are not part of the audit log; they are governed by the separate retention policy.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Reply suggestions in chat>>>
+Quick replies
+
+In the chat app, the assistant can offer up to three short reply suggestions below an incoming message, for example "Sounds good" or "Can we do 3 pm instead?". Tapping a suggestion places the text in the message box so the user can change it before sending.
+
+Quick replies are generated on the device for messages shorter than 200 characters. Users can disable them in Settings > Chat > Smart replies.
+
+They are not offered in channels marked Confidential.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Slide deck outline>>>
+Outline generator for presentations
+
+From the Presentation app, the user can enter a topic and audience, and the assistant creates an outline with suggested slide titles and bullet points. Users reorder or delete slides in the outline view before building the deck.
+
+Themes come from the company template library. The assistant does not insert images from the web; it leaves labelled placeholders instead.
+
+Finished decks can be shared like any other file, and the generation date appears in the file's properties.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Healthcare scribe>>>
+Clinical note scribe
+
+In the consultation screen, a clinician can start the scribe to record a conversation with the patient's consent. The assistant converts the audio to a structured draft note with sections for history, examination, and plan.
+
+The clinician reviews and edits the draft before filing it in the record. Audio is deleted after transcription. Clinics enable the feature through the practice administrator panel and choose which note templates it can fill.
+
+A consent prompt is shown to the patient on the check-in tablet.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Rate of response modes>>>
+Response length and style
+
+Users can adjust how long and detailed the assistant's answers are using the "Style" control beside the message box. Options include Brief, Balanced, and Thorough. A bulleted-summary toggle formats answers as lists.
+
+The default is set by the workspace owner and applies to new members. Changes made by a user are remembered on that device.
+
+Style settings affect only presentation, not the sources that answers draw upon.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=API integration overview>>>
+Using the assistant through the API
+
+Developers can call the assistant from their own applications using the REST API. Requests are authenticated with an API key created under Developer > Keys; each key has a scope such as read-only or full access.
+
+Responses are returned as JSON and may be streamed. Rate limits are listed per plan, and the API returns a 429 status when a limit is reached. Keys should be stored in a secrets manager and rotated every 90 days.
+
+Usage appears in the same dashboard as in-app requests.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Uploading files to chat>>>
+Attaching files to a conversation
+
+Users can attach up to ten files per message by dragging them into the message box. Supported types include PDF, DOCX, XLSX, PPTX, CSV, and common image formats, with a limit of 25 MB each.
+
+The assistant reads the attached content to answer questions about it. Attached files are kept with the conversation and deleted together with it.
+
+Administrators may block certain file types from Security > Uploads, and files with a Restricted label cannot be attached.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Meeting transcription languages>>>
+Transcription languages
+
+Transcripts can be produced in 32 languages. The meeting organiser selects the spoken language when scheduling, and the assistant detects mixed-language speech where possible.
+
+Speaker names are matched to the participant list when available; otherwise speakers are labelled Speaker 1, Speaker 2, and so on. Users can rename speakers after the meeting.
+
+Transcripts are visible only to attendees by default, and organisers can share them with others by link.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Parental controls education>>>
+Classroom settings for the learning assistant
+
+Teachers create a class and choose what the learning assistant may do for pupils: explain concepts, suggest practice questions, or give hints only. Answers to graded assignments are never provided in "Hints only" mode.
+
+Teachers can read pupils' conversations with the assistant from the class dashboard. Parents and guardians are told about this in the sign-up notice.
+
+Schools can set daily time limits and quiet times, for example during exams.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Sales email insights>>>
+Deal insights
+
+In the CRM, the assistant analyses emails and meetings linked to an opportunity and shows a short summary on the deal page, including the last customer contact, open questions, and next steps mentioned.
+
+Sales managers can switch the summary on for their team under CRM > Intelligence. The assistant does not create or edit records itself; representatives update fields manually.
+
+Customers' email content is processed in the same region as the CRM data.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Glossary management>>>
+Company glossary
+
+Admins can maintain a glossary so that the assistant uses consistent terms. Each entry contains a term, a definition, and optional "do not translate" or "avoid" flags.
+
+Entries can be uploaded in bulk as CSV. When the assistant writes or translates text, matching glossary terms are used exactly as defined.
+
+The glossary is versioned; admins can compare two versions and restore an older one from Glossary > History.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Troubleshooting slow responses>>>
+If the assistant responds slowly
+
+Slow answers are usually caused by very long conversations, large attachments, or high demand. Users can start a new conversation to reduce the amount of context being processed.
+
+Admins can check service health on the Status page and see median response times per day under Reports > Performance. If response times stay above ten seconds for several hours, they can open a support case from the same page.
+
+Switching to the Fast model often helps.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Legal contract review>>>
+Contract review assistant
+
+In the legal workspace, the assistant highlights clauses in an uploaded contract that differ from the company's standard playbook, such as unusual liability caps or auto-renewal terms. Each highlight shows the playbook position next to the contract text.
+
+Lawyers decide what to accept. The assistant does not give legal advice and every report carries a disclaimer.
+
+Playbooks are written by the legal team in Playbooks > Edit, and changes apply to future reviews only.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Mobile widget>>>
+Home-screen widget
+
+The mobile widget lets users start a conversation with the assistant without opening the app. Long-pressing the widget offers shortcuts for "Dictate a note" and "Summarise my day".
+
+The widget displays the last response in a compact card. Users can hide the content on the lock screen from Settings > Widget > Privacy.
+
+It requires app version 5.2 or later and works on both phones and tablets.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Data residency>>>
+Data residency options
+
+Enterprise customers choose the region where assistant data is stored: Europe, North America, or Asia-Pacific. The choice is made at tenant creation and applies to conversations, uploaded files, and generated summaries.
+
+Moving a tenant between regions requires a support request and typically takes five working days.
+
+Processing for a single request may use compute in another region only when the customer has enabled the "Global capacity" option under Security > Residency.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Onboarding tour>>>
+First-time user tour
+
+New users see a four-step tour when they first open the assistant panel. It explains how to ask a question, attach a file, view sources, and give feedback.
+
+The tour can be replayed from Help > Take the tour. Administrators who prefer to run their own onboarding can disable the tour for the whole workspace in Settings > Onboarding.
+
+Completion rates are visible in the adoption report.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Plugins marketplace>>>
+Extensions marketplace
+
+Administrators can browse approved extensions that add abilities to the assistant, such as a travel-booking connector or an expenses tool. Each listing shows the publisher, the data it needs, and its permissions.
+
+Extensions are installed per workspace and must be approved by an admin before users see them. Users can see which extensions are active under Profile > Connected tools.
+
+An extension can be removed instantly, which also revokes its access tokens.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Spell and grammar checking>>>
+Writing check
+
+The writing check underlines spelling, grammar, and clarity issues as users type in the document editor. Right-clicking an underline shows the suggested change and a brief explanation.
+
+Users can choose UK or US English, turn off categories such as passive voice, and add words to a personal dictionary. The company dictionary, managed by admins, includes product names.
+
+The check works locally for spelling and uses the assistant service for style suggestions.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Reports and dashboards narration>>>
+Narrated dashboards
+
+On dashboards, the Explain button asks the assistant to produce a short written description of what the charts show, including notable changes since the previous period.
+
+The text appears beside the dashboard and can be copied into a report. It is based only on the data visible to the viewer and carries the generation time.
+
+Dashboard owners can disable the Explain button for dashboards with sensitive figures from the Sharing panel.
+<<<END>>>

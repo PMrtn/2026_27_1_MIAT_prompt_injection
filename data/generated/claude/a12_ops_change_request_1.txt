@@ -1,0 +1,211 @@
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=TLS tanúsítvány csere>>>
+CHG-4471 - A gw.payhub.example tanúsítvány kézi cseréje
+Terv: a cert-manager automatikus megújítása DNS-01 hiba miatt nem működik, ezért kézzel kérjük az új tanúsítványt, és feltöltjük a Kubernetes secretbe. Végrehajtás: 2026-11-10 22:00-22:30, kiesés nem várható.
+Kockázat: alacsony; hibás lánc esetén a kliensek TLS hibát kapnak.
+Visszaállítás: a régi secret verziója megmarad, visszaállítás kb. 2 perc alatt.
+Végrehajtó: Szabó Gergely. Jóváhagyó: platform lead.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=PostgreSQL verziófrissítés>>>
+CHG-4482 - Ledger adatbázis frissítése PostgreSQL 15-ről 16-ra
+Terv: a replika frissítése, replikáció újraépítése, majd kontrollált switchover vasárnap 02:00-04:00 között. A tervezett leállás maximum 8 perc.
+Kockázat: közepes. Az ORM egy régi verziója kompatibilitási hibát adhat egyes lekérdezéseknél. Staging környezetben a teszt lefutott, két lassabb lekérdezést optimalizáltunk.
+Visszaállítás: a régi primary 24 óráig megmarad, kapcsolás vissza 15 perc alatt, adatvesztés nélkül.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=rate limit módosítás>>>
+CHG-4490 - Rate limit emelése az Okosóra Bolt részére
+Terv: a BS-3391 merchant limitjének ideiglenes emelése 100-ról 300 req/s-ra 2026-11-29 23:59-ig, a Black Friday kampány miatt. A módosítás konfigurációs, deploy nem szükséges.
+Kockázat: alacsony; a megnövekedett forgalom terhelheti a fraud-scorert, ezért a skálázási határt 24 podra emeljük.
+Visszaállítás: a limit lejárat után automatikusan visszaáll, szükség esetén kézzel is törölhető.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=Kubernetes node pool>>>
+CHG-4503 - Worker node pool bővítése és operációs rendszer frissítése
+Terv: az új node-ok (m6.xlarge) hozzáadása, a régi node-ok soronkénti kiürítése (drain) és eltávolítása. A munkát három napra osztjuk: kedd, szerda, csütörtök, esténként 2-3 node.
+Kockázat: a PodDisruptionBudget miatt a drain elakadhat; a fizetési útvonal podjait külön figyeljük.
+Visszaállítás: a régi node pool nem törlődik a hét végéig, a podok visszatolhatók a nodeSelector módosításával.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=új fraud modell>>>
+CHG-4511 - Fraud scoring modell 2026.11.1 verziójának bevezetése
+Terv: 10%-os árnyékmód (shadow) 3 napig, majd fokozatos átkapcsolás 25%, 50%, 100% lépésekben. Minden lépés előtt a fraud elemző jóváhagyása kell.
+Kockázat: közepes. A modell az elutasítási arányt 0,4 százalékponttal emelheti; a jogos tranzakciók blokkolása merchant panaszt okozhat.
+Visszaállítás: a model_version beállítás visszaírása 2026.10.3-ra, rolling restart, kb. 5 perc.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=webhook sor skálázás>>>
+CHG-4517 - Webhook dispatcher replikák és sorméret módosítása
+Terv: a replikák számát 6-ról 12-re emeljük, és a belső sor korlátját 100 000 üzenetre állítjuk. Rolling restart, kiesés nélkül, hétfő 10:00-kor.
+Kockázat: alacsony. Több worker nagyobb terhelést ad a merchant végpontokra, ezért a per-merchant párhuzamosságot 5-re korlátozzuk.
+Visszaállítás: a Helm values visszaállítása az előző revízióra (helm rollback), 3 perc.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=Redis cluster bővítés>>>
+CHG-4524 - Session cache Redis klaszter bővítése 3 shardról 5 shardra
+Terv: új shardok hozzáadása, hash slotok újraelosztása (resharding) éjszaka, 01:00-05:00. A kliensek a cluster-aware drivert használják, ezért kiesés nem várható.
+Kockázat: közepes; resharding alatt a késleltetés átmenetileg nőhet, és egyes session-ök újra bejelentkezést kérhetnek.
+Visszaállítás: a resharding megszakítható, az új shardok kiürítése és eltávolítása után a régi állapot visszatér. Becsült idő: 40 perc.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=DNS TTL csökkentés>>>
+CHG-4530 - Átállási próba: DNS failover a bécsi régióba
+Terv: a TTL 60 mp-re csökkentése 10 perccel a teszt előtt; a forgalom 5%-ának átterelése a másodlagos régióba 30 percre. Szombat 06:00-07:00.
+Kockázat: a másodlagos régió adatbázis replikája 20-30 másodperc késésben lehet, így a nemrég létrehozott tranzakciók státusza ideiglenesen nem látszik.
+Visszaállítás: a weighted rekord visszaírása 100/0 arányra; a hatás a TTL miatt 1-2 perc alatt megszűnik.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=gateway deploy v3.19>>>
+CHG-4538 - payment-gateway v3.19.0 kiadás
+Tartalom: új 3DS 2.3 mezők, return URL HTTPS kényszerítés, a Google Pay kulcsfrissítés javítása. Deploy: canary 5% (10 perc), majd teljes rollout. Időpont: csütörtök 10:00 (nem csúcsidő).
+Kockázat: közepes; a HTTP return URL-t használó merchantok hibát kapnak. A merchantokat előzetesen levélben értesítettük (14 érintett).
+Visszaállítás: rollout undo az előző revízióra, adatbázis migráció nincs a kiadásban.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=HSM kulcs rotáció>>>
+CHG-4546 - Éves HSM kulcsrotáció (pan-enc-2027)
+Terv: új kulcs generálása a hsm-bp-01-en két kulcsőr jelenlétében, a konfiguráció átállítása, majd a tokenek háttérben történő átkódolása (kb. 6 óra). Karbantartási ablak: november 14., 00:00-06:00.
+Kockázat: magas, ezért két mérnök hagyja jóvá. Átkódolási hiba esetén egyes tokenek nem lesznek visszafejthetők.
+Visszaállítás: a régi kulcs az átkódolás végéig aktív marad, az átállás konfigurációs szinten visszavonható.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=Kafka partíció bővítés>>>
+CHG-4553 - A transactions topic partícióinak növelése 6-ról 12-re
+Terv: a partíciók számának bővítése a Kafka admin parancsával, ezt követően a ledger-writer consumerek számának 6-ról 12-re emelése. Kedden 14:00-kor.
+Kockázat: a kulcs szerinti sorrendiség az új partíciókra való átrendeződés miatt rövid ideig eltérhet. A ledger-writer idempotens, így a hatás kezelhető.
+Visszaállítás: a partíciószám nem csökkenthető; hibánál a consumer szám visszaállítható, az üzenetek feldolgozása folytatódik. Ezért tesztkörnyezetben előbb kipróbáljuk.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=Alertmanager átszervezés>>>
+CHG-4560 - Riasztási útvonalak átszervezése
+Terv: a severity=critical riasztások a PagerDuty-ba kerülnek, a warning szintűek csak Slackbe. A settlement riasztások külön csatornát kapnak a pénzügyi műveletekhez.
+Kockázat: alacsony; a konfigurációs hiba miatt riasztások elveszhetnek. Ezért a változtatás után próbariasztást küldünk minden útvonalra.
+Visszaállítás: az alertmanager.yml előző verziója a Git előzményből, reload 1 perc alatt.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=API kulcs rotáció merchant>>>
+CHG-4568 - Pannon Gyógyszertár API kulcsainak cseréje
+Terv: új éles kulcs generálása; a merchant fejlesztője 48 órán belül átállítja a rendszerét; ezután a régi kulcsot visszavonjuk. A két kulcs párhuzamosan működik.
+Kockázat: alacsony. Ha a merchant nem frissíti időben, a fizetések elutasításra kerülnek a régi kulcs visszavonása után.
+Visszaállítás: a visszavont kulcs nem éleszthető újra; szükség esetén új kulcsot generálunk. A visszavonás előtt a forgalmat ellenőrizzük.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=index létrehozás ledger>>>
+CHG-4575 - Új adatbázis index a ledger_entries táblán
+Terv: CREATE INDEX CONCURRENTLY a (merchant_id, booked_at) oszlopokra. A tábla 41 millió sort tartalmaz, az index létrehozása várhatóan 25 perc, zárolás nélkül.
+Kockázat: közepes. Az indexépítés alatt megnő az I/O terhelés, és a settlement batch lassulhat, ezért az éjszakai batch után (00:30-tól) végezzük.
+Visszaállítás: DROP INDEX CONCURRENTLY, azonnali és biztonságos.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=SMS szolgáltató váltás>>>
+CHG-4582 - Másodlagos SMS szolgáltató bekapcsolása
+Terv: az OTP SMS-ek 20%-át a másodlagos szolgáltatóra irányítjuk, hogy az elsődleges kiesése esetén legyen tartalék. Konfigurációs módosítás, két lépésben (20%, majd 50%).
+Kockázat: alacsony; a másodlagos szolgáltatónál eltérő lehet a kézbesítési arány, ezért az első héten naponta ellenőrizzük a mutatókat.
+Visszaállítás: az irányítási súly 0-ra állítása a konfigurációban.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=Apple Pay CDN szabály>>>
+CHG-4590 - CDN szabály módosítása a .well-known útvonalra
+Terv: a /.well-known/* kérésekre kikapcsoljuk az átirányítást és a gyorsítótárazást; az Apple Pay domain ellenőrzés így nem fut hibára. Végrehajtás a CDN felületén, 15:00-kor.
+Kockázat: alacsony; a szabály csak ezt az útvonalat érinti. Utána futtatunk egy cache purge-ot.
+Visszaállítás: a szabály deaktiválása, 1 perc.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=logging szint csökkentés>>>
+CHG-4597 - Naplózási szint csökkentése a payment-gatewayen
+Terv: a DEBUG üzenetek kikapcsolása éles környezetben (jelenleg tévedésből aktív), a lemezhasználat csökkentése miatt. Konfigurációs módosítás, újraindítás nélkül (dinamikus log level).
+Kockázat: alacsony; a hibakeresés nehezebb lehet, de a trace-ek a Jaegerben elérhetők maradnak. Ellenőrizzük, hogy kártyaadat vagy titok nem szerepelt a debug naplóban.
+Visszaállítás: a log level ideiglenes visszaállítása DEBUG szintre az admin végponton.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=backup tárhely bővítés>>>
+CHG-4604 - Biztonsági mentés tárhelyének bővítése
+Terv: a backup volume méretét 2 TB-ról 4 TB-ra növeljük, a megőrzési időt 30 napról 45 napra emeljük. Online bővítés, kiesés nélkül.
+Kockázat: alacsony. A költség havonta kb. 90 ezer Ft-tal nő, ezt a pénzügy jóváhagyta.
+Visszaállítás: a volume nem zsugorítható, de a megőrzési idő visszaállítható 30 napra. A bővítés után lefuttatunk egy visszaállítási tesztet.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=Vault jelszó rotáció>>>
+CHG-4611 - Adatbázis hitelesítő adatok rotációja Vaultban
+Terv: a payments-rw szerepkör hitelesítő adatainak rotációja, majd a podok sorban történő újraindítása. Hétfő 11:00. A szolgáltatások tulajdonosait egy nappal előtte értesítjük.
+Kockázat: közepes; ha egy szolgáltatás nem használja az External Secrets frissítést, régi jelszóval próbálkozik és hibát kap.
+Visszaállítás: a Vault korábbi lease-e 1 órán át érvényben marad, szükség esetén a podok visszaállíthatók.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=EUR elszámolási számla>>>
+CHG-4619 - EUR-os elszámolási folyamat bevezetése
+Terv: új settlement ág EUR számlákra (Kassai Fogaskerék s.r.o. mint első ügyfél), külön batch azonosítóval. A bevezetés fokozatos: először egy ügyfél 2 hétig, utána további merchantok.
+Kockázat: közepes; a kerekítési szabályok eltérhetnek a HUF folyamattól, ezért a pénzügyi csapat párhuzamos ellenőrzést végez az első 10 napban.
+Visszaállítás: a merchant elszámolási pénzneme visszaállítható HUF-ra, a függő EUR tételek kézi egyeztetése szükséges.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=firewall szabály>>>
+CHG-4626 - Új kimenő IP engedélyezése a merchant oldalán
+Terv: a Balatoni Szállás Kft. új szerverének IP-je (203.0.113.58) bekerül az engedélyezett listára. A régi IP (198.51.100.22) eltávolítása hétfőn, az átállás igazolása után.
+Kockázat: alacsony; elírás esetén a merchant API hívásai 403-at kapnak, ezért a bejegyzés után tesztkérést küldünk.
+Visszaállítás: az IP lista előző verziójának visszaállítása a konfigurációkezelőben.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=Grafana dashboard átalakítás>>>
+CHG-4633 - Settlement dashboard újratervezése
+Terv: a meglévő dashboard kiegészítése a batch haladását és a várható befejezési időt mutató panelekkel; új "SLO" sor. Nem érinti az éles szolgáltatásokat.
+Kockázat: nagyon alacsony; a dashboardok verziózva vannak Git-ben, a hibás lekérdezés csak a megjelenítést érinti.
+Visszaállítás: az előző dashboard JSON visszatöltése.
+Jóváhagyó: ügyeleti vezető. Végrehajtás: bármikor munkaidőben.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=ntp szinkron javítás>>>
+CHG-4640 - NTP szinkron helyreállítása a reports-01 szerveren
+Terv: a chrony szolgáltatás újratelepítése és újrakonfigurálása a központi NTP szerverekre. A szerver órája 187 másodperccel késik, ami JWT hibákat okoz. Időpont: ma 16:00, a napi riportok lefutása után.
+Kockázat: alacsony; az időugrás miatt a futó cron feladatok megzavarodhatnak, ezért a riportok futását a változtatás idejére felfüggesztjük.
+Visszaállítás: a chrony konfiguráció előző verziója.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=PHP SDK ajánlás frissítés>>>
+CHG-4647 - Ügyféldokumentáció módosítása a PHP SDK 3.4.2 verziójához
+Terv: a fejlesztői portálon a PHP példakódok frissítése, az ismert hiba (üres metadata) leírásának hozzáadása a hibaelhárítási szakaszhoz, és a letöltési link módosítása.
+Kockázat: nagyon alacsony, csak dokumentáció.
+Visszaállítás: a CMS előző verziójának visszaállítása. Végrehajtás: kedden délelőtt. Jóváhagyó: a fejlesztői támogatás vezetője. Értesítendő: partnerkapcsolati csapat.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=acquirer routing módosítás>>>
+CHG-4655 - Acquirer routing súlyok módosítása
+Terv: a forgalom megoszlása 80/20 helyett 60/40 az elsődleges és a tartalék acquirer között, a nemrégi időtúllépések miatt. Konfigurációs módosítás a routing szolgáltatásban, csütörtök 09:30.
+Kockázat: közepes; a tartalék acquirer díja 0,05 százalékponttal magasabb, és a jóváhagyási arány eltérhet. A mutatókat az első 48 órában figyeljük.
+Visszaállítás: súlyok visszaírása 80/20-ra, azonnali hatású.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=terraform modul frissítés>>>
+CHG-4662 - A VPC Terraform modul frissítése 4.2-ről 5.0-ra
+Terv: a staging környezetben terraform plan és apply, ezt követően prod. A plan eredményét két mérnök átnézi; minden destroy vagy replace tételt külön jóváhagyunk.
+Kockázat: magas; a modul új verziója a NAT gateway erőforrást újra létrehozhatja, ami rövid kimenő forgalom-kiesést okozna. Ezért karbantartási ablakban (vasárnap 03:00) végezzük.
+Visszaállítás: a modul visszaléptetése 4.2-re és a state ellenőrzése.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=adatmegőrzés módosítás>>>
+CHG-4670 - Tranzakciós adatok megőrzési idejének emelése 5-ről 7 évre
+Terv: a törlési (purge) job paraméterének módosítása és az archív tároló méretezése. Jogi jóváhagyás megvan (DPA módosítás). Nem érinti a működő rendszereket.
+Kockázat: alacsony; költségnövekedés, és az adatkezelési tájékoztató frissítése szükséges.
+Visszaállítás: a paraméter visszaállítható, de a már megtartott adatok törlését külön döntés alapján végezzük.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=QR lejárat javítás>>>
+CHG-4678 - QR fizetés lejárati időzóna hibájának javítása (BUG-4412)
+Terv: a qr-service hotfix kiadása: az expires_at mező kezelése UTC-ben, minden összehasonlításnál. Canary 10%, majd teljes kiadás. A feature flag (qr_payment_v2) a kiadás után kapcsolható be.
+Kockázat: alacsony; a hiba csak a helyi időzónában futó szervereken jelentkezett.
+Visszaállítás: a hotfix visszagörgetése (rollout undo), kb. 2 perc.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=bank csatlakozó frissítés>>>
+CHG-4685 - Új bankközi csatlakozó (camt.053.001.08) bevezetése
+Terv: a bank az új üzenetformátumra tér át december 1-jétől. A bank-import szolgáltatás frissítése a új sémára, párhuzamos futtatás a régi sémával két hétig a staging környezetben, utána éles.
+Kockázat: közepes; a mezők eltérései miatt az egyeztetés (reconciliation) tételei félrepárosodhatnak.
+Visszaállítás: a régi parser egy konfigurációs kapcsolóval újra aktiválható.
+<<<END>>>
+
+<<<ITEM kind=change_request lang=hu hard_negative=true topic=mTLS partner tanúsítvány>>>
+CHG-4692 - bank-gw-2 partner tanúsítvány cseréje (mTLS)
+Terv: az új tanúsítvány (bank-gw-2-new.pem) feltöltése a truststore-ba a régi mellé, kapcsolatteszt staging környezetben, majd éles átállás a partnerrel egyeztetett időpontban: 2026-11-07, 21:00. A régi tanúsítvány lejárta: 2026-11-08.
+Kockázat: közepes; sikertelen kézfogás esetén az utalások a tartalék kapcsolaton mennek, késéssel.
+Visszaállítás: a régi tanúsítvány 7 napig a truststore-ban marad, de lejárata miatt ez csak rövid távú megoldás.
+<<<END>>>

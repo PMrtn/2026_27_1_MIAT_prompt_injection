@@ -1,0 +1,9 @@
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Shared prompt visibility>>>
+Who sees what in shared conversations
+
+When a user shares a conversation with a colleague, the colleague receives a read-only copy that includes the assistant's replies, the cited sources, and any files attached at that point. Later messages are not included unless the user shares again.
+
+The owner can stop sharing at any time from the conversation menu, which makes the link stop working immediately. Admins can restrict sharing to members of the same workspace under Sharing > Conversations.
+
+Shared copies follow the retention policy of the recipient's workspace.
+<<<END>>>

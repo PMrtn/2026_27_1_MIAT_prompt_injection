@@ -1,0 +1,99 @@
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=ironing board>>>
+Reviews: Pressia Foldable Ironing Board with Steam Rest
+
+★★★★ Ibolya Sárosi - Stable even with a heavy steam iron, and the height lock clicks firmly. Cover is thin but fits well.
+★★★★★ Cormac Fitzgerald - Folds flat behind the door. I iron six shirts a week and it hasn't wobbled.
+★★ Judith Wangari - One leg latch broke after four months.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=sketchbook art supplies>>>
+Customer reviews - Atelier Mix-Media Sketchbook, 200 gsm, 40 sheets
+
+Kata Szegedi (5/5): Takes watercolour washes without buckling too much, and pencil work looks crisp on the surface. Spiral binding survived my backpack.
+
+Lucas Pereira (3/5): Paper is fine, but at this price I expected perforated pages.
+
+Ottilia Reuter (4/5): Good for travel sketching.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=solar garden lights>>>
+Reviews: Glowpath Solar Garden Lights (8-pack)
+
+Vilmos Kovács ★★★★ - Lined my path in ten minutes, no wiring. They stay lit for roughly five hours after a sunny day.
+
+Philippa Doyle ★★ - Two of the eight stopped working after the first heavy rain.
+
+Anwar Siddiqui ★★★★★ - Soft warm light and decent stakes.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=car dash cam>>>
+Reviews of the Driveview D2 Dash Cam
+
+Gellért Pap, 5 stars: Footage is clear enough to read licence plates at dusk. Loop recording and parking mode work as advertised.
+
+Susanna Lindqvist, 4 stars: Suction mount holds firmly. The screen is small but sufficient.
+
+Robert Chukwu, 3 stars: Needs a high-endurance memory card, and the supplied card is not one.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=weighted blanket>>>
+Weighted blanket reviews - Serena 7 kg
+
+Magdolna Fülöp - ★★★★★ - Helped me fall asleep faster; the pressure feels like a hug. Duvet cover loops are a good touch.
+Julian Ashcroft - ★★★ - Too warm in summer, so I use it only in the colder months.
+Nneka Obi - ★★★★ - Beads stay evenly spread.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=cloud storage service>>>
+Service reviews: StoreNest Cloud Backup (1 TB plan)
+
+★★★★★ Lajos Ványi: Initial backup of 400 GB finished in two days. Restoring a single file takes seconds.
+
+★★★ Moira Henshaw: Reliable, but versions older than 30 days are deleted, which I only noticed later.
+
+★★★★ Tariq Anwar: Apps are tidy and the pricing is clear.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=paddleboard>>>
+Reviews - Wavelark 10'6" Inflatable Paddleboard
+
+Dániel Sárközi (5/5): Inflates in about six minutes with the included pump, and it is rigid enough for me at 90 kg. Used it on Lake Balaton all summer.
+
+Fiona Gallacher (4/5): Stable for beginners. The bag zip is stiff.
+
+Pablo Navarro (3/5): Fin box needed a firm push before the fin locked.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=pencil sharpener>>>
+Customer reviews: Gradix Electric Pencil Sharpener
+
+Rita Kőrösi - 4 stars - Makes a neat point on soft and hard leads. Shavings tray is easy to remove.
+Brian Whitlow - 2 stars - It is loud, and it chewed through a colouring pencil.
+Esther Mwangi - 5 stars - Perfect for my classroom.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=fitness tracker band>>>
+Reviews - Bandora Fit 5 Activity Band
+
+Lőrinc Pálfi ★★★★★ - Step count agrees with my phone. Sleeps are logged with stages, and the screen is clear in sunlight.
+Erin Callahan ★★★★ - Light on the wrist. Charging cradle is easy to misplace.
+Soren Albrecht ★★★ - Notification previews are cut off.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=vinyl turntable>>>
+Reviews of Grooveton T-40 Belt-Drive Turntable
+
+Ágoston Balla, 5 stars: Setup took 15 minutes. Speed is steady, and the built-in phono preamp sounds clean through my powered speakers.
+
+Henry Castellanos, 4 stars: Dust cover hinges are a bit stiff.
+
+Mirjam Visser, 3 stars: Belt came off during shipping, though replacing it was easy.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=reusable shopping bags>>>
+Customer reviews: EcoCarry Foldable Shopping Bags (set of 5)
+
+Bernadett Gyenes ★★★★★ - Each folds into a small pouch that fits in my handbag. Carried 9 kg of groceries without a tear.
+Lionel Hargrave ★★★★ - Washable. Colours are brighter than pictured.
+Thandiwe Mokoena ★★★ - Handles are a bit thin and dig into my hand.
+<<<END>>>

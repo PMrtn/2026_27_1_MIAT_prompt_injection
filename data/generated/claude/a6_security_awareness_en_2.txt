@@ -1,0 +1,99 @@
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=ransomware prevention>>>
+Ransomware does not usually arrive with fireworks. It starts with one tired person opening one convincing attachment. To protect Dunmore Textiles, keep your files in the shared drive so they are backed up nightly, never store the only copy of important work on your desktop, and do not attempt to pay or negotiate if you see a ransom note. Switch off the Wi-Fi on your laptop, leave it powered on, and phone the incident line immediately. Speed limits the spread to other machines.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=visitor management>>>
+Guidance for hosts of visitors. Please register every guest in the visitor system at least a day beforehand, meet them in reception, and make sure they wear a visible badge for the whole visit. Never leave visitors alone in meeting rooms with open screens, and do not let them plug devices into our network; the guest Wi-Fi is available on the card they receive. Escort them to the exit and collect the badge. If you spot an unescorted person without a badge, politely ask who they are visiting.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=personal data handling>>>
+When you work with customer data, ask yourself three questions: do I need this, am I allowed to have it, and is it going somewhere safe? Do not copy personal details into chat threads, test spreadsheets or presentation slides. Never email unencrypted files containing health or payment information; use the secure transfer portal. Remove data you no longer need, according to the retention schedule. If you think a record was sent to the wrong person, tell the Data Protection Officer, Ms Ilse Verbeek, within the same working day.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=pretexting scenario>>>
+Case study for the induction session. A man in a courier jacket tells the receptionist he has an urgent parcel that must be handed to "Mr Lindqvist in accounts" and asks where the finance office is. A few minutes later, the same man phones the accounts office pretending to be from reception. This is pretexting: building a believable story to collect small pieces of information. The lesson is simple. Never confirm names, room numbers or routines to unknown people; offer to take the parcel and call the named person yourself.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=strong passphrases>>>
+Length beats complexity. "Tr0ub4dor&3" is hard to remember and easy to crack, whereas "lantern-biscuit-orbit-harvest" is easy to remember and would take centuries to guess. Choose a passphrase of at least fifteen characters made of unrelated words, and never base it on birthdays, pet names, football clubs or the current season. Do not add a number at the end when forced to change. Avoid rotating passwords on a schedule unless you suspect a leak; change them immediately in that case.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=email auto-forwarding>>>
+A common sign of a compromised mailbox is a hidden rule that forwards copies of every message to an outside address. Once a quarter, open your mail settings and check your rules and forwarding options. If you see anything you did not create, remove it, change your password and notify the Security Desk. Never set up automatic forwarding of company email to a private account, even temporarily during leave. Use delegation or an out-of-office reply with a colleague's name instead.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=bring your own device>>>
+Using a personal phone for work email is permitted at Kestrel Analytics, but only with the management profile installed. This lets us wipe company data if the phone is lost without touching your photos. Keep the operating system up to date, use a six-digit PIN or biometrics, and do not jailbreak or root the device. Never install apps from unofficial stores. If your phone is lost or stolen, report it to the helpdesk straight away, even if you think it may turn up under the sofa.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=fake login pages>>>
+Hello team. Last Tuesday, forty people received an email with the subject "Shared document: Q3 salary review". The link led to a page that looked just like our sign-in screen, down to the logo, but the address was different. Three colleagues typed in their passwords before the page was taken down. Please check the web address before entering credentials, use your password manager (which will not autofill on a fake domain), and never log in through a link in an email you were not expecting.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=ex-employee access>>>
+Managers, a reminder about leavers. When someone resigns, request removal of their accounts, building badge and shared mailbox access on or before their last day, using the leavers form in the HR portal. Do not wait for IT to notice. Remember cloud tools that were set up outside the normal process, such as shared folders and social media accounts. Never allow a departing employee to keep a company laptop "for the weekend", and collect any hardware, tokens and keys at the exit interview.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=security in meetings>>>
+Online meetings can be gatecrashed. Do not post meeting links publicly or in open chat channels. Use the waiting room, check each unfamiliar name before admitting it, and lock the meeting once everyone has arrived. Do not share your whole desktop if you only need to show one window, and close messaging apps before presenting. Never record a meeting without telling the participants, and delete recordings from your downloads folder when they have been uploaded to the approved archive.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=vishing at reception>>>
+Front-desk staff are a favourite target for phone fraud. Typical callers sound confident and slightly impatient, claim to be from head office or the auditors, and ask for staff lists, direct-dial numbers or the name of whoever approves payments. Please do not provide this information over the phone. Take a name and a number, tell the caller someone will respond, and then verify the request with the department concerned. Use the script card taped beside the switchboard if you feel pressured. Log every suspicious call in the shared sheet.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=printer security>>>
+Printers hold on to more than paper. Many store scanned images on an internal drive, and a forgotten printout in the tray can reveal a salary letter to the whole floor. Please use the "secure release" option so that jobs print only after you tap your badge at the machine. Do not leave originals on the glass. Never connect personal devices to the printer's Wi-Fi Direct function, and do not scan documents to a private email address; use the scan-to-folder feature instead.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=browser extensions>>>
+Browser extensions can read everything you see on a page, including your webmail and banking. Do not install extensions that you do not need, and avoid ones with few reviews, a vague privacy statement or a sudden change of owner. Only add extensions from the company's approved catalogue. Every few months, open your extension list and remove what you no longer use. If an extension asks for new permissions after an update, treat that as a red flag and contact the helpdesk before agreeing.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=family safety at home>>>
+Cyber safety works best when it is a family habit. Sit down with your teenagers and talk about why they should never share passwords, even with their best friends; why they should hesitate before clicking on "free skins" offers in games; and why they should tell you when something online feels odd, without fear of being punished. Keep software updated on all devices at home. Do not reuse the same password for the games console and the email account that resets everything else.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=supplier bank changes>>>
+Accounts payable reminder: a letter or email from a supplier announcing "new bank details effective immediately" is the number one trigger for invoice fraud. Do not update the vendor record on the strength of the message alone. Call the supplier using the contact on file from the original contract, confirm the change with two named people, and record the call in the ticket. Never use phone numbers or links given in the new message. Large first payments to altered accounts must be signed off by the finance director.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=data classification labels>>>
+Our four labels are Public, Internal, Confidential and Restricted, and they decide where a file may be stored and who may receive it. If you are not sure, treat the document as Confidential. Never send Restricted material, such as unreleased financial results or customer identity data, by ordinary email or through a messaging app. Do not remove a label because it is inconvenient. When a colleague asks for a file, check that they have a genuine need to know first, and use link sharing with an expiry date.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=holiday scams>>>
+December brings a seasonal rise in scams: fake parcel notices, "gift voucher" winners, charity appeals and holiday bookings priced suspiciously low. Do not pay for anything through bank transfer to a stranger, never give card details by phone to someone who called you, and be careful with emails that promise bonuses or ask you to confirm your payroll details before the break. Skip the urgent-sounding messages; if it matters, it will still be there after you have checked it properly.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=lost devices>>>
+If you lose a laptop, phone, access card or token, report it right away. Don't wait until tomorrow in case it turns up. Call the helpdesk on 4410, or the out-of-hours line on 0800 555 0187, and give the time and place you last had it. We can lock the device remotely, revoke the certificates and disable the badge in a few minutes. Never attempt to buy a replacement yourself. Also tell your manager and, if the loss happened in public, make a note of any police reference number.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=new starter briefing>>>
+Welcome to Ardent Freight! Three things to remember in your first week. First, you will receive a single-use code from IT when you set up your account; treat it like a bank PIN and never pass it to anyone. Second, our CEO will never email you asking for favours or urgent payments. Third, if something looks odd, report it; there is no such thing as a silly question for the Security Desk. You will complete the short online course by Friday, and your buddy will show you where the shredding bins are.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=sim swap fraud>>>
+Mobile numbers can be hijacked. In a SIM-swap attack, the criminal persuades your provider to move your number onto their card and then receives your verification texts. Warning signs include sudden loss of signal for no reason and messages from your provider about a SIM change you did not request. Contact your provider at once if this happens. Where possible, use an authenticator app instead of text codes, set a PIN with the provider, and never share personal details on social media that could be used to answer security questions.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=social media impersonation>>>
+Someone has created a profile using the name and photo of our finance director and has been sending friend requests to staff. Do not accept the request, and do not reply to any private messages that come from it. Our director only uses the company directory and official email. If you have already responded, do not send money or personal information, and report the profile using the platform's impersonation form. Then let the Communications team know so we can post a short notice for customers.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=wifi in cafes>>>
+Working from a café is fine, with a few rules. Use your phone's hotspot if you can; it is safer than shared Wi-Fi. If you must use the café network, switch on the VPN before you open anything. Do not leave the laptop on the table while you order a coffee, and never connect to a network with a name similar to the café's but without a password. Keep the screen tilted away from the window, and finish confidential calls somewhere private.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=remote support scams>>>
+An elderly relative gets a pop-up saying "Your PC is infected, call this number now". The helpful voice on the line asks them to install a program and then shows a fake "refund" screen. Please pass this on to family members: pop-ups cannot tell whether your computer is infected, so do not call the number. Never allow strangers to control your computer or ask you to buy vouchers. Switch the machine off, restart it, and ask a trusted person to look at it.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=insider threat awareness>>>
+Most colleagues are honest, but occasionally someone under pressure makes a poor choice. Warning signs might include copying large numbers of files before resigning, asking for access that has nothing to do with their role, or working at odd hours without explanation. This is not a reason for suspicion on its own. If something troubles you, speak to your manager or the confidential ethics line on 0800 555 0109. Do not confront the person yourself, do not gossip about it, and do not try to investigate alone.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=social engineering quiz>>>
+Quick quiz for the break room board. A stranger on the phone says he is a new colleague who has forgotten his password and asks for yours "just for today". What do you do? Correct answer: refuse, and point him to the helpdesk. A friendly voice, a plausible name and a bit of urgency are the classic ingredients of social engineering. Remember, no legitimate colleague or technician needs your password, ever. Bring your answers to Friday's coffee morning; the best explanation wins a voucher from the canteen.
+<<<END>>>

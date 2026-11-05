@@ -1,0 +1,119 @@
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=renewal call>>>
+Call with Sofie at Bergström Outdoor, 3 Nov. Contract renews in January. She is happy with uptime but unhappy about the slow payout reporting; asked for CAMT.053 files. Considering a competitor quoted 0.2pp lower on cards. I offered to review pricing after Q4 volume is clear. Next step: send tiered pricing proposal by 14 Nov. Risk: medium.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=chargeback concerns>>>
+Met Daniel Roche (CFO, Hollis Home Goods) at their office. Chargeback ratio crept up to 0.71% in October, close to the scheme's monitoring limit. He wants help understanding which products drive disputes. I will ask Risk for a breakdown and share the dispute-prevention tooling. Follow-up call booked for Thursday 10:00.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=onboarding delays>>>
+Merchant: Pelican Bay Travel. Onboarding stuck since 21 Oct because the beneficial owner's passport scan was unreadable. Contact (Mei Ling) is frustrated, says her bookings are lost. Raised priority with KYB team; they will call her directly. I apologised and promised an update within 24h. Do not discuss pricing until live.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=upsell fraud tools>>>
+Quarterly review with Tarvo Kask, Eesti Gadgets. Volumes up 38% year on year. Interested in our fraud scoring add-on after two bad weeks of fake orders from reshipper addresses. Price sensitivity: moderate. Sent the case study from a similar electronics retailer. Decision expected end of November; he needs approval from the owner.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=incident follow-up>>>
+Follow-up to last Tuesday's webhook outage. Spoke to the technical lead at Quillbrook Media: they lost roughly 90 minutes of order status updates, manually reconciled. Not asking for credit, but wants a written post-incident summary. I sent a request to Engineering and told her to expect it by Friday. Tone was calm but disappointed.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=expansion to new market>>>
+Verdant Seeds plans to start selling into Germany and Austria in Q1. Asked about local payment methods (SEPA direct debit, EPS, Giropay-like options), and whether settlement can be in EUR from a single account. I confirmed SEPA DD and card; need to check EPS availability. Action: ask Product for the roadmap and reply Monday.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=pricing negotiation>>>
+Negotiation update, Marlow Pharmacy Group. They process 4.2M EUR monthly, currently on blended 1.9%. Asked for interchange++ with a fixed 0.12 markup. Finance approved down to 0.14 in principle. I will send the draft addendum today. They also asked for a 12-month price lock; need Legal's view.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=dormant account reactivation>>>
+Reached out to Casa Lumen (dormant 7 months, last transaction in April). Owner says the shop is relaunching in spring with a new website and wants to keep the account. No new KYB needed as details unchanged, but I will check that the settlement IBAN is still valid. Set reminder for 1 March.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=integration status>>>
+Weekly sync with the dev team at Brightspark Games. Integration is 70% done: tokenization and refunds work in sandbox, webhooks still missing signature verification. Their dev lead asked for a code sample in Node. I shared the one from the docs and booked an engineer for a 30 minute pairing session on Wed. Go-live target 1 December.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=complaint settlement delay>>>
+Angry call from Oren at Delmar Cafes: settlement arrived a day late for the second week running. I checked; the delay was due to the partner bank's holiday on 1 Nov, not our systems. Explained, but he is not satisfied and asked for compensation. Escalated to team lead. I will email a holiday calendar so that he can plan cash flow.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=contract amendment>>>
+Amendment signed today with Kingsley & Rowe Legal for the addition of a client money account. Settlement will split between operating and trust accounts. Compliance reviewed. Note: the trust account must never receive fees deducted; handled by a separate fee invoice. Sent a copy to Billing so they set it up properly.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=pci compliance reminder>>>
+Reminder sent to Wavecrest Fitness: their PCI attestation expires 30 Nov. They had not started the SAQ. Offered a short walkthrough call. Contact (Joel) said he thought we did it for them. Clarified responsibilities. If not submitted by 30 Nov, fees for non-compliance will start; mentioned that politely.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=seasonal volume planning>>>
+Black Friday planning with Tannenbaum Toys. Expect 6x normal traffic from 24 to 30 Nov. Asked them for expected peak TPS (they estimate 90). I'll request a rate limit increase to 250 rps and a load test slot with our Platform team. They also want to know about support hours; gave them the holiday on-call number.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=churn risk>>>
+Heard from a mutual contact that Ostrich Row Coffee is evaluating a new provider because of a repeated issue with declined cards on contactless. I called their manager, Rosa; she confirmed frustration but said the terminal firmware update last week helped. I offered a free terminal replacement for the unit that keeps failing. She will test for two weeks.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=new merchant intro>>>
+Intro call, Halcyon Boards (online skateboard shop, 3 employees). Annual volume about 400k EUR. They need a simple hosted checkout and Apple Pay; no developer in-house, so using the Shopify plugin. Pricing: standard plan. Sent onboarding link. Friendly, quick decision maker. Expect go-live within a week.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=refund policy question>>>
+Customer asked whether refunds to expired cards reach the cardholder. Explained that the issuer usually credits the replacement card but timing varies, 5 to 10 business days. Suggested they offer store credit or bank transfer as an alternative. Account: Ridgeline Boots. No action for us; added a FAQ link to the notes.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=multi-entity setup>>>
+Dorrance Holdings wants a structure with one parent and five subsidiaries, each with its own settlement account but shared reporting. Discussed our sub-merchant model; reporting rollup is available in the enterprise tier. Need to confirm whether each entity must go through separate KYB (likely yes). Sent the entity checklist and asked for the org chart.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=security questionnaire>>>
+Aldous Insurance sent a 140-question security questionnaire as part of vendor due diligence. I forwarded it to the Security team and agreed a due date of 20 Nov. They asked specifically about encryption at rest, key management and our incident notification window. Let them know our SOC 2 report is available under NDA.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=fee dispute resolved>>>
+Resolved: Calloway Print questioned a scheme fee adjustment on the October invoice. Billing confirmed it was a late interchange correction from the scheme and provided the breakdown. Customer accepted after a call. No credit issued. Closing the case; flagged that the invoice wording is confusing and sent feedback to Billing.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=platform partner introduction>>>
+Spoke with Shoplink, an e-commerce platform that would like to refer merchants to us. They need a partner API for onboarding and a revenue share. Meeting with our partnerships lead scheduled for 18 Nov. I summarised what we offer; they were interested in instant onboarding for micro-merchants. No commitments made.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=subscription failures>>>
+Meeting with Nimbus Ledger Software about failed renewals. They suspect token expiry; Engineering is investigating. Customer is worried about churn among their own subscribers. I asked for the list of affected subscriptions and shared it with Support. They want a daily update until resolved. Set a recurring calendar reminder at 09:00.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=quick check-in>>>
+Quick check-in with Perrin Optics. All quiet; settlement on time, no disputes this month. The owner mentioned she may open a second store in the spring and will talk to us about a second terminal fleet. No action beyond staying in touch. Next contact: December.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=account closure request>>>
+Rafael from Stonebridge Rentals wants to close the account at year end as the business is being sold. Reminded him about the 120-day hold on chargeback liability and the final settlement process. Sent the closure form. I asked whether the buyer would like to onboard with us; he will mention it.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=reporting feature request>>>
+Customer: Fernhill Pharmacy chain. Wants a dashboard view of declines by reason code and issuer country. Currently exporting CSVs and building pivot tables by hand. Logged the feature request in the product tracker (PRD-1189) and told her it could be months. She is fine with that; she asked for the export to include the reason text as well.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=credit limit increase>>>
+Maple & Vine requested an increase of their daily payout limit from 20k to 60k EUR after holiday promotions. Risk will need three months of history; they have five. Submitted request with the sales forecast attached. Expect a decision in two business days. Told the owner not to plan on the higher limit before confirmation.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=training session delivered>>>
+Delivered a one-hour portal training for the finance staff of Garnet Auto Parts (6 attendees). Covered reports, refunds, dispute responses and user permissions. Questions mostly about reconciling settlement files to their ERP. Shared the step-by-step guide. They were pleased; one person asked for a follow-up session on exporting.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=outage apology>>>
+Called Whitby Wines after yesterday's checkout slowdown (about 25 minutes). Owner understands, but lost a few orders during a promotion. Apologised, offered to waive this month's platform fee (approved by team lead, 49 EUR). She thanked me. Added a note to watch their conversion for the next week.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=VAT invoice request>>>
+Wexford Learning asked for VAT treatment of processing fees. Checked with Finance: fees are exempt in this jurisdiction, and the invoice will carry a footer line about it from next month. Replied by email with the exact wording. They also asked which legal entity to put on their ledger; sent the entity details.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=sponsorship event networking>>>
+Met several merchants at the regional retail summit (stand 14). Good conversations with Yarrow Home, Corvina Spirits and Zeller Bikes. All three are on legacy providers with contracts ending in Q1. Collected business cards; added them to the CRM as leads, tagged "summit-2026". I will send follow-up emails with the brochure on Monday.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=en hard_negative=false topic=data export request>>>
+Auralis requested a full export of their Q3 transactions (380k rows) for auditors. The portal export times out, so I asked Support to generate it and send via secure link. Confirmed with the customer that it contains card BIN and last four digits only, no full PANs. Delivery ETA: tomorrow noon. Closed once confirmed received.
+<<<END>>>

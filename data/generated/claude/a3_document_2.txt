@@ -1,0 +1,259 @@
+<<<ITEM kind=document lang=en hard_negative=false topic=Payroll cutoff notice>>>
+HR Operations - payroll cut-off reminder
+
+November payroll closes on Friday 20 November at 12:00. Overtime sheets, expense claims and new-joiner forms received after that time will be paid in December. Employees with a change of bank account should have submitted the form by 13 November. Holiday balances will be shown on payslips from this month. Questions go to the payroll mailbox or to Lena Hoffmann on extension 4417.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Release notes v3.8>>>
+Release notes - Atlas API v3.8.0
+
+Added: cursor-based pagination on /v3/events, bulk delete endpoint, webhook retry with exponential backoff.
+Changed: default page size reduced to 50. Rate limit headers now include a reset timestamp.
+Fixed: 500 error when filtering by empty tag list; timezone offset bug in the audit export.
+Deprecated: /v2/search will be removed in v4.0 (planned for Q2 2027).
+Upgrade guide is in docs/migration-3.8.md.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Dentist appointment letter>>>
+Brightsmile Dental Practice
+
+Re: your check-up and hygiene visit
+
+Dear Mr. Paulsen, this letter confirms your appointment on Tuesday 17 November at 10:20 with Dr. Imre Kovalenko. Please arrive ten minutes early to update your medical history form. If you cannot attend, we ask for 24 hours' notice. Parking is available behind the building. The estimated cost of the visit is covered by your plan, apart from a EUR 15 co-payment.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Open house report>>>
+Open house feedback - 18 Linden Avenue
+
+Held Saturday 10:00-13:00. 23 groups attended, 9 first-time buyers. Frequently praised: south-facing garden, renovated bathroom, new boiler. Concerns: street noise from the tram line and small second bedroom. Two viewers asked about a second visit. Asking price is EUR 389,000; the agent, Noémi Bakos, suggests holding firm for another two weeks before reviewing.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Thesis supervision notes>>>
+Supervision meeting notes - Mei Tanaka, MSc thesis
+
+Chapter 2 literature review is nearly done; add three recent papers on federated learning. The experimental design needs a clearer baseline. Agreed to run each configuration with five random seeds. Draft of chapter 3 due 4 December. Mei will request cluster time for the larger runs. Next meeting: Tuesday 24 November, 14:00, room B112.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Parcel delay notice>>>
+Shipping update - order ref 55-90213
+
+Your parcel left the Leipzig sorting centre on 3 November and is now at the regional depot in Nuremberg. The delivery estimate has changed from 5 November to 7 November because of high volumes. A delivery window will be sent the evening before. If nobody is home, the courier will leave the parcel with a neighbour or in the parcel locker at Bahnhofstrasse 12.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Distribution centre handover>>>
+Shift handover note - Distribution Centre North
+
+Inbound: 14 trailers unloaded, 2 awaiting dock. Outbound: wave 6 released at 13:40; all priority orders loaded. Issue: conveyor belt 3 is running at half speed and the maintenance ticket is open. Cold room temperature alarm at 11:05 was a false trigger; sensor replaced. Tomorrow expect a high-volume customer return of about 600 cartons.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Brand guidelines memo>>>
+Marketing memo - updated logo usage
+
+Effective immediately, the horizontal logo should be used on all digital banners; the stacked version is reserved for social media avatars. Minimum clear space equals the height of the letter "N". Do not recolour the logo or place it on busy photographs. The primary palette now includes a deep teal (#0F5C63) alongside the existing orange. The full guidelines PDF is in the brand portal.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=NDA summary>>>
+Legal summary - mutual NDA with Karlsson & Wei Ltd
+
+Term: three years from signature, confidentiality obligations survive for five. Scope: technical and commercial information shared for the evaluation of a joint pilot. Exclusions are standard (public domain, independently developed). No non-solicit clause. Jurisdiction: England and Wales. Signature pending from the counterparty's finance director, expected by the end of the week.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Support knowledge base article>>>
+KB-1184: Resetting your router
+
+If your internet connection drops repeatedly, restart the router by unplugging the power cable for 30 seconds. After it powers on, wait about two minutes for the status light to turn solid green. A blinking amber light means the line is not detected; check the wall socket cable. If the fault continues after two restarts, a technician visit can be booked. Average visit wait time is currently 3 working days.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Swimming club newsletter>>>
+Lakeside Swim Club - November news
+
+Congratulations to our juniors, who collected 14 medals at the regional gala. Training times change from 1 November: Monday and Wednesday 18:30-20:00 for squad B. The annual dinner will be held on Saturday 28 November at the Harbour Inn; tickets are EUR 25. Coach Tibor is looking for two volunteers to help with timekeeping at the December meet.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Cafe opening notes>>>
+Cafe Lumen - soft opening notes
+
+Soft opening ran Thursday to Saturday with invited guests. Coffee machine pressure was inconsistent on Friday; technician fixed it Saturday morning. Best sellers: cardamom bun, flat white, lentil soup. Wait time at peak was 14 minutes, too long. Decisions: add a second till, trim the menu by four items, and train staff on the pastry display. Grand opening is Saturday 21 November.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Database failover test>>>
+DR test report - customer database
+
+Exercise date: 29 October. Objective: fail over the primary database to the secondary region and confirm application recovery.
+Result: failover completed in 7 minutes 40 seconds (target 10). Replication lag at switch was 2 seconds. One service held a stale connection string and needed a restart. Follow-up: fix the configuration reload, repeat the test in January.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Workshop agenda>>>
+Agenda - Regional Logistics Workshop, Day 1
+
+09:00 Registration and coffee
+09:30 Opening remarks, Chair Dagmar Weiss
+10:00 Panel: last-mile delivery in small towns
+11:15 Break
+11:45 Talk: electric trucks, real-world range data
+12:30 Lunch
+14:00 Breakout sessions (customs, warehouse automation, returns)
+16:30 Wrap-up and networking reception
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Survey methodology note>>>
+Methods note - household energy survey
+
+Sample: 1,850 households drawn from the regional register, stratified by dwelling type. Response rate 42%. Weights were applied to correct for under-representation of rented flats. Questions on heating fuel and insulation were piloted with 60 households in June. Missing income data (11%) were imputed using multiple imputation. Full codebook and cleaning log are in the project repository.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Citizen services bulletin>>>
+Citizen Services Bulletin - November
+
+Passport applications now require an appointment; online booking opens daily at 08:00. The residents' parking permit renewal deadline is 30 November. Waste collection will skip public holidays; the week after is collected on Saturday. The mobile service desk will visit the villages of Nagykút and Alsóvár on 11 and 18 November. Office hours are 08:00-16:00, Monday to Thursday.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Policy renewal summary>>>
+Insurance renewal summary - Hartmann Joinery Ltd
+
+Cover: commercial combined, buildings 1.2m, contents 380k, public liability 5m. Renewal date 1 December. Premium rises from GBP 6,420 to GBP 6,980 (+8.7%), reflecting the updated rebuild cost. Alternative quote from Veritas Mutual is GBP 6,610 with a higher excess of GBP 1,000. Broker recommends staying and asking for a loyalty discount.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Utility bill explanation>>>
+Understanding your energy statement
+
+Your statement covers 1 August to 31 October. You used 612 kWh of electricity and 38 cubic metres of gas. Standing charges are shown separately. A credit of EUR 24.50 from the previous period has been applied. The next meter reading is due on 1 February; you can submit a reading online at any time. If you move house, tell us at least five days before leaving.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Garage service estimate>>>
+Autohaus Meier - service estimate
+
+Vehicle: Skoda Octavia, 2019, 96,300 km.
+Items: full service with oil and filters EUR 189; front brake discs and pads EUR 342; wiper blades EUR 28; cabin filter EUR 24. Total EUR 583 including VAT. Estimated time: one working day. A tyre-pressure sensor fault was noted but is not included in the quote. Courtesy car available on request.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Garden club plan>>>
+Community Garden - winter plan
+
+Beds 1-6 get a cover crop of field beans. The greenhouse will be cleaned on the first dry weekend of November. Garlic goes in by 20 November. Fruit trees will be pruned in January under the guidance of Bartholomew, our local orchard expert. The compost bins are full; the council has promised a delivery of wood chips. Tool inventory shows two broken spades needing replacement.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Bathroom refit schedule>>>
+Bathroom refit - site notes, day 4
+
+Old bath removed and the floor levelled. Plumber found a corroded section of waste pipe; replacement approved at GBP 160 extra. Tiles delivered (white metro, 12 square metres). Tiling starts tomorrow, grouting on day 7. Customer asked to change the shower screen to frameless glass; the supplier needs two weeks, so installation will follow after the main work.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Press launch brief>>>
+Product launch brief - Nimbus Smart Kettle
+
+Press event on Wednesday 18 November, 11:00, at the Danube Loft. Spokesperson: Zoltán Gere, head of product. Key messages: 40% faster boil time, app-controlled temperature, recycled steel body. Retail price EUR 79. 25 journalists have confirmed. Demonstration kits are packed; samples will be given out after the Q&A. Embargo lifts at 12:00 the same day.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Parent-teacher evening notes>>>
+Year 5 parent-teacher evening - practical notes
+
+Thursday 19 November, 16:00-19:30. Appointments are 10 minutes each; sign-up sheets are on the classroom door. Teachers will have pupils' reading levels and maths progress reports. Tea and biscuits in the staff room. Please use the side entrance because of the building work at the front. Interpreting is available in Polish and Turkish on request through the school office.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Savings account statement note>>>
+Account notice - Smart Saver
+
+Your interest for the quarter was EUR 31.62, credited on 31 October. Your annual allowance remains unused at EUR 3,000. A standing order of EUR 150 per month is set up and has been processed on time each month. The rate applicable to your account is variable and currently 2.4%. Details of the terms are available in any branch or by phone on weekdays.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Infrastructure change record>>>
+Change record CHG-5108
+
+Summary: upgrade managed Kubernetes cluster prod-eu-2 from 1.29 to 1.30.
+Window: Sunday 8 November, 02:00-05:00 UTC.
+Plan: cordon and drain nodes in batches of three, upgrade control plane first, run smoke tests.
+Rollback: restore from last etcd snapshot and redeploy node pool with previous image.
+Approvals: platform lead (done), security (done), service owners (pending 2 of 7).
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Concert logistics notes>>>
+Open-air concert - logistics notes
+
+Gates open 17:00, main act 21:00. Capacity 8,000. Shuttle buses run from the central station every 15 minutes from 16:00. Bag restrictions apply: nothing larger than A4. Two first-aid points are located by the east gate and next to the food court. Re-entry is not permitted. Sound check was completed at 14:30; the stage roof inspection certificate has been filed.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Dog training class info>>>
+Happy Tails Training - class information
+
+Puppy foundation course runs six weeks, Sundays at 09:30, starting 15 November. Dogs must be 12-20 weeks old and have a first vaccination. Bring treats, a flat collar and a 2 metre lead. Group size is limited to eight. Fee is EUR 120, payable at the first lesson. Our trainer, Katalin, will cover recall, loose-lead walking and basic settling.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Personal training plan>>>
+Training plan - 10 km goal, week 5 of 10
+
+Mon: rest. Tue: 6 x 400 m intervals with 90 seconds recovery. Wed: easy 5 km. Thu: tempo 4 km at target pace of 5:20 per km. Fri: rest or yoga. Sat: strength session, 30 minutes. Sun: long run 9 km. Notes: right calf felt tight after Sunday; added extra stretching and foam rolling. Weight stable at 71.5 kg.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Gallery loan agreement>>>
+Loan summary - "Winter Light" painting
+
+Lender: private collection of the Ferreira family. Borrower: Nordic Art Gallery. Loan period 12 January to 30 April. Insurance: wall-to-wall, valued at EUR 210,000. Condition report completed by restorer Ines Marques; minor craquelure noted at the lower left. The painting must be hung away from direct sunlight, at 50% humidity. Courier will accompany the shipment.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Bus route consultation>>>
+Consultation summary - Route 42 redesign
+
+The transport authority received 1,206 responses. 58% supported a direct link between the hospital and the university; 27% opposed removing the stop at Kerepesi Road. Older residents raised accessibility concerns. A revised proposal will keep a shuttle for the removed stop. Final decision will be made by the board on 15 December; changes would start in March.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Food bank report>>>
+Community Food Bank - quarterly report
+
+Households supported: 1,420, an increase of 18%. Parcels distributed: 4,860. Donations: 12.3 tonnes from supermarkets, 3.1 tonnes from public collections. Volunteers contributed 2,900 hours. Shortages: tinned fish, nappies, cooking oil. A new refrigerated van is arriving in January thanks to a regional grant. The annual thank-you evening is on 8 December.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Portrait session notes>>>
+Studio notes - family portrait session
+
+Booked for Saturday 14 November, two hours, grey and cream backdrops. Family of five: parents Eszter and Rob, children aged 3, 7 and 11. Outfits: neutral tones, no logos. The baby grand piano will be included in the group shot. Twenty edited images included in the package. Gallery will be online within ten days; prints ordered through the gallery are delivered in about a week.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=VAT filing summary>>>
+Quarterly VAT summary - Q3
+
+Output VAT: EUR 48,320. Input VAT: EUR 31,905. Net payable: EUR 16,415. Filing deadline 25 October; submitted 22 October and accepted. Payment was made by bank transfer on the 23rd. Two supplier invoices were missing valid VAT numbers and are being chased. A reconciliation to the ledger found a difference of EUR 12, caused by rounding on foreign currency invoices.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Interview debrief notes>>>
+Interview debrief - Marketing Analyst candidate (ref MA-27)
+
+Strengths: clear communication, good SQL, real experience with attribution models. Weaker on stakeholder management examples. Panel scores: 4, 3, 4. The case exercise showed sound reasoning but ignored seasonality. Salary expectation is within the band. Recommendation: proceed to final interview with the head of growth, Sándor Pál, next Tuesday.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Privacy impact assessment>>>
+Privacy impact assessment - loyalty app
+
+Data collected: name, email, purchase history, optional birthday. Legal basis: contract for core features, consent for marketing. Retention: 24 months after last activity. Processors: hosting provider in Frankfurt, email service in Dublin. Risk rated medium; mitigations include pseudonymised analytics and a self-service data export. Review scheduled with the data protection officer on 17 November.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Assembly plant quality memo>>>
+Quality memo - gearbox assembly
+
+Last week's audit found torque deviations on station 5 for 38 units, all within tolerance after re-measurement, but the trend is worrying. The tool was recalibrated on Monday. First-pass yield improved from 96.1% to 97.4%. A supplier corrective action request has been issued for the housing castings with surface porosity. Next audit is planned for the first week of December.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Orchard season report>>>
+Orchard report - apples and pears
+
+Apple harvest finished on 20 October at 412 tonnes; the Jonagold variety performed best. Pears were hit by an early frost and came in 30% below average. Cold storage is at 85% capacity. Buyers from Slovakia and Romania have booked 120 tonnes. Pruning crews start in January. The sorting line needs a new camera module, quoted at EUR 9,800.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Project status update>>>
+Project Aurora - status, week 45
+
+Overall: green.
+Milestone 3 (data migration dry run) completed on schedule. 98.6% of records matched. Remaining mismatches relate to old postal formats and are being cleaned by Marta's team. Milestone 4, user acceptance testing, starts 16 November with 20 testers. Budget used: 61%. Risks: one key developer on leave in December; cover is arranged.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Business travel policy>>>
+Travel policy reminder - effective 1 January
+
+Economy class is standard for flights under six hours. Hotel limit is EUR 160 per night in most cities, EUR 210 in Zurich and London. Book through the corporate portal at least 14 days ahead where possible. Meals are reimbursed on receipts up to EUR 45 per day. Rail is preferred over short-haul flights on journeys under four hours. Expense claims must be filed within 30 days of return.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Hotel partnership note>>>
+Tourism board - hotel partnership note
+
+Nine hotels have joined the regional guest card scheme. Guests receive free museum entry and discounted boat trips. Card issuance at check-in begins on 1 December. Training webinars for front-desk staff run on 17 and 19 November. Early bookings for the card are encouraging, with 640 pre-orders. The board will publish a leaflet in English, German and Hungarian before the launch.
+<<<END>>>

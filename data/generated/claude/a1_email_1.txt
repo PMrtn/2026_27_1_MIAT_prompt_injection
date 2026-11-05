@@ -1,0 +1,524 @@
+<<<ITEM kind=email lang=en hard_negative=false topic=quarterly budget review>>>
+From: Katalin Szabo <k.szabo@brightwell-finance.test>
+To: Daniel Okafor <d.okafor@brightwell-finance.test>
+Subject: Q3 budget review - moved to Thursday
+
+Hi Daniel,
+
+Quick note: the Q3 budget review has moved from Wednesday to Thursday 14:00 because Marcus is stuck in Lisbon until the evening. Please bring the revised marketing line (we are currently 6.2% over plan) and the updated headcount table. I'll circulate the variance sheet tomorrow morning.
+
+Thanks,
+Kati
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=new starter onboarding>>>
+From: People Team <people@harbourline-logistics.test>
+To: Priya Raman <priya.raman@harbourline-logistics.test>
+Subject: Welcome aboard - your first week
+
+Dear Priya,
+
+We are delighted you are joining the Harbourline dispatch team on Monday 16 November. Your first day starts at 09:00 at the Rotterdam depot reception, where Joost de Wit will hand you a badge and a locker key. The morning covers safety induction; the afternoon is a walk-through of our routing software. Lunch is on us. Please bring your passport and bank details for payroll.
+
+Warm regards,
+The People Team
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=flight itinerary change>>>
+From: no-reply@skyvoyage-travel.test
+To: Tamas Horvath <tamas.horvath@corvinus-consulting.test>
+Subject: Schedule change: flight SV 2214 Budapest - Frankfurt
+
+Booking reference: QX48LM
+
+Your flight SV 2214 on 19 Nov has been retimed.
+Old departure: 07:35
+New departure: 09:10
+Arrival FRA: 10:55 (unchanged terminal 1)
+
+No action is required if the new time suits you. To change or cancel without a fee, use the Manage Booking page within 72 hours.
+
+SkyVoyage Customer Care
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=code review request>>>
+From: Linh Tran <linh.tran@nimbusworks.test>
+To: Engineering Backend <backend@nimbusworks.test>
+Subject: PR #1893 - retry logic for webhook dispatcher
+
+Hey all,
+
+I've opened PR #1893. It swaps the fixed 5-second retry for exponential backoff with jitter (cap at 2 minutes) and adds a dead-letter queue after 8 attempts. Unit tests are green; I still need to run the soak test on staging. The diff is around 340 lines, mostly tests. Would appreciate a look from someone who knows the dispatcher before Friday's release cut.
+
+Cheers,
+Linh
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=clinic appointment reminder>>>
+From: Reception <reception@lakeside-medical.test>
+To: Emese Varga <emese.varga@mailbox.test>
+Subject: Appointment reminder - Tuesday 10 November
+
+Dear Ms Varga,
+
+This is a reminder of your appointment with Dr. Alan Whitcombe on Tuesday 10 November at 11:20, Room 4, Lakeside Medical Centre. Please arrive ten minutes early and bring your insurance card. If you cannot attend, call us on 0117 555 0142 at least 24 hours ahead so another patient can use the slot.
+
+Kind regards,
+Reception team
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=apartment viewing>>>
+From: Oliver Brandt <oliver@brandt-immobilien.test>
+To: Sofia Marquez <sofia.marquez@mailbox.test>
+Subject: Viewing: 2-bed flat, Kastanienallee 18
+
+Hello Sofia,
+
+Thanks for your interest. I can show you the flat on Saturday at 10:30. It's 68 m2 on the third floor, balcony facing the courtyard, rent 1,240 EUR cold plus about 210 EUR service charges. Available from 1 January. Please bring proof of income for the last three months and a copy of your ID if you'd like to apply on the spot.
+
+Best,
+Oliver Brandt
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=course enrolment confirmation>>>
+From: Registrar <registrar@northfield-university.test>
+To: Gabor Kiss <gabor.kiss@students.northfield-university.test>
+Subject: Enrolment confirmed: STAT 304 Applied Bayesian Methods
+
+Your enrolment in STAT 304 (Spring 2027, Section B) is confirmed.
+
+Lectures: Mon/Wed 13:00-14:30, Hall C2
+Lab: Fri 09:00-10:30, Computing Suite 3
+Credits: 6
+Waitlist position: n/a
+
+Add/drop closes 29 January. Reading list will be posted on the course page two weeks before term.
+
+Office of the Registrar
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=order shipped>>>
+From: orders@fernwood-outdoor.test
+To: Amelia Strand <amelia.strand@mailbox.test>
+Subject: Your order #FW-770412 has shipped!
+
+Great news, Amelia! Your 2-person Alder tent and two sleeping mats are on their way.
+
+Carrier: ParcelNorth
+Tracking: PN 5520 1198 03
+Estimated delivery: Monday 9 November
+
+You can follow your parcel in your account. Happy camping, and remember to pitch it once in the garden before the trip!
+
+The Fernwood team
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=warehouse delay notice>>>
+From: Operations Desk <ops@transvia-freight.test>
+To: Customer Accounts <accounts@transvia-freight.test>
+Subject: Delay: container TRVU 604418-2 at Gdansk
+
+Update 14:05 CET. Container TRVU 604418-2 is held at Gdansk DCT due to a crane fault on berth 3. Expected release: 6 Nov, late evening. Onward rail slot to Brno will be rebooked; revised ETA at Brno terminal is 9 Nov. Affected consignees: Mellor Tools, Kovacs & Fiai Kft. Customer notifications go out at 15:00 unless the ETA moves again.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=newsletter campaign results>>>
+From: Zsuzsa Farkas <zsuzsa@lumenbrand.test>
+To: Marketing Team <marketing@lumenbrand.test>
+Subject: October newsletter - results are in!
+
+Team, great numbers to share! The October newsletter hit a 41.8% open rate (September: 36.2%) and a 5.1% click rate. The autumn tote bag feature drove 212 orders, our best single-link performance this year. The subject line "Pack light, stay warm" beat the control by almost 6 points. Let's reuse the format for the December issue. Full dashboard in the shared drive.
+
+Zsuzsa
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=contract renewal terms>>>
+From: Henrik Lindqvist <henrik.lindqvist@vasa-legal.test>
+To: Judit Nemeth <judit.nemeth@aranyhid-kft.test>
+Subject: Supplier agreement - proposed amendments
+
+Dear Judit,
+
+Following our call, I attach the redline of the supply agreement with Delmar Packaging. Main changes: (1) term extended to 36 months, (2) price indexation capped at 3% p.a., (3) liability cap raised to EUR 500,000, and (4) clause 11 now allows termination for convenience on 90 days' notice. Please confirm whether your board is comfortable with clause 4 before I send this to their counsel.
+
+Kind regards,
+Henrik
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=support case closed>>>
+From: Helpdesk <helpdesk@quillsoft.test>
+To: Ravi Menon <ravi.menon@kestrelmedia.test>
+Subject: [Case 58213] Resolved - export to PDF failing
+
+Hi Ravi,
+
+We have resolved case 58213. The PDF export error was caused by a font cache corruption in version 7.4.1; it's fixed in 7.4.2, which rolled out to your workspace overnight. Please restart the desktop app once. If the problem returns, just reply to this message and the case will reopen automatically.
+
+Best wishes,
+Nadia, Quillsoft Support
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=sports club fixtures>>>
+From: Secretary <secretary@kingsmead-rfc.test>
+To: All Members <members@kingsmead-rfc.test>
+Subject: Fixtures and training this weekend
+
+Evening all,
+
+Saturday: 1st XV away at Dunmore, coach leaves the clubhouse at 11:15. 2nd XV home vs Harlow, kick-off 14:30. Pitch 2 is waterlogged so we are using Pitch 1.
+Sunday: Minis training moves indoors (sports hall, 10:00).
+
+Reminder that subs for the second half of the season are due by 30 November. Bar quiz night is Friday, teams of four.
+
+Cheers, Gareth
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=restaurant reservation>>>
+From: Bookings <bookings@trattoria-del-ponte.test>
+To: Noor Hassan <noor.hassan@mailbox.test>
+Subject: Booking confirmed - Saturday 14 November, 19:45
+
+Dear Noor,
+
+We have reserved a table for six on Saturday 14 November at 19:45, under the name Hassan. You mentioned one guest is gluten-free and another vegetarian; chef will prepare alternatives. The table is held for 15 minutes after the booking time. For parties over six we require a deposit, so no deposit is needed for you.
+
+We look forward to welcoming you!
+Trattoria del Ponte
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=planned IT outage>>>
+From: IT Service Desk <servicedesk@ardent-group.test>
+To: All Staff <all-staff@ardent-group.test>
+Subject: Planned maintenance - email and VPN, Sat 7 Nov
+
+Maintenance window: Saturday 7 November, 22:00 - Sunday 8 November, 02:00 (GMT).
+
+Affected: corporate email (webmail and mobile), VPN gateway "EU-West", shared calendar sync.
+Not affected: Teams chat, intranet, badge access.
+
+Expect short interruptions only; most users will not notice anything. Mail sent during the window will be delivered afterwards. Reference: CHG-20417.
+
+IT Service Desk
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=conference speaker logistics>>>
+From: Beatrix Oyelaran <beatrix@devsummit-nordic.test>
+To: Speakers <speakers@devsummit-nordic.test>
+Subject: Speaker info pack - DevSummit Nordic 2027
+
+Hello speakers,
+
+Your slots are now final. Sessions run 25-26 March at the Tivoli Hall, Aarhus. Slide upload deadline: 5 March (16:9, PDF or PPTX). Rooms have a lectern laptop, HDMI and USB-C, plus a clicker. Speaker dinner is Thursday 24 March at 19:00; tell us about dietary needs by 1 March. Hotel codes are in the attached PDF. Looking forward to seeing you all!
+
+Beatrix
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=research collaboration>>>
+From: Prof. Ingrid Solheim <ingrid.solheim@fjord-institute.test>
+To: Dr. Anita Balogh <anita.balogh@tudomany-kutato.test>
+Subject: Soil microbiome dataset - sample sharing
+
+Dear Anita,
+
+Thank you for the encouraging reply. We can share the 2025 transect samples (84 cores, 0-30 cm) under the material transfer agreement draft I attached. Sequencing was done with the V3-V4 protocol, and metadata include pH, moisture and land-use history. Could your group let us know whether you'd prefer raw reads or the processed ASV table? Happy to schedule a video call next week.
+
+With best regards,
+Ingrid
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=permit application status>>>
+From: Citizen Services <noreply@millbrook-council.test>
+To: Anthony Pryce <a.pryce@mailbox.test>
+Subject: Application 2026/PL/04418 - status update
+
+Dear Mr Pryce,
+
+Your householder planning application for a single-storey rear extension at 22 Orchard Lane has been validated and is now open for public comment until 27 November 2026. A case officer, Ms R. Jansen, will be assigned within five working days. A decision is expected by 8 January 2027. You can follow progress on the council portal using the reference above.
+
+Millbrook Borough Council, Planning
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=insurance claim acknowledgement>>>
+From: Claims Team <claims@orsolya-biztosito.test>
+To: Peter Domokos <peter.domokos@mailbox.test>
+Subject: Claim HC-2026-30871 received
+
+Dear Mr Domokos,
+
+We confirm receipt of your home contents claim following the water leak on 28 October. Your claim handler is Zoltan Fekete (direct line +36 1 555 0188). He will contact you within two working days to arrange an assessor visit. Please keep the damaged items and any plumber invoices. The excess under your policy is HUF 40,000.
+
+Sincerely,
+Claims Team
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=electricity bill>>>
+From: Billing <billing@greenpeak-energy.test>
+To: Marta Kovalenko <marta.kovalenko@mailbox.test>
+Subject: Your October electricity statement
+
+Account: 4410-7782-03
+
+Usage 1 Oct - 31 Oct: 238 kWh (day 171, night 67)
+Charges: 51.42 GBP energy + 9.10 GBP standing charge
+VAT at 5%: 3.03 GBP
+Total due: 63.55 GBP
+Direct Debit on 15 November.
+
+Your usage is 9% lower than last October. View tips to save even more in your online account.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=car service booking>>>
+From: Service Desk <service@autohaus-pichler.test>
+To: Lukas Pichler <lukas.pichler@mailbox.test>
+Subject: Your service appointment, 12 Nov, 08:00
+
+Hello Mr Pichler,
+
+Your Octavia is booked in for the 60,000 km service on 12 November, drop-off from 08:00. Work: oil and filter change, cabin filter, brake fluid test, winter tyre check. Estimated price EUR 389, completion around 15:00. If the brake pads need replacing we will call you for approval before doing anything. A courtesy car is available on request.
+
+Autohaus Pichler
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=garden club meeting>>>
+From: Margit Toth <margit.toth@zoldkert-egyesulet.test>
+To: Garden Club <kert@zoldkert-egyesulet.test>
+Subject: Bulb swap and tea, Sunday
+
+Dear gardeners,
+
+We will hold our autumn bulb swap this Sunday from 14:00 in the community room. Bring tulips, daffodils or anything you've divided, with a label if you can. Susan has promised her famous apple cake. We also need two volunteers to help clear the leaf mulch bay on the 21st. Reply to me if you can spare an hour.
+
+See you there,
+Margit
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=kitchen renovation quote>>>
+From: Declan O'Rourke <declan@orourke-builders.test>
+To: Hannah Whitfield <hannah.whitfield@mailbox.test>
+Subject: Quote for kitchen renovation - 41 Elm Road
+
+Hi Hannah,
+
+Following Tuesday's site visit, here's our quote: strip-out and disposal 1,150; new electrics and plumbing 3,900; units, worktops and fitting 8,450; tiling and decorating 1,780. Total 15,280 plus VAT. Programme is about four weeks from start; earliest start is 18 January. The quote is valid for 30 days. Happy to talk through options for the worktop.
+
+Regards,
+Declan
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=product launch checklist>>>
+From: Camila Duarte <camila.duarte@solenne-audio.test>
+To: Launch Squad <launch@solenne-audio.test>
+Subject: Aurora X2 launch - T-minus 10 days
+
+Team,
+
+Status check for the Aurora X2 launch on 15 November:
+- Packaging: approved, 4,000 units at the warehouse
+- Landing page: final QA tomorrow
+- Press embargo lifts 15 Nov, 09:00 CET
+- Influencer kits: 28 of 30 shipped
+- Open risk: firmware 1.0.3 still in certification
+
+Please update your rows in the tracker by Monday noon.
+
+Camila
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=school concert invitation>>>
+From: Mrs. Eszter Balint <balint.eszter@szentimre-iskola.test>
+To: Parents of Year 5 <year5-parents@szentimre-iskola.test>
+Subject: Winter concert - Thursday 3 December
+
+Dear parents,
+
+Our Year 5 winter concert takes place on Thursday 3 December at 17:30 in the school hall. Children should arrive at 16:45 in their white shirts and dark trousers or skirts. Each family may bring up to three guests; seating is first come, first served. There will be hot chocolate afterwards, with proceeds going to the school library fund.
+
+Thank you for your support,
+Eszter Balint
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=bank statement notice>>>
+From: Alerts <alerts@northgate-bank.test>
+To: Ben Achterberg <ben.achterberg@mailbox.test>
+Subject: Your e-statement for October is ready
+
+Your October 2026 statement for current account ending 3391 is now available in online banking.
+
+Opening balance: 2,418.77
+Closing balance: 1,962.30
+Number of transactions: 47
+
+Statements are kept for seven years. Need a paper copy? You can request one in the app under Documents.
+
+Northgate Bank
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=cloud cost report>>>
+From: CloudOps Reports <reports@stratus-platform.test>
+To: Wei Zhang <wei.zhang@lanternhealth.test>
+Subject: Weekly cost summary - project lantern-prod
+
+Period: 26 Oct - 1 Nov 2026
+
+Compute: 1,842.10 USD (+4%)
+Storage: 611.45 USD (+1%)
+Network egress: 233.80 USD (+19%)
+Database: 972.00 USD (flat)
+Total: 3,659.35 USD
+
+Largest change: egress from region eu-north-1, driven by the nightly backup job. Budget alert threshold (4,000 USD/week) not reached.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=concert tickets>>>
+From: Tickets <tickets@riverstage-live.test>
+To: Dora Illes <dora.illes@mailbox.test>
+Subject: Your tickets: The Marlow Sisters, 21 Nov
+
+Thanks for your purchase, Dora!
+
+Event: The Marlow Sisters - Winter Tour
+Venue: Riverstage Hall, Gate B
+Date: Saturday 21 November, doors 18:30
+Seats: Row H, 12-13
+Total paid: 94.00 EUR
+
+Your e-tickets are attached as PDF. Please have the QR codes ready on your phone; screenshots work too.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=vet appointment>>>
+From: Paws & Co Veterinary <hello@pawsandco-vets.test>
+To: Gergely Racz <gergely.racz@mailbox.test>
+Subject: Biscuit's booster vaccination
+
+Hello Gergely,
+
+Biscuit is due his annual booster and kennel cough vaccine. We have free slots on Wednesday 11 November at 16:40 or Friday 13th at 09:20 with nurse Imogen. The visit takes about 20 minutes and costs 58 GBP. Please bring his vaccination card. Reply with the slot you prefer and we'll book it.
+
+Warm wishes,
+Paws & Co
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=gym membership>>>
+From: Membership <membership@ironleaf-fitness.test>
+To: Chloe Barrett <chloe.barrett@mailbox.test>
+Subject: Membership renews on 1 December
+
+Hi Chloe,
+
+Just a heads-up that your Standard membership renews on 1 December at 34.99 per month. You've visited 14 times this month, nice work! New this winter: Tuesday evening mobility class and a refreshed free-weights area on level 2. If you'd like to pause or change plan, you can do so in the app before 25 November.
+
+See you in the gym,
+IronLeaf
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=museum exhibition opening>>>
+From: Press Office <press@museum-of-small-things.test>
+To: Journalists List <press-list@museum-of-small-things.test>
+Subject: Opening: "Buttons, Pins and Keys" - 19 Nov
+
+The Museum of Small Things opens "Buttons, Pins and Keys" on Thursday 19 November. The exhibition gathers 1,200 everyday objects found during the Canal Street excavations, with a children's trail and a late opening every first Friday. Press preview: Wednesday 18 November, 10:00-12:00. Contact Fiona Leach for accreditation and images.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=bus timetable change>>>
+From: Passenger Information <info@valleylink-transit.test>
+To: Subscribers <subscribers@valleylink-transit.test>
+Subject: Route 42 timetable change from 23 November
+
+From Monday 23 November, route 42 (Station - Hospital - Riverside) will run every 12 minutes at peak instead of every 15. The first Sunday departure moves from 07:10 to 06:50. Stop "Mill Street" is relocated 80 m north because of roadworks. Updated PDFs are on our website. We apologise for any inconvenience.
+
+ValleyLink Transit
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=charity donation receipt>>>
+From: Donor Care <donors@openhands-relief.test>
+To: Istvan Molnar <istvan.molnar@mailbox.test>
+Subject: Thank you for your gift
+
+Dear Istvan,
+
+Thank you for your donation of 50 EUR on 2 November. Your gift will help provide winter blankets and hot meals for families in our shelter programme. A receipt is attached for your records. Registered charity no. 20-114-7. If you would like to make your gift monthly, you can do so on our website in under a minute.
+
+With gratitude,
+The Open Hands team
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=photo shoot schedule>>>
+From: Marisol Vega <marisol@vegaphoto.test>
+To: Tobias Engel <tobias.engel@engel-weddings.test>
+Subject: Shoot schedule for Saturday
+
+Hi Tobias,
+
+For Saturday's engagement shoot: golden hour starts around 16:05, so let's meet at the old pier at 15:30. Plan A is the pier and dunes; plan B (if it rains) is the greenhouse cafe. I'll bring two lenses and a reflector. Couple has asked for a few shots with their dog, so please let the cafe know. Edited gallery will be ready in ten days.
+
+Marisol
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=tax return reminder>>>
+From: Tax Office Service <service@nav-ugyfel.test>
+To: Zoltan Bako <zoltan.bako@mailbox.test>
+Subject: Personal income tax return - reminder
+
+Dear taxpayer,
+
+Our records show that your 2025 personal income tax return has not yet been submitted. The deadline is 20 May; if the return is prepared by the tax office, you may review and accept it in the online portal until 31 May. Late submission may incur a penalty. Documents you may need: employer statements, bank interest certificates and receipts for deductible expenses.
+
+Customer Service
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=interview scheduling>>>
+From: Natalia Gorski <natalia.gorski@helixrobotics.test>
+To: Samuel Adeyemi <samuel.adeyemi@mailbox.test>
+Subject: Interview for Senior Controls Engineer
+
+Dear Samuel,
+
+Thank you for applying. We would like to invite you to a 90-minute interview on Tuesday 17 November at 10:00 (GMT), by video. You will meet Natalia (HR), Pieter van Dam (head of controls) and one team member. Expect a short technical discussion on PID tuning and a review of a project from your portfolio. Please confirm by Friday and let us know of any accessibility needs.
+
+Best regards,
+Natalia Gorski
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=privacy policy update>>>
+From: Data Protection Office <dpo@carrowmere-retail.test>
+To: Newsletter Subscribers <noreply@carrowmere-retail.test>
+Subject: Changes to our privacy notice
+
+We have updated our privacy notice, effective 1 December 2026. Changes: clearer description of how loyalty-card data is used for offers, a new retention period for online order records (6 years), and an updated list of payment processors. Your rights are unchanged. You can read the full notice on our website or contact our Data Protection Office at dpo@carrowmere-retail.test with any questions.
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=production line downtime>>>
+From: Plant Manager <plant.manager@kalmar-metalworks.test>
+To: Shift Supervisors <supervisors@kalmar-metalworks.test>
+Subject: Line 3 - scheduled stoppage Sunday
+
+Colleagues,
+
+Line 3 will be stopped on Sunday 8 November from 06:00 to 18:00 for the press brake hydraulic overhaul. Maintenance contractors (Rautio Service) will arrive at 05:30. Please redirect the open orders for Tevel GmbH to Line 5 and confirm tooling availability with Anders. Overtime for Saturday night shift is approved.
+
+Regards,
+Jorge Mendes
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=harvest update>>>
+From: Agro Advisory <advisory@dunantul-agro.test>
+To: Members <members@dunantul-agro.test>
+Subject: Autumn field notes and sowing window
+
+Dear members,
+
+Final maize yields across the cooperative averaged 9.1 t/ha, about 7% under the five-year mean due to the dry August. Winter wheat sowing: soil temperatures remain suitable until about 20 November. Soil sampling kits are available at the depot for next season's nitrogen planning. Join our webinar on cover crops, Wednesday 11 November at 18:00.
+
+Dunantul Agro Cooperative
+<<<END>>>
+
+<<<ITEM kind=email lang=en hard_negative=false topic=tour booking>>>
+From: Reservations <reservations@alpenglow-tours.test>
+To: Carla Fernandez <carla.fernandez@mailbox.test>
+Subject: Your Dolomites hiking week - final details
+
+Hi Carla,
+
+Your trip begins Saturday 20 February. Meet the group at Bolzano station at 14:00; our guide Matteo will have a green flag. Luggage is transferred between huts, so pack one duffel up to 12 kg. Remaining balance of 640 EUR is due by 20 January. We've attached the kit list and a route overview. Can't wait to walk with you!
+
+Alpenglow Tours
+<<<END>>>

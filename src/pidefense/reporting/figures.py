@@ -277,11 +277,108 @@ def fig_classifier(metrics: dict[str, dict[str, dict[str, float]]]) -> None:
     _save(fig, "classifier")
 
 
+def _box(ax: plt.Axes, xy: tuple[float, float], size: tuple[float, float], title: str, body: str, color: str) -> None:
+    patch = matplotlib.patches.FancyBboxPatch(
+        xy, *size, boxstyle="round,pad=0.02,rounding_size=0.04", facecolor=SURFACE, edgecolor=color, linewidth=2
+    )
+    ax.add_patch(patch)
+    ax.text(
+        xy[0] + size[0] / 2,
+        xy[1] + size[1] - 0.09,
+        title,
+        ha="center",
+        va="top",
+        fontsize=9.5,
+        fontweight="bold",
+        color=INK,
+    )
+    ax.text(
+        xy[0] + size[0] / 2,
+        xy[1] + size[1] - 0.26,
+        body,
+        ha="center",
+        va="top",
+        fontsize=7.6,
+        color=INK_2,
+        linespacing=1.35,
+    )
+
+
+def _arrow(ax: plt.Axes, start: tuple[float, float], end: tuple[float, float], label: str) -> None:
+    ax.annotate("", xy=end, xytext=start, arrowprops={"arrowstyle": "-|>", "color": INK_2, "lw": 1.4})
+    ax.text(
+        (start[0] + end[0]) / 2,
+        (start[1] + end[1]) / 2 + 0.05,
+        label,
+        ha="center",
+        va="bottom",
+        fontsize=7,
+        color=INK_2,
+    )
+
+
+def fig_architecture() -> None:
+    """System architecture: agent loop, defense middleware (layers per configuration), MCP servers."""
+    fig, ax = plt.subplots(figsize=(10.5, 3.6))
+    ax.set_xlim(0, 10.5)
+    ax.set_ylim(0, 3.6)
+    ax.axis("off")
+    _box(
+        ax,
+        (0.1, 1.1),
+        (2.3, 1.6),
+        "Agent loop",
+        "gpt-5.6-luna (Azure OpenAI)\nfunction calling, max 8-10 turns\nsame system prompt in\nall configurations",
+        CONFIG_COLORS["none"],
+    )
+    _box(
+        ax,
+        (3.2, 0.25),
+        (3.7, 3.2),
+        "Defense middleware",
+        "read outputs:\nR1 sanitizer  -> R2 regex signatures  -> ML detector\n(first block withholds the output)\n\n"
+        "actions (and SQL):\nR3 action policy / ops permissions\n(veto = action not executed)\n\n"
+        "1 none: -   2 guardrails: R1 R2 R3\n3 ML: detector   4 combined: all",
+        CONFIG_COLORS["guardrails"],
+    )
+    _box(
+        ax,
+        (7.7, 1.9),
+        (2.7, 1.5),
+        "MCP: office workspace",
+        "e-mail, files, web, reviews,\nbank transactions\n12 tasks, goals G1-G5",
+        CONFIG_COLORS["ml"],
+    )
+    _box(
+        ax,
+        (7.7, 0.25),
+        (2.7, 1.5),
+        "MCP: OpsPilot workspace",
+        "tickets, runbooks, SQLite DB,\nlogs, alerts, configs, notebook\n8 tasks, goals O1-O8",
+        CONFIG_COLORS["combined"],
+    )
+    _arrow(ax, (2.45, 2.15), (3.15, 2.15), "tool call")
+    _arrow(ax, (3.15, 1.55), (2.45, 1.55), "filtered result")
+    _arrow(ax, (6.95, 2.6), (7.65, 2.6), "MCP")
+    _arrow(ax, (6.95, 1.0), (7.65, 1.0), "MCP")
+    ax.text(
+        0.1,
+        0.55,
+        "attacker controls tool-output\ncontent only (indirect injection)",
+        fontsize=7.5,
+        color=INK_2,
+        style="italic",
+    )
+    _save(fig, "architecture")
+
+
 def main() -> None:
     """Render every figure whose input table exists."""
     setup_logging()
     _style()
     import json  # pylint: disable=import-outside-toplevel
+
+    fig_architecture()
 
     if (DET_DIR / "metrics.json").exists():
         fig_classifier(json.loads((DET_DIR / "metrics.json").read_text(encoding="utf-8")))

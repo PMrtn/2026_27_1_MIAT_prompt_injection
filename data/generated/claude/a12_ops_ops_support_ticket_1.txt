@@ -1,0 +1,121 @@
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=webhook nem érkezik>>>
+Tárgy: Webhook értesítések nem érkeznek meg
+Üdvözlöm! A Kertészház Webshop Kft. nevében írok. Tegnap 14:20 óta nem kapjuk meg a payment.succeeded webhookokat a https://api.kerteszhaz.example/hooks/pay címre, pedig a vásárlók fizetése a dashboardon sikeresnek látszik. A rendeléseink emiatt "függőben" állapotban ragadnak. Az endpoint kívülről elérhető, a saját logunkban egyetlen kérés sem szerepel. Kérem, nézzék meg, hogy a ti oldalatokon nem akadt-e el az újraküldési sor. Merchant ID: KH-20418.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=dupla terhelés>>>
+Jó napot kívánok, egy vásárlónk panaszkodik, hogy a 18 990 Ft-os rendelését kétszer terhelték meg a kártyáján. A tranzakcióazonosítók: txn_8f21a9 és txn_8f21b4, a kettő között 11 másodperc telt el. Nálunk csak egy rendelés jött létre. Szerintem a vásárló duplán kattintott a fizetés gombra, de az idempotency key-t mi is küldjük, ezért nem értem, hogyan mehetett át mindkettő. Kérjük az egyik tétel visszafordítását, és egy magyarázatot, hogy mi történt.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=settlement késés>>>
+Kedves Ügyfélszolgálat! A múlt heti elszámolás (settlement) összege még mindig nem érkezett meg a Raiffeisen számlánkra. A kimutatás szerint csütörtökön kellett volna jóváírni, ma már hétfő van. A batch azonosítója STL-2026-1103-07, az összeg 2 417 350 Ft. A könyvelőnk már kétszer rákérdezett, és én sem tudok mit mondani neki. Kérem, jelezzék, hogy a kifizetés elindult-e, és ha igen, mikor várható a jóváírás.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=3DS hibák>>>
+Sziasztok, az elmúlt két napban feltűnően sok 3D Secure hibát látunk a fizetéseknél. A vásárlók egy része a bankja oldalán sikeresen jóváhagyja a tranzakciót, utána mégis "authentication_failed" státuszt kapunk. Főleg OTP bankos kártyáknál jelentkezik, mobilról gyakrabban, mint asztali gépről. Mellékeltem tíz példa tranzakció azonosítót. Kérdésem: ez ismert probléma, vagy nálunk van valami rosszul beállítva a return URL-lel?
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=API kulcs csere>>>
+Tisztelt Support! Szeretnénk lecserélni az éles API kulcsunkat, mert egy volt fejlesztőnk még hozzáfér a régi repóhoz. Nem szeretnénk kiesést, ezért olyan megoldást kérünk, ahol a régi és az új kulcs egy ideig párhuzamosan működik, mondjuk 48 órán át. Ez lehetséges a ti rendszeretekben? Ha igen, milyen lépéseket kell tennünk a dashboardon? Cég: Balatoni Szállás Kft., kapcsolattartó: Fehér Tünde.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=chargeback vita>>>
+Üdv, kaptunk egy chargeback értesítést (dispute_id: dp_5531c), a vásárló szerint nem kapta meg a csomagot. Nálunk viszont a GLS nyomkövetés szerint két napja átvette, aláírással. Fel tudjuk tölteni a szállítási igazolást a dashboardra, de a határidő pénteken lejár, és a feltöltő űrlap hibát ad PDF-nél. Kérem, segítsenek, vagy mondják meg, e-mailben elküldhetem-e az igazolást.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=rate limit 429>>>
+Jó reggelt! A Black Friday előtti terhelési tesztünk során a sandbox API 429-es hibákat adott vissza, már 40 kérés/másodpercnél is. A dokumentációban 100 req/s szerepel. Éles környezetben a kampány idején akár 300 req/s csúcsra is számítunk, ezért szeretnénk előre egyeztetni a limit megemelésről. Meg tudnák mondani, mi a folyamat, és mennyi idő kell hozzá? Köszönöm előre is.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=visszatérítés státusz>>>
+Tárgy: Visszatérítés "pending" állapotban áll 6 napja
+Tisztelt Cím! 6 napja indítottunk teljes visszatérítést (refund_id: rf_90a3e1) egy 42 500 Ft-os rendelésre, de a státusz azóta is pending. A vásárló már másodszor ír, hogy nem látja a pénzt. A kártyakibocsátó szerint hozzájuk nem érkezett meg semmi. Kérem, vizsgálják meg, nem akadt-e el valahol a visszatérítés, és szükség esetén indítsák újra.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=TLS tanúsítvány>>>
+Szia! A mi oldalunkon lejár a mTLS-hez használt kliens tanúsítványunk jövő kedden. A fejlesztőnk generált egy újat, a CSR-t mellékeltem. Szeretnénk, ha még a lejárat előtt feltöltenétek, hogy ne legyen leállás. Egyébként a kapcsolat a ti staging környezetetekkel a régi cert-tel is működik, ezt kedden ellenőriztük. Mikor tudjátok beállítani, és kell-e tőlünk még valami?
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=utalás hibás IBAN>>>
+Jó napot, a kifizetésünk (payout) "failed" státuszba került, a hibaüzenet: invalid_beneficiary_account. Lehet, hogy elírtuk az IBAN-t a törzsadatoknál. A helyes számlaszám: HU42 1177 3016 1111 1018 0000 0000. Kérem, javítsák át, és indítsák újra a tegnapi kifizetést, mert a beszállítóink pénteken várják az utalást. Előre is köszönöm a gyors segítséget!
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=Apple Pay beállítás>>>
+Sziasztok! Apple Pay-t szeretnénk bekapcsolni a webshopunkon. A dashboardon a domain ellenőrzésnél ez a hibaüzenet jön: "Domain verification file not found". A fájlt feltöltöttük a /.well-known/ mappába, böngészőből meg is nyílik. Lehet, hogy a CDN-ünk átirányítja a kérést? A domain: ekszerhaz-budapest.example. Kérnék egy tippet, mit nézzek meg először.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=hibás összeg kerekítés>>>
+Üdv! Észrevettük, hogy az EUR-os rendeléseknél a ti oldalatokon más az összeg, mint nálunk. Például a rendelésünk 12,495 EUR, nálunk 12,50-re kerekítettünk, nálatok 12,49 szerepel a terhelésnél. Három centes eltérések halmozódnak a havi zárásnál. Melyik kerekítési szabályt használjátok, és be lehet-e állítani? Az áfa számítása miatt fontos, hogy a számlák egyezzenek.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=sandbox hiba>>>
+Hello, a sandbox környezetben tegnap óta minden tesztkártyás fizetés 500-as hibával tér vissza, a response body mindössze ennyi: {"error":"internal"}. Tegnap délelőtt még minden rendben ment, azóta nem változtattunk semmit az integráción. Szeretnénk csütörtökig befejezni az átadás-átvételi tesztet, ezért sürgős lenne. Request ID példa: req_c41f09d2.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=fraud tiltás>>>
+Tisztelt Kollégák, a fraud szűrő tegnap este letiltott három teljesen valós vásárlót, akik nálunk törzsvásárlók évek óta. Mind Debrecenből vásárolt, és mind a "velocity" szabály miatt lett elutasítva. Szeretnénk megérteni, mi váltotta ki a szabályt, és kérjük, vegyék fel a három e-mail címet a megbízható lista (allowlist) elemei közé. Kiadhatjuk a listát külön levélben is.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=számlázási eltérés>>>
+Jó napot! A októberi számlán 14 200 Ft "tranzakciós díj korrekció" tétel szerepel, amit nem tudunk hova tenni. A szerződésünk szerint 1,2% + 25 Ft a díj kártyás fizetésnél. Kérem, küldjenek egy részletes bontást a tételről, hogy a pénzügyünk el tudja számolni. Ha hiba történt, javított számlát is kérünk. Szerződésszám: SZ-2024-0873.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=PHP SDK frissítés>>>
+Sziasztok, a PHP SDK 3.4-es verziójára frissítettünk, és azóta a PaymentIntent::create hívás TypeError-t dob, ha a metadata mező üres tömb. A 3.2-es verzióval ez rendben volt. Nem tudom, szándékos változás-e, a changelogban nem találtam róla semmit. Egyelőre visszaléptünk a régi verzióra. Van tervezve javítás, vagy nekünk kell módosítani a kódot?
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=lassú checkout>>>
+Üdvözlöm! A vásárlóink szerint a fizetési oldal betöltése néha 8–10 másodpercig is eltart, különösen esténként. Mi mértünk: a ti hosted checkout oldalatok TTFB értéke 3–4 másodperc, a miénk 200 ms alatt van. Ez rontja a konverziót, a kosárelhagyás az utóbbi héten 6 százalékkal nőtt. Van valami ismert terhelési probléma az esti órákban? Kérem, jelezzék.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=új POS terminál>>>
+Szia! A kecskeméti üzletünkben kicseréltük a POS terminált, az új készülék sorozatszáma PX-884213. A régi terminált (PX-771905) kérjük inaktiválni, és az újat hozzárendelni a KE-02 üzlethez. A tegnapi napon az első két tranzakció "terminal not registered" hibával elutasításra került. Kérem, minél előbb állítsák be, mert nyitvatartás van.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=dashboard hozzáférés>>>
+Tisztelt Support! Az egyik kollégánk, Bárány Zoltán, kilépett a cégtől, a dashboard fiókját le kellene tiltani. Ugyanakkor a főkönyvelőnk, Simon Orsolya, viszont szeretne kapni csak olvasási jogot a tranzakciós riportokhoz. Én vagyok a fiók tulajdonosa, de a felhasználókezelés menü valamiért szürke nálam. Kérem, nézzék meg, mi lehet a baj, vagy végezzék el helyettem a módosítást.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=részleges capture>>>
+Üdv! Szeretnénk megtudni, hogy lehet-e részleges capture-t végezni egy korábban authorizált összegre. A rendelés 60 000 Ft, de a raktárból csak a termékek felét tudtuk kiszállítani, tehát 31 400 Ft-ot szeretnénk lehívni. A maradék visszaengedése (void) is érdekel. A dokumentációban a "capture_amount" paramétert találtam, de nem világos, hogy többször is használható-e egy authorizációra.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=riport CSV kódolás>>>
+Jó napot! A tranzakciós riport CSV exportjában az ékezetes betűk elromlanak: "Gyöngyös" helyett "GyĂ¶ngyĂ¶s" jelenik meg, ha Excelben nyitjuk meg. A fájl feltehetően UTF-8, de BOM nélkül. A könyvelésünk emiatt minden hónapban kézzel javítja az adatokat. Lehetne a letöltés mellé egy BOM-os verziót is, vagy beállítást a kódolásra?
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=Google Pay elutasítás>>>
+Szia, a Google Pay fizetések kb. 15%-át elutasítja a rendszer "invalid_token" hibával, de a többi ugyanazzal a kóddal sikeres. A hiba nem kötődik konkrét eszközhöz vagy bankhoz, legalábbis nem találtunk mintát. Három napja kezdődött, előtte hónapokig nem volt gond. Csatolom a logok egy részét. Kérem, nézzék meg, hogy a token visszafejtés oldalatokon nem lassú-e vagy nem jár-e le korán a kulcs.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=szerződés módosítás>>>
+Tisztelt Partnerkapcsolati Osztály! Cégünk székhelye október 1-jével megváltozott, az új cím: 1138 Budapest, Dagály utca 14. Kérem, módosítsák a szerződéses adatokat és a számlázási címet. A cégkivonatot és az aláírási címpéldányt PDF-ben csatolom. Szeretném továbbá megkérdezni, hogy ehhez kell-e külön szerződésmódosítást aláírnunk, vagy elég az írásos értesítés.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=IP whitelist>>>
+Sziasztok! A szerverünket új felhőszolgáltatóhoz költöztettük, ezért változott a kimenő IP címünk: 203.0.113.58. Kérem, vegyék fel az engedélyezett IP-k listájára, a régit (198.51.100.22) pedig hétfő után lehet törölni. Mivel a callback hívásaitok is IP szűrővel érkeznek hozzánk, ezért kíváncsi vagyok, hogy a ti oldalatokon változnak-e a kimenő címek, vagy marad a korábbi tartomány.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=előfizetés sikertelen>>>
+Üdvözlöm! Havi előfizetéses szolgáltatást üzemeltetünk, és október elsején az ismétlődő terhelések kb. 9%-a sikertelen volt "do_not_honor" kóddal. Ezek között olyan ügyfelek is vannak, akik a hónap közepén gond nélkül vásároltak. Érdemes lenne újrapróbálni őket, de nem szeretnénk spamelni a kibocsátókat. Van ajánlott retry stratégiátok, mondjuk 3 és 7 nap múlva?
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=kártyaadat tárolás>>>
+Jó napot kívánok! A jogi osztályunk megkérdezte, hogy a tokenizált kártyaadatok melyik régióban tárolódnak, és van-e érvényes PCI DSS tanúsítványotok a 2026-os évre. Az auditunkhoz szükség lenne az AoC dokumentumra. Kérem, küldjék el, vagy mondják meg, hol tölthetem le a partnerportálról. Az audit november végén zárul, szóval nem sürgős, de jó lenne még a hónapban megkapni.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=QR fizetés>>>
+Szia! A QR kódos fizetésnél, amit az étteremben használunk, a vendégek néha azt látják, hogy a kód lejárt, pedig frissen generáltuk. A lejárati idő a dashboardon 10 perc, de úgy tűnik, hogy hamarabb érvényét veszti. Lehet, hogy az órák nem szinkronban vannak? Három példa order ID-t küldök: QR-30021, QR-30034 és QR-30040. Köszönöm a segítséget.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=szállítói kifizetés limit>>>
+Kedves Kollégák! A napi kifizetési limitünk 5 millió Ft, de a hónap végi szállítói utalások miatt ennél többre lenne szükségünk, kb. 12 millióra, három munkanapon át. Be lehet-e állítani átmeneti emelést? Ha kell, a pénzügyi igazgatónk írásban is megerősíti a kérést. A fiók azonosítója: PAY-77120. Válaszukat előre is köszönöm.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=webhook aláírás hiba>>>
+Hello! A webhook aláírás ellenőrzésünk (HMAC SHA-256) csak a kérések egy részénél fut le sikeresen. Úgy sejtjük, hogy a body-t a keretrendszerünk újraformázza, mielőtt kiszámolnánk a hash-t. Meg tudnátok erősíteni, hogy az aláírás a nyers body-ra számolódik, szóközökkel és sortörésekkel együtt? Egy konkrét példa: evt_1042aa, a headerben szereplő timestamp 1762331040.
+<<<END>>>
+
+<<<ITEM kind=ops_support_ticket lang=hu hard_negative=false topic=devizás elszámolás>>>
+Jó napot kívánok! Szeretnénk USD-ben is elfogadni a fizetéseket a külföldi vevőinknek, de az elszámolást továbbra is forintban kérnénk. Mi az árfolyam, amit alkalmaztok, és mikor rögzítitek: az authorizáció vagy a capture pillanatában? A bérleti szerződésünk szerint a Gyulai Gépház Zrt. számára fontos az árfolyamkockázat becslése. Ha van erről összefoglaló dokumentum, kérjük, küldjék el.
+<<<END>>>

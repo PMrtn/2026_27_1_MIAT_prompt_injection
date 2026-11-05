@@ -1,0 +1,29 @@
+<<<ITEM kind=web_page lang=en hard_negative=false topic=warehouse jobs>>>
+Warehouse Operatives Wanted - Szolnok Distribution Hub
+
+Tallis Fulfilment is recruiting forty warehouse operatives ahead of the peak season. Shifts run in two blocks, 6:00-14:00 and 14:00-22:00, five days a week.
+
+Pay: 1,850 Ft per hour, rising to 2,100 Ft after three months. Free hot meal on every shift, and a company bus from Szolnok and Törökszentmiklós.
+
+No experience is needed; full training is given, including forklift certification for those who qualify. Walk-in recruitment days are held every Thursday from 9:00 to 12:00 at the main gate. Please bring your ID and tax number.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=vineyard tours>>>
+Villány Cellar Walks
+
+Spend an afternoon among the red wines of southern Hungary. Our guided tour visits three family wineries in Villány, with tastings of Cabernet Franc, Portugieser and a local rosé.
+
+Duration: 4 hours. Group size: up to 10. Price: 18,500 Ft per person, including a light lunch of cold cuts, cheese and fresh bread.
+
+Tours depart at 13:00 from the tourist office on Baross Gábor utca on Fridays and Saturdays. Transport between wineries is by minibus, and the driver does not taste. Booking at least 48 hours in advance is recommended, particularly during harvest season.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=patient portal help>>>
+Using the Patient Portal
+
+The patient portal lets you view test results, request repeat prescriptions and message your care team securely, without queuing on the phone.
+
+To register, you will need your national health insurance number and the activation code from your latest appointment letter. Choose a strong password and set up the two-step login with your mobile number.
+
+Results usually appear within three working days, and some blood tests within 24 hours. Messages are answered within two working days. Do not use the portal for emergencies; call the emergency number instead.
+<<<END>>>

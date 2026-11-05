@@ -1,0 +1,387 @@
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=robot vacuum>>>
+Customer Reviews - Zorvik R5 Robot Vacuum (4.2 average, 318 ratings)
+
+★★★★★ Nóra Szalai - "Finally keeps up with the dog"
+Picks up Labrador fur from the hallway runner without clogging. Battery lasts about 90 minutes on the quiet setting.
+
+★★★☆☆ Peter Lindqvist - "Good, but the app is fussy"
+Cleaning is solid. Mapping took three attempts and it still confuses my dark rug for a cliff.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=wireless earbuds>>>
+Reviews for Tallis AirBuds Mini - Rated 3.9/5 from 1,204 buyers
+
+Reviewer: Imre Kovács | Rating: 5/5
+Sound is crisp for the price, and I wore them through a 10 km run without them budging.
+
+Reviewer: Dana Whitfield | Rating: 2/5
+Left bud stopped charging after six weeks. Support replied fast, but I'm still waiting on the replacement.
+
+Reviewer: Ayesha Rahman | Rating: 4/5
+Call quality is better than my old pair. Case is a bit bulky in jeans pockets.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=cast iron skillet>>>
+Verified Purchase Reviews: Brannock 12-inch Cast Iron Skillet
+
+Rating: 5 stars - by Gergely Tóth
+Pre-seasoned surface was decent out of the box, and after a month of searing steaks it has a lovely dark finish. Heavy, so use two hands.
+
+Rating: 4 stars - by Marguerite Dubois
+Heats evenly on my induction hob. The handle gets hot, as expected. I bought a silicone sleeve separately.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=hiking backpack>>>
+CUSTOMER FEEDBACK (Kestrel Ridge 45L Pack)
+-------------------------------------------
+[4/5] Olufemi Adeyemi, Sept 12
+Carried it along the Tatra ridge for five days. Hip belt is comfortable and the rain cover fits snugly. Wish the side pockets were deeper.
+
+[3/5] Karolina Bartos, Aug 30
+Fine pack, but the zipper on the lid pocket snagged twice. Weighs slightly more than listed.
+
+[5/5] Henrik Dahl, Aug 4
+Best fit I have found for a long torso. Highly recommended for multi-day trips.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=mechanical keyboard>>>
+Ratings & Reviews - Plinko K87 Mechanical Keyboard
+
+⭐⭐⭐⭐⭐ Balázs Orosz
+Tactile switches feel great and the PBT keycaps do not get shiny. Hot-swap sockets made changing a few keys a two-minute job.
+
+⭐⭐⭐ Elena Moreau
+Typing feel is nice but the stabilizers rattle on the spacebar. A little lube fixed it, though you shouldn't have to do that out of the box.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=face moisturizer>>>
+Product reviews: Lumea Daily Barrier Cream 50 ml
+Average: 4.4 out of 5
+
+Anikó Farkas - 5 out of 5
+Didn't sting my sensitive cheeks, and the dry patches around my nose disappeared after about ten days. No strong perfume.
+
+Tomasz Wrona - 3 out of 5
+Texture is a bit thick for summer. Works fine in winter, though the tub is on the small side for the price.
+
+Sophie Armitage - 4 out of 5
+Absorbs fast and sits well under SPF. Would rebuy.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=garden hose>>>
+What gardeners say: Verdana FlexCoil 25 m Garden Hose
+
+★★★★☆ (Zsolt Mészáros)
+No kinks even after I dragged it around the apple trees. Fittings are brass, which I like. Dropped one star because the end cap leaked at first until I tightened it.
+
+★★☆☆☆ (Bridget O'Malley)
+Developed a pinhole leak near the connector after the second frost. Customer service offered a partial refund.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=electric kettle>>>
+Reviews of Haldor 1.7 L Glass Kettle
+
+Mei-Ling Chow, 5 stars: Boils quickly and the blue light is a nice touch. Switches off with a clear click.
+
+Dávid Pál, 4 stars: Quiet for a kettle. The lid is a bit tricky to open when it's hot, so be careful.
+
+Francesca Bellini, 2 stars: Limescale shows up fast with our hard water, and the glass looks cloudy after a month.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=dog harness>>>
+Pawfield Comfort Walk Harness - customer reviews (4.6 / 5)
+
+"My beagle stopped pulling" - Réka Hajdú - 5 stars
+The front clip actually works. We went from tug-of-war to relaxed strolls in about a week. Sizing chart was accurate.
+
+"Good quality, slow shipping" - Callum Reid - 4 stars
+Stitching feels strong and the reflective strip is bright at night. Arrived nine days late.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=smartwatch>>>
+Reviews - Norvane Pulse 3 Smartwatch
+Overall: 3.7 stars (642 reviews)
+
+Viktor Szabados | ★★★★
+Sleep tracking seems plausible and the battery goes six days with notifications on. Screen is easy to read outdoors.
+
+Priya Nair | ★★
+GPS drifts when I run between tall buildings. Heart rate matched my chest strap only during steady jogs.
+
+Lars Ekström | ★★★★★
+Strap is comfortable all day, and I love the simple interface.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=desk lamp>>>
+Customer reviews for the Auralis LED Desk Lamp with Wireless Charger
+
+5/5 - Judit Varga: Warm and cool light modes both look natural. The charging pad works with my phone through a thin case.
+
+3/5 - Mohammed Al-Sayed: Great brightness, but the touch dimmer is oversensitive. My sleeve switched it off twice.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=running shoes>>>
+Runners' reviews - Stridewell Tempo 9
+
+Anna Kristiansen (4 stars, 8 Oct): Light and responsive. I ran a half marathon in them and had no blisters. They run a half size small, so order up.
+
+Márk Lakatos (5 stars, 2 Oct): Great cushioning for my knees. Colour is brighter than the photos.
+
+Josephine Okafor (3 stars, 21 Sep): The upper started fraying near the toe after 250 km.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=cordless drill>>>
+Rated by tradespeople: Tormek-style Volt 18 Cordless Drill (Model D18-C)
+
+Rating 5/5 | Ferenc Gulyás, carpenter
+Two batteries last my whole day of framing work. Chuck holds bits firmly, and the clutch has 21 clear settings.
+
+Rating 3/5 | Andrew Mbeki, hobbyist
+Plenty of power but heavier than my old drill. Carry case feels flimsy.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=cat litter>>>
+Ratings for Whiskerly Clumping Cat Litter 10 kg
+
+Lilla Ősz - ★★★★★ - Low dust and clumps hold together. My two cats took to it immediately.
+
+Gareth Pugh - ★★★ - Does the job but tracks onto the floor more than the old brand.
+
+Noor Hamdan - ★★★★ - Odour control is good for a week. The bag handle tore a little during delivery.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=office chair>>>
+Reviews: Ergonia Task Chair Pro
+
+★★★★☆ Gábor Rácz - "Back support is excellent after eight hours of coding. Armrests wobble slightly, but nothing dramatic. Assembly took me 25 minutes."
+
+★★★★★ Ingrid Solberg - "Mesh back keeps me cool. The lumbar adjustment is smooth, and my posture feels better after two weeks."
+
+★☆☆☆☆ Kwame Boateng - "Gas lift sank after a month. Replacement is on its way."
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=sunscreen>>>
+Shopper Reviews: Solmara Mineral Sunscreen SPF 50
+
+Gabriella Nemes: 4/5 - No white cast on medium skin and no eye sting at the beach.
+Owen Tavares: 5/5 - Applied before a full day of kayaking and didn't burn. Smell is mild.
+Helga Brandt: 2/5 - Feels greasy on my oily skin and left marks on my shirt collar.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=standing desk>>>
+Customer Reviews - RiseFrame 140 cm Electric Standing Desk (4.5 stars)
+
+Attila Bognár wrote (5 stars): Motor is silent and memory presets are handy. The cable tray fits all my chargers.
+
+Tessa Warrington wrote (4 stars): Stable at full height. The desktop has a slight smell for the first few days, which then fades.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=espresso machine>>>
+Reviews for the Caffino Duo Espresso Machine
+
+* 5 stars, Zita Kerekes: Good crema after I tuned the grind. Steam wand froths milk in under a minute.
+* 3 stars, Emil Nowak: Takes a while to heat up, and the drip tray fills quickly.
+* 4 stars, Rosalind Hart: Sturdy build, easy descaling cycle. Cup clearance is tight for tall mugs.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=yoga mat>>>
+Yoga mat reviews (Anuvi Grip 6 mm)
+
+Bence Jakab ★★★★★
+Doesn't slip even in hot yoga. The strap that came with it is a nice extra.
+
+Camille Laurent ★★★☆☆
+Fine for home practice, but the rubbery smell lingered for nearly two weeks.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=car phone mount>>>
+Reviews: Gripton MagMount Car Phone Holder - 4.0 average
+
+Béla Szűcs - 4 stars: Magnet holds my phone over bumpy roads. It sits on the vent clip and blocks airflow slightly.
+Nina Kowalczyk - 5 stars: Installed in ten seconds, no sticky residue.
+Dominic Fairchild - 2 stars: Vent clip cracked in cold weather.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=bluetooth speaker>>>
+Customer Reviews: Boomer Cube Portable Speaker
+
+"Great at the campsite" - Orsolya Takács - 5/5. Waterproof in the rain, and the bass is surprisingly full for a small cube.
+
+"Okay for the price" - Jamal Whitaker - 3/5. Battery claim is 14 hours; I got about 10 at loud volume.
+
+"Pairing is easy" - Saskia de Vries - 4/5. Two units link up for stereo.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=notebook stationery>>>
+Reviews for Papyra A5 Dot-Grid Notebook (pack of 3)
+
+Ádám Fehér - 5 stars - The paper handles fountain pen ink with almost no bleed-through. Binding lies flat.
+
+Clara Weston - 4 stars - Lovely paper. The covers scuff easily in a bag.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=air fryer>>>
+Air Fryer 5.5 L "Crispa" - Reviews
+
+★★★★ Margit Barta: Chips come out crunchy with a tablespoon of oil. The basket is dishwasher safe and the timer is easy to read.
+
+★★ Wesley Nakamura: Hot spot at the back; wings on one side were darker than the other. Fan is loud.
+
+★★★★★ Ilse Hofmann: We use it nearly daily. Reheats pizza far better than a microwave.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=tent camping>>>
+Buyer Reviews | Alpenrow 2-Person Tent
+
+Reviewer: Zoltán Mátyás
+Score: 4/5
+Pitched in 6 minutes alone. Held through a night of gusty wind. Floor is thin, so bring a footprint.
+
+Reviewer: Eleanor Pryce
+Score: 5/5
+Roomy for two plus bags. Vestibule keeps boots dry.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=laptop sleeve>>>
+Reviews - Padloc 14" Laptop Sleeve
+
+Rated 4 out of 5 by Eszter Vincze: Slim, with soft lining. My laptop fits snugly, and the zipper glides.
+Rated 5 out of 5 by Rafael Castellano: Survived a coffee spill without any soak-through.
+Rated 2 out of 5 by Mildred Cho: Too tight with a case on the laptop. Return process was easy.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=hair dryer>>>
+Customer reviews of the Velora IonDry 2200 W
+
+Dóra Lengyel (5/5): Dries shoulder-length hair in under 6 minutes, and there's less frizz than with my old one.
+
+Beatrix Lund (3/5): Strong airflow, though it's heavier than expected and my wrist gets tired.
+
+Yusuf Demir (4/5): Bought as a gift. She likes the cool shot button.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=bike helmet>>>
+Rider reviews - Cranwell Urban Bike Helmet
+
+* Katalin Pap ★★★★★: Lightweight, ventilated, and the rear light is bright. Adjustment dial is simple even with gloves.
+* Ruaridh MacLeod ★★★★: Comfortable. Visor is a bit short for low sun.
+* Tamás Gál ★★: Pads compressed after a season of daily commuting.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=wifi router>>>
+Ratings for Netsprout AX3000 Wi-Fi 6 Router
+
+4/5 - Levente Orbán: Covers my 90 m² flat with strong signal everywhere. Setup through the app took 8 minutes.
+2/5 - Patricia Dunn: Dropped the connection every few days until a firmware update.
+5/5 - Takeshi Mori: Good value. Parental controls are simple to configure.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=pet water fountain>>>
+Reviews: Aquapurr Ceramic Pet Fountain
+
+Hanna Vörös ★★★★★ - My cat drinks much more now. Easy to clean, and the pump is nearly silent.
+
+Brendan Cole ★★★ - Works well but replacement filters are pricey.
+
+Ingeborg Strand ★★★★ - Ceramic feels premium. Cord is short.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=blender>>>
+Shopper ratings - Whirlex 1200 W Blender
+
+Miklós Antal | 5 stars | Crushes ice and frozen berries into smooth slush. The jar is made from thick Tritan plastic.
+
+Frieda Kessler | 3 stars | Powerful, but really loud. I use earplugs for smoothies, I'm not joking.
+
+Sunil Chaudhary | 4 stars | Self-clean mode works for most jobs.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=power bank>>>
+Customer Reviews: Voltcell 20,000 mAh Power Bank
+
+Rating: ★★★★★ | Szilvia Kónya
+Charged my phone four times on a weekend away. The digital display shows exact percentage.
+
+Rating: ★★★ | Archie Penhaligon
+Heavy to carry in a jacket pocket. Fast charging works only on one port.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=lawn mower>>>
+Reviews for Greenpath 40V Cordless Lawn Mower
+
+Gyula Ráth, 4 stars: Cuts my 300 m² lawn on a single charge and folds flat for the shed. Grass bag could be larger.
+
+Ottilie Brandt, 5 stars: Light and quiet. The neighbours didn't even notice me mowing at 8 am.
+
+Desmond Achebe, 3 stars: Struggled with wet grass.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=toothbrush electric>>>
+Reviews - Brisa Sonic Electric Toothbrush
+
+(5/5) Lívia Mezei: Dentist noticed less plaque at my last checkup. Battery lasts about three weeks.
+(4/5) Oscar Lindgren: Pressure sensor is useful. Travel case is a bit flimsy.
+(2/5) Harriet Moss: The brush heads cost too much for what they are.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=board game>>>
+Player Reviews of "Salt Road" Board Game (2-4 players)
+
+Sándor Bálint - 5 stars: Rules took ten minutes to learn, and games finish within an hour. Art is gorgeous.
+
+Penelope Quill - 4 stars: Great with two players. Four-player games drag a little.
+
+Ravi Menon - 3 stars: Component quality is good, but the rulebook is poorly organised.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=water bottle>>>
+Reviews | Frostline 750 ml Insulated Bottle
+
+★★★★★ Vera Pintér - Kept my tea warm for a full workday. The lid doesn't leak in a bag.
+★★★★ Callan Doyle - Dents easily if dropped, but still works.
+★★★ Mirela Popescu - Paint chipped after a month in my gym bag.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=pressure cooker>>>
+Customer reviews: Kazán 6 L Electric Pressure Cooker
+
+Erika Dudás (5/5): Beans in 40 minutes without soaking. The steam release is easy to handle. I use it three times a week.
+
+Terrence Boyle (3/5): Display is hard to read from an angle. Instructions are unclear.
+
+Amara Nwosu (4/5): Good for stews. Sealing ring absorbs smells.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=sofa cover>>>
+Reviews - Domus Stretch Sofa Cover (3-seater)
+
+Rating 4/5 by Mónika Sárközi - Fits my sofa neatly, and washes well at 30 degrees. Colour matches the picture.
+
+Rating 2/5 by Neil Abernathy - Kept slipping off the cushions. Needed extra foam strips.
+
+Rating 5/5 by Lucia Ferraro - Kept my cat's claws off the fabric.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=webcam>>>
+Reviews of the Clarion C920-Lite Webcam
+
+István Rózsa: 4 stars. Image is sharp in good light, and the privacy shutter is handy.
+Birgit Holm: 5 stars. Plug and play on Linux and Windows.
+Marcus Odell: 2 stars. Autofocus hunts constantly when I move my hands.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=fishing rod>>>
+Angler reviews - Tisza Pro 2.7 m Spinning Rod
+
+Barnabás Kelemen ★★★★★ - Light tip, strong backbone. Landed a 6 kg carp without stress.
+Duncan Merrick ★★★★ - Cork handle is comfortable. The rod tube is a nice bonus.
+Fatima Zahra ★★★ - Guides came loose after a couple of trips.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=curtains blackout>>>
+Reviews: Nocturna Blackout Curtains (pair, 140 x 245 cm)
+
+Boglárka Szőke: 5 out of 5. Room is genuinely dark at noon. Grommets slide smoothly.
+Ewan Kirkpatrick: 3 out of 5. They block the light but are shorter than stated by about 3 cm.
+Leila Karimi: 4 out of 5. Good thermal effect on my north-facing window.
+<<<END>>>

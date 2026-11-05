@@ -1,0 +1,290 @@
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=project management software>>>
+Reviews of TaskLoom Team Planner (software, per-seat licence)
+
+Rating: 4 of 5 - Gábor Illés, operations lead
+Boards load quickly and the calendar sync with Outlook has not missed an entry in three months. Reporting export is limited to CSV.
+
+Rating: 2 of 5 - Jessica Thornton, agency owner
+Pricing jumped at renewal. Support was polite but could not explain why.
+
+Rating: 5 of 5 - Anand Kulkarni, dev manager
+Sprint view is clean, and the Git integration works.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=ink printer>>>
+Customer reviews - Printora EcoTank L4 Colour Printer
+
+★★★★★ Erzsébet Hegedűs: Refilling from bottles is clean, and I've printed about 1,500 pages on the first set. Wi-Fi setup was painless.
+
+★★★ Colin Beaumont: Photos look fine but text is slightly lighter than on my previous laser printer. Slow on duplex jobs.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=bathroom scale>>>
+Reviews: Equilibra Smart Body Scale
+
+Rated 3 stars by Lajos Fazekas - Numbers vary by up to 0.8 kg between two steps on the same morning. App syncs fine with the phone.
+
+Rated 5 stars by Maren Johansen - Consistent readings. Glass top is easy to clean.
+
+Rated 4 stars by Diego Salazar - Battery indicator would be nice.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=winter jacket>>>
+Reviews for the Nordhaug Down Parka (men's, M)
+
+Tibor Egri - 5/5. Warm down to about -15 °C with a thin sweater underneath. Hood has a proper wire brim.
+
+Winston Achterberg - 4/5. Looks sharp and sheds snow. Sleeves are a touch long.
+
+Ágota Berki - 3/5. A few feathers poke through the seams.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=baby stroller>>>
+Parent reviews - Tinyroll Compact Stroller
+
+Zsófia Kardos (5 stars): Folds with one hand and fits in a small hatchback boot. Smooth on cobblestones.
+
+Jonathan Ferris (4 stars): Good canopy, sturdy brakes. The cup holder is plastic and cracked in a cold week.
+
+Aaliyah Brooks (3 stars): The recline strap is fiddly.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=chef knife>>>
+Kitchen knife reviews - Sakamori 20 cm Chef's Knife
+
+"Keeps its edge" ★★★★★ - Dénes Faragó: Slices tomatoes with no pressure. After two months a quick pass on the whetstone is all it needs.
+
+"Handle slightly thin" ★★★★ - Louisa Vance: Great blade but I have large hands.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=graphics tablet>>>
+User Reviews: Sketchwave S Pen Tablet
+
+* Réka Dobos (5/5): Pressure sensitivity feels natural in Krita. Drivers installed in a minute.
+* Isaac Thornbury (3/5): Surface is slightly scratchy, though I'm getting used to it.
+* Mirabel Quintero (4/5): The buttons are programmable and the tablet is thin.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=olive oil>>>
+Reviews - Oliveto Extra Virgin Olive Oil, 750 ml tin
+
+Ilona Nagyházi ★★★★★ - Fruity with a peppery finish. I use it for salads only, so the tin lasts.
+
+Marcus Delacroix ★★★ - Good flavour but the tin dented in transit.
+
+Sibel Aydın ★★★★ - Fresher than supermarket brands.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=monitor 4K>>>
+Verified buyer ratings: Visara 27" 4K Monitor (VU27-4K)
+
+Kristóf Bakos - 5 stars: Colours look accurate after a quick calibration. One USB-C cable gives me video and charging.
+
+Olivia Thackeray - 4 stars: Sharp, and the stand adjusts to every angle. Has a mild backlight glow in dark rooms.
+
+Piotr Zawadzki - 3 stars: Speakers are weak. I'd skip the built-in ones.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=hand cream>>>
+Reviews: Birchwood Shea Hand Cream, 3-pack
+
+Edit Kocsis, 5 stars - Non-greasy and smells like fresh almonds. I keep one in each bag.
+Ronan Gallagher, 4 stars - Good value. Tubes are small.
+Hae-Won Park, 2 stars - The scent was too strong for me.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=tennis racket>>>
+Customer ratings: Volleyra Pro Lite 300 Tennis Racket
+
+Péter Somogyi ★★★★★ - Control is superb for a club-level player. Arrived pre-strung at 24 kg.
+
+Imogen Frost ★★★★ - Light and forgiving. Grip tape wore thin quickly.
+
+Rashid Karim ★★ - Vibrations bother my elbow.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=accounting software>>>
+Software Reviews - LedgerLeaf Small Business Accounting
+
+Judit Kelemen (4/5, bookkeeper): Bank feeds import reliably, and VAT reports are clear. The mobile app lacks invoicing templates.
+
+Stuart McAllister (5/5, freelancer): Set up in an afternoon. Reminders for overdue invoices save me hours.
+
+Noemi Silva (2/5): Learning curve is steep and the help articles are outdated.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=slow cooker>>>
+Slow cooker reviews - Mélys 6.5 L
+
+Dorina Czeglédi: 5 stars. Goulash was perfect after eight hours, and the lid seals well.
+Alistair Pembroke: 3 stars. Low setting is hotter than I expected.
+Chiamaka Eze: 4 stars. Insert is dishwasher safe.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=rain jacket>>>
+Reviews: Cloudbreaker Packable Rain Jacket
+
+"Survived a Scottish weekend" - Fiona Mackay - ★★★★★
+Taped seams and no leaks in three hours of steady rain. Packs into its own pocket.
+
+"Runs small" - Benedek Szántó - ★★★
+Sleeves fit but the chest was tight on me, so I sized up.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=usb hub>>>
+Reviews for Portal-7 USB-C Hub (7 ports)
+
+4/5 Máté Pásztor: HDMI output works at 4K 60 Hz on my laptop. It gets warm after an hour but nothing alarming.
+5/5 Ximena Ortega: Card reader is fast. Solid aluminium body.
+2/5 Bruce Hollander: One USB-A port stopped working after a month.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=cat scratching post>>>
+Customer reviews - Clawhaven Tall Sisal Scratching Post
+
+Ildikó Bodnár ★★★★★ - Heavy base. My Maine Coon uses it every morning.
+Trevor Lanning ★★★★ - Assembly was two screws. Colour is a bit dull in person.
+Mathilde Roux ★★ - Toppled over once with my energetic kitten.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=pickup truck tyres>>>
+Tyre reviews - Roadgrip AT 265/70 R17 All-Terrain
+
+Roland Szekeres - 5/5: Quiet on the motorway and decent in mud. Fitted in October and still looks new.
+
+Dwayne Colquhoun - 4/5: Good traction on gravel. Fuel use went up a little.
+
+Marta Kaczmarek - 3/5: Wet braking is merely average.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=acoustic guitar>>>
+Reviews: Marlowe OM-200 Acoustic Guitar
+
+Soma Törők (5 stars) - Warm tone and easy action out of the box. Great for fingerstyle.
+
+Valentina Costa (4 stars) - Tuners hold well. A few finish marks near the bridge.
+
+Elijah Rhodes (3 stars) - Gig bag included is very thin.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=herbal tea>>>
+Customer reviews of Kamilla Mountain Herbal Tea (20 bags)
+
+Gizella Papp ★★★★★ - Calming blend of chamomile and lemon balm; I drink a cup before bed.
+Hugo Lindahl ★★★ - Nice flavour, weak after one bag.
+Yasmin Farouk ★★★★ - Individually wrapped bags keep it fresh.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=laptop computer>>>
+Reviews - Aerobook 14 Laptop (16 GB / 512 GB)
+
+★★★★★ Mihály Gulyás - Fast startup, with a bright matte screen. Fans stay silent in office use.
+
+★★★☆☆ Constance Whitlock - Keyboard feels shallow. Battery gives about 7 hours in practice, not the 12 advertised.
+
+★★★★ Kenji Takahashi - Good port selection. Speakers are tinny.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=dehumidifier>>>
+Dehumidifier reviews: Drywell 12 L/day
+
+Ágnes Rigó (4/5): Basement went from 70% to 50% humidity within two days. Tank is easy to empty.
+
+Philip Ostrander (5/5): Continuous drain hose works, so I never have to empty it.
+
+Nadezhda Volkova (3/5): Hum is noticeable at night.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=ergonomic mouse>>>
+Reviews for Vertix Ergonomic Vertical Mouse
+
+Szabolcs Bíró - 4/5 - Wrist pain eased after two weeks. Takes a few days to get used to.
+Leona Whitfield - 5/5 - Quiet clicks, with USB receiver and Bluetooth both supported.
+Anders Pedersen - 2/5 - Too large for my hand.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=hiking boots>>>
+Boot reviews: Mercer Ridge Waterproof Hiking Boots
+
+Tünde Gáspár ★★★★★ - Broke in within a week and no blisters on a 20 km walk.
+Lachlan Murray ★★★★ - Grippy sole on wet rock. They're heavier than my old pair.
+Beatriz Almeida ★★★ - Laces keep coming undone.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=photo editing software>>>
+User reviews: PixelForge Studio 2026 (photo editing software)
+
+Domonkos Varga - 5 stars: Batch export and RAW handling are quick. Masks are intuitive.
+Hollis Greene - 3 stars: Many features, but the interface is cluttered.
+Teodora Ilieva - 4 stars: Plugin support works. Updates download slowly.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=bird feeder>>>
+Reviews - Finchwell Hanging Bird Feeder
+
+Lenke Szatmári: 5/5. Attracted blue tits within two days. Easy to refill.
+Gordon Ashworth: 3/5. Squirrels figured it out quickly.
+Annika Berg: 4/5. Sturdy metal ports.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=mattress topper>>>
+Customer reviews: Dormio Memory Foam Topper 5 cm
+
+Tamara Gönczi ★★★★★ - Made my firm mattress comfortable. It took a day to fully expand.
+Raymond Tulloch ★★★ - Sleeps warm in summer.
+Ngozi Okeke ★★★★ - Washable cover is a plus.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=drone camera>>>
+Reviews - Skylet Mini 2 Camera Drone
+
+Zalán Fekete (5/5): Footage is stable and smooth. Flight time is around 28 minutes in light wind.
+
+Rebecca Strand (4/5): Obstacle sensors are helpful for beginners.
+
+Hiroshi Endo (2/5): Needed a firmware update before it would connect to my phone.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=coffee beans>>>
+Reviews: Hajnal Roasters Ethiopia Yirgacheffe 500 g
+
+Éva Szilágyi - 5 stars: Bright, floral cup with notes of peach. Roast date was only five days before delivery.
+Declan O'Connor - 4 stars: Great pour-over beans. Bag is not resealable.
+Soraya Malik - 3 stars: A bit sour for my taste.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=tool box>>>
+Reviews of Ferrow 60-piece Socket Set with Case
+
+Károly Hajdu ★★★★ - Chrome finish, ratchet has fine teeth. Case latches are cheap.
+
+Gideon Marsh ★★★★★ - Everything I needed to service my motorbike.
+
+Pilar Domínguez ★★ - Two sockets rounded off on stubborn bolts.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=air purifier>>>
+Customer reviews for Purelia 300 Air Purifier
+
+Katinka Ladányi: ★★★★★ - Pollen season was much more bearable. Filter life indicator is accurate.
+
+Barnaby Strickland: ★★★ - Works, though night mode still has a faint glow.
+
+Ifeoma Chukwu: ★★★★ - Quiet and compact.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=lip balm>>>
+Reviews: Kisslee Beeswax Lip Balm (3 tubes)
+
+Boróka Hargitai 5/5 - Keeps my lips soft in winter wind. Honey scent is subtle.
+Peter Hallworth 4/5 - Smooth, though it melts in a hot car.
+Sunniva Haugen 3/5 - Fine, nothing special.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=wireless charger>>>
+Reviews: Chargepad Duo 15 W Wireless Charger
+
+Ernő Mihály (4 stars): Charges my phone and earbuds together. Slight coil whine at night.
+Jocelyn Prewitt (5 stars): Rubber ring keeps my phone from sliding.
+Mustafa Çelik (3 stars): Slower than advertised with a thick case.
+<<<END>>>

@@ -1,0 +1,42 @@
+{
+  "total": 1617,
+  "by_label": {
+    "0": 539,
+    "1": 1078
+  },
+  "by_lang": {
+    "hu": 809,
+    "en": 808
+  },
+  "by_family": {
+    "P1": 67,
+    "P2": 67,
+    "P3": 67,
+    "P4": 67,
+    "P5": 67,
+    "P6": 67,
+    "P7": 67,
+    "P8": 67,
+    "S1": 68,
+    "S2": 68,
+    "S3": 68,
+    "S4": 68,
+    "S5": 68,
+    "U1": 68,
+    "U2": 67,
+    "U3": 67,
+    "benign": 539
+  },
+  "by_carrier_type": {
+    "change_request": 180,
+    "config_file": 180,
+    "crm_note": 180,
+    "incident_chat": 180,
+    "log_excerpt": 177,
+    "monitoring_alert": 180,
+    "ops_support_ticket": 180,
+    "runbook": 180,
+    "vendor_status": 180
+  },
+  "hard_negative_benign": 240
+}

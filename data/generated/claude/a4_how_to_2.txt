@@ -1,0 +1,196 @@
+<<<ITEM kind=how_to lang=en hard_negative=true topic=pruning roses>>>
+Pruning bush roses in early spring
+
+Wait until the forsythia blooms, which usually signals the last hard frost has passed. Wear thick gloves and use sharp secateurs. Remove any dead, diseased or crossing stems first, cutting back to healthy white-centred wood. Then cut the remaining stems down to about 20 cm above the ground, making each cut at a slant just above an outward-facing bud. Clear fallen leaves from around the base and spread a layer of compost.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=freeing frozen windscreen>>>
+Defrost a frosty windscreen quickly
+
+1. Start the engine and set the heater to the windscreen, with the air-conditioning on.
+2. Brush loose snow off the roof, bonnet and lights.
+3. Scrape the glass with a plastic scraper using short strokes away from your body.
+4. Spray de-icer along the edges if the wipers are stuck.
+5. Wipe the inside of the windows with a dry cloth to stop fogging.
+6. Drive off only when the glass is completely clear.
+
+Never pour boiling water on the glass, as it can crack.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=setting up spreadsheet formula>>>
+Add up a column in a spreadsheet
+
+Click the empty cell beneath your numbers. Type an equals sign, then SUM, then an opening bracket. Drag the mouse over the cells you want to add, so their range appears inside the brackets, for example B2:B15. Close the bracket and press Enter. The total shows in the cell. To copy the formula across to the next column, grab the small square at the cell's bottom-right corner and drag it sideways.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=tuning a guitar>>>
+Tune an acoustic guitar by ear or app
+
+Start with the thickest string, the low E. Install a free tuner app and pluck the string once; let it ring. Turn the tuning peg slowly until the needle sits in the middle and the screen turns green. Move to the A, D, G, B and thin E strings in that order. Because the strings affect each other, go through all six once more. Stretch each new string gently by lifting it from the fretboard and retune afterwards.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=jump starting a car>>>
+Jump-start a car with a flat battery
+
+- Park the working car close, nose to nose, and switch both engines off.
+- Connect the red clamp to the positive terminal of the dead battery, then the other red clamp to the positive terminal of the good battery.
+- Attach one black clamp to the good battery's negative terminal.
+- Clamp the last black clamp to a bare metal part of the dead car's engine block.
+- Start the donor car and wait three minutes, then start the other car.
+- Remove the clamps in reverse order.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=making a compost heap>>>
+Start a garden compost heap
+
+Choose a shady, well-drained corner and place a bin or wooden pallet frame there. Lay twigs on the bottom for airflow. Add layers of "greens" such as vegetable peelings and grass clippings, alternating with "browns" such as torn cardboard, dry leaves and straw. Sprinkle a handful of garden soil between layers. Keep the heap as damp as a wrung-out sponge, and turn it with a fork every few weeks. After six to nine months, you should have dark, crumbly compost.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=washing a wool jumper>>>
+Hand-wash a wool jumper
+
+1. Turn the jumper inside out and check the care label.
+2. Fill a basin with lukewarm water and add a capful of wool detergent.
+3. Submerge the jumper and squeeze it gently for two minutes. Don't wring.
+4. Drain the basin and rinse in clean lukewarm water.
+5. Press the water out against the side, then roll the jumper in a thick towel.
+6. Reshape it flat on a drying rack, away from radiators.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=assembling flat-pack wardrobe>>>
+Putting together a flat-pack wardrobe
+
+Lay out the panels on a blanket and sort the screws into labelled cups. Read the entire manual once before you start. Attach the side panels to the base with the cam bolts, tightening each only halfway for now. Slide the back panel into its groove, hammering small nails into it evenly. Stand the wardrobe upright with a helper, then tighten all fittings fully. Attach the doors last and adjust the hinges so the gaps match.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=cleaning oven>>>
+Degrease an oven without harsh fumes
+
+Take out the racks and trays. Mix half a cup of baking soda with three tablespoons of water to make a spreadable paste. Smear it over the inside walls and floor, avoiding the heating element. Leave it overnight. In the morning, wipe it off using a damp sponge, scraping stubborn bits with a wooden spatula. Spray the remaining residue with vinegar so it fizzes, and wipe again. Soak the racks in the bath with hot water and dish soap for an hour, then scrub.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=updating smartphone software>>>
+Update your phone's software
+
+1. Connect the phone to Wi-Fi and plug it into a charger.
+2. Open Settings and scroll to "System" or "Software update".
+3. Tap "Check for updates".
+4. When one appears, read the size and tap Download.
+5. Tap Install and wait; the phone will restart on its own.
+6. After the restart, open a couple of apps to make sure everything works.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=tent pitching>>>
+Pitch a dome tent in windy weather
+
+Choose flat ground free of stones, and set the tent's door facing away from the wind. Spread the groundsheet first and peg down two corners on the windward side. Thread the poles through the sleeves and flex them into place, then clip the tent body to the frame. Peg out the remaining corners, pulling the fabric taut. Attach the flysheet and secure every guy line with pegs angled away from the tent. Place heavy bags inside before you leave to fetch water.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=printing double-sided>>>
+Print a document double-sided
+
+Open the document and press Ctrl + P. In the print window, choose your printer from the drop-down list. Click "Printer properties" or "More settings" and tick "Print on both sides". Select "Flip on long edge" for portrait pages or "short edge" for landscape. Click Print. If your printer lacks automatic duplex, print the odd pages first, then flip the stack and reload it as the screen instructs.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=hanging wallpaper>>>
+Hang a roll of wallpaper
+
+1. Measure the wall height and cut the first strip 10 cm longer.
+2. Draw a vertical pencil line using a plumb line to guide the first strip.
+3. Apply paste to the wall or the paper, as the roll instructs.
+4. Align the strip with the line, leaving a little extra at the ceiling.
+5. Smooth it down from the centre outward with a wallpaper brush.
+6. Trim top and bottom with a sharp craft knife and a metal ruler.
+7. Match the pattern on the next strip and butt the edges together.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=bathing a cat>>>
+Give your cat a bath
+
+Trim her claws first and brush out any tangles. Put a rubber mat in the sink or tub and fill it with 5 cm of lukewarm water. Lift the cat in gently and speak softly. Use a cup to wet her body, avoiding the face and ears. Massage in a small amount of cat shampoo and rinse thoroughly. Wrap her in a towel straight away, pat dry, and keep her in a warm room until she is fully dry. Offer a treat afterwards.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=filing a tax return>>>
+Submit your self-assessment tax return online
+
+Gather your income statements, receipts and bank details before you start. Sign in to the tax authority's portal with your user ID and password. Choose the current tax year and open the return. Fill in each section in order, saving as you go. Review the summary page, check the calculated amount, and correct any errors. Submit it before the deadline. Save the confirmation number and download a copy of the return for your records.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=making sourdough starter>>>
+Make a sourdough starter from scratch
+
+Day 1: Stir 50 g of wholemeal flour with 50 ml of lukewarm water in a clean jar. Cover loosely and leave at room temperature.
+Days 2-3: Do nothing but watch for a few bubbles.
+Day 4 onward: Discard half of the mixture, then feed with 50 g of flour and 50 ml of water each day.
+Day 7-10: When the starter doubles in size within six hours of feeding and smells pleasantly sour, it is ready to bake with.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=checking tyre pressure>>>
+Check your car's tyre pressure
+
+Find the recommended pressure on the sticker inside the driver's door frame. Check when the tyres are cold, before you drive. Unscrew the valve cap and press the gauge firmly onto the valve until the hissing stops. Read the number. If it is low, add air in short bursts and check again. If too high, press the little pin in the valve to let some out. Replace all four caps, and don't forget the spare.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=making a paper plane>>>
+Fold a classic paper dart
+
+1. Take an A4 sheet and fold it in half lengthwise; open it again.
+2. Fold the top corners in toward the centre crease.
+3. Fold the new slanted edges in to the centre once more.
+4. Fold the whole plane in half along the original crease.
+5. Fold each wing down so its edge lines up with the bottom.
+6. Bend the wing tips up a few millimetres, hold the plane under the body and throw it gently forward.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=cleaning laptop keyboard>>>
+Clean a laptop keyboard
+
+Turn the laptop off and unplug it. Tilt it upside down and gently tap the back to shake out crumbs. Use a can of compressed air in short bursts between the keys. Dip a cotton swab into isopropyl alcohol and wipe around the keys, one row at a time. Wipe the key tops with a slightly damp microfibre cloth. Let everything dry for at least ten minutes before you switch the laptop on.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=painting a room>>>
+Paint a room like a pro
+
+Move furniture to the centre and cover it and the floor with dust sheets. Fill any holes with filler and sand them smooth once dry. Tape off skirting boards, window frames and sockets with masking tape. Cut in around the edges with a 5 cm brush, then fill the middle sections with a roller, working in a W shape and keeping a wet edge. Allow the first coat to dry for four hours before applying the second. Peel off the tape while the paint is still slightly tacky.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=planting garlic>>>
+Plant garlic in autumn
+
+- Choose a sunny bed with loose, well-drained soil.
+- Break a bulb into individual cloves, keeping the papery skin on.
+- Dig shallow holes 5 cm deep and 15 cm apart, in rows 30 cm apart.
+- Drop each clove in, pointed end up.
+- Cover with soil and add a layer of straw mulch.
+- Water once and then leave it until spring shoots appear.
+- Harvest in midsummer when the lower leaves turn yellow.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=fixing squeaky door>>>
+Silence a squeaky door hinge
+
+Open the door fully and slide a wedge underneath to take the weight off the hinges. Place a piece of cardboard on the floor to catch drips. Tap the hinge pin upward with a nail and screwdriver, then pull it out. Wipe the pin clean with a rag, coat it with a thin layer of petroleum jelly or machine oil, and slide it back in. Open and close the door several times to spread the lubricant, then wipe off any excess.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=joining a video call>>>
+Join a video meeting for the first time
+
+1. Click the link in your calendar invitation a few minutes early.
+2. If prompted, allow the browser to use your camera and microphone.
+3. Pick your preferred camera and speakers in the settings window.
+4. Check how you look on the preview and mute yourself if others are talking.
+5. Click "Join now".
+6. Use the raise-hand button to speak, and press "Leave" when finished.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=storing fresh herbs>>>
+Keep fresh herbs alive for two weeks
+
+Trim the stems of soft herbs like parsley and coriander and stand them in a glass with an inch of water, like flowers. Loosely cover the leaves with a plastic bag and place it in the fridge, changing the water every couple of days. For basil, do the same but leave it on the counter, since the cold turns the leaves black. Wrap woody herbs like rosemary and thyme in a damp paper towel and store them in a sealed container in the fridge.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=wrapping a gift>>>
+Wrap a gift neatly
+
+Place the box upside down on the paper and cut enough to cover it with about 5 cm overlap. Fold one edge of the paper over by 1 cm to create a crisp seam. Wrap the paper around the box, pulling it snug, and tape the seam. At each end, fold the sides inward to form two flaps, then fold the top flap down and the bottom flap up. Secure with tape. Finish with a ribbon tied in a bow.
+<<<END>>>

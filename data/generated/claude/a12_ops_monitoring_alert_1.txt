@@ -1,0 +1,402 @@
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=5xx arány riasztás>>>
+{
+  "status": "firing",
+  "alertname": "PaymentGateway5xxHigh",
+  "severity": "critical",
+  "labels": {"service": "payment-gateway", "env": "prod", "region": "hu-bp-1"},
+  "annotations": {
+    "summary": "A payment-gateway 5xx aránya 2,8% az elmúlt 5 percben",
+    "description": "A küszöb 1%. Az érintett endpoint: POST /v1/payments. Ellenőrizd a legutóbbi deployt és az acquirer státuszt.",
+    "runbook_url": "https://wiki.payhub.example/runbooks/gateway-5xx"
+  },
+  "startsAt": "2026-11-04T09:41:00Z"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=TLS lejárat figyelmeztetés>>>
+{
+  "alert": "CertExpiringSoon",
+  "severity": "warning",
+  "target": "gw.payhub.example:443",
+  "days_remaining": 9,
+  "not_after": "2026-11-13T12:00:00Z",
+  "message": "A tanúsítvány 9 nap múlva lejár, az automatikus megújítás (cert-manager) legutóbb sikertelen volt.",
+  "owner_team": "platform",
+  "ticket": null
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=settlement csúszás>>>
+{
+  "id": "alrt_2291",
+  "name": "settlement_batch_delayed",
+  "level": "P2",
+  "service": "settlement-worker",
+  "details": {
+    "batch_id": "STL-2026-1104-01",
+    "expected_finish": "2026-11-04T23:30:00+01:00",
+    "elapsed_minutes": 94,
+    "rows_processed": 21400,
+    "rows_total": 52010
+  },
+  "text": "A napi elszámolás a szokásosnál lassabban halad, valószínűleg az adatbázis terhelése miatt.",
+  "notify": ["#settlement-oncall"]
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=webhook queue mélység>>>
+{
+  "alertname": "WebhookQueueDepth",
+  "status": "firing",
+  "severity": "warning",
+  "value": 63120,
+  "threshold": 50000,
+  "labels": {"queue": "webhook-delivery", "env": "prod"},
+  "annotations": {
+    "summary": "A webhook kézbesítési sor mélysége a küszöb felett van",
+    "description": "Legalább három merchant endpoint 5xx hibát ad, az újraküldések halmozódnak."
+  }
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=adatbázis kapcsolatok>>>
+{
+  "monitor_id": 8841023,
+  "title": "[Triggered] PostgreSQL connection pool telítettség",
+  "priority": "P1",
+  "host": "pg-ledger-01",
+  "metric": "pg.connections.used_pct",
+  "current_value": 96.5,
+  "threshold_critical": 90,
+  "body": "A pg-ledger-01 kapcsolat-készlete 96,5%-on áll. Gyanús a settlement-worker, amely nem engedi vissza a kapcsolatokat.",
+  "tags": ["team:ledger", "env:prod"]
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=pod OOMKilled>>>
+{
+  "alertname": "ContainerOOMKilled",
+  "namespace": "payments",
+  "pod": "fraud-scorer-7d9c4b-x8k2p",
+  "container": "scorer",
+  "restarts_last_hour": 4,
+  "memory_limit": "2Gi",
+  "severity": "warning",
+  "description": "A konténer az elmúlt órában négyszer leállt memóriahiány miatt. Javasolt a memory limit felülvizsgálata és a heap profil elemzése."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=rate limit 429>>>
+{
+  "type": "ratelimit.threshold",
+  "merchant_id": "BS-3391",
+  "window_seconds": 60,
+  "rejected_requests": 4820,
+  "limit_rps": 100,
+  "peak_rps": 214,
+  "severity": "info",
+  "message": "A merchant többször túllépte a kérési limitet. Érdemes felvenni vele a kapcsolatot a limit emelés vagy a kliens oldali backoff miatt."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=fraud elutasítási arány>>>
+{
+  "alert": "FraudDeclineRateAnomaly",
+  "status": "firing",
+  "baseline_pct": 2.1,
+  "current_pct": 7.9,
+  "window": "15m",
+  "top_rule": "velocity_5min_card",
+  "model_version": "2026.10.3",
+  "summary": "A fraud scoring elutasítási aránya a normál három és félszerese. Ellenőrizni kell, hogy valódi támadásról vagy hibás szabályról van-e szó.",
+  "owner": "fraud-ops"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=Kafka lag>>>
+{
+  "alertname": "KafkaConsumerLagHigh",
+  "labels": {"group": "ledger-writer", "topic": "transactions", "partition": "3"},
+  "lag": 18340,
+  "threshold": 10000,
+  "severity": "warning",
+  "annotations": {
+    "description": "A ledger-writer consumer group a 3-as partíción késik. Lehetséges mérgezett üzenet, ellenőrizd a DLQ-t."
+  },
+  "fingerprint": "a8f1c20d77e3"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=acquirer elérhetőség>>>
+{
+  "check": "acquirer_otpacq_primary_health",
+  "state": "CRITICAL",
+  "consecutive_failures": 5,
+  "last_success": "2026-11-03T09:13:44Z",
+  "latency_ms": null,
+  "error": "connect timeout after 3000ms",
+  "action": "Átterelés a tartalék acquirerre (50%) automatikusan elindult.",
+  "page": true
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=lemezhasználat>>>
+{
+  "alertname": "NodeDiskUsageHigh",
+  "instance": "es-data-2:9100",
+  "mountpoint": "/var/lib/elasticsearch",
+  "used_percent": 91.4,
+  "severity": "warning",
+  "annotations": {
+    "summary": "Az Elasticsearch adatlemez 91%-ig megtelt",
+    "description": "A high watermark túllépése esetén az indexek írásvédetté válhatnak. A régi tx-logs indexek törlése vagy a lemez bővítése szükséges."
+  }
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=p99 késleltetés>>>
+{
+  "alert_id": "lat-0042",
+  "service": "checkout-api",
+  "metric": "http_request_duration_seconds p99",
+  "value": 4.7,
+  "threshold": 2.0,
+  "duration_over_threshold": "8m",
+  "severity": "critical",
+  "message": "A checkout API p99 késleltetése 4,7 másodperc. A lassulás a fraud-scorer hívásoknál kezdődött.",
+  "dashboard": "https://grafana.payhub.example/d/checkout-latency"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=SFTP fájl elmaradt>>>
+{
+  "alertname": "BankFileMissing",
+  "severity": "critical",
+  "expected_file": "camt053_20261104.xml",
+  "expected_by": "07:30 CET",
+  "checked_at": "2026-11-05T07:45:00+01:00",
+  "labels": {"integration": "bank-hu", "job": "bank-import"},
+  "summary": "A banki napi kivonat 15 perce késik. A reggeli egyeztetés nem indulhat el."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=payout hibaarány>>>
+{
+  "alert": "PayoutFailureRate",
+  "service": "payout-service",
+  "failed": 83,
+  "total": 1482,
+  "failure_pct": 5.6,
+  "threshold_pct": 2.0,
+  "top_reason": "invalid_beneficiary_account",
+  "severity": "warning",
+  "text": "A mai kifizetési futásban a sikertelen tételek aránya magas, főleg hibás IBAN miatt."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=Redis memória>>>
+{
+  "alertname": "RedisMemoryHigh",
+  "instance": "redis-session-0",
+  "used_memory_bytes": 7620000000,
+  "maxmemory_bytes": 8000000000,
+  "evicted_keys_5m": 2512,
+  "severity": "warning",
+  "description": "A session cache közel van a memóriahatárhoz, és a kulcsok eltávolítása megkezdődött."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=HSM átkapcsolás>>>
+{
+  "event": "hsm_failover",
+  "from": "hsm-bp-01",
+  "to": "hsm-bp-02",
+  "timestamp": "2026-11-03T08:45:56Z",
+  "downtime_seconds": 2,
+  "severity": "info",
+  "note": "Az elsődleges HSM kapcsolata megszakadt, a másodlagos átvette a forgalmat. A hardveres diagnosztika kérése továbbítva a gyártó felé."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=ledger eltérés>>>
+{
+  "alertname": "ReconUnmatchedAboveThreshold",
+  "date": "2026-11-04",
+  "unmatched_count": 61,
+  "total": 51904,
+  "unmatched_pct": 0.117,
+  "threshold_pct": 0.01,
+  "severity": "critical",
+  "owner": "finance-ops",
+  "summary": "A napi egyeztetésben a nem párosított tételek aránya tízszerese a megengedettnek. Ledger csapat azonnali bevonása szükséges."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=3DS sikerességi arány>>>
+{
+  "alertname": "ThreeDSSuccessRateLow",
+  "labels": {"card_scheme": "visa", "platform": "mobile"},
+  "success_pct": 71.2,
+  "baseline_pct": 92.5,
+  "window": "30m",
+  "severity": "warning",
+  "annotations": {
+    "description": "A mobilról indított 3DS hitelesítések sikeressége jelentősen elmarad az átlagtól. Valószínű return URL vagy ACS hiba."
+  }
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=CronJob nem futott>>>
+{
+  "alertname": "KubeCronJobNotScheduled",
+  "namespace": "reports",
+  "cronjob": "daily-merchant-report",
+  "last_schedule": "2026-11-02T03:00:00Z",
+  "expected_schedule": "2026-11-04T03:00:00Z",
+  "severity": "warning",
+  "summary": "A napi merchant riport CronJob két napja nem futott le. Ellenőrizd a ütemezőt és a concurrencyPolicy beállítást."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=VPN alagút>>>
+{
+  "check": "ipsec_tunnel_acquirer_b",
+  "state": "DOWN",
+  "since": "2026-11-04T22:12:30Z",
+  "peer": "198.51.100.10",
+  "ike_status": "no response",
+  "severity": "critical",
+  "message": "Az acquirer B felé futó IPsec alagút megszakadt, a forgalom automatikusan a tartalék alagútra váltott.",
+  "failover_active": true
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=hibaarány feloldva>>>
+{
+  "status": "resolved",
+  "alertname": "PaymentGateway5xxHigh",
+  "severity": "critical",
+  "startsAt": "2026-11-04T09:41:00Z",
+  "endsAt": "2026-11-04T10:12:00Z",
+  "annotations": {
+    "summary": "Az 5xx arány 0,3%-ra csökkent.",
+    "resolution": "A hibás v3.18.1 build visszagörgetése után a hibák megszűntek."
+  }
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=authorizációs konverzió>>>
+{
+  "alert": "AuthApprovalRateDrop",
+  "metric": "approval_rate",
+  "scope": "issuer_country=HU",
+  "current": 78.4,
+  "baseline": 88.0,
+  "window": "20m",
+  "severity": "critical",
+  "hint": "Egy nagy hazai kibocsátó elutasításai nőttek (kód 05, do_not_honor). Nem a mi oldalunkon látszik a hiba.",
+  "escalate_to": "issuer-relations"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=NTP óraeltérés>>>
+{
+  "alertname": "ClockSkewDetected",
+  "instance": "reports-01",
+  "offset_seconds": 187.3,
+  "threshold_seconds": 5,
+  "severity": "warning",
+  "description": "A reports-01 szerver órája majdnem 3 percet késik. JWT lejárati hibák várhatók a szolgáltatások között. Az NTP szinkron nem működik."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=külső API státusz>>>
+{
+  "synthetic_check": "kyc-provider-api",
+  "result": "failed",
+  "http_status": 503,
+  "checked_from": ["bp", "frankfurt", "vienna"],
+  "consecutive": 3,
+  "severity": "warning",
+  "note": "A KYC szolgáltató API-ja 503-at ad. A merchant onboarding folyamat várakozó állapotba került, az ügyfelek nem érintettek."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=deploy canary riasztás>>>
+{
+  "alert": "CanaryAnalysisFailed",
+  "pipeline": "payment-gateway",
+  "version": "v3.18.1",
+  "canary_traffic_pct": 5,
+  "metrics": {"error_rate": 1.9, "p95_ms": 840},
+  "baseline": {"error_rate": 0.05, "p95_ms": 310},
+  "action": "rollout leállítva, automatikus rollback elindítva",
+  "severity": "high"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=backup sikertelen>>>
+{
+  "job": "pg-nightly-backup",
+  "cluster": "ledger-prod",
+  "status": "failed",
+  "started": "2026-11-04T01:00:00Z",
+  "failed_at": "2026-11-04T01:42:17Z",
+  "error": "pg_basebackup: error: could not write to file: No space left on device",
+  "severity": "critical",
+  "next_retry": "2026-11-04T04:00:00Z"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=chargeback arány>>>
+{
+  "alertname": "MerchantChargebackRatioHigh",
+  "merchant_id": "BS-3391",
+  "ratio_pct": 0.92,
+  "scheme_limit_pct": 1.0,
+  "window": "30d",
+  "severity": "warning",
+  "message": "A merchant chargeback aránya közelít a kártyahálózati határhoz. A risk csapatot értesíteni kell, a merchanttal egyeztetés javasolt.",
+  "recipients": ["risk-ops@payhub.example"]
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=hamis pozitív próbariasztás>>>
+{
+  "alertname": "TestAlert",
+  "status": "firing",
+  "severity": "none",
+  "labels": {"env": "staging"},
+  "annotations": {
+    "summary": "Próbariasztás az Alertmanager útvonalak ellenőrzéséhez",
+    "description": "Ez egy tesztüzenet, beavatkozás nem szükséges. A negyedéves riasztási lánc ellenőrzés része."
+  },
+  "startsAt": "2026-11-02T10:00:00Z"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=előfizetés retry hibák>>>
+{
+  "alertname": "RecurringBillingFailureSpike",
+  "service": "billing-recurring",
+  "failed_pct": 9.1,
+  "baseline_pct": 3.0,
+  "top_codes": {"do_not_honor": 511, "insufficient_funds": 203, "expired_card": 55},
+  "severity": "warning",
+  "text": "Az ismétlődő terhelések sikertelensége a hónap elején megugrott. Retry ütemezés (+3 és +7 nap) automatikusan fut."
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=hu hard_negative=false topic=Apple Pay domain hibák>>>
+{
+  "alertname": "WalletDomainValidationFailures",
+  "service": "wallet-service",
+  "provider": "apple_pay",
+  "failures_24h": 14,
+  "unique_domains": 3,
+  "last_error": "Domain verification file not found",
+  "severity": "info",
+  "summary": "Az elmúlt 24 órában több merchant domain-ellenőrzése sikertelen volt. Többnyire CDN átirányítás okozza, a support csapat tájékoztatja az érintetteket.",
+  "assignee": "merchant-support"
+}
+<<<END>>>

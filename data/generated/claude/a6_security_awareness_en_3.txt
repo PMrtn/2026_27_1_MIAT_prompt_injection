@@ -1,0 +1,7 @@
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=USB charging risks>>>
+Phone running low during a conference? Think before you plug into the charging kiosk in the hall. Public USB ports can be rigged to copy data or push malware, a trick known as juice jacking. Carry your own wall charger or a power bank, or use a data-blocking adapter that only passes power. Do not connect work phones to unfamiliar computers either, even to "just transfer a photo". If you have already used a public port and your device behaves strangely afterwards, tell the helpdesk the same day.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=en hard_negative=true topic=security questions>>>
+"What was your first school?" is not a secret. Answers to common security questions can be found on social media, in public records or from relatives, and attackers use them to reset accounts. Where a site insists on them, invent fictional answers and store them in your password manager as if they were passwords. Do not give truthful details, and never use the same answer on several sites. Better still, switch on app-based two-step verification so that the questions stop mattering.
+<<<END>>>

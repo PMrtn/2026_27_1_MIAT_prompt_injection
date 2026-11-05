@@ -1,0 +1,221 @@
+<<<ITEM kind=news lang=hu hard_negative=false topic=önkormányzati beruházás>>>
+Új bölcsőde épül Szentendrén
+
+Szentendrén a napokban megkezdődött egy hatcsoportos bölcsőde építése a Pismány városrészben. A 720 millió forintos beruházás kétharmadát uniós támogatás fedezi, a többit a város adja. Az épület a tervek szerint augusztusra készül el, így szeptembertől 72 kisgyermek elhelyezése oldódik meg. A polgármester szerint a várólista évek óta hosszú, ezért a fejlesztés sürgős volt.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=vízilabda mérkőzés>>>
+Pontosztozkodás a vízilabda-bajnokságban
+
+A Szegedi Vízilabda Klub 11-11-es döntetlent játszott a Debrecen ellen vasárnap este. A találkozó utolsó percében egyenlítettek a vendégek, miután a hazaiak végig vezettek. A szegedi kapus, Orbán Dávid tizennégy védést mutatott be. A két csapat pontszáma így azonos a tabellán, a szegediek a hetedik fordulóban a Honvéd otthonában játszanak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=gyorsétterem nyitás>>>
+Ötven új munkatársat keres a Paprika Bisztró-lánc
+
+A budapesti székhelyű Paprika Bisztró két új éttermet nyit decemberben, Győrben és Tatabányán. Pincéreket, szakácsokat és konyhai kisegítőket keresnek, az induló bruttó bér 450 ezer forint körül van. A cég tulajdonosa elmondta, hogy a hazai alapanyagok arányát növelni akarják, és több helyi gazdával kötöttek szerződést. A jelentkezéseket e-mailben várják.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=vadvilág megfigyelés>>>
+Rétisas-fészket találtak a Duna–Dráva Nemzeti Parkban
+
+A nemzeti park munkatársai a Drávamenti ártéri erdőben a hét elején felfedeztek egy új rétisas-fészket, amelyben két fióka nevelkedik. A madarak védett státuszúak, a fészek környékén ezért 300 méteres tilalmi zónát hirdettek. A természetvédők szerint a hazai rétisas-állomány az elmúlt húsz évben jelentősen gyarapodott, ma már mintegy 380 párt számolnak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=bevásárlóközpont karácsony>>>
+Már a karácsonyi díszek is kikerültek a bevásárlóközpontokban
+
+A kereskedelmi szakértők szerint a bolthálózatok az idén is november elején elkezdték az ünnepi szezont. A Kereskedelmi Szövetség felmérése alapján a magyar háztartások átlagosan 112 ezer forintot szánnak ajándékokra. A legnépszerűbb vásárlások a játékok, a ruházat és az élményajándékok. A szövetség arra figyelmeztet, hogy a webáruházaknál a szállítási határidők meghosszabbodhatnak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=egészségügyi szűrés>>>
+Ingyenes bőrgyógyászati szűrést tartanak Debrecenben
+
+A Debreceni Egyetem klinikai központja november 15-én szombaton ingyenes anyajegyszűrést szervez. A vizsgálat előzetes bejelentkezés nélkül, a Nagyerdei körúti épületben, 9 és 14 óra között vehető igénybe. A szakorvosok szerint az idejében felfedezett melanóma gyógyítási aránya 90 százalék fölött van. Az érdeklődőknek ajánlott a korábbi leleteiket is magukkal hozni.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=út lezárás>>>
+Egy hétig zárva lesz a Lánchíd?
+
+Nem, a hírekkel ellentétben a Lánchíd nem lesz lezárva egy hétig. A fővárosi közútkezelő megerősítette, hogy a hídon csak november 22-én éjszaka, este 10 és hajnali 4 óra között lesz forgalomkorlátozás a lámpák cseréje miatt. A tömegközlekedési járatok közül az érintett buszok az Erzsébet hídon át terelve közlekednek. Reggelre minden sáv újra használható lesz.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=gyógyszerész kitüntetés>>>
+Pro Urbe-díjat kapott egy sárvári patikus
+
+A sárvári képviselő-testület idén Pro Urbe díjjal tüntette ki Tóth Margit gyógyszerészt, aki harminc éven át vezette a Kossuth utcai patikát. A díjat az önkormányzat ünnepi ülésén adták át. A méltatás szerint a gyógyszerész a nehéz időkben is mindenkinek segített, még éjjel is kiszolgálta a rászorulókat. Margit asszony a köszöntőben a csapatának mondott köszönetet.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=elektromos busz>>>
+Elektromos buszok állnak forgalomba Győrben
+
+A győri tömegközlekedési vállalat tíz új, elektromos meghajtású csuklós buszt vett át a gyártótól, amelyek januártól a 8-as és a 12-es vonalon közlekednek. A járművek hatótávolsága egy feltöltéssel mintegy 280 kilométer. A vállalat vezetője szerint a dízelbuszok cseréje évente körülbelül 450 tonna szén-dioxid-kibocsátást takarít meg. A buszok két töltőállomást kapnak a telephelyen.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=zeneszerző évforduló>>>
+Száz éve született Nagy Ernő, a kórusművek zeneszerzője
+
+Száz évvel ezelőtt született Nagy Ernő zeneszerző, akinek kórusművei ma is a hazai énekkarok repertoárjának részei. Emlékére a Magyar Rádió Énekkara hétfőn emlékkoncertet ad a Zeneakadémián. Az est műsorán a Kőrösi ének és három kevésbé ismert, kéziratban maradt darab is szerepel. A jegyek már megvásárolhatók a pénztárban, árak 2500 forinttól.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=erdőtűz megelőzés>>>
+Tűzgyújtási tilalmat rendeltek el Bács-Kiskun vármegyében
+
+A vármegye egész területén szombattól visszavonásig tilos szabad területen tüzet gyújtani, mert a talaj és az avar rendkívül száraz. A tilalom a pusztákon, erdőkben és a mezőgazdasági területeken egyaránt érvényes. A szabályszegőkre akár 100 ezer forintos bírság is kiszabható. A katasztrófavédelem szerint az idén már tizenhét kisebb avartűz volt a térségben.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=informatikai konferencia>>>
+Adatvédelmi konferenciát tartanak Budapesten
+
+A Magyar Informatikai Társaság kétnapos konferenciát szervez az adatvédelem és a kiberbiztonság aktuális kérdéseiről december 4-5-én a Corvinus Egyetemen. Az előadók között lesznek hazai és külföldi szakértők, valamint a Nemzeti Adatvédelmi Hatóság képviselője. A részvételi díj 29 900 forint, hallgatóknak 5000 forint. A regisztráció a szervezők honlapján folyamatosan nyitva áll.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=lakótelep felújítás>>>
+Hőszigetelik a Nyíregyházi lakótelep panelházait
+
+A Jósavárosban álló tizenkét panelépület külső hőszigetelését kezdték meg a hét elején. A munkálat összköltsége 1,6 milliárd forint, melyet a társasházak, az önkormányzat és egy állami pályázat közösen áll. A lakók várakozása szerint a fűtésszámlák akár 35-40 százalékkal csökkenhetnek. A kivitelező szerint a munkák tavaszra készülnek el, a legtöbb lakásban a szokásos életvitel közben is dolgozni tudnak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=sí világkupa>>>
+Magyar sportoló a világkupa döntőjében
+
+A hazai gördeszkás Kovács Zsombor bejutott a bécsi gördeszka-világkupa nyolcas döntőjébe. A húszéves versenyző a selejtezőben 78,4 pontot kapott a bírálóktól. A döntőt szombaton rendezik a Prater parkban, magyar idő szerint 18 órakor. A felkészítő edzője elmondta, hogy a sportoló az utóbbi hónapokban kiválóan teljesített, és az éremre is esélyes.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=bank hírek>>>
+Csökkenti a kamatot a Magyar Nemzeti Bank
+
+A jegybank monetáris tanácsa kedden 25 bázisponttal 5,75 százalékra mérsékelte az alapkamatot. A döntést a lassuló infláció és a stabilizálódó forint indokolta. Az elemzők többsége szerint a kamatcsökkentési ciklus a következő hónapokban is folytatódhat, de óvatos ütemben. A forint árfolyama a bejelentés után alig változott, az euróval szemben 392 forint körül alakult.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=falusi bolt>>>
+Újra nyit a falusi bolt Szilvásváradon
+
+Hat hónapos szünet után kinyit a község egyetlen élelmiszerboltja. Az önkormányzat korábban a bezárás miatt vásárlóbuszt indított, de az idősek számára az közel sem volt elég. Az új üzemeltető, a Bükk Kisbolt Kft. hétfőtől hétköznap 6-18, szombaton 6-12 óra között tart nyitva. A boltban helyi sajtokat, mézet és friss kenyeret is lehet kapni.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=tengeri turizmus Horvátország>>>
+Horvátországi nyaralásra foglalnak a magyarok
+
+Az utazási irodák adatai szerint a magyarok körében továbbra is a horvát tengerpart a legkedveltebb nyári úti cél, a 2027-es nyaralásra már most 22 százalékkal több foglalás érkezett, mint tavaly ilyenkor. A korai foglalók akár 15 százalék engedményt kapnak. Az utazási szakértők szerint az árak mérsékelten emelkednek, de az üzemanyagár alakulása még módosíthatja a költségeket.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=állatvédelem>>>
+Elveszett kutyát találtak a Kékesen
+
+A Mátrai Természetvédelmi Őrszolgálat egyik járőre a hétvégén egy eltévedt, kimerült állatot talált a Kékestető közelében. A kutya chippje alapján a gazdája, egy gyöngyösi család perceken belül kiderült. A gazdák elmondták, hogy a túrán kiszabadult a pórázból. A természetvédők kérik a kirándulókat, hogy az állatokat mindig tartsák pórázon, mert a vadállomány miatt veszély is fenyegeti őket.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=nyugdíjemelés>>>
+Nyugdíjkorrekció: kisebb összeg érkezik decemberben
+
+A nyugdíjfolyósító közölte, hogy a nyugdíjkorrekciós összeget a decemberi nyugdíjjal együtt utalják. A korrekció mértéke a számítások szerint 1,1 százalék, mert az infláció kismértékben meghaladta a prognosztizált értéket. Az érintett nyugdíjasoknak külön igénylést nem kell benyújtaniuk. A folyósítás a megszokott napokon, a hónap harmadik és tizedik napja között történik.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=film bemutató>>>
+Magyar film nyerte a lengyel fesztivált
+
+A Gdyniai Filmfesztivál nagydíját idén a magyar Kerek erdő című dráma kapta, rendezője Varga Judit. A film egy kisváros tanárának élettörténetét meséli el. A zsűri különösen a színészi alakításokat és a kamerakezelést méltatta. A magyar mozikban a film a jövő hónaptól látható, a hazai bemutatót a Corvin moziban tartják, a rendezővel rendezett közönségtalálkozóval.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=önkéntes véradás>>>
+Véradónapot rendeznek Tatabányán
+
+Az Országos Vérellátó Szolgálat szerdán 8 és 17 óra között véradást szervez a tatabányai Jászai Mari Színházban. A szervezők minden véradót ebédjeggyel és meleg itallal köszönnek meg. Mivel az őszi időszakban a baleseti és műtéti kapacitás megnő, különösen az 0 negatív vércsoportra van szükség. Véradásra 18 és 65 év közötti, legalább 50 kilogrammos egészséges felnőttek jöhetnek.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=mezőgazdasági export>>>
+Nő a magyar almaexport
+
+Idén mintegy 12 százalékkal több magyar alma került külföldi piacokra, mint tavaly, derül ki az Agrárgazdasági Kutatóintézet jelentéséből. A legfőbb vevő Németország és Románia. A szabolcsi gazdák szerint a jó minőség és a szerencsés időjárás járult hozzá az eredményhez, bár a szállítási költségek emelkedtek. A felvásárlási ár kilónként 110-130 forint körül alakult.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=könyvvásár>>>
+Megnyílt az őszi Budapesti Könyvfesztivál
+
+A Millenáris Parkban csütörtökön megnyílt a négynapos könyvfesztivál, amelyen 120 kiadó mutatkozik be. A látogatók író-olvasó találkozókon, könyvbemutatókon és gyermekprogramokon vehetnek részt. A nyitóbeszédet Ottlik Géza életművéről tartotta egy irodalomtörténész. A napijegy 2200 forint, a négynapos bérlet 5900 forint. A szervezők a második napra szombati rekordforgalmat várnak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=ápolók képzése>>>
+Újra indul az ápolóképzés Kaposváron
+
+A Kaposvári Egyetem Egészségtudományi Karán szeptemberben újraindul a nappali ápolói szak, amelyre ötven hallgatót vesznek fel. A kar vezetője elmondta, hogy a vármegyében hosszú ideje nagy a szakemberhiány a kórházakban. A hallgatók gyakorlati képzését a megyei kórházban végzik, ösztöndíjat is kaphatnak, ha vállalják, hogy a végzés után legalább három évig a régióban dolgoznak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=forgalmi rend változás>>>
+Egyirányú lesz a Fő utca Pápán
+
+A pápai önkormányzat döntése értelmében december elejétől a belváros Fő utcája egyirányúvá válik, a forgalom csak a Kossuth utca felé haladhat. A változás célja, hogy a gyalogosoknak több hely jusson, és a kávéházak teraszait is ki lehessen bővíteni. A lakók bejutását külön engedély szabályozza. A rendelet a tavaszi próbaidőszak után felülvizsgálható.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=sportoló díjátadó>>>
+Az év sportolója: Gulyás Eszter
+
+A Magyar Sportújságírók Szövetsége idén Gulyás Eszter tőrvívót választotta az év női sportolójának. A tőrvívó a tavaszi világbajnokságon aranyérmet nyert, az őszi világkupa-sorozaton pedig összetettben a második lett. A díjat az olimpiai bajnok Szabó Anna adta át egy budapesti gálaesten. A férfi kategóriában a kajakozó Várkonyi Dávid győzött.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=drón mezőgazdaság>>>
+Drónokkal vizsgálják a szőlőültetvényeket Tokajban
+
+A Tokaj-Hegyaljai Borvidéken két pincészet kísérleti jelleggel drónokat vet be a szőlőbetegségek korai felismerésére. A kamerák hőképeket és színképeket rögzítenek, amelyekből a szoftver jelzi a gyanús tőkéket. A gazdák szerint így akár 30 százalékkal csökkenthető a permetezőszer-használat. A program tapasztalatairól jövő tavasszal rendeznek szakmai napot.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=utasbiztosítás>>>
+Mire figyeljünk a téli sízés előtt?
+
+Az utazási biztosítók szerint a síbalesetek miatti kárigények ősz végére rendszerint megsokszorozódnak. A szakemberek azt javasolják, hogy az utazók ellenőrizzék, hogy a biztosítás kiterjed-e a téli sportokra, a hegyi mentésre és a hazaszállításra. A biztosítások díja egy hétre 4000 forinttól kezdődik. A szlovák és osztrák síparadicsomokban az európai egészségbiztosítási kártya a teljes ellátás költségét nem fedezi.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=gyárlátogatás>>>
+Nyílt nap a szentgotthárdi autógyárban
+
+Szombaton a szentgotthárdi motorgyár kapuit megnyitotta a nagyközönség előtt. Mintegy ötezer látogató tekintette meg a gyártósort, a kiállított motorokat és a robotkarokat. A gyerekek kipróbálhattak egy szimulátort, a felnőttek pedig állásinterjúkon vehettek részt. A gyár igazgatója szerint a rendezvény célja az volt, hogy a környékbeli fiatalok megismerjék a szakmát.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=hó- és jégvédelem>>>
+Megkezdődött a téli útüzemeltetés
+
+A Magyar Közút országszerte 1800 munkagépet és mintegy 250 ezer tonna sót készített elő az időszakra. A hóeltakarítási rend szerint a gyorsforgalmi utakon a lehető leghamarabb, a mellékutakon a forgalom függvényében kezdik a munkát. A közútkezelő arra kéri a vezetőket, hogy a hótakarító gépek mögött ne előzzenek, és csak téli gumival induljanak útnak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=múzeumok éjszakája>>>
+Több ezren vettek részt a múzeumi éjszakán
+
+Szombaton éjjel a magyar múzeumok közül negyvenhét hosszabb nyitvatartással várta a látogatókat. A legnagyobb tömeg a Néprajzi Múzeum előtt várakozott, ahol éjjel tizenkét óráig tartott a vezetett séta. Összesen mintegy 38 ezren látogatták a programokat. A szervezők szerint a gyerekeknek és a fiataloknak szóló interaktív foglalkozások voltak a legkedveltebbek.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=sertéspiac>>>
+Stabil a sertéshús ára a hazai piacon
+
+Az Agrárpiaci Információs Szolgálat szerint a sertés felvásárlási ára az elmúlt hónapban alig változott, kilónként átlagosan 710 forint volt. A termelők az emelkedő takarmányárak miatt azonban továbbra is nyomás alatt vannak. A szakemberek úgy látják, hogy a karácsonyi időszakban a kereslet élénkülhet, és ez rövid távon felfelé terelheti az árakat.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=parkfelújítás>>>
+Megújult a Szent István park Miskolcon
+
+Az ötszáz fa, új sétautak és egy játszótér is helyet kapott a belváros felújított parkjában. A megújítás 280 millió forintba került. A munkák során kicserélték a világítást, és öntözőrendszert építettek. A polgármester az átadón elmondta, hogy a parkban az év során több szabadtéri programot is tartanak. A park a hét minden napján, hajnali hat és éjjel tizenegy óra között látogatható.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=mentőhelikopter>>>
+Elindult az új mentőhelikopter Szegeden
+
+Az Országos Mentőszolgálat új, korszerű mentőhelikoptere hétfőtől áll szolgálatba Szegeden. A gép éjszaka is repülhet, és a környék kórházait tizenöt perc alatt elérheti. A helikopterben orvos, mentőápoló és pilóta teljesít szolgálatot. A szolgálat szerint a bázis az Alföld déli részén eddig hiányzó ellátást pótolja, évente mintegy 600 riasztásra számítanak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=középkori ásatás>>>
+Középkori temetőt tártak fel Esztergomban
+
+A Balassa Bálint Múzeum régészei az esztergomi vár alatti területen a 12. századra datált temetőrészletet találtak. Eddig negyvenkét sír került elő, bennük ékszerek és kerámiák. A leletek tisztítását és elemzését a múzeum laboratóriumában végzik. A kutatásvezető, dr. Pap Éva szerint az eredmények új adatokat adhatnak az első esztergomi lakosságról, a feltárás tavasszal folytatódik.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=térfigyelő kamerák>>>
+Új térfigyelő kamerák Szolnok belvárosában
+
+A szolnoki önkormányzat huszonnégy új térfigyelő kamerát telepített a belvárosba, a Kossuth tér és a vasútállomás környékére. A rendszer 55 millió forintba került, az adatokat a rendőrség és a polgárőrség is megtekintheti. A polgármester szerint a kamerák segíthetnek a közbiztonság javításában. A kezelés során betartják az adatvédelmi előírásokat, a felvételeket harminc nap után törlik.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=tanyasi vendéglátás>>>
+Csárdák és tanyák kaptak minősítést a Hortobágyon
+
+A Hortobágyi Turisztikai Egyesület hét helyi vendéglátóhelynek adta át a hagyományőrző minősítést. A díjazott csárdák többek között birkapörköltet és túrós csuszát kínálnak helyi alapanyagokból. Az egyesület elnöke elmondta, hogy a cím segít a vendégeknek eligazodni a kínálatban. A minősítés két évig érvényes, ezután ellenőrzik, megfelelnek-e még a feltételeknek.
+<<<END>>>

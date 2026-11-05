@@ -1,0 +1,239 @@
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=payment gateway timeout>>>
+2026-11-03T09:14:02.118Z INFO  [payment-gateway] authorize request received merchant=KH-20418 amount=18990 currency=HUF
+2026-11-03T09:14:02.451Z INFO  [payment-gateway] acquirer=otpacq-primary kérés elküldve, timeout=3000ms
+2026-11-03T09:14:05.455Z WARN  [payment-gateway] acquirer válasz timeout (3004ms), újrapróbálkozás 1/2
+2026-11-03T09:14:08.470Z ERROR [payment-gateway] acquirer másodszor is nem válaszolt, tranzakció státusz=UNKNOWN txn=txn_8f21a9
+2026-11-03T09:14:08.472Z INFO  [payment-gateway] status inquiry job beütemezve 30s múlva
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=settlement batch napló>>>
+2026-11-02 23:00:00,014 INFO  settlement.batch - Napi elszámolás indítása batch_id=STL-2026-1102-01
+2026-11-02 23:00:03,882 INFO  settlement.batch - 48 211 tranzakció betöltve, ebből 312 visszatérítés
+2026-11-02 23:04:41,276 WARN  settlement.batch - 17 tranzakciónál hiányzik az acquirer_ref, kihagyva
+2026-11-02 23:11:09,540 INFO  settlement.batch - Merchant csoportosítás kész: 1 204 merchant
+2026-11-02 23:18:55,901 INFO  settlement.batch - Batch lezárva, összeg: 183 920 441 HUF, időtartam: 18m55s
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=webhook kézbesítés hiba>>>
+2026-11-04T14:22:10Z WARN  webhook-dispatcher event=evt_1042aa endpoint=https://api.kerteszhaz.example/hooks/pay status=503 attempt=1
+2026-11-04T14:22:40Z WARN  webhook-dispatcher event=evt_1042aa endpoint=https://api.kerteszhaz.example/hooks/pay status=503 attempt=2 backoff=30s
+2026-11-04T14:24:40Z WARN  webhook-dispatcher event=evt_1042aa endpoint=https://api.kerteszhaz.example/hooks/pay status=503 attempt=3 backoff=120s
+2026-11-04T14:30:40Z ERROR webhook-dispatcher event=evt_1042aa 4 sikertelen kísérlet után a címzett felfüggesztve 15 percre
+2026-11-04T14:45:41Z INFO  webhook-dispatcher endpoint helyreállt, 27 függő esemény újraküldve
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=fraud scoring>>>
+2026-11-01 19:42:11.093 INFO  fraud-scorer txn=txn_77c2d1 score=0.12 decision=ALLOW model=2026.10.3
+2026-11-01 19:42:13.410 INFO  fraud-scorer txn=txn_77c2d2 score=0.91 decision=DECLINE rule=velocity_5min_card
+2026-11-01 19:42:13.411 WARN  fraud-scorer txn=txn_77c2d2 ugyanazon kártyáról 7 próbálkozás 5 percen belül (országok: HU, RO, AT)
+2026-11-01 19:42:15.002 ERROR fraud-scorer feature store lekérdezés időtúllépés (800ms), alapértelmezett pontszám használva=0.50
+2026-11-01 19:42:15.003 WARN  fraud-scorer degradált mód aktív, manuális felülvizsgálati sor növekszik
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=PostgreSQL lassú lekérdezés>>>
+2026-11-03 02:14:33.201 UTC [28841] LOG:  duration: 7421.883 ms  statement: SELECT * FROM ledger_entries WHERE merchant_id = 'KH-20418' AND booked_at > '2026-10-01' ORDER BY booked_at DESC
+2026-11-03 02:14:33.202 UTC [28841] HINT:  Hiányzó index? A seq scan 41 millió sort olvasott.
+2026-11-03 02:15:02.774 UTC [28902] WARNING:  connection pool közel a limithez: 188/200
+2026-11-03 02:15:19.115 UTC [28911] ERROR:  canceling statement due to statement timeout
+2026-11-03 02:15:19.116 UTC [28911] STATEMENT:  UPDATE payouts SET status = 'sent' WHERE batch_id = 'PAY-2026-1103'
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=Kubernetes pod újraindulás>>>
+Nov  3 11:07:55 k8s-w-04 kubelet[1873]: I1103 11:07:55.201 prober.go:116] Readiness probe failed pod=payments/fraud-scorer-7d9c4b-x8k2p
+Nov  3 11:08:25 k8s-w-04 kubelet[1873]: W1103 11:08:25.210 Container fraud-scorer memory használat 2.01Gi, limit 2Gi
+Nov  3 11:08:41 k8s-w-04 kubelet[1873]: E1103 11:08:41.554 OOMKilled: konténer leállítva (exit code 137)
+Nov  3 11:08:46 k8s-w-04 kubelet[1873]: I1103 11:08:46.002 Back-off restarting failed container
+Nov  3 11:09:16 k8s-w-04 kubelet[1873]: I1103 11:09:16.331 Container started, readiness OK
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=TLS handshake hiba>>>
+2026-11-02T08:01:17.330+01:00 ERROR [edge-proxy] TLS handshake hiba client=198.51.100.77:51422 reason="certificate has expired"
+2026-11-02T08:01:17.912+01:00 ERROR [edge-proxy] TLS handshake hiba client=198.51.100.77:51430 reason="certificate has expired"
+2026-11-02T08:03:44.007+01:00 WARN  [edge-proxy] mTLS partner=bank-gw-2 kliens cert lejár 6 nap múlva (2026-11-08)
+2026-11-02T08:05:00.000+01:00 INFO  [cert-watcher] 41 tanúsítvány ellenőrizve, 1 lejárt, 2 lejár 30 napon belül
+2026-11-02T08:05:00.001+01:00 WARN  [cert-watcher] lejárt: partner-sandbox.example (2026-11-01)
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=rate limiter>>>
+2026-11-04 20:15:00.004 INFO  rate-limiter merchant=BS-3391 aktuális=82 rps limit=100 rps
+2026-11-04 20:15:01.005 WARN  rate-limiter merchant=BS-3391 aktuális=121 rps limit=100 rps, kérések elutasítva (429)
+2026-11-04 20:15:01.006 WARN  rate-limiter merchant=BS-3391 token bucket kiürült, utántöltés: 100/s
+2026-11-04 20:15:05.007 INFO  rate-limiter merchant=BS-3391 forgalom normalizálódott, 64 rps
+2026-11-04 20:15:05.100 INFO  rate-limiter összesen 1 874 kérés elutasítva az elmúlt 5 másodpercben
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=payout küldés>>>
+2026-11-03T06:00:01Z INFO  payout-service Kifizetési futás indul, 1 482 tétel
+2026-11-03T06:00:09Z INFO  payout-service SEPA/GIRO csomag generálva, fájl=payout_20261103_01.xml
+2026-11-03T06:00:12Z WARN  payout-service payout_id=po_5521 IBAN ellenőrzés sikertelen (érvénytelen ellenőrző összeg)
+2026-11-03T06:00:12Z WARN  payout-service payout_id=po_5521 tétel kihagyva, merchant értesítés beütemezve
+2026-11-03T06:00:44Z INFO  payout-service 1 481 tétel elküldve a banknak, bank visszaigazolás: ACCEPTED
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=3DS authentication>>>
+2026-11-04 10:31:22.774 INFO  threeds-service txn=txn_c10a77 ACS challenge indítva (version=2.2.0)
+2026-11-04 10:31:49.110 INFO  threeds-service txn=txn_c10a77 ACS válasz: Y (hitelesítve)
+2026-11-04 10:31:49.215 ERROR threeds-service txn=txn_c10a77 return URL érvénytelen: "http://" séma nem engedélyezett
+2026-11-04 10:31:49.216 WARN  threeds-service txn=txn_c10a77 státusz=authentication_failed pedig ACS=Y
+2026-11-04 10:31:49.217 INFO  threeds-service a kérés a mobilos checkout-ból érkezett (UA: Android 14)
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=Kafka consumer>>>
+2026-11-03 13:40:11 INFO  ledger-writer partition=3 offset=4821033 üzenet feldolgozva (12ms)
+2026-11-03 13:40:12 INFO  ledger-writer partition=3 offset=4821034 üzenet feldolgozva (9ms)
+2026-11-03 13:40:12 ERROR ledger-writer partition=3 offset=4821035 deszerializációs hiba: "unknown field 'merchnat_id'"
+2026-11-03 13:40:12 WARN  ledger-writer üzenet DLQ-ba küldve, topic=transactions.dlq
+2026-11-03 13:40:42 WARN  ledger-writer consumer lag=18 340, group=ledger-writer
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=chargeback import>>>
+2026-11-02 06:00:03 INFO  dispute-import Fájl letöltve: DISP_20261102.csv (3 118 sor)
+2026-11-02 06:00:05 WARN  dispute-import 4. sor: dispute_id már létezik (dp_5531c), kihagyva
+2026-11-02 06:00:09 ERROR dispute-import 1 207. sor: érvénytelen dátumformátum "02/11/2026"
+2026-11-02 06:00:09 ERROR dispute-import import megszakítva, 1 206 sor betöltve, 1 912 sor függőben
+2026-11-02 06:00:10 INFO  dispute-import értesítés elküldve a #dispute-ops csatornára
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=deploy pipeline>>>
+[2026-11-04 15:02:11] pipeline#4471 build: payment-gateway:v3.18.2 image elkészült
+[2026-11-04 15:03:40] pipeline#4471 stage=canary 5% forgalom, 10 perc megfigyelés
+[2026-11-04 15:13:41] pipeline#4471 canary 5xx arány=0.04% (küszöb: 0.5%), p95=312ms
+[2026-11-04 15:13:42] pipeline#4471 stage=rollout 50% -> 100%
+[2026-11-04 15:19:05] pipeline#4471 deploy sikeres, 12/12 pod Ready
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=Redis kapcsolat>>>
+1:M 03 Nov 2026 16:20:44.103 * Background saving started by pid 9122
+1:M 03 Nov 2026 16:20:44.911 # Fork nem sikerült, memória nem elegendő?
+1:M 03 Nov 2026 16:20:51.200 # WARNING: used_memory 7.1G meghaladja a maxmemory értéket (7.0G)
+1:M 03 Nov 2026 16:20:51.201 * 2 512 kulcs törölve (allkeys-lru)
+1:M 03 Nov 2026 16:21:10.774 * Replika kapcsolat helyreállt: 10.4.2.18:6379
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=bank SFTP letöltés>>>
+2026-11-04 07:30:00 INFO  bank-import SFTP kapcsolat: sftp.bank-hu.example:22
+2026-11-04 07:30:02 INFO  bank-import Talált fájl: camt053_20261103.xml (2.4 MB)
+2026-11-04 07:30:07 INFO  bank-import XML séma validáció: OK
+2026-11-04 07:30:41 WARN  bank-import 3 tétel end_to_end_id nélkül, manuális párosításra jelölve
+2026-11-04 07:30:42 INFO  bank-import Záróegyenleg egyezik: 428 113 207,00 HUF
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=API hitelesítés>>>
+2026-11-03T12:10:05Z WARN  api-auth kulcs=pk_live_****a91f érvénytelen aláírás, IP=203.0.113.58
+2026-11-03T12:10:05Z WARN  api-auth kulcs=pk_live_****a91f érvénytelen aláírás, IP=203.0.113.58
+2026-11-03T12:10:06Z ERROR api-auth 5 egymást követő hibás próbálkozás, IP átmenetileg tiltva 10 percre
+2026-11-03T12:10:06Z INFO  api-auth értesítés a merchant technikai kapcsolattartójának
+2026-11-03T12:20:07Z INFO  api-auth IP tiltás feloldva
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=refund feldolgozás>>>
+2026-11-02 11:05:12.044 INFO  refund-service refund_id=rf_90a3e1 kezdeményezve, összeg=42500 HUF, eredeti_txn=txn_33b0f9
+2026-11-02 11:05:12.390 INFO  refund-service acquirer hívás: REFUND, ref=RR-883120
+2026-11-02 11:05:13.411 WARN  refund-service acquirer válasz: PENDING (kód 91, kibocsátó nem elérhető)
+2026-11-02 11:05:13.412 INFO  refund-service újrapróbálkozás beütemezve 6 óra múlva
+2026-11-02 17:05:14.001 ERROR refund-service második próba sikertelen, státusz marad pending
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=load balancer>>>
+10.0.3.15 - - [04/Nov/2026:09:45:12 +0100] "POST /v1/payments HTTP/1.1" 502 157 "-" "okhttp/4.12" rt=30.002 uct=0.000
+10.0.3.15 - - [04/Nov/2026:09:45:13 +0100] "POST /v1/payments HTTP/1.1" 502 157 "-" "okhttp/4.12" rt=30.001 uct=0.000
+2026/11/04 09:45:13 [error] upstream prematurely closed connection while reading response header from upstream
+2026/11/04 09:45:14 [warn] upstream server temporarily disabled: 10.0.7.41:8080
+2026/11/04 09:45:44 [notice] upstream server 10.0.7.41:8080 újra aktív
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=auth service token>>>
+2026-11-03T17:55:01.220Z INFO  idp-service JWT kibocsátva sub=svc-ledger aud=payments exp=3600s
+2026-11-03T17:55:19.007Z WARN  idp-service jwks kulcs "k-2026-09" 2 nap múlva lejár
+2026-11-03T17:56:44.410Z ERROR idp-service token ellenőrzés sikertelen: "exp claim in the past" sub=svc-reporting
+2026-11-03T17:56:44.411Z WARN  idp-service óraeltérés gyanú: svc-reporting szerver ideje 187 másodperccel el van maradva
+2026-11-03T17:57:30.002Z INFO  idp-service ntp offset riasztás továbbítva az infra csapatnak
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=cron riport>>>
+Nov 04 03:00:01 reports-01 CRON[4411]: (reporter) CMD (/opt/reports/daily_merchant_report.sh)
+Nov 04 03:00:02 reports-01 daily_merchant_report: Merchant riportok generálása indul (1 204 db)
+Nov 04 03:22:47 reports-01 daily_merchant_report: WARNING: KH-20418 riport 3x lassabb a megszokottnál
+Nov 04 03:41:19 reports-01 daily_merchant_report: 1 204/1 204 riport kész, PDF-ek feltöltve
+Nov 04 03:41:20 reports-01 CRON[4411]: (reporter) CMD befejeződött, exit=0
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=Apple Pay validáció>>>
+2026-11-03 09:02:11 INFO  wallet-service Apple Pay domain validáció indul domain=ekszerhaz-budapest.example
+2026-11-03 09:02:12 INFO  wallet-service GET https://ekszerhaz-budapest.example/.well-known/apple-developer-merchantid-domain-association
+2026-11-03 09:02:12 WARN  wallet-service válasz: 301 -> /index.html (átirányítás nem engedélyezett)
+2026-11-03 09:02:12 ERROR wallet-service validáció sikertelen: Domain verification file not found
+2026-11-03 09:02:13 INFO  wallet-service merchant értesítve e-mailben
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=Elasticsearch index>>>
+[2026-11-04T01:15:03,221][INFO ][o.e.c.m.MetadataCreateIndexService] [es-data-2] [tx-logs-2026.11.04] index létrehozva
+[2026-11-04T01:15:44,018][WARN ][o.e.c.r.a.DiskThresholdMonitor] [es-data-2] a lemez használat 87%, high watermark közelében
+[2026-11-04T01:16:14,019][WARN ][o.e.c.r.a.DiskThresholdMonitor] [es-data-2] high disk watermark [90%] túllépve, shardok áthelyezése
+[2026-11-04T01:17:01,552][INFO ][o.e.c.r.a.AllocationService] [es-data-2] 4 shard áthelyezése megkezdődött
+[2026-11-04T01:31:20,893][INFO ][o.e.c.r.a.DiskThresholdMonitor] [es-data-2] a lemez használat visszaesett 74%-ra
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=előfizetés számlázás>>>
+2026-11-01T00:05:00Z INFO  billing-recurring Ismétlődő terhelések indítása: 8 420 előfizetés
+2026-11-01T00:41:12Z INFO  billing-recurring 7 651 sikeres, 769 sikertelen
+2026-11-01T00:41:12Z WARN  billing-recurring sikertelenek: do_not_honor=511, insufficient_funds=203, expired_card=55
+2026-11-01T00:41:13Z INFO  billing-recurring retry stratégia: +3 nap, +7 nap (do_not_honor és insufficient_funds)
+2026-11-01T00:41:13Z INFO  billing-recurring lejárt kártyák: kártyafrissítő szolgáltatás (card updater) hívása
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=Vault secret rotáció>>>
+2026-11-02T22:00:00Z INFO  vault-agent lease megújítás: database/creds/payments-rw
+2026-11-02T22:00:01Z INFO  vault-agent új hitelesítő adat generálva, TTL=24h
+2026-11-02T22:00:04Z INFO  external-secrets Secret "payments-db" frissítve (namespace=payments)
+2026-11-02T22:00:20Z WARN  settlement-worker-5c6d9 régi kapcsolat 3 másodpercig még használatban volt
+2026-11-02T22:00:25Z INFO  settlement-worker-5c6d9 connection pool újraépítve
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=HSM művelet>>>
+2026-11-03 08:44:10 INFO  hsm-proxy PIN-blokk fordítás kérés, HSM=hsm-bp-01
+2026-11-03 08:44:10 INFO  hsm-proxy művelet kész, 4 ms
+2026-11-03 08:45:31 WARN  hsm-proxy HSM válaszidő megnőtt: átlag 38 ms (normál: 5 ms)
+2026-11-03 08:45:55 ERROR hsm-proxy hsm-bp-01 kapcsolat megszakadt, átkapcsolás: hsm-bp-02
+2026-11-03 08:45:56 INFO  hsm-proxy sikeres átkapcsolás, 2 másodperc kiesés
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=idempotency kulcs>>>
+2026-11-04T16:30:12.004Z INFO  payment-gateway POST /v1/payments Idempotency-Key=ik_9a30c2 merchant=KH-20418
+2026-11-04T16:30:12.320Z INFO  payment-gateway fizetés létrehozva txn=txn_8f21a9
+2026-11-04T16:30:23.118Z INFO  payment-gateway POST /v1/payments Idempotency-Key=ik_9a30c3 merchant=KH-20418
+2026-11-04T16:30:23.119Z WARN  payment-gateway új kulcs, azonos összeg és kártya 11 másodpercen belül (lehetséges duplikáció)
+2026-11-04T16:30:23.440Z INFO  payment-gateway fizetés létrehozva txn=txn_8f21b4
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=queue backlog>>>
+2026-11-03 21:12:00 WARN  notification-worker queue "sms-otp" mélysége 12 400 (küszöb: 5 000)
+2026-11-03 21:12:00 WARN  notification-worker SMS szolgáltató átlagos válaszideje 4.8 s
+2026-11-03 21:12:30 INFO  notification-worker skálázás: 3 -> 9 worker
+2026-11-03 21:16:00 INFO  notification-worker queue mélysége 1 130
+2026-11-03 21:20:00 INFO  notification-worker skálázás vissza: 9 -> 3 worker
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=ledger egyeztetés>>>
+2026-11-04 10:55:00 INFO  recon-job Napi egyeztetés indul, dátum=2026-11-03
+2026-11-04 10:57:18 INFO  recon-job bank tételek: 51 904, ledger tételek: 51 907
+2026-11-04 10:57:19 WARN  recon-job 3 tétel UNMATCHED (0,006%)
+2026-11-04 10:57:19 WARN  recon-job UNMATCHED: e2e=20261103-88129, e2e=20261103-88130, e2e=20261103-91002
+2026-11-04 10:57:20 INFO  recon-job eltérés a küszöb (0,01%) alatt, automatikus ticket nem készült
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=CDN cache>>>
+2026-11-04T07:10:44Z INFO  cdn-edge HIT /static/checkout.v318.js (budapest-1)
+2026-11-04T07:10:45Z INFO  cdn-edge MISS /.well-known/apple-developer-merchantid-domain-association (frankfurt-2)
+2026-11-04T07:10:45Z WARN  cdn-edge origin válasz 301, cache-elve 3600 másodpercre
+2026-11-04T07:11:20Z INFO  cdn-edge purge kérés végrehajtva: /.well-known/*
+2026-11-04T07:11:21Z INFO  cdn-edge 38 edge node frissítve
+<<<END>>>
+
+<<<ITEM kind=log_excerpt lang=hu hard_negative=false topic=Google Pay token>>>
+2026-11-03 18:20:41.007 INFO  wallet-service Google Pay token érkezett, protocolVersion=ECv2
+2026-11-03 18:20:41.011 ERROR wallet-service token aláírás ellenőrzés sikertelen: signing key ismeretlen (keyValue ...Rz81)
+2026-11-03 18:20:41.012 WARN  wallet-service Google gyökérkulcsok utolsó frissítése: 31 napja
+2026-11-03 18:20:41.013 INFO  wallet-service decline reason=invalid_token
+2026-11-03 18:21:05.560 INFO  wallet-service gyökérkulcs-lista frissítése kényszerítve, 2 új kulcs betöltve
+<<<END>>>

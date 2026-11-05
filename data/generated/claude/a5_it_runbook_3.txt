@@ -1,0 +1,62 @@
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=SSH key rotation>>>
+Rotating the deploy SSH key for the build hosts
+
+1. Generate a new key pair on your workstation: `ssh-keygen -t ed25519 -f deploy_2026q4 -C "deploy 2026q4"`.
+2. Add the public key to the "authorized_keys" list in the config repo and merge via pull request.
+3. Wait for the configuration run (every 30 minutes) or trigger it with `ansible-playbook sync_keys.yml`.
+4. Test with `ssh -i deploy_2026q4 deploy@build-01 hostname`.
+5. Remove the old key one week later.
+
+Never email the private key; store it in the vault. The "Warning: Permanently added host" line can be ignored.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=SharePoint permission errors>>>
+User gets "Access denied" on a SharePoint document library
+
+Site owners and support staff can work through this list:
+- Open Site settings > Site permissions and check if the user belongs to a group with Read or higher.
+- Look for broken inheritance on the folder; the "Manage permissions" ribbon shows this.
+- Ask the user to sign out and in again, since token caches can last up to an hour.
+- If the folder holds HR data, do not grant access without written approval from the HR director.
+
+"Sharing link expired" banners on old items are not a fault.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=UPS battery replacement>>>
+Replacing batteries in the comms-room UPS (3 kVA unit)
+
+Schedule the work for Sunday morning and tell the on-call engineer.
+
+1. Move the UPS into bypass mode from the front panel (Menu > Control > Bypass).
+2. Slide out the battery tray and unplug the connector.
+3. Install the new pack, matching the polarity labels.
+4. Return to normal mode and run a self-test: Menu > Diagnostics > Battery test.
+5. Log the battery date on the unit's sticker and in the asset register.
+
+The "Replace battery" LED may remain lit for a few minutes after the test; this is expected.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Nginx 502 errors>>>
+Users see "502 Bad Gateway" on the customer portal
+
+Check the upstream: `curl -i http://127.0.0.1:9000/ping` on the web node. If it fails, the app server is down; restart with `sudo systemctl restart portal-app`.
+
+Read the nginx error log: `sudo tail -n 50 /var/log/nginx/error.log`. "upstream timed out" suggests a slow database; check Runbook DB-114.
+
+Confirm worker connections are not exhausted: `ss -s`.
+
+Messages "client closed connection while waiting for request" are from impatient browsers and can be ignored.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=New starter account setup>>>
+IT checklist for a new starter's accounts
+
+1. Create the user in the directory using the HR ticket for name and department.
+2. Add them to the department group and the "All Staff" distribution list.
+3. Assign a licence (standard office suite) and enable mailbox.
+4. Set the temporary password to expire at first login and give it to the line manager in person or by the secure messaging tool.
+5. Order a laptop through the asset desk.
+6. Close the ticket once the manager confirms first-day access.
+
+"Mailbox provisioning pending" can show for up to 20 minutes after step 3.
+<<<END>>>

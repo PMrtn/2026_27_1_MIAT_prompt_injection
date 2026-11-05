@@ -1,0 +1,304 @@
+<<<ITEM kind=document lang=hu hard_negative=false topic=onboarding feljegyzés>>>
+Új belépők betanítási terve
+
+Az új munkatársak első napján a HR bemutatja a cég szabályzatait, majd a közvetlen vezető végigvezeti az irodát. A második naptól mentor segíti őket, a mentorokat Pap Zsuzsa jelöli ki. Az első héten a rendszerhozzáférések beállítása és az alapképzés zajlik.
+
+Az első 30 napról a vezetőnek rövid értékelést kell leadnia. A betanítás visszajelzése alapján javítjuk a folyamatot, a legutóbbi csoport 4,5-ös átlagot adott az ötfokozatú skálán.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=ellátási lánc elemzés>>>
+Rövid elemzés: szállítási idők a második negyedévben
+
+A beszállítók átlagos szállítási ideje 6,4 nap volt, az előző negyedév 7,9 napjához képest javult. A legtöbb késés a külföldi beszállítóknál fordult elő (átlag 11 nap). A hazai szállítók 94 százalékban időben teljesítettek.
+
+Javaslat: a készletszint megemelése a három legkritikusabb alapanyagnál, és a vámügyintézés felgyorsítása. A bevezetés után negyedévente újra mérjük a mutatókat.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=könyvtári beszerzési terv>>>
+Állománygyarapítási terv – 2027
+
+A 2027. évi dokumentumbeszerzési keret 6,4 millió forint. Ebből 3,2 millió forint a könyvek, 1,1 millió forint a folyóiratok és 0,9 millió forint az elektronikus adatbázisok előfizetése. A fennmaradó összeg zenei és filmes anyagokra jut.
+
+Prioritás: a gyerekirodalom megújítása és a helytörténeti gyűjtemény bővítése. A terv a fenntartói jóváhagyásra vár, a beszerzés január közepén indulhat.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=hibajegy összefoglaló>>>
+Hibajegy #2481 – a raktári vonalkódolvasó nem szinkronizál
+
+Bejelentő: Pál Ágota (raktár). Leírás: a kézi olvasó három napja nem küldi el a beolvasott tételeket a központi rendszerbe. Vizsgálat: a készülék firmware-e elavult, a hálózati beállítások viszont helyesek.
+
+Megoldás: a firmware frissítése után a szinkronizáció helyreállt. A hiányzó 214 tételt a kolléga kézzel visszatöltötte. Állapot: lezárva, november 4.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=tulajdonosi tájékoztató>>>
+Tulajdonosi tájékoztató – harmadik negyedév
+
+Kedves Tulajdonosok! A társaság nettó árbevétele a harmadik negyedévben 318 millió forint volt, az adózás előtti eredmény 29 millió forint. Az új telephely építése a tervezett ütemben halad, a készültségi fok 70 százalék.
+
+Az osztalék-javaslatot a decemberi közgyűlés elé terjesztjük. A közgyűlés időpontja december 10., 17 óra, helyszín: a Corvin Szállóban, Budapesten.
+
+Üdvözlettel: Pásztor Imre, ügyvezető
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=sprint retrospektív>>>
+Sprint-retrospektív jegyzet – 18. sprint
+
+Ami jól ment: a kódátvizsgálási folyamat gyorsabb lett (átlag 6 óra helyett 3). Az automatikus tesztek lefedettsége elérte a 78 százalékot.
+Ami nem: kétszer is késett a napi megbeszélés, és a feladatok becslése pontatlan volt.
+Teendők: a feladatbecslés finomítása (Gáspár Márk), a megbeszélések időpontjának rögzítése 9:15-re (Szalai Petra).
+
+Következő sprint kezdete: november 10.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=bérleti szerződés emlékeztető>>>
+Emlékeztető: a raktárbérlet felmondási ideje
+
+A Kisalföldi Raktárpark Kft.-vel kötött szerződés szerint a felmondási idő három hónap. Ha a bérletet 2027. január 31-ével meg kívánjuk szüntetni, a felmondást legkésőbb október 31-ig kellett volna megküldeni. Mivel ez nem történt meg, a szerződés automatikusan további hat hónappal meghosszabbodik.
+
+A tanulság: a szerződési határidők nyilvántartását a jogi osztály vezeti, a fontos dátumokra két héttel korábban naptári emlékeztetőt állítunk be.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=laboratóriumi jegyzőkönyv>>>
+Laboratóriumi jegyzőkönyv – mintavétel 2026/117
+
+Minta: kútvíz, Szentes-Kistőke, vételezés időpontja 2026. október 27., 8:40. Hőmérséklet: 12,4 °C. pH-érték: 7,3. Nitrát: 38 mg/l (határérték: 50 mg/l). Vezetőképesség: 780 µS/cm.
+
+Értékelés: a mintában vizsgált paraméterek a megengedett határértékeken belül vannak. A mikrobiológiai vizsgálat eredménye két napon belül várható. Elemző: Szabó Lilla, laborvezető: dr. Sárközi Péter.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=szociális csoport jelentés>>>
+Családsegítő szolgálat – negyedéves jelentés
+
+Az időszakban 212 család kért segítséget, ez 9 százalékkal több az előző negyedévnél. A leggyakoribb ügyek: adósságrendezés, lakhatási problémák és gyermeknevelési tanácsadás. A tanácsadásokból 64 alkalommal volt szükség pszichológusra.
+
+A szolgálat három munkatársa decemberben továbbképzésen vesz részt. A téli tüzifaakció november végén indul, igényelni a szolgálat irodájában lehet.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=építési napló kivonat>>>
+Építési napló – kivonat, 2026. október
+
+Okt. 12.: az alapok betonozása befejeződött, 24 m3 beton, hőmérséklet 11 fok.
+Okt. 15.: az acélszerkezet első szállítmánya megérkezett, az átvételt Szilágyi Máté műszaki ellenőr végezte.
+Okt. 22.: esőzés miatt a munka fél napig szünetelt.
+Okt. 29.: a falazás megkezdődött a földszinten.
+
+Összes létszám a helyszínen: 14 fő. Balesetet nem jelentettek.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=piackutatási kivonat>>>
+Piackutatás – kivonat: csomagolt élelmiszerek
+
+A felmérés 1200 háztartás bevonásával készült. Az eredmények szerint a fogyasztók 58 százaléka a hazai termékeket részesíti előnyben, ha az ár különbsége nem haladja meg a 10 százalékot. A bioélelmiszerek aránya a kosárban 7 százalék.
+
+A fiatalabb korosztály (18-29 évesek) gyakrabban vásárol online. Az ajánlás: a webes értékesítés bővítése és a csomagolás környezetbarát jellegének hangsúlyozása a kommunikációban.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=vezetői összefoglaló>>>
+Vezetői összefoglaló – webshop-fejlesztés
+
+A webshop átalakítása a második fázisba lépett. Az új kosárfolyam tesztidőszakában a lemorzsolódás 41 százalékról 33 százalékra csökkent. A fizetési módok bővítése (két új szolgáltató) decemberben indul.
+
+Költség eddig: 8,3 millió forint, a keret 11 millió forint. Fő kockázat: a szezonális csúcsidőszak előtti stabilitás. Döntést kérünk arról, hogy november 25-től élesítsük az új felületet vagy januárra halasszuk.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=iskolai tantestületi határozat>>>
+Tantestületi határozat – digitális eszközök használata
+
+A tantestület szavazással úgy döntött, hogy az alsó tagozaton a tanítási órákon a gyerekek nem használhatnak saját mobiltelefont. A felső tagozaton a használat csak tanári engedéllyel lehetséges. Szavazás: 24 igen, 3 nem, 2 tartózkodás.
+
+A szabály 2027. január 4-től érvényes. A szülőket a faliújságon és az elektronikus naplón keresztül tájékoztatjuk, az osztályfőnökök a szülői értekezleten magyarázzák el az okokat.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=intézményi ebédeltetés>>>
+Étkeztetési jelentés – általános iskola
+
+Az iskolai étkeztetésben október hónapban naponta átlagosan 318 gyerek vett részt. A napi nyersanyagnorma 540 forint volt. A legkedveltebb ételek: rakott krumpli, csirkepaprikás és túrós tészta. A leggyakoribb visszajelzés: a főzelékek túl sósak.
+
+A konyha vezetője, Mészáros Rozália, a sótartalom csökkentését vállalta. A szülői munkaközösség a novemberi ülésen vizsgálja át az étlapot.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=könyvelési záró feljegyzés>>>
+Évzárási feladatok – feljegyzés a számviteli csoportnak
+
+Az éves zárás határideje január 31. A következő lépéseket kell elvégezni: a készlet- és eszközleltár, a követelések értékelése, az időbeli elhatárolások és a céltartalék számítása.
+
+Ütemezés: az eszközleltár december 15-ig, a követelések felülvizsgálata december 22-ig, az elhatárolások január 8-ig. A könyvvizsgálóval az egyeztetés január 20-án, 10 órakor lesz. Felelős: Szilágyi Anikó, főkönyvelő.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=vendéglátás ellenőrzési lista>>>
+Higiéniai ellenőrzés – konyha, októberi jegyzet
+
+Az ellenőrzés során a hűtők hőmérséklete 3-5 fok között volt, ami megfelelő. A kézmosók felszereltek, a vágódeszkákon azonban kopás látható, cserélni kell őket. A raktárban egy polcon lejárt szavatosságú terméket találtunk, amelyet azonnal kiselejteztek.
+
+Javaslat: a lejárati dátumok heti ellenőrzése, a hulladéktároló fedelének cseréje. A következő belső ellenőrzés november 25-én esedékes.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=csapat heti összefoglaló>>>
+Heti összefoglaló – ügyfélszolgálat
+
+A héten 412 megkeresést kezeltünk, ebből 287 telefonon, 98 e-mailben, 27 chaten érkezett. Az átlagos várakozási idő 2 perc 10 másodperc volt. Az első hívásos megoldási arány 82 százalék.
+
+A leggyakoribb téma: a rendelési státusz és a visszaküldések. Jövő héten két új munkatárs kezdi az ügyfélszolgálati betanítást. Hálás vagyok mindenkinek a rugalmas hétvégi beosztásért.
+
+Pintér Zsófia, csoportvezető
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=elszámolási feljegyzés>>>
+Útiköltség-elszámolás: szabályok röviden
+
+A szolgálati útra a saját gépkocsi használatáért 15 forint/km térítés jár. A vasúti és buszjegyeket a számla alapján térítjük. Külföldi úton napidíj is jár, az összeget az úti cél szerint a pénzügy határozza meg.
+
+Az elszámolást az utat követő 8 napon belül kell leadni, a hónap végén a pénzügy fizeti ki. A tavalyi évben a legtöbb hiba a hiányzó útlevél-bélyegző és a számlák elmaradása volt. Kérdés esetén: Rozsnyai Nóra, 112-es mellék.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=múzeumi gyűjteményi jegyzék>>>
+Gyűjteményi jegyzék – szeptemberi gyarapodás
+
+Az időszakban a múzeum 38 új tárggyal gazdagodott. Ebből 24 adományként érkezett: használati eszközök, fényképek, egy 1930-as évekbeli varrógép. Vásárlás útján három festmény és egy régi térkép került a gyűjteménybe.
+
+Az új tárgyak restaurálása és leltározása november végéig történik. A fényképeket Czirják Eszter digitalizálja, a gyűjtemény online adatbázisa decemberben frissül.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=tanulmányi jelentés>>>
+Tanulmányi eredmények – 8.b osztály, félév
+
+Az osztály létszáma 26 fő, a tanulmányi átlag 3,9. Matematikából az átlag 3,4, magyarból 4,1, angolból 4,3. Négy tanuló kapott figyelmeztetést a hiányzások miatt.
+
+Javaslatok: korrepetálás matematikából heti egy alkalommal, a felvételi előkészítő kedd délután. A szülői értekezletet január 21-én tartjuk 17 órától. Osztályfőnök: Tamás Ildikó.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=építési engedélyezési ügy>>>
+Ügyiratösszefoglaló – családi ház bővítése
+
+Ügyfél: Barta család, Mezőkövesd, Szent László u. 14. A kérelem tárgya: tetőtér-beépítés és garázs építése. A tervet az építésügyi osztály befogadta, a hiánypótlási felhívást október 20-án kiadtuk.
+
+A hiányzó dokumentumok: tűzvédelmi nyilatkozat és statikai számítás. Az ügyintézési határidő a hiánypótlás beérkezésétől számítva 30 nap. Ügyintéző: Gyenes Roland.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=informatikai biztonsági emlékeztető>>>
+Emlékeztető: jelszavak és munkahelyi biztonság
+
+A rendszerek biztonsága érdekében a jelszavakat 90 naponta cserélni kell, és legalább 12 karakter hosszúnak kell lenniük. A közös fiókok használata tilos. A gyanús e-maileket kérjük továbbítani az IT-biztonsági csoport belső címére, és ne nyissák meg a mellékleteket.
+
+A tavalyi biztonsági gyakorlaton a kollégák 12 százaléka kattintott a próbaüzenetre, idén ezt 5 százalék alá szeretnénk csökkenteni. A következő oktatás november 24-én, 10 órakor lesz.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=sportegyesületi beszámoló>>>
+Éves beszámoló – ifjúsági labdarúgó-szakosztály
+
+A szakosztály 8 korosztályban, összesen 164 gyerekkel működik. A bajnokságokban két csapat bajnoki címet szerzett (U11, U13). A pályahasználati költségek 15 százalékkal nőttek, a szülői hozzájárulás változatlan maradt.
+
+Terv: új mezkészlet, két edzőtábor nyáron, a külső pálya világításának felújítása. A beszámolót az elnökség november 27-i ülésén tárgyalja. Összeállította: Bakos Norbert, szakosztályvezető.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=agrártanácsadói jelentés>>>
+Tanácsadói jelentés – a Nagy-féle gazdaság
+
+A 62 hektáros gazdaságban a búza hozama 5,9 t/ha volt, a napraforgóé 2,8 t/ha. A talajvizsgálat alapján a foszfor és a kálium pótlása szükséges, a pH értéke 6,8, ami megfelelő.
+
+Javaslatok: a vetésforgó bővítése borsóval, az őszi tarlóhántás, a gépek karbantartása. A támogatási kérelem benyújtásában a falugazdász segít. Tanácsadó: Fábián Zoltán.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=eseménytervezés rendezvény>>>
+Rendezvényterv – évzáró vacsora
+
+Időpont: december 12., péntek, 18 óra. Helyszín: Gundel Étterem. Létszám: 64 fő. Menü: előétel, leves, két főétel közül választhatóan, desszert. Zenei program: élő jazz-trió.
+
+Költségvetés: 1,9 millió forint. A meghívókat november 14-ig küldjük ki. Visszajelzés a titkárságnak november 28-ig. Az ünnepi beszédet az ügyvezető tartja. Felelős: Papp Dorottya.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=jegyzőkönyv lakógyűlés>>>
+Jegyzőkönyv – társasházi közgyűlés, 2026. október 21.
+
+Jelen: 34 tulajdonos (a tulajdoni hányad 71 százaléka). Napirend: a közös költség emelése, a lift felújítása, a lépcsőház festése.
+
+Döntések: a közös költség 8 százalékkal emelkedik januártól (21 igen, 9 nem). A lift felújítására 6,5 millió forintot különítenek el a felújítási alapból. A lépcsőház festését a tavaszra halasztották. A közös képviselő: Kelemen Piroska.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=gyártási jelentés>>>
+Napi gyártási jelentés – 2026. november 3.
+
+Termelt mennyiség: 4 820 darab (a terv 5 000 darab). Selejtarány: 1,3 százalék. Állásidő: 47 perc, a csomagológép hibája miatt. Munkaerő: 22 fő, ebből 2 betegszabadságon.
+
+Teljesítmény: 96,4 százalék. A második műszakban a csomagológépet a karbantartók újraindították, a további hibát nem jeleztek. Műszakvezető: Illyés Sándor.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=kutatási pályázat javaslat>>>
+Kutatási javaslat – a talaj szervesanyag-tartalmának távérzékelése
+
+A projekt célja, hogy műholdas és drónos felvételek alapján becsülje a szántóföldek szervesanyag-tartalmát. A kísérleti terület 400 hektár a Kiskunságban. A tervezett időtartam 24 hónap, a költségvetés 23 millió forint.
+
+A munkacsoport három kutatóból és két doktoranduszból áll. Az eredmények a gazdák precíziós gazdálkodását segíthetik. A pályázati határidő december 12.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=ügyvezetői levél>>>
+Ügyvezetői körlevél – az irodaköltözésről
+
+Kedves Kollégák! Január 19-től az iroda a Váci úti új székházba költözik. Az új épületben nyitott tér, csendes szobák és a tetőn teakonyha is lesz. A költözés két hétvégén történik, a munkatársaknak a személyes holmik becsomagolását kell elvégezniük.
+
+A költözés idejére a szoba- és asztalbeosztást a HR küldi ki december közepén. Az irodabútorokat szállító cég előzetesen felméri az eszközöket, ezért a következő héten több látogatás is várható.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=hulladékgazdálkodási jelentés>>>
+Hulladékgazdálkodási jelentés – 2026. harmadik negyedév
+
+Az összes keletkezett hulladék 38,2 tonna volt, ebből 61 százalék szelektíven gyűjtött. A veszélyes hulladék mennyisége 1,4 tonna, ennek elszállítását engedéllyel rendelkező szolgáltató végezte.
+
+A tavalyihoz képest a szelektív arány 7 százalékponttal nőtt, a komposztálható hulladék elkülönítése miatt. Cél: 70 százalék a következő év végéig. Felelős: Takács Mihály, környezetvédelmi referens.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=mérnöki jegyzék>>>
+Műszaki jegyzék – szivattyúállomás cseréje
+
+A Sóstói úti szivattyúállomáson két darab 15 kW-os szivattyú cseréje szükséges, a meglévők 22 évesek és a hatásfokuk 54 százalék. Az új, frekvenciaváltós szivattyúk hatásfoka 78 százalék, az energiamegtakarítás évente kb. 28 ezer kWh.
+
+A szakipari kivitelezés tervezett ideje 12 munkanap, a leállás alatt tartálykocsival oldjuk meg az ellátást. Az ajánlatok elbírálása december 3-ig tart.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=nyári tábor szervezés>>>
+Feljegyzés – gyermektábor szervezése
+
+A nyári napközis tábort július 6. és augusztus 14. között rendezzük hat turnusban, turnusonként 40 gyerekkel. A napi program reggel 8-tól délután 16 óráig tart: sport, kézműveskedés, kirándulás. A tábori díj 24 000 forint hetente, testvérkedvezmény 10 százalék.
+
+Szükséges: hat pedagógus-felügyelő és négy segéd. Az önkéntesek jelentkezését februártól fogadjuk. A programokért felelős: Szentmártoni Dóra.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=szoftverkiadás jegyzet>>>
+Kiadási jegyzet – 2.8-as verzió
+
+Újdonságok: exportálás CSV-ben, a keresőmező gyorsítása és új jogosultsági szerepkörök. Javítások: a naptár nézet időzóna-hibája, a PDF-nyomtatás oldaltörései.
+
+Ismert korlátozás: a nagyobb, 50 ezer soros riportok generálása még lassú (kb. 40 másodperc). A frissítést kedd este 22 órától végezzük, a leállás várhatóan 15 percig tart. A régi adatok megmaradnak, külön teendő nincs.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=gazdasági elemzés összefoglaló>>>
+Elemzés: a vállalat likviditási helyzete
+
+A folyó likviditási ráta 1,7, a gyors ráta 1,2, mindkettő megfelelő. A vevői átlagos fizetési idő 38 nap, a szállítóké 32 nap, ez rövid távon enyhe finanszírozási nyomást okoz.
+
+Ajánlás: a vevői kintlévőségek behajtásának szigorítása, és tárgyalás a három legnagyobb szállítóval a fizetési határidők 45 napra emeléséről. A következő felülvizsgálat 2027. február elején lesz.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=falugondnoki napló>>>
+Falugondnoki szolgálat – heti beszámoló
+
+A héten a falugondnok 14 alkalommal szállított idős lakost orvoshoz, 6 alkalommal hozott gyógyszert a szomszéd városból. Két alkalommal gyerekeket kísért az iskolába, mert az iskolabusz hibásodott meg.
+
+Az önkormányzati kisbusz üzemanyag-fogyasztása 11 liter/100 km, a heti futásteljesítmény 438 kilométer. A busz vizsgáztatása december 2-án esedékes. Kérem, hogy a lakók a szállítási igényt előző nap este hétig jelezzék. Gombos Tibor, falugondnok.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=gyógyszertári leltár>>>
+Feljegyzés – a patika őszi készletfelmérése
+
+A Szent Anna Gyógyszertárban október 31-én készletfelmérés volt. A vényköteles készítmények eltérése 0,2 százalék, a vény nélküliek esetében 0,6 százalék. Hat tételnél a szavatossági idő három hónapon belül lejár, ezeket előre kell jelezni a beszállítónak a visszavételhez.
+
+A hűtött gyógyszerek tárolóhelyének hőmérsékletnaplója hiánytalan. Az ügyeleti beosztás decemberre elkészült. Összeállította: dr. Pásztor Eszter, gyógyszerész.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=futárszolgálat szerződés>>>
+Összefoglaló a futárszolgálat díjtárgyalásáról
+
+A jelenlegi csomagküldő partner 2027-től átlagosan 6 százalékos díjemelést kért. Mi 3 százalékot kínáltunk, azzal a feltétellel, hogy a havi minimális csomagszámot 1800-ra emeljük. Az éves forgalom alapján a különbség mintegy 1,2 millió forint.
+
+A másik két ajánlat is megérkezett, az egyik 4 százalékkal olcsóbb, de a kézbesítési ideje egy nappal hosszabb. A döntés a gazdasági vezetőtől várható november 18-ig. Összeállította: Hajdú Beáta.
+<<<END>>>

@@ -1,0 +1,396 @@
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=router connection drops>>>
+Ticket #TK-44102 | Status: Open | Priority: Normal
+Customer: Ildiko Magyar
+Channel: Web form
+
+Description: My internet disconnects every evening between 8 and 10 pm. The router light turns orange for about a minute and then recovers. Started about a week ago after the engineer visited to move the socket.
+
+Agent note (Tomas, 4 Nov): Line test shows high error rate on upstream. Booked engineer visit for 9 Nov, 08:00-13:00. Customer informed by SMS.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=double charged subscription>>>
+[Chat transcript - Orbit Fitness Support]
+
+Customer (Marcus): Hi, I think I was charged twice for October.
+Agent (Sana): Hi Marcus, sorry about that. Can you confirm the last four digits of the card?
+Customer: 4417.
+Agent: I can see two charges of 29.90 on 1 Oct, one of them pending. The duplicate will drop off automatically within 3 working days, but I've also flagged it with our payments team.
+Customer: Great, thanks.
+Agent: Anything else I can help with?
+Customer: No, that's it!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=password reset loop>>>
+Ticket 90377 - Account access
+Reported by: Femi Adeyinka
+Product: Vaultnote Cloud
+
+Customer says the password reset email arrives but the link says "expired" immediately. Tried Chrome and Firefox. Uses a work mail address with link scanning.
+
+Resolution: Link scanner was pre-opening the URL and invalidating it. Support issued a one-time sign-in code via the verified phone number. Customer logged in successfully and set a new password. Suggested whitelisting vaultnote.test. Ticket closed.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=late parcel complaint>>>
+SUPPORT CASE 2026-118842
+Customer: Anna-Lena Roth
+Order: DE-30991 (kitchen scales)
+Issue: Tracking has said "In transit" since 28 October. Customer asks where the parcel is.
+
+Agent response (Elif K.): Hi Anna-Lena, we contacted the carrier. The parcel was misrouted to a depot in Leipzig and is being forwarded. New delivery estimate: 6 November. If it hasn't arrived by 9 November, we'll send a replacement or refund, your choice. Sorry for the delay.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=printer driver install>>>
+[Live chat 15:22]
+
+Customer: My new Brightjet 540 printer isn't detected by my laptop. Windows 11.
+Agent: Thanks for contacting Brightjet. Is the printer connected by USB or Wi-Fi?
+Customer: USB.
+Agent: Please try a different USB port and avoid hubs. Then download driver package 4.2.1 from our site and run it before connecting the cable.
+Customer: OK, doing that now...
+Customer: It works! Test page printed.
+Agent: Wonderful. Have a good afternoon!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=hotel room dispute>>>
+Guest Relations Ticket #GR-5521
+Guest: Mr. Tibor Zold
+Stay: 1-3 Nov, Room 418
+
+Complaint: The room booked as "quiet, courtyard side" overlooked the street, and there was construction noise from 07:00. Guest requests a partial refund.
+
+Resolution: Manager Judit Szekeres apologised in person, refunded one night (118 EUR) and added 5,000 loyalty points. Guest accepted the offer by email on 4 Nov.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=app crash on launch>>>
+Ticket #77120  |  Platform: Android 14  |  App: RoutePal 5.2.0
+
+User report: App closes immediately after splash screen on Pixel 7. Reinstall did not help. Worked fine yesterday.
+
+Triage log:
+- Crash signature matches known issue RP-2291 (null pointer in saved places migration)
+- Hotfix 5.2.1 released today
+Reply sent: Please update via Play Store. If the update isn't visible yet, it can take a few hours to roll out. Reopen the ticket if the crash continues.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=wrong size delivered>>>
+Customer: Vivien Horvath
+Order: #SN-20551
+Message: Hi! I ordered the Trail runner in size 40 but received a 42. Can you help?
+
+Support (Jamal): Hello Vivien, sorry about the mix-up! I've sent a prepaid return label to your email. Once the courier scans it, we'll ship size 40 right away, no need to wait for the return to arrive. Estimated delivery: 3-4 days.
+Customer: Thanks, that's very quick.
+Status: Replacement shipped 5 Nov.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=invoice address change>>>
+Ticket INV-3318, Billing
+
+Customer: Corvus Engineering Ltd (contact: Paul Henley)
+Request: Please update the billing address on invoices from 1 December to Unit 4, Kingsfield Park, Reading RG2 0TD and add PO number field.
+
+Handled by: Fiona (Finance Ops)
+Action: Address updated in the customer master record. PO number will appear on invoices once supplied. A corrected copy of the November invoice has been emailed. Closed 5 Nov.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=broadband speed complaint>>>
+[Chat - Fibrelink]
+Agent (Dariusz): Hello and welcome to Fibrelink. How can I help today?
+Customer (Gwen): I'm paying for 500 Mbps but the speed test shows about 90.
+Agent: Sorry to hear that. Are you testing over Wi-Fi or with a cable?
+Customer: Wi-Fi, in the bedroom.
+Agent: Wi-Fi speeds drop with distance and walls. Could you test with an Ethernet cable plugged into the router?
+Customer: Just did, 487 Mbps.
+Agent: Great, so the line is fine. I can send you a guide to improve Wi-Fi coverage.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=warranty claim headphones>>>
+Warranty ticket W-60418
+Product: Sonora Q5 headphones, purchased 14 Feb 2026
+Fault: Left earcup has no sound; customer says it stopped after about 8 months.
+
+Review: Proof of purchase verified, within the 24-month warranty. No signs of physical damage. Approved for replacement. Customer to post the faulty unit using the supplied label; replacement dispatched upon receipt of the scan. Agent: Heikki.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=data export request>>>
+Ticket #DPR-2043 | Type: Data subject request
+
+From: Mireille Dubois
+Message: I would like a copy of the personal data you hold about me.
+
+Reply (Privacy team, 5 Nov): Hello Mireille, we have verified your identity and started the request. You will receive a secure download link by 4 December, within the one-month period. The export will include your profile, order history and communication preferences. We'll contact you if we need anything else.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=booking date change>>>
+[Chat - Alpenview Cabins]
+
+Customer (Szilvia): Hi, can I move my stay from 20-23 Nov to 27-30 Nov?
+Agent (Pieter): Let me check. Cabin Edelweiss is free on the new dates. The rate is 10 EUR per night higher because it's closer to the Advent weekend.
+Customer: That's fine.
+Agent: Perfect, I've updated the booking and sent you a new confirmation. The extra 30 EUR will be taken at check-in.
+Customer: Thank you!
+Agent: You're welcome, Szilvia.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=expense tool login>>>
+HELPDESK-INTERNAL
+Ticket: HD-31870
+Requester: Zsolt Peterfi (Sales)
+Summary: Cannot log in to the expense tool since the weekend. Error: "Account locked."
+
+Technician comment: Account was locked after five failed attempts on Sunday. Unlocked at 09:12. User reminded that the password policy changed on 1 Nov. Asked to set up the authenticator app to avoid future lockouts. Closed.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=tv installation>>>
+Support request 55-1982
+Customer: Mr. Abel Katona
+Product: Lumina 55" OLED
+
+Customer wrote: Wall bracket does not fit my TV; the screw holes seem to be spaced differently.
+
+Support reply: Thank you, Mr Katona. The 55" OLED uses VESA 300x200, while the bracket in your box (model WB-100) is for VESA 200x200. We are sending the correct WB-300 bracket free of charge, delivery in 2-3 working days. You can keep the old one.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=class registration problem>>>
+Student Services ticket SS-7109
+Student: Imre Szabo (ID 20418837)
+
+Problem: "I can't register for Organic Chemistry 201. The system says prerequisites not met, but I passed Chem 101 last year."
+
+Staff note: Grade for Chem 101 was posted under a previous ID format. Registrar manually linked the record. Student can now register. Registration confirmed 5 Nov, 10:35.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=bank card blocked>>>
+[Chat - Meridian Bank App Support]
+
+Customer: My card was declined at a supermarket just now.
+Agent (Olivia): I'm sorry about that. For security, the card was temporarily blocked because of an unusual purchase attempt abroad yesterday. Was that you?
+Customer: No, I haven't left Hungary.
+Agent: Understood. I've cancelled the card and ordered a replacement, which will arrive in 3-5 working days. You can use a virtual card in the app meanwhile.
+Customer: Okay, thank you.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=meal kit missing item>>>
+Ticket 220981 / FreshBox
+Customer: Pooja Nair
+Issue: My box on Tuesday didn't include the salmon fillets, only the veg and sauce.
+
+Customer service (Henry): So sorry, Pooja. We checked the packing log: the salmon was missed in the warehouse. A 12.50 credit has been added to your account, and we've also credited the cost of the dish. We've informed the packing team to prevent a repeat.
+Customer rating: 4/5.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=online course access>>>
+CASE 3394 | Learning Platform | Priority: Low
+
+Learner: Daniel Ortega
+Course: Introduction to Data Visualisation
+Issue: Module 3 videos won't play; spinner keeps going.
+
+Support: Checked the learner's region; the CDN edge in his area had a cache problem, now cleared. Asked him to refresh. Learner confirmed that all videos in Module 3 play correctly. Certificate progress is intact (42%).
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=sim card activation>>>
+[SMS support log]
+
+09:14 Customer: My new SIM doesn't work.
+09:15 Agent: Hello! Please restart the phone and make sure the SIM is in the right tray. Which number is printed on the SIM card?
+09:17 Customer: 89361020...4478
+09:19 Agent: Thanks. I can see it was not activated. I've activated it now. It can take up to 15 minutes. Please restart once more.
+09:36 Customer: It works now, thanks.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=gym locker refund>>>
+Complaint #FC-908
+Member: Roisin Gallagher
+Facility: Harbour Fitness, Cork
+
+"I paid 40 for a locker for the year but the lock is broken and no replacement has been offered."
+
+Reply from Manager Colm: We have replaced the lock and moved you to locker 118. Because you were without a working locker for six weeks, we have refunded 10 EUR. Apologies for the inconvenience, and thank you for your patience.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=cloud server billing>>>
+Ticket #CLD-102233 | Severity: Low | Category: Billing
+
+Customer: Tidewater Labs
+Question: Our October bill is 40% higher than September. Can you explain?
+
+Response from Billing Support: We reviewed usage. The increase comes from 3 additional m5.xlarge instances launched on 9 Oct, which ran for 22 days, and a larger snapshot volume. No unexpected charges were found. We've attached a cost breakdown and suggested enabling budget alerts.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=smart thermostat setup>>>
+[Chat 18:05 - WarmHome support]
+Customer: I can't pair the thermostat with my phone.
+Agent (Kasper): Hi! Is the thermostat showing a blinking blue light?
+Customer: No, solid white.
+Agent: Hold the front button for 8 seconds until it blinks blue, then retry in the app.
+Customer: Now it's blinking.
+Customer: Connected! Thanks.
+Agent: Great. You can set a heating schedule under Schedules. Anything else?
+Customer: No, that's all.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=meter reading dispute>>>
+Support Ticket - Utilities #U-61234
+Customer: Edina Szucs
+Account: 8821-440
+
+The customer disputes a bill based on an estimated reading of 14,220 m3. Actual reading provided on 3 Nov is 13,985 m3.
+
+Outcome: The bill has been re-issued using the customer-supplied reading. Overpayment of 38,400 HUF will be credited against the next bill. Customer notified by email and letter.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=concert ticket transfer>>>
+Ticket request #TIX-5547
+
+Customer (Mateo): I bought two tickets but my friend can't come. Can I transfer one to someone else?
+Agent (Lotte): Yes, Mateo. Open "My tickets", tap the ticket and choose "Transfer". Enter the other person's email address, and they will receive their own QR code; yours becomes invalid. It's free, and works up to two hours before doors.
+Customer: Done, thanks!
+Status: Resolved
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=account upgrade>>>
+Live chat - Stackline CRM
+
+Visitor: Hello, how do I move from Starter to Team plan?
+Agent (Rosa): Go to Settings > Billing > Change plan. The upgrade takes effect immediately; you only pay the difference prorated for the rest of the month.
+Visitor: Do I keep my data?
+Agent: Absolutely, everything remains. You also unlock shared pipelines and 10 users.
+Visitor: Perfect, doing it.
+Agent: Let me know if you run into anything.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=cancelled flight refund>>>
+Case ref: REF-203-NK | Airline Customer Relations
+
+Passenger: Ms Kornelia Biro
+Flight: AL 342 Budapest-Madrid, 2 Nov (cancelled)
+
+Customer asks for a refund instead of rebooking.
+
+Agent: Refund approved for the full fare of 214.50 EUR plus 12.00 EUR in unused seat fees. Funds go to the original card in 5-7 working days. Regulation 261/2004 compensation was reviewed; as the cancellation was due to a strike, no further compensation is due.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=pharmacy prescription pickup>>>
+Customer inquiry #PH-2284
+
+Customer: Mr. Aron Feher
+"I received a message that my prescription is ready, but the pharmacy says it's not in their system."
+
+Reply (Pharmacy support): Apologies. The message was triggered by an error in the notification service. Your prescription is in preparation and will be ready tomorrow after 10:00. Opening hours are Monday to Friday 08:00-19:00. We've corrected the status in the system.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=mobile roaming charges>>>
+[Chat - Telmora Mobile]
+Customer (Hugo): I got a bill with 48 roaming charges from Croatia. I thought roaming in the EU was included!
+Agent (Bea): Hi Hugo. Roaming in the EU is included, but your plan has a fair-use limit of 15 GB. You used 19 GB.
+Customer: I see. Could you waive it just this once?
+Agent: I can offer a 50% credit as a goodwill gesture. That makes it 24 EUR.
+Customer: That's fair, thanks.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=website checkout error>>>
+Incident ticket WEB-5530 (customer-facing)
+Reporter: Stella Marinova, shop owner
+Issue: Customers get "Payment could not be completed" at checkout when using Apple Pay since Tuesday.
+
+Engineering update 5 Nov: Merchant certificate expired on 3 Nov. Renewed and deployed at 14:20. Test payments succeed. Ticket will remain open for 24 hours for monitoring.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=furniture assembly missing parts>>>
+Support ticket #FRN-1190
+Customer: Bence Lakatos
+Product: Norrland wardrobe, 3-door
+
+"Bag C of screws was not in the box. I can't finish the assembly."
+
+Reply: Hi Bence, we're sorry. A replacement hardware pack (bag C and spare cam locks) has been posted today with tracking number HU22918846. Delivery in 2 working days. If you need to finish before then, bag C contains only the door hinge screws.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=video call quality>>>
+[Chat - ClearMeet Support]
+Customer: My video is blurry in meetings.
+Agent (Anouk): Let's check. Open Settings > Video. Is "HD" enabled?
+Customer: It says Auto.
+Agent: Try switching to HD and make sure your camera isn't set to "Low light mode," which softens the image.
+Customer: That fixed it, much sharper.
+Agent: Good to hear. We also recommend a wired connection for important calls.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=loan payment schedule>>>
+Case #LN-40977 | Retail Lending
+
+Customer: Mr. Vilmos Gero
+Request: Wishes to change the monthly repayment date from the 5th to the 20th as his salary arrives later.
+
+Action: Request approved. The next payment will be taken on 20 December; for this month, the interest for the additional 15 days (11.30 EUR) will be added to the balance. Confirmation letter posted to the customer's registered address.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=electric scooter fault>>>
+Ticket 8830-ES
+Customer: Greta Lindholm
+Product: Glide S2 electric scooter
+
+Customer says: "The scooter won't go above 10 km/h and the display shows E04."
+
+Technician: E04 indicates a throttle sensor fault. Customer was advised to check the cable at the handlebar. As the fault persisted, a free repair under warranty was booked at the Malmo service centre on Monday 9 Nov at 10:00. Pickup by courier offered.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=library book renewal>>>
+Library Help Desk - Ticket L-5120
+
+Patron: Zoe Whitaker
+Problem: Cannot renew "The Bee Keeper's Handbook." The site says "Item has reservations."
+
+Librarian: That's right, another patron reserved it. It's due 12 Nov; you can't renew it, sorry. Alternatively, we have another copy at the Eastbrook branch, and an e-book version available now through the app.
+Patron replied: Will return it on Thursday. Thanks.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=coffee machine descaling>>>
+[Chat - Barista Home]
+Customer: My Aroma 300 shows a red "descale" light even after I descaled it.
+Agent (Mikael): Did you reset the counter after descaling?
+Customer: No idea how to do that.
+Agent: Hold the steam and espresso buttons together for 5 seconds with the machine on. The red light should blink once and turn off.
+Customer: It worked!
+Agent: Brilliant. Enjoy your coffee, and descale again in about three months.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=tax software error>>>
+Support request ST-25511 | TaxEasy 2026
+
+User: Laszlo Boros
+Issue: "After importing my employer's statement, the total income is shown twice."
+
+Agent note: Reproduced. The file was imported both through the automatic and manual route, causing a duplicate entry. Customer instructed to delete the second entry under Income > Employment. Total now correct (6,284,000 HUF). We have logged the import duplication as a usability bug.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=pet insurance claim>>>
+Claim enquiry PI-8802
+
+Customer: Alexandra Brandt (pet: Fritz, dachshund)
+Question: Why was my claim for 340 EUR only partly paid?
+
+Reply: Your policy has a 10% co-payment and a 50 EUR excess. We reimbursed 261.00 EUR on 3 Nov. The remainder is not covered: the physiotherapy sessions fall under an exclusion without a referral from your vet. A referral letter can be submitted for future treatment.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=solar panel monitoring>>>
+[Chat - SunTrack Monitoring]
+
+Customer (Mr. Kovacs): The app shows zero production since Sunday, but it was sunny.
+Agent (Ines): I see your inverter hasn't reported since 1 Nov 16:20. Is the display lit?
+Customer: It shows a green light but no Wi-Fi symbol.
+Agent: Then it lost the connection. Restart your router and wait ten minutes.
+Customer: It's back online, and data is catching up.
+Agent: Perfect. Missing hours are filled in automatically.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=fleet GPS tracker>>>
+Ticket FL-7041 | Fleet tracking
+
+Customer: Danubia Logistics (Peter Sarkozy)
+Issue: Truck HU-AB 332 shows no position for 6 hours.
+
+Technician: Device last reported at 06:02 near Gyor. Likely lost power after ignition-line fuse blew. Customer will check fuse. Tracker came back at 13:40 after fuse replacement; the missing trip will be reconstructed from the buffered data.
+Status: Resolved.
+<<<END>>>
+
