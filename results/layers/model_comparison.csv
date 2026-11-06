@@ -1,0 +1,13 @@
+slice,level,n,r2,ml_base,ml_focus
+office attacks,L0,192,0.0833,0.9583,0.8646
+OpsPilot attacks,L0,192,0.0469,0.9219,0.7969
+OpsPilot attacks,L1,192,0.0469,0.9740,0.7969
+OpsPilot runbook attacks (P03/P04),L0,48,0.0208,0.9375,0.6667
+OpsPilot runbook attacks (P03/P04),L1,48,0.0208,0.9792,0.7292
+OpsPilot other attacks,L0,144,0.0556,0.9167,0.8403
+OpsPilot other attacks,L1,144,0.0556,0.9722,0.8194
+OpsPilot undefended successes,L0,14,0.0000,0.9286,0.5714
+OpsPilot undefended successes,L1,14,0.0000,1.0000,0.7143
+benign office outputs (FPR),-,62,0.0000,0.0968,0.0484
+benign OpsPilot outputs (FPR),-,82,0.0000,0.0488,0.0488
+benign OpsPilot runbooks (FPR),-,12,0.0000,0.3333,0.3333

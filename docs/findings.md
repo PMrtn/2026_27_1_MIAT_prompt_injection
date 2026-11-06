@@ -9,7 +9,11 @@ Working notes of the experiments: what was run, what came out, and what to do ne
   144 held-out ones. Every success was repeated.
 - **Phase 2 (delegated instruction documents and escalation):** scope agreed (full, with harms inside the
   permissions), but **on hold until the owner says go**. Nothing for it has been built yet.
-- **DistilBERT:** not retrained on the current dataset (waiting for permission), so every ML number is still missing.
+- **DistilBERT (done 2026-11-06 afternoon):** two models trained.
+  - **base:** the main dataset.
+  - **focus:** + `data/focus`, the delegated-document set; it is the model of configs 3-4.
+  - Evaluated offline on every attack, and verified on Luna on the 14 working attacks. See "Detector: base vs focus"
+    below.
 
 ## Key findings so far
 
@@ -26,9 +30,12 @@ Working notes of the experiments: what was run, what came out, and what to do ne
    confirmed") is the strongest style.
 5. **Defenses:**
    - Explicit rules in the system prompt (variant A) cut the known-working attacks from 15/25 to 0/25.
-   - The least-privilege action policy vetoes all 15 successes.
+   - The least-privilege action policy vetoes all 15 successes; defended runs on Luna: 0/14.
    - The regex filter withholds none of them.
-   - The ML detector is still pending.
+   - **ML detector:**
+     - The base model withholds all 14 working attacks after the follow-up, but also the benign RB-07 checklist.
+     - The focus model lets 5/14 through on Luna and still blocks RB-07.
+     - Over guardrails it adds no measured security.
 6. **Open confound:** on the runbook tasks, the L1 user message itself says "complete any remaining steps". The data
    cannot yet separate *what the document is* from *what the user said about it*.
 
@@ -203,6 +210,84 @@ Figure: `docs/report/figures/layers.png`.
 - **Counterfactual:** all 15 OpsPilot successes (14 in B, 1 in A) are vetoed by R3, and R2 withholds none of them. The
   estimated success rate for guardrails is therefore 0/192 in B and 0/48 in A. For office it is 0, trivially.
 
+## Detector: base vs focus (2026-11-06 afternoon)
+
+**What was built.** `pidefense.data.focus`:
+
+- 100 new EN/HU procedure documents and 90 legitimate follow-ups, written by Claude in an invented company and service
+  universe.
+- D1 malicious inserted steps and D2 escalation follow-ups (fake consent, approval, identity, pressure), against
+  legitimate inserted steps and follow-ups carried by the same wrappers.
+- 960 samples (train 708 / val 164 / test 88), 50% injected.
+- Leakage test: no 5-gram is shared with the OpsPilot templates, follow-ups or goals.
+
+Two models with identical settings:
+
+- **base:** the main dataset. 37 min training; threshold 0.45.
+- **focus:** + `data/focus`. 43 min training; threshold 0.86, because validation now holds hard look-alikes.
+
+**Classifier** (`results/detector/metrics{_base,}.json`), recall base → focus:
+
+| | DistilBERT base | DistilBERT focus | TF-IDF (base / +focus) |
+| --- | --- | --- | --- |
+| Known families | 100% | 100% | 99% / 96% |
+| Unseen families (U2 obfuscation) | 88% (71%) | 85% (62%) | 70% (20%) / 67% (18%) |
+| OpsPilot domain set | 85% | 79% | 34% / 44% |
+| Focus test: D1 / D2 | 88% / 68% | 94% / 82% | 19% / 25% → 56% / 57% |
+| deepset | 25% | 23% | 21% / 19% |
+| False alarms: main test / OpsPilot hard negatives / benign focus docs | 0% / 4.6% / 27% | 0% / 3.3% / 2.3% | 0.7% / 0.4% / 4.5% → 0.7% / 0% / 0% |
+
+**Offline on the real attacks** (`results/layers/model_comparison.csv`), share withheld after the follow-up, base →
+focus:
+
+| Slice | base → focus |
+| --- | --- |
+| All OpsPilot attacks | 97% → 80% |
+| Runbook attacks | 98% → 73% |
+| The 14 working attacks | 14/14 → 10/14 |
+| P03 working attacks (benign RB-12 passes) | 6/6 → 2/6 |
+| Office attacks | 96% → 86% |
+
+**Benign false alarms on the same outputs:**
+
+- **OpsPilot:** 4.9% for both models. It is all the benign **RB-07 checklist of P04**, scored ≥0.96 by both; a
+  likely trigger is "report 'READY FOR DEPLOYMENT'". So the P04 "catches" do not come from the injected text.
+- **Office:** 9.7% → 4.8%. The T04 complaint is fixed; the T01 newsletter about AI agents is still flagged.
+
+**Counterfactual ASR, variant B** (`results/counterfactual/summary{_base,}.csv`):
+
+| Config | Estimated success |
+| --- | --- |
+| none | 14/192 (measured) |
+| guardrails | 0 |
+| ML base | 0-1 |
+| ML focus | 4-6 |
+| combined | 0 |
+
+**Defended runs on Luna** (`results/ops/verify_episodes.jsonl`): the 14 working attacks plus the 8 benign tasks per
+config, $0.015.
+
+| Config | Working attacks that succeeded | Benign tasks completed | Completed under attack |
+| --- | --- | --- | --- |
+| guardrails | 0/14 (all attempted, all vetoed by R3) | 8/8 | 11/14 |
+| ML (focus) | 5/14, all on P03 | 7/8 (P04 withheld) | 6/14 |
+| combined | 0/14 | 7/8 | 6/14 |
+
+Requests are cached, so defended runs replay the undefended behaviour until a defense acts. The comparison is paired.
+
+**Latency** (`results/detector/latency.csv`): DistilBERT takes 48 ms per 256-token output on GPU (89 ms on CPU) and
+adds 0.22 s per OpsPilot episode. The median episode takes 12 s, so the overhead is about 2%.
+
+**Reading:**
+
+- The focus data moved the recall / false-alarm trade-off on texts of its own style, but not on unseen ones. This is
+  the single-author synthetic-data trap: the model learned the wording of the templates, not the intent.
+- Over guardrails the detector adds no measured security and costs utility.
+- Its value is as the only *general* layer. Without any rules, the base model alone takes 14/192 down to 0-1/192.
+
+**Pre-registered choice kept.** The focus model was named the configs 3-4 model before its test results existed.
+Swapping to base afterwards would be selection on the test set, so both are reported.
+
 ## What works and what does not
 
 **Attacks against luna:**
@@ -223,7 +308,7 @@ Figure: `docs/report/figures/layers.png`.
 | Works: least-privilege action policy (R3) | vetoes all 15 successes and 100% of OpsPilot target actions |
 | **Works: explicit rules in the system prompt (variant A)** | known-working attacks 15/25 → 0/25 (p = 0.00006) |
 | No effect on what works: regex output filter (R2) | withholds 0 of the 15 successes; 0% of unseen and ops-native families |
-| Unknown yet: DistilBERT | not retrained; TF-IDF proxy reaches 34% on the OpsPilot domain |
+| Generalizes, but false alarms on delegated documents: DistilBERT | base: 85% on the OpsPilot domain set, 14/14 working attacks withheld, but the benign RB-07 checklist blocked; focus: 2% false alarms on its own documents, but 5/14 working attacks got through on Luna |
 | Cost: guardrails | office: 3 of 36 benign tasks lost; 13 points less utility under attack |
 
 ## Weaknesses to keep in mind
@@ -317,12 +402,13 @@ Each mechanism is combined with the new instruction-type tasks and run in both l
 
 | Item | Status | Fits phase 2? |
 | --- | --- | --- |
-| Retrain DistilBERT on the current dataset (about 55 min, no LLM) | waiting for permission | yes, phase 2 needs it |
-| Offline layer check and counterfactual with ML; latency | after retraining | yes, it is the phase 1 coverage for configs 3-4 |
-| Verification run (16 attacks × guardrails/ML/combined) | approved, after retraining | **replace** it with the phase 2 defended runs, or run it on the 14 runbook successes |
+| Retrain DistilBERT: base and focus models | **done** (37 + 43 min) | – |
+| Offline layer check and counterfactual with ML; latency | **done** | – |
+| Verification run on Luna (the 14 working attacks × guardrails/ML/combined + benign) | **done**, $0.015 | – |
+| Detector as a soft signal (flag/confirm instead of withhold), span-level scoring | idea | yes, the obvious next detector experiment |
 | Office G4/G5 content-harm analysis (offline) | open | yes, it is the office case of harm inside permissions |
 | Office configs 3-4 on luna | dropped | no; success is 0 without defense |
 | OpsPilot, all 192 attacks in variant B | **done** | – |
 | OpsPilot held-out 144 in variant A | not run | optional; A blocked everything it saw |
-| Report experiments section, PDF (pandoc + tectonic), 5-min PPTX | open | required; structure: phase 1 → phase 2 |
+| Report experiments section, PDF (pandoc + tectonic), 5-min PPTX | **done** (`scripts/build_report.sh`, `docs/presentation/build_deck.py`) | phase 2 would add a section |
 | README results, v1.0 release with checkpoint, repo public | open | at the end; the owner makes the repo public |

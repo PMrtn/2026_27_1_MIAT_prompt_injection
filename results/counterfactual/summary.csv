@@ -1,7 +1,13 @@
 domain,variant,config,n,k_lower,k_upper,source,asr_lower,asr_upper
 office,-,none,192,0,0,measured,0.0000,0.0000
 office,-,guardrails,192,0,0,estimated,0.0000,0.0000
+office,-,ml,192,0,0,estimated,0.0000,0.0000
+office,-,combined,192,0,0,estimated,0.0000,0.0000
 ops,A,none,48,1,1,measured,0.0208,0.0208
 ops,A,guardrails,48,0,0,estimated,0.0000,0.0000
+ops,A,ml,48,0,0,estimated,0.0000,0.0000
+ops,A,combined,48,0,0,estimated,0.0000,0.0000
 ops,B,none,192,14,14,measured,0.0729,0.0729
 ops,B,guardrails,192,0,0,estimated,0.0000,0.0000
+ops,B,ml,192,4,6,estimated,0.0208,0.0312
+ops,B,combined,192,0,0,estimated,0.0000,0.0000

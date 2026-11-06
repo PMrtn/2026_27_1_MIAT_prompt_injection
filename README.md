@@ -5,7 +5,7 @@ prompt-injection detector next to **deterministic guardrails**, inside an LLM ag
 uses custom MCP tools.
 
 - **Report:** [`docs/report/report.md`](docs/report/report.md) (PDF: `docs/report/report.pdf`)
-- **Slides:** `docs/slides/`
+- **Slides:** [`docs/presentation/`](docs/presentation/) (5-minute deck)
 - **Dataset card:** [`docs/data_card.md`](docs/data_card.md)
 
 Four configurations are compared on the same tasks and attacks:
@@ -57,20 +57,37 @@ Azure access uses Entra ID (`az login`); no API key is stored. Every billed call
 
 ## Reproduce
 
+The undefended agent runs came first, then the detector was trained on what they showed (see
+[`docs/findings.md`](docs/findings.md)). The commands rebuild everything in that order:
+
 ```sh
 python -m pidefense.data.build                 # detector dataset (no API calls)
 python -m pidefense.data.ops_ood               # OpsPilot out-of-domain test set
-python -m pidefense.detector.train             # fine-tune DistilBERT (GPU)
-python -m pidefense.detector.calibrate         # threshold on validation
-python -m pidefense.detector.evaluate          # classifier metrics (+ baselines, external set)
+python -m pidefense.data.focus                 # focus set: delegated documents + escalation follow-ups
+python -m pidefense.experiments.runner         # office agent runs (configs none, guardrails)
+python -m pidefense.experiments.ops_runner --sample            # OpsPilot sample, config none, variants A+B
+python -m pidefense.experiments.ops_runner --rest B            # the other 144 OpsPilot attacks, variant B
+python -m pidefense.experiments.ops_runner --repro 5           # repeat the sample's successes, A and B
+python -m pidefense.experiments.ops_runner --repro 5 --repro-variants B \
+    --repro-from results/ops/rest_episodes.jsonl               # repeat the held-out successes, B
+python -m pidefense.detector.train --artifact-dir artifacts/detector_base --tag base   # base model (GPU)
+python -m pidefense.detector.train --extra-dataset data/focus                          # focus model (configs 3-4)
+python -m pidefense.detector.evaluate --model-dir artifacts/detector_base/best --tag base
+python -m pidefense.detector.evaluate --extra-dataset data/focus
 python -m pidefense.detector.latency           # latency micro-benchmark
-python -m pidefense.experiments.runner         # office end-to-end grid (4 configs)
-python -m pidefense.experiments.ops_runner     # OpsPilot grid (2 prompt variants x 4 configs)
-python -m pidefense.experiments.analysis       # tables
+python -m pidefense.experiments.layer_eval --with-ml --model-dir artifacts/detector_base/best --tag base
+python -m pidefense.experiments.layer_eval --with-ml            # offline: every layer on every attack
+python -m pidefense.experiments.counterfactual                  # estimated ASR per defended configuration
+python -m pidefense.experiments.detector_compare                # base vs focus detector on OpsPilot outputs
+python -m pidefense.experiments.ops_runner --verify 99 --configs guardrails,ml,combined \
+    --verify-from results/ops/sample_episodes.jsonl results/ops/rest_episodes.jsonl   # defended runs
+python -m pidefense.experiments.ops_analysis --episodes results/ops/sample_episodes.jsonl \
+    results/ops/rest_episodes.jsonl --tag full                  # tables
 python -m pidefense.reporting.figures          # figures
+scripts/build_report.sh                        # docs/report/report.pdf (pandoc + tectonic)
 ```
 
-Cached LLM responses (`results/*/llm_cache.jsonl`) make the end-to-end runs reproducible without new API calls.
+Cached LLM responses (`results/*/llm_cache.jsonl`) make the agent runs reproducible without new API calls.
 
 ## Repository layout
 
@@ -81,12 +98,12 @@ src/pidefense/
   defenses/               R1-R3 guardrails, ops permissions, pipeline
   mcp_server/, agent/     office workspace (MCP) and agent loop
   ops/                    OpsPilot workspace, tasks, checkers, multi-turn episodes
-  data/                   templates, authored carriers, Faker carriers, dataset build, OOD set
+  data/                   templates, authored carriers, Faker carriers, dataset build, OOD and focus sets
   detector/               training, inference, baselines, evaluation, latency
   experiments/            attack grids, runners, analysis, threshold sweep
   reporting/              figures
 scenarios/                office (T01-T12) and ops (P01-P08) tasks
 data/                     authored carriers, dataset splits, OOD set
 results/                  metrics, episode logs, cost ledger
-docs/                     report, data card, slides
+docs/                     report, findings log, data card, presentation
 ```
