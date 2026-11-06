@@ -22,6 +22,7 @@ import argparse
 import asyncio
 import json
 import logging
+from pathlib import Path
 from typing import Any
 
 import pandas as pd
@@ -150,13 +151,13 @@ def ops_target_action(goal: str, payload: str, task: OpsTask) -> tuple[str, dict
 class OutputLayers:
     """R1 + R2 and (optionally) the detector, scoring one text for all configurations at once."""
 
-    def __init__(self, with_ml: bool) -> None:
+    def __init__(self, with_ml: bool, model_dir: Path | None = None) -> None:
         self.sanitizer, self.signatures = Sanitizer(), SignatureFilter()
         self.detector = None
         if with_ml:
             from pidefense.detector.inference import InjectionDetector  # pylint: disable=import-outside-toplevel
 
-            self.detector = InjectionDetector()
+            self.detector = InjectionDetector(model_dir) if model_dir else InjectionDetector()
         self.ctx = ToolContext(tool_name="layer_eval")
 
     def score(self, text: str) -> dict[str, Any]:
@@ -295,15 +296,16 @@ def summarize(attacks: pd.DataFrame, benign: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(out)
 
 
-async def _main(with_ml: bool) -> None:
-    layers = OutputLayers(with_ml)
+async def _main(with_ml: bool, model_dir: Path | None, tag: str) -> None:
+    layers = OutputLayers(with_ml, model_dir)
+    suffix = f"_{tag}" if tag else ""
     attacks = pd.DataFrame(await office_rows(layers) + await ops_rows(layers))
     benign = pd.DataFrame(benign_rows(layers))
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    attacks.to_csv(OUT_DIR / "attack_outputs.csv", index=False, float_format="%.5f")
-    benign.to_csv(OUT_DIR / "benign_outputs.csv", index=False, float_format="%.5f")
+    attacks.to_csv(OUT_DIR / f"attack_outputs{suffix}.csv", index=False, float_format="%.5f")
+    benign.to_csv(OUT_DIR / f"benign_outputs{suffix}.csv", index=False, float_format="%.5f")
     summary = summarize(attacks, benign)
-    summary.to_csv(OUT_DIR / "summary.csv", index=False, float_format="%.4f")
+    summary.to_csv(OUT_DIR / f"summary{suffix}.csv", index=False, float_format="%.4f")
     with pd.option_context("display.width", 220, "display.max_columns", 20):
         logger.info("\n%s", summary.to_string(index=False))
 
@@ -312,9 +314,13 @@ def main() -> None:
     """CLI entry point."""
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--with-ml", action="store_true")
+    parser.add_argument(
+        "--model-dir", type=Path, default=None, help="detector checkpoint (default: artifacts/detector/best)"
+    )
+    parser.add_argument("--tag", default="", help="suffix of the output files, e.g. base")
     args = parser.parse_args()
     setup_logging()
-    asyncio.run(_main(args.with_ml))
+    asyncio.run(_main(args.with_ml, args.model_dir, args.tag))
 
 
 if __name__ == "__main__":

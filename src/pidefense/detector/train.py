@@ -3,8 +3,11 @@
 The best epoch is chosen by validation PR-AUC. The decision threshold is then calibrated on the validation benign
 samples for FPR <= 1% and stored next to the model (``threshold.json``). Test data is never touched here.
 
+The training data is the base dataset (``data/dataset``) plus any ``--extra-dataset`` directory with the same
+split files (e.g. ``data/focus``, the delegated-document component of ``pidefense.data.focus``).
+
 Usage:
-    python -m pidefense.detector.train [--epochs 3] [--lr 3e-5]
+    python -m pidefense.detector.train [--extra-dataset data/focus] [--artifact-dir artifacts/detector] [--tag base]
 """
 
 from __future__ import annotations
@@ -14,6 +17,7 @@ import logging
 import math
 import shutil
 import time
+from pathlib import Path
 
 import numpy as np
 import torch
@@ -30,6 +34,7 @@ from transformers import (
 
 from pidefense.detector.common import (
     ARTIFACT_DIR,
+    DATASET_DIR,
     MAX_TOKENS,
     MODEL_NAME,
     RESULTS_DIR,
@@ -41,12 +46,18 @@ from pidefense.detector.common import (
 )
 from pidefense.detector.inference import InjectionDetector
 from pidefense.logging_utils import setup_logging
+from pidefense.schemas import Sample
 
 logger = logging.getLogger(__name__)
 
 
-def _to_dataset(split: str, tokenizer: AutoTokenizer) -> Dataset:
-    samples = load_split(split)
+def load_splits(split: str, dataset_dirs: list[Path]) -> list[Sample]:
+    """One split of every dataset directory, concatenated."""
+    return [sample for directory in dataset_dirs for sample in load_split(split, directory)]
+
+
+def _to_dataset(split: str, tokenizer: AutoTokenizer, dataset_dirs: list[Path]) -> Dataset:
+    samples = load_splits(split, dataset_dirs)
     dataset = Dataset.from_dict({"text": [s.text for s in samples], "label": [s.label for s in samples]})
     return dataset.map(
         lambda batch: tokenizer(batch["text"], truncation=True, max_length=MAX_TOKENS),
@@ -71,20 +82,24 @@ def main() -> None:
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--grad-accum", type=int, default=2)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--extra-dataset", type=Path, action="append", default=[])
+    parser.add_argument("--artifact-dir", type=Path, default=ARTIFACT_DIR)
+    parser.add_argument("--tag", default="", help="suffix of results/detector/training_<tag>.json")
     args = parser.parse_args()
     setup_logging()
     set_seed(args.seed)
 
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-    train_ds = _to_dataset("train", tokenizer)
-    val_ds = _to_dataset("val", tokenizer)
+    dataset_dirs = [DATASET_DIR, *args.extra_dataset]
+    train_ds = _to_dataset("train", tokenizer, dataset_dirs)
+    val_ds = _to_dataset("val", tokenizer, dataset_dirs)
     logger.info("Train %d / val %d samples; CUDA available: %s", len(train_ds), len(val_ds), torch.cuda.is_available())
 
     model = AutoModelForSequenceClassification.from_pretrained(
         MODEL_NAME, num_labels=2, id2label={0: "benign", 1: "injection"}, label2id={"benign": 0, "injection": 1}
     )
     steps_per_epoch = math.ceil(len(train_ds) / (args.batch_size * args.grad_accum))
-    run_dir = ARTIFACT_DIR / "run"
+    run_dir = args.artifact_dir / "run"
     training_args = TrainingArguments(
         output_dir=str(run_dir),
         num_train_epochs=args.epochs,
@@ -119,7 +134,7 @@ def main() -> None:
     start = time.perf_counter()
     trainer.train()
     train_minutes = (time.perf_counter() - start) / 60
-    best_dir = ARTIFACT_DIR / "best"
+    best_dir = args.artifact_dir / "best"
     if best_dir.exists():
         shutil.rmtree(best_dir)
     trainer.save_model(str(best_dir))
@@ -133,16 +148,19 @@ def main() -> None:
     del trainer, model
     torch.cuda.empty_cache()
     detector = InjectionDetector(best_dir)
-    val_samples = load_split("val")
+    val_samples = load_splits("val", dataset_dirs)
     val_scores = detector.score([s.text for s in val_samples])
     threshold = select_threshold([s.label for s in val_samples], val_scores, TARGET_FPR)
     write_json(best_dir / "threshold.json", {"threshold": threshold, "target_fpr": TARGET_FPR, "calibrated_on": "val"})
     val_metrics = binary_metrics([s.label for s in val_samples], val_scores, threshold)
     write_json(
-        RESULTS_DIR / "training.json",
+        RESULTS_DIR / (f"training_{args.tag}.json" if args.tag else "training.json"),
         {
             "model": MODEL_NAME,
-            "hyperparameters": vars(args) | {"max_tokens": MAX_TOKENS},
+            "datasets": [str(d) for d in dataset_dirs],
+            "artifact_dir": str(args.artifact_dir),
+            "hyperparameters": {k: v for k, v in vars(args).items() if not isinstance(v, (Path, list))}
+            | {"max_tokens": MAX_TOKENS},
             "train_samples": len(train_ds),
             "val_samples": len(val_ds),
             "train_minutes": round(train_minutes, 2),
