@@ -15,6 +15,8 @@ Usage:
     python -m pidefense.experiments.ops_runner --subset-only           # write results/ops/subset.json
     python -m pidefense.experiments.ops_runner --sample                # config none, variants A+B, subset (+benign)
     python -m pidefense.experiments.ops_runner --verify 16 --configs guardrails,ml,combined   # variant B check
+    python -m pidefense.experiments.ops_runner --verify 99 --configs guardrails,ml,combined
+        --verify-from results/ops/sample_episodes.jsonl results/ops/rest_episodes.jsonl   # defended successes
     python -m pidefense.experiments.ops_runner --pilot 32               # config none, variant B, sample
     python -m pidefense.experiments.ops_runner                          # full factorial run (not used: too costly)
     python -m pidefense.experiments.ops_runner --l2 48                  # side run: L0-L1-L2, config none
@@ -142,6 +144,16 @@ def verify_plan(
         specs += [OpsSpec(f"B|{config.name}|{t}|benign|0", "B", config, t, None, 0) for t in sorted(tasks)]
         specs += [OpsSpec(f"B|{config.name}|{a.attack_id}", "B", config, a.task_id, a, 0) for a in chosen]
     return specs
+
+
+def verify_pool(attacks: list[OpsAttack], sources: list[Path] | None) -> list[OpsAttack]:
+    """The stratified subset, or (with ``sources``) every attack that succeeded in one of those episode files."""
+    if not sources:
+        return subset_attacks(attacks)
+    by_id = {attack.attack_id: attack for attack in attacks}
+    pool = [by_id[i] for i in sorted(set().union(*(successful_attacks(path) for path in sources)))]
+    logger.info("Verifying %d successful attacks: %s", len(pool), [a.attack_id for a in pool])
+    return pool
 
 
 def successful_attacks(path: Path) -> list[str]:
@@ -323,13 +335,15 @@ async def run(
         await client.aclose()
 
 
-def main() -> None:
-    """CLI entry point."""
+def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--attacks-only", action="store_true")
     parser.add_argument("--subset-only", action="store_true")
     parser.add_argument("--sample", action="store_true")
     parser.add_argument("--verify", type=int, default=0)
+    parser.add_argument(
+        "--verify-from", type=Path, nargs="+", help="verify the attacks that succeeded in these files, not the subset"
+    )
     parser.add_argument("--pilot", type=int, default=0)
     parser.add_argument("--l2", type=int, default=0)
     parser.add_argument("--repro", type=int, default=0, help="repetitions of the successful attacks of --repro-from")
@@ -338,7 +352,12 @@ def main() -> None:
     parser.add_argument("--rest", choices=VARIANTS, help="run the attacks outside the sample subset (config none)")
     parser.add_argument("--configs", default="none,guardrails,ml,combined")
     parser.add_argument("--concurrency", type=int, default=3)
-    args = parser.parse_args()
+    return parser
+
+
+def main() -> None:
+    """CLI entry point."""
+    args = _parser().parse_args()
     setup_logging()
 
     tasks = load_ops_tasks()
@@ -366,7 +385,8 @@ def main() -> None:
             True,
         )
     elif args.verify:
-        specs = verify_plan(tasks, subset_attacks(attacks), [c for c in configs if c.name != "none"], args.verify)
+        pool = verify_pool(attacks, args.verify_from)
+        specs = verify_plan(tasks, pool, [c for c in configs if c.name != "none"], args.verify)
         out, stop_on_success = OPS_DIR / "verify_episodes.jsonl", True
     elif args.repro:
         ids = successful_attacks(args.repro_from)

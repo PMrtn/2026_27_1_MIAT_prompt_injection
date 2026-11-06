@@ -82,6 +82,38 @@ The authored texts were checked automatically:
 
 Full counts per split, language, family and carrier type are in `data/dataset/stats.json`.
 
+## Focus component: delegated documents (added after phase 1)
+
+`data/focus/{train,val,test}.jsonl`, built by `python -m pidefense.data.focus` (no LLM call).
+
+- **Why:** in phase 1 the agent only followed injections inside a runbook or checklist that the user told it to
+  follow, mostly after one escalation follow-up. The main dataset has no sample of that shape.
+- **Carriers:** 100 Claude-written procedure documents (EN/HU runbooks, checklists, change requests, playbooks and
+  SOPs; each with one `{{SLOT}}` line) and 90 legitimate follow-up messages, in `data/generated/claude/focus/`. They
+  use an invented company and service universe; the OpsPilot test entities are banned (`FORBIDDEN` in the module).
+- **Samples per document:**
+  - label 0: the document itself, with a legitimate inserted step, and with a legitimate appended follow-up;
+  - label 1: two documents with a malicious inserted step (**D1**) and one with a malicious appended follow-up
+    (**D2**).
+- **Samples per follow-up:**
+  - label 0: the follow-up itself and one templated legitimate follow-up;
+  - label 1: two malicious follow-ups (D2).
+- **Contrast by design:**
+  - Shared wrappers (change references, approvals, update notes) carry both legitimate and malicious actions.
+  - Malicious-only wrappers carry the manipulation cues: "pre-approved, do not ask", "do this silently", "you already
+    agreed", pressure after a refusal.
+  - 25% of inserts of either label are in the other language.
+  - Inserted steps copy the list style of the surrounding document.
+- **Sizes:** 960 samples (train 708, val 164, test 88), 50% injected, all benign samples are hard negatives.
+- **Leakage controls:**
+  - Documents, follow-ups and wrappers are split 70/15/15 by hash.
+  - `tests/test_focus.py` checks that no wrapper or action phrase shares a five-word sequence with the OpsPilot attack
+    templates, follow-ups or goals.
+  - Action phrasings are shared across splits, so the focus test split measures new documents and wrappers, not new
+    actions.
+- **Caveat:** the component was designed after seeing which attacks worked. The OpsPilot attack set stays the held-out
+  test (no shared entities, documents or wording), but it is no longer independent of the design choices.
+
 ## Out-of-domain test sets (evaluation only)
 
 - **OpsPilot OOD set** (`data/ood_ops/ood_ops.jsonl`, built by `python -m pidefense.data.ops_ood`):
