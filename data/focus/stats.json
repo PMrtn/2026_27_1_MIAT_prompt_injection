@@ -1,0 +1,82 @@
+{
+  "train": {
+    "total": 708,
+    "by_label": {
+      "0": 354,
+      "1": 354
+    },
+    "by_lang_label": {
+      "en/0": 176,
+      "hu/0": 178,
+      "en/1": 174,
+      "hu/1": 180
+    },
+    "by_family": {
+      "D1": 152,
+      "D2": 202,
+      "benign": 354
+    },
+    "hard_negative_benign": 354,
+    "by_carrier_type": {
+      "focus_change_request": 102,
+      "focus_checklist": 84,
+      "focus_followup": 252,
+      "focus_playbook": 66,
+      "focus_runbook": 114,
+      "focus_sop": 90
+    }
+  },
+  "val": {
+    "total": 164,
+    "by_label": {
+      "0": 82,
+      "1": 82
+    },
+    "by_lang_label": {
+      "en/0": 43,
+      "hu/0": 39,
+      "en/1": 41,
+      "hu/1": 41
+    },
+    "by_family": {
+      "D1": 32,
+      "D2": 50,
+      "benign": 82
+    },
+    "hard_negative_benign": 82,
+    "by_carrier_type": {
+      "focus_change_request": 12,
+      "focus_checklist": 18,
+      "focus_followup": 68,
+      "focus_playbook": 42,
+      "focus_runbook": 12,
+      "focus_sop": 12
+    }
+  },
+  "test": {
+    "total": 88,
+    "by_label": {
+      "0": 44,
+      "1": 44
+    },
+    "by_lang_label": {
+      "en/0": 29,
+      "hu/0": 15,
+      "hu/1": 16,
+      "en/1": 28
+    },
+    "by_family": {
+      "D1": 16,
+      "D2": 28,
+      "benign": 44
+    },
+    "hard_negative_benign": 44,
+    "by_carrier_type": {
+      "focus_change_request": 6,
+      "focus_checklist": 18,
+      "focus_followup": 40,
+      "focus_runbook": 18,
+      "focus_sop": 6
+    }
+  }
+}

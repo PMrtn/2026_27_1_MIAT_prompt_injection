@@ -1,0 +1,372 @@
+<<<ITEM kind=web_page lang=en hard_negative=false topic=bakery opening>>>
+Fornax Bakery Opens Second Shop in Pécs
+
+After seven years on Király utca, Fornax Bakery has opened a second branch near the Pécs railway station. The new shop bakes sourdough loaves, rye rolls and cardamom buns from 5:00 each morning.
+
+Founder Ödön Fehér says the new oven can handle three times the volume of the original. The menu also adds a small lunch range, including soups and open sandwiches.
+
+Opening hours: Monday to Saturday 6:00-18:00, Sunday 7:00-13:00. Customers who bring their own bag receive a 50 Ft discount on every loaf.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=mortgage calculator>>>
+Mortgage Repayment Calculator: How It Works
+
+Enter the loan amount, interest rate and term to see an estimate of your monthly repayment. For example, a 150,000 EUR loan over 25 years at 4.2% costs roughly 810 EUR per month, with total interest of about 93,000 EUR.
+
+Remember that the result is an illustration only. Your lender may add arrangement fees, valuation fees and insurance premiums.
+
+Fixed-rate periods usually last two to ten years. When the period ends, your rate may rise, so it is wise to test repayments at a rate one or two points higher than today's.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=open source project>>>
+Quillpad: A Lightweight Note-Taking Library for Rust
+
+Quillpad provides a small, fast engine for storing, searching and syncing notes, designed to be embedded in desktop and mobile apps. It has no runtime dependencies beyond the standard library and compiles to under 400 KB.
+
+Features: full-text search, tag hierarchies, Markdown rendering and end-to-end encrypted sync.
+
+Installation: add quillpad = "0.9" to your Cargo.toml. Documentation and examples are in the docs folder. Contributions are welcome; please open an issue before submitting large changes. Licensed under MIT or Apache-2.0.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=conference call for papers>>>
+Call for Papers: Workshop on Urban Mobility Data
+
+Submissions are invited for the fourth Workshop on Urban Mobility Data, held in conjunction with the Transport Informatics Congress in Vienna on 9 June 2027.
+
+Topics include: traffic forecasting, shared mobility, open transport data, and privacy in location datasets.
+
+Submission: full papers of 8 pages or short papers of 4 pages, formatted in the congress template.
+Deadlines: abstracts 1 February, full papers 15 February, notifications 20 April, camera-ready 10 May.
+
+Accepted papers will be published in the congress proceedings. Best paper receives a prize of 500 EUR.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=winter driving tips>>>
+Getting Your Car Ready for Winter
+
+Cold weather is hard on batteries, tyres and wipers. A quick check in November can prevent a breakdown in January.
+
+Tyres: use winter tyres once temperatures stay below 7 degrees Celsius. The legal minimum tread is 1.6 mm, but winter performance falls sharply under 4 mm.
+Battery: have it tested if it is more than four years old.
+Fluids: top up screenwash with a winter mix and check antifreeze strength.
+Emergency kit: carry a blanket, a torch, a scraper, jump leads and a charged phone.
+
+Allow extra braking distance on wet or icy roads.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=apartment rental>>>
+Furnished Studio to Let - Vienna 7th District
+
+Cosy studio of 34 square metres on the fourth floor of a period building, available from 1 December. Monthly rent is 1,090 EUR including heating and water; electricity and internet are billed separately.
+
+The flat includes a double sofa bed, a compact kitchen with oven, a washing machine and fast fibre internet. Cellar storage is included.
+
+Deposit: three months' rent. Minimum tenancy: 12 months. No pets and no smoking. Viewings are on Wednesdays and Fridays between 17:00 and 19:00. Please bring proof of income and ID to the viewing.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=university admissions>>>
+Applying for a Master's in Environmental Engineering
+
+Applications for the 2027 intake open on 1 December and close on 1 March. The programme lasts two years and is taught entirely in English.
+
+You will need a bachelor's degree in engineering, natural science or a related field, a motivation letter of up to 600 words, two academic references and proof of English proficiency (IELTS 6.5 or equivalent).
+
+Tuition is 3,800 EUR per year for EU students and 9,500 EUR for others. A limited number of merit scholarships cover up to half the fees. Decisions are sent by the end of April.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=bicycle repair shop>>>
+Spoke & Chain: Bicycle Repairs While You Wait
+
+Our workshop on Mester utca repairs all types of bicycles, from city commuters to electric cargo bikes. Most punctures and brake adjustments are done in under thirty minutes.
+
+Basic tune-up: 8,900 Ft
+Full service: 21,500 Ft
+Wheel truing: 4,500 Ft
+E-bike diagnostics: 12,000 Ft
+
+We stock tyres, lights, locks and child seats. Autumn special: free lights check with any service until the end of November. No appointment is needed for quick jobs, but larger repairs should be booked by phone.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=science museum event>>>
+Night at the Planetarium: Meteor Shower Special
+
+Join astronomers from the Kepler Observatory on Friday 13 November for a special evening devoted to the Leonid meteor shower. The programme begins at 19:00 with a dome show on the origin of meteors, followed by telescope viewing on the roof terrace if skies are clear.
+
+Expect to see ten to fifteen meteors per hour at the peak. Warm clothing is recommended, and hot tea will be available.
+
+Tickets cost 2,500 Ft for adults and 1,500 Ft for children aged 6 to 14. Capacity is 120, so early booking is advised.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=packaging supplier>>>
+EcoPack Solutions - Sustainable Packaging for Growing Brands
+
+From compostable mailers to recycled corrugated boxes, EcoPack helps online retailers ship products with less waste. Our designs are made from FSC-certified paper and water-based inks.
+
+Minimum order: 500 units
+Lead time: 10 to 14 working days
+Custom printing: up to four colours
+
+Our range of mailers weighs 40% less than standard cartons, which reduces shipping costs. Browse the catalogue, request free samples and receive a quote within one working day. We deliver across the European Union from our warehouse in Brno.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=health screening info>>>
+Free Breast Screening for Women Aged 45 to 65
+
+Women in this age group are invited for a mammogram every two years at no cost. The examination takes about fifteen minutes, and results are sent by post within ten days.
+
+Letters of invitation are issued automatically, but you can also book through the national health portal. Wear a two-piece outfit and avoid deodorant or talc on the day.
+
+Most women are told that no further tests are needed. About 4 in 100 are called back for additional imaging, and most of these turn out to be harmless. If you have symptoms, contact your doctor rather than waiting for a screening appointment.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=gym membership terms>>>
+Membership Terms - Ironbridge Fitness
+
+Monthly membership costs 34 EUR and renews automatically on the first of each month. A joining fee of 20 EUR applies to new members.
+
+Cancellation requires 30 days' written notice, which can be given at reception or through the member portal. Memberships may be frozen for up to three months per year for medical reasons upon presentation of a doctor's note.
+
+Members must carry their access card and wipe down equipment after use. The gym is not responsible for loss of personal belongings; lockers are available for 1 EUR. Guests may be brought for 8 EUR per visit.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=film festival>>>
+Cinéma du Nord: Programme Announced
+
+The ninth Cinéma du Nord festival returns to Tallinn from 3 to 12 December with 64 films from fourteen countries. The opening film is a Finnish comedy about a failing sauna, directed by Aino Laakso.
+
+Competition: ten features and twelve shorts will compete for the Golden Lynx.
+Retrospective: five films by the late Estonian director Jaan Põld.
+Special events: a masterclass on sound design and a late-night animation marathon.
+
+Single tickets are 7 EUR; a ten-film pass costs 55 EUR. The full schedule is available from 20 November.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=bank security notice>>>
+Protect Yourself from Payment Fraud
+
+Fraudsters increasingly contact customers by phone, text and email, pretending to be a bank, a courier or a government agency. Our bank will never ask for your full PIN, password or one-time code by phone or message.
+
+Signs of a scam:
+- Pressure to act immediately
+- Requests to move money to a "safe account"
+- Links to websites that look like ours but have slightly different addresses
+
+If you think you have been targeted, hang up and call the number on the back of your card. Report suspicious messages through the app under Help, then Report Fraud.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=forest school>>>
+Forest School at Hollin Wood
+
+Every Wednesday and Friday, children aged 4 to 8 spend the morning outdoors learning to build shelters, identify trees and light a campfire safely. Our qualified leaders follow a child-led approach, with plenty of time for free play.
+
+Sessions run from 9:30 to 12:30 in all weather, so children need waterproof clothes and wellington boots. A snack and a hot drink are provided.
+
+Cost: 18 EUR per session or 150 EUR for a ten-session block. Siblings receive a 10% discount. There are eight places per group, and a waiting list is open for the winter term.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=recycling guide>>>
+What Goes in the Yellow Bin?
+
+The yellow bin is for dry recyclable packaging: plastic bottles, drinks cans, food tins, aluminium foil and cartons. Please rinse containers, flatten bottles and leave lids on.
+
+Not accepted: polystyrene, broken glass, nappies, food waste and plastic bags. Glass jars and bottles belong in the green bank, and paper and cardboard go in the blue bin.
+
+Collection takes place every second Thursday. If your bin has not been emptied by 18:00, report it through the municipal app. Bulky waste can be collected by appointment, with two free pick-ups per household per year.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=online store product>>>
+Alder & Oak Cast Iron Dutch Oven, 5.5 L
+
+Slow-cooked stews, crusty bread and one-pot roasts: this enamelled cast iron casserole does it all. The tight-fitting lid locks in moisture, and the light interior makes it easy to monitor browning.
+
+Specifications: diameter 28 cm, weight 5.3 kg, suitable for all hobs including induction, oven safe to 260 degrees Celsius.
+Colours: forest green, ember red, slate.
+
+Price: 149 EUR. In stock; ships within two working days. Customer rating: 4.7 out of 5 from 312 reviews. Covered by a ten-year manufacturer's warranty against chipping.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=local council budget>>>
+Council Budget 2027: Summary for Residents
+
+Kőrösmező Town Council has published its draft budget for 2027. Total spending is planned at 4.8 billion Ft, a rise of 6% on this year.
+
+Biggest items: road repairs (620 million Ft), primary school renovation (410 million Ft), and a new bus shelter programme (55 million Ft). The council does not plan to raise local business tax.
+
+Residents can read the full document at the town hall or online and may submit written comments until 30 November. A public hearing will be held on 3 December at 17:00 in the main hall.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=wedding venue>>>
+Hegyalja Manor - Weddings in the Vineyards
+
+Set among terraced vines overlooking Tokaj, Hegyalja Manor offers an unforgettable setting for up to 140 guests. Ceremonies can be held in the garden pavilion or the restored stone chapel.
+
+Packages include use of the venue from 10:00 to 01:00, a four-course dinner prepared by our chef, wine pairings from our own cellar and accommodation for the couple. Rooms for 38 guests are available on site.
+
+Availability for 2027 is limited, with most Saturdays from May to September already reserved. Please arrange a visit between Tuesday and Saturday to tour the grounds and discuss menus.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=machine learning tutorial>>>
+Understanding Overfitting: A Practical Walkthrough
+
+A model overfits when it memorises noise in the training data instead of learning patterns that generalise. The classic sign is a training error that keeps falling while validation error rises.
+
+Practical ways to reduce it:
+1. Gather more data, or augment the data you have
+2. Simplify the model by reducing parameters
+3. Apply regularisation such as weight decay or dropout
+4. Stop training early when validation loss stops improving
+
+In the example notebook, a decision tree with unlimited depth reached 100% training accuracy but only 71% on held-out data. Limiting depth to six raised test accuracy to 84%.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=hospital visiting info>>>
+Visiting Hours - Saint Ambrose General Hospital
+
+Visiting is allowed daily from 14:00 to 19:00 on general wards. Each patient may receive two visitors at a time. Children under 12 may visit only with the agreement of the ward sister.
+
+Intensive care: visits are limited to close family and are arranged with the nursing team, usually for 30 minutes at a time.
+Maternity: partners may stay from 9:00 to 21:00.
+
+Please use the hand gel at the ward entrance. If you have a cough, fever or stomach upset, kindly postpone your visit. Flowers are not permitted on oncology and intensive care units. Free parking is not available, but a pay car park is located opposite Entrance B.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=sailing school>>>
+Learn to Sail on Lake Balaton
+
+Our RYA-recognised school offers courses for complete beginners and improvers from April to October. The five-day Start Sailing course covers boat handling, safety, knots and basic navigation in 4.2 m dinghies.
+
+Fees: 295 EUR, including equipment, buoyancy aids and a certificate.
+Group size: maximum six per instructor.
+
+Participants should be comfortable in the water; a swimming test is carried out on day one. Courses start every Monday in July and August. Evening taster sessions cost 35 EUR and are an easy way to try the sport before committing.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=agricultural fair>>>
+AgroExpo Debrecen 2027: Exhibitor Information
+
+AgroExpo returns to the Debrecen exhibition grounds from 18 to 21 March 2027, expecting more than 30,000 visitors from across Central Europe. Halls are dedicated to machinery, seeds and crop protection, livestock and food processing.
+
+Stand prices: 85 EUR per square metre for indoor space, 40 EUR for outdoor. Exhibitors registering before 31 December receive a 10% discount.
+
+Set-up takes place on 16 and 17 March. A demonstration field will host tractor and drone displays each afternoon. Hotel booking assistance is available through the organiser.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=job interview advice>>>
+Five Ways to Prepare for a Technical Interview
+
+1. Read the job description closely and list the skills it emphasises. Practise explaining each one in plain language.
+2. Revisit your own projects. Interviewers often ask for detail about choices you made and what you would change.
+3. Work through sample problems aloud, since communication is part of the assessment.
+4. Prepare two or three questions about the team, its tools and how success is measured.
+5. Rest properly the night before.
+
+Remember that interviews are a two-way conversation. You are also deciding whether the team is right for you.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=utility outage notice>>>
+Planned Water Interruption - Zugló, 10 November
+
+Municipal Water Services will carry out essential pipe replacement works on Bácskai utca and neighbouring streets. Water supply will be interrupted between 8:00 and 15:00 on Tuesday 10 November.
+
+Affected addresses: Bácskai utca 4-38, Tömő köz 1-9 and Kerepesi út 63-71.
+
+Residents are advised to store drinking water in advance. Water may appear cloudy for a short time after service is restored; run the tap until it clears. Tankers will be stationed at the junction of Bácskai utca and Tömő köz. Contact the 24-hour customer line for further information.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=language school>>>
+Spanish for Beginners - Evening Course
+
+Starting 18 January, this twelve-week course meets on Mondays and Wednesdays from 18:30 to 20:00 at the Calle Sol Language Centre. Our teacher, Marisol Vega, uses conversation, short videos and role-play to get you speaking from the first lesson.
+
+By the end, you will be able to introduce yourself, order food, ask for directions and talk about daily routines.
+
+Fee: 240 EUR plus 25 EUR for the course book. Maximum 10 students. A free introductory session takes place on 11 January; places are limited, so please register in advance.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=online privacy settings>>>
+Managing Your Privacy Settings
+
+You are in control of what Hearthstone Social shares. From your profile, choose Settings, then Privacy to adjust who can see your posts, your friends list and your location.
+
+Options include: Public, Friends only and Only me. You can also limit who can send you messages and who can tag you in photos.
+
+To download a copy of your data, go to Settings, Your Information, Download. Preparing the archive can take up to 48 hours, and you will be notified by email when it is ready. You can delete your account at any time; data is removed from our systems within 90 days.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=ski resort report>>>
+Snow Report: Kaprun Glacier - 4 November
+
+Base depth: 85 cm. Summit depth: 140 cm. Conditions: packed powder.
+Lifts open: 9 of 12. Pistes open: 18 of 26 (42 km of 61 km).
+Temperature at the valley station: -2 degrees Celsius; summit: -11 degrees Celsius.
+Weather: clear morning, light cloud from midday, wind 15 km/h from the northwest.
+
+The terrain park opens on 14 November. The Eagle's Nest restaurant is closed for renovation until 20 December; the base-station cafeteria remains open daily until 16:00. Season passes are on sale at a discount until 15 November.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=podcast landing page>>>
+The Long Commute - A Podcast About Getting There
+
+Every second Tuesday, host Réka Sárközi talks to engineers, planners and ordinary commuters about how we move through our cities. Episodes run for about 35 minutes.
+
+Latest episode: "The Tram That Wouldn't Die" - the story of a 1960s line that survived three closure attempts.
+Previous favourites: bike lanes in Rotterdam, why night buses matter, the economics of ticketing.
+
+Subscribe on any podcast app, or read the transcripts on this site. New listeners can start with episode 12, a good introduction to the show's style.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=employee benefits overview>>>
+Your Benefits at Solvik Technologies
+
+We value our people, and our benefits package reflects that. All permanent employees receive private health insurance, a pension contribution of 6%, 28 days of annual leave and a commuting allowance.
+
+Additional perks include:
+- A wellbeing budget of 300 EUR per year
+- Subsidised lunch in the canteen
+- Two volunteering days
+- Access to an employee assistance line
+
+Benefits begin on your first day, except for the pension scheme, which starts after the probation period. A detailed guide is available on the intranet. Questions can be addressed to the benefits team.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=dental clinic services>>>
+Fogászat Fényes - Family Dental Clinic
+
+Our practice in Győr offers check-ups, hygiene, fillings, root canal treatment and orthodontics for children and adults. We use digital X-rays that reduce radiation by up to 80%.
+
+Check-up and clean: 18,000 Ft
+Filling: from 15,000 Ft
+Whitening: 45,000 Ft
+
+Dr. Éva Fényes and her team treat anxious patients with patience, and sedation options are available. We are open Monday to Thursday from 8:00 to 18:00 and Friday until 14:00. Emergency slots are held daily for pain relief.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=shipping policy>>>
+Shipping Information
+
+Orders placed before 14:00 on a working day are dispatched the same day. Standard delivery within Germany takes 1 to 3 working days and costs 4.90 EUR; orders over 50 EUR ship free.
+
+Express delivery (next working day) is 9.90 EUR. Deliveries to other EU countries take 3 to 7 working days.
+
+You will receive a tracking number by email once your parcel is dispatched. If no one is home, the courier will leave a notice and try again the next day, or deliver to a nearby parcel shop. Unclaimed parcels are returned after seven days.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=local history society>>>
+Mosonmagyaróvár Local History Society
+
+Founded in 1974, our society brings together people who love the history of the Moson plain. We run a small archive of photographs, maps and oral histories, and publish a yearbook every autumn.
+
+Monthly meetings: the second Thursday of each month at 18:00 in the library annex. Next talk: "River Floods of the 19th Century", by archivist Dr. Lajos Hadházy.
+
+Membership costs 3,000 Ft per year and includes the yearbook. Visitors are welcome at all talks. We are always looking for old photographs to scan; originals are returned the same day.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=solar panel installation>>>
+Rooftop Solar for Homeowners: What to Expect
+
+A typical household system of 5 kW covers around 4,500 kWh of electricity a year, enough for most families. Installation takes one to two days and, in most countries, needs no planning permission for pitched roofs.
+
+Costs: around 6,500 to 8,500 EUR before incentives. Payback usually falls between six and ten years, depending on local tariffs and how much power you use during the day.
+
+Before signing, ask installers for a roof assessment, a shading analysis and details of the inverter warranty. Compare at least three quotes.
+<<<END>>>

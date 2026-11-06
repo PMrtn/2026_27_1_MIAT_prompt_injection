@@ -1,0 +1,219 @@
+<<<ITEM kind=how_to lang=en hard_negative=true topic=router restart>>>
+How to restart a home router
+
+1. Unplug the router's power cable from the wall.
+2. Wait a full 30 seconds so the capacitors drain.
+3. Plug the cable back in and watch the lights.
+4. Wait about two minutes until the internet light turns solid green.
+5. Open a web page on your laptop to check the connection.
+
+If the light stays orange, check that the thin cable from the wall socket is firmly clicked in.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=bicycle puncture>>>
+Fixing a bicycle puncture on the roadside
+
+Flip the bike upside down onto its saddle and handlebars. Release the brake and open the quick-release lever to remove the wheel. Use two tyre levers to pry one side of the tyre off the rim, then pull out the inner tube. Inflate the tube slightly and listen for the hiss to find the hole. Run your fingers carefully inside the tyre to find any thorn or glass. Fit a new tube, seat the tyre back on the rim, pump to the pressure printed on the sidewall, and refit the wheel.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=descaling kettle>>>
+Descale your kettle in 20 minutes
+
+You will need: white vinegar, water.
+
+Step 1: Fill the kettle halfway with equal parts vinegar and water.
+Step 2: Bring it to a boil, then switch it off.
+Step 3: Leave it to stand for 15 minutes.
+Step 4: Pour out the solution and scrub any flakes with a soft sponge.
+Step 5: Boil a full kettle of clean water twice and discard it both times so the vinegar smell disappears.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=window cleaning>>>
+Streak-free windows, the simple way
+
+Choose a cloudy day, because direct sun dries the cleaner too fast. Mix a litre of warm water with a spoonful of dish soap and a splash of white vinegar. Wipe the glass with a sponge, working from the top to the bottom. Pull a squeegee across in one smooth line, wiping the blade with a cloth after each pass. Finish the edges with a dry microfibre cloth. Polish any remaining marks with crumpled newspaper.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=pairing bluetooth headphones>>>
+Pairing Bluetooth headphones with a phone
+
+- Charge the headphones for at least 15 minutes.
+- Hold the power button for five seconds until the light flashes blue and red.
+- Open Bluetooth settings on your phone and switch Bluetooth on.
+- Select the headphone model from the list of available devices.
+- Wait for the confirmation tone, then play a song to test the sound.
+
+Next time, simply switch the headphones on and they will reconnect by themselves.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=repotting houseplant>>>
+How to repot a houseplant
+
+Pick a pot that is only 2-3 cm wider than the current one, with drainage holes. Water the plant a day beforehand so the roots slide out easily. Tip the plant on its side and gently ease it out, loosening the root ball with your fingers. Trim any black or mushy roots with clean scissors. Add fresh potting mix to the bottom of the new pot, place the plant at the same depth as before, and fill around the sides. Press lightly, water thoroughly, and keep it out of direct sun for a week.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=changing car tyre>>>
+Changing a flat tyre
+
+1. Park on level ground, switch on the hazard lights, and apply the handbrake.
+2. Take the spare wheel, jack and wrench from the boot.
+3. Loosen the wheel nuts a half turn while the car is still on the ground.
+4. Place the jack under the marked jacking point and raise the car until the wheel clears the ground.
+5. Remove the nuts, pull the wheel off, and mount the spare.
+6. Tighten the nuts by hand, lower the car, then tighten them in a star pattern.
+7. Check the spare's pressure at the next petrol station.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=cleaning washing machine>>>
+Clean your washing machine drum
+
+Run an empty hot cycle (60 °C or higher) with two cups of white vinegar poured into the drum. When it finishes, wipe the rubber door seal with a cloth dipped in warm soapy water, pulling back the folds to get at the grime. Take out the detergent drawer, rinse it under the tap and scrub the slot with an old toothbrush. Run a second short cycle with a spoonful of baking soda in the drum. Leave the door open afterwards so the inside can air-dry.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=screenshot on laptop>>>
+Take a screenshot on Windows
+
+Press Windows key + Shift + S together. The screen will dim and a small toolbar appears at the top. Choose rectangle, freeform, window or full screen, then drag across the area you want. Release the mouse. A preview pops up in the corner of the screen, so click it to open the editor and draw or crop. Press Ctrl + S to save the image, or Ctrl + C to copy it and paste it into an email.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=sharpening kitchen knife>>>
+Sharpen a kitchen knife on a whetstone
+
+1. Soak a 1000-grit whetstone in water for 10 minutes.
+2. Place the stone on a damp towel so it will not slide.
+3. Hold the knife at a 15-degree angle against the stone, edge facing away from you.
+4. Push the blade across the stone from heel to tip, with light pressure.
+5. Repeat 10 times, then flip the knife and do the other side.
+6. Rinse the blade, dry it, and test it on a sheet of paper.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=unclogging sink>>>
+Unclog a kitchen sink without chemicals
+
+First, remove standing water with a cup. Pour a kettle of just-boiled water down the drain. If it is still slow, sprinkle half a cup of baking soda into the drain, then pour in a cup of vinegar and cover the hole with a plug for ten minutes. Rinse with more hot water. For stubborn blockages, place a plunger over the drain with an inch of water in the sink and pump firmly about ten times. Finally, unscrew the U-bend, clean out any debris, and put it back.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=hanging a shelf>>>
+Hanging a floating shelf
+
+Mark the wall at the height you want and check it with a spirit level. Use a stud finder to locate wall studs, since they hold the most weight. Hold the bracket against the wall, mark the screw holes, and drill pilot holes slightly smaller than the screws. Insert wall plugs if there is no stud. Fix the bracket with screws, slide the shelf onto it, and tighten the grub screws underneath. Place heavy objects only after checking that the shelf is steady.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=password reset>>>
+Reset your email password
+
+1. Go to the sign-in page and click "Forgot password".
+2. Enter your email address and press Continue.
+3. Choose to receive the code by text message or by your recovery email.
+4. Type the six-digit code into the box within 10 minutes.
+5. Create a new password of at least 12 characters, mixing words and numbers.
+6. Confirm it, then sign in again on each of your devices.
+
+Tip: write the new password in a password manager, not on a sticky note.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=tying a tie>>>
+How to tie a four-in-hand knot
+
+Drape the tie around your neck with the wide end on your right, hanging about 30 cm lower than the thin end. Cross the wide end over the thin end. Wrap it behind the thin end and bring it back to the front. Fold it over once more and then pull it up through the loop around your neck. Slide the wide end down through the front loop. Hold the thin end and slide the knot upward gently until it sits snug against your collar.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=bleeding radiator>>>
+Bleeding a radiator
+
+Switch the heating on and wait until the radiators are warm, then identify the one that has cold spots near the top. Turn the heating off. Place a cloth under the bleed valve, then use a radiator key to turn the valve a quarter turn anticlockwise. You will hear hissing air. Close the valve as soon as water starts to spit out. Check the boiler pressure gauge and top it up to 1.2 bar if it has dropped.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=dog nail trimming>>>
+Trim your dog's nails at home
+
+- Pick a calm moment, such as after a walk.
+- Hold the paw gently and press a toe pad so the nail extends.
+- Locate the pink "quick" inside the nail; with dark nails, cut small slivers instead.
+- Snip at a 45-degree angle, a little at a time.
+- Keep styptic powder or cornflour nearby in case of bleeding.
+- Reward your dog with a treat after each paw.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=ironing a shirt>>>
+Iron a dress shirt in under ten minutes
+
+Start with the collar: lay it flat on the board, iron the underside first, and flip it. Next do the cuffs, then the sleeves, laying each one flat along the seam. Move on to the shoulders by draping them over the narrow end of the board. Finish with the front panels and the back. Use the steam setting for stubborn creases, and hang the shirt on a hanger straight away so it keeps its shape.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=setting up a fish tank>>>
+Setting up a small freshwater aquarium
+
+1. Rinse the gravel in a bucket until the water runs clear.
+2. Place the tank on a sturdy, level stand away from direct sunlight.
+3. Add the gravel, decorations and filter.
+4. Fill with dechlorinated tap water.
+5. Switch on the filter and heater and set the temperature to 25 °C.
+6. Wait at least two weeks for the tank to cycle before you add any fish.
+7. Test the water with a drop kit each week.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=removing a stripped screw>>>
+Remove a stripped screw
+
+Put a wide rubber band between the screwdriver tip and the screw head, then press down firmly and turn slowly. If it still slips, tap a slightly larger bit into the head with a hammer for a better bite. Another option: cut a new slot across the head with a hacksaw or rotary tool and use a flat screwdriver. As a last resort, drill a small hole into the screw and use a screw extractor, turning anticlockwise.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=boiling perfect egg>>>
+Boil an egg exactly how you like it
+
+Lower eggs gently into boiling water with a spoon. Start a timer straight away. Cook for 6 minutes for a runny yolk, 8 for soft-set, and 10 for fully firm. Transfer the eggs to a bowl of iced water and leave them for two minutes. Tap the shell all over on the counter, roll it lightly and peel it under a thin stream of cold water, starting from the wide end.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=backing up phone photos>>>
+Back up your phone photos
+
+Open your phone's Settings and tap your account name at the top. Select the cloud or photos option and switch on "Back up photos". Choose "Wi-Fi only" to avoid using mobile data. Plug the phone in and leave it overnight for the first upload. The next morning, open the gallery app and look for a small cloud icon next to each picture. Check the storage bar in settings so you know when you will need a bigger plan.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=sewing a button>>>
+Sew a button back on
+
+1. Thread a needle with about 50 cm of thread and knot the end.
+2. Push the needle up through the fabric from the back at the mark where the button was.
+3. Slide the button onto the needle and lay a matchstick across the top.
+4. Sew down through the other hole, then up again, around five times.
+5. Remove the matchstick and wind the thread around the stitches under the button.
+6. Push the needle to the back, tie off and snip the thread.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=packing a suitcase>>>
+Pack a carry-on for a week away
+
+Lay out everything you think you need, then remove a third of it. Roll soft clothes and fold stiff items flat. Put shoes along the bottom near the wheels, with socks stuffed inside. Place liquids in a clear bag inside the top pocket, with 100 ml bottles only. Keep chargers and documents in a small pouch near the zip. Wear your bulkiest jacket on the plane instead of packing it.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=cleaning white trainers>>>
+Clean white trainers
+
+Remove the laces and insoles. Knock off loose dirt with a dry brush. Mix a teaspoon of mild detergent in a bowl of warm water, dip a soft brush into it and scrub the uppers in small circles. For rubber soles, make a paste from baking soda and water and rub it on with a toothbrush. Wipe off the suds with a damp cloth, stuff the shoes with paper towels, and let them dry in a shaded spot for at least a day.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=replacing a light bulb>>>
+Replace a ceiling light bulb safely
+
+1. Switch off the light and wait for the bulb to cool.
+2. Set a stable step ladder directly beneath the fitting.
+3. Twist off any glass cover and put it somewhere safe.
+4. Hold the old bulb and turn it anticlockwise until it comes free.
+5. Check the wattage and base type on the bulb's label.
+6. Screw in the new bulb clockwise until snug; do not overtighten.
+7. Refit the cover and test the switch.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=growing basil>>>
+Grow basil on a sunny windowsill
+
+Fill a 15 cm pot with light, well-draining compost. Sprinkle a few seeds on the surface and cover them with a thin layer of soil. Mist with water until damp and set the pot on a south-facing windowsill. Keep the compost moist but not soggy. Once seedlings have four leaves, thin them to two or three per pot. Pinch off the top leaves regularly to encourage bushier growth, and pick leaves in the morning for the best flavour.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=removing a coffee stain>>>
+Get a coffee stain out of a shirt
+
+Blot the stain with a clean cloth right away. Do not rub it. Hold the fabric under cold running water from the back, pushing the coffee out. Dab on a little liquid detergent, then gently work it in with your fingertips and leave for ten minutes. Rinse, check that the mark has gone, then wash as normal. Dry the shirt only if the stain has disappeared, as heat sets any remainder.
+<<<END>>>

@@ -1,0 +1,430 @@
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=vezeték nélküli fülhallgató>>>
+Vásárlói vélemények – SoundNest Air 3 fülhallgató
+
+★★★★★ Kovács Dániel: Négy napja használom, a hangzás tiszta, a basszus is elég erős. Az akkumulátor tényleg kibír egy teljes munkanapot.
+
+★★★☆☆ Szabó Réka: Kényelmes, de a bal fül néha megszakad a kapcsolat. Remélem, egy frissítés megoldja.
+
+★★★★☆ Tóth Gergő: Ezért az árért nagyon jó. A tok kicsit nagy, farmerzsebbe alig fér be.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=kávéfőző>>>
+Értékelések: Mokka Mester 800 automata kávéfőző
+
+4/5 – Balázs Imre
+Gyorsan elkészíti a kávét, a tejhabosító is jól működik. Az első hétben furcsa szaga volt, utána elmúlt.
+
+2/5 – Nagy Edina
+A víztartály kicsi, naponta kétszer kell tölteni. Nálunk négyen isszák a kávét, ez nem elég.
+
+5/5 – Farkas László
+Reggelente nélküle el sem tudom képzelni az életet. A tisztítóprogramot is egyszerű volt beállítani.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=futócipő>>>
+Termékvélemények – Pannon Run Trail futócipő
+
+★★★★★ Horváth Zsolt
+A Mecsek ösvényein próbáltam ki, a talpa remekül tapad még sáros időben is. Fél számmal nagyobbat érdemes rendelni.
+
+★★★★☆ Lakatos Petra
+Könnyű és szellőző. Kicsit szűk a lábujjrésznél, de két futás után kitaposódott.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=porszívórobot>>>
+Ügyfélvélemények: CleanBot Pro S porszívórobot
+
+★★☆☆☆ Mészáros Andrea
+A szőnyegen elakad, a kábeleket pedig rendszeresen magába húzza. A telefonos alkalmazás is lassan tölt be.
+
+★★★★☆ Varga Péter
+Parkettán és járólapon kiváló. A térképezés első alkalommal pontos volt, azóta egyszer sem tévedt el.
+
+★★★★★ Oláh Mónika
+Két macskánk van, a szőrt szépen felszedi. Zajos ugyan, de csak akkor megyünk haza, amikor végzett.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=hátizsák>>>
+Vélemények a Tisza Outdoor 28 literes hátizsákról
+
+5/5 – Simon Kristóf: Egyhetes túrán is bevált a Bükkben. A hátpánt szellőzik, a vállpántok sem dörzsölnek.
+
+3/5 – Pap Zsuzsanna: Jó minőségű anyag, de az esőhuzat nem védi rendesen az aljzatot. A zsebek elosztása viszont ötletes.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=gamer egér>>>
+Vásárlói értékelések – Vortex M7 vezeték nélküli egér
+
+★★★★☆ Bodnár Máté
+Pontos az érzékelő, a görgő csendes. Töltés nélkül nálam bő három hétig bírta.
+
+★★★★★ Fehér Noémi
+Tavaly óta használom napi nyolc órában, semmi gond. A két oldalsó gombot minden programban be lehet állítani.
+
+★★☆☆☆ Lukács Tamás
+Kicsi a kezemnek, egy óra után zsibbad a tenyerem. Kisebb kézre biztosan jó.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=ágynemű garnitúra>>>
+Vélemények: Lágy Álom pamutszatén ágyneműgarnitúra
+
+★★★★★ Gulyás Henrietta – Már az első mosás után is puha maradt, a színe sem fakult. Pont olyan, mint a képen.
+
+★★★★☆ Rácz Bence – Szép anyag, de a paplanhuzat egy picit rövidebb, mint a szabványos méret. Ettől eltekintve elégedett vagyok.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=elektromos kerékpár>>>
+Értékelések – Duna E-City 500 elektromos kerékpár
+
+★★★★★ Sípos Ferenc
+Naponta ingázom vele Budáról Pestre, a hatótáv a gyári adat szerint 70 km, nálam kb. 60 volt hidegben. A fékek kiválóak.
+
+★★★☆☆ Takács Ildikó
+Szép kerékpár, de az összeszerelés nem volt tökéletes: a sárhányó csörgött, a boltban viszont gyorsan megjavították.
+
+★★★★☆ Kiss Barnabás
+Erős a motor, a dombokon is könnyedén megy. A nyereg viszont kemény, cseréltem is.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=légtisztító>>>
+Vásárlói vélemények – AeroPure 450 légtisztító
+
+4/5 – Jakab Orsolya
+A pollenszezonban sokat segített, kevesebbet tüsszögök. Alvó üzemmódban alig hallani.
+
+2/5 – Dobos Gábor
+A szűrőcsere drága, és csak az eredeti jó bele. Maga a készülék rendben van, de a fenntartása sokba kerül.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=tolltartó és írószer>>>
+Vélemények – Szegedi Papír Kft. prémium töltőtoll
+
+★★★★★ Németh Katalin: Ajándékba vettem a férjemnek, ő pedig azóta mindenhová magával viszi. Egyenletesen ír, nem pacsmagol.
+
+★★★★☆ Pál Domonkos: Nagyon szép kivitel. A patron kicsit gyorsan kifogy, érdemes tartalékot venni.
+
+★★★☆☆ Budai Anett: Tetszik a súlya, de a kupak néha nehezen zár.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=okosóra>>>
+Értékelések: FitBeat Vita okosóra
+
+★★★★☆ Antal Szabolcs
+A pulzusmérés összevethető a mellkasi övemmel, az alváskövetés is hasznos. Az óralap kijelzője napsütésben kicsit halvány.
+
+★★☆☆☆ Katona Beáta
+Háromszor is lefagyott az első hónapban. Az ügyfélszolgálat kedves volt, de a hibát nem tudták megszüntetni.
+
+★★★★★ Orsós Viktor
+Ennyi funkciót ilyen áron nem hittem volna. Úszáshoz is használom, vízálló, nem volt vele gond.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=főzőedény készlet>>>
+Termékvélemények – Gránit Mester 5 részes lábaskészlet
+
+5/5 – Balogh Erzsébet
+A tapadásmentes bevonat valóban működik, tojást is olaj nélkül sütöttem benne. Indukciós lapon is tökéletes.
+
+4/5 – Somogyi Gyula
+Szépen néznek ki, de a fogantyú melegszik, ha hosszabban főzök. Kesztyű mellett jó.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=gyerek puzzle>>>
+Szülői vélemények – Erdei Állatok 100 darabos kirakó
+
+★★★★★ Fazekas Mária: A hatéves lányom egy délután alatt kirakta, utána kérte újra. A darabok vastagok, nem hajlanak meg.
+
+★★★★☆ Hegedűs Roland: Szép rajzok, jó minőségű karton. Kicsit nehéz volt kinyitni a dobozt, de ez apróság.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=monitor>>>
+Vásárlói értékelések – Lumina 27" QHD monitor
+
+★★★★★ Török Attila
+Irodai munkához és szerkesztéshez is nagyszerű. A színek pontosak, a lábat magasságban is állítani lehet.
+
+★★★☆☆ Vincze Lilla
+Jó kép, de a bekapcsológomb a hátoldalon van, ami minden reggel bosszantó. Egy pixelhiba is akadt a bal sarokban.
+
+★★★★☆ Szűcs Márton
+Ez az ár-érték kategóriájának egyik legjobbja. A hangszórót nem használom, az gyenge.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=sütő légkeveréssel>>>
+Vélemények: Konyhakirály 60 cm beépíthető sütő
+
+4/5 – Lengyel Rita
+A felfűtés gyors, a légkeverés egyenletesen sütöl. Az üvegajtó tisztítása kicsit körülményes.
+
+5/5 – Mezei József
+A szerelő szerint a beépítés egyszerű volt, és azóta tökéletesen megy. A kenyérprogram külön tetszik.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=arckrém>>>
+Értékelések – Hajnalka Natúr hidratáló arckrém
+
+★★★★☆ Bíró Szilvia
+Gyorsan beszívódik, nem zsíros. Az illata kellemesen enyhe, a tégelyben pedig sokáig kitart.
+
+★★☆☆☆ Magyar Dóra
+Az arcomon kipirosodást okozott, érzékeny bőrre nem ajánlom. Talán másnak jobban beválik.
+
+★★★★★ Halász Kinga
+Három hete használom, a bőröm szemmel láthatóan puhább. A kis csomagolás ellenére elég gazdaságos.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bluetooth hangszóró>>>
+Vélemények – Balaton Beat hordozható hangszóró
+
+★★★★★ Rózsa Ádám: Strandra vittük, vízálló is, a hangja betölti az egész partszakaszt. Egész nap bírta töltés nélkül.
+
+★★★★☆ Csonka Veronika: Kiváló hang, kedvező ár. A szíj kicsit vékony, és szerintem a töltő csatlakozója ingatag.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=laptop>>>
+Ügyfélértékelések – Atlasz Book 15 laptop
+
+4/5 – Kemény Zoltán
+Tanuláshoz és irodai munkához megfelel, a billentyűzet kellemes. Az akkumulátor kb. hat órát bír.
+
+3/5 – Deák Fruzsina
+A gép gyors, de a ventilátor terhelés alatt hangos. A kijelző fényereje is lehetne nagyobb.
+
+5/5 – Sárközi Benedek
+A régi gépem helyett vettem, és másfélszer gyorsabb minden. A gyors indulás nagyon tetszik.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=kutyatáp>>>
+Gazdik véleménye – Pusztai Falatok adult kutyatáp 12 kg
+
+★★★★★ Győri Eszter
+A labradorom szinte letámadja a tálat, szőre is fényesebb lett. Az ár korrekt.
+
+★★★☆☆ Orbán Levente
+A kutyám megette, de a szállítás során a zsák egy sarka elszakadt. A termék rendben volt.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=állítható íróasztal>>>
+Értékelések – Ergo Lift elektromosan állítható íróasztal
+
+★★★★☆ Kocsis Anita
+Csendes a motor, a memóriagombok kényelmesek. Összeszerelni két emberre volt szükség.
+
+★★★★★ Ács Norbert
+Hátfájásom volt a sok ülés miatt, ezzel a váltott állás-ülés sokat segít. A lap stabil, nem himbálódzik.
+
+★★★☆☆ Lantos Gabriella
+Jó asztal, de a használati útmutató nehezen követhető. Videó alapján sikerült összerakni.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=szendvicssütő>>>
+Vélemények – Toast Express 3in1 szendvicssütő
+
+3/5 – Vass Klára
+A szendvicsek szépen megpirulnak, de a lapok cseréje nehézkes. Mosogatni is körülményes.
+
+5/5 – Hajdú István
+Gyerekeknek vettem, már a harmadik hete minden vasárnap ezt kérik. Strapabíró, jól zár.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=téli kabát>>>
+Vásárlói vélemények – Kárpát Heat férfi télikabát
+
+★★★★★ Mátyás Gellért: Mínusz tíz fokban is meleg volt Miskolcon. A kapucni levehető, a zsebek mélyek.
+
+★★★★☆ Illés Tivadar: Jól szabott, de a hossza kicsit rövid a magas termetűeknek. A cipzár viszont masszív.
+
+★★☆☆☆ Szilágyi Dénes: Az első héten leszakadt egy gomb. Pótoltam, de egy ilyen árú kabátnál ez nem fordulhatna elő.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=power bank>>>
+Értékelések: VoltPack 20000 mAh power bank
+
+★★★★★ Ferencz Vilmos
+Egy telefont háromszor tölt fel, gyors töltéssel is működik. A kijelzője pontosan mutatja a százalékot.
+
+★★★★☆ Kelemen Zita
+Jó termék, de elég nehéz, nem tenném kistáskába. Mást nem találtam rajta kifogásolnivalót.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=mosógép>>>
+Vélemények – Hajdúsági AquaTech 8 kg mosógép
+
+4/5 – Kónya Judit
+Hatékonyan mos, és a gyors program tényleg 15 perc. A centrifugálás közben azonban kicsit vibrál.
+
+5/5 – Papp Ernő
+Hat hónapja használjuk, négyfős családnak épp elég. Az energiafogyasztása alacsony, a villanyszámlán is látszik.
+
+2/5 – Ligeti Hajnalka
+A szállítás gyors volt, de a gép az ajtó körül szivárgott. Szervizes jött, kicserélte a gumit.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=jóga matrac>>>
+Vásárlói értékelések – Zen Alap jógamatrac 6 mm
+
+★★★★★ Berkes Judit: Nem csúszik, kellően vastag a térdnek. A szagát szellőztetni kellett egy napig, utána semmi gond.
+
+★★★★☆ Radnai Csaba: Jó ár-érték arány. A szín élénkebb, mint a képen, de nekem pont tetszik.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=e-könyv olvasó>>>
+Értékelések – PagePilot 6" e-könyv olvasó
+
+★★★★★ Domokos Eszter
+Éjjeliszekrényen tartom, a háttérvilágítás színhőmérséklete állítható, így nem fáj a szemem. Egy töltés egy hónapig elég.
+
+★★★★☆ Peták Miklós
+Remek a kijelző, kényelmes méret. Magyar nyelvű menü is van, de a betűtípusok választéka szűkös.
+
+★★★☆☆ Gémes Rozália
+Jó eszköz, csak a fájlok átvitele lassú. Türelmesebbeknek ajánlom.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=turmixgép>>>
+Vélemények: Gyümölcsöző TurboMix 1200 W turmixgép
+
+★★★★★ Szentes Lajos: A jeget és a fagyasztott gyümölcsöt is simán összetöri. Reggelente smoothie-t készítek belőle.
+
+★★★☆☆ Nyári Tímea: Erős, de hangos. A kancsó fedele kicsit lazán zár, folyt egy kis lé az első használatnál.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=sátor>>>
+Kempingvélemények – Zemplén 3 személyes sátor
+
+★★★★☆ Boros Gergely
+Fél óra alatt felállítottam egyedül, a Bodrogközben egy záporban sem ázott be. A szellőzés is jó.
+
+★★★★★ Mihály Fanni
+Nyáron a Tisza-parton használtuk, könnyű és kompakt. A hálóréteg szúnyogmentes.
+
+★★☆☆☆ Rigó Tibor
+Szeles időben a vázrudak megcsavarodtak, kettőt cserélnem kellett. Erős szélhez nem ajánlom.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=vízforraló>>>
+Vásárlói vélemények – Teakirály 1,7 literes vízforraló
+
+5/5 – Tarr Gabriella
+Gyorsan felforr, az üvegtest szép, a világítás pedig kellemes. Csendesebb, mint a régi forralóm.
+
+4/5 – Sebestyén Ottó
+Teához és kávéhoz is tökéletes. A fedél kinyitó gombja egy kissé szorul, de megszokható.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=hűtőszekrény>>>
+Értékelések – Szikra NoFrost 280 l kombinált hűtő
+
+★★★★☆ Kerekes Sándor
+Hatékony, csendes. Az ajtó polcai kicsit keskenyek, de a fiókok tágasak.
+
+★★★★★ Fekete Rózsa
+Régi hűtőt cseréltünk le, a fogyasztás jelentősen csökkent. A kiszállítók ráadásul felvitték az ötödikre.
+
+★★★☆☆ Bakos Lehel
+A hűtő rendben, de a szállítás három napot késett, és senki nem szólt előre.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=gitár>>>
+Vélemények – Rézhegy akusztikus gitár kezdőknek
+
+★★★★★ Kardos Levente: Fiamnak vettem a tizenötödik születésnapjára, a hangszer jól szól, és a hangolása sokáig tart.
+
+★★★★☆ Borbély Tünde: Kellemes hang, de a mellékelt húrok gyengék, rögtön cseréltük. A tok viszont szép.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=otthoni biztonsági kamera>>>
+Értékelések – OrsZem WiFi biztonsági kamera
+
+3/5 – Gáspár Imre
+Az éjjellátás jó, de a mozgásérzékelő túl sokszor jelez, ha a fa ágai mozognak. Az alkalmazás beállítása nem túl kézenfekvő.
+
+4/5 – Bencze Lívia
+Beszerelése könnyű volt, a felbontás szép. A felhős tárolásért viszont havi díjat kérnek.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bio méz>>>
+Vásárlói vélemények – Tokaji Virágméz 900 g
+
+★★★★★ Gombos Ilona
+Igazi, krémes akácméz, olyan, mint a nagyapám kaptárából. Egy hónapja rendelek tőlük.
+
+★★★★☆ Szekeres Pál
+Finom, de a kristályosodás miatt kicsit sűrű volt, amikor megérkezett. Meleg vízben feloldottam.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=gyerek bicikli>>>
+Szülők véleménye – Pöttyös 16" gyerekbicikli
+
+★★★★★ Vörös Anikó: A fiam szeretné, hogy minden nap kimenjünk vele. Stabil, a kismotoros segédkerekek szilárdan tartanak.
+
+★★★★☆ Gáti Máté: Szép színe van, és könnyen összeszerelhető. A csengő sajnos gyengére sikerült.
+
+★★☆☆☆ Mohácsi Rita: A pedál kicsit rövid, a lányom lába kiér. Már a harmadik napon cseréltem.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=hajszárító>>>
+Értékelések – Lenge Ion 2200 hajszárító
+
+★★★★★ Pintér Alexandra
+Vállig érő hajam tíz perc alatt megszárad, és nem lesz töredezett. A kábel is hosszú.
+
+★★★☆☆ Nemes Kristóf
+Erőteljes, de elég nehéz, a karom kifárad. Két sebességfokozata kevés lenne.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bakancs>>>
+Vélemények – Tátra Alpin férfi túrabakancs
+
+4/5 – Barta Gusztáv
+Strapabíró, a Gerlachfalvi túrán sem ázott át. Be kellett törni, az első napon vízhólyagot kaptam.
+
+5/5 – Sipos Ákos
+Már a második párom ebből a típusból. A bokatartás kiváló, a talp ellenáll a kopásnak.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=alaplap és számítógép ház>>>
+Értékelések – Titán Midi gamer számítógépház
+
+★★★★☆ Kürti Dávid
+Rengeteg hely van benne, a kábelrendezés egyszerű. Az üveg oldallap viszont ujjlenyomatra érzékeny.
+
+★★★★★ Lázár Bianka
+Az előlapi hűtésnek köszönhetően alacsonyabb a hőmérséklet. Az áráért nagyon szép gép.
+
+★★☆☆☆ Szalai Olivér
+Az egyik ventilátor már az első héten zörgött. Ki is cseréltem, de ez bosszantó volt.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=kerti grillsütő>>>
+Vásárlói vélemények – Parázs Mester szenes kerti grill
+
+5/5 – Dávid Szabina
+Szombatonként használjuk, a hőeloszlás egyenletes, a fedél jól zár. Összerakása másfél órát vett igénybe.
+
+3/5 – Fodor Hunor
+Jó grill, de a kerekek műanyagok, és az egyik eltört. A hamutálca is vékony.
+
+4/5 – Kovács Szandra
+A tálalóasztal praktikus. Az árhoz képest szép, stabil darab.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=szemüveg kék fény>>>
+Értékelések – Pixel Védő kékfényszűrő szemüveg
+
+★★★☆☆ Szabados Emese
+Szép keret, könnyű. A kékfényszűrés hatását nem éreztem, de az enyhe sárgás tónus megszokható.
+
+★★★★☆ Rostás Marcell
+Napi hat órát dolgozom monitor előtt, és a szemem kevésbé fáradt. A tok és a törlőkendő is jár hozzá.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=tablet>>>
+Vélemények – Nimbusz Tab 10 tablet
+
+★★★★☆ Tihanyi Zoltán: Filmezéshez, olvasáshoz szuper. A hangszórók elég jók, a kijelző élénk. A gyári tok viszont drága.
+
+★★★★★ Illyés Kata: Anyukámnak vettem, könnyen kezeli, a betűméret nagyra állítható. A videóhívások jól működnek.
+
+★★☆☆☆ Pásztor Gábor: Játékoknál lassú, és hamar melegszik. Egyszerű webezésre jó, másra nem.
+<<<END>>>

@@ -1,0 +1,370 @@
+<<<ITEM kind=recipe lang=en hard_negative=true topic=chicken paprikash>>>
+Chicken Paprikash (serves 4)
+
+Ingredients: 800 g chicken thighs, 2 onions, 2 tbsp sweet paprika, 1 tbsp lard, 1 red pepper, 1 tomato, 200 ml sour cream, 1 tbsp flour, salt.
+
+1. Fry the chopped onions in lard until soft and golden.
+2. Take the pan off the heat and stir in the paprika.
+3. Add the chicken, pepper, tomato, salt and 300 ml water.
+4. Cover and simmer for 40 minutes.
+5. Whisk the flour into the sour cream, stir it into the pot, and heat through for 5 minutes. Serve with nokedli.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=banana bread>>>
+Easy Banana Bread
+
+You need: 3 very ripe bananas, 75 g melted butter, 150 g sugar, 1 egg, 1 tsp vanilla, 1 tsp baking soda, pinch of salt, 190 g flour.
+
+1. Heat the oven to 175 °C and grease a loaf tin.
+2. Mash the bananas in a bowl and mix in the butter.
+3. Stir in sugar, egg and vanilla.
+4. Sprinkle over baking soda and salt, then fold in the flour.
+5. Pour into the tin and bake for 55 minutes.
+6. Cool in the tin for 10 minutes before slicing.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=tomato soup>>>
+Roasted Tomato Soup
+
+Ingredients
+- 1 kg ripe tomatoes, halved
+- 1 head garlic
+- 1 onion, quartered
+- 3 tbsp olive oil
+- 500 ml vegetable stock
+- Handful of basil
+
+Method
+1. Spread tomatoes, onion and garlic on a tray, drizzle with oil, and roast at 200 °C for 35 minutes.
+2. Squeeze the garlic from its skins and tip everything into a pot.
+3. Add stock and bring to a simmer for 10 minutes.
+4. Blend until smooth, stir in basil, then season.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=pancakes>>>
+Fluffy Buttermilk Pancakes (makes 8)
+
+Mix 200 g flour, 2 tbsp sugar, 1 tsp baking powder and half a teaspoon of salt in a large bowl. In a jug, beat together 250 ml buttermilk, 1 egg and 2 tbsp melted butter.
+
+Method:
+1. Pour the wet mixture into the dry and stir until just combined; leave lumps.
+2. Rest the batter for 5 minutes.
+3. Heat a non-stick pan over medium heat.
+4. Ladle in about 60 ml per pancake, and cook until bubbles appear.
+5. Flip and cook for one more minute.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=lecsó>>>
+Lecsó, Hungarian Pepper Stew
+
+Ingredients: 6 yellow peppers, 4 ripe tomatoes, 1 large onion, 2 tbsp sunflower oil, 1 tsp sweet paprika, 150 g smoked sausage, salt.
+
+1. Slice the onion and soften it in oil for five minutes.
+2. Add the paprika, stir for 10 seconds, then add the sliced peppers.
+3. Cook for 10 minutes, stirring now and then.
+4. Add the chopped tomatoes and the sausage.
+5. Simmer uncovered for 20 minutes until thick. Add salt and serve with crusty bread.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=guacamole>>>
+Quick Guacamole
+
+2 ripe avocados
+Juice of 1 lime
+1/2 small red onion, finely diced
+1 small tomato, diced
+Handful of coriander, chopped
+1/2 tsp salt
+
+Halve the avocados, remove the stones and scoop the flesh into a bowl. Mash with a fork, leaving some chunks. Stir in the lime juice and salt straight away. Add the onion, tomato and coriander and mix gently. Taste and adjust. Serve at once with tortilla chips.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=lentil dal>>>
+Red Lentil Dal (serves 4)
+
+Ingredients: 250 g red lentils, 1 onion, 3 garlic cloves, 1 tbsp grated ginger, 1 tsp turmeric, 1 tsp cumin seeds, 400 ml coconut milk, 1 tbsp oil, lemon wedge.
+
+1. Rinse the lentils until the water runs clear.
+2. Heat the oil, fry the cumin seeds for 30 seconds, then add onion, garlic and ginger.
+3. Stir in the turmeric and lentils, then add the coconut milk and 400 ml water.
+4. Simmer for 20 minutes, stirring often.
+5. Finish with a squeeze of lemon.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=apple crumble>>>
+Apple Crumble
+
+For the filling: 5 apples, peeled and sliced; 2 tbsp sugar; 1 tsp cinnamon.
+For the topping: 120 g flour, 80 g cold butter, 60 g oats, 60 g brown sugar.
+
+Step 1. Heat the oven to 180 °C.
+Step 2. Toss the apples with sugar and cinnamon and place them in a baking dish.
+Step 3. Rub the butter into the flour until crumbly, then stir in the oats and sugar.
+Step 4. Scatter the topping over the fruit.
+Step 5. Bake for 40 minutes until golden. Serve warm with custard.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=spaghetti carbonara>>>
+Spaghetti Carbonara
+
+Serves 2. You'll need 200 g spaghetti, 100 g guanciale or pancetta, 2 egg yolks plus 1 whole egg, 40 g grated pecorino, black pepper.
+
+1. Boil the spaghetti in salted water until al dente.
+2. Meanwhile, fry the diced guanciale in a dry pan until crisp.
+3. Whisk the eggs, pecorino and plenty of pepper in a bowl.
+4. Reserve a cup of pasta water, then drain.
+5. Toss the pasta with the guanciale off the heat, then stir in the egg mixture, loosening with a splash of the pasta water.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=hummus>>>
+Smooth Homemade Hummus
+
+Ingredients: 1 can (400 g) chickpeas, 3 tbsp tahini, juice of 1 lemon, 1 garlic clove, 3 tbsp ice water, 2 tbsp olive oil, 1/2 tsp cumin, salt.
+
+1. Drain the chickpeas and rinse them well.
+2. Blend tahini and lemon juice for one minute, until pale.
+3. Add garlic, cumin and salt and blend again.
+4. Add the chickpeas and run the blender for two minutes, adding ice water slowly.
+5. Spoon into a bowl and drizzle with olive oil.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=beef goulash>>>
+Beef Goulash for a Cold Day (serves 6)
+
+1 kg beef shin in cubes, 3 onions, 3 tbsp paprika, 2 carrots, 2 potatoes, 3 garlic cloves, 1 tsp caraway, 2 tbsp lard, 1.5 litres water.
+
+1. Brown the beef in lard in a heavy pot, then set it aside.
+2. Cook the onions slowly for 15 minutes.
+3. Off the heat, add paprika, garlic and caraway, then return the beef.
+4. Add water, cover and simmer for 1.5 hours.
+5. Add the carrots and potatoes and cook for another 30 minutes.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=shakshuka>>>
+Shakshuka
+
+Serves 3
+- 2 tbsp olive oil
+- 1 onion and 1 red pepper, diced
+- 3 garlic cloves
+- 1 tsp each cumin and paprika
+- 1 can chopped tomatoes
+- 5 eggs
+- Parsley to garnish
+
+1. Fry the onion and pepper in oil for 8 minutes.
+2. Add garlic and spices, stir for one minute.
+3. Pour in tomatoes and simmer for 10 minutes.
+4. Make five wells in the sauce and crack an egg into each.
+5. Cover and cook for 6 minutes. Scatter parsley and serve.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=chocolate chip cookies>>>
+Chewy Chocolate Chip Cookies
+
+Cream 115 g softened butter with 100 g brown sugar and 50 g white sugar. Beat in 1 egg and 1 tsp vanilla. Mix 170 g flour, half a teaspoon of baking soda and a pinch of salt in a separate bowl.
+
+1. Fold the dry ingredients into the butter mixture.
+2. Stir in 150 g chocolate chunks.
+3. Chill the dough for 30 minutes.
+4. Drop heaped spoonfuls onto lined trays, spaced well apart.
+5. Bake at 180 °C for 11 minutes. Cool on the tray for five minutes.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=ratatouille>>>
+Weeknight Ratatouille
+
+Ingredients: 1 aubergine, 2 courgettes, 1 red pepper, 4 tomatoes, 1 onion, 3 garlic cloves, 4 tbsp olive oil, thyme, salt.
+
+1. Cut all the vegetables into 2 cm cubes.
+2. Heat half the oil in a large pan and fry the aubergine until golden. Set aside.
+3. Soften the onion and garlic in the remaining oil.
+4. Add the pepper, courgettes and thyme, and cook for 8 minutes.
+5. Return the aubergine, add tomatoes and simmer for 25 minutes.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=porkolt stew>>>
+Pork Pörkölt with Nokedli (serves 4)
+
+Ingredients: 700 g pork shoulder, 2 onions, 1 tbsp lard, 1 tbsp paprika, 1 green pepper, 1 tomato, 3 garlic cloves, salt, pepper.
+
+Method:
+1. Fry the diced onions in lard until golden, then take off the heat.
+2. Stir in the paprika quickly so it won't burn.
+3. Add the meat, salt and a splash of water.
+4. Simmer, covered, for 75 minutes, adding the pepper, tomato and garlic after the first hour.
+5. Serve over fresh nokedli dumplings.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=fried rice>>>
+Egg Fried Rice
+
+Use day-old rice: 3 cups cooked jasmine rice, 3 eggs, 3 spring onions, 1 cup peas, 2 tbsp soy sauce, 1 tsp sesame oil, 2 tbsp neutral oil.
+
+1. Heat a wok until very hot and add 1 tbsp oil.
+2. Scramble the eggs for 20 seconds, then remove.
+3. Add the remaining oil and the rice, breaking up clumps.
+4. Stir-fry for three minutes, add the peas and the spring onion whites.
+5. Pour in soy sauce, return the eggs, toss, and finish with sesame oil and the green parts.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=overnight oats>>>
+Overnight Oats, Three Ways
+
+Base (for one jar): 50 g rolled oats, 120 ml milk, 2 tbsp yoghurt, 1 tsp honey.
+
+1. Combine the base ingredients in a jar and stir well.
+2. Add one flavour:
+   - Berry: 60 g mashed raspberries
+   - Apple: grated apple and a pinch of cinnamon
+   - Cocoa: 1 tsp cocoa powder and a few chocolate chips
+3. Seal and refrigerate for at least 6 hours.
+4. Stir, top with nuts, and eat cold.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=mushroom risotto>>>
+Mushroom Risotto
+
+Ingredients: 300 g arborio rice, 300 g mixed mushrooms, 1 shallot, 1 litre hot vegetable stock, 100 ml white wine, 40 g Parmesan, 30 g butter, thyme.
+
+1. Fry the sliced mushrooms in half the butter until browned. Set aside.
+2. Soften the shallot, then stir in the rice for 1 minute.
+3. Add the wine and let it evaporate.
+4. Add stock one ladle at a time, stirring until absorbed, for about 18 minutes.
+5. Stir in the mushrooms, Parmesan and remaining butter.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=lemon drizzle cake>>>
+Lemon Drizzle Loaf
+
+Cake: 175 g softened butter, 175 g caster sugar, 3 eggs, 175 g self-raising flour, zest of 2 lemons.
+Drizzle: juice of 2 lemons, 80 g icing sugar.
+
+1. Heat the oven to 180 °C and line a loaf tin.
+2. Beat the butter and sugar until pale.
+3. Add the eggs one at a time with a spoonful of flour each.
+4. Fold in the remaining flour and zest.
+5. Bake for 45 minutes.
+6. Mix the drizzle and pour it over the warm cake.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=fish tacos>>>
+Crispy Fish Tacos (serves 4)
+
+You need: 500 g white fish fillets, 1 tsp smoked paprika, 1 tsp cumin, 8 small tortillas, shredded cabbage, 1 lime, 100 g Greek yoghurt, hot sauce, 2 tbsp oil.
+
+1. Rub the fish with the paprika, cumin and salt.
+2. Fry it in oil over medium-high heat for 3 minutes per side.
+3. Mix the yoghurt with lime juice and hot sauce.
+4. Warm the tortillas in a dry pan.
+5. Flake the fish onto the tortillas, and top with cabbage and the sauce.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=potato gratin>>>
+Creamy Potato Gratin
+
+Ingredients: 1 kg waxy potatoes, 300 ml double cream, 150 ml milk, 2 garlic cloves, 80 g grated Gruyère, nutmeg, butter for the dish.
+
+1. Preheat the oven to 180 °C and butter a baking dish.
+2. Slice the potatoes 3 mm thick; do not rinse them.
+3. Heat the cream, milk, garlic, nutmeg and salt until just steaming.
+4. Layer the potatoes in the dish, pouring the cream over every layer.
+5. Top with cheese and bake for 70 minutes until golden.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=pad thai>>>
+Home-style Pad Thai
+
+For the sauce: 3 tbsp tamarind paste, 2 tbsp fish sauce, 2 tbsp sugar.
+Also: 200 g flat rice noodles, 200 g prawns, 2 eggs, 100 g bean sprouts, 3 spring onions, 3 tbsp oil, crushed peanuts, lime.
+
+1. Soak the noodles in warm water for 20 minutes.
+2. Stir-fry the prawns in hot oil for 2 minutes. Push them aside.
+3. Scramble the eggs in the pan.
+4. Add the drained noodles and sauce and toss for 2 minutes.
+5. Add sprouts and spring onion, then serve with peanuts and lime.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=pea soup mint>>>
+Chilled Pea and Mint Soup
+
+Ingredients: 500 g frozen peas, 1 small onion, 1 potato, 700 ml vegetable stock, handful of mint, 2 tbsp cream, 1 tbsp butter.
+
+1. Melt the butter and soften the chopped onion.
+2. Add the diced potato and stock and simmer for 12 minutes.
+3. Tip in the peas and cook for three more minutes.
+4. Blend with the mint until smooth.
+5. Chill for at least two hours, then swirl in a little cream before serving.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=turkey meatballs>>>
+Turkey Meatballs in Tomato Sauce
+
+Mix 500 g minced turkey, 1 egg, 40 g breadcrumbs, 2 grated garlic cloves, 1 tsp oregano and 1 tsp salt in a bowl. Sauce: 1 jar passata, 1 tbsp olive oil, basil.
+
+1. Wet your hands and roll the mixture into 20 balls.
+2. Brown them in a pan with a little oil for 5 minutes.
+3. Pour in the passata and add some basil.
+4. Cover and simmer for 15 minutes, turning once.
+5. Serve over spaghetti or in a bun.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=pogacsa scones>>>
+Cheese Pogácsa (makes about 24)
+
+Ingredients: 500 g flour, 250 g butter, 200 g grated cheese, 200 g sour cream, 1 egg yolk, 1 tsp salt, 7 g yeast.
+
+1. Rub the butter into the flour and salt, then stir in the yeast.
+2. Add the sour cream and half of the cheese and knead briefly.
+3. Roll to 2 cm thick, fold into thirds and chill for 30 minutes. Repeat twice.
+4. Cut into rounds, score the tops and brush with yolk.
+5. Sprinkle with remaining cheese and bake at 200 °C for 20 minutes.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=greek salad>>>
+Greek Salad
+
+Ingredients: 4 tomatoes, 1 cucumber, 1 red onion, 1 green pepper, 150 g feta, 12 Kalamata olives, 4 tbsp olive oil, 1 tbsp red wine vinegar, dried oregano.
+
+1. Cut the tomatoes into wedges and the cucumber into thick slices.
+2. Slice the onion and pepper into thin rings.
+3. Combine in a bowl with the olives.
+4. Whisk the oil and vinegar and pour it over.
+5. Lay the feta block on top and sprinkle with oregano.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=vegetable curry>>>
+Coconut Vegetable Curry
+
+You'll need: 1 sweet potato, 1 head of cauliflower florets, 1 can chickpeas, 1 can coconut milk, 2 tbsp curry paste, 1 onion, 2 handfuls of spinach, 1 tbsp oil.
+
+1. Cook the chopped onion in oil until soft.
+2. Stir in the curry paste for one minute.
+3. Add cubed sweet potato, cauliflower, chickpeas and coconut milk.
+4. Cover and simmer for 20 minutes.
+5. Stir in the spinach until wilted. Serve with rice.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=raspberry smoothie>>>
+Raspberry Banana Smoothie
+
+Ingredients (for two glasses): 1 frozen banana, 150 g raspberries, 250 ml milk of your choice, 2 tbsp Greek yoghurt, 1 tbsp honey.
+
+1. Break the banana into chunks.
+2. Put the milk into the blender first, then add the banana, raspberries and yoghurt.
+3. Blend on high for 45 seconds, until smooth.
+4. Taste and add honey if needed.
+5. Pour into glasses and drink straight away.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=stuffed peppers>>>
+Stuffed Peppers with Rice and Mince
+
+Ingredients: 4 large peppers, 300 g minced beef, 150 g cooked rice, 1 onion, 2 garlic cloves, 400 g passata, 1 tsp paprika, 50 g grated cheese.
+
+1. Cut the tops off the peppers and remove the seeds.
+2. Fry the onion and mince for 8 minutes, then add garlic and paprika.
+3. Mix in the rice and half the passata.
+4. Fill the peppers and stand them in a dish.
+5. Pour the rest of the passata around them, add cheese, and bake at 190 °C for 35 minutes.
+<<<END>>>

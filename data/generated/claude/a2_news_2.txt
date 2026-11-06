@@ -1,0 +1,349 @@
+<<<ITEM kind=news lang=en hard_negative=false topic=bakery closure>>>
+Beloved Family Bakery to Close After 61 Years
+
+KECSKEMÉT - Pékség Domonkos, a fixture on Rákóczi út since 1965, will close its doors on 31 December, owner Ferenc Domonkos announced this week.
+
+Domonkos, 68, said rising energy costs and the lack of a successor had made the decision unavoidable. "My children have other careers, and I cannot bake forever," he said. The shop's walnut rolls and morning pogácsa have been local favourites for generations.
+
+Customers have been leaving notes of thanks on the counter. A farewell weekend with free tastings is planned for 19 and 20 December.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=AI regulation vote>>>
+European Parliament Backs Stricter Rules on Workplace Monitoring
+
+The European Parliament voted 412 to 198 on Wednesday in favour of new rules limiting the use of automated monitoring and decision-making software in workplaces.
+
+Under the proposal, employers would have to inform staff when software evaluates their performance and give workers the right to a human review of significant decisions. Business groups warned of higher compliance costs, while trade unions called the vote "a long-overdue protection."
+
+The text now goes to negotiations with national governments. Rapporteur Elisa Moretti said she hoped for a final agreement by the summer.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=ice hockey game>>>
+Overtime Winner Lifts Miskolc Past Rivals
+
+MISKOLC - Forward Kristóf Bognár scored 41 seconds into overtime to give Miskolc a 4-3 victory over Székesfehérvár in the league's most-watched game of the season on Friday.
+
+The hosts trailed 3-1 after two periods before a three-goal comeback in the third forced extra time. Goalie Sándor Kerti stopped 34 shots.
+
+The win moves Miskolc to second place, two points behind leaders Budapest. A crowd of 4,100 packed the arena. Coach Aleksi Heikkinen said his players "refused to give up."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=restaurant guide star>>>
+Tiny Szentendre Bistro Earns First Michelin Star
+
+A twelve-seat bistro in Szentendre has been awarded its first Michelin star in the guide's latest Hungarian edition. Chef Tünde Mikó, 34, serves a set menu built on Danube fish, wild herbs and fermented vegetables.
+
+Mikó said she learned of the star only when a journalist phoned. "I was peeling beetroot, and I nearly dropped the knife," she said. Reservations for the next three months were fully booked within a day of the announcement.
+
+Five other Hungarian restaurants received stars, while two lost theirs.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=university tuition>>>
+Students Protest Planned Tuition Increase
+
+Several hundred students gathered outside the Rectorate of Charles University in Prague on Monday to protest a proposed 18% increase in fees for international students.
+
+The university says the increase is necessary to cover rising costs. Student union chair Tereza Havlíková said it would force many foreign students to abandon their studies. "Diversity is a strength, not a revenue source," read one banner.
+
+The academic senate will vote on the proposal on 2 December. The rector has promised a hardship fund of 5 million CZK for affected students.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=fishing quota agreement>>>
+Nations Reach Deal on North Sea Herring Quotas
+
+Fisheries ministers from Norway, the UK and the EU agreed on Friday to cut North Sea herring quotas by 9% for next year, following scientific advice about falling stocks.
+
+The agreement, concluded after two days of talks in Bergen, also introduces new monitoring requirements for smaller vessels. Environmental groups called the cut "too modest," while fishing industry leaders said it was "painful but manageable."
+
+Norwegian minister Ingrid Berg said the deal "balances responsibility with livelihoods." Quotas take effect on 1 January.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=bookshop award>>>
+Independent Bookshop Named Best in Region
+
+The Papírsárkány bookshop in Pécs has been named the best independent bookshop in southern Hungary by the national booksellers' association.
+
+Owner Anikó Hajdu opened the shop in 2016 with a loan from her parents. It now hosts weekly readings, a children's story hour and a book club with more than 80 members. "A bookshop is a living room for the town," she said.
+
+The prize includes 1 million Ft and a feature in the association's annual catalogue. Hajdu said she would use the money to build a small reading nook for teenagers.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=pension reform debate>>>
+Government Presents Pension Reform Proposal
+
+The finance minister on Thursday presented a draft pension reform that would raise the retirement age from 65 to 67 gradually between 2030 and 2038, while introducing a flexible early retirement option with reduced benefits.
+
+Minister Anna Jakab said the changes were needed to keep the system sustainable as the population ages. Opposition leaders criticised the plan, calling for wider consultation. Pensioners' associations announced a demonstration for 21 November.
+
+A public consultation will run until 15 January. Parliament is expected to debate the bill in the spring.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=glacier tourism warning>>>
+Swiss Resort Limits Glacier Tours Over Safety Concerns
+
+The Swiss resort of Zermatt has restricted guided glacier tours after rapid melt opened new crevasses on popular routes, local authorities said on Tuesday.
+
+Mountain guide association president Lukas Imboden said conditions had changed "faster than anyone expected," with two near-accidents recorded in September. Tours will now be limited to groups of eight with additional guides.
+
+Hotel owners worry about reduced bookings. The tourism office said it would promote alternative activities, including via ferrata routes and guided hikes through lower valleys.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=pub closing times>>>
+Dublin Pubs Win Extra Hour for Weekends
+
+Dubliners will be able to drink for an hour longer on Fridays and Saturdays under new licensing rules approved by the city council on Monday. Pubs can now stay open until 1:30 am at weekends.
+
+Publicans' representative Declan Rourke said the change would help struggling businesses, hundreds of which have closed in the last five years. Residents' groups expressed worry about noise and late-night disturbances.
+
+The rule starts on 1 December and will be reviewed after six months. Police said they would increase patrols in the city centre.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=hydrogen train trial>>>
+Hydrogen Train Begins Passenger Trials in Lower Saxony
+
+A hydrogen-powered passenger train started a six-month trial on a regional line in Lower Saxony on Monday, carrying commuters between Buxtehude and Cuxhaven.
+
+The two-car train, built by engineering group Brandt Rail, emits only water vapour and has a range of 800 km on one tank. Project manager Tobias Winkler said early tests showed fuel consumption below expectations.
+
+If the trial succeeds, the regional operator hopes to replace its ageing diesel fleet by 2032. Critics point to the high cost of producing green hydrogen.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=heritage village restoration>>>
+Volunteers Restore 18th-Century Mill in Őrség
+
+More than 200 volunteers have spent the summer restoring a water mill near the village of Szalafő, one of the oldest in the Őrség region. The mill, built around 1790, had been derelict for decades.
+
+Craftsmen taught volunteers traditional timber joinery and lime plastering. The restored mill will grind flour again from spring and will host a small exhibition on rural life.
+
+Project coordinator Hanga Varga said the 38 million Ft project was financed by grants and local donations. An opening festival with folk music is planned for May.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=tennis upset>>>
+Qualifier Stuns Seed in Vienna Opening Round
+
+Austrian qualifier Jonas Pichler, ranked 214th in the world, defeated third seed Tomás Ibarra 7-6, 6-4 on Monday to reach the second round of the Vienna indoor tournament.
+
+Pichler, 22, served 14 aces and saved all five break points he faced. "I woke up this morning thinking I would just try to enjoy it," he said. "It worked."
+
+Ibarra, who reached the final last year, blamed a sore shoulder. Pichler plays Ukrainian Oleksandr Marchenko on Wednesday.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=landlord rent cap>>>
+City Votes to Cap Annual Rent Increases at 5%
+
+Barcelona's city council approved a measure on Thursday capping annual rent increases at 5% for existing tenancies, in an effort to ease pressure on residents amid rising housing costs.
+
+The measure passed 22 votes to 19 after a heated debate. Landlord associations say it will discourage investment and reduce the supply of rental homes. Tenant groups argue that rents have risen by nearly 40% in six years.
+
+The cap takes effect in January and applies to contracts renewed after that date. Legal challenges are expected.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=cyber attack hospital>>>
+Hospital Network Restores Systems After Cyberattack
+
+A group of hospitals in the Lyon region has restored most of its IT systems nearly a week after a ransomware attack forced staff to revert to paper records, officials said on Monday.
+
+Emergency services were not interrupted, but some non-urgent operations were postponed. The regional health authority said no evidence of patient data being published had been found so far.
+
+Investigators from the national cybersecurity agency are examining how attackers gained access. Hospital director Dr. Claire Fontaine thanked staff for "extraordinary dedication."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=music festival lineup>>>
+Sziget Reveals First Headliners for Next Summer
+
+Organisers of the Sziget Festival on Budapest's Óbuda Island have announced the first six acts for next August, including British indie band The Marlowes, Nigerian singer Ayo Adeyemi and Hungarian electronic duo Kékes.
+
+The festival, which attracts around 400,000 visitors over a week, will again feature more than 1,000 programmes across stages, art zones and a circus area.
+
+Early-bird week passes go on sale on Friday at 150 EUR. Organiser Károly Gerendai said ticket sales for last year's edition had been the strongest in a decade.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=biodiversity survey>>>
+Survey Finds Otters Returning to Hungarian Rivers
+
+A national survey has found that otters now live in about 85% of Hungary's river systems, a recovery described by conservationists as one of the country's quiet success stories.
+
+The study, coordinated by the Hungarian Ornithological and Nature Conservation Society, used spraint surveys at 600 sites. Cleaner water and stricter protection are thought to have helped.
+
+Researcher Dr. Tibor Sipos said threats remain, particularly road collisions and illegal trapping. The society plans to build wildlife underpasses at 14 high-risk bridges over the next three years.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=retail christmas sales>>>
+Retailers Expect Cautious Christmas Spending
+
+Hungarian retailers expect modest growth in Christmas sales this year, with consumers prioritising practical gifts over luxury items, according to a survey of 400 shop owners.
+
+About 62% said they expected sales to match or slightly exceed last year, while 21% anticipated a decline. Online shopping is projected to account for nearly a third of holiday spending.
+
+Retail association director Katalin Bíró said that discount campaigns had started earlier than usual, with Black Friday promotions now beginning in the first week of November.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=moon mission update>>>
+Lunar Lander Completes Second Orbit Adjustment
+
+The Nova-1 lunar lander successfully fired its main engine for 14 minutes on Wednesday, placing it in a lower orbit of 100 km above the Moon's surface, the mission team reported.
+
+Landing is scheduled for 19 November near the Shackleton crater. Flight director Aiyana Redcloud said all systems were nominal and that the craft had 12% of its fuel in reserve.
+
+The mission carries a drill, a ground-penetrating radar and four small experiments from European universities, including a Hungarian-built radiation sensor.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=city marathon road closures>>>
+Road Closures Planned for Sunday's Half Marathon
+
+Motorists in central Gdańsk are warned to expect delays on Sunday morning as 9,000 runners take part in the city's half marathon. The race starts at 9:00 on Długi Targ and follows the waterfront to Oliwa Park.
+
+Streets along the route will close between 6:00 and 13:00. Trams on lines 6 and 8 will be diverted, and bus replacement services will run from Wrzeszcz.
+
+Organisers have asked residents along the course to move parked cars by Saturday evening. More than 300 volunteers will staff drink stations.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=dairy price dispute>>>
+Dairy Farmers Warn of Closures as Milk Price Falls
+
+Dairy farmers in Slovakia say the price paid for raw milk has fallen below the cost of production, and warn that dozens of small farms could close this winter.
+
+The farmers' association said the price dropped to 0.31 EUR per litre, down from 0.44 EUR a year ago. Processors argue that supermarket pressure and imports leave them little room.
+
+Agriculture minister Peter Hudák promised to consider temporary support. Farmers plan to drive tractors into Bratislava on Friday to press their demands.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=documentary premiere>>>
+Documentary on Danube Boatmen Premieres in Vukovar
+
+"The River Remembers," a documentary about three generations of Danube boatmen, premiered to a full house in Vukovar on Thursday night. Directed by Croatian filmmaker Ana Jurić, it combines archive footage with interviews recorded over four years.
+
+The film follows retired pilot Ivan Kovač as he travels from the river's source in Germany to its delta in Romania. Audiences praised its quiet beauty.
+
+It will be shown in cinemas in Croatia, Serbia and Hungary through December, and a television broadcast is planned for spring.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=housing project social>>>
+Council Starts 240 Affordable Homes in Eastern District
+
+Construction began on Tuesday on 240 affordable flats in Miskolc's eastern district, part of a programme to provide housing for young families and key workers.
+
+The 11 billion Ft development, scheduled for completion in late 2028, will include a nursery, a small park and a bike-storage area. Rent will be capped at 35% of average local income.
+
+Mayor Gábor Szentpéteri said more than 1,100 people were already on the waiting list. The council plans a second phase of 150 flats if funding is secured.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=ocean cleanup report>>>
+Cleanup Group Removes 300 Tonnes of Plastic from Pacific
+
+A non-profit ocean cleanup organisation said it had removed 300 tonnes of plastic debris from the Pacific Ocean this year, a record for the group, using a fleet of ten collection vessels.
+
+Most of the material consisted of discarded fishing nets, which are particularly dangerous to marine life. Founder Marta Delgado said that the recovered plastic was being recycled into sunglasses and furniture.
+
+Scientists note that cleanups alone cannot solve the problem and stress the importance of preventing plastic from entering the sea. The group plans to expand to the Indian Ocean in 2027.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=job market figures>>>
+Unemployment Edges Down to 4.0%
+
+Hungary's unemployment rate fell to 4.0% in the three months to September from 4.2% a quarter earlier, the statistics office said on Tuesday. The number of employed people rose by 31,000 to 4.78 million.
+
+Sectors with the strongest hiring included information technology, healthcare and construction. Youth unemployment stood at 11.3%.
+
+Economists noted that labour shortages remain a problem for manufacturers and that wage growth was running at 9.1%, above the rate of inflation. The government said it would continue to promote vocational training.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=judo championship>>>
+Hungarian Judoka Takes Silver at European Championships
+
+Hungary's Réka Pupp won silver in the women's 63 kg division at the European Judo Championships in Sofia on Sunday, losing the final to France's Camille Roux by a single waza-ari.
+
+Pupp, 25, had defeated two former champions on her way to the final. "I am happy with the silver, but I will be hungrier next time," she said.
+
+The result is Hungary's second medal of the tournament. The team returns home on Tuesday ahead of preparations for the world championships.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=wildfire containment>>>
+Wildfire Near Split Brought Under Control
+
+Firefighters in Croatia said on Saturday that they had brought under control a wildfire that burned 1,400 hectares of pine forest near Split over four days. No lives were lost, but 18 homes were damaged and about 600 residents were evacuated.
+
+More than 400 firefighters, supported by six water-bombing aircraft, fought the blaze. Officials said the cause was under investigation, with high winds and dry conditions blamed for its spread.
+
+Evacuated residents began returning to their homes on Saturday afternoon.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=science olympiad>>>
+Hungarian Students Shine at Mathematics Olympiad
+
+Hungary's team of six secondary school students came fourth at the international mathematics olympiad in Lisbon, winning two gold, three silver and one bronze medal.
+
+Fifteen-year-old Bálint Szekeres, the youngest member, solved all six problems correctly and finished among the top ten individuals worldwide. Team leader Dr. Anna Zsigmond said the preparation involved weekend camps throughout the year.
+
+China took first place, followed by the United States and South Korea. The students will be welcomed at a ceremony at the Hungarian Academy of Sciences on Friday.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=bank merger>>>
+Two Regional Savings Banks Agree to Merge
+
+Northern Savings Bank and Lakeland Cooperative Bank announced plans on Wednesday to merge, creating the region's third-largest lender with assets of 9.4 billion EUR.
+
+The combined bank will operate under the name Northlake Bank and keep all 62 branches open for at least two years, the companies said. Around 150 back-office jobs may be affected.
+
+Chief executives Sofia Lindberg and Petri Salo said the deal would improve resilience and allow greater investment in digital services. The transaction awaits regulatory approval and is expected to close in the second half of next year.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=bridge cycling path>>>
+New Cycle Path Links Danube Towns
+
+A 42 km cycle path connecting Esztergom and Visegrád was opened on Saturday, completing a missing link of the Danube cycle route. The 2.6 billion Ft project includes three bridges and a boardwalk section along the river.
+
+At the opening, more than 500 cyclists rode the full route. Regional development officer Gergely Árvai said the path is expected to attract up to 80,000 cyclists a year and support local guesthouses and cafés.
+
+Safety barriers have been installed at the busiest points, and rest areas offer repair stands and water taps.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=writer prize>>>
+Slovene Novelist Wins Central European Literature Award
+
+Novelist Maja Kovač has won this year's Central European Literature Award for "The Salt Road," a sweeping family saga set across three centuries in the Karst region of Slovenia.
+
+The jury praised "her ability to make a landscape feel like a character." The award, worth 20,000 EUR, was presented in Vienna on Friday. Kovač, 57, said she had spent nine years researching the book.
+
+An English translation will be published next spring, and a Hungarian edition is already planned for April.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=hospital strike averted>>>
+Nurses Call Off Strike After Pay Deal
+
+A planned two-day strike by nurses in Wales has been called off after union leaders accepted a pay offer of 7% over two years, along with additional funding for recruitment.
+
+Health secretary Rhian Griffiths said the agreement would "help us retain the staff who keep our hospitals running." About 28,000 nurses were due to take action next week.
+
+Union representative Gareth Pugh said members had voted 78% in favour of the deal. Some had hoped for a higher rise, he said, but the guarantee of safe staffing levels weighed heavily.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=pottery village fair>>>
+Potters' Fair Returns to Mezőtúr
+
+The traditional potters' fair in Mezőtúr returned this weekend for the first time since 2019, drawing about 6,000 visitors and 90 craftspeople from across the Carpathian Basin.
+
+Stalls sold jugs, tiles and figurines, while demonstrations showed how clay is thrown on a wheel. Children could try making their own cups.
+
+Organiser Júlia Kardos said many potters had struggled during the pandemic and the fair offered a lifeline. "People were hungry for something handmade," she said. The fair will be held again next October.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=electric car sales>>>
+Electric Vehicles Reach 22% of New Car Sales in Europe
+
+Electric cars accounted for 22% of new vehicle registrations in the European Union in October, up from 16% a year earlier, according to the European automobile manufacturers' association.
+
+Norway, Denmark and the Netherlands led, with electric share above 60% in Norway. In Hungary, the share rose to 9%.
+
+Analysts said cheaper models from Asian manufacturers and better charging networks are driving growth. Dealers, however, warned that the end of purchase subsidies in some countries could slow demand early next year.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=gallery theft recovered>>>
+Stolen Paintings Found in Warehouse
+
+Police in Rotterdam have recovered three 19th-century landscape paintings stolen from a private gallery in April, valued at an estimated 2.3 million EUR.
+
+Officers found the works wrapped in blankets in a rented storage unit on the city's outskirts after a tip-off. Two men, aged 38 and 44, were arrested on suspicion of theft and handling stolen goods.
+
+The gallery owner, Willem de Jong, said he was "overjoyed" and hoped the paintings were undamaged. Experts will examine them before they are returned.
+<<<END>>>

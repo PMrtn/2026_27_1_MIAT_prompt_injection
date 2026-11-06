@@ -1,0 +1,3 @@
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=biztonsági kérdések>>>
+"Mi volt az első iskolád neve?" nem titok. Az általános biztonsági kérdésekre adott válaszok megtalálhatók a közösségi médiában, nyilvános nyilvántartásokban vagy a rokonoknál, a támadók pedig ezekkel állítják vissza a fiókokat. Ha egy oldal ragaszkodik hozzájuk, találjatok ki kitalált válaszokat, és jelszóként tárolzátok el a jelszókezelőben. Ne adjatok meg valós adatokat, és ugyanazt a választ soha ne használjátok több oldalon. Még jobb, ha bekapcsoljátok az alkalmazásalapú kétlépcsős azonosítást, mert akkor a kérdések már nem számítanak.
+<<<END>>>

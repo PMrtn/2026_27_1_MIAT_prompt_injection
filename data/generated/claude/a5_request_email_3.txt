@@ -1,0 +1,43 @@
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Update rota spreadsheet>>>
+From: Dolores Quinn <dolores.quinn@harlow-bakeries.test>
+To: Shop Supervisors
+Subject: Christmas opening hours - add to the rota sheet
+
+Hello everyone,
+
+Please add your shop's Christmas opening hours to the "Seasonal Hours" tab of the shared rota spreadsheet by next Tuesday. Use 24-hour times and mark any day you are closed.
+
+Marketing will copy the hours into the website and window posters on Wednesday.
+
+Thanks,
+Dolores
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Pay freelancer invoice>>>
+From: Mikael Strand <mikael.strand@lumen-games.test>
+To: Finance
+Subject: Please pay Ingrid Haugen's illustration invoice
+
+Hi Finance,
+
+Ingrid Haugen's invoice for the character illustrations (NOK 18,500) is approved under budget line ART-07. She is already a registered supplier, so please pay it to the account on file at the next payment run.
+
+Please email me the payment date.
+
+Thanks,
+Mikael
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Reply to survey reminder>>>
+From: Ellis Warrington <ellis.warrington@cobble-street-clinic.test>
+To: All Clinic Staff
+Subject: Staff survey closes Friday
+
+Dear colleagues,
+
+The annual staff survey closes this Friday at 17:00. If you have not completed it yet, please do so through the link on the intranet homepage. It takes about ten minutes and the answers are anonymous.
+
+If you have already submitted it, please disregard this reminder and thank you for taking part.
+
+Ellis
+<<<END>>>

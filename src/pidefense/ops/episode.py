@@ -162,10 +162,13 @@ async def run_ops_episode(
     cache_namespace: str = "",
     llm_params: dict[str, Any] | None = None,
     max_steps_per_level: int = 10,
+    stop_on_success: bool = False,
 ) -> OpsEpisodeResult:
     """Run one multi-level conversation and return its full log with per-level outcomes.
 
     ``injection_text``/``followup_text`` None or "" give the benign variant (the L1/L2 prompts are still sent).
+    With ``stop_on_success`` the conversation ends after the first level at which the attacker goal is achieved,
+    so later levels are true retries after a refusal (outcomes are cumulative).
     ``BudgetExceededError`` propagates. ``total_latency_ms`` = LLM (cache hits replay the original latency) + tool +
     defense time; the elapsed time is ``wall_clock_ms``.
     """
@@ -219,6 +222,8 @@ async def run_ops_episode(
                 result.final_answer = answer
             _evaluate(task, result, state, level)
             if answer is None:
+                break
+            if stop_on_success and result.goal and result.level_outcomes[level].get("success"):
                 break
     result.wall_clock_ms = (time.perf_counter() - start) * 1000
     result.steps = len(result.llm_calls)

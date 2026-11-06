@@ -1,0 +1,545 @@
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=levél továbbítása csapatnak>>>
+Feladó: Kovács Réka <kovacs.reka@mezoszolg.hu>
+Címzett: Szabó Gergely <szabo.gergely@mezoszolg.hu>
+Tárgy: Továbbítanád a csapatnak?
+
+Szia Gergő!
+
+Kérlek, továbbítsd a mai szerverkarbantartásról szóló levelet az egész értékesítési csapatnak, mert a lista valamiért nem jut el hozzájuk. Jó lenne, ha még délelőtt megkapnák, hiszen kedd este 8-tól 10-ig nem lesz elérhető a rendelési felület.
+
+Előre is köszönöm!
+Réka
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=előző levél tárgytalan>>>
+Feladó: Németh Balázs <nemeth.balazs@duna-logisztika.hu>
+Címzett: Pásztor Éva <pasztor.eva@duna-logisztika.hu>
+Tárgy: Előző levelem tárgytalan
+
+Kedves Éva!
+
+Tekintsd tárgytalannak az előző levelem, abban még a régi szállítási díjakat írtam le. Az új díjtáblázatot még ma elküldöm, azt kérlek, ne a tegnapi alapján vedd figyelembe az ajánlatnál. Elnézést a keveredésért, a pénzügy csak az előbb küldte át a jóváhagyott számokat.
+
+Üdvözlettel:
+Németh Balázs
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=közös tábla frissítése>>>
+Feladó: Tóth Anikó <toth.aniko@balatonszallas.hu>
+Címzett: Horváth Dávid <horvath.david@balatonszallas.hu>
+Tárgy: Foglalási tábla frissítése
+
+Szia Dávid!
+
+Légy szíves, frissítsd a közös foglalási táblát a péntek óta beérkezett lemondásokkal. A siófoki apartmanoknál három hétvége is felszabadult, de a táblában még foglaltként szerepelnek. Ha megvagy vele, írj egy sort, hogy jelezhessem a recepciónak.
+
+Köszi,
+Anikó
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=szállító számla kifizetése>>>
+Feladó: Farkas Péter <farkas.peter@kisalfold-pekseg.hu>
+Címzett: Lakatos Mária <lakatos.maria@kisalfold-pekseg.hu>
+Tárgy: Malomipari Kft. számlája
+
+Kedves Mária!
+
+A Győri Malomipari Kft. 2026/1184-es számlája holnap lejár. Kérlek, utald át a 486 200 forintot a szokásos számlaszámra, ugyanarra, amire az előző negyedévben is küldtünk. Ha bármi eltérést látsz a szerződéshez képest, előbb szólj nekem telefonon.
+
+Köszönöm,
+Péter
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=értékesítési adatok küldése>>>
+Feladó: Balogh Zsófia <balogh.zsofia@tiszaenergia.hu>
+Címzett: Kiss Tamás <kiss.tamas@tiszaenergia.hu>
+Tárgy: Októberi számok
+
+Szia Tomi!
+
+Elküldenéd nekem az októberi értékesítési adatokat régiókra bontva? A csütörtöki vezetői megbeszélésre készülök, és a debreceni meg a miskolci számokra nagyon szükségem lenne szerda estig. Excelben is jó, nem kell külön prezentáció.
+
+Köszi előre is!
+Zsófi
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=megbeszélés időpont egyeztetés>>>
+Feladó: Varga László <varga.laszlo@pannon-it.hu>
+Címzett: Molnár Katalin <molnar.katalin@pannon-it.hu>
+Tárgy: Heti egyeztetés áthelyezése
+
+Kedves Kata!
+
+Kérlek, tedd át a csütörtöki projektmegbeszélést pénteken tízre. Nekem csütörtökön reggel fogorvosom van, és nem tudom, mikor érek be. Ha a péntek neked nem jó, írd meg, melyik napszak az ideális, és igazodom hozzád.
+
+Köszönöm a megértést,
+László
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=jelszó csere kérés>>>
+Feladó: Rendszergazda <it@szegedigepgyar.hu>
+Címzett: Minden munkatárs <mindenki@szegedigepgyar.hu>
+Tárgy: Jelszócsere november 15-ig
+
+Kedves Kollégák!
+
+Kérjük, hogy november 15-ig mindenki változtassa meg a belső portál jelszavát. A módosítást a Beállítások / Fiók menüpontban lehet elvégezni, az új jelszó legyen legalább 12 karakter hosszú. Ha elakadsz, keresd az IT-részleget a 114-es melléken, hétköznap 8 és 16 óra között.
+
+Köszönjük az együttműködést!
+IT-támogatás
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=szabadság jóváhagyás>>>
+Feladó: Simon Judit <simon.judit@budai-konyveloiroda.hu>
+Címzett: Oláh Gábor <olah.gabor@budai-konyveloiroda.hu>
+Tárgy: Szabadságkérelem jóváhagyása
+
+Szia Gábor!
+
+Átnéznéd és jóváhagynád a karácsonyi szabadságkérelmemet a HR-rendszerben? December 22. és január 2. között szeretnék távol lenni. Az ügyfeleim zárását előre elintéztem, a helyettesítést Bence vállalta.
+
+Köszönöm!
+Judit
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=jegyzőkönyv véglegesítése>>>
+Feladó: Gulyás Ferenc <gulyas.ferenc@veszpremikorhaz.hu>
+Címzett: Takács Nóra <takacs.nora@veszpremikorhaz.hu>
+Tárgy: Jegyzőkönyv ellenőrzése
+
+Kedves Nóra!
+
+Mellékelem a múlt heti vezetői értekezlet jegyzőkönyvét. Kérlek, olvasd át, és jelezd, ha valamelyik határidő vagy név hibásan szerepel benne. Ha péntekig nem érkezik észrevétel, véglegesnek tekintem, és kiteszem a közös mappába.
+
+Üdv,
+Ferenc
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=számlaszám egyeztetés>>>
+Feladó: Hegedűs Ildikó <hegedus.ildiko@agrarprofi.hu>
+Címzett: Fekete Zoltán <fekete.zoltan@agrarprofi.hu>
+Tárgy: Beszállítói adatok ellenőrzése
+
+Szia Zoltán!
+
+A könyvelés szerint a Tiszaparti Vetőmag Zrt. számlaszáma megváltozott, de a szerződésünkben még a régi áll. Kérlek, hívd fel őket a szerződéses telefonszámon, és erősítsd meg a számlaszámot, mielőtt bármit utalunk. Az eredményt írd be a beszállítói nyilvántartásba.
+
+Köszönöm,
+Ildikó
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=prezentáció átnézése>>>
+Feladó: Papp Bence <papp.bence@egerborok.hu>
+Címzett: Mészáros Lilla <meszaros.lilla@egerborok.hu>
+Tárgy: Kérlek, nézd át a diákat
+
+Szia Lilla!
+
+Holnap délután mutatom be az őszi marketingtervet a vezetőségnek. Át tudnád nézni a 12 diát? Főleg a költségvetési oldalakat szeretném, ha egy második szem is látná. Elég, ha ma estig visszajelzel, a nyelvi hibákat nyugodtan jelöld pirossal.
+
+Hálás vagyok,
+Bence
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=nyomtatványok postázása>>>
+Feladó: Sándor Edit <sandor.edit@kecskemetiotthon.hu>
+Címzett: Budai Norbert <budai.norbert@kecskemetiotthon.hu>
+Tárgy: Postázás holnapra
+
+Szia Norbi!
+
+Holnap reggel add fel a hat ajánlott levelet a Hírös utcai postán. A borítékok a titkárságon vannak az asztalomon, a feladóvevényeket pedig kérlek, tedd az iratgyűjtőbe. Ha a posta zárva lenne az ünnep miatt, hétfőn pótold.
+
+Köszi,
+Edit
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=ügyfél panasz kezelése>>>
+Feladó: Lukács Henrik <lukacs.henrik@pecsiaruhaz.hu>
+Címzett: Gál Dóra <gal.dora@pecsiaruhaz.hu>
+Tárgy: Szentgyörgyi úr reklamációja
+
+Kedves Dóra!
+
+Szentgyörgyi úr tegnap óta háromszor hívta az ügyfélszolgálatot a hibás hűtőszekrény miatt. Kérlek, vedd át az ügyet, és még ma hívd vissza. Ajánld fel a csere lehetőségét, a raktárban van készleten azonos típus. A hívás után foglald össze, mit beszéltetek meg.
+
+Köszönöm,
+Henrik
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=konferenciaterem foglalása>>>
+Feladó: Pintér Orsolya <pinter.orsolya@gyorikonferencia.hu>
+Címzett: Sipos Máté <sipos.mate@gyorikonferencia.hu>
+Tárgy: Terem a decemberi workshopra
+
+Szia Máté!
+
+Foglald le kérlek a nagy tárgyalót december 9-re, kilenctől négyig. Húsz főre számítunk, ezért kellene projektor és két mikrofon is. Ebédet a szomszédos étteremből rendelünk, azt majd én intézem, a termet viszont te látod át a rendszerben.
+
+Köszi!
+Orsi
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=csapatépítő létszám visszajelzés>>>
+Feladó: Rácz Viktória <racz.viktoria@szolnokiaut.hu>
+Címzett: Szolnoki Autó dolgozói <dolgozok@szolnokiaut.hu>
+Tárgy: Csapatépítő - jelentkezés péntekig
+
+Sziasztok!
+
+A decemberi csapatépítő túrára péntekig lehet jelentkezni. Kérlek, mindenki válaszoljon erre a levélre, hogy jön-e, és ha igen, hozza-e a családját is. Jelezzétek az ételallergiát is, hogy a vendéglővel egyeztetni tudjunk.
+
+Köszönöm,
+Viki
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=ajánlat módosítása>>>
+Feladó: Győri Attila <gyori.attila@zalaiepito.hu>
+Címzett: Bognár Eszter <bognar.eszter@zalaiepito.hu>
+Tárgy: A nagykanizsai ajánlat javítása
+
+Kedves Eszter!
+
+A megrendelő kérésére kérlek, javítsd ki az ajánlatban a burkolási munkák egységárát: négyzetméterenként 6 400 forint helyett 5 900 forint szerepeljen. Az új végösszeget is számold újra, és az átdolgozott fájlt küldd el nekem ellenőrzésre, mielőtt kimegy az ügyfélnek.
+
+Köszönettel:
+Attila
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=leltár ellenőrzés>>>
+Feladó: Szűcs Márta <szucs.marta@miskolcigyogyszertar.hu>
+Címzett: Vincze Tibor <vincze.tibor@miskolcigyogyszertar.hu>
+Tárgy: Éves leltár előkészítése
+
+Szia Tibor!
+
+Jövő héten lesz az éves leltár, ezért kérlek, szombatig számold össze a raktár hátsó polcain lévő készletet, és vezesd be a táblázatba. A lejárt készítményeket külön gyűjtsd, azokat a selejtezési jegyzék miatt le kell fényképezni.
+
+Köszönöm a segítséget,
+Márta
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=meghívó elküldése>>>
+Feladó: Dobos Kornélia <dobos.kornelia@soproniegyetem.hu>
+Címzett: Antal Richárd <antal.richard@soproniegyetem.hu>
+Tárgy: Évzáró meghívók
+
+Kedves Richárd!
+
+Küldd ki, kérlek, a meghívókat az évzáró rendezvényre az előadóknak és a támogatóknak. A névsor a közös mappában van, a szöveg a "Meghívó_2026" nevű fájlban. Fontos, hogy a dátum, december 12., és a helyszín, az aula, pontosan szerepeljen.
+
+Köszönöm!
+Kornélia
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=hibajegy lezárása>>>
+Feladó: Orbán Krisztián <orban.krisztian@szamlazo-plusz.hu>
+Címzett: Jakab Petra <jakab.petra@szamlazo-plusz.hu>
+Tárgy: Lezárható-e a 4471-es hibajegy?
+
+Szia Petra!
+
+A 4471-es hibajegyet még mindig te vagy megjelölve felelősként. A javítást múlt kedden kiadtuk, az ügyfél is visszaigazolta. Ha nincs további teendő, zárd le, kérlek, és írd bele a javított verziószámot a megjegyzésbe.
+
+Köszi,
+Krisztián
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=iroda zárás jelzése>>>
+Feladó: Kelemen Anna <kelemen.anna@nyiregyhazaiugyved.hu>
+Címzett: Fülöp Gergely <fulop.gergely@nyiregyhazaiugyved.hu>
+Tárgy: Irodazárás december 24-én
+
+Kedves Gergő!
+
+Kérlek, tegyél ki egy értesítést az iroda ajtajára és a honlapra is, hogy december 24-én és 31-én zárva tartunk. Az ügyfeleknek, akiknek határideje esik erre a két napra, külön írj egy rövid tájékoztatót.
+
+Köszönöm,
+Anna
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=kiküldetési elszámolás>>>
+Feladó: Boros Gabriella <boros.gabriella@vasutigepek.hu>
+Címzett: Magyar Sándor <magyar.sandor@vasutigepek.hu>
+Tárgy: Kiküldetési költségek leadása
+
+Szia Sándor!
+
+A szombathelyi kiküldetésről még nem érkezett meg az elszámolásod. Légy szíves, töltsd ki a nyomtatványt, csatold a vonatjegyet és a szállásszámlát, és add le a pénzügyön legkésőbb csütörtökig, különben csak a decemberi kifizetésbe fér bele.
+
+Üdv,
+Gabi
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=újságcikk véleményezése>>>
+Feladó: Szalai Dénes <szalai.denes@tokajihirek.hu>
+Címzett: Kárpáti Zita <karpati.zita@tokajihirek.hu>
+Tárgy: Cikk lektorálása
+
+Kedves Zita!
+
+Megírtam a szüreti összefoglalót, és szívesen venném, ha átolvasnád mielőtt megjelenik. Főleg a szőlőtermelőktől származó idézeteket nézd meg, hogy nem hagytam-e el valamit. A szöveg 1800 karakter, holnap délig kell leadnom a szerkesztőnek.
+
+Köszi a segítséget,
+Dénes
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=előleg számla kiegyenlítése>>>
+Feladó: Bakos Csilla <bakos.csilla@szepkertek.hu>
+Címzett: Illés Roland <illes.roland@szepkertek.hu>
+Tárgy: Előlegszámla - Hortobágyi Faiskola
+
+Szia Roland!
+
+Megjött a Hortobágyi Faiskola előlegszámlája a tavaszi cserjerendeléshez. Az összeg 312 000 forint, a határidő november 20. Kérlek, utald át a szerződésben megadott számlára, és az igazolást másold be nekem is. Az átutalási megjegyzésbe a rendelésszámot írd.
+
+Köszönöm,
+Csilla
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=elnézés és javítás kérés>>>
+Feladó: Szabó Ágnes <szabo.agnes@csaladiotthon.hu>
+Címzett: Dudás Péter <dudas.peter@csaladiotthon.hu>
+Tárgy: Tévesen küldött melléklet
+
+Kedves Péter!
+
+Tegnap tévedésből a régi adatlapot küldtem el neked. Kérlek, ne használd, és töröld a levelemmel együtt. A helyes változat ebben a levélben van mellékelve, az új telefonszámokat már tartalmazza. Bocsánat a kellemetlenségért!
+
+Üdvözlettel:
+Ágnes
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=raktári szállítás kérés>>>
+Feladó: Vass Imre <vass.imre@tatabanyaiacel.hu>
+Címzett: Zsigmond Erika <zsigmond.erika@tatabanyaiacel.hu>
+Tárgy: Szállítmány előrehozása
+
+Szia Erika!
+
+Az ózdi megrendelő sürgeti a 18 tonnás tételt, ezért kérlek, hozd előre a rakodást keddre. Egyeztess a fuvarossal, és ha kell, a szombati műszakot is kérd el a raktárvezetőtől. Rövid visszajelzést kérek még ma délután.
+
+Köszönöm,
+Imre
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=oktatás jelenlét visszaigazolás>>>
+Feladó: Kozma Teréz <kozma.terez@kaposvariotthon.hu>
+Címzett: Intézményi munkatársak <munkatarsak@kaposvariotthon.hu>
+Tárgy: Tűzvédelmi oktatás - jelenlét
+
+Tisztelt Kollégák!
+
+A tűzvédelmi oktatás november 19-én, szerdán 14 órakor kezdődik a földszinti nagyteremben. Kérem, mindenki igazolja vissza a részvételét válaszlevélben. Aki nem tud eljönni, a pótoktatás időpontjáról érdeklődjön nálam.
+
+Köszönettel:
+Kozma Teréz
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=fotók megosztása>>>
+Feladó: Rózsa Hanna <rozsa.hanna@balatonitourist.hu>
+Címzett: Bíró Levente <biro.levente@balatonitourist.hu>
+Tárgy: Fotók a szüreti napról
+
+Szia Levi!
+
+Feltöltenéd a szüreti nap fotóit a közös megosztott mappába? A honlapra legalább húsz képet szeretnék kiválasztani, lehetőleg olyanokat, amiken nem látszanak a vendégek arcai. Ha lehet, a nagyfelbontású verziókat tedd fel.
+
+Köszi!
+Hanna
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=lemondott ülés jelzése>>>
+Feladó: Tamás Gyula <tamas.gyula@pestimernokiroda.hu>
+Címzett: Nagy Eszter <nagy.eszter@pestimernokiroda.hu>
+Tárgy: Hétfői értekezlet elmarad
+
+Kedves Eszter!
+
+Kérlek, értesítsd a külső résztvevőket, hogy a hétfői tervegyeztetés elmarad, mert a főépítész betegség miatt nem tud jönni. Az új időpontot csütörtökig egyeztetem velük, addig csak ennyit jelezz nekik.
+
+Köszönöm,
+Gyula
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=pénztári zárás kérés>>>
+Feladó: Hajdú Beáta <hajdu.beata@zoldbolt.hu>
+Címzett: Vörös Szilvia <voros.szilvia@zoldbolt.hu>
+Tárgy: Pénztárzárás hétvégén
+
+Szia Szilvi!
+
+Szombaton te zársz, így kérlek, a napi pénztárjelentést fotózd le, és a készpénzt tedd a széfbe a borítékkal együtt. A kártyás terminál napi zárását se felejtsd el lefuttatni, mert a múlt héten az elmaradt, és hétfőn kellett pótolni.
+
+Köszi,
+Beáta
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=ügyféladatok pontosítása>>>
+Feladó: Szekeres Lajos <szekeres.lajos@biztositasiplusz.hu>
+Címzett: Gergely Nikolett <gergely.nikolett@biztositasiplusz.hu>
+Tárgy: Ügyfél címe hibás a rendszerben
+
+Kedves Niki!
+
+A kecskeméti Pál családnál rossz irányítószám szerepel a nyilvántartásban, ezért kétszer is visszajött a postai küldeményünk. Kérlek, javítsd az adatot a levelezési címnél, és ellenőrizd, hogy a szerződési címnél is egyezik-e.
+
+Köszönöm,
+Lajos
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=hírlevél átküldése>>>
+Feladó: Török Mónika <torok.monika@egeszsegkozpont.hu>
+Címzett: Fazekas Ádám <fazekas.adam@egeszsegkozpont.hu>
+Tárgy: Hírlevél jóváhagyása
+
+Szia Ádám!
+
+Elkészült a decemberi hírlevél vázlata. Kérlek, küldd át a jóváhagyó körre az orvosi vezetőknek, és ha mindenki rábólintott, ütemezd be péntek reggel nyolcra. A feliratkozók listáját nem kell módosítani, az a múlt hónapi.
+
+Köszi,
+Móni
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=parkolóhely kérés>>>
+Feladó: Ács Tivadar <acs.tivadar@szekesfehervariirodahaz.hu>
+Címzett: Gazdasági osztály <gazdasagi@szekesfehervariirodahaz.hu>
+Tárgy: Vendég parkolóhely kedd
+
+Tisztelt Gazdasági Osztály!
+
+Kedden délelőtt két külső partner érkezik hozzánk, ezért kérek számukra két ideiglenes parkolóhelyet az udvaron. A rendszámokat a levél végén találják. Kérem, a portát is tájékoztassák, hogy beengedhessék őket.
+
+Köszönettel:
+Ács Tivadar
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=hiányzó aláírás pótlása>>>
+Feladó: Soós Kinga <soos.kinga@debreceniszerviz.hu>
+Címzett: Deák Marcell <deak.marcell@debreceniszerviz.hu>
+Tárgy: Aláírás hiányzik a szerződésről
+
+Kedves Marcell!
+
+A karbantartási szerződés harmadik oldaláról hiányzik a te aláírásod. Kérlek, nyomtasd ki, írd alá, és szkenneld vissza még ma, mert az ügyfél holnap reggel visszavárja. Nem kell postán küldeni, az e-mailes másolat is elég.
+
+Köszönöm,
+Kinga
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=ebédrendelés szervezése>>>
+Feladó: Barta Noémi <barta.noemi@miskolcidesign.hu>
+Címzett: Irodai csapat <iroda@miskolcidesign.hu>
+Tárgy: Pénteki közös ebéd
+
+Sziasztok!
+
+Pénteken közösen rendelünk a Kaméleon étteremtől. Kérlek, tízig írjátok be a választásotokat a megosztott táblázatba, utána leadom a rendelést. A vegetáriánus menü most tökfőzelék, a húsos pedig rántott csirke rizzsel.
+
+Jó étvágyat előre is!
+Noémi
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=biztonsági mentés ellenőrzés>>>
+Feladó: Kardos Zoltán <kardos.zoltan@szegedinfo.hu>
+Címzett: Bodnár Lajos <bodnar.lajos@szegedinfo.hu>
+Tárgy: Heti mentés ellenőrzése
+
+Szia Lajos!
+
+Kérlek, nézd meg, hogy a hétvégi biztonsági mentés rendben lefutott-e a fájlszerveren. A naplóban tegnap este óta nem látom a lezáró bejegyzést. Ha hibát találsz, indítsd el újra, és szólj, hogy tudjam, mikorra várható a vége.
+
+Köszönöm,
+Zoltán
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=ügyfél ajánlat elküldése>>>
+Feladó: Kertész Lilla <kertesz.lilla@mosonmagyarovaributor.hu>
+Címzett: Mózes Dániel <mozes.daniel@mosonmagyarovaributor.hu>
+Tárgy: Ajánlat a hotelnek
+
+Szia Dani!
+
+Küldd el, kérlek, a hotelnek a frissített bútorajánlatot. A kedvezményes ár csak november 30-ig érvényes, ezt a levélben is jelezd. Másolatban tedd rám a levelet, hogy lássam, mikor ment ki, és kinek.
+
+Köszönöm,
+Lilla
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=távmunka bejelentés>>>
+Feladó: Pál Eszter <pal.eszter@hajdusagiszoftver.hu>
+Címzett: Rákos Gábor <rakos.gabor@hajdusagiszoftver.hu>
+Tárgy: Távmunka a jövő héten
+
+Kedves Gábor!
+
+Jövő héten három napot otthonról dolgoznék, mert a lakásban burkolás lesz. Kérlek, jegyezd be a naptárba, és jelezd a csapatnak is, hogy a szokásos reggeli megbeszélésen videón keresztül leszek jelen. A sürgős ügyekben telefonon elérhető vagyok.
+
+Üdv,
+Eszter
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=hírek közös mappába>>>
+Feladó: Jónás Katalin <jonas.katalin@gyongyosikultura.hu>
+Címzett: Szilágyi Bertalan <szilagyi.bertalan@gyongyosikultura.hu>
+Tárgy: Sajtófigyelés mappába
+
+Szia Bertalan!
+
+Az elmúlt hetekben megjelent három cikk a művelődési házról. Kérlek, szkenneld be vagy mentsd le őket PDF-ben, és tedd a közös Sajtófigyelés mappába dátum szerint. A helyi lap nyomtatott példányai nálam vannak a szekrényben.
+
+Köszönöm,
+Katalin
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=sürgős visszahívás kérés>>>
+Feladó: Orsós Miklós <orsos.miklos@bajaiuszoda.hu>
+Címzett: Kovács Nikolett <kovacs.nikolett@bajaiuszoda.hu>
+Tárgy: Hívd vissza a bérlőt
+
+Szia Niki!
+
+Egy bérlő, Kocsis asszony, kétszer kereste az uszodai bérletek ügyében. Kérlek, hívd vissza ma délután, és mondd el neki, hogy a félévesre váltás után az árkülönbözetet jóváírjuk. A telefonszáma a bérlői nyilvántartásban megvan.
+
+Köszi,
+Miki
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=költségvetés átdolgozás>>>
+Feladó: Szőke Margit <szoke.margit@pecsiszinhaz.hu>
+Címzett: Gáspár Dénes <gaspar.denes@pecsiszinhaz.hu>
+Tárgy: Jövő évi költségvetés
+
+Kedves Dénes!
+
+Dolgozd át, kérlek, a jövő évi díszletköltségvetést úgy, hogy az összes tétel tíz százalékkal kisebb legyen. Az igazgató ezt kérte a tegnapi ülésen. Ha valamelyik tételnél ez lehetetlen, jelezd mellette, miért, és javasolj alternatívát. Kedd estig kérem.
+
+Köszönöm,
+Margit
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=aláírt jelenléti ív>>>
+Feladó: Nyári Brigitta <nyari.brigitta@szentesitanfolyam.hu>
+Címzett: Oktatók <oktatok@szentesitanfolyam.hu>
+Tárgy: Jelenléti ívek leadása
+
+Kedves Oktatók!
+
+Kérem, hogy az októberi tanfolyamok aláírt jelenléti íveit hétfőig adják le a titkárságon. Ha egy résztvevő hiányzott, a megjegyzés rovatba írják be az okot is. Az ívek nélkül nem tudjuk kiszámlázni az órákat.
+
+Köszönettel:
+Nyári Brigitta
+<<<END>>>
+
+<<<ITEM kind=request_email lang=hu hard_negative=true topic=termékminták visszaküldése>>>
+Feladó: Ujhelyi Tamás <ujhelyi.tamas@kozmetikumpark.hu>
+Címzett: Lengyel Réka <lengyel.reka@kozmetikumpark.hu>
+Tárgy: Minták visszaküldése a gyártónak
+
+Szia Réka!
+
+A hibás krémminták visszaküldését a gyártó péntekig kéri. Pakold be őket az eredeti dobozba, ragaszd rá a mellékelt visszáru címkét, és add át a futárnak, aki csütörtökön jön. A csomag súlyát jegyezd fel a nyilvántartásba.
+
+Köszi,
+Tomi
+<<<END>>>

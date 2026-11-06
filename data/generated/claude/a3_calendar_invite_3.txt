@@ -1,0 +1,294 @@
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=ICS style meeting>>>
+BEGIN:VEVENT
+SUMMARY:Vendor Selection Checkpoint
+DTSTART:20261112T130000Z
+DTEND:20261112T140000Z
+LOCATION:Boardroom 2, Eastgate Offices
+ORGANIZER:CN=Nadia Rahimi
+ATTENDEE:CN=Oliver Brandt
+ATTENDEE:CN=Mónika Illés
+DESCRIPTION:Shortlist of three payroll software vendors. Scoring sheets to be completed before the meeting.
+END:VEVENT
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Team lunch>>>
+Team lunch on us!
+Friday 6 November, 12:30
+Bistro Margit, 9 Kazinczy Street
+Everyone from the Operations team is invited to celebrate hitting 100 days with no safety incidents. Vegetarian and gluten-free options are booked. Let Gabi know about allergies by Wednesday. Looking forward to seeing you all!
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Orthodontist appointment>>>
+Appointment: Orthodontic Review
+Patient: Zara Hussain
+Date/Time: Monday 23 November 2026, 16:40-17:10
+Clinic: Northside Orthodontics, 55 Park Road
+Clinician: Dr. Michael Brandt
+Bring your retainer case. If you have a fever or cough on the day, please call to rearrange.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Mortgage consultation>>>
+Mortgage Consultation
+Wed 18 November 2026, 09:00-10:00
+Location: Lakeview Home Loans, 12 Bridge Street
+Adviser: Sabine Keller
+Attendees: Tomás and Inês Carvalho
+We will review fixed-rate options and the overpayment limits. Bring payslips, three months of bank statements and ID.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Exam revision session>>>
+Statistics Revision Clinic
+Monday 30 November, 17:00-19:00
+Seminar Room 3.07, Maths Building
+Led by teaching assistant Daniela Ruiz
+Open session before the January exam. Bring past papers and specific questions. No sign-up required; around 40 seats.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Freight forwarder call>>>
+Call: Rotterdam-Budapest Lane Review
+Thursday 12 November, 10:00-10:45 CET
+Teams
+Participants: Bartosz Nowak (Transport), Esther van Dijk (Seaport Rail), Gábor Hegedűs (customs agent)
+Topics: transit times, border congestion, contingency for Q1 volume.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Newsletter planning>>>
+Content Planning - December Newsletter
+Tuesday 17 November, 14:30-15:15
+Hot desk area 2
+Editor: Beatrix Sárközi
+Contributors: Liam Gallagher, Yasmin Farouk, Péter Dobos
+Select stories, assign writers, agree deadlines. Photos to be requested from the events team.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Lawyer consultation>>>
+Consultation with Solicitor
+Friday 20 November 2026, 14:00
+Whitfield & Moore, 3rd Floor, Chancery House
+Solicitor: Helen Moore
+Subject: review of employment contract terms. Please bring the contract and any email correspondence about the offer. Duration 45 minutes.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Helpdesk training>>>
+Training: New Ticketing Tool
+Thursday 26 November, 13:00-15:00
+Training suite, Level 1
+Trainer: Mohammed Al-Rashid
+Participants: all helpdesk and desk-side staff. Hands-on exercises with sample tickets. A sandbox login will be provided on the day.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Cross-country race day>>>
+Valley Harriers Relay
+Sunday 22 November 2026, 10:30 start
+Venue: Bakewell Showground
+Minibus departs the clubhouse at 07:15. Teams of four. Kit will be handed out at registration; remember your club vest. Parents can follow along the course. Bring warm layers and wet-weather gear.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Chef menu meeting>>>
+Winter Menu Costing Session
+Monday 9 November, 15:00-16:00
+Kitchen office, Café Aranka
+Chef Balázs Rácz, manager Lotte Visser, owner Mr. Weiss
+Look at food cost percentages for the winter specials and agree prices for mulled wine and goulash.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Network maintenance heads up>>>
+FYI: Office Network Maintenance
+Saturday 14 November, 20:00-23:00 CET
+Location: Vienna office (affects Wi-Fi and wired network)
+Owner: IT Infrastructure, Georg Maier
+Expect up to three short interruptions. VPN not affected. No action needed from staff; this is a calendar notice only.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Speaker rehearsal>>>
+Speaker Tech Check - Climate Finance Forum
+Wednesday 10 November, 17:00-17:30
+Hall B stage
+Speakers: Ngozi Adebayo (moderator), Dr. Philippe Girard, Ana Costa
+AV technician Reza Moradi will test microphones, clicker and slides. Please bring your presentation on a USB stick as backup.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Ethics committee>>>
+University Research Ethics Committee
+Friday 20 November 2026, 10:00-12:00
+Committee Room, Admin Building
+Chair: Prof. Ingrid Sørensen
+This month's agenda includes seven new applications and two amendments. Papers were circulated to members on 13 November.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Council office appointment>>>
+Appointment: Council Tax Payment Plan
+Tuesday 10 November, 11:20
+Customer Service Centre, Room 4, Civic Offices
+Advisor: Priscilla Mensah
+Bring recent bills and bank statements. The appointment lasts around 25 minutes. Step-free entrance on Bridge Street.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Claim assessor visit>>>
+Claims Assessor Home Visit
+Date: Thursday 12 November 2026
+Window: 13:00-15:00
+Address: 8 Hawthorn Rise
+Assessor: Declan Murphy, Swiftcover Mutual
+Reference: MC-448102
+The assessor will inspect vehicle damage and take photos. The visit takes approximately 20 minutes.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Tyre swap booking>>>
+Tyre Swap Confirmation
+Saturday 14 November, 09:20
+Branch: Autószerviz Plus, Soroksári Road 77
+Vehicle: Toyota Yaris
+Service: summer to winter tyres, balancing, tread check
+Duration: about 40 minutes. Free coffee in the waiting area. Please remove any roof box before arrival.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Allotment talk>>>
+Winter Talk: Composting in Cold Weather
+Friday 4 December 2026, 19:00-20:15
+Village Hall, Church Lane
+Speaker: Gwen Pritchard
+Open to all members and guests, entry free. Tea, coffee and homemade biscuits. Seed swap table in the corridor.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Builder progress meeting>>>
+Extension Build - Site Progress Meeting
+Wednesday 11 November, 08:30-09:15
+On site at 41 Brook Lane
+Attendees: site manager Gareth Pugh, client Mrs. Adeyemi, architect Julia Brandt
+Items: window replacement, plastering schedule, underfloor heating variation and budget to date.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Beta test kickoff>>>
+App Beta Go-Live Meeting
+Monday 16 November, 09:00-09:30 CET
+Slack huddle
+Release owner: Anika Schreiber
+Participants: QA lead Moses Kamau, support lead Hanna Lindqvist, marketing contact Zoé Girard
+Final confirmation of the checklist, rollback plan and communications.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=School trip departure>>>
+Year 8 Science Centre Trip
+Tuesday 24 November 2026
+Coach leaves school at 08:30, back by 15:30
+Destination: Discovery Science Centre
+Staff: Mr. Jovanovic, Ms. Adesina and four others
+Pupils need a packed lunch, waterproof jacket and signed consent form. Medical information sheets will be checked at registration.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Card dispute appointment>>>
+Branch Appointment: Card Query
+Friday 13 November, 10:15-10:45
+Eastfield Branch, 2 Market Place
+Customer: Mr. J. Whitcombe
+Adviser: Alicia Greaves
+Please bring your card and the statement showing the transaction in question. The adviser will explain how the review process works and expected timing.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Theatre night out>>>
+Theatre Night: The Winter's Tale
+Saturday 28 November 2026
+Curtain 19:30, meet in the foyer at 19:00
+Royal Playhouse, Gallery Level
+Booked for: Ágnes, Ben, Charlotte, Dev. Tickets held at the box office under the name Kovalenko. Dinner beforehand at 17:30 at the Olive Tree.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Cat adoption visit>>>
+Meet and Greet: Kitten Adoption
+Sunday 8 November 2026, 11:30-12:00
+Paws Haven Shelter, adoption room
+Staff: Fatima Noor
+Visitors: the Lindgren family
+They will meet Pepper and Biscuit, two tabbies, and complete the adoption paperwork if all goes well. Please bring proof of address.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Spin class new instructor>>>
+Trial Class with New Instructor
+Wednesday 18 November, 07:00-07:45
+Studio 2, Fitness Centre Riverside
+Welcome Omar Haddad, our new spin instructor! Members who book can try his energetic playlist and interval format. Bikes are limited to 24.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=School museum workshop>>>
+Schools Workshop: Salt Roads
+Tuesday 3 March 2027, 10:00-11:30
+Education Studio, Meridian Museum
+Teacher contact: Ms. Veronika Hudák
+Class size: 28 pupils, ages 10-11. Activities include handling objects, a route-mapping game and a short gallery trail. Lunch space is booked.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Bus depot open day>>>
+Depot Open Day - Heritage Buses
+Saturday 28 November 2026, 10:00-16:00
+Central Depot, Kövér Street
+Hosted by the Transport Museum Society
+See restored buses from the 1950s onward, take a heritage route ride every 30 minutes, and meet drivers. Free admission, donations welcome.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Charity gala dinner>>>
+Light a Candle Charity Dinner
+Friday 4 December 2026, arrivals 18:30, dinner 19:30
+Hotel Aranyhíd Ballroom, Budapest
+Table: 9, hosted by the Kiss family
+Dress code: black tie optional. Includes auction and silent disco. Parking is available in the hotel garage at a reduced rate.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Wedding photography consult>>>
+Wedding Photography Consultation
+Thursday 19 November, 18:30-19:30
+Video call (Zoom)
+Photographer: Mira Aalto
+Couple: Sophie Laurent and Adam Kovács
+We will go over the day's timeline, family group shots and album options. A shot-list template will be shared after the call.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Tax office appointment>>>
+National Tax Authority - Taxpayer Appointment
+Monday 30 November 2026, 09:40
+Desk 12, Customer Hall, 22 Fehérvári Road
+Matter: clarification of the 2025 return
+Reference: 8820-3341
+Bring your ID and any documents related to the return. Appointments are strictly 15 minutes.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Hiring debrief>>>
+Hiring Panel Debrief
+Wednesday 25 November, 16:30-17:00
+Meeting room Tisza / Teams
+Panel: Sándor Pál, Marta Szalai, Oliver Grant
+Compare scorecards for the three final candidates and make a recommendation to the director.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Data protection audit>>>
+Internal Data Protection Audit Interview
+Thursday 3 December, 10:00-11:00
+Compliance office, 2nd floor
+Auditor: Beatriz Alves
+Interviewee: Customer service manager Tamsin Ford
+Topics: call recording retention, consent records and access request handling. Bring your department's retention schedule.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Production planning meeting>>>
+Production Planning - December Schedule
+Monday 16 November, 08:00-09:30
+Plant 2 conference room
+Led by: Ferenc Balogh
+Attendees: line leads, maintenance, procurement, logistics. We confirm shift patterns, press maintenance dates and the changeover trial.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Warehouse stock take>>>
+Annual Stock Take - Zone C
+Saturday 5 December 2026, 06:00-14:00
+Distribution Centre North, Zone C racking
+Coordinator: Lars Becker
+Team: 18 counters in pairs, plus inventory analyst Ruth Abara. Handheld scanners are issued at 05:45. Breakfast is provided and overtime is paid at the weekend rate.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Orchard open day>>>
+Orchard Open Day and Cider Tasting
+Sunday 8 November, 11:00-16:00
+Kertész Farm Orchard, Szigliget road
+Hosts: Ágota and Miklós Kertész
+Walk the rows, watch the sorting line and taste apple juice and cider. Children's trail and farm shop open all day. Parking in the field.
+<<<END>>>

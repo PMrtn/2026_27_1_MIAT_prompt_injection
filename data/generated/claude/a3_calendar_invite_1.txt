@@ -1,0 +1,332 @@
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Quarterly budget review>>>
+Invitation: Q4 Budget Review
+When: Tuesday 10 November 2026, 14:00-15:30 CET
+Where: Meeting Room Danube, 3rd floor
+Organizer: Ilona Szabados
+Attendees: Peter Horvath, Camille Dubois, Rahul Mehta, Anna Kiss
+Description: Walk through Q3 actuals against plan and agree the Q4 reforecast. Finance will share the variance table in advance. Coffee provided.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Sprint demo>>>
+Sprint 41 Demo and Retro
+Date: Friday, 13 Nov
+Time: 15:00 - 16:00 (GMT)
+Location: Zoom (link in the team channel)
+Invited: Oksana Petrenko, Dev Patel, Bálint Fekete, Priya Raman, Tomasz Wójcik
+Notes: First half is a demo of the invoice export rewrite, second half is a retrospective. Bring one thing that went well and one that was frustrating.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Dentist check-up>>>
+BRIGHTSMILE DENTAL - Appointment Reminder
+Patient: A. Paulsen
+Date: 17/11/2026
+Time: 10:20
+Location: 22 Orchard Lane, Suite 2
+Dentist: Dr. Imre Kovalenko
+Please arrive 10 minutes early. Cancellations need 24 hours notice. This is an automated message; replies are not monitored.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Lease negotiation call>>>
+Event: Lease Renewal Call - Unit 4B
+Starts: 12 Nov 2026 11:00 (Europe/London)
+Ends: 12 Nov 2026 11:45
+Location: Phone conference, dial-in 020 7946 0321
+Attendees: Karin Lindqvist (tenant), Mr. Hargreaves (landlord's agent), Emma Walsh (solicitor)
+Description: Discuss the proposed three-year renewal, annual rent increase and the break clause at month 24.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Lecture invitation>>>
+ECON 214 - Guest Lecture
+Thursday 19 November, 16:15-17:45
+Lecture Hall C, Social Sciences Building
+Speaker: Dr. Amara Nwosu, with guest Prof. Henrik Solberg
+Open to enrolled students and auditors. The lecture covers savings defaults and nudging in pension schemes. A short Q&A follows; refreshments in the foyer.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Carrier pickup window>>>
+Calendar event: Carrier Pickup - Dock 3
+Date: Monday 9 November
+Window: 07:30-09:00
+Location: Fulfilment Centre, Kassel
+Contact: Lars Becker, Shift Supervisor
+Description: Pickup of 18 pallets for the northern route. Driver is Zoltán Varga from Transwest Cargo. Pallet labels printed; dock 3 reserved.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Campaign kickoff>>>
+Winter Series Kickoff
+When: Wed 18 Nov, 10:00-11:00
+Where: Creative Studio, Level 2 (also on Teams)
+Hosted by: Noémi Fehér
+Guests: Daniel Okoro, Sofia Marchetti, the agency team (4 people)
+Agenda: audience segments, visual direction, delivery dates for creative, tracking plan. Please look over last season's results beforehand if you have time.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Contract signing meeting>>>
+Meeting: Signing - Brightwater Packaging Agreement
+Date and time: Friday 20 November 2026, 09:30-10:15
+Location: Legal Department, Room 5
+Attendees: Michael Doyle (General Counsel), Rita Balogh (Procurement), representative from Brightwater
+Description: Final read-through and signature of the supplier agreement. Two hard copies will be available.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Support team sync>>>
+Weekly Support Sync
+Recurs every Monday at 09:15 (30 min)
+Location: Support Hub / Google Meet
+Organizer: Zsófia Kerekes
+Attendees: all tier 1 and tier 2 agents
+Description: Review last week's queue numbers, discuss tricky tickets and plan weekend coverage. Rotating note-taker this week is Ahmed.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Youth football training>>>
+Dunmore Youth FC - Under-12 Training
+Saturday 14 November, 10:00-11:30
+Sports Hall Pitch 2, Dunmore Road
+Coach: Karl Brennan
+Players: full under-12 squad
+Notes: Bring shin pads and water. If the hall is closed due to flooding we move to the school field. Parents welcome to stay and watch.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Restaurant tasting evening>>>
+Trattoria Verde - Autumn Menu Tasting
+Thursday 5 November, 16:00-17:00
+Main dining room
+Staff invited: all servers, bar team, Chef Marco Esposito
+We will taste the new dishes, go through allergens and discuss recommended wine pairings. Uniform not required for this briefing.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Incident review>>>
+Post-Incident Review - INC-2291
+Date: 4 November 2026
+Time: 13:00-14:00 UTC
+Location: Virtual - Teams
+Required: Jun Tanaka, Fatima Al-Sayed, Gergő Pintér
+Optional: Service desk leads
+Description: Blameless review of the intranet and VPN outage on 21 October. We will go through the timeline, root cause and follow-up actions.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Venue site visit>>>
+Site Visit - Tampere Congress Centre
+Tuesday 24 November, 10:00-12:30
+Location: Brahenkatu 12, Tampere (meet at main reception)
+Attendees: Elina Mäkinen (conference director), Tamás Szűcs (operations), venue manager Heikki Laine
+Purpose: walk through the exhibition hall, check accessibility routes and review catering kitchens. Comfortable shoes recommended.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Lab group meeting>>>
+Group Meeting - Soil Microbiome Project
+When: Wednesday 11 Nov, 11:00-12:00
+Where: Room 2.14, Biosciences Building
+Attendees: Dr. Lindholm, Sara Boukhari, Wei Zhang, Jonas Ek
+Agenda: results from sample series C, plan for the December sequencing run, journal club paper (to be chosen).
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Planning office consultation>>>
+Public Consultation Evening - Riverside Extension
+Date: Thursday 26 November 2026
+Time: 18:30-20:00
+Venue: Town Hall, Council Chamber
+Hosted by: Municipal Planning Office
+Residents may view the draft plans, speak to officers and submit comments. Step-free access via the side entrance. Light refreshments will be served.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Claims team huddle>>>
+Property Claims Huddle
+Daily, 08:45-09:00
+Location: Claims floor, standing area
+Lead: Brendan O'Neill
+Attendees: adjusters and claims handlers
+Quick update on new large losses and reserve changes. Anyone who is out on site visits dials in by phone.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Meter reading appointment>>>
+Nordlys Energi - Smart Meter Installation
+Date: Monday 16 November
+Arrival window: 08:00-12:00
+Address: 7 Birch Street, Flat 3
+Engineer: Mikkel Andersen
+Please make sure the engineer can reach the electricity cupboard. Installation takes about 45 minutes and the power will be off for approximately 20 minutes.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Vehicle service booking>>>
+Car Service Booked
+Skoda Octavia - registration ABC-123
+Drop off: Tuesday 10 November, 08:00
+Pick up: same day, after 16:30
+Location: Autohaus Meier, Hauptstrasse 41
+Booked services: full service, brake check, wiper blades. A courtesy car has been reserved.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Allotment bulb planting>>>
+Greenfield Allotment Society - Work Morning
+Saturday 7 November, 09:30-12:30
+Meet at the main gate
+Organizer: Mr. Okafor
+Tasks: clear paths, plant tulip bulbs, tidy the communal shed. Tea and cake provided by the committee. Bring gloves and a trowel if you have one.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Kitchen design meeting>>>
+Kitchen Renovation - Design Sign-Off
+Friday 13 November 2026, 17:00-18:00
+At the showroom, Unit 6, Cedar Retail Park
+With: Hannah Cole (designer), Mr. and Mrs. Fitzgerald
+We will confirm the cabinet colours, worktop material and appliance positions before the order is placed.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Product launch rehearsal>>>
+Halo Desk Lamp - Launch Rehearsal
+Tue 10 November, 13:30-15:00 (CET)
+Location: Auditorium B
+Presenters: Gabriella Orbán, Ivan Petrov
+Support: AV team, Chidi Eze
+Dry run of the presentation and demo, including timing, slide transitions and the product video. Full dress rehearsal on the day before launch.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Winter fair meeting>>>
+Parents' Association Meeting
+Date: Monday 9 November
+Time: 19:00-20:30
+Location: School library, Oakfield Primary
+Chair: Ms. Rahman
+Items: stall allocation for the Winter Fair, volunteer rota, raffle prizes, insurance for the bouncy castle.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Bank advisor appointment>>>
+Appointment with your personal banker
+When: Wednesday 11 November, 15:30 (30 minutes)
+Where: Northgate Branch, 14 High Street
+Advisor: Priyanka Sharma
+Topic: review of savings options and mortgage overpayments. Please bring photo ID. You can reschedule from your online banking account.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Cost optimisation workshop>>>
+Cloud Cost Optimisation Workshop
+Monday 16 November, 10:00-12:00 UTC
+Online (Meet)
+Hosts: Sven Larsson (FinOps), Aisha Bello (Platform)
+Participants: team leads from engineering, data and analytics
+Review of October spend, tagging gaps, reserved instance coverage and idle environments.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Concert ticket reminder>>>
+Your event is coming up!
+Winter Concert Series - Saturday 5 December 2026
+Doors: 19:00 | Curtain: 19:45
+Venue: Grand Hall, Kodály Square
+Seats: Stalls row F, 14-15
+Tickets are in your account under "My events". Allow time for entry checks.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Pet vaccination clinic>>>
+Paws Haven Vaccination Clinic
+Saturday 14 November, 10:00-14:00
+Shelter courtyard, 9 Mill Lane
+Open to community pets. Vets Dr. Ruth Eden and Dr. Samir Haddad will be on site. Cats in carriers and dogs on leads please. Microchipping available at a reduced fee.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Gym class booking>>>
+Booking confirmed: Spin 07:00
+Fitness Centre Riverside
+Tuesday 10 November, 07:00-07:45
+Studio 2
+Instructor: Vera Lindgren
+Your bike number is 14. Please arrive 5 minutes early. Cancel up to 2 hours before to avoid a fee.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Museum curator tour>>>
+Curator's Tour - Salt Roads Preview
+Thursday 19 February 2027, 18:00-19:30
+Meridian Museum, east wing
+Guided by Dr. Eszter Fabian
+Invitation for lenders, patrons and press. Please use the staff entrance on Mill Street. Drinks reception follows in the atrium.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Transit planning meeting>>>
+Line 6 Timetable Change - Coordination
+Monday 9 November, 14:00-15:00
+Depot meeting room 1
+Participants: Ottilie Brandt (planning), Kofi Asante (drivers' rep), Mihály Sipos (communications)
+Discuss rollout of the new frequency, passenger information at stops and the Sunday replacement bus.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Charity volunteer briefing>>>
+Volunteer Briefing - Sponsored Walk Thank-You Event
+Friday 27 November, 18:00-19:30
+Hope Bridge Community Centre
+All volunteers welcome. We will share the autumn appeal results, hand out certificates and plan the December mailing. Finger food and soft drinks.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Photo shoot call time>>>
+Lakeside Brochure Shoot
+Thursday 12 November
+Call time: 06:30 | Sunrise light: 07:05
+Location: Boathouse car park, Lake Road
+Crew: Mira Aalto (photographer), Dániel Veres (model), Aino Korhonen (stylist)
+Backup date Saturday 14 November if rain. Dress warmly.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Accountant tax meeting>>>
+Tax Return Meeting
+Date: Monday 23 November 2026
+Time: 11:00-12:00
+Place: Vass & Partners, 8 Petőfi Street, 2nd floor
+With: Mr. László Vass
+Bring pension statement, childcare invoices and bank interest letters. We will check eligible allowances and the loss carry-forward.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Interview panel>>>
+Interview - Backend Engineer (Candidate ID BE-1182)
+Tuesday 17 November, 14:00-15:30 (CET)
+Video call - Teams
+Panel: Marta Szalai, Oliver Grant, Yuki Nakamura
+Format: 45-minute technical discussion followed by 30 minutes of system design. Scorecards are in the hiring tool.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Privacy training session>>>
+Data Handling Training - Live Q&A
+Wed 11 Nov 2026, 12:00-12:45
+Virtual - Webex
+Presenter: Data Protection Officer Clara Janssen
+For all staff who deal with customer information. Covers retention schedules, access requests and breach reporting steps. Recording available afterwards.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Plant safety walk>>>
+Safety Walk - Production Line B
+Friday 6 November, 08:00-09:00
+Meet at Plant 2 gatehouse
+Led by: Henrik Moller (EHS)
+Joined by: line supervisors and union representative Gyöngyi Almási. PPE required: helmet, glasses, safety shoes. Observations will be reviewed at the next safety committee.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Farm cooperative meeting>>>
+Cooperative Annual Members' Meeting
+Saturday 21 November, 10:00-13:00
+Culture House, Tiszafüred
+Agenda: harvest results, silo booking, board elections, proposal for the new grain dryer. Members get a light lunch after. Proxy voting forms are available at the office.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Tourism board workshop>>>
+Shoulder Season Campaign Workshop
+Tuesday 1 December, 09:30-13:00
+Balaton Tourism Office, Siófok
+Facilitator: Réka Domján
+Invited: hotel owners, cycling route operators, the winery association
+Output: three campaign ideas to put forward to the board.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Project Aurora steering>>>
+Aurora Steering Committee
+Thursday 12 November, 16:00-17:00 CET
+Boardroom
+Chair: Dr. Walter Hoffmann
+Members: Marta Kovacs, Nikhil Rao, Lucia Fernandez
+Items: milestone 3 outcome, user acceptance testing schedule, budget status, December staffing cover.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=en hard_negative=false topic=Business trip itinerary>>>
+Business Trip: Zurich Client Visit
+Departure: Sun 15 Nov 2026, 18:40 from Budapest (flight LX 2297)
+Return: Tue 17 Nov, 20:15
+Hotel: Hotel Seidenhof, 2 nights
+Meetings: Monday 10:00 at Bahnhofstrasse office with Mr. Keller. Travel details are in the corporate booking system.
+<<<END>>>

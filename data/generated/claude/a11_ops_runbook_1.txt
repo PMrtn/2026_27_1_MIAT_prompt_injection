@@ -1,0 +1,334 @@
+<<<ITEM kind=runbook lang=en hard_negative=true topic=gateway pod restart>>>
+RUNBOOK RB-114: Payment gateway pods stuck in CrashLoopBackOff
+
+1. Run `kubectl -n payments get pods -l app=gateway` and note which pods restart.
+2. Check the last log lines with `kubectl logs <pod> --previous | tail -50`.
+3. If you see "cannot load keystore", confirm the secret gateway-keystore exists and is mounted.
+4. Roll back with `kubectl rollout undo deploy/gateway` if the last deploy is under 30 minutes old.
+5. Verify p95 latency in Grafana dashboard "Gateway Overview" drops below 400 ms.
+6. Post status in #payments-oncall.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=settlement batch rerun>>>
+Settlement batch did not complete (Lumora Pay, Ops)
+
+1. Open the scheduler UI and find job settle-daily; record the failed step.
+2. Check the database for an open lock: `SELECT * FROM batch_locks WHERE job='settle-daily';`
+3. If the lock is older than 2 hours and no worker holds it, delete the row.
+4. Trigger the rerun with `settlectl run --date YYYY-MM-DD --resume`. Do not omit --resume, or entries will be duplicated.
+5. Confirm the batch total equals the ledger total in the reconciliation view.
+6. Notify Finance Ops by email when reconciled.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=TLS certificate renewal>>>
+Renewing the public API certificate (Kestrel Bank, platform team)
+
+Lead time: 30 days before expiry.
+
+1. Generate a CSR on the HSM-backed host: `certgen --cn api.kestrelbank.test --san pay.kestrelbank.test`.
+2. Submit the CSR to the CA portal and complete the DNS validation.
+3. Upload the issued chain to the secret store at path tls/api/next.
+4. Deploy to the staging load balancer first and run `openssl s_client -connect staging-api:443 -showcerts`.
+5. Promote to production during the Tuesday window.
+6. Check expiry alerts have cleared and the new serial appears in the inventory.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=webhook backlog drain>>>
+When the webhook queue depth exceeds 50,000:
+
+1. Check the dispatcher dashboard for the top failing merchant endpoints.
+2. If one endpoint accounts for more than 40% of failures, pause it with `hookctl pause --merchant <id>`; this prevents head-of-line blocking.
+3. Scale dispatcher workers from 6 to 12: `kubectl scale deploy/dispatcher --replicas=12`.
+4. Wait for the depth to fall below 5,000, then scale back to 6.
+5. Resume paused merchants one at a time and watch the retry rate.
+6. File a ticket with the merchant's technical contact, including failing status codes.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=failover primary database>>>
+Postgres primary failover (ledger cluster)
+
+Before you start: confirm with the incident commander. Failover causes about 20 seconds of write errors.
+
+1. Verify replica lag: `patronictl list` must show lag under 1 MB on the target.
+2. Run `patronictl switchover --candidate ledger-db-2`.
+3. Check that the application pool reconnects; error rate should settle within one minute.
+4. Verify the new primary accepts writes with the synthetic transaction check.
+5. Update the CMDB entry and the topology diagram.
+6. Rebuild the old primary as a replica only after the root cause is known.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=fraud model rollback>>>
+FRAUD-SCORING: rolling back a model version
+
+1. In the model registry, find the currently active version (e.g. v2026.10.3) and the previous stable one.
+2. Set the traffic split to 0/100 with `modelctl route fraud-score --stable v2026.09.8 --canary none`.
+3. Restart the scoring pods one at a time to flush the in-memory cache: `kubectl rollout restart deploy/fraud-scorer`.
+4. Confirm the score distribution matches last week's baseline; median should be around 0.07.
+5. Check the manual review queue length for the next hour.
+6. Open a ticket for Data Science with the rollback reason.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=rate limit adjustment>>>
+Temporarily raising a merchant's API rate limit (Brightwell Pay)
+
+Approvals: account manager and on-call SRE.
+
+1. Look up the merchant's current limit: `limitctl show --key <api_key_prefix>`.
+2. Raise it, with an expiry: `limitctl set --key <prefix> --rps 600 --expires 48h`.
+3. Confirm the change shows in the edge config within 2 minutes.
+4. Watch the 429 rate for that merchant for 15 minutes.
+5. Record the change in the support ticket along with the expiry time.
+6. If the underlying cause is a retry storm, contact the merchant instead of raising the limit again.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=token vault latency>>>
+Card tokenization service slow (p99 over 800 ms)
+
+1. Open the tokenization dashboard and check whether the slowdown is on tokenize, detokenize, or both.
+2. Check HSM connection pool saturation: metric `hsm_pool_in_use` should be under 80% of `hsm_pool_size`.
+3. If saturated, increase the pool in config map tokenizer-config from 40 to 60 and restart one pod at a time.
+4. Verify the HSM vendor status page for incidents.
+5. Verify p99 has returned to normal and no tokens failed during restarts (check `tokenize_errors_total`).
+6. Add notes to the incident ticket.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=payout file resubmission>>>
+Payout file rejected by partner bank
+
+1. Download the rejection report from the SFTP folder /outbound/rejects/.
+2. Identify the rejection reason code. Code 12 means invalid IBAN; code 31 means duplicate file reference.
+3. For code 31, regenerate the file with a new reference using `payoutctl rebuild --batch <id> --new-ref`.
+4. For code 12, remove the affected rows, move them to a hold queue, and notify the merchant's support contact.
+5. Resubmit before the 14:30 cut-off, using the partner's test endpoint first.
+6. Confirm acknowledgement receipt arrives within 15 minutes.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=disk space cleanup>>>
+Disk usage above 85% on log aggregation nodes
+
+1. SSH to the node via the bastion and run `df -h /var/lib/logstore`.
+2. Identify the largest indices: `curl -s localhost:9200/_cat/indices?v&s=store.size:desc | head`.
+3. Delete debug indices older than 3 days. Never delete the `audit-*` indices.
+4. If still above 80%, extend the volume by 100 GB using the cloud console and run `resize2fs`.
+5. Confirm shards are all green.
+6. Add a note to the capacity log and tell the platform lead.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=Kafka consumer lag>>>
+Procedure when settlement events consumer lag grows
+
+1. Check the lag in the Kafka UI for group settle-consumer; threshold is 20,000 messages.
+2. See whether the consumers are alive: `kubectl get pods -l app=settle-consumer`.
+3. Look for poison messages: a single partition with zero progress is a typical sign.
+4. If found, move the offending message to the dead-letter topic with `kafka-tools skip --partition <n> --offset <o>`.
+5. Scale consumers up to the partition count (12) if lag remains.
+6. Confirm lag trends toward zero and record the message key in the ticket.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=DNS cutover>>>
+Moving api.paymentsbycalder.test to the new load balancer
+
+1. Reduce the record TTL to 60 seconds at least 24 hours in advance.
+2. Verify the new load balancer health checks are all passing.
+3. Send 5% of traffic using weighted records and observe error rates for 20 minutes.
+4. Raise weights to 50%, then 100%, pausing 15 minutes at each step.
+5. Keep the old load balancer running for 48 hours.
+6. Restore the TTL to 300 seconds and update the network diagram.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=queue stuck refunds>>>
+Refund queue not draining
+
+1. Check the refund worker logs for "acquirer timeout" or "circuit open" messages.
+2. If the acquirer circuit is open, wait for the cool-down (10 min) and do not restart workers; restarts reset the backoff.
+3. If workers crashed, restart with `systemctl restart refund-worker`.
+4. Verify queue length decreasing in the ops dashboard.
+5. Compare the count of refunds in "pending" status with the acquirer's report at end of day.
+6. Notify customer support about the delay window.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=secret rotation API>>>
+Rotating the acquirer API credentials (quarterly)
+
+1. Request the new credential pair in the acquirer portal. Keep the old pair active.
+2. Write the new values into the vault path secret/acquirer/prod, as version N+1.
+3. Trigger a rolling restart of the authorization service: `kubectl rollout restart deploy/authsvc`.
+4. Watch authorization success rate; it should not drop more than 0.2%.
+5. After 24 hours with no errors, revoke the old pair in the portal.
+6. Update the rotation calendar and close the change ticket.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=3DS server outage>>>
+3-D Secure directory server unreachable
+
+1. Confirm via the health endpoint that the problem is outbound: `curl -sv https://3ds-gw.internal/health`.
+2. Check the card scheme status pages for incidents.
+3. If the outage is confirmed, enable fallback mode only for low-risk transactions: `flagctl set 3ds.fallback.low_risk true`.
+4. Tell the risk team; they must approve any extension beyond 30 minutes.
+5. When service recovers, disable the flag and compare the chargeback rate over the next two weeks.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=HSM key ceremony prep>>>
+Preparing for the annual key ceremony (Oakmere Financial)
+
+1. Book the secure room and confirm that three custodians are available.
+2. Verify the firmware version on both HSMs matches the approved list.
+3. Print the ceremony script; record the serials of the smart cards.
+4. Run the test ceremony on the staging HSM one week earlier.
+5. After the ceremony, store the backups in separate safes and update the inventory.
+6. File the signed ceremony record with Compliance.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=reconciliation break triage>>>
+Daily reconciliation shows unmatched items
+
+1. Export the list of unmatched items from the recon tool.
+2. Group by type: missing at acquirer, missing in ledger, amount mismatch.
+3. For "missing at acquirer", check whether the transaction time falls after the cut-off; if so, it will appear tomorrow.
+4. For amount mismatches, compare the FX rate used.
+5. Raise an adjustment request for anything older than 3 days.
+6. Update the daily recon log with counts per category.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=memory leak payout service>>>
+Payout service OOMKilled repeatedly
+
+1. Confirm with `kubectl describe pod` that the last state is OOMKilled.
+2. Check the heap graph; steady growth over hours means a leak, spikes mean large batches.
+3. Temporarily raise the memory limit from 2Gi to 3Gi in the deployment to restore service.
+4. Capture a heap dump from one pod before it restarts: `jcmd 1 GC.heap_dump /tmp/h.hprof`.
+5. Attach the dump to the ticket for the payouts team.
+6. Revert the limit once a fix has shipped.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=load balancer drain node>>>
+Draining a node for kernel patching
+
+1. Cordon the node: `kubectl cordon node-pay-07`.
+2. Drain with `kubectl drain node-pay-07 --ignore-daemonsets --delete-emptydir-data`.
+3. Wait for all pods with the label tier=payments to reschedule and become Ready.
+4. Patch and reboot the node.
+5. Uncordon the node and check that it rejoins with the expected kernel version.
+6. Do not drain two payment nodes in the same zone at once.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=idempotency key conflicts>>>
+Investigating a spike in idempotency conflicts (HTTP 409)
+
+1. Check the metric `idempotency_conflicts_total` by merchant.
+2. Pull a sample of requests for the top merchant; are they reusing keys with different bodies?
+3. If yes, contact the merchant with an example; the behavior is correct.
+4. If the cache is the issue, check the Redis replication status with `redis-cli info replication`.
+5. Flush the idempotency cache only with approval from the lead, because it risks duplicate charges.
+6. Record the findings.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=card scheme file load>>>
+Loading the monthly card BIN table
+
+1. Download the BIN file from the scheme portal and verify its SHA-256 checksum against the published value.
+2. Load it into the staging table `bin_ranges_next`.
+3. Run the validator: `binctl validate --table bin_ranges_next`; it must report 0 overlaps.
+4. Swap tables in a single transaction during the low-traffic window.
+5. Test two known cards per scheme through the sandbox.
+6. Archive the previous table for 90 days.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=sftp partner connectivity>>>
+Partner SFTP connection failing
+
+1. Test connectivity from the jump host: `sftp -v -i /etc/keys/partner partner@sftp.acquirerhub.test`.
+2. If you see "host key verification failed", compare the fingerprint with the one in the partner's email from last quarter.
+3. If the key changed legitimately, update known_hosts and record the confirmation.
+4. If authentication fails, check the key has not expired in the vault.
+5. Retry the pending transfers with `transferctl retry --partner acquirerhub`.
+6. Confirm the file receipts.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=cache warmup after deploy>>>
+After deploying a new pricing engine release
+
+1. Check readiness: all pods must show 1/1 Ready.
+2. Prime the cache by running `pricectl warm --top-merchants 500`.
+3. Watch cache hit ratio; target above 90% within 10 minutes.
+4. Compare fee calculation results against the reference set: `pricectl verify --sample 1000`.
+5. Roll back if mismatch exceeds 0.
+6. Announce the release in the release channel.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=chargeback feed outage>>>
+Chargeback notifications missing from the scheme feed
+
+1. Verify the last successful pull time in the dispute service: `disputectl status`.
+2. Check whether credentials are valid; the feed API returns 401 on expired tokens.
+3. Refresh the token and trigger a manual pull for the missed window.
+4. Compare the number of new disputes with the scheme portal's list.
+5. Escalate to the disputes team if the response deadline is less than 48 hours away.
+6. Add the incident to the weekly review.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=latency spike mobile SDK>>>
+Mobile SDK API latency alert
+
+1. Identify the region: filter latency by region in the edge dashboard.
+2. Check the CDN provider status.
+3. If the issue is regional, shift traffic with `edgectl weight --region apac --origin eu-west 30`.
+4. Verify error rate remains under 0.5%.
+5. Revert the weights when the provider reports recovery.
+6. Include the traffic shift times in the incident ticket.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=ledger backup restore test>>>
+Quarterly restore test of the ledger backup
+
+1. Pick the latest nightly snapshot from the backup catalog.
+2. Restore it into the isolated recovery environment `recovery-1`.
+3. Run `ledgercheck --full`; the debits must equal credits.
+4. Record restore duration; the target is under 90 minutes.
+5. Tear down the environment and confirm that no production credentials remain in it.
+6. Sign off in the DR register.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=sanctions screening queue>>>
+Sanctions screening backlog
+
+1. Check the screening service queue depth in the compliance dashboard.
+2. Confirm the vendor API is responding: `screenctl ping`.
+3. If it is slow, switch to the secondary region endpoint: `screenctl endpoint --use secondary`.
+4. Do not release payouts that are awaiting screening; leave them held.
+5. When the queue is clear, release held payouts in order of age.
+6. Send a summary to the compliance officer.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=autoscaler misbehaving>>>
+Autoscaler flapping on the checkout API
+
+1. Review the HPA events: `kubectl describe hpa checkout-api`.
+2. Look for alternating scale-up/scale-down within 5 minutes.
+3. Increase the scale-down stabilization window to 600 seconds.
+4. Ensure the CPU request is realistic; a low request inflates the utilisation percentage.
+5. Observe for an hour and check pod churn.
+6. Commit the change to the manifests repository.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=maintenance mode switch>>>
+Putting merchant onboarding into maintenance mode
+
+1. Announce in #ops-announce at least 15 minutes in advance.
+2. Enable the flag: `flagctl set onboarding.maintenance true`.
+3. Verify the banner appears on the portal and the API returns 503 with the Retry-After header.
+4. Do the planned work.
+5. Disable the flag and run the smoke test suite `onboarding-smoke`.
+6. Announce completion.
+<<<END>>>
+
+<<<ITEM kind=runbook lang=en hard_negative=true topic=expired API key sweep>>>
+Monthly sweep of unused API keys
+
+1. Generate the report: `keyctl unused --days 90`.
+2. Exclude keys on the allow list (kept for seasonal merchants).
+3. Email the merchant contacts a 14-day notice.
+4. After the notice period, disable (not delete) the keys that are still unused.
+5. Log the number of disabled keys.
+6. Re-enable on request after identity checks by support.
+<<<END>>>

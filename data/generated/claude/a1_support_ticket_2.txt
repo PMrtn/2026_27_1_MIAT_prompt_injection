@@ -1,0 +1,376 @@
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=bike share rental>>>
+[Chat - CityPedal Bike Share]
+Customer: I returned my bike but the app still says I'm riding!
+Agent (Noor): Where did you leave the bike?
+Customer: At the station on Margit Street.
+Agent: Thanks. I can see the dock didn't register a lock. Our team will check it. I've ended the rental manually at 17:48, so you'll only be charged up to that time.
+Customer: Thanks a lot.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=newsletter unsubscribe>>>
+Ticket #SUB-3902
+Customer: Ottilia Ferenczi
+Message: "I keep getting your emails even after unsubscribing last month."
+
+Response: Hello Ottilia, we found two addresses subscribed: your work address (unsubscribed) and ottilia.f@mailbox.test, which was still active. We have removed it from all lists now. Emails already scheduled may take up to 48 hours to stop. Apologies for the annoyance.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=VPN client error>>>
+INC0043917 | Remote access | Priority 3
+Caller: Benedek Racz
+Short description: VPN client shows error 809 when working from home.
+
+Work notes: Home router blocks IPSec pass-through. Advised to switch to the SSL fallback profile "Corp-443" in the client. Connection established 09:47. User confirmed access to file shares. Suggested contacting the ISP if the issue recurs on the IPSec profile.
+State: Resolved
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=missing loyalty points>>>
+[Chat transcript - Marlo Supermarkets]
+
+Customer (Eszter): My points from Saturday's shopping haven't shown up.
+Agent (Dominic): Hello Eszter! Could you give me your card number's last 4 digits?
+Customer: 7720.
+Agent: I see the transaction; the points are pending for 72 hours because it was a click-and-collect order. 214 points will appear on Tuesday.
+Customer: Ah, okay. I wasn't sure.
+Agent: No problem at all. Have a lovely evening!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=leaking washing machine>>>
+Service Request SR-61105
+Customer: Mrs. Ruth Callahan
+Appliance: Whirlpool-type front loader, 3 years old
+
+Issue: Water pooling under the machine after each wash.
+
+Technician report (home visit, 4 Nov): Door seal had a 2 cm tear. Replaced the seal (part no. DS-4410) and cleaned the drain filter. Test cycle run: no leaks. Warranty expired, labour 35, part 29. Customer paid by card.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=job portal profile>>>
+Support ticket #JB-12044
+
+Candidate: Ayodele Bankole
+Message: "The portal won't let me upload my CV, it says file too large."
+
+Support: Hi Ayodele, our limit is 5 MB. Your CV is 7.8 MB, probably because of embedded images. Compressing the PDF or exporting it again without images will help. I've also temporarily raised your limit to 10 MB so you can upload it now.
+Candidate: Uploaded. Thank you.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=parking fine appeal>>>
+Case PCN-228841 | Parking Appeals
+
+Appellant: Mr. David Okonjo
+Grounds: Ticket displayed but parking app payment failed due to network error; receipt for a retry at 14:07 attached.
+
+Decision: Appeal upheld. Parking app logs confirm a payment attempt at 14:02 that did not complete and a valid payment at 14:07, within the grace period. Penalty charge notice cancelled. Letter sent 5 Nov.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=sound bar pairing>>>
+[Live chat - Resonate Audio]
+Customer (Kristof): Bluetooth keeps cutting out on my Resonate Bar 2.
+Agent (Willa): Sorry to hear it. Where is the bar relative to your phone?
+Customer: About 3 metres, with a cabinet between.
+Agent: Glass or metal cabinet doors can block the signal. Could you try moving the phone, or using the optical cable we included?
+Customer: Optical works perfectly.
+Agent: Wonderful! Firmware 2.1 also improves Bluetooth stability, available in the app.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=hospital bill query>>>
+Patient Accounts Ticket #PA-33018
+Patient: Gizella Takacs
+Query: Bill shows 120 EUR for an X-ray but I thought it was covered by my insurance.
+
+Response: Your insurer approved the examination but a co-payment of 20% applies under your plan. We have also found that the bill listed a second image that wasn't taken; the corrected invoice is 96 EUR and has been sent. Payment is due in 30 days.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=online store coupon>>>
+Customer chat 14:50
+
+Customer: My code WINTER15 says invalid.
+Agent: Hi! Let me check. WINTER15 applies to orders over 60 EUR, and your basket is 54.90.
+Customer: Oh. What if I add socks?
+Agent: A pair of wool socks (7.50) would bring you above the threshold, and then 15% comes off the whole basket.
+Customer: Great, adding.
+Agent: Done! Looks like it applied successfully.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=database backup failure>>>
+Ticket #CS-88014 | Severity 2 | Managed Database
+
+Customer: Quill & Co (contact: Ana Pereira)
+Issue: Nightly backup failed on 3 and 4 Nov; alert email received.
+
+Engineer update: Root cause - backup volume reached 95% capacity because of retention settings. We increased the volume by 200 GB and ran a manual backup, which completed successfully at 11:32 UTC. Recommended reducing retention from 35 to 21 days if acceptable.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=gift card balance>>>
+[Chat - Bookworm Online]
+Customer: How do I check my gift card balance?
+Agent (Ravi): Go to your account, choose Gift cards, and enter the 16-digit code from the back. The balance will be displayed immediately.
+Customer: It says 12.40. I thought it was 25.
+Agent: I can see an order on 18 October for 12.60 using this card. Is that familiar?
+Customer: Oh yes, I forgot!
+Agent: No problem. The remaining balance is valid until 2028.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=mortgage document upload>>>
+Ticket MTG-5209
+
+Applicant: Zsofia and Miklos Antal
+Issue: Document portal refuses the third payslip upload.
+
+Advisor comment: The portal only accepts PDF, and the file was a JPG photo. Advised to convert it or use the "Scan with phone" option in the app. All three payslips are now uploaded, and the application has moved to underwriting. Expected response within 3 working days.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=noisy neighbour report>>>
+Housing Association Request #HA-2208
+Tenant: Mrs. Kamala Devi, Flat 12B
+
+Report: Loud music from flat above on Friday and Saturday nights until 3 am.
+
+Officer: Thank you for reporting. We have written to the resident above and asked for a diary of noise events. An officer will visit on Thursday at 11:00 to talk to you. Mediation is available and free. We will update you within 14 days.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=eBook download>>>
+Support #EB-4417
+
+User: Johan Eriksson
+Complaint: purchased e-book "Northern Lights Cookbook" but the download button leads to a blank page.
+
+Support response: We reproduced the problem; the file storage link for this title had expired. It has been restored. Please try again, and the e-book will also be available in your library under Purchases. We've also emailed you the EPUB and PDF versions as attachments.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=restaurant allergy question>>>
+Guest inquiry via website - Taverna Olivia
+
+Guest (Maya): Does the lamb moussaka contain nuts? My son has a tree-nut allergy.
+Restaurant (Chef Nikos): Dear Maya, no, our moussaka contains no nuts, but we do use almond flour in the baklava, and our kitchen handles nuts. We can prepare your son's dish separately with clean equipment, and we'll note the allergy on the order.
+Guest: Thank you, that is reassuring.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=drone firmware update>>>
+Ticket #DR-3321 - Skylark Mini 3
+
+Customer: Tamsin Greaves
+Problem: Firmware update stuck at 40% for an hour.
+
+Technical support: Please do not remove the battery. Keep the drone and controller close together, and restart the controller. Then repeat the update with the battery at least 50%. If it stops again, we can send the update file for a manual installation.
+Update (customer): Completed on the second try. Resolved.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=delivery slot change>>>
+[Chat - GreenCart Grocery]
+Customer (Lilian): Can I change my delivery from Friday evening to Saturday morning?
+Agent (Matyas): Yes. Saturday has slots at 08-10 and 10-12 for your postcode. Which would you prefer?
+Customer: 10-12 please.
+Agent: Done. The new slot is confirmed and the driver will text you 30 minutes before. You can still edit your basket until Friday at 22:00.
+Customer: Thanks!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=school portal login>>>
+School IT Helpdesk #SIT-209
+Parent: Mr. Gabor Hegedus (child: Lili, 6A)
+
+Problem: "Can't log in to the school portal, the code from the activation letter doesn't work."
+
+Reply: The activation code is valid for 14 days and expired on 29 Oct. We have issued a new letter, and in the meantime a temporary code was sent by SMS to your registered mobile number. Please change your password at first login.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=tablet screen flicker>>>
+RMA request 560-4412
+
+Customer: Hannah Lindqvist
+Device: Nimbus Tab 10 (serial NT10-88213)
+Fault: Screen flickers when brightness is below 30%.
+
+Technician: Known issue in a small batch, probably a backlight driver fault. The device is covered. Free postage label sent; turnaround is 7-10 working days. As an interim measure, set brightness above 40%. A loan tablet is available if needed.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=ski pass refund>>>
+Chat log - Piste & Peak Resort
+
+Customer (Alois): My lift pass is for 5 days but I broke my leg on day 2. Can I get a refund?
+Agent (Corinne): I'm very sorry to hear that. With a doctor's certificate we can refund the unused 3 days, minus a 10% handling fee.
+Customer: I have a certificate from the hospital.
+Agent: Please upload it via the link we send now. Refund will be processed within 7 days.
+Customer: Thank you for your kindness.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=car rental damage>>>
+Claim ticket CR-7783 | DriveEasy Rentals
+
+Customer: Mr. Sandor Kerekes
+Subject: Dispute over scratch charge of 180 EUR.
+
+Review (Damage team): Check-in photos from 21 Oct show the scratch on the rear bumper already present before the rental; the customer's photos were uploaded correctly. Charge reversed in full on 5 Nov. Apologies for the error, and the 180 EUR will show on the card within 5 working days.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=spreadsheet add-in problem>>>
+Ticket #TSK-9027 (Productivity Suite)
+
+Reporter: Corinna Faber
+Issue: The "Quick Chart" add-in has disappeared from the ribbon after the update.
+
+Support: The add-in was disabled by the latest update because of a version mismatch. Open File > Options > Add-ins > Manage Disabled Items and enable "Quick Chart". If it isn't listed, reinstall it from the store. A fix is part of next week's patch.
+Reporter: Re-enabled, works. Thanks.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=tickets sold out>>>
+Customer message - Event Ticketing #EVT-5510
+
+"Hi, the show on 28 Nov in Pecs is shown as sold out but I saw people posting they got tickets today. Is there a waiting list?"
+
+Reply (Zita, Ticketing): Hello! A small batch of returned tickets was released this morning and sold out within minutes. We have a waiting list: you can join it on the event page and we'll email you if further tickets become available. Good luck!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=energy tariff switch>>>
+[Chat - VoltaPower Customer Care]
+Customer (Henrietta): I want to move to your fixed tariff. How long is the contract?
+Agent (Lukas): The Fixed 12 tariff runs for 12 months at 0.2310 per kWh with a standing charge of 0.46 per day. Exit fee is 30 per fuel.
+Customer: And when would it start?
+Agent: After a 14-day cooling-off period, around 22 November.
+Customer: OK, please go ahead.
+Agent: Done. You'll receive a confirmation email shortly.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=forklift battery issue>>>
+Service ticket FK-2290 | Priority: Medium
+
+Customer: Sarto Logistics, Gyor depot
+Equipment: Electric forklift EF-18, battery 48V
+
+Issue: Battery lasts only half a shift.
+
+Technician visit 4 Nov: One cell group has a voltage deviation, likely due to deep discharges. Equalisation charge performed; capacity improved from 51% to 78%. Recommended replacement within 6 months and charging after each shift. Quote sent for a new battery.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=photo book order>>>
+Chat transcript - SnapBound Photo Books
+
+Customer (Tessa): I ordered a book with 60 pages but the preview showed cut-off faces.
+Agent (Leonid): Sorry about that, Tessa. The layout on page 14 had low-resolution images cropped by the template. Would you like me to reopen the project so you can adjust them?
+Customer: Yes, please.
+Agent: Reopened. You have 48 hours to edit and reapprove. No extra cost.
+Customer: Perfect.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=kindergarten fee query>>>
+Request #KG-0183
+
+Parent: Fanni Kovacs
+Question: Why were two meal fees charged in October for my daughter when she was on holiday for a week?
+
+Reply from administration: Meal fees are reduced for absences that are reported before 8:00 on the day. As no absence was registered, the full fee was charged. We have corrected it on this occasion and will credit 6,300 HUF to the November invoice.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=CRM sync issue>>>
+Ticket #SYNC-4471 | Integration support
+
+Customer: Brookfield Estates
+Description: Contacts created in the CRM are not showing up in the newsletter tool since Monday.
+
+Engineer analysis: The integration token expired; sync job had been failing silently with a 401. A new token was created and the 142 queued contacts synced at 15:10. We also enabled failure notifications so that an email is sent after the first failed sync.
+Status: Closed
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=bakery order change>>>
+SMS conversation with Crumb & Co Bakery
+
+Customer: Hi, I ordered a birthday cake for Saturday. Can you add "Happy 40th Gabi" on top?
+Bakery: Hello! Yes, of course. Would you like blue or gold lettering?
+Customer: Gold.
+Bakery: Lovely. Added. It will be ready for pickup from 10:00 on Saturday. There's no extra charge for lettering. See you then!
+Customer: Thank you!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=printer paper jam>>>
+Helpdesk INC-77841 | Office printing
+
+Reporter: Louise Carrick (Accounts)
+Issue: Printer on 2nd floor shows "Paper jam in tray 2" but nothing is stuck.
+
+Technician comment: Sensor in tray 2 was dirty. Cleaned with compressed air, then replaced the pickup roller (worn). Test print of 50 pages OK. Added a note to the maintenance log and ordered spare rollers.
+Time spent: 25 min. Closed 5 Nov, 11:20.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=plant nursery delivery>>>
+Customer enquiry via Verdant Nursery site
+
+Customer: Annabel Whitcombe
+"My lavender plants arrived with brown tips. Are they dead?"
+
+Reply (Horticulture team): They're not dead. Brown tips are common after transit when plants are shaded in the box for several days. Water them, plant them in well-drained soil and trim the brown tips. If they haven't recovered in 3 weeks, send us a photo and we will replace them free of charge.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=utility outage report>>>
+Network Operations ticket #OUT-2025-6611
+Reported by: Mr. Lazar Dragic, 14 Maple Close
+Issue: No electricity since 06:30.
+
+Update 07:45: Fault located on a local substation after a cable was damaged during roadworks. Crew on site. Estimated restoration: 11:00. 62 properties are affected. Customer informed by phone. Compensation of 30 GBP applies if the outage exceeds 12 hours.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=online exam proctoring>>>
+Chat - ExamGuard Support
+
+Student (Ali): The proctoring software says my camera is not detected.
+Agent (Petra): Please check that no other application is using the camera, such as a video call. Also confirm browser permission for the exam site.
+Student: Teams was open in the background.
+Agent: Close it and reload.
+Student: Now it works!
+Agent: Good luck with your exam, Ali!
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=dating of invoice>>>
+Ticket A-4108 | Accounts payable query
+
+Supplier: Szeles Papir Kft. (contact: Gaspar Szeles)
+Question: Invoice SP-2026-0341 for 1.84 million HUF was due on 30 Oct but isn't paid.
+
+AP clerk Rita: Your invoice reached us on 2 Nov, after the payment run. It has been approved and will be paid in the run of 6 Nov. Payment terms are counted from the date of receipt. Remittance advice will follow by email.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=smartwatch sync>>>
+[Chat - PulseWear Support]
+Customer: My watch doesn't sync steps with the phone app.
+Agent (Ingrid): Which model and phone do you have?
+Customer: PulseWear Fit 3 and an iPhone 14.
+Agent: Open the app and pull down on the home screen to force a sync. Make sure Bluetooth stays on and "Background refresh" is enabled for the app.
+Customer: Background refresh was off. It's syncing now!
+Agent: Glad to help.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=moving house utilities>>>
+Customer case #MV-8820
+
+Customer: Judit Pasztor
+Request: Moving from Debrecen to Szeged on 20 Nov, wants to transfer the internet and TV package.
+
+Agent (Ernoe): The service is available at the new address (fibre, up to 1 Gbps). A technician visit is scheduled on 21 Nov, 14:00-18:00. Your old connection ends on 20 Nov and no early termination fee applies. The router can be taken with you.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=museum membership card>>>
+Member services ticket #MM-3015
+
+Member: Sir Reginald Hart-Davies
+Issue: My new membership card doesn't open the turnstile at the entrance.
+
+Reply: The card was encoded for the staff entrance by mistake. A new card has been prepared at the front desk and you can pick it up any time during opening hours. Your free-entry privileges for guests remain unchanged. Please accept our apology.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=farm equipment order>>>
+Order enquiry #AG-6602
+
+Customer: Gabor Takacs, Takacs Farm
+Question: Has the order for the replacement hydraulic hoses (part nos. HH-22, HH-24) been shipped?
+
+Reply (Sales support, Agnes): Both are in stock. HH-22 (2 pieces) was shipped on 3 Nov and delivered on 4 Nov. HH-24 was out of stock for two days and will leave our warehouse today. Tracking number: 7731 0045 8812. Expected delivery: Monday.
+<<<END>>>
+
+<<<ITEM kind=support_ticket lang=en hard_negative=false topic=charity sponsorship query>>>
+Donor helpline log #DH-1182
+
+Caller: Mrs. Agnes Moriarty
+Question: She sponsors a child through the charity and has not received a letter this year.
+
+Agent (Benedikt): Letters are sent twice per year, in May and November. The November batch is being posted this week and should arrive in 7-10 days. We've also confirmed her address is correct. A photo update from the school project will be included. Caller was satisfied.
+<<<END>>>

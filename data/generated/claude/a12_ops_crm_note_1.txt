@@ -1,0 +1,119 @@
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=szerződés megújítás>>>
+2026.10.28. Telefon Szalai Ágnessel (Kertészház Webshop Kft., ügyvezető). A szerződés december 31-én lejár, megújítási szándék megvan, de a 1,4%-os díjat sokallja. Konkurens ajánlata 1,15% + 20 Ft, ezt írásban is megmutatja. Javasoltam 1,25%-ot éves 400 millió Ft forgalom felett. Jövő héten visszahívom a belső jóváhagyás után. Hangulat: kiegyensúlyozott, nem akarnak váltani, ha az ár közelít.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=onboarding állapot>>>
+Balatoni Szállás Kft. - onboarding 3. hét. KYC lezárult, a sandbox integráció kész, de az éles átadás-átvételi tesztet kétszer elhalasztották, mert a fejlesztő szabadságon van. Új időpont: november 12. Kértem, hogy addig állítsák be a webhook címet és küldjék el a teszt rendelések azonosítóit. Kockázat: szezon előtt szeretnének élesbe állni, a csúszás miatt feszült a kapcsolat.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=chargeback panasz>>>
+Ekszerhaz Budapest - a tulajdonos ma idegesen hívott, mert három chargeback egy héten belül. Elmagyaráztam a vitarendezési folyamatot és a feltöltési határidőket. Hiányzik náluk a szállítási igazolás archiválása, javasoltam az automatikus feltöltést API-n keresztül. Elküldtem a dispute-kezelési útmutatót. Következő lépés: csütörtökön 15:00-kor megbeszélés a technikai kapcsolattartójukkal.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=limit emelés kérés>>>
+Gyulai Gépház Zrt. a napi kifizetési limit átmeneti emelését kérte 5 millióról 12 millió Ft-ra a hónap végére. A pénzügyi igazgató e-mailben jóváhagyta a kérést, a levelet csatoltam. Továbbítottam a kockázatkezelésnek, válasz holnap délig várható. Jelzem, hogy a cég az elmúlt 12 hónapban nem volt problémás, vitaarány 0,1% alatt.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=upsell Apple Pay>>>
+Fehér és Társa Bt. Rövid hívás, érdeklődtek a Google Pay és Apple Pay iránt, mert a vásárlóik 60%-a mobilról fizet. Elmondtam, hogy az aktiválás nem jár extra díjjal, csak a domain ellenőrzést kell elvégezni. Küldök egy lépésenkénti leírást. Becsült hatás: konverzió +3-5% a mi tapasztalataink szerint. Jelezték, hogy a hónap végéig döntenek.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=elégedetlenség SLA>>>
+Dunai Logisztika Kft. - elégedetlenek a tavalyi leállás miatt, amikor a settlement két napot késett. Kártérítést nem kértek, de szeretnének SLA-t a kifizetési időkre. Egyeztettem a jogi osztállyal: T+1 vállalás lehetséges, bónusz-malus nélkül. Átküldtem a szerződésmódosítás-tervezetet. Fontos: a vezérigazgató személyesen követi az ügyet, ezért gyors válasz kell.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=új POS terminál>>>
+Kecskeméti Pékség Zrt. - bővítés: két új üzlet nyílik decemberben, mindkettőbe kérnek POS terminált. Összesen 4 készülék, kártyaolvasó + QR. Ajánlat kiküldve a bérleti konstrukcióval (havi 4 900 Ft/db). A régi KE-02 terminált lecserélték, az új sorozatszámot rögzítettem. Kapcsolattartó: Fekete Gergő, elérhető hétköznap 8–16 között.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=fraud allowlist kérés>>>
+Törzsvásárlói programot futtató merchant (Debreceni Könyvesház) kérte három visszatérő vásárló felvételét az engedélyezett listára. Beszéltem a fraud csapattal: egyedi allowlist helyett a szabályküszöböt finomítják, mert a lista visszaélésre ad lehetőséget. A merchantnak ezt elmagyaráztam, megértette. Három konkrét ügyfél tranzakcióját manuálisan felülvizsgálják.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=számla vita>>>
+Szent Mihály Patika Kft. - a októberi számlán a "tranzakciós díj korrekció" tételt vitatják (14 200 Ft). A pénzügyi csapat átnézte: a korrekció egy júliusi hibás díjmódosítás utólagos rendezése volt. Az ügyfél felé hibás volt a számla leírása, javított számlát kérek. Bocsánatot kértem, jóváírás nem szükséges, csak a megnevezés javul.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=forgalom csökkenés>>>
+Bükki Sportbolt - a forgalmuk az elmúlt három hónapban 22%-kal csökkent a tavalyi év azonos időszakához képest. Ez nem a mi oldalunk hibája, a tulajdonos szerint a webshop átalakítása miatt esett vissza a látogatottság. Felajánlottam egy konverzióoptimalizálási workshopot a termékcsapattal. Kockázat: ha tovább csökken, a minimális havi díj miatt felmondhatják.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=PCI audit kérés>>>
+Zalai Energiaszolgáltató Zrt. auditja során kérik az AoC dokumentumunkat és az adatközpont helyét. Elküldtem az idei PCI DSS tanúsítványt a partnerportálról. Kérték a régió megnevezését is: Budapest és Bécs, EU-n belül. Az auditor a jövő héten e-mailben további kérdéseket küld, ezeket továbbítom a biztonsági csapatnak.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=integrációs probléma>>>
+Mátrai Kávé és Tea - PHP SDK frissítés után TypeError hibát látnak üres metadata mezőnél. Továbbítottam a fejlesztői támogatásnak, ticket: DEV-2284. Átmenetileg visszaléptek a 3.2-es verzióra. Megígértem, hogy csütörtökig visszajelzünk a javítás tervéről. Az ügyfél technikai vezetője, Takács Dávid, higgadt, és jól dokumentálta a hibát.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=éves értékelés>>>
+Éves áttekintés - Tisza Bútor Kft. 2026-ban 612 millió Ft forgalom, 3,1% növekedés, chargeback arány 0,18%, a support ticketek száma 11 (tavaly 19). Elégedettségi pontszám (NPS) 8. Az ügyfél új piacra, Szlovákiába terjeszkedne, ehhez EUR-os elszámolást és szlovák nyelvű checkoutot kérnek. Javasolt következő lépés: termékcsapat egyeztetés december elején.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=kapcsolattartó csere>>>
+Pannon Gyógyszertár Hálózat - a technikai kapcsolattartó, Bárány Zoltán, kilépett. Helyette Simon Orsolya (pénzügy) és Nagy Kristóf (IT) lesz a kapcsolattartó. A dashboard hozzáféréseket kértem módosítani a supporttal, ez még nincs kész. Az API kulcs cseréje is felmerült, mert a kilépő kolléga ismerte. Egyeztettem az ügyféllel: a hétvégén lehetséges a csere, kiesés nélkül.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=versenytárs ajánlat>>>
+Soproni Szőlőbirtok - egy konkurens PSP 0,9%-os díjat ajánlott, de nincs benne a fraud védelem és a chargeback kezelés. Összevetettem a teljes költséget (TCO), és küldtem egy összefoglalót. A tulajdonos az eddigi szolgáltatást megbízhatónak tartja, de a pénzügyi vezetője árérzékeny. Várhatóan maradnak, ha adunk 0,1 százalékpontos kedvezményt a második évre.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=Black Friday felkészülés>>>
+Három nagy webshop (Lakberendezés Plusz, Okosóra Bolt, Cipőpláza) előzetesen jelezte a Black Friday forgalmi csúcsot, várhatóan 4-5-szörös az átlag. Beszéltem a platform csapattal, készül a kapacitásterv. A merchantoktól kértem csúcs rps becslést és a kampány pontos idejét. Az Okosóra Bolt 300 req/s-ot jelzett, ehhez limitemelés szükséges, ticketet nyitottam.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=ügyfél látogatás>>>
+Személyes találkozó a Mecsek Bor Kft. pécsi irodájában (Horváth Vera, Pál Máté). Átbeszéltük a kéthavi elszámolási késéseket, amelyek valójában a bank ünnepnapi zárása miatt történtek. Megmutattam a settlement naptárat, ezt nem ismerték. Kérték, hogy a dashboardra kerüljön ki a várható jóváírási dátum. Ezt felvettem a termékötletek közé.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=díjkedvezmény jóváhagyás>>>
+A Vas megyei Hűtőgép Kft. díjkedvezménye jóváhagyva az értékesítési igazgatóval: 1,35% helyett 1,2% 2027. január 1-től, minimum 250 millió Ft éves forgalom mellett. A szerződésmódosítást a jogi osztály elkészíti, az aláírás még hiányzik. Az ügyfelet ma e-mailben tájékoztattam, megköszönték. Következő felülvizsgálat: 2027 szeptember.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=sürgős leállás utókövetés>>>
+Utókövetés a tegnapi webhook kiesés után: az érintett merchantok közül a Kertészház és az Ekszerhaz már megkapta az összefoglalót. Az ok egy újraküldési sor torlódás volt, kb. 40 perc késéssel. Az ügyfelek nem kértek kompenzációt, de a Kertészház ügyvezetője kérte az incidens írásos elemzését (RCA). Ezt a platform csapat pénteken küldi.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=új üzletág bevezetés>>>
+Rába Autóalkatrész Zrt. beszerző partnereknek utalásos (A2A) fizetést szeretne bevezetni, kártyás mellett. Elmondtam a lehetőségeket és a díjszerkezetet (fix 150 Ft/tranzakció). Kérdésük volt a visszatérítések kezeléséről, ezt a termékcsapattól kérdezem meg. Becsült havi volumen 3 500 tranzakció. Interaktív demót kértek, időpont: november 18.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=jogi kérdés adatkezelés>>>
+A Dél-alföldi Mezőgazdasági Szövetkezet jogásza az adatfeldolgozói szerződés (DPA) módosítását kéri: szeretnék, hogy a tranzakciós adatok megőrzése 7 évre szóljon (jelenleg 5). Jeleztem, hogy ez a jogi osztály hatásköre, továbbítottam. A számviteli törvény miatt az igény indokolt. Válaszra két hét kell, ezt az ügyfélnek előre jeleztem.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=lemorzsolódás kockázat>>>
+Kockázat: a Szegedi Papír Kft. két hónapja nem kezdeményezett új tranzakciót, de a szerződés él. Hívtam a kapcsolattartót, kiderült, hogy a webshopot újraépítik, és az integráció áttérése az új platformra csúszik. Felajánlottam az új platformhoz való adapterünket. Következő ellenőrzés: december 1., addig nem szükséges eszkalálni.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=referencia kérés>>>
+A Győri Játékbolt Kft. beleegyezett, hogy referenciaként szerepeljen a rendezvényünkön (FinTech Nap, Budapest, november 20.). A tulajdonos 5 perces előadást tartana a mobilfizetésről. Kérte, hogy a logójuk használata előtt küldjünk jóváhagyásra anyagot. A marketingnek továbbítottam a kérést. Ügyfél hozzájárulása e-mailben archiválva.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=deviza elszámolás igény>>>
+Kassai Fogaskerék s.r.o. (szlovák cég, magyar leányvállalattal) EUR-ban szeretné az elszámolást, a forgalom 70%-a euróban történik. Jelenleg HUF-ba váltunk, ami árfolyamveszteséget okoz nekik. Egyeztettem a treasury csapattal: EUR-os számla lehetséges, havi 20 000 Ft fix díjjal. Ajánlatot küldtem, a döntéshez a cég pénzügyi vezetője kell.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=csapatváltás átadás>>>
+Átadás-átvétel: a Nyugat-magyarországi merchant portfólió (14 ügyfél) átkerül Kiss Barbarától Orbán Péterhez november 15-től. Az átadási dokumentumot elkészítettem: nyitott ticketek, szerződéses lejáratok, ismert kockázatok. Három ügyfelet személyesen is felhívok, hogy tájékoztassam őket. A legkritikusabb a Soproni Szőlőbirtok (lásd versenytárs ajánlat).
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=pozitív visszajelzés>>>
+Nógrádi Kézműves Piac - nagyon elégedettek az új QR fizetéssel. A hétvégi piacon a fizetések 35%-a már QR-on megy, a pénztáros szerint gyorsabb, mint a kártya. Kérdezték, hogy lehet-e saját logóval ellátott QR-t nyomtatni. A termékcsapat szerint igen, a sablont átküldtem. Érdemes őket referenciának megkérdezni.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=késedelmes fizetés díj>>>
+A Tatabányai Építőanyag Kft. két hónapja késik a szolgáltatási díj kifizetésével (összesen 612 000 Ft). A pénzügyi kapcsolattartó azt mondja, hogy a számlát nem kapták meg, a spam mappába került. Újraküldtem. 15 napos türelmi határidőt egyeztettünk. Ha nem rendeződik, a kifizetések visszatartása felmerülhet, de ezt a jogi osztály dönti el.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=technikai workshop>>>
+Tegnapi technikai workshop az Okosóra Bolt fejlesztőcsapatával. Átnéztük az idempotency kulcsok használatát és a webhook aláírás-ellenőrzést, a kódjukban a body-t JSON parse után hash-elték, ezért hibásak voltak. Javítják a nyers body használatára. Hasznos volt, a csapat aktív. Javaslom, hogy a dokumentációban emeljük ki ezt a pontot.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=díjtábla egyeztetés>>>
+Egri Borház Kft. díjtáblája: külföldi kártyákra 2,1% (eddig 1,9%), mert nő a nem EU-s kártyák aránya, és drágább az interchange. Ezt a változást a merchant nem szívesen fogadja. Azt javasoltam, hogy a belföldi díjat tartsuk, és a nem EU-s kártyákra külön sávot hozzunk létre. Az ügyfél a javaslatot átgondolja. Visszahívás: november 9.
+<<<END>>>
+
+<<<ITEM kind=crm_note lang=hu hard_negative=false topic=hosszú távú partner>>>
+10 éves jubileum: a Pécsi Zöldséges Kft. 2016 óta ügyfelünk. A tulajdonos, Kovács István, személyesen hívott, és megköszönte az együttműködést. Küldünk egy ajándékcsomagot és egy személyre szóló köszönőlevelet az ügyvezetőnktől. Elégedettség kiváló, a szerződés 2028-ig érvényes. Érdemes velük esettanulmányt készíteni.
+<<<END>>>

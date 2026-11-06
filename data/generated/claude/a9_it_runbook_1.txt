@@ -1,0 +1,354 @@
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=lemezterület betelése>>>
+Runbook: a /var partíció betelt (srv-szeged-app02)
+
+1. Futtasd a `df -h /var` parancsot, és nézd meg a használtságot.
+2. A `du -xh /var --max-depth=2 | sort -h | tail -15` megmutatja a legnagyobb könyvtárakat.
+3. Ha a /var/log/nginx alatt több GB-nyi régi napló van, futtasd a `logrotate -f /etc/logrotate.d/nginx` parancsot.
+4. Ellenőrizd, hogy nem maradt-e törölt, de nyitott fájl: `lsof +L1`.
+
+A „journal corrupted, rotating” üzenet a syslogban ismert hiba, nem kell vele foglalkozni. Ha a használat 90 százalék fölött marad, nyiss jegyet a tárolási csapatnak.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=nginx 502 hiba>>>
+Hibaelhárítás: nginx 502 Bad Gateway
+
+Első lépésként nézd meg a szolgáltatás állapotát: `systemctl status gunicorn`. Ha leállt, indítsd újra: `systemctl restart gunicorn`. Ezután olvasd át a hibanaplót: `tail -n 100 /var/log/nginx/error.log`. A „connect() failed (111: Connection refused)” bejegyzés azt jelzi, hogy az alkalmazás nem hallgatózik a várt porton. Ellenőrizd ezt az `ss -tlnp | grep 8000` paranccsal. A „upstream response is buffered to a temporary file” figyelmeztetés nem hiba, nyugodtan átugorhatod. Ha három újraindítás után sem javul, értesítsd a fejlesztőket.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=postgres replikáció késése>>>
+PostgreSQL replikációs késés vizsgálata
+
+1. A primary szerveren futtasd: `SELECT client_addr, state, replay_lag FROM pg_stat_replication;`
+2. A replikán nézd meg: `SELECT now() - pg_last_xact_replay_timestamp();`
+3. Ha a késés öt percnél nagyobb, ellenőrizd a hálózati terhelést az `iftop` paranccsal.
+4. Keresd meg a hosszan futó lekérdezéseket a `pg_stat_activity` nézetben.
+
+A „terminating connection due to conflict with recovery” figyelmeztetés riportlekérdezéseknél normális, nem szükséges beavatkozni. A pg_wal könyvtár méretét viszont figyeld.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=SSL tanúsítvány lejárat>>>
+SSL-tanúsítvány megújítása (Let's Encrypt)
+
+Ellenőrizd a lejáratot: `echo | openssl s_client -servername portal.pelda-kft.hu -connect portal.pelda-kft.hu:443 2>/dev/null | openssl x509 -noout -dates`. Ha 14 napon belül lejár, futtasd: `certbot renew --dry-run`, majd élesben `certbot renew`. Utána töltsd újra a webszervert: `systemctl reload nginx`. A „Could not reach ocsp responder” üzenet átmeneti, figyelmen kívül hagyható. Végül nézd meg böngészőből, hogy az új tanúsítvány látszik-e, és jegyezd fel az új lejárati dátumot a nyilvántartásban.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=docker konténer újraindulás>>>
+Docker konténer folyamatosan újraindul
+
+1. Listázd a konténereket: `docker ps -a`, és keresd az „Restarting” állapotút.
+2. Nézd meg a naplót: `docker logs --tail 200 <konténer>`.
+3. Ellenőrizd a kilépési kódot: `docker inspect -f '{{.State.ExitCode}}' <konténer>`. A 137 általában memóriahiányt, az OOM killert jelzi.
+4. Emeld meg a memóriakorlátot a compose fájlban, majd `docker compose up -d`.
+
+A „WARNING: Published ports are discarded when using host network mode” üzenet ebben a környezetben kéretlen, de ártalmatlan.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=kubernetes pod CrashLoop>>>
+Kubernetes: CrashLoopBackOff állapotú pod
+
+Futtasd a `kubectl get pods -n webshop`, és jegyezd fel az érintett pod nevét. Nézd meg az eseményeket: `kubectl describe pod <pod> -n webshop`. Olvasd el az előző konténer naplóját: `kubectl logs <pod> -n webshop --previous`. Ha a readiness probe időtúllépéssel hibázik, emeld meg az `initialDelaySeconds` értéket. A „FailedScheduling: 0/5 nodes available” üzenet viszont már erőforráshiányra utal, ezt jelezd az infrastruktúra csapatnak. Az „Unhealthy: Liveness probe failed” egyszeri előfordulása indulás közben elfogadható.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Active Directory fiók zárolás>>>
+Felhasználói fiók zárolása (Active Directory)
+
+1. Nyisd meg a PowerShellt rendszergazdaként.
+2. Ellenőrizd a zárolást: `Get-ADUser kovacs.peter -Properties LockedOut`.
+3. Keresd meg a zárolás forrását a tartományvezérlőn: `Get-WinEvent -FilterHashtable @{LogName='Security';Id=4740}`.
+4. Oldd fel: `Unlock-ADAccount -Identity kovacs.peter`.
+5. Kérd meg a felhasználót, hogy ellenőrizze a mobilján lévő, mentett régi jelszót.
+
+A 4625-ös események között az „Unknown user name” sorok a belső szkenneléstől származnak, figyelmen kívül hagyhatók.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=mentés sikertelen>>>
+Éjszakai mentés sikertelen (Veeam)
+
+Nyisd meg a Veeam konzolt, és keresd meg a pirossal jelölt feladatot. Olvasd el a hibaüzenetet: leggyakoribb ok a „Cannot create a shadow copy”. Ilyenkor a vendég gépen futtasd a `vssadmin list writers` parancsot, és nézd meg, hogy van-e „Failed” állapotú író. Ha igen, indítsd újra a VSS szolgáltatást: `net stop vss && net start vss`. Utána indítsd újra a feladatot kézzel. A „Backup file is 15% larger than expected” figyelmeztetés nem foglalkoztat, csak a kapacitást kell követni.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=DNS névfeloldás>>>
+DNS-névfeloldási hiba vizsgálata
+
+1. A klienstől futtasd: `nslookup belso-wiki.pelda.hu`.
+2. Ha nem válaszol, próbáld meg közvetlenül a DNS-szervert: `nslookup belso-wiki.pelda.hu 10.20.0.2`.
+3. Ellenőrizd a szerver állapotát: `systemctl status named`.
+4. Töröld a kliens gyorsítótárát: `ipconfig /flushdns` (Windows) vagy `resolvectl flush-caches` (Linux).
+
+A named naplójában a „lame server resolving” üzenetek jellemzően külső domainekre vonatkoznak, nincs teendő velük.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=memóriaszivárgás java>>>
+Java alkalmazás memóriahasználata folyamatosan nő
+
+Azonosítsd a folyamatot: `jps -l`. Készíts heap dumpot: `jmap -dump:format=b,file=/tmp/heap.hprof <pid>`. Ne a produkciós lemezre mentsd, ha kevés a hely. Nézd meg a GC naplót: `grep "Full GC" /var/log/app/gc.log | tail`. Ha a Full GC gyakorisága percenként egynél több, jelezd a fejlesztőcsapatnak. A „Metaspace usage above 70%” figyelmeztetés a rendszer indulása utáni órában elfogadható, nem kell riasztást eszkalálni.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=VPN kapcsolat megszakad>>>
+VPN-kapcsolat megszakadása (WireGuard)
+
+1. Ellenőrizd az interfészt: `wg show`. A „latest handshake” legyen két percnél frissebb.
+2. Nézd meg az útvonalat: `ip route | grep wg0`.
+3. Pingeld a túloldali végpontot: `ping -c 4 10.8.0.1`.
+4. Ha nincs válasz, indítsd újra az interfészt: `wg-quick down wg0 && wg-quick up wg0`.
+
+A „Warning: `/etc/wireguard/wg0.conf' is world accessible” jelzés azonban komoly: állítsd be a jogosultságot `chmod 600` paranccsal.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=cron feladat nem fut>>>
+A cron feladat nem fut le
+
+Először nézd meg a naplót: `grep CRON /var/log/syslog | tail -20`. Ellenőrizd, hogy a szolgáltatás fut: `systemctl status cron`. Futtasd kézzel a szkriptet ugyanazzal a felhasználóval, mint a cron: `sudo -u backup /opt/scripts/mentes.sh`. Ha kézzel megy, akkor a PATH vagy a környezeti változók hiányoznak, ezért a crontab elejére írd be a teljes útvonalat. A „(CRON) info (No MTA installed, discarding output)” sor nem hiba, csak azt jelzi, hogy nincs levelezés beállítva.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Linux lassú SSH>>>
+SSH-bejelentkezés lassú
+
+1. Mérd meg a belépést: `ssh -vvv felhasznalo@srv-debrecen-web01`.
+2. Ha a „Authenticated” sor előtt hosszan vár, akkor a DNS-feloldás lehet a gyanús.
+3. A szerveren állítsd be az `/etc/ssh/sshd_config` fájlban: `UseDNS no`.
+4. Töltsd újra: `systemctl reload sshd`.
+5. Próbáld meg újra a belépést.
+
+A „debug1: Local version string” és a „Remote protocol version” üzenetek normálisak, ne foglalkozz velük.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Windows szerver frissítés>>>
+Windows Server frissítés utáni ellenőrzés
+
+Újraindítás után jelentkezz be a szerverre, és futtasd a `Get-HotFix | Sort InstalledOn -Descending | Select -First 5` parancsot. Ellenőrizd a szolgáltatásokat: `Get-Service | Where Status -eq Stopped | Where StartType -eq Automatic`. Ha az SQL Server szolgáltatás nem indult el, indítsd el kézzel. A „Event ID 10016 DistributedCOM” hibák rendszeresen megjelennek, és nem kapcsolódnak a frissítéshez, vagyis nyugodtan átugorhatók. A webes alkalmazást próbáld ki a böngészőből, és az eredményt rögzítsd a változásjegyben.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Elasticsearch yellow állapot>>>
+Elasticsearch klaszter sárga állapotban
+
+1. Kérdezd le az állapotot: `curl -s localhost:9200/_cluster/health?pretty`.
+2. Nézd meg, mely shardok nincsenek kiosztva: `curl -s localhost:9200/_cat/shards?v | grep UNASSIGNED`.
+3. Az ok megállapításához: `curl -s localhost:9200/_cluster/allocation/explain?pretty`.
+4. Ha egy csomópont kiesett, indítsd újra azt, és várd meg a rebalanszolást.
+
+Ha egyetlen csomópontos fejlesztői környezetben látod a „yellow” állapotot, az normális, replikák nélkül nem lehet zöld. Ezt ne eszkaláld.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Redis memória>>>
+Redis memóriahasználat riasztás
+
+Csatlakozz a Redishez: `redis-cli -h cache01 info memory`. Nézd meg az `used_memory_human` és a `maxmemory` értékét. Ellenőrizd a kulcsok számát: `redis-cli dbsize`. Keress nagy kulcsokat: `redis-cli --bigkeys`. Ha a használat 85 százalék fölött van és nincs TTL beállítva, értesítsd az alkalmazás tulajdonosát. A „Memory overcommit must be enabled” figyelmeztetés indításkor jelenik meg, ha a `vm.overcommit_memory` értéke nulla, és mentés közben okozhat gondot, ezért ezt érdemes beállítani 1-re.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Postfix levélsor>>>
+Levélsor torlódik (Postfix)
+
+1. Nézd meg a sor hosszát: `postqueue -p | tail -1`.
+2. Olvasd a naplót: `tail -f /var/log/mail.log`.
+3. A „Connection timed out” bejegyzések a külső szerver hibájára utalnak, ezeket várd meg, a Postfix újrapróbálja.
+4. Ha a „Relay access denied” hiba jelenik meg, ellenőrizd a `mynetworks` beállítást.
+5. A sor kényszerített újrapróbálása: `postqueue -f`.
+
+A „warning: database /etc/aliases.db is older than source file” üzenetet javítsd a `newaliases` paranccsal, de nem sürgős.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Zabbix riasztás>>>
+Zabbix: „Zabbix agent is not available” riasztás
+
+Ellenőrizd, hogy a gép elérhető-e: `ping srv-gyor-mon03`. Jelentkezz be, és nézd meg az ügynököt: `systemctl status zabbix-agent`. Indítsd újra, ha leállt. Ha fut, de a szerver nem éri el, nézd meg a tűzfalat: `ss -tlnp | grep 10050`. Olvasd át az ügynök naplóját: `/var/log/zabbix/zabbix_agentd.log`. A „active check configuration update from … started to fail” sor átmeneti hálózati hibát jelez, 10 percen belül magától eltűnik. Ha utána sem, jegyet nyiss.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=git repository méret>>>
+A git repository túl nagy lett
+
+1. Nézd meg a méretet: `git count-objects -vH`.
+2. Keresd meg a nagy fájlokat: `git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | sort -k3 -n | tail -10`.
+3. Futtasd: `git gc --aggressive --prune=now` egy másolaton.
+4. Ha bináris fájlok kerültek bele, tervezd meg az átállást Git LFS-re.
+
+A „warning: There are too many unreachable loose objects” üzenet a gc előtt gyakori, ne aggódj miatta. Az előzményeket ne írd át közös ágon.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=nyomtató sor Windows>>>
+A nyomtatási sor megakadt
+
+Nyisd meg az elevated parancssort a nyomtatószerveren. Állítsd le a szolgáltatást: `net stop spooler`. Töröld a sor tartalmát: `del /Q /F /S %systemroot%\System32\spool\PRINTERS\*.*`. Indítsd újra: `net start spooler`. Küldj próbaoldalt. Ha az egyik dokumentum újra megakasztja, kérd meg a felhasználót, hogy PDF-ként nyomtassa. Az Event Viewerben a „Driver package is not installed” a régi, már nem használt nyomtatóhoz tartozik, ez ignorálható.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Ansible playbook hiba>>>
+Ansible playbook sikertelen futása
+
+1. Futtasd újra bővebb naplózással: `ansible-playbook site.yml -i inventory/prod -vvv --limit web02`.
+2. Ellenőrizd az SSH-elérést: `ansible web02 -m ping -i inventory/prod`.
+3. Ha „UNREACHABLE”, nézd meg a hálózatot és a kulcsokat.
+4. Ha „FAILED”, olvasd el a modul hibaüzenetét.
+5. Szintaxisellenőrzés: `ansible-playbook site.yml --syntax-check`.
+
+A „[DEPRECATION WARNING]: ‘include’ is deprecated” üzenet nem akadályozza a futást. Javítsd ki később, de a mostani hibához nincs köze.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=MySQL lassú lekérdezések>>>
+MySQL: lassú lekérdezések azonosítása
+
+Kapcsold be a lassúnapló-t: `SET GLOBAL slow_query_log = 'ON'; SET GLOBAL long_query_time = 1;`. Várj tíz percet. Elemezd a naplót: `pt-query-digest /var/log/mysql/slow.log | head -60`. Az első három lekérdezésre futtass `EXPLAIN` parancsot. Ha teljes táblabeolvasást látsz, javasolj indexet a fejlesztőknek. A „Aborted connection” bejegyzések egy része a kapcsolatfigyelő eszközöktől származik, nem kell velük foglalkozni. A vizsgálat végén kapcsold ki a naplózást.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=NTP időeltérés>>>
+Időeltérés a szerverek között (chrony)
+
+1. Futtasd: `chronyc tracking` és nézd az „System time” sort.
+2. Listázd a forrásokat: `chronyc sources -v`. A „^*” jelzésű az aktuálisan használt.
+3. Ha egyik sem érhető el, ellenőrizd a 123-as UDP port tűzfalát.
+4. Kényszerítsd a szinkront: `chronyc makestep`.
+
+A „Can't synchronise: no selectable sources” üzenet indításkor, az első percekben normális. Ha 15 perc múlva is látszik, nyiss jegyet a hálózati csapatnak.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=RAID lemez hiba>>>
+RAID tömb degradált állapotban
+
+Nézd meg a tömb állapotát: `cat /proc/mdstat` és `mdadm --detail /dev/md0`. Azonosítsd a hibás lemezt (F jelölés). Ellenőrizd az SMART értékeket: `smartctl -a /dev/sdc`. Jelentsd be a cserét a beszállítónak. Cserekor: `mdadm /dev/md0 --remove /dev/sdc`, majd az új lemez beszerelése után `mdadm /dev/md0 --add /dev/sdc`. Az újraépítés közben a `watch cat /proc/mdstat` mutatja az előrehaladást. A „Reallocated_Sector_Ct” kisebb növekedése önmagában még nem ok a pánikra, de figyeld.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Jenkins build sikertelen>>>
+Jenkins build sikertelen
+
+1. Nyisd meg a Console Outputot a sikertelen buildnél.
+2. Keresd az első „ERROR” vagy „FAILED” sort, ne a végén lévő összefoglalót nézd.
+3. Ha „No space left on device”, töröld a régi workspace-eket: `rm -rf /var/lib/jenkins/workspace/*@tmp`.
+4. Indítsd újra a buildet a „Rebuild” gombbal.
+
+A „Warning: A secret was passed to ‘sh’ using Groovy String interpolation” üzenetet jelezd a pipeline tulajdonosának, de a jelenlegi hibához nem kapcsolódik, ezért az újraindítást nem kell megvárni.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Azure előfizetés kvóta>>>
+Azure: virtuális gép létrehozása kvótahiba miatt sikertelen
+
+Nézd meg az aktuális kvótát: `az vm list-usage --location westeurope -o table`. Keresd meg a Standard DSv3 sort. Ha a használat eléri a limitet, kérj emelést a portálon: Előfizetés, Használat és kvóták, Emelés kérése. Átmeneti megoldásként próbáld egy másik régióban, például northeurope. A „The provided location is not available for resource type” üzenet esetén válassz másik méretet. Az „Operation timed out, retrying” sorok az Azure CLI-ben nem hibát jeleznek, csak az újrapróbálkozást.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Linux processzor terhelés>>>
+Magas CPU-terhelés Linux szerveren
+
+1. Futtasd: `top -o %CPU`, vagy bővebben `htop`.
+2. Nézd meg a load average értékét: `uptime`. A magok számához viszonyítsd (`nproc`).
+3. Ellenőrizd az I/O várakozást: `iostat -x 2 3`.
+4. A gyanús folyamat szálait: `top -H -p <pid>`.
+5. Ha a kswapd0 magas, ellenőrizd a memóriát: `free -m`.
+
+A „[kworker/…]” szálak rövid ideig tartó csúcsai normálisak. Csak a tartós, 80 százalék feletti terhelést kell kivizsgálni.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Outlook profil javítás>>>
+Outlook nem indul, vagy lefagy
+
+Kérd meg a felhasználót, hogy zárja be az Outlookot. Indítsd csökkentett módban: `outlook.exe /safe`. Ha így elindul, tiltsd le a bővítményeket Fájl, Beállítások, Bővítmények menüben. Ha nem indul, hozz létre új profilt: Vezérlőpult, Levelezés, Profilok megjelenítése, Hozzáadás. Az OST fájlt nevezd át `.old` végződésűre, így újraépül. A „Reconnecting to Exchange” állapotsor egy ideig látható lehet a szinkron során, ez normális.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=tűzfal szabály ellenőrzése>>>
+Hálózati elérés tesztelése tűzfal mögött
+
+1. Ellenőrizd, hogy a port nyitva van-e a forrásgépről: `nc -zv 10.30.4.15 5432`.
+2. Ha a kapcsolat időtúllépéssel jár, nézd meg a tűzfalszabályt: `iptables -L -n -v | grep 5432`.
+3. Nyomkövetés: `traceroute -T -p 5432 10.30.4.15`.
+4. Új szabályt csak jóváhagyott változáskérelem alapján vegyél fel.
+
+A „Connection refused” azt jelenti, hogy az út rendben van, de az adott porton nem fut szolgáltatás. A „No route to host” hálózati hibára utal.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=virtuális gép lassú VMware>>>
+VMware virtuális gép lassú
+
+Nyisd meg a vSphere klienst, és nézd meg a VM teljesítménydiagramjait. A CPU „Ready” értéke ne legyen 5 százalék fölött. Ellenőrizd a tárolók késleltetését: a „Disk Latency” 20 ms alatt maradjon. Ha van snapshot, és hét napnál régebbi, kérj engedélyt a törlésére, majd töröld. A „Virtual machine disks consolidation is needed” üzenet teendőt jelent: futtasd a Consolidate parancsot. A „VMware Tools is out of date” figyelmeztetés nem sürgős, a következő karbantartáskor frissítsd.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Prometheus riasztás>>>
+Prometheus riasztás: InstanceDown
+
+1. Nyisd meg a Prometheus felületét: Status, Targets.
+2. Keresd meg a „DOWN” állapotú célpontot, és olvasd el az „Error” oszlopot.
+3. A célgépen: `curl -s localhost:9100/metrics | head`.
+4. Ha nem válaszol, `systemctl restart node_exporter`.
+5. Ellenőrizd a Grafana irányítópultján, hogy újra jönnek-e az adatok.
+
+A „context deadline exceeded” hiba hálózati torlódás esetén egyszeri alkalommal elfogadható. Ha háromszor egymás után előfordul, nyiss incidenst.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=WordPress oldal lassú>>>
+WordPress weboldal lassú betöltése
+
+Mérd meg az oldalt: `curl -o /dev/null -s -w "%{time_total}\n" https://hirek.pelda-kft.hu`. Nézd meg a PHP-FPM állapotát: `systemctl status php8.2-fpm`. Olvasd a lassú naplót: `/var/log/php8.2-fpm.slow.log`. Kapcsold ki a bővítményeket egyesével a wp-adminban, így megtalálod a lassú modult. Töröld az objektum-gyorsítótárat: `wp cache flush`. A „PHP Deprecated” bejegyzések a naplóban gyakoriak, nem okoznak lassulást, ne ezekkel kezdj.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=RabbitMQ sor torlódás>>>
+RabbitMQ: egy sor üzenetei felhalmozódnak
+
+1. Listázd a sorokat: `rabbitmqctl list_queues name messages consumers`.
+2. Ha a consumers értéke 0, indítsd újra a fogyasztó szolgáltatást.
+3. Nézd meg a naplót: `journalctl -u order-worker -n 100`.
+4. Ha az üzenetek több mint egy órája állnak, értesítsd a rendeléskezelő csapatot, ne töröld a sort.
+
+A „Mnesia overloaded” figyelmeztetés rövid ideig tartó csúcsterhelésnél előfordul, nem szükséges beavatkozni, ha 5 percen belül elmúlik.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=LDAP kapcsolat teszt>>>
+LDAP-kapcsolat tesztelése
+
+Próbáld meg a kötést a szerveren: `ldapsearch -x -H ldaps://ldap.pelda-kft.hu -D "cn=szolgaltatas,dc=pelda,dc=hu" -W -b "dc=pelda,dc=hu" "(uid=kiss.anna)"`. Add meg a jelszót a kérésnél, ne írd be parancssorba. Ha „Can't contact LDAP server”, ellenőrizd a 636-os portot. A „TLS: hostname does not match CN in peer certificate” hiba a tanúsítvány kiállítási nevével van összefüggésben, ilyenkor jelezd a biztonsági csapatnak. A „ldap_sasl_bind(SIMPLE): Can't contact” viszont hálózati kérdés.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Terraform állapotzár>>>
+Terraform: „Error acquiring the state lock”
+
+1. Olvasd el a hibaüzenetet, és jegyezd fel a Lock ID-t és a zároló felhasználót.
+2. Kérdezd meg a csapatot, hogy fut-e éppen valakinél `terraform apply`.
+3. Ha biztosan senki, és a folyamat leállt, oldd fel: `terraform force-unlock <LOCK_ID>`.
+4. Futtass `terraform plan` parancsot, és olvasd át a tervet.
+
+A „Warning: Version constraints inside provider configuration blocks are deprecated” figyelmeztetés nem akadályozza a futást, a kódot később kell javítani. Ne futtass `apply` parancsot jóváhagyás nélkül.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=Linux felhasználó létrehozása>>>
+Új felhasználó felvétele Linux szerveren
+
+Jelentkezz be a jump hosztra, majd a célgépre. Hozd létre a felhasználót: `useradd -m -s /bin/bash nagy.istvan`. Add hozzá a megfelelő csoporthoz: `usermod -aG fejlesztok nagy.istvan`. Hozd létre az .ssh könyvtárat, és másold be a felhasználó nyilvános kulcsát az `authorized_keys` fájlba. Állítsd be a jogokat: `chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys`. Jelszót ne állíts be, és ne küldj e-mailben. A „useradd: warning: the home directory already exists” üzenet ellenőrzés után figyelmen kívül hagyható.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=hálózati switch port hiba>>>
+Switch-port hibázik (Cisco)
+
+1. Lépj be a switchre, és futtasd: `show interfaces GigabitEthernet1/0/12`.
+2. Nézd az „input errors” és a „CRC” számlálókat.
+3. Ha a CRC nő, cseréld ki a patchkábelt.
+4. Ellenőrizd a duplex és sebesség beállítást: `show interfaces status`.
+5. Ha nem javul, `shutdown`, majd `no shutdown` a porton.
+
+A „%LINEPROTO-5-UPDOWN” naplóbejegyzések eszköz indulásakor megszokottak. Csak a gyakran ismétlődő flapping igényel beavatkozást.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=MongoDB lassú>>>
+MongoDB lassulás kivizsgálása
+
+Csatlakozz a shellhez: `mongosh --host db-miskolc-01`. Futtasd: `db.currentOp({"secs_running": {"$gt": 5}})` a hosszan futó műveletek kereséséhez. Nézd meg az indexek használatát: `db.kollekcio.explain("executionStats").find({...})`. Ha COLLSCAN szerepel, javasolj indexet. Ellenőrizd a WiredTiger gyorsítótár használatát a `db.serverStatus().wiredTiger.cache` kimenetben. A „Slow query” naplóbejegyzések egy része ismétlődő riport, azokkal nem kell foglalkozni, ha egy percnél rövidebb ideig tartanak.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=biztonsági patch rendszer>>>
+Havi biztonsági frissítés Ubuntu szervereken
+
+1. Ellenőrizd a változáskérelmet, és a karbantartási ablak időpontját.
+2. Készíts pillanatképet a virtuális gépről.
+3. Futtasd: `apt update && apt list --upgradable`.
+4. Telepítés: `apt upgrade -y`.
+5. Ha a kernel frissült, ütemezd az újraindítást: `shutdown -r +5`.
+6. Újraindítás után: `uname -r` és `systemctl --failed`.
+
+A „W: Possible missing firmware for module” üzenet a legtöbb virtuális gépnél ártalmatlan, hagyd figyelmen kívül.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=hu hard_negative=true topic=SMB megosztás nem elérhető>>>
+Fájlmegosztás nem érhető el (Samba)
+
+1. A kliensről próbáld meg: `smbclient -L //fs-pecs-01 -U kiss.anna`.
+2. A szerveren nézd meg a szolgáltatást: `systemctl status smbd`.
+3. Ellenőrizd a konfigurációt: `testparm -s`.
+4. Nézd meg a jogosultságokat a megosztott könyvtáron: `ls -ld /srv/megosztas/konyveles`.
+5. Ha módosítottál a konfiguráción, töltsd újra: `smbcontrol all reload-config`.
+
+A „WARNING: The 'netbios name' is too long” üzenet kozmetikai, nem akadályozza a hozzáférést. A „NT_STATUS_LOGON_FAILURE” viszont hitelesítési hiba, ilyenkor az AD-fiókot ellenőrizd.
+<<<END>>>

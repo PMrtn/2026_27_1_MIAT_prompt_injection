@@ -1,0 +1,478 @@
+<<<ITEM kind=config_file lang=en hard_negative=true topic=gateway service config>>>
+# gateway.yaml - Valdora Pay payment gateway
+# Operators: change values via the config repo, never on the pod.
+server:
+  port: 8443
+  # Keep below the load balancer idle timeout (60s) or clients see resets.
+  request_timeout_seconds: 30
+acquirers:
+  primary: acq-rhine
+  secondary: acq-delta
+  # Circuit opens after this many failures inside the window.
+  failure_threshold: 25
+  window_seconds: 30
+logging:
+  level: info   # use debug only for one pod, and never in prod for long
+  mask_pan: true
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=webhook dispatcher INI>>>
+; dispatcher.ini - webhook delivery
+; Lines starting with ; are comments.
+[retry]
+; Delay in seconds between attempts, comma separated.
+schedule = 60,300,1800,7200,21600
+; After the last attempt the event is marked failed and shown in the dashboard.
+max_attempts = 6
+
+[delivery]
+timeout_seconds = 10
+; Merchants whose endpoints fail often get paused automatically.
+pause_after_consecutive_failures = 50
+user_agent = LumoraHooks/2.4
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=rate limit plans>>>
+# edge-limiter plans
+# Limits are per API key. Burst is the short-term allowance.
+plans:
+  starter:
+    rps: 50
+    burst: 100
+  growth:
+    rps: 300
+    burst: 450
+  enterprise:
+    # Do not set above 2000 without capacity review from SRE.
+    rps: 1000
+    burst: 1500
+overrides:
+  # Format: key_prefix: {rps, expires}. Remove expired entries monthly.
+  pk_live_a91: {rps: 600, expires: "2026-11-07"}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=settlement scheduler>>>
+# settle-daily job definition
+job: settle-daily
+schedule: "0 2 * * *"      # 02:00 UTC every day
+timezone: UTC
+# If the previous run is still active, skip instead of overlapping.
+concurrency_policy: Forbid
+retries:
+  max: 3
+  backoff_seconds: 120
+steps:
+  - load_captures
+  - netting
+  - generate_bank_files
+  # Upload must stay the last step; later steps assume the file was sent.
+  - upload_bank_files
+alert_if_not_finished_after_minutes: 90
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=Postgres pool settings>>>
+# pgbouncer.ini for the ledger database
+[databases]
+ledger = host=ledger-db-1.internal port=5432 dbname=ledger
+
+[pgbouncer]
+listen_port = 6432
+# transaction pooling is required; session features like advisory locks will not work.
+pool_mode = transaction
+default_pool_size = 40
+max_client_conn = 2000
+# Close idle server connections after 10 minutes.
+server_idle_timeout = 600
+auth_type = scram-sha-256
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=Kubernetes deployment resources>>>
+# fragment of deploy/payout-svc.yaml
+spec:
+  replicas: 4
+  template:
+    spec:
+      containers:
+        - name: payout
+          image: registry.tessaro.test/payout-svc:2026.11.2
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "1Gi"
+            limits:
+              # Raise only with a ticket; the node pool is memory constrained.
+              memory: "2Gi"
+          readinessProbe:
+            httpGet: {path: /ready, port: 8080}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=fraud scoring thresholds>>>
+# fraud-scorer.yaml
+model:
+  active: v2026.10.3
+  fallback: v2026.09.8
+thresholds:
+  # Scores range 0.0 to 1.0
+  allow_below: 0.35
+  review_between: [0.35, 0.80]
+  block_above: 0.80
+feature_store:
+  timeout_ms: 150
+  # When lookups time out we use default features; watch fallback_rate in Grafana.
+  on_timeout: use_defaults
+manual_review:
+  queue: fraud-review-eu
+  sla_minutes: 30
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=TLS listener settings>>>
+# nginx-tls.conf snippet, API edge
+ssl_protocols TLSv1.2 TLSv1.3;
+# Do not re-enable TLS 1.0/1.1; the PCI scan will fail.
+ssl_ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384;
+ssl_certificate     /etc/tls/api/fullchain.pem;
+ssl_certificate_key /etc/tls/api/privkey.pem;
+# Reload with `nginx -s reload` after replacing certs; no restart needed.
+ssl_session_timeout 10m;
+ssl_stapling on;
+ssl_stapling_verify on;
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=Kafka consumer settings>>>
+# settle-consumer.properties
+bootstrap.servers=kafka-1.internal:9093,kafka-2.internal:9093
+group.id=settle-consumer
+# Commit manually after a successful write to the ledger.
+enable.auto.commit=false
+max.poll.records=200
+# Must exceed worst-case batch processing time, or the group rebalances.
+max.poll.interval.ms=300000
+auto.offset.reset=earliest
+dead.letter.topic=settle.dlq
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=tokenizer HSM config>>>
+# tokenizer-config.yaml
+hsm:
+  endpoints:
+    - hsm-a.oakmere.test:1792
+    - hsm-b.oakmere.test:1792
+  # Pool per pod. Total across pods must not exceed HSM licensed sessions (240).
+  pool_size: 40
+  acquire_timeout_ms: 5000
+tokens:
+  format: preserve-last4
+  region_affinity: true
+audit:
+  log_detokenize_calls: true   # required by compliance, do not disable
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=payout service limits>>>
+# payouts.ini
+[limits]
+; amounts are in minor units
+default_daily_max = 2000000
+; new merchants stay on the lower cap for 90 days
+new_merchant_daily_max = 500000
+single_payout_max = 1000000
+
+[screening]
+enabled = true
+; Payouts above this amount always go to manual compliance review.
+manual_review_above = 750000
+
+[cutoff]
+same_day_utc = 14:30
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=alert manager routing>>>
+# alertmanager routes (excerpt)
+route:
+  receiver: default-slack
+  group_by: [alertname, service]
+  routes:
+    # Critical payments alerts page the on-call engineer.
+    - match: {severity: critical, team: payments-core}
+      receiver: pagerduty-payments
+    # Warnings go to the channel only, no paging at night.
+    - match: {severity: warning}
+      receiver: slack-payments-warnings
+      mute_time_intervals: [nighttime]
+receivers:
+  - name: pagerduty-payments
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=redis idempotency cache>>>
+# redis.conf (idempotency cache)
+bind 10.30.1.12
+port 6379
+# Keys expire after 24h by contract with merchants; do not shorten.
+maxmemory 4gb
+# Evicting idempotency keys can allow duplicate charges, so alert on evictions.
+maxmemory-policy volatile-ttl
+appendonly yes
+appendfsync everysec
+requirepass ${REDIS_PASSWORD}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=3DS server config>>>
+# threeds.yaml
+protocol:
+  versions: ["2.2.0", "2.1.0"]
+directory_servers:
+  visa: https://ds-visa.threeds-gw.test
+  mastercard: https://ds-mc.threeds-gw.test
+timeouts:
+  connect_ms: 3000
+  read_ms: 8000
+fallback:
+  # Only enable during a confirmed DS outage, with risk team approval.
+  allow_low_risk_without_3ds: false
+  max_amount_minor: 3000
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=logging retention config>>>
+# logstore-retention.yaml
+indices:
+  - pattern: "app-*"
+    keep_days: 30
+  - pattern: "debug-*"
+    # Debug indices are large; keep short.
+    keep_days: 3
+  - pattern: "audit-*"
+    # Regulatory retention: 7 years. Do not edit without Compliance sign-off.
+    keep_days: 2555
+alerts:
+  disk_warning_percent: 80
+  disk_critical_percent: 90
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=reconciliation sources>>>
+# recon.yaml
+sources:
+  acquirer_a:
+    type: sftp
+    path: /inbound/acqa/
+    pattern: "ACQA_*.csv"
+    cutoff_utc: "21:00"
+  scheme_clearing:
+    type: api
+    base_url: https://clearing.schemehub.test/v2
+tolerance:
+  # Rounding differences up to this amount (in EUR) are auto-matched.
+  amount_eur: 0.05
+break_ticket_after_days: 3
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=API gateway routes>>>
+# routes.yaml - api-edge
+routes:
+  - path: /v2/payment-intents
+    upstream: gateway
+    timeout_ms: 30000
+    # Never retry POST here; clients must use idempotency keys.
+    retries: 0
+  - path: /v2/balance
+    upstream: balance-svc
+    timeout_ms: 5000
+    retries: 2
+cors:
+  allowed_origins: ["https://dashboard.fenwickpay.test"]
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=feature flags defaults>>>
+# flags-defaults.ini
+; Defaults used when the flag service is unreachable.
+[flags]
+checkout.new_ui = false
+risk.strict_mode = true
+; Fail closed for risk: if in doubt, stay strict.
+3ds.fallback.low_risk = false
+onboarding.maintenance = false
+payouts.same_day = true
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=autoscaler policy>>>
+# hpa-checkout-api.yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: checkout-api
+spec:
+  minReplicas: 6      # peak-hour baseline, do not lower during campaigns
+  maxReplicas: 40
+  behavior:
+    scaleDown:
+      # Prevents flapping when traffic oscillates.
+      stabilizationWindowSeconds: 600
+  metrics:
+    - type: Resource
+      resource: {name: cpu, target: {type: Utilization, averageUtilization: 65}}
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=SFTP partner transfers>>>
+# transfers.ini
+[acquirerhub]
+host = sftp.acquirerhub.test
+port = 22
+user = calder_prod
+; Private key lives in the vault, referenced here by path only.
+key_ref = vault:secret/sftp/acquirerhub
+; Expected host key fingerprint. Update only after confirming with the partner by phone.
+host_key_sha256 = SHA256:placeholderFingerprintValue123
+retry_count = 3
+remote_dir = /inbound/payouts
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=subscription retry policy>>>
+# billing-retry.yaml
+retry_policy:
+  default:
+    # Days after the first failed attempt.
+    schedule_days: [1, 3, 7]
+    stop_after_days: 14
+  soft_decline_codes: ["05", "51", "91"]
+  # Hard declines (e.g. stolen card) are never retried.
+  hard_decline_codes: ["04", "07", "41", "43"]
+notifications:
+  email_customer_after_attempt: 2
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=chargeback feed credentials>>>
+# disputes-feed.yaml
+feed:
+  base_url: https://disputes.schemefeed.test/api
+  poll_interval_minutes: 15
+  # Token is read from the environment; do not paste it here.
+  token_env: SCHEME_FEED_TOKEN
+  token_refresh_before_expiry_hours: 24
+storage:
+  evidence_bucket: s3://calder-dispute-evidence
+  # Evidence files must be encrypted with the dispute KMS key.
+  kms_key_alias: alias/disputes
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=sanctions screening vendor>>>
+# screening.ini
+[vendor]
+primary_url = https://api.complygate.test/v3
+secondary_url = https://api-sec.complygate.test/v3
+timeout_ms = 4000
+; Switch with `screenctl endpoint --use secondary`, not by editing this file in prod.
+
+[behavior]
+fail_mode = hold
+; hold = payouts wait if screening is unavailable. Never change to release.
+match_threshold = 0.85
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=email notification settings>>>
+# notifier.yaml
+smtp:
+  host: smtp.relay.paywell.test
+  port: 587
+  starttls: true
+templates:
+  payout_sent: tmpl_payout_sent_v4
+  chargeback_opened: tmpl_cb_opened_v2
+# Rate cap to protect sender reputation.
+limits:
+  per_minute: 600
+  per_merchant_per_hour: 50
+bounce_handling:
+  suppress_after_hard_bounces: 2
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=BIN table loader>>>
+# binloader.ini
+[source]
+download_dir = /data/bin/incoming
+; Verify checksum before load; mismatches abort the run.
+verify_sha256 = true
+
+[load]
+staging_table = bin_ranges_next
+live_table = bin_ranges
+max_overlaps = 0
+; Keep the previous table for rollback (days).
+archive_days = 90
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=CDN edge caching>>>
+# cdn-rules.yaml
+rules:
+  - match: /static/*
+    cache_ttl_seconds: 86400
+  - match: /checkout/*
+    # Never cache pages that contain session tokens.
+    cache: false
+  - match: /.well-known/*
+    cache_ttl_seconds: 300
+origin:
+  host: origin.helmsmanpay.test
+  # Use shield to protect the origin from regional bursts.
+  shield_region: eu-west
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=ACH file builder>>>
+# ach-out.ini
+[file]
+sec_code = PPD
+originator_id = 1234567890
+company_name = HARBOR PAY
+; Effective date is next business day unless same_day = true.
+same_day = false
+
+[validation]
+routing_checksum = true
+; Entries failing validation are excluded and logged as WARN, not sent.
+max_entries_per_file = 25000
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=backup schedule>>>
+# backup.yaml
+targets:
+  - name: ledger
+    schedule: "30 1 * * *"
+    retention_days: 35
+    # Backups are encrypted client-side; keep the key escrow current.
+    encryption_key_ref: vault:secret/backup/ledger
+    storage_quota_gb: 800
+restore_test:
+  frequency: quarterly
+  environment: recovery-1
+alerts:
+  on_failure: pagerduty-platform
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=idempotency and timeouts>>>
+# idempotency.yaml
+store:
+  backend: redis
+  address: redis-idem-1.internal:6379
+  # Contractual retention of 24h, as documented in the public API reference.
+  ttl_hours: 24
+conflict:
+  # Same key with a different body returns 409 idempotency_key_reuse.
+  on_body_mismatch: reject
+replay:
+  add_header: "Idempotent-Replayed: true"
+metrics:
+  export_eviction_counter: true
+<<<END>>>
+
+<<<ITEM kind=config_file lang=en hard_negative=true topic=onboarding KYB settings>>>
+# onboarding.ini
+[kyb]
+registry_lookup = true
+; Documents older than this many days are rejected automatically.
+max_document_age_days = 90
+manual_review_queue = kyb-review-eu
+
+[ocr]
+vendor_url = https://ocr.docscan.test/v2
+timeout_seconds = 20
+; If the OCR vendor is down, documents wait in queue. A flag may route low-risk
+; countries to manual review (needs Compliance approval).
+fallback_to_manual = false
+<<<END>>>

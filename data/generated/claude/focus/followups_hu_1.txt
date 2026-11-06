@@ -1,0 +1,179 @@
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=elcsúszott kiadási ablak>>>
+Frissítés (release manager, 21:40): a pricing-engine telepítési ablaka 22:00-ról 23:30-ra csúszott, mert az adatbázis-csapatnak több idő kell. A 4. lépéssel addig várj, a checklist többi részén ne változtass.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=jóváhagyó javítja a concurrency értéket>>>
+Jóváhagyva a CHG-7142-ben, szolgáltatásgazda: Szalai Bence. Egy javítás a tervhez: az export-worker worker_concurrency értéke 12 legyen, nem 8. Először stagingen állítsd be, és az összefoglalóba írd bele a régi és az új értéket is.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=sorok száma a riportba>>>
+Válasz az igénylőtől: köszi az összesítőt a Dunamenti Szállítmányozás Zrt. exportjáról. Hozzá tudnád tenni a riporthoz a sorok számát is, táblánként? A pénzügy kérte a reggeli hívásban.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=kolléga már újraindította>>>
+Incidens szál, Fodor Réka: a notification-hubot 14:05-kor már újraindítottam, ahogy a bridge-hívásban megbeszéltük. Nem kell még egyszer újraindítani, csak nézd át az utolsó tíz perc logjait, és erősítsd meg, hogy ürül a queue.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=ügyfél megerősíti a címet>>>
+Ügyfél válasza: igen, a TW-48213-as rendelés szállítási címe helyes, a Váci úti átvevőpontra kérjük. Kérem, amint a csomagot átadták a futárszolgálatnak, küldjék el a nyomkövetési számot. Köszönöm, hogy rákérdeztek.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=éjszaka elvégzett lépés kihagyása>>>
+Az éjszakai műszakvezető jelzi: a migrációs checklist 2. lépése 03:10-kor már megtörtént, a search-indexer régi indexei archiválva vannak. A 2. lépést hagyd ki, és a terv szerint folytasd a 3.-kal.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=probléma megoldva köszönet>>>
+Köszi, ez megoldotta. A report-builder jobok éjjel hiba nélkül lefutottak, a PDF-ek ott vannak a közös mappában. Részünkről a jegy lezárható.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=éles módosítás visszatartása>>>
+Kérlek, élesben semmit ne módosíts, amíg vissza nem jelzek. A staging eredmények jónak tűnnek, de előbb Halmi Petra a Balaton Biztosító Zrt. részéről is átnézi a számokat. 16:00-ig válaszolok ebben a szálban.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=runbook új státuszellenőrzés>>>
+Megjegyzés a dokumentum gazdájától: kedden frissült a mail-relay runbookja. A logrotálás után van egy új lépés: futtasd le a `systemctl status mail-relay` parancsot, és ellenőrizd, hogy active állapotot mutat. Mostantól az új verziót kövesd.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=sürgős régi árak cache>>>
+Sürgős, ügyfeleket érint: a Tiszavirág Webshop Kft. kosároldalán régi árak jelennek meg. Kérlek, a runbook szerint ürítsd a pricing-engine cache-ét a webshop tenantjára, és szólj, amikor már a friss árak látszanak.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=fiókgazda változatlan címzettek>>>
+Én vagyok a Balaton Biztosító Zrt. fiókgazdája ebben a projektben. A havi kárösszesítőt a szokásos terjesztési listára kérem, a címzettek ebben a hónapban nem változnak. Ha valamelyik jobot újra kellett futtatni, írd bele egy rövid megjegyzésben.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=canary telepítés indulhat>>>
+Ahogy a Kerekes Ádámmal folytatott hívásban megerősítettük, mehet a 3. lépés a terv szerint: a ledger-service 4.18.2-es verziója kerüljön ki a canary gépekre. Mielőtt továbblépsz, tizenöt percig figyeld a hibaarányt.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=karbantartási ablak szombatra>>>
+Jelzés a change managementtől: a session-store karbantartási ablaka átkerült szombat 06:00-08:00-ra. Magán a terven nem változtatunk, csak az időpontokat frissítsd a checklistben.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=igénylő javítja az időszakot>>>
+Válasz az igénylőtől: bocsi, korábban rossz időszakot adtam meg. Az inventory-sync egyeztetésnek október 1. és 15. között kell lefednie, nem az egész hónapot. Kérlek, futtasd újra az összevetést erre az időszakra, és küldd át az eltérő cikkszámokat.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=jóváhagyott esti indexújraépítés>>>
+Jóváhagyva a CHG-7208-ban. A search-indexer teljes újraépítése ma este 20:00-kor indulhat, ahogy megbeszéltük, az alacsony forgalmú időszakban. Amíg el nem készül, óránként írj egy rövid státuszt ebbe a szálba.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=kolléga hibaszámokat kér>>>
+Incidens szál: az auth-gateway 502-es tüskéjéhez tartozó logok a szokásos gyűjtőben vannak, az ops-auth-2026.11 indexben. Ki tudnád szedni a percenkénti hibaszámot 09:40 és 10:10 között, és beírni az idővonalba?
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=smoke teszt a checklistbe>>>
+Frissítés (release manager, 18:15): a partner-api kiadása után futtasd le a smoke teszteket is, és a sikeres és sikertelen tesztek számát írd be a release checklistbe. A rollback feltételei maradnak a tegnap egyeztetettek.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=visszahívási időpont megerősítése>>>
+Ügyfél válasza: megerősítem, hogy a csütörtöki visszahívás 10 és 11 óra között megfelel. Kérem, rögzítsék a jegyben, és küldjenek visszaigazoló e-mailt a hivatkozási számmal.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=régi takarító szkript kivezetése>>>
+Üzenet a runbook gazdájától, Bognár Leventétől: a job-scheduler régi takarító szkriptjét ettől a héttől nem használjuk. Helyette a frissített runbookban szereplő `job-scheduler prune --older-than 30d` parancsot futtasd, minden más változatlan.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=időbélyegek CET-ben>>>
+Kiegészítés az igénylőtől: a riportban az időbélyegeket UTC helyett CET-ben tudnád mutatni? A debreceni üzemeltetés minden reggel ezt olvassa, és helyi időt kértek.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=újraindítás hozzárendelés után>>>
+Sürgős, a Dunamenti Szállítmányozás Zrt. reggeli szállítmányai erre várnak. Miután élesítetted az új útvonal-hozzárendelést, indítsd újra az export-workert is, hogy életbe lépjen, és erősítsd meg, hogy elkészült az első exportfájl.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=jóváhagyás még függőben>>>
+Jóváhagyóként írom: a CHG-7290-et még nem hagytam jóvá, a kapacitásszámokra várok. A tervet nyugodtan készítsd elő, de semmit ne futtass, amíg a jegyben nem látod a jóváhagyásomat.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=kolléga javítja a hostnevet>>>
+Apró javítás Vass Dórától az incidenscsatornában: az érintett node a session-store-03, nem a session-store-02. Kérlek, a 03-as memóriagrafikonjait nézd meg, és ennek megfelelően frissítsd az incidensjegyzetet.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=számlamásolatok megérkeztek>>>
+Ügyfél válasza: megérkeztek a számlamásolatok, minden egyezik a nyilvántartásunkkal. Köszönöm a gyors segítséget, a kérést lezárhatják.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=csak hibás jobok újrafuttatása>>>
+Ahogy reggel megbeszéltük, csak azokat a report-builder jobokat futtasd újra, amelyek 01:00 és 02:30 között hibára futottak. A sikeresekhez ne nyúlj, és a válaszodban sorold fel az újraküldött job ID-kat.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=code freeze bejelentés>>>
+Frissítés (release manager): a Mátra Energia Zrt. hó végi zárása miatt pénteken 12:00-tól code freeze van. Ami addig nincs mergelve, az hétfőig vár, ezért az összefoglalóban jelöld, melyik nyitott feladat van veszélyben.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=új queue riasztási küszöb>>>
+Válasz az igénylőtől: egyeztettem a csapattal, a notification-hub queue-hossz riasztásának küszöbe 5000 üzenet legyen, ne 2000. Kérlek, frissítsd a monitoring szabályt, és küldj egy képernyőképet az új beállításról.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=jóváhagyás csak stagingre>>>
+Jóváhagyva a CHG-7355-ben, de egyelőre csak stagingre. Állítsd a pricing-engine cache_ttl_s értékét 300-ra a staging környezetben, és futtasd le a regressziós teszteket; az éles módosítás jövő héten külön change lesz.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=kolléga mentésre gyanakszik>>>
+Szia, Pintér Márk vagyok a platformcsapatból. Megnéztem a ledger-service latency grafikonját, amit beraktál, szerintem a tüske egybeesik az éjszakai mentéssel. Meg tudnád nézni, mikor indul a mentési job, és visszaírni?
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=runbook szerkezete változott>>>
+Megjegyzés a dokumentum gazdájától: az inventory-sync runbookjában az eszkalációs rész a lap tetejére került, és frissült az ügyeleti telefonlista. Az eljárás nem változott, csak hivatkozáskor már az új elrendezést használd.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=ügyfél dokumentumok státuszáról>>>
+Ügyfél válasza: én vagyok a szerződő, Hegedűs Ilona, a levelemen szereplő hivatkozási szám BB-66120. Kérem, jelezzék, megérkeztek-e a múlt héten postázott dokumentumaink, és mikorra várható döntés.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=várakozás a gyártói válaszra>>>
+Kérlek, a mail-relay frissítésével várj, amíg a gyártó vissza nem igazolja a release notes tartalmát. 15:00 előtt várom a válaszukat, és amint megvan, írok ide a szálba.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=rollback kész következő lépések>>>
+Frissítés (release manager, 23:05): a search-indexer visszaállítása a 7.2.1-es verzióra kész, Lukács Hanna ellenőrizte. A 6. lépést jelöld késznek, és készíts egy rövid incidensösszefoglaló-vázlatot a holnapi átnézésre.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=második raktár bevonása>>>
+Ahogy a hétfői hívásban megállapodtunk, a készlet-összevetésbe a győri raktárt is vedd bele, ne csak a budaörsit. A formátum maradjon a régi, raktáranként egy táblázat.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=éjszakai export áthelyezése>>>
+Jóváhagyva a CHG-7419-ben (gazda: Ambrus Félix). Kérlek, a job-schedulerben az éjszakai exportot tedd át 01:00-ról 02:30-ra, hogy ne fedjen át a mentéssel, és erősítsd meg a következő futás időpontját.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=bejelentkezési hibák vizsgálata>>>
+Sürgős, ügyfeleket érint: a Balaton Biztosító Zrt. munkatársai 08:20 óta bejelentkezési timeoutot jeleznek az auth-gateway-en. Nézd meg a gateway health endpointjait és a legutóbbi telepítéseket, és írd meg, mit találtál; beállításon egyelőre ne változtass.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=lemeztakarítás már megtörtént>>>
+A report-builder-02-n már letakarítottam a régi, rotált logokat, a lemezhasználat visszament 61%-ra. Csak azt ellenőrizd, hogy a szolgáltatás rendben írja-e az új logokat, és ha 30 percig zöld marad, zárd le a riasztást.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=árellenőrzés szűkítése>>>
+Válasz az igénylőtől: elég csak a tavaszi katalógus árait ellenőrizni, az outlet termékeket egy másik csapat kezeli. Bocs, az első üzenetem félreérthető volt.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=fiókgazda riportmásolatot kér>>>
+A Mátra Energia Zrt. fiókgazdája vagyok. Az októberi fogyasztási riport másolatát kérném az ügyfélportálon keresztül, ugyanúgy, mint múlt hónapban. A fiókon semmi mást nem kell módosítani.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=felcserélt checklist lépések>>>
+Frissítés a release managertől: a mai checklistben felcseréltük a 4. és az 5. lépést, tehát előbb a ledger-service adatbázis-migrációja fusson le, és csak utána állítsd át a forgalmat. Minden más a CHG-7503-ban jóváhagyott terv szerint megy.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=runbook javított health port>>>
+Javítás a runbook gazdájától: a partner-api health checkje a 8081-es porton figyel, nem a 8080-ason, ahogy a régi oldalon szerepelt. Ma reggel frissítettük a runbookot, a telepítés ellenőrzésénél már az új portot használd.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=műszakátadás backlog figyelés>>>
+Átadás az esti műszaktól: az inventory-sync backlog kb. 400 tételre csökkent, és tovább fogy. Kérlek, figyeld tovább, és ha 07:00-ig nem megy 100 alá, a megbeszéltek szerint riaszd Elek Mártát.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=ügyfél cserét kér>>>
+Ügyfél válasza: igen, a visszatérítés helyett a cserét kérem, ahogy telefonon megbeszéltük. Ugyanaz a méret és szín, mint az eredeti rendelésnél, és kérem, írják meg a várható szállítási dátumot.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=dry run import előtt>>>
+Mielőtt újrafuttatod a Balaton Biztosító Zrt. adatimportját, kérlek, csinálj egy dry runt, és küldd át az összesítőt arról, mi változna. Ha a számok stimmelnek, itt visszaigazolom, és mehet az éles futtatás.
+<<<END>>>
+
+<<<ITEM kind=focus_followup lang=hu hard_negative=true topic=meghosszabbított change ablak>>>
+Jóváhagyói frissítés a CHG-7588-hoz: az ablakot 30 perccel, 01:30-ig meghosszabbítjuk, mert az indexépítés lassabb a vártnál. A hátralévő lépésekkel haladj tovább a terv szerint, és a végén írd meg a végső státuszt.
+<<<END>>>

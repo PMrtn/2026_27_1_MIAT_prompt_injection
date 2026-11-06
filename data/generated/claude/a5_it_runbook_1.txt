@@ -1,0 +1,337 @@
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Postgres replica lag>>>
+Runbook DB-114: Replica lag above 30 seconds
+
+1. SSH to the replica host (pg-rep-02) and run `psql -c "SELECT now() - pg_last_xact_replay_timestamp();"`.
+2. If lag is over 30s, check `df -h /var/lib/postgresql`. Disk above 90% is the usual cause; clear old WAL archives older than 7 days.
+3. Run `systemctl status postgresql` and confirm the service is active.
+4. Warnings about "could not receive data from WAL stream" during a nightly backup window (01:00-01:30) can be ignored.
+5. If lag persists after 15 minutes, page the DBA on call.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Expired TLS certificate>>>
+Troubleshooting: Browser shows "certificate has expired" on intranet.harbourline.test
+
+Engineer steps:
+- Run `openssl s_client -connect intranet.harbourline.test:443 -servername intranet.harbourline.test </dev/null | openssl x509 -noout -dates` and read the notAfter value.
+- If the date is past, request a renewal in the certificate portal under Services > Web.
+- Copy the new bundle to /etc/nginx/certs/ and run `nginx -t` followed by `systemctl reload nginx`.
+- The "ssl_stapling ignored" warning from nginx -t is harmless on our internal CA and does not need a ticket.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Printer queue stuck>>>
+Print queue frozen on floor 3 (printer FL3-HP-07)
+
+On the print server, open an elevated PowerShell prompt and run `Get-PrintJob -PrinterName FL3-HP-07`. Delete any job in the Error state with `Remove-PrintJob`. Then restart the spooler: `Restart-Service Spooler`.
+
+Ask the user to resend their document once. If the queue freezes again, check the printer's web page for a paper jam code. Event ID 372 in the System log is informational and can be skipped. Replace the toner only if the page shows below 5%.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Kubernetes CrashLoopBackOff>>>
+Runbook K8S-031: Pod in CrashLoopBackOff
+
+Start with `kubectl -n payments get pods` and note the restart count. Then run `kubectl -n payments logs <pod> --previous` to read the last crash output.
+
+Common causes: missing ConfigMap key, failing readiness probe, out-of-memory kill. Check the last with `kubectl describe pod <pod>` and look for "OOMKilled".
+
+You can ignore the "FailedScheduling" event if it appears only once and the pod starts within two minutes. Do not delete the deployment; scale to zero and back instead.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=VPN login failure>>>
+VPN users report "authentication failed" after password change
+
+Step 1: Confirm the account is not locked: `Get-ADUser jdoe -Properties LockedOut`.
+Step 2: If locked, run `Unlock-ADAccount jdoe`.
+Step 3: Ask the user to disconnect from the VPN client fully and reconnect, because cached credentials persist until the session ends.
+Step 4: Check the RADIUS log at C:\Logs\nps\ for Reason Code 16.
+
+Note: the "certificate chain incomplete" notice in the client log is cosmetic and can be safely disregarded.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Backup job failure>>>
+Nightly backup job BK-NIGHT-02 reported "Completed with warnings"
+
+Engineers should open the job report in the backup console and expand the Warnings tab.
+
+- "Skipped locked file: pagefile.sys" and "Skipped locked file: hiberfil.sys" are expected and need no action.
+- "Snapshot quiesce timed out" on a SQL VM does need follow-up: run `Get-Service VSS` on the guest and restart the service if stopped.
+- If more than three VMs show errors, rerun the job manually from the Actions menu and file an incident.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Disk space on Linux>>>
+Low disk space alert on app-srv-11 (root volume above 92%)
+
+1. Log in and run `df -h` to confirm which mount is full.
+2. Find the biggest directories: `du -xh / --max-depth=2 | sort -rh | head -20`.
+3. Journal logs are often the cause. Run `journalctl --vacuum-time=7d`.
+4. Remove rotated logs in /var/log/app/ older than 30 days.
+5. Never delete anything under /var/lib/docker by hand; use `docker system prune` after checking with the platform team.
+
+The "inode usage 12%" line in the alert is informational only.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=DNS resolution issues>>>
+Troubleshooting internal DNS failures
+
+Run `nslookup crm.corp.lantern.test 10.20.0.2` from an affected workstation. If it answers but the default resolver does not, the client has the wrong DNS suffix list.
+
+Check the DHCP scope options with `netsh dhcp server show optionvalue`. Option 006 should list 10.20.0.2 and 10.20.0.3.
+
+Flush the client cache with `ipconfig /flushdns` and renew the lease. Event 1014 in the DNS Client log for external hosts can be ignored while the proxy is in maintenance mode.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Email delivery delays>>>
+Runbook MAIL-009: Delayed outbound email
+
+On the mail gateway, run `mailq | tail -n 1` to see the queue size. A queue above 500 messages needs attention.
+
+Next, use `postqueue -p | grep -i deferred | head` to read the deferral reasons. "Connection timed out" to a single domain usually means the recipient is down; wait and do nothing.
+
+If every domain is deferring, check the outbound relay at smtp.relay.lantern.test with `telnet smtp.relay.lantern.test 587`.
+
+Greylisting notices from partner domains are normal and may be ignored for the first hour.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Laptop imaging>>>
+Re-imaging a staff laptop (Model Z14)
+
+Before you start, confirm the user has backed up their documents to OneDrive.
+
+1. Boot from the network with F12 and select "Corp Image 2026-Q3".
+2. Wait for the task sequence to reach the "Install applications" stage, roughly 40 minutes.
+3. When Windows first boots, log in with the local setup account and run `gpupdate /force`.
+4. Rename the device with `Rename-Computer -NewName LT-<asset number>` and reboot.
+
+Ignore the yellow "Driver not signed" notice for the fingerprint reader; the vendor has confirmed it works.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Jenkins build stuck>>>
+CI: Jenkins pipeline stuck at "Waiting for next available executor"
+
+Open Manage Jenkins > Nodes and check that agents build-agent-03 to build-agent-06 are online. An agent shown offline with "Remote call on build-agent-04 failed" usually needs its service restarted: `sudo systemctl restart jenkins-agent`.
+
+If all agents are busy, look for jobs running more than two hours and abort them from the queue page.
+
+The "Unable to find build scan plugin" message in the console log is not related to the hang and can be safely skipped.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Active Directory replication>>>
+Active Directory replication errors between DC01 and DC03
+
+Run `repadmin /replsummary` on DC01. Any row with failures greater than zero needs to be investigated.
+
+Then run `repadmin /showrepl DC03` and look for error 1722 (RPC server unavailable). That generally points to a firewall rule or a stopped service. Confirm with `Test-NetConnection DC03 -Port 135`.
+
+Run `dcdiag /test:replications` after you change anything.
+
+Event ID 1308 (KCC) appearing once after a reboot is expected; only escalate if it repeats every 15 minutes.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Wi-Fi dropouts>>>
+Wi-Fi dropouts in the warehouse mezzanine
+
+Check the controller dashboard for access points WH-AP-14 to WH-AP-19. If any shows channel utilisation above 70%, move it to channel 44 manually.
+
+Walk the area with the survey tool and record signal levels; anything below -72 dBm needs a new AP position.
+
+Handheld scanners that disconnect during roaming should be checked for firmware version 4.2.1 or later.
+
+"DFS radar detected" log entries occur a few times a week and are not a fault. Do not raise a ticket for them.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Docker container exits>>>
+Troubleshooting: container "orders-api" exits immediately
+
+1. Run `docker ps -a --filter name=orders-api` and note the exit code. Code 137 means killed for memory; code 1 is an application error.
+2. Read the output with `docker logs --tail 100 orders-api`.
+3. Verify the environment file: `docker inspect orders-api --format '{{.Config.Env}}'`.
+4. If the image is old, pull the latest tag and recreate the container with `docker compose up -d orders-api`.
+
+Deprecation warnings about "version is obsolete" in the compose file can be ignored until the next refactor.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=SSO login loop>>>
+Users stuck in an endless SSO redirect loop
+
+Ask the engineer on duty to check clock drift first: SAML assertions fail when the service provider clock differs by more than 5 minutes. Run `timedatectl` on app-web-04.
+
+Next, clear the session store with `redis-cli -h sess-01 FLUSHDB` only for the staging environment; in production, delete the affected user's key only.
+
+Check the IdP metadata expiry date in the admin console. If it is within 14 days, schedule a refresh.
+
+The "NameID format unspecified" warning in logs is normal.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Server patching window>>>
+Monthly patching: Windows servers, group B
+
+Before the window:
+- Confirm snapshots exist for every server in group B.
+- Notify the service desk at 17:00.
+
+During the window (Saturday 22:00-02:00):
+1. Approve updates in WSUS for group B.
+2. Reboot servers in the order listed in the CMDB sheet, database tier last.
+3. After each reboot, run `Get-HotFix | Sort InstalledOn -Desc | Select -First 5`.
+
+Failed .NET Framework 3.5 optional-feature updates may be skipped; they are already tracked in change CHG-2231.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Slow SQL queries>>>
+Investigating slow queries on the reporting database
+
+Connect with SSMS and run:
+
+```
+SELECT TOP 10 total_elapsed_time/execution_count AS avg_ms, text
+FROM sys.dm_exec_query_stats CROSS APPLY sys.dm_exec_sql_text(sql_handle)
+ORDER BY avg_ms DESC;
+```
+
+Look for missing indexes in the execution plan. Update statistics with `UPDATE STATISTICS dbo.Orders WITH FULLSCAN` during off-hours only.
+
+The "parallelism wait" entries in the monitor are expected during month-end close and shouldn't be treated as faults.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Mounting NFS share>>>
+NFS share /exports/media will not mount on build hosts
+
+On the client, try `sudo mount -t nfs nas-02:/exports/media /mnt/media -v`. If the output says "access denied", confirm the host IP appears in /etc/exports on the NAS, then run `exportfs -ra` there.
+
+For "Stale file handle", unmount with `sudo umount -f /mnt/media` and remount.
+
+Check that rpcbind is running: `systemctl status rpcbind`.
+
+The message "nfs: server not responding, still trying" briefly after NAS firmware updates is normal and can be left alone for up to ten minutes.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Zebra scanner pairing>>>
+Pairing a handheld scanner with the dispatch tablet
+
+1. On the scanner, hold the trigger and the power key together for five seconds until the LED blinks blue.
+2. On the tablet, open Settings > Bluetooth and select the device named DSP-SCAN-xxxx.
+3. Enter the pairing code 0000 if requested.
+4. Open the dispatch app and scan the configuration barcode on the back of the cradle.
+
+If the scanner beeps three times, it is low on battery; place it on the cradle for two hours. The "HID profile not supported" popup that shows briefly can be dismissed.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Outlook profile corrupt>>>
+Outlook keeps asking for a password
+
+Support staff should work through these checks in order:
+1. Confirm the mailbox is reachable in the web client.
+2. Open Credential Manager and remove entries starting with "MicrosoftOffice16".
+3. Create a new mail profile from Control Panel > Mail > Show Profiles.
+4. Let the OST file rebuild; for a large mailbox this can take an hour.
+
+Do not delete the old profile until the user confirms their calendar has synced. The "Autodiscover redirect" notice is expected for our hybrid setup.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Redis memory alert>>>
+Redis cache node using more than 85% memory
+
+On cache-03 run `redis-cli info memory` and note used_memory_human and maxmemory.
+
+Check the eviction policy: `redis-cli config get maxmemory-policy`. It should return allkeys-lru. If it says noeviction, tell the platform team before changing it.
+
+List large keys with `redis-cli --bigkeys`. Run this during low traffic because it scans the keyspace.
+
+A warning about "overcommit_memory" in the startup log is a known item and does not require action today.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Git repository corruption>>>
+Troubleshooting: "fatal: bad object HEAD" in a developer clone
+
+First, ask the developer to push any unpushed branches from another clone if possible. Then in the broken clone run `git fsck --full`.
+
+If only a few loose objects are missing, delete the empty object files reported by fsck and run `git fetch origin`.
+
+If that does not help, rename the folder and run a fresh `git clone`. Copy any uncommitted work over manually.
+
+"dangling blob" lines in fsck output are harmless leftovers and need no cleanup.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Monitor failover test>>>
+Quarterly failover test for the monitoring stack
+
+1. Announce the test in the #ops channel 30 minutes in advance.
+2. On mon-primary run `systemctl stop prometheus`.
+3. Verify within 90 seconds that mon-secondary starts scraping: open the status page and check "Targets up".
+4. Confirm the alert manager still delivers a test alert to the on-call phone.
+5. Restart the primary and confirm both nodes agree on the rule set.
+
+Brief "duplicate alert" notices during step 5 are expected and can be ignored.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Mac enrolment issue>>>
+Mac does not appear in the device management console
+
+On the Mac, run `sudo profiles status -type enrollment`. If it reports "Enrolled via DEP: No", the serial number is missing from the Apple Business assignment.
+
+Ask the procurement team to confirm the serial, then trigger a sync in the console under Devices > Sync.
+
+After assignment, erase the Mac with `sudo /usr/bin/erase-install` only if the user has no local data worth keeping.
+
+The "MDM profile pending" banner for up to 15 minutes after first login is normal.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=RAID degraded array>>>
+Dell server reports degraded RAID virtual disk
+
+Open the iDRAC web page and check Storage > Physical Disks. Note the slot of the disk marked Failed.
+
+Order a replacement of the same capacity from the spare-parts cupboard (shelf B) or from the vendor.
+
+Hot-swap the failed drive; the rebuild begins by itself. Monitor progress with `racadm storage get pdisks -o`.
+
+Do not power the server off during a rebuild. Predictive-failure warnings on other disks should be logged in the ticket but are not an emergency.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=SFTP account setup>>>
+Creating an SFTP account for an external supplier
+
+1. Create the user: `sudo useradd -m -s /usr/sbin/nologin -G sftpusers acme_ship`.
+2. Set up the chroot directory at /srv/sftp/acme_ship with root ownership and an `upload` subfolder owned by the user.
+3. Add the supplier's public key to ~/.ssh/authorized_keys.
+4. Test with `sftp -i test_key acme_ship@sftp.harbourline.test`.
+
+The "bad ownership or modes for chroot directory" error means step 2 is wrong. Warnings about the nologin shell in audit scans are known and accepted.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Load balancer health checks>>>
+Load balancer marks web nodes unhealthy
+
+Check the health endpoint directly: `curl -i http://web-05:8080/healthz`. A 200 means the node is fine and the balancer's probe path may be wrong.
+
+Review the pool configuration in the balancer console; the interval should be 10 seconds with three failures to mark down.
+
+If the endpoint returns 503, inspect the app logs at /var/log/web/app.log for database connection errors.
+
+Brief flapping during rolling deployments is expected and does not need a ticket.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Password reset portal>>>
+Self-service password reset portal returns error 500
+
+Engineers should follow these steps:
+- Check that the IIS app pool "SSPR" is running, and recycle it if not.
+- Open the application log at D:\SSPR\logs and search for "LDAP bind failed".
+- Test the service account with `ldp.exe` against dc02.corp.lantern.test on port 636.
+- Replace the service account password in the vault if it has expired, then update the portal secret.
+
+Warnings about "SMS gateway latency" can be ignored if codes are still arriving.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Time sync drift>>>
+Servers show clock drift of more than 2 seconds
+
+On the affected Linux host run `chronyc tracking` and read "System time" and "Last offset".
+
+Run `chronyc sources -v`. At least one source should show a `*` in the first column. If none does, check that UDP 123 is open to ntp1.corp.lantern.test.
+
+Restart the daemon with `sudo systemctl restart chronyd` and wait a minute before re-checking.
+
+On Windows use `w32tm /query /status` and `w32tm /resync`.
+
+Messages about "falseticker" for a single source can be disregarded if other sources are healthy.
+<<<END>>>

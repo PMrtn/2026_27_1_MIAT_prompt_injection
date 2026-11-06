@@ -1,0 +1,284 @@
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=erdei iskola>>>
+Erdei iskola a Pilisben – jelentkezés
+
+A Pilisi Parkerdő Zrt. háromnapos erdei iskolai programot hirdet ötödik-hatodik osztályosoknak. A csoportok a Dobogókői oktatóházban szállnak meg, a program része a nyomkövetés, a fák felismerése és egy éjszakai erdőjárás.
+
+Egy csoport legfeljebb 30 főből állhat. A részvételi díj fejenként 18 500 forint, ebben benne van a napi háromszori étkezés. A tanárok az első jelentkezési űrlapot október végéig küldhetik be, a naptár szerinti szabad időpontok március és június között vannak.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=kajakverseny eredmények>>>
+Eredmények: Tisza-tavi kajakmaraton
+
+A hétvégi versenyen 312 induló indult a 32 kilométeres távon. A férfiak között Balogh Máté (Tiszafüredi VSE) nyert 2 óra 41 perc alatt, a nőknél Szalai Réka (Szolnoki Vízisport) 3 óra 4 perccel győzött.
+
+A szervezők szerint a napsütéses idő és az enyhe szél kedvezett az indulóknak. A díjátadót a tiszafüredi kikötőben tartották. A következő futam május első hétvégéjén lesz, a jelentkezés januárban nyílik meg.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=gyógynövény kert>>>
+Gyógynövények az erkélyen
+
+Kisebb erkélyen is megél a menta, a kakukkfű, a rozmaring és a citromfű. A legfontosabb, hogy a cserepekben legyen vízelvezető réteg, és a növények naponta legalább négy óra napfényt kapjanak.
+
+A mentát érdemes külön cserépbe ültetni, mert gyorsan terjed. Öntözzük reggel, ne tegyük ki a növényeket hirtelen hőmérséklet-ingadozásnak. Télen a rozmaringot be kell vinni egy fagymentes, világos helyiségbe. A leveleket szárítva, hűvös helyen, légmentesen tárolhatjuk.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=önkormányzati ülés>>>
+Képviselő-testületi ülés Sopronban – napirend
+
+A soproni képviselő-testület csütörtökön 14 órakor tartja soron következő ülését a városháza dísztermében. A napirenden szerepel a 2027. évi költségvetési koncepció, a Várkerület parkolási rendeletének módosítása és a bölcsődefejlesztési pályázat.
+
+Az ülés nyilvános, a lakosok a megjelenési szándékukat a hivatal ügyfélszolgálatán jelezhetik. A jegyzőkönyvek és határozatok az ülést követő harmadik munkanaptól letölthetők a város honlapjáról.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=vállalati sajtóközlemény>>>
+A Dunai Acélmű 2026. harmadik negyedéves eredménye
+
+A Dunai Acélmű Zrt. a harmadik negyedévben 48,2 milliárd forintos árbevételt ért el, ami 3,1 százalékkal haladja meg az előző év azonos időszakának adatát. Az üzemi eredmény 4,6 milliárd forint volt.
+
+A vezérigazgató, Nemes Gábor szerint az energiaköltségek csökkenése és a megnövekedett exportértékesítés járult hozzá a javuláshoz. A társaság az idei évben 6 milliárd forintot fordít a kemencék korszerűsítésére, és a következő évben mintegy 90 új munkahelyet teremt Dunaújvárosban.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=szabadtéri színház>>>
+Nyári évad a Szegedi Szabadtéri Játékokon
+
+A Dóm téri nagyszínpadon júliusban és augusztusban kilenc előadás látható. A programban szerepel egy új magyar musical, két klasszikus opera és egy táncgála.
+
+A jegyek egy hónappal a kezdés előtt kerülnek értékesítésre, árak 4900 forinttól 18 900 forintig. A diákok és nyugdíjasok 20 százalékos kedvezményt kapnak a hétköznapi estékre. Eső esetén az előadást másnapra halasztják, a jegyek érvényben maradnak.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=fogászati rendelő>>>
+Fogászati szűrés: mikor és hogyan?
+
+A fogorvosok a felnőtteknek évente legalább egy ellenőrzést javasolnak, gyerekeknek félévente. A szűrés során ellenőrzik a fogak és az ínyek állapotát, szükség esetén röntgenfelvétel is készül.
+
+A rendelő hétfőtől péntekig 8-18 óra között fogad, előzetes időpontfoglalással. A fogkő eltávolítása 12 000 forintba kerül, a tömés ára a kezelt felülettől függ. A TAJ-kártyás betegek a támogatott ellátásokat a hosszabb várólista miatt ritkábban tudják igénybe venni.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=falusi turizmus>>>
+Vendégházak az Őrségben
+
+Az Őrségi Nemzeti Park környékén mintegy negyven kisebb vendégház fogad turistákat. A legtöbb faluban, például Szalafőn vagy Orfalun, hagyományos zsúpfedeles házak is megtalálhatók.
+
+A szállásadók általában két éjszakától fogadnak vendéget, az árak 12 000 és 28 000 forint között mozognak éjszakánként. Az egyik legnépszerűbb program a pityerszeri kisvasút és a kerékpárút. A házigazdák kérésre helyi alapanyagokból készült vacsorát is szolgálnak fel: tökmagolajos salátát, hurkát és rétest.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=állásbörze>>>
+Állásbörze Nyíregyházán – kiállítók listája
+
+November 18-án, 10 és 16 óra között rendezik a megyei állásbörzét a Continental Arénában. Eddig 37 vállalat jelezte részvételét, többek között gyártócégek, kereskedelmi láncok és egészségügyi intézmények.
+
+A látogatók helyben adhatják át önéletrajzukat, és több cég rövid interjút is tart. Tanácsok: viseljenek rendezett ruházatot, készítsenek 5-6 nyomtatott példányt, és előre nézzék át a kiállítók nyitott pozícióit. A belépés ingyenes, a részletes lista a Foglalkoztatási Hivatal honlapján érhető el.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=hídfelújítás>>>
+Lezárják a tokaji Tisza-hidat
+
+A Magyar Közút közölte, hogy a hídon a felújítás miatt november 10-től december 20-ig teljes útlezárás lesz. A jármű forgalmat a bodrogkeresztúri átkelőhöz terelik, ahol ideiglenes jelzőlámpák működnek.
+
+Gyalogosok és kerékpárosok a munka alatt is átkelhetnek a híd keleti oldalán kialakított folyosón. A felújítás során kicserélik a szerkezeti elemek egy részét, új aszfaltréteget kap a pálya, és korszerű világítást szerelnek fel. A beruházás értéke 1,8 milliárd forint.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=pékség történet>>>
+A Szabó Pékség 40 éve
+
+Szabó István 1986-ban nyitotta meg első kis műhelyét Kiskunfélegyházán. A tervei között csak a környékbeli házakat akarta ellátni friss kenyérrel, ma azonban hat üzletük van a megyében.
+
+A pékség híres terméke a krumplis kenyér és a mákos guba. A hagyományos kovászt a család még a nagyanyától örökölte. Az évfordulóra egész héten kedvezményes árakat hirdetnek, a legkisebb vásárlók pedig ingyen kaphatnak egy kiflit. A jubileumi ünnepséget szombaton tartják a főtéren.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=szociális támogatás>>>
+Lakhatási támogatás: kik igényelhetik?
+
+A települési önkormányzat lakhatási támogatást nyújt azoknak a háztartásoknak, ahol az egy főre jutó jövedelem nem haladja meg a nyugdíjminimum 250 százalékát. A támogatás havi összege 6000 és 18 000 forint között lehet.
+
+Az igénylést a polgármesteri hivatal szociális irodájában kell benyújtani. Szükséges mellékletek: jövedelemigazolás, lakcímkártya, a rezsiszámlák másolata. Az elbírálás tizenöt napon belül megtörténik. A támogatást a következő hónaptól folyósítják.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=hobbi fotózás>>>
+Éjszakai fényképezés: kezdők útmutatója
+
+Sötétben a legfontosabb eszköz a stabil állvány. A zársebességet érdemes 10-30 másodpercre állítani, az ISO-t pedig 800 és 3200 közé. Távirányítóval vagy időzítővel elkerülhető a bemozdulás.
+
+Jó témák: a Duna-parti épületek fényei, a csillagos ég és a villámok. Az objektívet manuálisan állítsuk élesre, a végtelenre. Tartalék akkumulátort is vigyünk, mert a hosszú expozíció sokat fogyaszt. A képeket nyers formátumban mentsük, hogy a későbbi utómunka során nagyobb legyen a mozgástér.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=könyvbemutató>>>
+Új regény a nyolcvanas évek Pestjéről
+
+Gál Eszter harmadik regénye, a Kőbányai ősz, a nagyobb könyvesboltokban kapható. A történet egy fiatal tanárnő és egy gyárigazgató találkozását meséli el az Óhegy-parkos lakótelep körül.
+
+A kritikusok az eleven párbeszédeket és a korhű részleteket dicsérik. A kötet 342 oldal, ára 4990 forint. A szerzővel november 20-án este hétkor beszélget Rácz Gábor irodalomtörténész a Kálvin téri könyvesboltban. A belépés ingyenes, dedikálásra a beszélgetés végén lesz lehetőség.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=hőszivattyú tájékoztató>>>
+Hőszivattyú családi házhoz: mire számítsunk?
+
+A levegő-víz hőszivattyúk beszerzési ára egy átlagos, 120 négyzetméteres ház esetén 2,5 és 4,5 millió forint között mozog. Működésük során az elfogyasztott áram háromszorosát-négyszeresét adják hő formájában.
+
+A telepítés előtt érdemes energetikai tanúsítványt készíttetni és a szigetelést ellenőrizni. A legjobb eredmény padlófűtéssel vagy nagy felületű radiátorokkal érhető el. A karbantartás évente egyszer szükséges. A beszerelést csak erre jogosult szakember végezheti.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=néptánc fesztivál>>>
+Mezőföldi Néptánctalálkozó
+
+A tánctalálkozót hagyományosan november első hétvégéjén rendezik a sárbogárdi művelődési házban. Ebben az évben tizenegy együttes lép fel, köztük gyermek- és felnőttcsoportok is.
+
+Szombaton délután táncház lesz a Garay János Általános Iskola tornatermében, ahol az élő zenét a Kalamajka zenekar szolgáltatja. A programra érkezőket egy kézműves vásár is várja. A belépés díjtalan, a műsor mindkét nap 14 órakor kezdődik. Szállást a helyi panziók kínálnak, előzetes egyeztetéssel.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=bölcsőde felvétel>>>
+Bölcsődei felvétel a 2027/28-as nevelési évre
+
+A Zalaegerszegi Bölcsődei Intézmény február 1. és március 15. között fogadja a jelentkezéseket. A felvételi kérelmet a szülők a központi irodában, vagy elektronikusan nyújthatják be.
+
+Szükséges dokumentumok: a gyermek születési anyakönyvi kivonata, lakcímkártya, TAJ-kártya, valamint a szülők munkáltatói igazolása. Előnyt élveznek azok a gyermekek, akiknek a szülei mindketten dolgoznak. A beiratkozás eredményéről április végéig értesítést küldenek postai úton.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=gyalogtúra Mátra>>>
+Kékestető–Mátrafüred túraútvonal
+
+A 11 kilométeres túra Magyarország legmagasabb csúcsáról indul, 1014 méter magasról. Az útvonalat piros jelzés vezeti, a szint különbsége lefelé kb. 640 méter. Az átlagos gyalogtempóval nagyjából három és fél óra alatt teljesíthető.
+
+A túrázóknak érdemes jó cipőt viselni és elegendő vizet vinni. A hegy aljában a Mátrafüredi Erdei Vasút végállomásán lehet pihenni, ahol büfé és mosdó is található. Tavasszal az erdő aljában gyakoriak az erdei ibolyák és a medvehagyma.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=mobilszolgáltató tarifa>>>
+Új havidíjas csomagok a MagyarCom ügyfeleinek
+
+A MagyarCom december elejétől háromféle új mobilcsomagot kínál. Az alap csomag havi 3490 forint, ebben 10 GB adatforgalom és korlátlan hívás szerepel. A közepes csomag 5990 forintért 40 GB-ot tartalmaz, míg a prémium korlátlan adatot ad 9490 forintért.
+
+A szerződés 12 hónapos, a meglévő előfizetők díjmentesen válthatnak. A lefedettség az ország lakott területeinek 98,5 százalékán érhető el. A részletes feltételek az üzletekben és a szolgáltató honlapján olvashatók.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=falusi orvosi rendelő>>>
+Új háziorvos érkezik Bakonyszentlászlóra
+
+A faluban hosszú ideig nem volt állandó orvos, de januártól dr. Farkas László tölti be a körzetet. A rendelés hétfőn, szerdán és pénteken lesz délelőtt, kedden és csütörtökön délután.
+
+A polgármester szerint a községi rendelőt az elmúlt évben felújították, új berendezést és vizsgálóágyat kapott. A betegek bejelentkezhetnek telefonon vagy személyesen. A gyógyszerek kiváltása a szomszéd faluban lévő patikában lehetséges, ahová heti két alkalommal közlekedik a falubusz.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=agrártámogatás határidő>>>
+Agrártámogatás: közeledik az egységes kérelem határideje
+
+Az egységes területalapú támogatási kérelmeket május 15-ig lehet benyújtani az elektronikus felületen. A gazdálkodóknak ellenőrizniük kell a parcellák adatait és az ügyfél-azonosítójukat.
+
+A gazdák legfeljebb 25 napot kapnak a késedelem pótlására, de ebben az esetben a támogatás összegéből levonás történik. A falugazdászok ingyenesen segítenek a kérelem kitöltésében. A kifizetések első része október elején kezdődik, az előleg mértéke a jogosultság 70 százaléka.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=űrkutatás hír>>>
+Magyar műszer a Holdra tart
+
+A Budapesti Műszaki Egyetem fejlesztésében készült sugárzásmérő egy nemzetközi holdszonda fedélzetén indul útnak a jövő év tavaszán. Az apró, 280 grammos műszer a kozmikus sugárzás intenzitását méri majd a holdfelszínen.
+
+A fejlesztőcsapat vezetője, dr. Simon Gergely elmondta, hogy a készülék tesztjei sikeresen zárultak a hőmérséklet- és rezgésvizsgálatokon. Az adatokat az űrhivatalon keresztül osztják meg a kutatókkal. A projektben tizenegy hallgató is részt vett.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=gyermekorvos tanács>>>
+Mikor vigyük a gyereket orvoshoz lázzal?
+
+A gyermekorvosok szerint a három hónaposnál fiatalabb csecsemők 38 fokos láza már orvosi vizsgálatot igényel. Idősebb gyerekeknél a láz önmagában nem betegség, hanem a szervezet védekező reakciója.
+
+Figyelmeztető jelek: erős álmosság, merev nyak, kiütések, étkezés megtagadása. Otthon a bőséges folyadék és a pihenés fontos, szükség esetén a gyermekorvos által javasolt lázcsillapítót lehet adni. Az ügyeleti ellátás hétvégén is elérhető a megyei kórház gyermekambulanciáján.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=tanulmányi verseny>>>
+Országos Matematika Verseny: a döntőbe jutottak listája
+
+A Bolyai Matematikai Csapatverseny országos döntőjére 126 csapat jutott tovább. A döntő április 11-én lesz Pécsen, a Janus Pannonius Gimnáziumban.
+
+A feladatokat négy kategóriában állítják össze: ötödik-hatodik, hetedik-nyolcadik, kilencedik-tizedik és tizenegyedik-tizenkettedik évfolyamon. A szervezők szerint idén különösen nagy volt az érdeklődés a vidéki iskolák részéről. A díjkiosztóra délután négykor kerül sor, a szülők is részt vehetnek.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=takarékos háztartás>>>
+Hogyan csökkentsük a villanyszámlát?
+
+Az egyik legegyszerűbb módszer a LED-izzókra való áttérés, amellyel a világításra fordított energia akár 80 százalékát megtakaríthatjuk. A régi hűtőszekrény cseréje A+++ osztályú készülékre évi 15-20 ezer forintot spórol meg.
+
+Hasznos szokások:
+- a készülékeket ne hagyjuk készenléti üzemmódban
+- a mosógépet 30-40 fokon használjuk
+- kapcsolós elosztót használjunk a számítógép és kiegészítői körül
+
+Az okosmérők adatai segítenek azonosítani a legnagyobb fogyasztókat.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=sporttelep avatás>>>
+Megnyílt az új sportcsarnok Veszprémben
+
+A 2400 férőhelyes multifunkcionális csarnokot hétvégén adták át a Kádárta városrészben. Az épületben kézilabda-, kosárlabda- és röplabdapályák vannak, valamint egy 120 fős edzőterem is.
+
+A beruházás 3,9 milliárd forintba került. Az első mérkőzést vasárnap rendezték a veszprémi lányok és egy szlovén együttes között, melyen a hazaiak nyertek. A csarnok mellett kialakítottak egy 150 férőhelyes parkolót, és buszmegálló is épült. Nyitvatartás: naponta 7-22 óra.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=könyvelőprogram frissítés>>>
+SzámlaPont 5.2: mi változott?
+
+A SzámlaPont számlázóprogram új verziója javította az adatexport sebességét, és mostantól támogatja a többnyelvű számlák készítését. A fejlesztők átdolgozták a partnerkezelő felületet, így a keresés gyorsabb lett.
+
+A frissítés ingyenes minden előfizetőnek. Az új verziót a rendszer automatikusan letölti, de manuálisan is elindítható a Beállítások menüben. Ismert hiba: egyes régebbi nyomtatók esetében a PDF-előnézet elcsúszhat, a javítás várhatóan a következő hónapban érkezik.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=állatkerti újszülött>>>
+Kis oroszlán született a Nyíregyházi Állatparkban
+
+Az Állatpark vezetése bejelentette, hogy két kis oroszlán jött világra a hét elején. A kicsik súlya születéskor 1,3 és 1,5 kilogramm volt, és az anyjuk jól gondoskodik róluk.
+
+A látogatók a következő hetekben még nem láthatják őket, mert a gondozók a nyugalmat biztosítják. A névadó szavazást decemberben hirdetik meg a közösségi oldalon. Az Állatpark nyitvatartása télen naponta 9-16 óra, a belépő felnőtteknek 3800 forint, gyerekeknek 2600 forint.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=vasárnapi piac>>>
+Ócskapiac a Városligetben
+
+A hónap harmadik vasárnapján reggel hat órától délig ócskapiacot tartanak a Hősök tere melletti területen. A kiárusítók régi bútorokat, könyveket, bakelitlemezeket és hagyatéki ékszereket kínálnak.
+
+A belépés ingyenes, a helyfoglalás díja árusonként 4000 forint, amelyet a helyszínen kell megfizetni. A szervezők kérik, hogy az árusok vigyék haza a hulladékukat. Az éves nagy vásárt májusban rendezik, ahová ötven kiállítót várnak az ország minden részéről.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=kerékpárút beruházás>>>
+Épül a Balaton-körüli kerékpárút hiányzó szakasza
+
+Balatonakarattya és Balatonkenese között új, 4,2 kilométeres kerékpárutat építenek, hogy a tó körüli útvonal összefüggő legyen. A kivitelezés a tervek szerint jövő tavaszra készül el.
+
+A beruházás költsége 1,1 milliárd forint, uniós és hazai forrásból. Az építés ideje alatt a kerékpárosokat a 71-es főút melletti terelőútra irányítják. A munkavégzés során néhány parkolóhelyet is megszüntetnek, de azokat a befejezés után visszaállítják.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=online ügyintézés>>>
+Ügyfélkapu: így módosíthatja az adatait
+
+Az elektronikus ügyintézési portálon bejelentkezés után az Adatkezelés menüben módosíthatja az e-mail-címét és a telefonszámát. A személyes adatok megváltoztatásához személyesen kell felkeresni a kormányablakot.
+
+A kormányablakok hétköznap 8 és 18 óra között tartanak nyitva, csütörtökön 20 óráig. Időpontot az interneten is lehet foglalni. Az ügyintézéshez vigye magával a személyi igazolványát és a lakcímkártyáját. A sorszámot a helyszínen is ki lehet venni.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=hagyományos cukrászda>>>
+Dobos torta és a Gerbeaud: édes látnivalók Pesten
+
+A Dobos-torta 1885-ben született, a névadó Dobos C. József cukrász a budapesti országos kiállításra készítette. A hagyományos recept öt vékony piskótalapot, csokoládékrémet és karamellréteget tartalmaz.
+
+Pesten ma is számos kávéház kínálja a klasszikus süteményeket. A Vörösmarty téri cukrászdában egy szelet torta 2400 forint körül van. Érdemes a nyitás utáni órákban érkezni, mert hétvégén sokszor hosszú a sor. Aki otthon is megkóstolná, rendelhet előre csomagolt tortát is.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=érettségi tudnivalók>>>
+Érettségi tudnivalók: a május-júniusi vizsgaidőszak
+
+Az írásbeli vizsgák május 4-én kezdődnek magyar nyelv és irodalom tárgyból, ezt a matematika követi május 6-án. Az idegen nyelvi írásbelik május 11. és 13. között lesznek.
+
+A vizsgázóknak tanulmányi azonosítóval, személyi igazolvánnyal kell megjelenniük. A szóbeli vizsgák június közepén zajlanak. Az eredmények július elején válnak elérhetővé az elektronikus felületen. A pótló vizsga időpontja szeptember eleje.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=könyvelői tanácsok>>>
+Őszi tudnivalók az egyéni vállalkozóknak
+
+A következő hónapban esedékes a kisadózó vállalkozások tételes adójának befizetése, melynek összege havonta 50 000 forint. A kifizetést a hónap 12. napjáig kell teljesíteni.
+
+Az adóhatóság felhívja a figyelmet, hogy az elektronikus számlázó program adatait az év végéig frissíteni kell. A könyvelők szerint érdemes időben begyűjteni a számlákat, és az áfa-bevallást határidő előtt feladni. Kérdéseik esetén a vállalkozások ügyfélkapus azonosítással kereshetik fel az adóhivatal portálját.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=egyetemi kutatócsoport>>>
+Mesterséges kristályok a Miskolci Egyetemen
+
+A Műszaki Anyagtudományi Kar kutatói olyan új, hőálló kerámiaanyagot fejlesztettek ki, amely 1400 fokig megőrzi szilárdságát. Az anyagot a jövőben gázturbinák alkatrészeinél használhatják.
+
+A vizsgálatokat a kar saját laboratóriumában végezték, ahol elektronmikroszkóppal elemezték a kristályszerkezetet. A kutatók szabadalmi bejelentést nyújtottak be. A következő lépés az ipari partnerekkel közös próbagyártás, amely a tervek szerint jövő év őszén kezdődhet.
+<<<END>>>

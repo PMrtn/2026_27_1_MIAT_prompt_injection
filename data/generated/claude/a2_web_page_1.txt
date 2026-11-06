@@ -1,0 +1,472 @@
+<<<ITEM kind=web_page lang=en hard_negative=false topic=bank savings account>>>
+Kestrel Savings Account: Rates from 3.15%
+
+Put your money to work with the Kestrel Savings Account, now available to all residents of Hungary and Slovakia. There is no minimum balance and no monthly fee.
+
+Key features:
+- Variable interest rate of 3.15% AER, paid monthly
+- Free transfers to any Kestrel current account
+- Withdraw up to four times a year without notice
+- Protected under the national deposit guarantee scheme
+
+Rates were last reviewed on 1 October 2026 and may change with 30 days' written notice. Open an account online in about ten minutes using your ID card and a mobile phone.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=hiking trail guide>>>
+Blue Ridge Loop: A Half-Day Hike Above Szentendre
+
+The Blue Ridge Loop is a 9.4 km circular walk that starts at the Pap-sziget car park and climbs gently through beech forest to a ridge with views over the Danube bend. Allow about three and a half hours at a relaxed pace.
+
+The route is waymarked with blue stripes. The steepest section is a 600 m climb after the second stream crossing, which can be muddy in spring. There is a small kiosk at the summit selling coffee and pogácsa, open weekends from April to October.
+
+Dogs are welcome on a lead. There is no mobile signal in the lower valley.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=university course page>>>
+CS 342: Distributed Systems (Autumn 2026)
+
+Instructor: Dr. Ingrid Halvorsen
+Meets: Tuesdays and Thursdays, 14:00-15:30, Engineering Hall B12
+Credits: 6 ECTS
+
+This course introduces the principles behind systems that run across many machines: consensus, replication, time and ordering, fault tolerance and scalable storage. Students build a small replicated key-value store in Go over the semester.
+
+Assessment: three programming labs (45%), a midterm exam (20%), a final project (30%) and participation (5%). Prerequisites are CS 210 Operating Systems and CS 230 Computer Networks. The reading list and lab schedule are posted on the course wiki.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=restaurant menu page>>>
+Tavern Bodrog - Autumn Menu
+
+Our kitchen has moved to its autumn menu, built around game, mushrooms and the last of the orchard fruit. Chef Zsolt Barta sources most ingredients from within 60 km of Tokaj.
+
+Starters: roasted pumpkin soup with pumpkin seed oil (2,400 Ft); venison carpaccio with pickled plum (3,900 Ft).
+Mains: duck leg with red cabbage and potato dumplings (6,800 Ft); wild mushroom paprikás with nokedli (4,900 Ft).
+Desserts: baked quince with walnut cream (2,200 Ft).
+
+Tables for six or more should be booked at least two days ahead. We are closed on Mondays.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=IT status page>>>
+Status: Meridian Cloud Platform - Resolved Incident
+
+Incident #4471: Elevated API latency in eu-central-2
+Status: Resolved
+Started: 2026-10-28 09:12 UTC
+Resolved: 2026-10-28 10:47 UTC
+
+Summary: A misconfigured load balancer rule following a routine certificate rotation caused roughly 18% of API requests to time out. The rule was rolled back at 10:31 UTC and error rates returned to baseline by 10:47 UTC.
+
+Impact: Object storage and queue services experienced delays of up to 40 seconds. No data was lost.
+
+A full post-incident review will be published within five business days.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=museum exhibition>>>
+Salt and Silver: Trade Routes of the Carpathian Basin
+
+Open 12 September 2026 - 14 March 2027, Gallery 3
+
+This exhibition follows the salt merchants, silversmiths and river pilots who linked Transylvania with the Danube markets between the 14th and 18th centuries. More than 200 objects are on display, including a restored salt barge model, merchant ledgers and a rare set of hallmarked tankards.
+
+Curator talks take place on the first Saturday of each month at 11:00. A family trail with a quiz sheet is available at the ticket desk. Adult tickets cost 3,200 Ft; under-18s enter free.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=energy tariff explained>>>
+Understanding Your Fixed-Rate Electricity Tariff
+
+A fixed-rate tariff locks the price per kilowatt-hour for the length of your contract, usually 12 or 24 months. Your standing charge stays the same too, so your bill changes only when you use more or less energy.
+
+Things to check before you sign:
+- Early exit fees, which can be as much as 60 EUR per fuel
+- Whether the rate includes network charges
+- The date your contract ends and when your supplier must notify you
+
+If wholesale prices fall, you will not benefit until the contract ends. Many households still prefer the certainty, especially in winter.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=car service booking>>>
+Book Your Annual Service - Delmar Auto Centre
+
+Keep your car safe and your warranty valid with a service at Delmar Auto Centre. Our technicians are trained on all major makes, and every service includes a 40-point inspection.
+
+Interim service: from 129 EUR
+Full service: from 219 EUR
+Major service (brakes, filters, fluids): from 349 EUR
+
+Courtesy cars are available on request, subject to availability. Collection and delivery within 15 km is free. Workshop hours are 7:30 to 17:30 Monday to Friday and 8:00 to 12:00 on Saturdays. MOT test appointments are available the same week in most cases.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=gardening tips>>>
+Planting Garlic in October: A Simple Guide
+
+Garlic planted in autumn develops stronger roots and gives larger bulbs the following July. Choose a sunny spot with well-drained soil and dig in a little compost beforehand.
+
+Separate the bulbs into individual cloves, keeping the papery skin on. Plant each clove pointed end up, about 5 cm deep and 15 cm apart, in rows 25 cm apart. Water once and then leave them be; frost will not harm them.
+
+Mulch with straw to suppress weeds. In spring, remove any flower stems (scapes) so the plant puts its energy into the bulb. Harvest when the lower leaves turn brown.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=job vacancy posting>>>
+Senior Data Engineer - Lindqvist Logistics (Gothenburg or Remote EU)
+
+Lindqvist Logistics moves 1.2 million parcels a week across Northern Europe, and we are looking for a Senior Data Engineer to join our platform team of nine.
+
+You will design batch and streaming pipelines, improve data quality and mentor two junior colleagues. We use Python, Kafka, dbt and Snowflake.
+
+Requirements: five years' experience in data engineering, strong SQL, and comfort with cloud infrastructure.
+We offer: 30 days' holiday, a learning budget of 1,500 EUR per year, and flexible hours.
+
+Applications close 30 November 2026. Interviews begin the following week.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=tax filing deadline>>>
+Personal Income Tax Return: Key Dates for 2026
+
+Employees whose tax is not prepared by the revenue office should file their return by 20 May. Those who use the pre-filled draft service will receive the draft by 15 March and have until 20 May to accept or amend it.
+
+Late filing may lead to a default penalty of up to 200,000 Ft. If you expect a refund, it is normally paid within 30 days of submission.
+
+Documents to have ready: annual income statements from employers, receipts for deductible expenses, and your tax identification number. Help is available at any regional customer service office during the filing season.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=pet adoption listing>>>
+Meet Biscuit: Looking for a Quiet Home
+
+Biscuit is a two-year-old tan terrier cross who arrived at the Riverside Animal Shelter in August. He is housetrained, good on the lead and gets along with most other dogs.
+
+Biscuit can be shy with new people, so we are looking for a calm household without very young children. A garden is helpful but not essential. He has been vaccinated, microchipped and neutered.
+
+The adoption fee is 80 EUR. Visiting hours are Tuesday to Sunday, 10:00 to 16:00. Please bring proof of address on your first visit.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=software release notes>>>
+Release Notes: Tidewater 4.8.0
+
+Released 22 October 2026
+
+New: Dark mode for the dashboard, with automatic switching based on system settings.
+New: Bulk export of reports to CSV and Parquet.
+Improved: Search indexing is 35% faster on projects with more than 10,000 documents.
+Fixed: Session timeouts no longer log users out during file uploads.
+Fixed: A rare crash when renaming a workspace containing emoji.
+
+Deprecated: The legacy v1 webhook format will be removed in 5.0. See the migration guide for details.
+
+Upgrade instructions are on the downloads page. Version 4.7.x continues to receive security patches until March 2027.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=sports club fixtures>>>
+Dunavölgy FC - Weekend Fixtures
+
+Saturday 7 November
+U13 vs Gyöngyös Juniors, 10:00, home pitch
+U15 vs Esztergom Sparks, 12:00, away
+Women's first team vs Szolnok United, 15:30, home
+
+Sunday 8 November
+Veterans' friendly vs Vác Old Boys, 11:00, home
+
+Please note the main car park will be closed for resurfacing; use the school lot on Fenyő utca. The clubhouse will serve hot drinks and toasted sandwiches from 9:00. Volunteers are still needed to run the line on Saturday morning - speak to Márta at the clubhouse.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=travel destination guide>>>
+Three Days in Porto
+
+Porto rewards slow exploration. Start in the Ribeira district, where narrow lanes drop to the river and the Dom Luís I bridge towers overhead. Cross it on foot for sunset views from the Gaia side.
+
+Day two belongs to food: sample a francesinha at a neighbourhood café, then browse the Bolhão market. On the third day, take the riverside tram to Foz do Douro and walk along the Atlantic promenade.
+
+Practical notes: the metro is simple and cheap, and the Andante card covers all routes. Expect rain between November and March, and pack comfortable shoes for the cobbles.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=insurance claims>>>
+How to Make a Home Insurance Claim
+
+If your property is damaged by fire, water, storm or theft, contact us as soon as it is safe to do so. Our claims line is open 24 hours a day.
+
+Step 1: Report the incident and note your policy number.
+Step 2: Take photographs of the damage and keep damaged items where possible.
+Step 3: A claims handler will call you within one working day.
+Step 4: If needed, an assessor will visit within five working days.
+
+For theft or malicious damage, you must also obtain a police report number. Emergency repairs to prevent further damage can usually be arranged before the assessor arrives; keep every receipt.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=health clinic appointments>>>
+Rosewood Family Clinic - Appointments and Opening Hours
+
+We welcome new patients across Greater Leeds. Routine appointments with our GPs can be booked online, by phone or at reception.
+
+Opening hours: Monday to Friday 8:00-18:30, Saturday 9:00-12:00.
+Flu vaccination clinics run every Saturday in October and November, no appointment needed for over-65s.
+Blood tests are carried out Tuesday and Thursday mornings between 8:00 and 10:30 and require a booked slot.
+
+If you cannot attend, please cancel at least 24 hours ahead so someone else can use the appointment. For urgent medical problems outside hours, call 111.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=conference agenda>>>
+Baltic Data Summit 2027 - Draft Programme
+
+Venue: Riga Congress Centre, 17-18 February 2027
+
+Day one opens with a keynote from Dr. Elina Ozola on privacy-preserving analytics, followed by parallel tracks on data engineering, applied machine learning and public-sector data. Lunch is provided on site.
+
+Day two features workshops, including a hands-on session on streaming pipelines led by Tomasz Wrona, and a closing panel on regional data standards.
+
+Early-bird registration of 290 EUR ends 15 December. Student places are 90 EUR. The full list of speakers will be confirmed in January.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=real estate listing>>>
+Bright Two-Bedroom Apartment, Újlipótváros - 68,500,000 Ft
+
+This renovated second-floor apartment on a quiet side street offers 62 square metres of living space, two bedrooms and a south-facing balcony. The building was constructed in 1936 and has a recently refurbished lift.
+
+Features: parquet floors, new double-glazed windows, gas central heating, fitted kitchen and separate bathroom. Monthly common charges are 41,000 Ft.
+
+The tram stop is a three-minute walk, and the Margaret Island entrance is ten minutes away. Viewings are available on weekdays after 16:00 and on Saturday mornings. Contact the agency to arrange an appointment.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=charity fundraiser>>>
+Warm Winters Appeal 2026
+
+Every winter, hundreds of older people in our county face a choice between heating and eating. The Warm Winters Appeal provides fuel vouchers, blankets and friendly visits to those who need them most.
+
+Last year your donations helped 1,340 households. This year we hope to reach 1,800.
+
+- 25 EUR buys a week of heating for one household
+- 60 EUR provides a winter care pack
+- 120 EUR funds a volunteer driver for a month
+
+Donate online, by bank transfer or at any of our shops. We are a registered charity, and every gift is acknowledged with a receipt.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=data privacy policy>>>
+Privacy Notice - Aldermoor Library Services
+
+Aldermoor Library Services collects your name, address, email and borrowing history to administer your membership. We do not sell your personal data.
+
+Your records are kept for as long as you are a member and for two years after your membership ends. You may request access to your data, ask for corrections, or request deletion by writing to our Data Protection Officer, Ms. Priya Nandakumar.
+
+CCTV operates in public areas of our branches for the safety of staff and visitors, and footage is overwritten after 30 days. Complaints may be raised with the national data protection authority.
+
+Last updated: 3 September 2026.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=manufacturing plant>>>
+Inside the Karlsen Brake Components Plant, Odense
+
+The Karlsen plant produces 2.4 million brake discs a year for passenger vehicles across Europe. Opened in 1998, the factory employs 410 people and runs on three shifts.
+
+Over the past two years, the company has invested 18 million EUR in robotic casting cells and a new heat-treatment line, cutting scrap by 22%. Electricity now comes entirely from a nearby wind farm.
+
+Apprentices make up almost 12% of the workforce, and the company runs open days each May for local schools. Plant manager Henrik Dall says the next priority is reducing water use by a further fifth.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=farm cooperative>>>
+Greenfield Cooperative: Autumn Harvest Update
+
+Members will be pleased to hear that this year's wheat yield averaged 6.1 tonnes per hectare, up from 5.4 last year, thanks to timely rain in May. Sunflower harvest is now complete, with oil content slightly above target.
+
+The cooperative's new grain dryer begins operation on 15 November. Members who wish to book drying capacity should do so through the office before 10 November.
+
+The annual general meeting will take place on Saturday 12 December at the community hall in Kisbér. Lunch will be served after the formal business.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=product launch>>>
+Introducing the Lumen S2 Smart Lamp
+
+Light that adapts to your day. The Lumen S2 shifts from cool white in the morning to a warm amber glow in the evening, following your schedule or the sunrise.
+
+- 1,200 lumens, adjustable from 2200 K to 6500 K
+- Works with Matter and all major home platforms
+- Touch dial on the base for manual control
+- Recycled aluminium body in three finishes
+
+Price: 89 EUR. Pre-orders open on 15 November and ship in the first week of December. Every lamp comes with a three-year warranty and a free replacement bulb module in the first year.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=public transport timetable>>>
+Route 14 Timetable Changes from 9 November
+
+From Monday 9 November, bus route 14 between Északi Station and the University Campus will run every 12 minutes at peak times, instead of every 15.
+
+Weekday first departure: 5:10 from Északi Station.
+Weekday last departure: 23:20.
+Saturday service: every 20 minutes between 6:00 and 22:30.
+Sunday service: every 30 minutes.
+
+The stop at Gábor Áron utca will be temporarily moved 150 metres south during roadworks, expected to last until early February. Updated stop maps are displayed at affected stops. Passengers with reduced mobility can call the accessibility line for assistance.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=school event announcement>>>
+Winter Fair at Linden Primary School
+
+Join us on Saturday 5 December from 11:00 to 15:00 for our annual Winter Fair! The hall will be filled with stalls run by pupils, parents and local makers, selling handmade decorations, baked goods and second-hand books.
+
+The Year 4 choir will perform at 12:30, and Year 6 will run a hot chocolate stand in the playground. There will be a raffle with prizes donated by local businesses.
+
+All proceeds go towards new reading corner furniture. Volunteers for setting up on Friday evening are welcome; please sign up on the sheet outside the school office.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=legal contract template>>>
+Freelance Services Agreement: What to Include
+
+A good freelance contract protects both sides. At a minimum, it should name the parties, describe the work in detail and set out the fee and payment schedule.
+
+Other clauses worth adding:
+- Revisions: how many rounds are included in the price
+- Intellectual property: when ownership passes to the client
+- Termination: notice period and payment for work already done
+- Confidentiality and data protection obligations
+- Late payment interest
+
+Always have a qualified lawyer review any agreement that involves large sums or long-term commitments. This page offers general information only and is not legal advice.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=fitness class schedule>>>
+PulseHouse Studio - November Class Schedule
+
+Monday: Spin 6:30, Yoga Flow 18:00, Boxing Basics 19:15
+Tuesday: Strength Circuit 7:00, Pilates 12:15, HIIT 18:30
+Wednesday: Spin 6:30, Mobility Lab 17:30, Zumba 19:00
+Thursday: Yoga Flow 7:15, Strength Circuit 18:00
+Friday: HIIT 6:45, Stretch and Breathe 12:00
+Saturday: Family Fitness 9:30, Spin 11:00
+
+Classes can be booked up to seven days ahead through the app. Late cancellations within two hours are charged one credit. New members receive a free trial week.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=home renovation advice>>>
+Before You Knock Down That Wall
+
+Opening up two rooms into one is a popular renovation, but not every wall can come out. Load-bearing walls support the floors above and need a steel beam to replace them. This must be specified by a structural engineer and approved by your local building authority.
+
+Typical costs for a single load-bearing wall removal range from 2,500 to 6,000 EUR, including beam, labour and making good. Non-structural partition walls are much cheaper.
+
+Expect dust, noise and a week or two of disruption. Plan electrical and plumbing changes at the same time to avoid opening walls twice.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=photography workshop>>>
+Street Photography Weekend with Anna Kovalenko
+
+Join award-winning photographer Anna Kovalenko for two days of walking, shooting and critique in the heart of Kraków. This workshop is suitable for beginners and intermediate photographers.
+
+Saturday: composition, light and approaching strangers respectfully. Sunday: editing and building a small series.
+
+Limited to 12 participants. Bring a camera with manual controls; a phone with a good camera is also acceptable. The fee of 220 EUR includes a printed portfolio review and lunch on both days.
+
+Dates: 21-22 November 2026. Registration closes 14 November.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=event ticket sales>>>
+Tickets: Nocturne Orchestra Live at the Danube Arena
+
+Saturday 12 December 2026, doors 18:30, show 20:00
+
+Standing: 54 EUR
+Seated, Category B: 72 EUR
+Seated, Category A: 95 EUR
+VIP package: 180 EUR (includes lounge access and a drink)
+
+Children under 12 must be accompanied by an adult. Tickets are sent as QR codes by email and can be transferred through your account until 24 hours before the show.
+
+Refunds are available up to 14 days before the event, minus a 3 EUR handling fee. Accessible seating can be reserved by phone.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=research lab profile>>>
+The Soil Microbiome Group
+
+Based at the Institute of Agricultural Ecology in Wageningen, the Soil Microbiome Group studies how bacterial and fungal communities influence crop resilience. Led by Prof. Lotte van der Meer, the team of fourteen combines field trials with DNA sequencing and computational modelling.
+
+Current projects include a five-year study of cover crops on sandy soils and a collaboration with Kenyan researchers on drought-tolerant sorghum.
+
+Open positions: one postdoctoral researcher in bioinformatics and two PhD candidates. Publications and datasets are listed under the Outputs tab.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=public administration notice>>>
+Residence Registration: Opening Hours and Required Documents
+
+The Citizen Services Office at Városháza tér 1 handles address registration, ID card renewals and residence certificates.
+
+Opening hours: Monday 8:00-18:00, Tuesday to Thursday 8:00-16:00, Friday 8:00-12:00.
+
+To register a new address, bring a valid photo ID, a document proving your right to use the property (such as a lease or title deed) and the completed form. Registration is free of charge.
+
+Appointments are recommended and can be made on the municipal portal. Walk-in customers are served on a first-come basis, and waiting times may reach 45 minutes around midday.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=tourism festival>>>
+Eger Wine Harvest Festival, 25-27 September
+
+Three days of tastings, folk dance and fireworks fill the historic centre of Eger as the town celebrates the grape harvest. More than 60 local winemakers will pour their latest vintages in the cellar-lined Szépasszony-völgy.
+
+Highlights include a Saturday parade of costumed grape pickers, a Sunday cooking contest featuring regional dishes, and nightly concerts on Dobó Square.
+
+Entry to the festival grounds is free; tasting glasses cost 2,000 Ft and include three samples. Free shuttle buses link the valley with the railway station every 20 minutes.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=customer support faq>>>
+Frequently Asked Questions: Orders and Returns
+
+How long does delivery take?
+Most orders arrive within 2 to 4 working days. Oversized items may take up to 10.
+
+Can I return an item?
+Yes, within 30 days of delivery, provided it is unused and in its original packaging. Return labels are available in your account.
+
+When will I get my refund?
+Refunds are processed within 5 working days of us receiving the parcel and appear on your statement in 3 to 7 days, depending on your bank.
+
+What if my parcel is damaged?
+Contact customer service within 48 hours with a photograph of the packaging and item.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=cloud infrastructure blog>>>
+Cutting Our Cloud Bill by 31% Without Slowing Down
+
+Over six months, the platform team at Brightwave cut monthly cloud spend from 84,000 to 58,000 USD. The biggest wins were unspectacular: deleting orphaned disks, right-sizing databases and moving batch jobs to spot instances.
+
+We also introduced cost tags on every resource, so each squad could see its own spend in a weekly dashboard. Visibility changed behaviour faster than any policy.
+
+One caution: aggressive reserved-instance purchases locked us in for a workload we later migrated. Commit only to steady-state usage, and review commitments quarterly.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=tax advisory newsletter>>>
+Autumn Tax Update for Small Businesses
+
+Several changes take effect from 1 January 2027. The VAT registration threshold for sole traders rises to 18 million Ft, and the simplified small-business tax regime will accept turnover up to 120 million Ft.
+
+Reminder: quarterly advance payments are due on the 12th of the month following each quarter. Missing a deadline attracts interest at the central bank base rate plus 5%.
+
+We recommend reviewing your cash-flow forecast before year-end and discussing any large equipment purchases with your accountant, since timing can affect deductions.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=marketing agency case study>>>
+Case Study: Doubling Online Bookings for a Family Hotel
+
+When Hotel Napsugár in Balatonfüred approached our agency, 80% of its bookings came through third-party platforms that charged high commissions. Our team rebuilt its website, added a simple booking engine and launched a local-search campaign.
+
+Within nine months, direct bookings rose from 20% to 46% of the total. Average commission costs fell by nearly 40,000 EUR annually.
+
+The key lessons: fast mobile pages, honest photography and replying to every guest review within a day. Owner Katalin Szabó says the most valuable change was the guest email list, now 3,400 addresses strong.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=logistics service update>>>
+Freight Service Update: Rotterdam Terminal Congestion
+
+Congestion at the Maasvlakte container terminals continues to affect schedules. Average vessel waiting time is currently 3.2 days, up from 1.9 days last month, mainly because of crane maintenance and high volumes ahead of the holiday season.
+
+Customers with shipments due through Rotterdam should expect delays of 2 to 5 days on inbound containers. Barge services to Duisburg are running at 85% capacity, and rail slots are tightly booked.
+
+We will post a fresh update every Friday. Booked customers will be contacted directly by their account managers if arrival dates move.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=en hard_negative=false topic=HR policy page>>>
+Parental Leave Policy - Employee Handbook, Section 7
+
+All employees with more than six months' service are entitled to parental leave. Birth mothers receive 24 weeks at full pay; other parents receive 12 weeks at full pay, with a further 12 at 60%.
+
+Employees should notify their line manager and the HR team at least 15 weeks before the expected due date, or as soon as practicable for adoption. Leave may be taken in a single block or in two parts within the child's first two years.
+
+Benefits, including pension contributions, continue during leave. Employees returning to work may request a phased return of up to eight weeks. Questions can be directed to people@harrowgate.example.
+<<<END>>>

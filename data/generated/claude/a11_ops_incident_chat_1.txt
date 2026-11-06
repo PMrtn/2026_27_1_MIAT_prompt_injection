@@ -1,0 +1,298 @@
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=gateway timeouts rollback>>>
+#inc-4417
+[09:21] priya: p95 on gateway jumped to 2.4s right after the 09:10 deploy
+[09:22] tomas: yeah, auth success is down 6 points. Rolling back now
+[09:24] priya: can you wait? I want a heap dump from one pod first
+[09:25] tomas: fine, grab it from gateway-7c9 and tell me when
+[09:27] priya: done, go ahead
+[09:31] tomas: rollback complete, p95 back to 310ms
+[09:32] lena: Great. I'll write the customer note, tomas file the ticket for the root cause
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=expired webhook cert>>>
+#inc-4430-webhooks
+mira: Zandvoort says they get no webhooks since 16:20
+jonas: Their cert expired yesterday, our dispatcher logs show TLS handshake failed
+mira: Can we skip verification for them temporarily?
+jonas: No, not doing that. I'll pause delivery for the merchant so the queue doesn't block others
+mira: Ok. Calling their tech contact now
+jonas: Queue depth back to normal after pause. Waiting for their new cert, then resume and replay events
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=settlement file upload>>>
+[02:41] ops-bot: ALERT SettlementJobNotFinished (settle-daily)
+[02:43] farid: looking. Job stuck at upload_bank_files
+[02:45] farid: sftp to the partner times out from the batch host
+[02:47] ana: Network here. Firewall change at 01:30 touched the egress rule list. Checking
+[02:52] ana: Found it, the rule for the partner IP got removed. Re-adding
+[02:55] farid: upload succeeded, ref PF-20261104-001
+[02:56] farid: Please update the change ticket so the rule is not removed again
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=database failover>>>
+#inc-4452 ledger-db
+carlos: primary ledger-db-1 is unresponsive, disk I/O errors in dmesg
+sunita: I'm incident commander. Carlos, can you promote ledger-db-2?
+carlos: replica lag is 0.4s, promoting
+carlos: done. app pool reconnected, write errors stopped at 03:12
+sunita: Verify with the synthetic transaction check, please
+carlos: check passing. Rebuilding old primary as a replica once the hardware ticket is done
+sunita: Thanks. I'll send the 30 minute update to stakeholders.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=Kafka lag poison message>>>
+rob: settle-consumer lag is climbing again, 31k now
+elif: partition 7 has had no progress for 20 minutes
+rob: Probably a poison message. Offset 4402812 fails to deserialize, "fee_breakdown" field
+elif: The producer team shipped a schema change this morning, without a version bump
+rob: I'll move the message to the DLQ and continue. Elif can you ping them?
+elif: Pinged. They will add a compatible schema and replay from the DLQ
+rob: Lag at 2k and falling.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=fraud false positives>>>
+#fraud-ops
+kim: block rate is 6.2% today, normal is 0.5%
+dev: Model v2026.10.3 has been live since Monday. Feature store timeouts started at the same time
+kim: Could the default features be skewing scores?
+dev: Yes, velocity features default to high. I'll raise the timeout from 150 to 300ms as a stopgap
+dev: Done. Fallback rate dropped from 3.4% to 0.2%
+kim: Block rate now 0.9%. Let's keep watching for an hour before we call it fixed
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=HSM pool exhausted>>>
+[21:40] noor: tokenization p99 is over a second, HSM pool 58 of 60
+[21:41] victor: Recurring billing run is hammering detokenize. It started at 21:30
+[21:42] noor: Can we throttle the billing run?
+[21:43] victor: Yes, reducing concurrency from 64 to 24
+[21:46] noor: Pool at 31 of 60, latency normal
+[21:48] victor: I'll raise a ticket to increase the pool size properly and add a rate cap for batch callers
+[21:49] noor: +1, thanks
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=acquirer circuit open>>>
+#inc-4480
+hana: Acquirer Rhine is returning timeouts. Circuit breaker opened, traffic is on Delta
+luka: Delta's approval rate is 2 points lower, expected given routing rules
+hana: Let's not force traffic back until Rhine confirms. I've opened a case with their NOC
+luka: Their status page says "investigating". ETA 30 mins
+hana: Ok. I'll draft the merchant status update, luka can you check the refund queue? It's probably growing
+luka: Yes, 8k pending, workers waiting on the circuit. Nothing to do but wait
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=wrong fee applied>>>
+sasha: Support got three tickets saying fees were 2.9% not 1.9% in yesterday's settlement
+omar: Pricing engine release at 14:00 yesterday. Could be the new schedule loader
+sasha: Merchant M-9022 had a parse error "1,45" in their schedule
+omar: Right, decimal comma. It fell back to the default schedule. Fixing the parser now
+sasha: How many merchants?
+omar: 14 so far. Query running. I'll prepare corrections for Finance
+sasha: Great, I'll let Support know to hold off on replies until we have numbers
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=disk full logging>>>
+#ops
+bea: logstore-02 is at 94%, ingestion slowing down
+raj: Debug indices from the new service are huge. 600 GB in two days
+bea: Can we delete debug-* older than a day? Not audit-*
+raj: Yes, deleting. Careful with the wildcard, please
+bea: Using the exact index list, not a glob. Freed 410 GB
+raj: Now at 71%. I'll set retention for debug indices to 3 days and tell the service owners to lower log level
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=3DS outage fallback>>>
+[13:14] gus: threeds-svc connect timeouts to the Visa directory server, 22% fail
+[13:15] wen: Scheme status page shows an incident in EU
+[13:16] gus: Should we enable the low-risk fallback flag?
+[13:17] wen: Need risk's OK. Pinging Alma
+[13:20] alma: Approved for amounts under 30 EUR, max 30 minutes. Please log it
+[13:21] gus: Flag set. Will turn it off at 13:50 or earlier
+[13:44] wen: Scheme says resolved. Turning flag off now
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=payout rejections>>>
+#payouts-oncall
+yuki: Partner bank rejecting 7% of SEPA payouts, code 12 invalid account
+dario: All from one merchant? Looks like Kestrel Logistics
+yuki: Yes, they uploaded a bad IBAN list
+dario: Move those rows to the hold queue, I'll notify their support contact
+yuki: Done, 212 rows held. Resubmitting the rest before the 14:30 cut-off
+dario: Please confirm acknowledgement from the bank when it arrives
+yuki: Ack received 14:12
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=memory leak payout>>>
+anders: payout-svc pods keep getting OOMKilled, 5 restarts
+lotte: Memory graph shows steady growth since Friday's release
+anders: Let's raise the limit to 3Gi to stop the pager noise
+lotte: Ok, but first I take a heap dump from pod -xk2lp
+lotte: Got it, 1.6 GB. Uploading to the shared bucket
+anders: Limit raised, pods stable. Owner team notified in #payouts-dev. Please revert the limit once fixed
+lotte: Noted in the ticket
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=DNS resolver failure>>>
+[22:41] ian: SERVFAIL for partner-acq.internal on dns-2, 38%
+[22:42] chloe: dns-1 is fine. Remove dns-2 from the resolv.conf list on the connectors?
+[22:44] ian: Quicker to take dns-2 out of the load balancer pool
+[22:45] chloe: Do it
+[22:46] ian: Done. Failures at 0%
+[22:50] chloe: Zone transfer to dns-2 broke after yesterday's change; I'm checking
+[23:05] chloe: Fixed the ACL, dns-2 back in the pool, monitoring
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=Redis evictions duplicate risk>>>
+#inc-4511
+paula: Redis idempotency cache evicting 2,400 keys per minute
+min: Memory at 97%. Black Friday load test is running in prod-like env but shares this node? Checking
+min: Yes, the load test uses the same instance by mistake
+paula: Stop the load test, then
+min: Stopped. Evictions at zero, memory dropping
+paula: Did any duplicates slip through? I'll query for same-key different-charge pairs in the window
+min: Please do. I'll separate the instances this week
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=merchant login attacks>>>
+secops: Seeing 2,300 failed logins in 10 min on merchant portal, 140 IPs
+leo: WAF rule rate-login-burst has triggered, captcha is on
+secops: Any successful logins from those IPs?
+leo: Querying. 3 successes, all with correct MFA, looks like legit users behind the same proxy
+secops: Good. Keep the captcha on for 2 hours. I'll notify the affected merchants for password hygiene
+leo: Also adding the IP list to the watchlist
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=slow checkout APAC>>>
+[04:02] mei: Sydney synthetic checks show TTFB 2.8s
+[04:04] arjun: Europe is fine, so regional. Edge provider status?
+[04:06] mei: Their status says degraded routing in APAC
+[04:08] arjun: Shift 30% of APAC traffic to the eu-west origin
+[04:11] mei: Done. TTFB at 1.3s
+[04:30] arjun: Provider says resolved. Reverting weights gradually
+[04:41] mei: Back to normal. I'll add the times to the ticket
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=backup quota exceeded>>>
+tess: ledger backup failed last night, quota exceeded on backup target
+vik: Last good backup is from two days ago, so we are within RPO but only just
+tess: Can we raise the quota?
+vik: Raised by 300 GB, but the growth is odd. Why did snapshots double?
+tess: A retention bug kept 70 days instead of 35
+vik: Fix the policy and delete the extras. Run a manual backup now
+tess: Running. I'll confirm when done and then verify the restore test
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=sandbox keys 401>>>
+dani: Merchants complain that sandbox keys return 401 after regeneration
+quinn: Key propagation is slower than expected, sandbox cache TTL is 30 minutes
+dani: In prod it is 60 seconds. Why different?
+quinn: Old config from the sandbox build. I'll set it to 60s and flush
+quinn: Flushed. Test key works immediately
+dani: Please update the docs and let Support know they can tell merchants to retry now
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=refund pending stuck>>>
+[11:05] zoe: Three refunds pending for 5 days, merchant escalated
+[11:07] ben: rf_30b1 is pending_acquirer. The acquirer ack never arrived
+[11:09] zoe: Can we resubmit?
+[11:10] ben: Not without checking, risk of double refund. Querying the acquirer's report first
+[11:25] ben: Acquirer shows them as processed on 3 Nov, our status sync missed it
+[11:27] zoe: So money is on its way to customers
+[11:30] ben: Yes. I'll fix the statuses manually and open a bug for the sync job
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=rate limiter misconfig>>>
+#inc-4533
+gabe: Merchants report 429s well below their limits
+ines: I see the new edge config deployed at 07:40. The rps for growth is 30, not 300
+gabe: Typo in the pull request?
+ines: Yes, missing a zero. Reverting the commit
+gabe: Revert deployed to 10%, 50%, 100%. 429s have stopped
+ines: Adding a validation rule so the plan limits cannot drop below the minimum in CI
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=Kubernetes node NotReady>>>
+sam: node-pay-07 NotReady, pods are rescheduling
+nia: Check the kubelet. Is it disk pressure?
+sam: Yes, container logs filled /var. I'm cordoning it
+nia: Make sure the payments tier has capacity on the other nodes before anything else
+sam: 12 of 12 payment pods Ready elsewhere. Cleaning the logs and rebooting
+nia: After it rejoins, tell me and I'll check the log rotation config
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=currency rate stale>>>
+vera: FX rate set is 7 hours old, customer quotes use yesterday's rates
+hugo: Provider returns 503 on intraday refresh
+vera: Switch to the backup provider?
+hugo: Yes, backup is enabled via config. Rates published at 12:55
+vera: JPY quotes changed by 1.1%. Within normal
+hugo: I'll open a ticket with the primary provider and add an alert when the age exceeds 2 hours
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=chargeback feed missed>>>
+[08:30] ollie: Disputes service hasn't pulled the scheme feed since yesterday 09:00
+[08:31] ria: Token expired, feed returns 401
+[08:33] ollie: Refresh the token, then run a manual pull for the missed window
+[08:40] ria: Pulled, 64 new chargebacks. 2 have deadlines tomorrow
+[08:41] ollie: I'll ping the disputes team so they prioritise these
+[08:44] ria: Added an alert for 401 from the feed
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=duplicate charges investigation>>>
+#inc-4560
+helen: Merchant claims double charges on order 77410, two authorizations seconds apart
+paul: Checking logs. Same idempotency key was not used; the merchant's retry generated a new key after our 504
+helen: So we behaved correctly?
+paul: Yes, but the first authorization did succeed. We'll void the duplicate
+helen: Please void and send the transaction IDs to support
+paul: Done. Also writing a short guide for the merchant on retrying with the same key
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=onboarding OCR down>>>
+fay: Onboarding queue is at 188, document OCR service returns 500
+cal: Vendor outage. They say 2 hours
+fay: Switch to manual review for documents?
+cal: Compliance allows it for low-risk countries only. I'll set the flag for those
+fay: Ok, and tell sales that SLA will slip
+cal: Flag set. Vendor recovered at 15:10, I'm turning the flag off and reprocessing the backlog
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=terminal fleet offline>>>
+[08:05] ivo: Ostrava terminals (3) offline since 07:58
+[08:06] petra: Other stores fine. Local network?
+[08:08] ivo: Store manager says Wi-Fi works. Our pos-gw shows last IP 10.40.8.15
+[08:12] petra: DHCP lease issue? The store router rebooted overnight
+[08:15] ivo: They restarted it again and terminals reconnected, 2 offline transactions replayed
+[08:16] petra: Good. Ask them to reserve fixed addresses for the terminals
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=intermittent mTLS failures>>>
+#partners
+dina: Partner Lendly gets handshake failures on the balance API
+raff: Their client cert was signed by a new CA we don't trust yet
+dina: Did we get the CA bundle from them?
+raff: Yes, last week. It never got deployed to api-edge
+raff: Deploying the bundle now, rolling restart
+dina: Lendly confirms the calls succeed
+raff: Added bundle deployment to the partner onboarding checklist
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=subscription token errors>>>
+[02:20] gil: billing run: 335 charges failed with token_not_found
+[02:22] mara: All tokens created before 1 July, same vendor?
+[02:24] gil: Yes. The token vault migration last weekend might have missed a shard
+[02:27] mara: Checking shard map. Shard 4 was not copied, it was created after the snapshot
+[02:40] mara: Copying shard 4 from the old store. 10 minutes
+[02:55] gil: Rerunning failed charges after copy. 331 of 335 succeeded
+[02:58] mara: Remaining 4 are real card declines. Closing
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=en hard_negative=true topic=reconciliation breaks spike>>>
+#finops-eng
+joel: recon shows 107 breaks this morning, limit is 50
+ada: Mostly acquirer_a, missing in ledger. Timestamps are right after the 21:00 cutoff
+joel: So they belong to tomorrow's file?
+ada: Most do. 9 are amount mismatches, max 0.03 EUR, rounding
+joel: And 3 older than five days?
+ada: Those need break tickets. I'm creating them now and will tag Finance
+joel: Fine. Let's leave the cutoff as is and note the cause in the daily log
+<<<END>>>

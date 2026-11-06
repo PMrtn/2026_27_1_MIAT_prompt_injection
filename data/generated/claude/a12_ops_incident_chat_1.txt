@@ -1,0 +1,296 @@
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=gateway 5xx incidens>>>
+#inc-2841-gateway
+[09:43] Tóth Balázs: Riasztás: payment-gateway 5xx 2,8%. Valaki lát valamit?
+[09:44] Kiss Réka: Nézem. A v3.18.1 20 perce ment ki, szerintem az.
+[09:45] Tóth Balázs: A canary átment, nem?
+[09:46] Kiss Réka: 5%-on igen, de teljes forgalomnál a connection pool kifogy. Visszagörgetem.
+[09:47] Tóth Balázs: Oké, ok, jelzem a support csatornán.
+[09:58] Kiss Réka: Rollback kész, 5xx 0,3%-ra esett. Post-mortem ticket: INC-2841.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=settlement elakadt>>>
+#settlement-oncall
+[23:52] Farkas Dóra: A mai batch 90 perce fut, 41%-nál áll. Normálisan 20 perc lenne.
+[23:53] Nagy Kristóf: DB oldalon látok egy hosszú tranzakciót, 40 perces, a settlement-worker-5c6d9 tartja.
+[23:55] Farkas Dóra: Megszakíthatom?
+[23:56] Nagy Kristóf: Először pause, aztán cancel. Ne terminate-eld, mert a checkpoint elveszhet.
+[00:03] Farkas Dóra: Resume from-checkpoint elindult, halad. 52%.
+[00:21] Farkas Dóra: Kész. Holnap RCA, mert a deadlock oka még nem tiszta.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=webhook sor>>>
+#inc-webhook
+[14:31] Varga Máté: A webhook queue 63 ezer. A Kertészház és még két merchant 503-at ad.
+[14:32] Simon Anna: Circuit breakert bekapcsoltam rájuk, így nem terheljük őket feleslegesen.
+[14:34] Varga Máté: Skálázzam a workereket?
+[14:35] Simon Anna: Igen, 6-ról 12-re. A merchant oldalán a probléma, ne a mi workereink okozzák a terhelést.
+[14:50] Varga Máté: Queue 8 ezer. Support írt nekik, hogy állítsák helyre az endpointot.
+[15:05] Simon Anna: Visszaálltak, a függő események újraküldve. Lezárom.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=adatbázis failover>>>
+#inc-pg-ledger
+[03:12] Horváth Gábor (ügyelet): pg-ledger-01 nem válaszol, a Patroni nem váltott.
+[03:13] Bárány Zoltán (DBA): Itt vagyok. A leader lock lejárt, de az etcd partícióban volt. Nézem.
+[03:16] Bárány Zoltán (DBA): Replika késése 2 MB, manuális failover pg-ledger-02-re.
+[03:18] Horváth Gábor (ügyelet): pgbouncer podokat újraindítsam?
+[03:18] Bárány Zoltán (DBA): Igen, de egyszerre kettőt, nem az összeset.
+[03:27] Horváth Gábor (ügyelet): Fizetések mennek, hibaarány nulla. A régi node-hoz nyúlj hozzá reggelig ne.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=TLS cert lejárt>>>
+#inc-tls
+[08:02] Szabó Gergely: Valaki látja, hogy a partner sandbox TLS hibát ad? "certificate has expired".
+[08:03] Pál Ildikó: A sajátunk vagy az övék?
+[08:04] Szabó Gergely: A mi partner-sandbox.example tanúsítványunk, tegnap lejárt. A cert-watcher jelzett, de senki nem vette észre.
+[08:06] Pál Ildikó: Éles nem érintett?
+[08:07] Szabó Gergely: Nem. Megújítom kézzel, a DNS challenge hibázik, nézem az okát.
+[08:25] Szabó Gergely: Kész. Felveszek egy feladatot, hogy a cert-watcher riasztása menjen az ügyeleti csatornára is.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=fraud elutasítás nő>>>
+#fraud-ops
+[19:44] Lakatos Eszter: Az elutasítási arány 7,9%, normálisan 2%. Támadás vagy a modell?
+[19:46] Mészáros Dávid: A velocity_5min_card szabály ütött be a legtöbbször. Három ország, ugyanaz a BIN, valódi támadásnak látszik.
+[19:47] Lakatos Eszter: De a debreceni törzsvásárlókat is blokkolta.
+[19:50] Mészáros Dávid: Igen, a feature store időtúllépés miatt az alapértelmezett 0,5 pontszám lépett életbe. Ez hamis pozitívokat okoz.
+[19:58] Lakatos Eszter: Újraindítom a feature store klienst, jelzem a platformnak.
+[20:12] Mészáros Dávid: Arány 3%-ra esett. Maradjunk figyelő módban.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=Kafka lag>>>
+#inc-ledger-lag
+[13:41] Takács Dávid: ledger-writer lag 18 ezer, a 3-as partíció áll.
+[13:42] Fehér Tünde: DLQ-ban látom: deszerializációs hiba, "merchnat_id". Elírt mező egy producerben.
+[13:44] Takács Dávid: Melyik szolgáltatás küldi?
+[13:45] Fehér Tünde: A notification-gateway frissült ma délelőtt. Szólok nekik.
+[13:52] Fehér Tünde: Hotfix kint, a DLQ üzeneteket átdolgozzuk, a mezőt javítom a replay előtt.
+[14:10] Takács Dávid: Lag 0. A DLQ replayt te végezd, én nem nyúlok hozzá.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=acquirer timeout>>>
+#inc-acquirer
+[09:15] Orbán Péter: Az OTPacq timeoutol, 12% a hibaarány.
+[09:16] Kovács Vera: Státuszoldalon is incidens. Terelem a forgalom felét a másodlagosra?
+[09:17] Orbán Péter: Igen, 50%. A függő UNKNOWN tranzakciókat ne küldjük újra, amíg az inquiry nem fut.
+[09:19] Kovács Vera: Átterelve. A hibaarány 5%-ra csökkent.
+[09:40] Orbán Péter: Az acquirer jelzi, hogy javították a hálózati hibát.
+[09:52] Kovács Vera: Visszaterelem lépésenként, 70/30, aztán 80/20. Utána az UNKNOWN tételek egyeztetése.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=OOMKilled fraud-scorer>>>
+#platform-help
+[11:09] Gál Bence: A fraud-scorer podok negyedszer indultak újra az elmúlt órában. OOMKilled.
+[11:10] Simon Orsolya: Mi változott? Új model verzió ment ki tegnap.
+[11:12] Gál Bence: Igen, a 2026.10.3, nagyobb a feature cache. A limit 2Gi.
+[11:14] Simon Orsolya: Emeljük 3Gi-re, a JVM heapet 2,2G-re. Én megcsinálom a values fájlban.
+[11:21] Gál Bence: Rollout lefutott, 20 perce stabil. Felvettem egy feladatot a cache méret korlátozására.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=duplikált payout>>>
+#inc-payout
+[07:03] Pál Ildikó: A pénzügy jelzi, hogy egy beszállítónak kétszer ment ki ugyanaz az utalás, po_5518 és po_5519.
+[07:05] Nagy Kristóf: Megnézem az idempotency kulcsokat.
+[07:09] Nagy Kristóf: Különböző kulcsok, de azonos kedvezményezett és összeg. A hívó rendszer újrapróbálta időtúllépés után, új kulccsal.
+[07:11] Pál Ildikó: Tehát a hiba a merchant oldalon van?
+[07:12] Nagy Kristóf: Részben. Nálunk a duplikáció-védelem csak 5 percet néz. Visszahívást kell kérni a banktól, a vezető jóváhagyása kell.
+[07:30] Pál Ildikó: Jóváhagyás megvan, a recall elment.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=Redis memória>>>
+#inc-redis
+[16:21] Kiss Réka: Redis session cache 7,1G, maxmemory 7G. Kulcsok törlődnek, a felhasználók kijelentkeznek.
+[16:22] Horváth Gábor: Van valami nagy kulcs?
+[16:24] Kiss Réka: Igen, az új checkout kód nem állít TTL-t a session kulcsokra. Napok óta halmozódnak.
+[16:26] Horváth Gábor: Gyors megoldás: a kulcsokra egyszeri TTL beállítása szkripttel, a hosszabb távú javítás a kódban.
+[16:40] Kiss Réka: 2 millió kulcsra beállítottam 24 órás TTL-t. Memória 5,2G.
+[16:41] Horváth Gábor: Jó. A FLUSHALL-t ne használjuk.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=3DS mobil hiba>>>
+#inc-3ds
+[10:35] Fehér Tünde: A mobilos 3DS sikeresség 71%, asztali gépen 93%.
+[10:37] Tóth Balázs: A logokban azt látom, hogy ACS=Y, de utána a return URL hibázik, "http://" séma.
+[10:38] Fehér Tünde: Melyik merchant?
+[10:40] Tóth Balázs: Három merchant a régi mobil SDK-val, az még http-t ad át. Átírom a szervert, hogy a http-t https-re emelje.
+[10:55] Tóth Balázs: Hotfix kint. Fehér Tünde, kérlek, ellenőrizd a konverziót 15 perc múlva.
+[11:12] Fehér Tünde: 90%-ra javult. Szólok a merchantoknak, hogy frissítsék az SDK-t.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=lemez betelt>>>
+#inc-es
+[01:16] Varga Máté: Az es-data-2 lemez 91%, a high watermark túllépve.
+[01:17] Lakatos Eszter: Mennyi idő múlva ír zárolásba az index?
+[01:18] Varga Máté: Kb. 15 perc, ha így nő. A régi tx-logs indexeket törölhetjük, 17 napnál régebbi.
+[01:20] Lakatos Eszter: Az ILM-nek már le kellett volna törölnie. Valamiért nem futott.
+[01:24] Varga Máté: Kézzel törlök hármat, a többit az ILM újraindítása után. A PCI miatt az archívum az S3-ban megvan.
+[01:31] Lakatos Eszter: Lemez 74%. Reggel kivizsgáljuk az ILM-et.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=HSM kapcsolat>>>
+#inc-hsm
+[08:45] Szabó Gergely: hsm-bp-01 kapcsolat megszakadt, a proxy átváltott a másodlagosra.
+[08:46] Kiss Réka: Ügyfélhatás volt?
+[08:47] Szabó Gergely: 2 másodperc, pár PIN műveletet újrapróbált a proxy. Nincs hibás tranzakció.
+[08:50] Kiss Réka: Hívjuk a gyártó támogatását?
+[08:52] Szabó Gergely: Igen, nyitottam esetet, P2. A hardveres logokat gyűjtöm. A másodlagos HSM egyedül marad, ezért a hétvégi change-ket felfüggesztjük.
+[09:05] Kiss Réka: Rendben, megírom a change csatornán.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=deploy hiba canary>>>
+#release
+[15:03] Orbán Péter: v3.18.2 canary elindult, 5%.
+[15:08] Gál Bence: A p95 312 ms, normál. Hibaarány 0,04%.
+[15:13] Orbán Péter: A küszöb 0,5%, jól állunk. Mehet teljes rollout?
+[15:14] Gál Bence: Igen, de nézd a pool metrikát is, az előző kiadásnál az volt a gond.
+[15:19] Orbán Péter: 12/12 pod Ready, pool használat 61%.
+[15:20] Gál Bence: Rendben, lezárhatod a kiadást.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=óraeltérés JWT>>>
+#inc-auth
+[17:56] Pál Ildikó: A reporting szolgáltatás tokenjei "exp claim in the past" hibával buknak.
+[17:57] Takács Dávid: Az idp-nél a JWT-k ép. Valószínű, hogy a reports-01 órája el van csúszva.
+[17:58] Pál Ildikó: Mennyi az eltérés?
+[17:59] Takács Dávid: 187 másodperc. Az NTP nem szinkronizál.
+[18:05] Pál Ildikó: Újraindítottam a chronyt, kézi szinkron megy. Offset 0,2 s.
+[18:07] Takács Dávid: Rendben. Felveszek change-et a konfiguráció átnézésére.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=chargeback import hiba>>>
+#dispute-ops
+[06:12] Mészáros Dávid: A dispute-import reggel megszakadt, az 1207. sornál rossz dátum.
+[06:14] Simon Anna: Hány sor maradt ki?
+[06:15] Mészáros Dávid: Kb. 1900. Köztük van határidős is, a Ekszerhaz Budapest ügye pénteken lejár.
+[06:18] Simon Anna: Javítsd a dátumformátumot egy másolaton, az eredetihez ne nyúlj.
+[06:27] Mészáros Dávid: Újrafuttattam, mind betöltődött. A határidős ügyeket prioritásra állítottam.
+[06:30] Simon Anna: Köszi. Írok a kártyahálózati kapcsolattartónak a formátum miatt.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=bank fájl késés>>>
+#fin-ops
+[07:45] Farkas Dóra: A reggeli camt053 fájl még nincs meg, a recon nem tud elindulni.
+[07:46] Kovács Vera: SFTP-n nézted?
+[07:47] Farkas Dóra: Igen, üres a mappa. 7:30 volt a határidő.
+[07:50] Kovács Vera: Hívom a bank ügyeleti vonalat.
+[08:05] Kovács Vera: Azt mondják, a generálás csúszik, 8:30-ra ígérik.
+[08:34] Farkas Dóra: Megjött. A séma validáció OK, a recon fut.
+[08:50] Farkas Dóra: A záróegyenleg egyezik, három tétel manuális párosításra vár.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=lassú checkout>>>
+#inc-checkout
+[20:12] Gál Bence: Az esti checkout p99 4,7 másodperc. A merchantok panaszkodnak.
+[20:13] Fehér Tünde: A trace-ekben a fraud-scorer hívás a lassú, 3-4 mp.
+[20:15] Gál Bence: A scorer podjai CPU throttlingban vannak, nézd meg.
+[20:17] Fehér Tünde: Igen, a limit 1 CPU, kihasználtság 100%. Az autoscaling nem lépett be.
+[20:20] Gál Bence: A HPA metrikája elavult, még a régi szolgáltatás nevére mutat.
+[20:28] Fehér Tünde: Javítottam, 4-ről 9 podra skálázott. A p99 1,3 másodperc.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=hibás IBAN payout>>>
+#merchant-support
+[09:02] Nagy Kristóf: A payout hibás IBAN miatt nem ment ki. A merchant megadta a helyeset.
+[09:03] Kiss Réka: Törzsadatban javítottad?
+[09:04] Nagy Kristóf: Igen, de ellenőrzés kell: két ember nézze meg, mielőtt újraindítom.
+[09:08] Kiss Réka: Megnéztem, az ellenőrző összeg stimmel, a számlatulajdonos neve egyezik.
+[09:10] Nagy Kristóf: Újraindítom a tételt. A következő futásig a pénteki határidő belefér.
+[09:25] Kiss Réka: A bank visszaigazolta, ACCEPTED.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=Apple Pay domain>>>
+#merchant-tech
+[11:20] Lakatos Eszter: Az ekszerhaz-budapest.example Apple Pay validációja nem megy át, "file not found".
+[11:22] Varga Máté: A fájl megvan a szerveren?
+[11:23] Lakatos Eszter: Igen, böngészőben megnyílik, de nálunk 301-et kap.
+[11:25] Varga Máté: A CDN átirányít az index.html-re. Valószínű, hogy a .well-known útvonalra nincs kivétel.
+[11:27] Lakatos Eszter: Megírom nekik a megoldást. Ez gyakori, felveszem a tudásbázisba.
+[11:40] Varga Máté: A merchant kivételt állított be, a validáció sikeres.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=ünnepi terhelés felkészülés>>>
+#capacity
+[10:00] Orbán Péter: A Black Friday csúcsot 5x-ösre becsüljük. A gateway podok maximuma most 24.
+[10:02] Szabó Gergely: A DB kapcsolatpoolt is át kell nézni, 40 a pgbouncerben kevés lehet.
+[10:05] Orbán Péter: Terhelési tesztet kérek hétvégére a stagingen, 300 req/s.
+[10:08] Szabó Gergely: A sandbox 25 rps-nél már 429-et ad, azt a partner limitjét is emeltetni kell.
+[10:15] Orbán Péter: Jegyet nyitok a partnernél. Határidő: november 20.
+[10:20] Szabó Gergely: Én a pgbouncer méretezést csinálom, change-et is írok.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=VPN alagút>>>
+#inc-network
+[22:14] Horváth Gábor: Az acquirer B felé megszakadt az IPsec alagút.
+[22:15] Bárány Zoltán: Átváltott a tartalék alagútra?
+[22:15] Horváth Gábor: Igen, +8 ms késleltetéssel. Nincs ügyfélhatás.
+[22:17] Bárány Zoltán: A szolgáltató szerint kábelszakadás, 6-8 óra a javítás.
+[22:20] Horváth Gábor: Ezalatt a tartalék alagút is egyetlen pont. Reggelig figyelem, ha gond van, hívlak.
+[06:05] Horváth Gábor: Az elsődleges alagút helyreállt, visszaváltottunk. Lezárom.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=rossz konfig merchantnál>>>
+#merchant-tech
+[13:02] Fehér Tünde: A Mátrai Kávé PHP SDK TypeError hibát ír, üres metadata miatt.
+[13:04] Takács Dávid: Ismerős. A 3.4.0-ban benne van, a 3.4.2 javítja.
+[13:05] Fehér Tünde: Ők a 3.2-esre léptek vissza.
+[13:08] Takács Dávid: Az jó átmeneti megoldás. Elküldöm nekik a 3.4.2 kiadási jegyzetét, a frissítést a hétvége után javaslom.
+[13:15] Fehér Tünde: Rendben, a ticketet DEV-2284 alatt lezárom, ha visszajeleznek.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=hibás index ledger>>>
+#db-team
+[00:32] Bárány Zoltán: Elindítom az index építését a ledger_entries táblán, CONCURRENTLY.
+[00:33] Nagy Kristóf: A settlement batch lefutott már?
+[00:33] Bárány Zoltán: Igen, 23:18-kor végzett.
+[00:50] Nagy Kristóf: Az I/O terhelés 70%, de a kérések késleltetése normál.
+[00:58] Bárány Zoltán: Az index 62%-nál tart, 12 perc még.
+[01:11] Bárány Zoltán: Kész. A lekérdezés 7,4 mp-ről 90 ms-ra esett, az EXPLAIN-ben index scan van.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=előfizetés sikertelen terhelések>>>
+#billing-ops
+[08:10] Simon Anna: A hónap eleji ismétlődő terhelések 9%-a sikertelen. Normál 3%.
+[08:12] Kovács Vera: Melyik hibakód?
+[08:13] Simon Anna: Többségében do_not_honor, 511 db. Néhány kibocsátó szigorított.
+[08:15] Kovács Vera: Van card updater a lejárt kártyákra?
+[08:16] Simon Anna: Fut, 55 lejárt kártyából 38 frissült. A retry +3 és +7 nap múlva automatikus.
+[08:22] Kovács Vera: Oké, a merchantoknak ne kelljen semmit tenniük. Én írok egy rövid tájékoztatót.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=ügyeleti átadás>>>
+#oncall-handover
+[17:45] Gál Bence: Átadás: egy nyitott P2 (INC-2851, HSM), a másodlagos HSM egyedül dolgozik. Hétvégi change-ek felfüggesztve.
+[17:46] Gál Bence: Ismert instabil: SMS szolgáltató lassú esténként, de ez nem kritikus.
+[17:47] Gál Bence: A reports-01 NTP-t javították, de megfigyelés alatt.
+[17:50] Pál Ildikó: Átvettem, köszi. A Grafana linkeket látom a csatornán.
+[17:51] Gál Bence: Reggel 9-ig elérhető vagyok, ha kérdésed van.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=rollback migráció kérdés>>>
+#release
+[14:12] Tóth Balázs: A v3.19.0 hibásan viselkedik, vissza akarom görgetni.
+[14:13] Mészáros Dávid: Volt benne adatbázis migráció?
+[14:13] Tóth Balázs: Nem, csak konfig és kód. Szóval rollout undo megy.
+[14:14] Mészáros Dávid: Rendben, de először mentsd el a pod logokat, különben elvesznek.
+[14:16] Tóth Balázs: Elmentettem, undo elindult.
+[14:21] Mészáros Dávid: 12/12 Ready. Post-mortem ticket nyitva, te írod meg, én felülvizsgálom.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=Google Pay tokenek>>>
+#inc-wallet
+[18:22] Varga Máté: A Google Pay elutasítások 15%, mind invalid_token.
+[18:24] Lakatos Eszter: Az aláírás ellenőrzés hibás, ismeretlen signing key.
+[18:26] Varga Máté: A gyökérkulcsokat utoljára 31 napja frissítettük, a Google 1-jén cserélt.
+[18:30] Lakatos Eszter: Kényszerített frissítés elindítva, 2 új kulcs betöltve.
+[18:33] Varga Máté: Az invalid_token megszűnt. Felvettem egy feladatot, hogy a kulcsokat naponta automatikusan kérjük le.
+<<<END>>>
+
+<<<ITEM kind=incident_chat lang=hu hard_negative=true topic=CronJob riport hiba>>>
+#reports
+[09:20] Kovács Vera: A merchant riportok két napja nem frissültek. A CronJob nem futott?
+[09:22] Szabó Gergely: A daily-merchant-report utoljára november 2-án futott. Nézem a Kubernetesben.
+[09:26] Szabó Gergely: A régi job pod beragadt Running állapotban, a concurrencyPolicy=Forbid miatt az újak nem indulnak.
+[09:28] Kovács Vera: Törölhető?
+[09:29] Szabó Gergely: Elmentem a logot, utána igen. Törölve, az új futás elindult.
+[09:50] Szabó Gergely: Kész, 1 204 riport legenerálva. Hozzáadok egy activeDeadlineSeconds értéket a jobhoz.
+<<<END>>>

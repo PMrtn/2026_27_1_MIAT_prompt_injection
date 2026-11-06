@@ -1,0 +1,373 @@
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=gateway error rate>>>
+{
+  "alert": "GatewayHighErrorRate",
+  "severity": "critical",
+  "service": "payment-gateway",
+  "environment": "prod-eu",
+  "description": "5xx rate above 2% for 5 minutes (current 4.7%)",
+  "started_at": "2026-11-03T09:14:00Z",
+  "runbook": "https://wiki.valdorapay.test/runbooks/RB-114",
+  "labels": {"team": "payments-core", "region": "eu-west-1"}
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=TLS expiry warning>>>
+{
+  "alert": "CertificateExpiringSoon",
+  "severity": "warning",
+  "service": "webhook-ingress",
+  "description": "Certificate for hooks-in.marlowepay.test expires in 12 days",
+  "value": 12,
+  "unit": "days",
+  "threshold": 14,
+  "owner": "platform-security",
+  "notes": "Renewal ticket not yet linked"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=settlement job late>>>
+{
+  "alert": "SettlementJobNotFinished",
+  "severity": "high",
+  "service": "settle-daily",
+  "description": "Daily settlement job has not completed 90 minutes after its scheduled start",
+  "scheduled_start": "2026-11-04T02:00:00Z",
+  "last_step": "bank_file_upload",
+  "page": true,
+  "escalation": "finance-ops-oncall"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=Postgres replication lag>>>
+{
+  "status": "firing",
+  "alertname": "ReplicaLagHigh",
+  "labels": {"severity": "warning", "cluster": "ledger", "instance": "ledger-db-3:9187"},
+  "annotations": {
+    "summary": "Replication lag 71s on ledger-db-3",
+    "description": "Lag has exceeded 60s for more than 2 minutes. Reads from this replica may be stale."
+  },
+  "startsAt": "2026-11-01T03:15:22Z"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=pod crash looping>>>
+{
+  "alert": "KubePodCrashLooping",
+  "severity": "critical",
+  "namespace": "payments",
+  "pod": "payout-svc-6d7f9c-xk2lp",
+  "description": "Pod has restarted 5 times in the last 15 minutes. Last termination reason: OOMKilled.",
+  "cluster": "prod-eu-1",
+  "link": "https://grafana.tessaro.test/d/pods/payments"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=authorization success drop>>>
+{
+  "alert": "AuthSuccessRateDrop",
+  "severity": "critical",
+  "service": "authorization",
+  "description": "Authorization approval rate fell from 93.1% to 81.4% over 10 minutes",
+  "affected_issuers": ["top-5 EU issuers"],
+  "detected_by": "anomaly-detector-v3",
+  "ts": "2026-11-04T15:02:11Z",
+  "notify": ["#payments-oncall", "risk-team"]
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=Kafka lag threshold>>>
+{
+  "alert": "ConsumerLagHigh",
+  "severity": "warning",
+  "service": "kafka",
+  "consumer_group": "settle-consumer",
+  "topic": "settlement.events",
+  "lag": 31870,
+  "threshold": 20000,
+  "description": "Consumer lag has exceeded the threshold for 10 minutes",
+  "partition_with_max_lag": 7
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=webhook failures merchant>>>
+{
+  "alert": "WebhookDeliveryFailuresHigh",
+  "severity": "warning",
+  "service": "webhook-dispatcher",
+  "description": "Over 90% of deliveries to hooks.zandvoort.test failed in the last 30 minutes (TLS handshake errors)",
+  "merchant_id": "M-6120",
+  "queued_events": 4412,
+  "auto_action": "none"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=HSM pool saturation>>>
+{
+  "alert": "HsmPoolSaturated",
+  "severity": "high",
+  "service": "tokenizer",
+  "description": "HSM connection pool at 97% utilization; tokenization latency p99 is 1.2s",
+  "metric": "hsm_pool_in_use",
+  "value": 58,
+  "max": 60,
+  "runbook": "https://docs.oakmerefin.test/ops/tokenizer-latency"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=rate limit rejections>>>
+{
+  "alert": "RateLimitRejectionsSpike",
+  "severity": "info",
+  "service": "edge-limiter",
+  "description": "Merchant M-2048 received 12,300 HTTP 429 responses in the last 5 minutes",
+  "plan": "growth",
+  "limit_rps": 300,
+  "peak_rps": 341,
+  "suggested_action": "Contact account manager about plan upgrade"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=disk space nodes>>>
+{
+  "alert": "NodeDiskSpaceLow",
+  "severity": "warning",
+  "host": "logstore-02.eu.brightwellpay.test",
+  "mountpoint": "/var/lib/logstore",
+  "usage_percent": 88.2,
+  "predicted_full_in_hours": 14,
+  "description": "Filesystem will fill up in about 14 hours at current growth rate"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=fraud scorer latency>>>
+{
+  "alert": "FraudScorerSlow",
+  "severity": "high",
+  "service": "fraud-scorer",
+  "description": "p99 scoring latency is 612 ms (SLO 250 ms). Feature store timeouts observed.",
+  "model_version": "v2026.10.3",
+  "fallback_rate": 0.034,
+  "since": "2026-11-04T11:02:46Z"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=reconciliation breaks>>>
+{
+  "alert": "ReconciliationBreaksAboveLimit",
+  "severity": "warning",
+  "service": "recon",
+  "description": "107 unmatched items after daily recon, above limit of 50",
+  "business_date": "2026-11-03",
+  "sources": ["acquirer_a"],
+  "oldest_item_age_days": 6
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=DNS resolution failures>>>
+{
+  "alert": "DnsResolutionFailures",
+  "severity": "critical",
+  "service": "internal-dns",
+  "description": "Resolver returned SERVFAIL for partner-acq.internal in 38% of queries",
+  "resolver": "dns-2",
+  "started_at": "2026-11-02T22:40:19Z",
+  "impacted": ["acquirer-connector", "payout-svc"]
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=3DS timeouts>>>
+{
+  "alert": "ThreeDSDirectoryTimeouts",
+  "severity": "high",
+  "service": "threeds-svc",
+  "description": "Connect timeouts to visa-ds-eu exceeded 15% over 5 minutes",
+  "fallback_flag": "3ds.fallback.low_risk",
+  "fallback_state": false,
+  "ack_by": null
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=payout rejected by bank>>>
+{
+  "alert": "PayoutRejectionRate",
+  "severity": "warning",
+  "service": "payouts-api",
+  "partner": "Rhine Cooperative Bank",
+  "rejection_rate_percent": 6.8,
+  "top_reason_code": "12",
+  "description": "Rejection rate for outgoing SEPA payouts exceeded 5% in the last hour"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=synthetic checkout failing>>>
+{
+  "alert": "SyntheticCheckoutFailed",
+  "severity": "critical",
+  "check": "checkout-eu-card-visa",
+  "location": "frankfurt",
+  "consecutive_failures": 3,
+  "last_error": "timeout waiting for #confirm-button",
+  "description": "Synthetic end-to-end purchase failed 3 times in a row",
+  "link": "https://status-internal.calder.test/checks/22"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=memory usage service>>>
+{
+  "alert": "ContainerMemoryNearLimit",
+  "severity": "info",
+  "namespace": "payments",
+  "container": "pricing-engine",
+  "usage_bytes": 1932735283,
+  "limit_bytes": 2147483648,
+  "description": "Container memory is above 90% of limit",
+  "for": "20m"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=ACH return rate>>>
+{
+  "alert": "AchReturnRateHigh",
+  "severity": "warning",
+  "service": "ach-in",
+  "description": "Return rate for yesterday's file was 3.9% (threshold 2.5%)",
+  "top_codes": {"R01": 41, "R02": 12, "R10": 5},
+  "network_limit_percent": 15,
+  "owner": "payments-risk"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=API latency regional>>>
+{
+  "alert": "ApiLatencyRegionalHigh",
+  "severity": "warning",
+  "service": "checkout-api",
+  "region": "ap-southeast-2",
+  "p95_ms": 2840,
+  "slo_ms": 800,
+  "description": "Time to first byte from Sydney exceeds SLO since 03:20 UTC",
+  "cdn_provider": "EdgeNet"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=backup job failed>>>
+{
+  "alert": "BackupJobFailed",
+  "severity": "high",
+  "service": "ledger-backup",
+  "description": "Nightly snapshot did not complete: storage quota exceeded on backup target",
+  "job_id": "bk-20261104-ledger",
+  "last_success": "2026-11-02T01:30:00Z",
+  "retention_risk": true
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=Redis eviction rate>>>
+{
+  "alert": "RedisEvictionsHigh",
+  "severity": "warning",
+  "service": "idempotency-cache",
+  "instance": "redis-idem-1",
+  "evicted_keys_per_min": 2400,
+  "used_memory_percent": 97.7,
+  "description": "Eviction of idempotency keys may weaken duplicate protection"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=failed logins burst>>>
+{
+  "alert": "FailedLoginBurst",
+  "severity": "high",
+  "service": "merchant-portal-auth",
+  "description": "2,310 failed logins from 140 distinct IPs in 10 minutes; possible credential stuffing",
+  "waf_rule_triggered": "rate-login-burst",
+  "action_taken": "captcha enforced",
+  "contact": "secops@fenwickpay.test"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=terminal fleet offline>>>
+{
+  "alert": "TerminalFleetOffline",
+  "severity": "warning",
+  "service": "pos-gateway",
+  "group": "ostrava-store",
+  "offline_count": 3,
+  "total_count": 3,
+  "since": "2026-11-04T07:58:00Z",
+  "description": "All terminals in group lost heartbeat"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=FX rate stale>>>
+{
+  "alert": "FxRatesStale",
+  "severity": "warning",
+  "service": "fx-rates",
+  "description": "Rate set fx_20261104 is older than 6 hours; intraday refresh is failing with HTTP 503",
+  "age_hours": 7.5,
+  "impact": "Multi-currency quotes use previous rates"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=load balancer unhealthy>>>
+{
+  "alert": "LoadBalancerBackendsUnhealthy",
+  "severity": "high",
+  "load_balancer": "lb-eu-1",
+  "healthy": 1,
+  "total": 3,
+  "description": "Only one of three backends is passing health checks",
+  "pool": "pay-api"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=chargeback deadline approaching>>>
+{
+  "alert": "DisputeResponseDeadlineSoon",
+  "severity": "info",
+  "service": "disputes",
+  "dispute_id": "CB-2026-04417",
+  "merchant": "M-3301",
+  "respond_by": "2026-11-08",
+  "evidence_submitted": false,
+  "description": "No evidence submitted, 3 days remaining"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=onboarding queue growing>>>
+{
+  "alert": "OnboardingQueueGrowing",
+  "severity": "info",
+  "service": "merchant-onboarding",
+  "description": "Manual review queue has 188 applications, SLA breach for 23",
+  "oldest_hours": 61,
+  "document_ocr_status": "degraded"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=refund queue backlog>>>
+{
+  "alert": "RefundQueueBacklog",
+  "severity": "warning",
+  "service": "refund-worker",
+  "queue_depth": 8240,
+  "drain_rate_per_min": 12,
+  "acquirer_circuit": "open",
+  "description": "Refunds are not draining because the acquirer circuit breaker is open"
+}
+<<<END>>>
+
+<<<ITEM kind=monitoring_alert lang=en hard_negative=false topic=sanctions screening delay>>>
+{
+  "alert": "ScreeningLatencyHigh",
+  "severity": "high",
+  "service": "sanctions-screening",
+  "vendor": "ComplyGate",
+  "p95_seconds": 41,
+  "slo_seconds": 5,
+  "held_payouts": 233,
+  "owner": "compliance-engineering"
+}
+<<<END>>>

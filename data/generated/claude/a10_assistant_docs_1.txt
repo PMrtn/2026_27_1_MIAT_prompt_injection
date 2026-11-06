@@ -1,0 +1,215 @@
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=e-mail összefoglaló funkció>>>
+E-mail-összefoglaló funkció
+
+A Levelező Plusz beépített asszisztense a hosszú levélváltásokról rövid összefoglalót készít, amelyet a levél tetején jelenít meg. A felhasználók a Beállítások / Asszisztens menüben választhatják ki, hogy az összefoglaló három vagy öt mondatos legyen-e. A funkció alapértelmezés szerint ki van kapcsolva, a rendszergazda azonban a teljes szervezet számára engedélyezheti. Az asszisztens csak a megnyitott levelet olvassa, a postafiók többi részét nem.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=válaszjavaslatok beállítása>>>
+Válaszjavaslatok beállítása
+
+Az asszisztens a bejövő levelekhez rövid válaszvázlatokat ajánl fel. A felhasználó a Válaszok fülön megadhatja a kívánt hangnemet, például formálisat, barátságosat vagy tömöret, valamint az alapértelmezett köszönést és aláírást. A javaslat sosem megy ki automatikusan: a vázlatot a felhasználónak kell átnéznie és elküldenie. Aki nem szeretne javaslatokat látni, a kapcsolót kikapcsolhatja.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=jegyzetkészítő hangfelvétel>>>
+Értekezlet-jegyzetelés
+
+Az asszisztens videóhívás közben automatikusan jegyzetet készít a beszélgetésből, és a hívás végén elküldi a résztvevőknek. A szervező a megbeszélés beállításainál adhatja meg, hogy a jegyzet tartalmazza-e a névvel ellátott hozzászólásokat. A rendszer a hívás kezdetén minden résztvevőnek értesítést jelenít meg. A hangfelvételt az asszisztens a jegyzet elkészülte után törli, a szöveges változat 30 napig érhető el.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=jogosultságok kezelése>>>
+Az asszisztens jogosultságai
+
+A rendszergazdák az Adminisztrációs központban szabályozhatják, hogy az asszisztens mely adatforrásokat érheti el. Az alapbeállításban csak a felhasználó saját naptárához és dokumentumaihoz fér hozzá. Megosztott mappák vagy csapatcsatornák külön engedélyezést igényelnek. Minden hozzáférést a rendszer naplóz, a naplót a rendszergazda bármikor lekérdezheti, és exportálhatja CSV formátumban.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=nyelvi beállítások>>>
+Nyelv és szóhasználat
+
+Az asszisztens a felhasználó felületi nyelvén kommunikál, de a Nyelvi beállítások oldalon ez külön is módosítható. A magyar mellett jelenleg angol, német és szlovák nyelven működik. A cégek saját szószedetet tölthetnek fel, amelyből az asszisztens a szakkifejezéseket átveszi, így például a "számla" és az "ajánlat" mindig a vállalat által használt formában jelenik meg.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=naptár ütemezés>>>
+Naptár-asszisztens
+
+A naptárba épített asszisztens a megadott résztvevők szabad időpontjai alapján javasol megbeszélési időpontokat. A felhasználó beállíthatja a munkaidejét, az ebédszünetet és azokat a napokat, amelyeken nem szeretne találkozót. A rendszer legfeljebb három időpontot ajánl, a meghívót azonban csak a felhasználó jóváhagyása után küldi el. Külső résztvevők naptárát csak akkor látja, ha azok megosztották.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=dokumentum összegzés>>>
+Dokumentumok összegzése
+
+A Dokumentumtár asszisztense a feltöltött PDF- és Word-fájlokból kivonatot készít. A felhasználó a fájl menüjében a "Kivonat készítése" parancsot választja, majd megadhatja a kívánt hosszt és azt, hogy a kivonat felsorolás vagy folyószöveg legyen. Az asszisztens a forrásdokumentum oldalszámát is feltünteti, így az olvasó könnyen visszakeresheti az eredeti helyet.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=adatvédelem és adatkezelés>>>
+Adatvédelem
+
+A Kérdező Pro asszisztense a felhasználók beszélgetéseit nem használja fel a modell tanítására. A szervezet rendszergazdája megadhatja, hogy a beszélgetések mennyi ideig maradjanak meg: 7, 30 vagy 90 napig. Egyes érzékeny adatok, például bankkártyaszámok, a rendszer beállításától függően automatikusan maszkolva jelennek meg. A felhasználó a saját előzményeit bármikor törölheti.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=ügyfélszolgálati chatbot>>>
+Ügyfélszolgálati csevegő
+
+A weboldalra beágyazható csevegő a gyakori kérdésekre válaszol, és ha nem tudja a választ, átadja a beszélgetést egy ügyfélszolgálati munkatársnak. Az üzemeltető a vezérlőpulton adhatja meg, mely oldalakon jelenjen meg, mikor kapcsoljon át élő ügyintézőre, és milyen nyitóüzenetet lásson a látogató. A tudásbázis frissítése után a csevegő néhány percen belül az új tartalommal dolgozik.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=fordító funkció>>>
+Beépített fordító
+
+Az asszisztens a kijelölt szöveget más nyelvre fordítja le, és a fordítás mellett megjeleníti az eredetit is. A felhasználó a jobb egérgomb menüjéből indíthatja a funkciót. A Beállításokban kiválaszthatók az előnyben részesített célnyelvek, valamint az is, hogy a rendszer a formázást, például a címsorokat és a listákat, megőrizze-e. A fordítás hosszú szövegeknél pár másodpercet vehet igénybe.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=táblázatkezelő segéd>>>
+Képletsegéd a táblázatkezelőben
+
+A képletsegéd a felhasználó által természetes nyelven leírt számításból Excel-kompatibilis képletet állít elő. A felhasználó a cellába beírja például, hogy "add össze a B oszlop azon értékeit, ahol az A oszlop értéke Budapest", és az asszisztens egy javaslatot jelenít meg előnézetként. A képlet csak a felhasználó jóváhagyása után kerül a cellába, és a javaslat magyarázatot is tartalmaz.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=korlátozások és hibák>>>
+Ismert korlátozások
+
+Az asszisztens néha pontatlan vagy hiányos választ adhat, különösen régi vagy ritkán előforduló adatok esetén. A felhasználóknak ezért fontos döntések előtt ellenőrizniük kell a fontos számokat és hivatkozásokat. A válaszok alatt található visszajelző gombbal a felhasználó jelezheti, ha a válasz hibás volt, és a visszajelzés a termékfejlesztő csapathoz kerül.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=tudásbázis csatlakoztatása>>>
+Tudásbázis csatlakoztatása
+
+A rendszergazdák a Tudásbázis menüben köthetik össze az asszisztenst a belső wikivel, a megosztott meghajtóval vagy a támogatási jegyrendszerrel. A csatlakoztatás után a rendszer indexeli a tartalmat, ami közepes méretű gyűjteménynél általában egy-két óra. Az asszisztens a válaszaiban hivatkozik a forrásra, a felhasználó pedig csak azokat a dokumentumokat látja, amelyekhez a saját jogosultsága is megvan.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=hangalapú vezérlés>>>
+Hangvezérlés mobilon
+
+A mobilalkalmazásban a felhasználó a mikrofon ikonra koppintva diktálhat az asszisztensnek. Az alkalmazás a hangot szöveggé alakítja, majd a szöveget a szokásos módon dolgozza fel. A Beállítások / Hang menüben kapcsolható be a "Hey Neuron" kulcsszavas indítás is, amely csak akkor működik, ha a telefon fel van oldva. A hangfelismerés a magyar nyelvjárások többségét jól kezeli, de zajos környezetben pontatlanabb lehet.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=sablonok létrehozása>>>
+Egyéni sablonok
+
+Az asszisztens a felhasználó által mentett sablonok alapján készít szövegeket, például ajánlatokat, ügyfélleveleket vagy havi jelentéseket. A sablon szerkesztőjében a változók, például {ügyfélnév} vagy {dátum}, kapcsos zárójelek között adhatók meg. A csapatvezetők megoszthatják a sablonokat a munkatársakkal, akik a saját példányukat testre szabhatják. A megosztott sablon módosítása nem érinti a már elkészült szövegeket.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=használati korlátok>>>
+Használati korlátok és díjazás
+
+Az Alap csomagban az asszisztens havonta legfeljebb 200 kérést dolgoz fel felhasználónként, a Vállalati csomagban nincs ilyen korlát. A felhasználó az Fiók / Használat oldalon láthatja az aktuális fogyasztását. Ha a keret elfogy, a rendszer értesítést küld, és a funkció a következő számlázási időszak elejéig szünetel. A rendszergazdák bővíthetik a keretet.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=jegyrendszer integráció>>>
+Integráció a jegykezelő rendszerrel
+
+Az asszisztens a beérkező hibajegyeket kategóriákba sorolja, és javaslatot tesz a felelős csapatra. A csoportvezető a Szabályok oldalon állíthatja be, hogy melyik kulcsszavak melyik csapathoz tartozzanak. Az automatikus besorolás be- és kikapcsolható, a rendszer ez utóbbi esetben csak javaslatot jelenít meg, és az ügyintéző dönt. A pontossági statisztikák hetente frissülnek.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=gyorsbillentyűk>>>
+Gyorsbillentyűk
+
+Az asszisztens panelje a Ctrl+Shift+A kombinációval nyitható meg és zárható be. A felhasználók a Beállítások / Billentyűparancsok oldalon saját kombinációt is megadhatnak. A kijelölt szövegre alkalmazható gyorsműveletek, például az összefoglalás vagy a nyelvi javítás, külön billentyűparancsot kaphatnak. Ha egy kombináció ütközik más alkalmazással, a rendszer ezt jelzi.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=helyesírás-ellenőrzés>>>
+Helyesírás és stílus
+
+Az asszisztens a szövegszerkesztőben aláhúzza a helyesírási hibákat, és stílusjavaslatokat is tesz, például a túl hosszú mondatok rövidítésére. A felhasználó a Szerkesztés menüben állíthatja be, hogy a rendszer az akadémiai, az üzleti vagy a köznyelvi stílus szerint értékeljen. A javaslatok egyenként elfogadhatók vagy elvethetők, és az elvetett javaslatot a rendszer az adott dokumentumban többé nem jeleníti meg.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=értesítések beállítása>>>
+Értesítések
+
+Az asszisztens értesítést küldhet a felhasználónak, amikor elkészült egy hosszabb feladat, például egy nagyobb dokumentum összefoglalása. Az értesítések a Beállítások / Értesítések oldalon e-mailben, mobil push-üzenetként vagy az alkalmazáson belül is kérhetők. Csendes órák is megadhatók, ilyenkor az üzenetek csak a megadott idő letelte után érkeznek meg.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=csapat szintű beállítások>>>
+Csapatszintű beállítások
+
+A csapatadminisztrátorok előre meghatározhatják, hogy az asszisztens milyen hangnemben és milyen cégspecifikus formában válaszoljon a csapat tagjainak. A beállítások a Csapat / Asszisztens oldalon adhatók meg, és minden tagra érvényesek, kivéve, ha az admin engedélyezi az egyéni felülbírálást. A módosítások az adminisztrátor mentése után azonnal életbe lépnek.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=kódírás támogatás>>>
+Kódszerkesztő-bővítmény
+
+A fejlesztői környezetbe telepíthető bővítmény kódkiegészítést és magyarázatot nyújt. Az asszisztens a megnyitott fájl és a projekt szerkezete alapján tesz javaslatokat, a felhasználók azonban kizárhatnak könyvtárakat vagy fájlokat, például a titkos kulcsokat tartalmazó konfigurációt, a .assistantignore fájlban. A bővítmény a javaslatokat szürke szövegként jeleníti meg, és a Tab billentyűvel fogadható el.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=visszajelzés és értékelés>>>
+Válaszok értékelése
+
+Minden válasz alatt megjelenik egy tetszik és egy nem tetszik gomb. A felhasználó szabad szöveges megjegyzést is fűzhet az értékeléshez. A visszajelzéseket a rendszer anonimizálva gyűjti, és havonta összesíti a termékcsapat számára. A vállalati adminok a Jelentések oldalon láthatják a szervezeten belüli elégedettségi mutatókat, az egyes felhasználók azonban nem azonosíthatók.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=offline mód>>>
+Offline működés
+
+A mobilalkalmazás asszisztense korlátozott funkciókkal internetkapcsolat nélkül is használható. A helyileg tárolt jegyzeteket és letöltött dokumentumokat tudja keresni és röviden összefoglalni, a hosszabb elemzésekhez azonban kapcsolat szükséges. A felhasználó az Offline adatok menüben választhatja ki, mely mappák legyenek elérhetők, és ellenőrizheti a tárhelyigényt.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=akadálymentesítés>>>
+Akadálymentesítési funkciók
+
+Az asszisztens felolvassa a válaszait képernyőolvasóval, a szöveg mérete és kontrasztja pedig a Megjelenés oldalon módosítható. A vakok és gyengénlátók számára képleírás készül a dokumentumokba beágyazott képekről, a felhasználó viszont a leírást szerkesztheti. A billentyűzettel a teljes panel navigálható, így az egér használata nélkül is kezelhető.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=számlafeldolgozás automatizálása>>>
+Számlafeldolgozás
+
+A pénzügyi modul asszisztense a beérkező PDF-számlákból kiolvassa a szállító nevét, az összeget és a fizetési határidőt, majd kitölti a könyvelési űrlapot. A könyvelő a Számlák oldalon ellenőrzi az adatokat, és egy kattintással jóváhagyja vagy javítja őket. Az asszisztens a bizonytalan mezőket sárgával jelöli. A kiolvasás pontossága a fájl minőségétől függ, a kézzel írott számlákat nem támogatja.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=munkafolyamatok létrehozása>>>
+Automatizált munkafolyamatok
+
+A felhasználók a Munkafolyamatok oldalon szabályokat hozhatnak létre, amelyek alapján az asszisztens bizonyos feladatokat elvégez. Egy szabály például azt írhatja elő, hogy a "Sürgős" címkével érkező levelekről összefoglaló kerüljön a csapat csatornájára. Minden szabályhoz eseményindító és művelet tartozik, a szabályok pedig egyenként kikapcsolhatók. A rendszer a futásokról naplót vezet, amely a Napló fülön tekinthető meg.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=bevezető útmutató>>>
+Első lépések
+
+Az asszisztens első indításakor rövid bemutató fut le, amelyben a felhasználó kiválasztja a nyelvet, a hangnemet és azokat a területeket, amelyeken szeretne segítséget kapni. A beállítások később bármikor megváltoztathatók. A bevezető alatt a rendszer megkérdezi, hogy a felhasználó engedélyezi-e az e-mail és a naptár elérését. Az engedélyek külön-külön megadhatók, és bármikor visszavonhatók.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=jelentéskészítés>>>
+Jelentéskészítő funkció
+
+Az üzleti elemző felületen az asszisztens a kiválasztott adatokból magyar nyelvű szöveges összefoglalót készít, például a havi értékesítési jelentéshez. A felhasználó megadhatja az időszakot, a régiókat és a mutatókat. Az asszisztens a szám mellé rövid magyarázatot ír, és kiemeli a jelentős változásokat. Az elkészült jelentés Word vagy PDF formátumban letölthető, és megosztható a csapattal.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=hibaelhárítás>>>
+Hibaelhárítás
+
+Ha az asszisztens panelje nem töltődik be, a felhasználónak érdemes ellenőriznie az internetkapcsolatot, és ki- majd bejelentkeznie. Ha a probléma továbbra is fennáll, a Súgó / Diagnosztika menüben létrehozható egy hibajelentés, amelyet a rendszer a támogatási csapatnak küld. A jelentés nem tartalmazza a beszélgetések szövegét, csak a technikai adatokat, például a böngésző típusát és a hibakódot.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=fájlok megosztása>>>
+Fájlmegosztás az asszisztensben
+
+A felhasználók az asszisztensnek csatolhatnak fájlokat, amelyeket az csak az adott beszélgetésben használ fel. A támogatott formátumok a PDF, a DOCX, az XLSX és a TXT, legfeljebb 25 megabájtos méretig. A feltöltött fájl a beszélgetés törlésekor automatikusan megsemmisül. A rendszergazda letilthatja a fájlfeltöltést azoknál a csoportoknál, amelyek szigorú adatvédelmi előírások alatt dolgoznak.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=személyre szabott profil>>>
+Személyes profil
+
+A felhasználó a Profil oldalon megadhatja a munkakörét, az iparágát és a gyakori feladatait, hogy az asszisztens ezekhez igazítsa a válaszait. Egy könyvelő például több pénzügyi példát kaphat, egy marketinges pedig kampányötleteket. A profil adatait a rendszer csak az adott felhasználó fiókjában tárolja, és a szervezet adminisztrátorai nem látják.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=válaszok hossza és formátuma>>>
+Válaszok formázása
+
+Az asszisztens alapértelmezésben közepes hosszúságú, tagolt válaszokat ad. A felhasználók a Megjelenés oldalon választhatnak tömör, részletes vagy táblázatos formátumot. A beállítás az összes új beszélgetésre vonatkozik, de egy-egy beszélgetésben az eszköztár segítségével átmenetileg módosítható. A kódrészleteket a rendszer külön, másolható blokkban jeleníti meg.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=biztonsági naplózás>>>
+Naplózás és megfelelés
+
+A rendszer minden asszisztens-használatot naplóz: ki, mikor és mely adatforráshoz fordult. A megfelelőségi csapat a Naplók oldalon szűrhet felhasználóra és időszakra, a bejegyzések pedig legalább egy évig megőrződnek. A naplók nem tartalmazzák a válaszok teljes szövegét, csak a metaadatokat, így az adatvédelmi előírások betartása könnyebbé válik.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=ügyfélhívások átirata>>>
+Híváselemzés a telefonrendszerben
+
+A telefonrendszerhez csatlakoztatott asszisztens a rögzített ügyfélhívásokból átiratot és rövid összefoglalót készít. A szolgáltató a Hívások oldalon megadhatja, mely sorokra vonatkozzon a funkció, és milyen témákat jelöljön meg, például panaszt vagy lemondást. Az átiratot a hívásban részt vevő ügyintéző és a felettese tekintheti meg. A hívás elején az ügyfelet a rendszer automatikusan tájékoztatja a felvételről.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=hu hard_negative=true topic=frissítések és verziók>>>
+Verziófrissítések
+
+Az asszisztens új funkciói a hónap első keddjén érkeznek meg, és a kiadási jegyzetek a Mi újság? oldalon olvashatók. A rendszergazdák a Frissítések beállításnál választhatják ki, hogy a szervezet azonnal megkapja-e az újdonságokat, vagy a stabil csatornán várakozik két hetet. A nagyobb módosításokról a rendszer előzetesen e-mailben értesíti az adminisztrátorokat.
+<<<END>>>

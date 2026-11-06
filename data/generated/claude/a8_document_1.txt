@@ -1,0 +1,326 @@
+<<<ITEM kind=document lang=hu hard_negative=false topic=heti projektstátusz>>>
+Projektstátusz – 44. hét
+Projekt: ügyfélportál megújítása (Mátrix Kft.)
+
+Állapot: sárga. A bejelentkezési modul elkészült, a tesztelése folyamatban van. A számlaletöltő felület két napot csúszik, mert a pénzügyi rendszer API-ja módosult. Költségkeret: a tervezett 14,2 millió forintból eddig 9,8 millió forintot használtunk fel.
+
+Kockázat: a külső szállító jövő héten csak három napot dolgozik. Következő mérföldkő: belső bemutató november 20-án, csütörtökön, Balogh Péter vezetésével.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=értekezlet emlékeztető>>>
+Emlékeztető – értékesítési értekezlet, 2026. október 28.
+
+Jelen voltak: Szűcs Andrea (vezető), Kiss Tamás, Fehér Dóra, Oláh Gergely.
+
+1. A harmadik negyedéves célt 96 százalékban teljesítettük. A hiányt főként a dunántúli régió okozta.
+2. Kiss Tamás új ajánlati sablont készít a nagyobb ügyfelek részére, határideje november 7.
+3. Fehér Dóra a decemberi ügyfélrendezvény előkészítését vállalta.
+4. A következő értekezlet november 11-én, 9 órakor lesz a kisteremben.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=beszerzési feljegyzés>>>
+Feljegyzés a laptopok beszerzéséről
+
+Az IT-osztály javaslata szerint tizenkét darab új laptop beszerzése szükséges a pénzügyi csoport számára, mivel a jelenlegi gépek négy évnél idősebbek, és az operációs rendszer támogatása hamarosan véget ér. Három ajánlat érkezett: a legkedvezőbb bruttó 4,1 millió forint, két éves garanciával. Az igazgatói jóváhagyásra november 14-ig van szükség, mert a szállítási idő hat hét.
+
+Összeállította: Molnár Zsolt, rendszergazda
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=HR szabadságolási terv>>>
+Szabadságolási terv – karácsonyi időszak
+
+A munkaszüneti napok miatt december 24. és január 1. között az iroda zárva tart. A kollégák szabadságigényüket november 21-ig jelezhetik a HR-osztálynál. Az ügyfélszolgálatnak december 29-30-án legalább két fővel ügyeletet kell biztosítania.
+
+Eddig tizennyolc kolléga adta be a kérését, ebből három ütközik az ügyeleti beosztással. Az érintettekkel Papp Katalin egyeztet a következő hét közepéig.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=pénzügyi rövid jelentés>>>
+Rövid pénzügyi jelentés – 2026. október
+
+Bevétel: 62,4 millió forint (tervhez képest +4 százalék). Kiadás: 55,9 millió forint. Az üzemi eredmény 6,5 millió forint. A kintlévőségek állománya 18 millió forint, ebből 5,2 millió forint a 60 napnál régebbi.
+
+A bérköltség változatlan, az energiaköltség 8 százalékkal csökkent a tavalyi hónaphoz képest. A novemberi cash flow előrejelzése pozitív, de az áfa-fizetés a hónap végén 7,3 millió forintot visz el.
+
+Készítette: Kocsis Ildikó, pénzügyi vezető
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=karbantartási napló>>>
+Karbantartási napló – 2. gyártósor
+
+Október 30. 6:15 – a szalagmotor rendellenesen zajos, az ellenőrzés során a csapágy kopását állapítottuk meg. Az alkatrészt kicseréltük, a sor 7:40-kor újraindult.
+Október 31. 14:00 – tervezett kenés, a hidraulika olajszintjét pótoltuk, 3,5 liter.
+November 3. 9:30 – a hőmérséklet-érzékelő hibát jelzett, kalibráltuk, az eltérés 2 fok volt.
+
+Következő esedékes időszaki felülvizsgálat: november 17.
+Felelős: Tóth Gábor, karbantartó
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=tanári munkaközösség jegyzőkönyv>>>
+Jegyzőkönyv – természettudományi munkaközösség, 2026. szeptember 30.
+
+Megjelent: 7 fő. Az igazgatóhelyettes beszámolt arról, hogy a laborfelszerelések pályázatát elfogadták, a beszerzés a második félévben valósul meg. A munkaközösség vezetője javasolta a fizika és kémia óraszámok újraosztását. Szavazás: 6 igen, 1 tartózkodás.
+
+A novemberi tanulmányi versenyre a nyolcadikos osztályokból összesen 14 diák jelentkezett. A felkészítésért Horváth Mária és Pintér László felel.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=szerződés összefoglaló>>>
+Szerződés-összefoglaló: irodabérlet
+
+A Napfény Üzletház Kft. és cégünk között 2023. január 1-jén létrejött bérleti szerződés 2027. december 31-ig szól. A bérleti díj havonta 780 000 forint plusz áfa, az éves indexálás a KSH fogyasztói árindexéhez kötött. A felmondási idő hat hónap.
+
+Megjegyzés: a bérbeadó javasolta a szerződés meghosszabbítását ötéves időszakra, a díj 3 százalékos csökkentésével. A döntést a vezetőségnek az év végéig kell meghoznia.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=kockázati lista>>>
+Kockázati nyilvántartás – raktárfejlesztés
+
+K1: a kivitelező késése – valószínűség közepes, hatás magas. Intézkedés: heti előrehaladási jelentés.
+K2: az acélárak emelkedése – valószínűség alacsony, hatás közepes. Intézkedés: fix áras szerződés.
+K3: a használatbavételi engedély késése – valószínűség közepes, hatás magas. Intézkedés: az építésügyi hatósággal egyeztetés még decemberben.
+K4: a tűzvédelmi előírások módosulása – kis valószínűség, kezelhető hatás.
+
+Felelős: Antal Zoltán projektvezető
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=ügyfélpanasz jelentés>>>
+Ügyfélpanasz-jelentés – harmadik negyedév
+
+A negyedévben 83 panasz érkezett, ez 11 százalékkal kevesebb az előző időszaknál. A leggyakoribb ok a késedelmes szállítás volt (31 eset), ezt a számlázási hibák követik (22 eset). A panaszok 87 százalékát öt munkanapon belül lezártuk.
+
+Két esetben kártérítésre került sor, összesen 142 000 forint értékben. A szállítási késedelmek csökkentése érdekében a raktárban új kiadási rendet vezettünk be szeptember közepétől.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=belső tájékoztatás parkolás>>>
+Tájékoztató a parkolási rendről
+
+Kedves Kollégák!
+
+November 1-jétől a cég telephelyén a parkolóhelyek fele az ügyfelek számára lesz fenntartva. Az alkalmazottak a hátsó udvaron, illetve a szemközti P+R parkolóban állhatnak meg. A parkolókártyát a recepción lehet átvenni, hétköznap 8 és 16 óra között.
+
+Kérdés esetén Illés Judit, az épületüzemeltetés munkatársa áll rendelkezésre a 214-es melléken.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=képzési terv>>>
+Éves képzési terv – kivonat
+
+A 2027. évben a dolgozók számára négy belső és három külső képzést tervezünk. Belső képzések: munkavédelem (február), adatvédelem (április), ügyfélkommunikáció (szeptember), elsősegély (november). Külső képzések: projektmenedzsment, Excel haladó, vezetői készségfejlesztés.
+
+A teljes képzési költségkeret 3,8 millió forint. A képzések elvégzése munkaidőben történik, a részvételi igazolásokat a HR archiválja.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=raktári leltár jelentés>>>
+Leltárjelentés – központi raktár
+
+A leltár 2026. október 25-26-án zajlott, 14 fő részvételével. Az eltérés az összes tétel 0,4 százaléka, értékben 312 000 forint hiány. A legnagyobb hiány a csomagolóanyag-készletnél jelentkezett (97 000 forint). Három polchelyen nem megfelelő címkézést találtunk.
+
+Javaslat: a vonalkódolvasók cseréje, mert hat készülék a hét közben többször leállt. A jelentés elfogadásáról a gazdasági igazgató dönt.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=IT incidens összefoglaló>>>
+Összefoglaló: november 2-i levelezési zavar
+
+A levelezőszerver november 2-án 9:10 és 11:35 között nem volt elérhető. A hiba oka egy sikertelen tárhelybővítés volt, amely miatt a lemez megtelt. A rendszert 11:35-kor újraindítottuk, adatvesztés nem történt. Az érintett felhasználók száma 126.
+
+Megelőzés: a figyelmeztetési küszöböt 90 százalékra állítottuk, és a mentési folyamatot átütemeztük az éjszakai órákra. Felelős: Dudás Márton, IT-üzemeltetés.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=marketing kampányterv>>>
+Karácsonyi kampányterv – áttekintés
+
+Időszak: november 20. – december 23. Csatornák: közösségi média, e-mail hírlevél, helyi rádió. Költségkeret: 2,6 millió forint. A fő üzenet: "Ajándékozz élményt".
+
+Mérőszámok: a webáruház forgalma +15 százalék a tavalyihoz képest, a hírlevél megnyitási aránya legalább 28 százalék. A kreatív anyagokat november 10-ig a grafikai csapat készíti, az engedélyeztetés Varga Ágnes feladata.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=épületüzemeltetés megbeszélés>>>
+Feljegyzés a fűtési rendszer vizsgálatáról
+
+A fűtési szezon indulása előtt az épületgépész szakember megvizsgálta a kazánokat és a radiátorokat. Két kazán megfelelő, a harmadik hőcserélőjét cserélni kell, becsült költsége 640 000 forint. A harmadik emeleten a keringető szivattyú zajos, javasolt a csere.
+
+A fűtési rendszer éves karbantartási szerződése december végén lejár, ezért új ajánlatokat kell kérni. A felelős: Bartos Gyula, üzemeltetési vezető.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=pályázati beszámoló>>>
+Részbeszámoló az "Innovatív műhely" pályázathoz
+
+A támogatott projekt tizedik hónapjában két célt teljesítettünk teljesen, egyet részben. A prototípus első változata elkészült, a felhasználói tesztelésen 24 személy vett részt. A költségvetés 62 százalékát merítettük ki, a személyi jellegű kiadások a terv szerint alakultak.
+
+Kihívás: az egyik beszállító késése miatt a második tesztelési kör februárra tolódik. A kedvezményezett nyilatkozata szerint ez a záró dátumot nem veszélyezteti.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=minőségügyi ellenőrzés>>>
+Minőségellenőrzési jegyzet – 47. tétel
+
+A beérkező alapanyag ellenőrzésére október 29-én került sor. Mintavétel: 20 darab, a hibás mennyiség 1 darab (5 százalék), ami a megengedett 3 százalék fölött van. A hiba jellege: a felületi karcolás.
+
+Intézkedés: a szállítónak reklamációt küldtünk, a tételt zárolt állapotban tartjuk. A termelésben az előző szállítmányt használjuk tovább, a pótlás várható érkezése november 12.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=hétvégi ügyelet beosztás>>>
+Ügyeleti beosztás – november
+
+A hétvégi ügyeletet az alábbi kollégák látják el: 1-2. Fekete Bence, 8-9. Szabó Ilona, 15-16. Nemes Ádám, 22-23. Lakatos Réka, 29-30. Gyurkó Péter. Cserére november 5-ig van lehetőség, a cserét a vezetőnek kell jóváhagynia.
+
+Az ügyeleti szolgálat 8 és 20 óra között tart, a telefonszám 06 30 555 0192. Az ügyeletben dolgozók a következő héten pótnapot kérhetnek.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=belső ellenőrzés>>>
+Belső ellenőrzési jelentés – pénztárkezelés
+
+Az ellenőrzés a 2026. január–szeptember időszakot fedte le. Megállapítás: a pénztári záró egyenlegek egyeztek, két esetben azonban hiányzott a második aláírás. A készpénzkezelési szabályzat 4. pontja szerint ez hiba.
+
+Javaslatok: az aláírási kötelezettség ellenőrzésének beépítése a havi zárásba; a pénztárkezelők oktatása novemberben. A hiányosságok javítására határidő: 2026. december 15.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=termékfejlesztési memo>>>
+Memo: új funkciók a mobilalkalmazásban
+
+A következő kiadásban (3.4) három új funkciót tervezünk: sötét téma, ujjlenyomatos belépés és offline mód. A fejlesztést két sprintre bontottuk, a befejezés várható ideje december 12.
+
+A felhasználói felmérés szerint a sötét téma a legkért funkció, 61 százalék említette. Az offline mód a legnagyobb műszaki kihívás, mert a szinkronizálási logikát át kell írni. A tesztelést a minőségbiztosítás csapata január első felében végzi.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=gyárlátogatás szervezés>>>
+Szervezési feljegyzés – vendéglátogatás
+
+Szeptember 18-án egy kilenc fős holland delegáció látogat a telephelyre. Program: 9:30 fogadás, 10:00 bemutató, 11:30 gyárlátogatás, 13:00 ebéd az étteremben, 14:30 üzleti megbeszélés. Tolmács: Sipos Anna.
+
+Teendők: a biztonsági oktatás előkészítése, látogatói kitűzők, parkolóhelyek lefoglalása. Az ebéd menüjét a szakács egyezteti. Költségkeret: 380 000 forint.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=gépjármű flotta jelentés>>>
+Flottajelentés – harmadik negyedév
+
+A cég 14 gépkocsit üzemeltet. Az összes megtett út 186 400 kilométer, az átlagfogyasztás 6,9 liter/100 km. Az üzemanyagköltség 5,1 millió forint, a javítási költség 1,3 millió forint.
+
+Két gépjármű műszaki vizsgája november végén lejár, a vizsgáztatás időpontja november 18. A flotta kétharmadát jövőre hibrid autóra tervezzük cserélni, az ajánlatkérés decemberben indul.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=iskolai szülői tájékoztató>>>
+Tájékoztató a szülőknek – farsangi bál
+
+Kedves Szülők! Az iskola farsangi bálját 2027. február 13-án, szombaton rendezzük a tornateremben, 15 órától. A belépés ingyenes, a büfében a szülői munkaközösség süteményeket és üdítőket kínál. Jelmezben érkező gyerekek között tombolát sorsolunk.
+
+Kérjük, a süteményfelajánlásokat február 10-ig jelezzék az osztályfőnököknél. A befolyt összeget az iskolai könyvtár bővítésére fordítjuk.
+
+Üdvözlettel: Gulyás Erika, igazgató
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=energiaaudit összefoglaló>>>
+Energetikai audit – összefoglaló
+
+Az iroda éves villamosenergia-fogyasztása 142 MWh, a gázfogyasztás 8700 köbméter. A legnagyobb fogyasztók a légkondicionálás (34 százalék) és a világítás (22 százalék). A javasolt intézkedések: LED-világítás, mozgásérzékelők a folyosókon, hőszigetelt ablakok az északi homlokzaton.
+
+Megtérülési idő: a LED-csere 2,1 év, az ablakcsere 9 év. A vezetőség a LED-cserét az első negyedévben tervezi elvégezni.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=fejlesztői megbeszélés jegyzet>>>
+Jegyzet – backend csapat, hétfői megbeszélés
+
+- A lekérdezések lassulását az indexelés hiánya okozta; Nagy Dávid hozzáadta az indexeket, a válaszidő 1,8 mp-ről 0,3 mp-re csökkent.
+- A hibanaplózás átállítása az új formátumra a jövő hétig kész lesz.
+- A dokumentáció frissítése Ferenc Tímea feladata, aki szabadság miatt csak a hét második felében ér rá.
+- Szabadság: Tóth Eszter november 16-20. között nem elérhető.
+
+Következő megbeszélés: hétfő, 10:00, 2. tárgyaló.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=költségvetési terv>>>
+Osztályszintű költségvetési terv – 2027
+
+Személyi jellegű kiadások: 41,5 millió forint. Dologi kiadások: 12,8 millió forint. Beruházások: 6,0 millió forint (két új gyártóeszköz). Képzés: 1,4 millió forint. Tartalék: 3 százalék.
+
+A tervet a vezetői megbeszélésen december 3-án mutatjuk be. Az előző évihez képest a személyi kiadások 7 százalékkal emelkednek a tervezett béremelés miatt. Összeállította: Fazekas Noémi.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=munkavédelmi oktatás>>>
+Munkavédelmi oktatás – jelenléti ív összefoglalója
+
+A 2026. október 22-i oktatáson 47 dolgozó vett részt, 5 fő pótoktatásra szorul. A témák: tűzvédelem, menekülési útvonalak, kézi anyagmozgatás, a védőfelszerelések használata. A záró teszten az átlag 91 százalék volt.
+
+A pótoktatást november 6-án 14 órakor tartjuk, a helyszín az első emeleti tárgyaló. Felelős: Kardos Péter, munkavédelmi megbízott.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=beszállítói értékelés>>>
+Beszállítói értékelés – Alföldi Csomagolás Kft.
+
+Értékelési időszak: 2026. január–szeptember. Szállítási pontosság: 92 százalék. Hibaarány: 1,8 százalék. Ár: versenyképes, a piaci átlagnál 3 százalékkal alacsonyabb. Kommunikáció: gyors, rugalmas.
+
+Összértékelés: B kategória (megfelelő). A fejlesztési javaslat: a pontosság javítása legalább 95 százalékra. A következő értékelést 2027 márciusában végezzük.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=önkormányzati előterjesztés>>>
+Előterjesztés – gyalogátkelőhely kialakítása
+
+Tisztelt Képviselő-testület! A Rákóczi utca és a Dózsa út kereszteződésében az elmúlt két évben három baleset történt. A lakók aláírásgyűjtéssel kérték új, kivilágított gyalogátkelőhely építését.
+
+A tervezett költség 4,2 millió forint. Fedezet: a közlekedésbiztonsági keret. Javaslom, hogy a testület hagyja jóvá a beruházást, a kivitelezés a tavaszi időszakban elkezdődhet.
+
+Tisztelettel: Borbély Katalin, osztályvezető
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=csapatépítő nap>>>
+Csapatépítő nap – szervezési feljegyzés
+
+Időpont: október 17., péntek, 9-17 óra. Helyszín: Tihany, a Hotel Tihanyi Vitorlás konferenciaterme. Az utazás közös busszal, indulás 7:30-kor a székház elől. Program: szabadulószoba, vitorlás oktatás, közös vacsora.
+
+A költség fejenként 28 000 forint, a cég fedezi. Allergiákat és étkezési igényeket október 8-ig kell jelezni. A szervezésért felelős: Rácz Eszter.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=kutatási jegyzet>>>
+Kutatási jegyzet – ügyfélelégedettségi felmérés
+
+A felmérésben 420 ügyfél vett részt, a válaszadási arány 34 százalék. Az átlagos elégedettség 4,2 az ötfokozatú skálán. A legjobban értékelt terület az ügyfélszolgálat (4,6), a legrosszabb a weboldal használhatósága (3,5).
+
+A nyílt válaszok közül a leggyakoribb kérés a gyorsabb ügyintézés és az egyszerűbb rendelési felület. A következő lépés a weboldal felhasználói tesztelése decemberben.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=jogi összefoglaló>>>
+Jogi összefoglaló – adatkezelési szabályzat módosítása
+
+Az új adatkezelési tájékoztató 2027. január 1-jétől lép hatályba. A változás érinti a hírlevél-feliratkozók adatainak megőrzési idejét, amelyet két évről egy évre rövidítünk, valamint a harmadik fél szolgáltatók körét.
+
+Teendő: az érintettek tájékoztatása e-mailben december 15-ig, a weboldal frissítése. Az adatvédelmi tisztviselő, dr. Kövér Ágnes jóváhagyta a dokumentumot, a vezetőség aláírása még hiányzik.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=állami támogatás nyilvántartás>>>
+Nyilvántartás – folyamatban lévő pályázatok
+
+1. Digitalizációs támogatás: benyújtva szeptember 12-én, döntés várható december elején, igényelt összeg 18 millió forint.
+2. Energetikai korszerűsítés: elbírálva, nyertes, 9,4 millió forint, szerződéskötés novemberben.
+3. Foglalkoztatási támogatás: előkészítés alatt, határidő január 31.
+
+Felelős a pályázatokért: Lengyel Orsolya, pályázati referens.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=szervizjelentés nyomtató>>>
+Szervizjelentés – irodai nyomtatók
+
+A harmadik emeleti nagy teljesítményű nyomtató kétszer is papírelakadást jelzett a héten. A szerviztechnikus kicserélte a görgőket és tisztította a lézeregységet. Az eszköz azóta hibátlanul működik. A számlázandó összeg 38 500 forint plusz áfa.
+
+A földszinti színes készülék tonerje szinte elfogyott, a pótlást megrendeltük. A havi nyomtatási volumen 22 ezer oldal, ami 8 százalékkal kevesebb, mint a nyáron.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=ügyfélmegbeszélés emlékeztető>>>
+Emlékeztető – megbeszélés a Kárpát Logisztika Zrt.-vel
+
+Időpont: november 3., 14:00. Résztvevők: Dobos Ferenc (Kárpát), Simon Réka, Kerekes Márton (cégünk).
+
+Az ügyfél 15 százalékkal több szállítási kapacitást szeretne jövő évre. Ajánlatot kell adnunk december 5-ig a bővítésre, illetve a rakománykövető rendszer új moduljára. Az árakat Kerekes Márton egyeztette az értékesítéssel. Következő találkozó: december második hete.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=takarítási szerződés>>>
+Feljegyzés a takarítási szolgáltatás felülvizsgálatáról
+
+A jelenlegi takarítási szerződés havi díja 410 000 forint plusz áfa, és december 31-én lejár. A dolgozói visszajelzések szerint a szolgáltatás színvonala változó, a mosdók tisztasága kifogásolható volt az elmúlt két hónapban.
+
+Három ajánlatot kértünk be. Az ajánlatok összehasonlítása november 20-ig készül el, a döntést a gazdasági vezető hozza meg. A váltás esetén a szolgáltató januártól kezd.
+<<<END>>>
+
+<<<ITEM kind=document lang=hu hard_negative=false topic=külső előadó fogadása>>>
+Belső tájékoztató – vendégelőadás
+
+November 19-én, szerdán 15 órától vendégelőadást tart a konferenciateremben dr. Hegedűs Bálint, a Budapesti Műszaki Egyetem adjunktusa. Az előadás címe: "A gyártási folyamatok digitális ikrei". A tervezett hossza 60 perc, utána 30 perc kérdésfeltevés.
+
+A részvétel önkéntes, a jelentkezés a titkárságon, az 1. emeleten történik. Szendvicseket és üdítőt biztosítunk.
+<<<END>>>

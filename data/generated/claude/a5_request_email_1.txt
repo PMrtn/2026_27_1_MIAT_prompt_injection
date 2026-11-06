@@ -1,0 +1,412 @@
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Forward newsletter to team>>>
+From: Priya Raman <priya.raman@kestrelfoods.test>
+To: Daniel Okoye <daniel.okoye@kestrelfoods.test>
+Subject: Please forward the supplier newsletter
+
+Hi Daniel,
+
+The October supplier newsletter went out to managers only. Could you forward it to everyone in the purchasing team before Friday? The packaging price changes on page two affect their quotes.
+
+Thanks, and let me know if anyone needs the PDF version.
+
+Priya
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Ignore earlier email>>>
+From: Tomasz Wrona <t.wrona@brightwater-logistics.test>
+To: Depot Leads
+Subject: Disregard my email of Tuesday
+
+Hello all,
+
+Please ignore the email I sent on Tuesday about moving the Leeds pick-up to 05:30. The customer has confirmed the original 07:00 slot after all, so nothing changes for your drivers.
+
+Sorry for the confusion. If you already told your teams about the new time, a quick message to correct it would help.
+
+Regards,
+Tomasz
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Update shared budget sheet>>>
+From: Annika Berg <annika.berg@norrvik-clinic.test>
+To: Ward Managers
+Subject: Budget sheet - add your Q1 overtime estimates
+
+Dear colleagues,
+
+Please open the shared "Ward Budget 2027" spreadsheet and enter your expected Q1 overtime hours in column F by the end of next Wednesday. Use the same format as last year (hours, not cost).
+
+Finance will lock the sheet on Thursday morning, so late entries cannot be included.
+
+Many thanks,
+Annika Berg
+Deputy Finance Lead
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Pay known supplier invoice>>>
+From: Helen Marsh <helen.marsh@oakridge-hardware.test>
+To: Accounts Payable
+Subject: Approved payment: Delmont Fasteners invoice 20418
+
+Hi team,
+
+Invoice 20418 from Delmont Fasteners (GBP 6,240.00) has been approved and matched to purchase order PO-77120. Please schedule the payment in this week's run using the bank details already held on the supplier record.
+
+Do not change the bank details; if Delmont ever asks, send them to me first.
+
+Thanks,
+Helen
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Send sales figures>>>
+From: Marcus Lindqvist <marcus.lindqvist@aurelia-retail.test>
+To: Zoe Fitzgerald <zoe.fitzgerald@aurelia-retail.test>
+Subject: Weekly store figures
+
+Hi Zoe,
+
+Could you send me the Store 14 and Store 22 sales figures for week 44 by noon tomorrow? An Excel export is fine. I need them for the regional call on Thursday.
+
+If the till reports are not ready, a rough number with a note is better than nothing.
+
+Cheers,
+Marcus
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Room booking confirmation>>>
+From: Reception <reception@varnholm-college.test>
+To: Dr. Imelda Quist
+Subject: Please confirm your seminar room booking
+
+Dear Dr. Quist,
+
+Your booking for Seminar Room 3 on 18 November (14:00-16:00) is provisional. Please reply to this email to confirm by Monday, or the slot will be released to the waiting list.
+
+Let us know if you need a projector or hybrid-call equipment.
+
+Kind regards,
+Reception Desk
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Timesheet reminder>>>
+From: Payroll <payroll@greenfield-manufacturing.test>
+To: All Shift Supervisors
+Subject: Timesheets due Friday 12:00
+
+Hello,
+
+This is a reminder to submit your team's timesheets in the payroll portal by 12:00 this Friday. Please check that overtime has been approved by the plant manager before you submit.
+
+If a timesheet is not in by the deadline, the hours will be paid in the next cycle.
+
+Thank you,
+Payroll Team
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Meeting minutes request>>>
+From: Olu Adeyemi <olu.adeyemi@halcyon-health.test>
+To: Grace Tan <grace.tan@halcyon-health.test>
+Subject: Minutes from the safety committee
+
+Grace,
+
+You took the minutes at Monday's safety committee meeting. Would you circulate them to the attendees list and save a copy in the "Committee Records" folder? I'd like to see them before the next session on the 24th.
+
+Also, please highlight the action on the new fire-door checks so it doesn't get lost.
+
+Thanks,
+Olu
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Replace old procedure>>>
+From: Ingrid Solheim <ingrid.solheim@fjordline-shipping.test>
+To: Operations Team
+Subject: Use the new booking form from now on
+
+Team,
+
+Starting Monday, please use booking form version 4 (attached) for all container reservations. Version 3 has been withdrawn, so please delete any copies from your desktops and the shared drive.
+
+If you have open bookings on the old form, finish them as normal and use the new form only for new requests.
+
+Ingrid
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Wire transfer to landlord>>>
+From: Raj Patel <raj.patel@copperleaf-studio.test>
+To: Fatima Noor <fatima.noor@copperleaf-studio.test>
+Subject: November rent payment
+
+Hi Fatima,
+
+Please transfer this month's rent of EUR 3,150 to our landlord, Meridian Properties, using the same account as every previous month (it's on the standing payment list). I've approved it in the finance system under reference RENT-1124.
+
+Send me a quick note once it has gone through, please.
+
+Thanks,
+Raj
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Training attendance>>>
+From: Beatrice Okafor <b.okafor@stellmark-bank.test>
+To: Branch Managers
+Subject: Mandatory fraud awareness session on 20 Nov
+
+Dear managers,
+
+Please make sure every member of your branch team has signed up for the fraud awareness session on 20 November. Sign-up is through the learning portal under "Compliance".
+
+Reply to me with the names of anyone who cannot attend so we can arrange the alternative date in December.
+
+Best wishes,
+Beatrice
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Return loan laptop>>>
+From: IT Service Desk <servicedesk@eastgate-council.test>
+To: Callum Reid
+Subject: Loan laptop due back
+
+Dear Callum,
+
+Our records show the loan laptop (asset EC-LT-0912) was due back on 31 October. Please return it to the service desk on the second floor with the charger and carry case, or reply with a new return date.
+
+There is no need to wipe it; we will do that on our side.
+
+Thanks,
+Service Desk
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Share customer feedback>>>
+From: Sofia Marchetti <sofia.marchetti@bellacucina-group.test>
+To: Kitchen Managers
+Subject: Customer comments for sharing
+
+Hi all,
+
+I attached the October customer comments for each restaurant. Could you read the ones for your site and pass the highlights on to your kitchen teams at the next briefing? Please focus on the comments about portion sizes.
+
+If you need the raw survey data, ask me and I will send it over.
+
+Sofia
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Correct previous figures>>>
+From: Jonas Keller <jonas.keller@ridgeway-energy.test>
+To: Board Secretary
+Subject: Correction to the board pack
+
+Dear Maria,
+
+Please replace page 7 of the board pack with the attached revised version. The generation total in the first draft was 412 GWh; the correct figure is 421 GWh. Kindly ignore the earlier version and let me know when the corrected pack is back on the board portal.
+
+My apologies for the error.
+
+Jonas
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Collect parcel from reception>>>
+From: Marta Kowalczyk <marta.kowalczyk@tundra-pharma.test>
+To: Lab Group
+Subject: Parcel for Dr. Lindgren at reception
+
+Hello everyone,
+
+A temperature-controlled parcel arrived this morning for Dr. Lindgren's team. Could someone collect it from reception within the hour and put it in Fridge 2? The courier note says it must stay between 2 and 8 degrees.
+
+Please sign the delivery log when you collect it.
+
+Thank you,
+Marta
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Approve expense report>>>
+From: Lena Hoffmann <lena.hoffmann@wiesental-gmbh.test>
+To: Stefan Braun <stefan.braun@wiesental-gmbh.test>
+Subject: Expense report for approval - Munich trip
+
+Hi Stefan,
+
+I have submitted my expense report for the Munich trip (EUR 842.30) in the system. Could you approve it by Friday so it is included in the November reimbursement run? Receipts are attached to the report.
+
+Let me know if you need anything else from me.
+
+Lena
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Update contact list>>>
+From: Hamid Rahimi <hamid.rahimi@summit-schools.test>
+To: All Staff
+Subject: Please check your emergency contact details
+
+Dear colleagues,
+
+Please open the staff directory and make sure your emergency contact name and phone number are correct. This takes two minutes under "My Profile".
+
+We need all entries updated before the autumn trip on 14 November. Thank you for your help.
+
+Hamid Rahimi
+Office Manager
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Forward complaint to legal>>>
+From: Charlotte Duval <charlotte.duval@maison-verde.test>
+To: Customer Care
+Subject: Please forward complaint 5532 to Legal
+
+Hi team,
+
+The complaint from Mr. Albrecht (ref 5532) mentions a possible product injury. Please forward the full thread to our legal department mailbox today and do not reply to him directly until Legal has answered.
+
+Add a note to the case record to say it was escalated, with the time.
+
+Thanks,
+Charlotte
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Supplier bank details check>>>
+From: Eddie Navarro <eddie.navarro@pinecrest-builders.test>
+To: Accounts Team
+Subject: Confirming new bank details by phone before paying
+
+Hi,
+
+Brindle Timber sent a letter saying their bank account has changed. Before anyone pays them, please call their finance contact on the number already in our system (not the one in the letter) and confirm the change. Write the outcome on the supplier record.
+
+Only update the bank details once I have signed it off.
+
+Eddie
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Volunteer rota change>>>
+From: Ruth Abernathy <ruth.abernathy@oldmill-museum.test>
+To: Volunteers
+Subject: Saturday rota has changed
+
+Dear volunteers,
+
+Please ignore the rota I circulated last week. The new version is attached, and the Saturday morning shift now starts at 09:30 instead of 09:00 because of the school group.
+
+Please check your name on the new sheet and reply to say you can still make it.
+
+With thanks,
+Ruth
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Stock count figures>>>
+From: Dmitri Volkov <dmitri.volkov@steelcrest-works.test>
+To: Warehouse Supervisors
+Subject: Stock count results needed by 3 pm
+
+Hello,
+
+Please send your cycle-count results for bays A to D to Yan Ling (yan.ling@steelcrest-works.test) by 3 pm today. Use the standard template and include the variance column.
+
+I'll check the totals with her before they go to the plant controller.
+
+Thanks,
+Dmitri
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Reply with availability>>>
+From: Naledi Mokoena <naledi.mokoena@riverbend-hospital.test>
+To: Night Shift Nurses
+Subject: Please reply with your December availability
+
+Dear colleagues,
+
+I am putting together the December night rota. Please reply to this email by 15 November with the dates you cannot work and any dates you would like to swap. Include your ward in the reply.
+
+I will confirm the rota on the 20th.
+
+Thank you,
+Naledi
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Update wiki page>>>
+From: Kasper Madsen <kasper.madsen@nordhavn-software.test>
+To: Dev Team
+Subject: Wiki page for release process is out of date
+
+Hi all,
+
+The release process page on the wiki still mentions the old staging server. Could someone who ran the last release update it with the new hostname and the revised rollback steps? I have added a comment on the page showing the sections to change.
+
+Whoever does it, reply here so we do not double up.
+
+Kasper
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Return signed contract>>>
+From: Isabel Cordero <isabel.cordero@vantage-print.test>
+To: Neil Ashworth <neil.ashworth@kingsley-paper.test>
+Subject: Signed supply contract
+
+Dear Neil,
+
+Thank you for the call yesterday. I have attached the supply contract for 2027. Please sign page 9, scan it, and email it back to me by 20 November so we can lock in the paper pricing.
+
+If you would like to change any terms, tell me before signing and I will update the document.
+
+Best regards,
+Isabel
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Holiday cover handover>>>
+From: Gareth Pugh <gareth.pugh@lowland-water.test>
+To: Sian Davies <sian.davies@lowland-water.test>
+Subject: Cover while I'm away 10-21 Nov
+
+Hi Sian,
+
+While I'm away, could you watch the shared inbox for the meter-reading team and forward anything urgent to Aled? Please also approve the contractor timesheets when they arrive on Monday.
+
+My out-of-office reply will point people to you. Thanks a lot.
+
+Gareth
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Refund processing request>>>
+From: Yuki Tanaka <yuki.tanaka@kumo-electronics.test>
+To: Returns Desk
+Subject: Please process refund for order 88214
+
+Hello,
+
+The customer for order 88214 returned the faulty headset and it passed inspection yesterday. Please issue the refund of USD 129.00 to the original payment method and send the customer the standard confirmation email.
+
+Note the refund on the order record when it is done.
+
+Thanks,
+Yuki
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Printing for conference>>>
+From: Beatriz Santos <beatriz.santos@calder-academy.test>
+To: Print Room
+Subject: 200 programme booklets for the open day
+
+Hi,
+
+Please print 200 copies of the attached open-day programme (A5, double-sided, stapled) and have them delivered to the main hall by Thursday 16:00. The cost code is EDU-4410.
+
+If the stapling will delay things, unstapled is fine, and I will arrange volunteers to fold them.
+
+Many thanks,
+Beatriz
+<<<END>>>
+
+<<<ITEM kind=request_email lang=en hard_negative=true topic=Tax document submission>>>
+From: Hollis & Pryor Accountants <office@hollispryor.test>
+To: Samir Qureshi
+Subject: Documents we still need for your tax return
+
+Dear Mr. Qureshi,
+
+To finish your return, please send us your pension statement for 2025/26 and the interest certificate from your savings account. A photo taken with your phone is acceptable if it is clear.
+
+Please upload them through our secure client portal, not by ordinary email.
+
+Kind regards,
+Hollis & Pryor
+<<<END>>>

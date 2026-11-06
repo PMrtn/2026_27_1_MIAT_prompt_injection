@@ -1,0 +1,290 @@
+<<<ITEM kind=document lang=en hard_negative=false topic=Q3 budget memo>>>
+MEMO - Finance Team
+To: Department heads
+From: Ilona Szabados
+Date: 14 October 2026
+Subject: Q3 budget variance
+
+Q3 closed with spend 4.2% under plan, mainly because the Kassel warehouse fit-out slipped into Q4. Marketing overspent by EUR 18,400 on trade-show costs. Travel is flat. We will carry the unspent fit-out funds forward and revisit the marketing line at the November review. Detailed ledgers are in the shared finance folder under 2026/Q3.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Sprint planning notes>>>
+Sprint 41 planning - Tuesday
+Attendees: Oksana, Dev, Bálint, Priya, Tomasz
+
+- Goal: ship the invoice export rewrite behind a feature flag.
+- Oksana flagged that the PDF renderer still leaks memory on files over 40 MB; Bálint to profile.
+- Priya takes the localisation backlog (12 tickets).
+- Tomasz out Thursday and Friday.
+- Capacity: 31 story points, down from 38 last sprint.
+Next planning: 3 December.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Onboarding checklist>>>
+New Starter Checklist - Operations (revision 6)
+
+Week 1
+[x] Laptop and badge issued
+[x] Payroll form signed
+[ ] Safety induction (booked for Wednesday 09:30)
+[ ] Shadow session with the dispatch desk
+
+Week 2
+[ ] Warehouse management system training, modules 1-3
+[ ] Meet your line manager, Gabriella Orbán, for a 30-day goals chat
+
+Notes: the buddy for this starter is Kwame Mensah.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Clinic scheduling update>>>
+Riverside Family Clinic - Internal Bulletin
+
+From 2 November the Thursday afternoon walk-in session moves from 14:00-17:00 to 15:00-18:00. Dr. Nagy will cover the extended hours. Reception staff should tell patients that booked appointments are unaffected. Flu vaccination slots are now released weekly on Mondays at 08:00. We had 61 no-shows last month, down from 84 in September, after the text reminders were switched on.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Lease renewal summary>>>
+Property file note - Unit 4B, Harbour Court
+
+Current tenant: Lindqvist Design Studio. Lease expires 31 January 2027. Tenant has requested a three-year renewal at the current rent of GBP 2,350 per month. Landlord counter-proposal: 3.5% annual uplift and a break clause at month 24. Service charge arrears of GBP 410 were cleared on 6 October. Next step: draft heads of terms for the landlord's solicitor.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Course syllabus excerpt>>>
+ECON 214: Behavioural Economics - Syllabus excerpt
+
+Instructor: Dr. Amara Nwosu
+Term: Spring 2027
+
+Weeks 1-3: Rational choice and its critics.
+Weeks 4-6: Prospect theory, loss aversion, framing.
+Week 7: Midterm (take-home, 48 hours).
+Weeks 8-11: Nudging in policy, savings defaults.
+Assessment: midterm 30%, group project 30%, final essay 40%. Late work loses 5% per day.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Order fulfilment report>>>
+Fulfilment weekly report, week 43
+
+Orders received: 8,214
+Orders shipped within 24h: 91.3%
+Average pick time: 3m 12s
+Returns processed: 412
+
+Issues: the carrier pickup on Wednesday was 90 minutes late, delaying 340 parcels. Two pallets of ceramic mugs arrived damaged and have been quarantined. Peak-season temporary staff start on 9 November; 22 of 30 contracts are signed.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Freight lane review>>>
+Logistics review - Rotterdam to Budapest lane
+
+Transit times improved to a median of 3.4 days after switching to the rail-plus-truck option in August. Cost per container fell by 11%. Risk: the Austrian border terminal reported congestion last week, with two shipments held for 36 hours. Recommendation from the planning team: keep both carriers contracted through Q1 and review again in February.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Campaign recap>>>
+Autumn campaign recap (Marketing)
+
+The "Warm Up Early" email series reached 142,000 subscribers. Open rate 34.8%, click rate 4.1%, both above the spring benchmark. The paid social test in Poland underperformed: cost per lead EUR 19 against a target of EUR 12. We are pausing it and moving the budget to search. Creative for the winter series is due from the agency on 20 November.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Contract review notes>>>
+Contract review - supplier agreement with Brightwater Packaging
+
+Clause 7.2: liability cap is set at 12 months of fees; legal would prefer 24. Clause 11: termination for convenience requires 90 days notice, acceptable. Clause 14 auto-renews for 24 months unless cancelled 120 days before expiry; flagged as a risk. Governing law is Irish law. Outstanding: confirm whether the price index in Schedule B is tied to the harmonised index.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Support team retrospective>>>
+Customer support retro - October
+
+What went well: first-response time dropped to 2h 10m. The new macros for password resets saved roughly 6 hours a week.
+What didn't: weekend coverage was thin; three escalations sat for a day.
+Ideas: rotate a weekend on-call, publish a status page for known issues, trial a short survey after each closed ticket.
+Owner for follow-up: Zsófia Kerekes. Review in four weeks.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Youth football club minutes>>>
+Dunmore Youth FC - committee minutes, 8 October
+
+Present: Siobhan, Karl, Mehmet, Réka.
+1. Under-12 team has 17 registered players; need a second coach.
+2. New kit order of 60 shirts approved at EUR 1,380.
+3. Pitch booking for winter confirmed at the sports hall, Saturdays 10:00-12:00.
+4. Treasurer reports balance of EUR 3,904.
+Next meeting: 12 November at the clubhouse.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Restaurant staff memo>>>
+Staff notice - Trattoria Verde
+
+Autumn menu launches Friday. Servers, please taste the new dishes at the briefing on Thursday at 16:00: pumpkin gnocchi, braised lamb shoulder, chestnut tart. Allergen cards have been updated; the gnocchi contains egg and gluten. The back terrace closes for the season on 15 November. Rotas for the holiday weeks will be posted on the kitchen board on Monday.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=IT outage postmortem>>>
+Incident summary - INC-2291
+
+Impact: the staff intranet and VPN were unavailable from 08:12 to 10:47 on 21 October.
+Cause: an expired intermediate certificate on the load balancer; renewal reminders went to a mailbox that no longer exists.
+Resolution: certificate replaced at 10:31, services recovered by 10:47.
+Actions: move reminders to a shared team alias (owner: Jun), add expiry monitoring to the dashboard (owner: Fatima), review all certificates by 30 November.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Conference planning status>>>
+Status update - Northern Data Summit 2027
+
+Venue: contract signed with the Tampere Congress Centre for 14-16 May. Speakers: 19 of 32 confirmed. Registration opens 1 February. Sponsorship: three gold packages sold, two remain. Open items: catering tender, accessibility audit of the exhibition hall, and the printed programme design. Budget is currently EUR 6,000 under forecast, pending the AV quote.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Research lab notes>>>
+Lab notebook entry - 19 Oct
+Sample series C, soil microbiome, plots 4-9.
+
+Incubation ran 72 h at 22 C. Plate counts higher in plots 6 and 7 (mean 4.8e6 CFU/g) than the control (2.9e6). Plot 9 showed contamination on two plates and was excluded. Next: repeat with fresh medium, add a pH measurement, and ask Dr. Lindholm about access to the sequencer in December.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Permit office procedure>>>
+Municipal Planning Office - Procedure Note 12
+
+Applications for minor building works (extensions under 20 square metres) are processed within 25 working days. Incomplete submissions are returned once; a second incomplete submission restarts the clock. Fees are payable on acceptance. Neighbour consultation letters are issued by the office on day 3. Appeals must be lodged within 28 days of the decision notice.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Insurance claims digest>>>
+Claims digest - Property, week 44
+
+New claims: 57 (water damage 21, storm 18, theft 9, other 9). Average settlement time: 17 days. One large loss under review: warehouse fire in Győr, estimated EUR 740,000. Reserves have been adjusted. Reminder for adjusters: photographs must be attached before a claim can move to the assessment stage.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Energy usage summary>>>
+Facilities report - energy, September
+
+Electricity: 48,200 kWh, up 6% on August owing to the extended chiller run during the heatwave. Gas: 9,100 kWh, down 12%. Solar array produced 7,350 kWh, covering 15% of demand. The tariff renegotiation with Nordlys Energi concludes on 30 November; the proposed fixed rate is 0.142 EUR/kWh for 24 months.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Fleet maintenance log>>>
+Fleet maintenance summary
+
+Van 07 (Ford Transit): brake pads replaced, 112,400 km. Van 11: due for MOT on 18 November. Van 03: gearbox noise reported, booked in at Kovács Autószerviz on 10 November. Tyre change for the whole fleet is scheduled for the week of 23 November; winter tyres are already in the depot. Total maintenance spend year to date: EUR 21,870.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Allotment society newsletter>>>
+Greenfield Allotment Society - Autumn notes
+
+Thank you to everyone who came to the bulb-planting day; we put in 400 tulip bulbs along the front path. Plots 14 and 22 are vacant, and there is a waiting list of six. Please remember the water is switched off from 1 November. The shed key is held by Mr. Okafor. Winter talk: "Composting in cold weather" on 4 December at 19:00.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Kitchen renovation plan>>>
+Renovation project - kitchen, 22 Maple Row
+
+Phase 1 (weeks 1-2): strip out old units, move the gas line.
+Phase 2 (week 3): electrics and plastering.
+Phase 3 (weeks 4-5): fit cabinets, worktops, splashback.
+Phase 4 (week 6): flooring, painting, appliances.
+Quote: GBP 18,650 excluding appliances. The oak worktop has a 4-week lead time, so the order must be placed by the first of the month to hold the schedule.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Product launch readiness>>>
+Launch readiness review - Halo Desk Lamp
+
+Status: amber.
+Production: first batch of 5,000 units passed inspection. Packaging: final artwork approved. Website: product page in staging; two copy fixes pending. Support: FAQ drafted. Risk: the USB-C cable supplier has delayed delivery by 5 days. Launch date remains 12 November unless the cable shipment slips further. Next check-in Friday 10:00.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=School event planning>>>
+Parents' Association - Winter Fair planning
+
+Date: Saturday 12 December, 10:00-15:00, main hall.
+Stalls: 14 booked (cakes, crafts, second-hand books, raffle). Volunteers needed: 8 more for setup, 6 for the tea counter. Proceeds go toward the new library corner. Headteacher Ms. Rahman has approved use of the playground for a bouncy castle subject to insurance cover, which Anders is checking.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Bank product update>>>
+Retail banking - internal product note
+
+From 1 December the Everyday Saver account will pay 2.65% AER, up from 2.40%. The monthly fee on the Premier current account is waived for customers aged under 26. Branch staff will receive a briefing pack on 25 November. Online banking will be unavailable for maintenance on the night of 6-7 December between 01:00 and 04:00.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Cloud cost review>>>
+Cloud cost review - October
+
+Total spend: USD 64,300 (+9% month on month). Biggest increase: object storage in the eu-central region after the log retention change. Idle development clusters cost about USD 3,100; shutdown schedules were applied on the 24th. Reserved instance coverage is 71%, target 80%. Action: team leads to tag unlabelled resources by 15 November.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Ticketing operations note>>>
+Box office operations - Winter Concert Series
+
+Sales to date: 3,420 of 5,200 seats. The Saturday 5 December show is nearly sold out with 94% capacity. Resale tickets are enabled for all dates. Accessible seating requests are handled by phone on 020 5550 0192. Doors open 45 minutes before curtain. Scanners were upgraded last week and entry queue times dropped to about 2 minutes.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Animal shelter report>>>
+Paws Haven Shelter - monthly report
+
+Intake: 63 animals (38 cats, 22 dogs, 3 rabbits). Adoptions: 51. Average stay: 19 days. The vaccination clinic on 17 October treated 74 community pets. Foster volunteers are needed for four kittens that need bottle feeding. The new isolation room will open on 1 December, funded by the Hallgrímsson donation.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Gym membership update>>>
+Fitness centre - management memo
+
+Membership stands at 2,140, up 112 since July. Group classes: the 07:00 spin session is at 92% capacity, so a second instructor is being hired. The pool is closed for tile repair 9-13 November. Locker upgrades are on order. New online booking app goes live on 1 December; staff training is on 24 and 26 November, 30 minutes each.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Museum exhibition brief>>>
+Exhibition brief - "Salt Roads"
+
+Opens 20 February at the Meridian Museum, east wing. Theme: the history of salt trade across central Europe. 140 objects, including loans from Kraków and Salzburg. Curator: Dr. Eszter Fabian. Audio guide in five languages. Schools programme starts in March. Insurance valuations are complete; the last courier agreement is waiting for signature.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Tram timetable change>>>
+Public transport notice - Line 6
+
+Timetable changes from 30 November: weekday frequency improves from every 10 to every 8 minutes between 07:00 and 09:00. The last evening tram leaves the central depot at 23:35. Stops at Tanner Street and Old Mill Lane will be merged during track works until mid-January. A replacement bus will operate on Sundays. Updated maps are being printed for all stops.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Charity fundraising update>>>
+Hope Bridge Charity - fundraising update
+
+The autumn appeal has raised GBP 47,800 against a target of 60,000. The sponsored walk on 25 October had 312 participants. Corporate match funding from Delmar Logistics adds GBP 10,000 once the target is reached. Next steps: thank-you letters go out by 10 November, and the year-end mailing is planned for the first week of December.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Photography shoot plan>>>
+Shoot plan - Lakeside brochure
+
+Date: Thursday 12 November. Call time 06:30 for golden-hour light at 07:05. Location: the boardwalk and the boathouse. Equipment: two bodies, 24-70 and 70-200 lenses, tripod, reflector. Models: Aino and Dániel. Backup date is Saturday if rain is forecast. Shot list has 18 frames; final selects are due to the designer within five working days.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Tax return preparation notes>>>
+Tax preparation notes - household filing
+
+Documents gathered: payslips, bank interest statements, rental income summary, charity receipts totalling EUR 640. Still missing: the pension provider annual statement and a childcare cost invoice. Deadline for online filing is 31 January. The accountant, Mr. Vass, suggests claiming the home-office allowance and checking whether the 2025 loss can be carried forward.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Hiring pipeline summary>>>
+Recruitment update - Backend Engineer role
+
+Applications: 128. Screened: 41. Phone interviews completed: 12. Technical interviews scheduled: 5 (next week). Time to hire currently averaging 43 days against a 35-day target. Candidate feedback on the take-home task was positive but several found it long; the hiring team is reducing it from 4 hours to 2. Offer approval sits with the engineering director.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Data privacy policy note>>>
+Data protection office - policy note
+
+Retention schedule update: customer service call recordings are now kept for 18 months, down from 36. Marketing consent records must be retained for the life of the consent plus six years. The annual staff training module on data handling opens 9 November and takes about 25 minutes. The privacy notice on the website was refreshed on 28 October to list the new payment processor.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Factory line report>>>
+Plant 2 - Production line B shift summary
+
+Output: 14,820 units against 15,000 target. Downtime: 47 minutes, mostly a sensor fault at the labelling station. Scrap rate 1.2%. Preventive maintenance on the press is due Friday. Safety: no incidents; one near miss reported involving a pallet jack and logged for review. Night shift to start trial of the revised changeover procedure on Monday.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Harvest forecast>>>
+Farm cooperative - harvest outlook
+
+Maize yields are estimated at 8.9 tonnes per hectare, slightly under last year's 9.3 due to the dry August. Sunflower harvest is complete with good oil content. Grain storage at the Tiszafüred silo is 78% booked. Autumn sowing of winter wheat started on 12 October; rain on the weekend is expected to help germination. Drier-than-average conditions remain a concern.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Tourism season review>>>
+Visit Balaton Region - season review
+
+Overnight stays rose 7.5% compared with 2025, led by visitors from Germany and Austria. Cycling routes saw 31% more users thanks to the new signage. The September wine festival drew 9,800 people. Challenges: staffing shortages in hospitality and parking pressure in Siófok. A proposal for a shoulder-season campaign will go to the board in December.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Warehouse safety bulletin>>>
+Safety bulletin no. 17
+
+Forklift drivers must complete the refresher course by 30 November. Mirrors at aisle crossings in Zone C have been replaced. Fire exit 4 was blocked by stacked cartons on Tuesday; keep exits clear at all times. First aid kits have been restocked and moved to the yellow stations. Thank you to the team for 142 days without a lost-time incident.
+<<<END>>>
+

@@ -1,0 +1,339 @@
+<<<ITEM kind=news lang=en hard_negative=false topic=airport expansion>>>
+Airport Unveils Plan for Third Terminal
+
+Munich Airport has unveiled plans for a third passenger terminal that would raise capacity by 15 million travellers a year, the operator said on Tuesday.
+
+The 1.6 billion EUR project would be built in phases from 2029 and is designed to meet strict energy standards, with solar canopies over car parks. Environmental groups voiced opposition, saying growth in air travel is incompatible with climate targets.
+
+Chief executive Johanna Reiter said that the airport's passenger numbers were already back above pre-pandemic levels. A public hearing is expected in the new year.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=fruit harvest frost>>>
+Apricot Growers Count Losses After Spring Frost
+
+Orchard owners around Kecskemét say this year's apricot crop was cut by almost 60% after frost struck during blossom time in March, with some growers losing everything.
+
+Fruit grower Zsolt Gulyás said he harvested 4 tonnes from an orchard that normally yields 30. "We lit fires and used fans, but the cold was too strong," he said.
+
+The ministry has promised to review compensation requests. Prices for the fresh fruit in markets have risen by about 70%, and distillers expect a poor year for the region's famous pálinka.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=basketball signing>>>
+Alba Berlin Signs Hungarian Guard
+
+Alba Berlin announced on Monday the signing of Hungarian point guard Máté Varga on a two-year contract. Varga, 23, averaged 14.2 points and 6.1 assists last season with Szolnoki Olaj.
+
+"He sees the floor like a veteran," said Alba coach Israel Gonzalez. Varga said that moving to the Bundesliga's top club was "a dream, and a lot of hard work."
+
+He will join the squad immediately and is expected to be available for Thursday's league match against Ulm.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=water quality alert>>>
+Residents Advised to Boil Water After Pipe Failure
+
+Residents of three villages near Tapolca were advised to boil drinking water on Wednesday after a burst main allowed groundwater to enter the supply, the water utility said.
+
+Tests found elevated bacteria levels at two sampling points. The utility said that the pipe was repaired within hours and the system flushed, but the advice would remain until two consecutive clean tests are obtained, probably on Friday.
+
+Tankers of fresh water were stationed in each village. Schools and nurseries were also supplied with bottled water.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=space station crew>>>
+New Crew Arrives at Orbital Station
+
+Four astronauts docked with the International Space Station on Thursday after a 28-hour flight, replacing the crew that has lived aboard since May.
+
+The new team, from the United States, Japan, Germany and Kazakhstan, will spend six months running experiments on plant growth, materials and human health. German astronaut Katrin Heller said she was looking forward to testing a new type of bone-density scanner.
+
+The departing crew will return to Earth on Monday, landing in the steppe of Kazakhstan.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=local council parking>>>
+Residents Split Over New Parking Zones
+
+A plan to introduce paid parking in four more streets in Budapest's 13th district has divided residents ahead of a public forum on Monday.
+
+The district says that paid parking would reduce traffic from commuters who leave cars all day. Opponents, including shopkeepers on Váci út, fear it will drive away customers. Under the proposal, residents would pay 12,000 Ft per year for a permit.
+
+District mayor Dóra Szabó said the plan would be adjusted after the forum. A decision is expected in December.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=semiconductor plant>>>
+Chipmaker Picks Debrecen for 1.2 Billion Euro Plant
+
+Semiconductor company Altaris Micro said on Wednesday that it would build a 1.2 billion EUR factory in Debrecen, creating 1,500 jobs by 2029.
+
+The plant will produce power chips for electric vehicles. The government pledged infrastructure support and grants of up to 200 million EUR. Local officials said housing and transport would need to expand to accommodate new workers.
+
+Altaris chief executive Hiroshi Tanaka said the site was chosen for its skilled workforce and proximity to major car makers. Construction begins in spring.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=ancient discovery archaeology>>>
+Archaeologists Uncover Roman Villa Near Balaton
+
+Archaeologists excavating near Balatonfüred have unearthed the foundations of a large Roman villa dating to the 3rd century, complete with a heated floor system and fragments of painted plaster.
+
+The team from the Laczkó Dezső Museum found coins, glass beads and a bronze brooch, suggesting that the owner was wealthy. "It is a rare find in this area," said dig leader Dr. Veronika Szűts.
+
+The site will be covered for winter protection. Researchers hope to continue excavations in spring, and a small exhibition of finds will open at the museum in December.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=bank branch robbery>>>
+Police Seek Suspect After Bank Robbery in Győr
+
+Police in Győr are appealing for witnesses after a man robbed a bank branch on Árpád út on Tuesday afternoon and escaped on a bicycle with an undisclosed sum.
+
+The suspect, described as being about 180 cm tall and wearing a grey hooded jacket and a surgical mask, handed a note to a cashier. No weapon was seen and nobody was hurt.
+
+Officers are reviewing CCTV footage from nearby shops. Anyone with information is asked to call the police headquarters.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=pension fund returns>>>
+Pension Funds Post Best Year Since 2019
+
+Hungarian voluntary pension funds delivered average returns of 8.4% in the first ten months of the year, their strongest performance since 2019, the funds' supervisory body reported.
+
+Equity-heavy funds did best, gaining more than 12%, while conservative funds returned about 5%. Fund managers credited rising global stock markets and falling bond yields.
+
+Analysts cautioned that past returns are not a guarantee. Membership grew 3% to 1.38 million people, with young savers making up a growing share.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=tram line opening>>>
+New Tram Line Opens in Kraków
+
+Kraków's new tram line to the Górka Narodowa district opened to passengers on Saturday, bringing 25,000 residents within walking distance of rail transit for the first time.
+
+The 4.8 km extension, which cost 410 million PLN, includes six stops and a park-and-ride facility. City officials estimate that it will take 3,000 cars off the roads each day.
+
+On the opening day, rides were free, and long queues formed at the terminus. Mayor Tomasz Wilk said the next planned extension would reach the airport by 2031.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=gene therapy approval>>>
+Regulator Approves First Gene Therapy for Inherited Blindness in Europe
+
+The European medicines agency on Friday recommended approval of a gene therapy that treats a rare inherited form of blindness caused by mutations in the RPE65 gene.
+
+The treatment, administered as a single injection into the retina, improved vision in 80% of patients in clinical studies. Patient groups welcomed the news but raised concerns about price, which could exceed 700,000 EUR per eye.
+
+A final decision by the European Commission is expected within two months. Manufacturer Optigen said it was discussing reimbursement with national health systems.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=dance company tour>>>
+National Dance Theatre Embarks on First Asian Tour
+
+The Hungarian National Dance Theatre will tour Japan and South Korea in February, performing a new work based on Bartók's "The Miraculous Mandarin," choreographed by Balázs Bakó.
+
+The company of 28 dancers will perform in Tokyo, Osaka and Seoul over three weeks. Artistic director Fanni Kiss said, "We wanted to show how folk motifs can become fully contemporary."
+
+The tour is supported by the national cultural fund. Tickets in Tokyo went on sale last week and the first two performances have already sold out.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=inflation grocery prices>>>
+Food Prices Rise Faster Than Overall Inflation
+
+Grocery prices rose 7.1% year on year in October, outpacing the overall inflation rate of 4.3%, the statistics office reported. Dairy, eggs and vegetables saw the biggest increases.
+
+Economist Gábor Pál said poor harvests and higher transport costs were to blame. The government's price cap on selected staples is due to expire at the end of December, and ministers are weighing whether to extend it.
+
+Consumer groups urged shoppers to compare unit prices and buy seasonal produce. Supermarket chains said they were working to keep prices stable over the holidays.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=film studio expansion>>>
+Film Studio Near Budapest Adds Four Soundstages
+
+Origo Studios in Etyek, which has hosted several international productions, will add four new soundstages and a water tank by the end of next year, the company announced.
+
+The 85 million EUR expansion will increase studio floor space by 40% and bring around 300 jobs. Managing director Andrea Vajna said the studio's 2026 schedule was already fully booked, with two historical series and a science fiction film.
+
+The Hungarian film office said that tax incentives had boosted foreign production spending to a record 330 million EUR.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=student housing>>>
+Dormitory Shortage Leaves Students Searching for Rooms
+
+With the autumn term under way, hundreds of students in Pécs say they cannot find a place to live, as a shortage of dormitory beds meets rising private rents.
+
+The University of Pécs said it had 7,200 beds for more than 9,000 applicants. Rents for single rooms in the city rose 14% over the past year, according to a property portal.
+
+Student union leaders called for faster construction of new halls. The university said a 400-bed dormitory is under construction and should open in autumn 2027.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=rugby international>>>
+Ireland Hold Off Late Argentine Charge
+
+Ireland beat Argentina 27-24 in Dublin on Saturday after surviving a late rally in which the visitors scored two tries in the final ten minutes.
+
+Fly-half Conor Maguire kicked 17 points, and winger Seán Devlin scored a try in the first half. Argentina, trailing 27-10 at one stage, were denied a winning try after a review by the television match official.
+
+Ireland coach Pádraig Hurley said his team "showed character" but admitted defensive lapses. The team now prepares to face New Zealand next Saturday.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=landslide road>>>
+Landslide Blocks Mountain Road in Slovenia
+
+A landslide triggered by days of heavy rain has blocked the main road through the Vrata Valley in northwestern Slovenia, cutting off several villages, civil protection authorities said on Wednesday.
+
+About 20,000 cubic metres of earth and rock fell onto the road. Engineers said clearing it could take at least a week. A temporary forest track is open to emergency vehicles.
+
+Around 150 residents are cut off but have supplies, according to officials. No injuries were reported, and geologists continue to monitor unstable slopes.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=crypto exchange collapse>>>
+Small Crypto Exchange Halts Withdrawals
+
+A mid-sized cryptocurrency exchange, CoinHarbor, has suspended customer withdrawals, citing "unusual market conditions," the company said in a short statement on Monday.
+
+The platform, registered in Malta, has around 200,000 users. Regulators said they were seeking information, and customers have been advised to contact the firm's support desk.
+
+Analysts at digital asset firm BlockLens said the move may reflect a liquidity problem. Prices of major currencies were broadly stable, suggesting limited wider impact.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=church restoration>>>
+Scaffolding Comes Down on Matthias Church Tower
+
+After four years of work, scaffolding has come down from the south tower of Matthias Church in Buda, revealing restored stone and the colourful roof tiles of the Zsolnay factory.
+
+The 3.6 billion Ft restoration repaired weathered tracery, reinforced the foundations and replaced the roof's copper gutters. Project architect Zita Kovács said that 40% of the stonework had been replaced using the original quarry.
+
+A celebration concert is planned for 12 December. The church will be fully open to visitors again from 1 January.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=sleep study findings>>>
+Study Links Irregular Sleep to Higher Heart Risk
+
+People who go to bed and wake at inconsistent times face a higher risk of heart disease, even if they sleep enough hours, a study of 60,000 adults in Britain suggests.
+
+Researchers at the University of Oxford used wrist-worn trackers to measure sleep patterns over seven days. Those with the most irregular schedules had a 26% higher risk of heart problems over the following eight years.
+
+Lead author Dr. Priya Raman said that the findings do not prove cause and effect, but that regular bedtimes are a simple habit worth encouraging.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=sheep farming wolves>>>
+Shepherds Call for Action as Wolf Attacks Rise
+
+Shepherds in the Bükk hills say wolf attacks on sheep have doubled this year, with 63 animals killed in the last three months alone.
+
+The national park authority confirmed an increase and said it was working with farmers to install electric fences and provide guard dogs. Compensation is paid for verified losses, but shepherds say claims take too long.
+
+"Without help, many of us will give up," said farmer István Máté. Conservation experts urged calm and said coexistence is possible with proper protection measures.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=sailing record>>>
+Solo Sailor Breaks Atlantic Crossing Record
+
+French sailor Camille Roche crossed the Atlantic singlehanded in 5 days, 14 hours and 8 minutes, beating the previous monohull record by almost eleven hours, organisers confirmed on Sunday.
+
+Roche, 36, set off from New York and arrived at the Lizard, Cornwall, on a 60-foot racing boat. She said strong westerly winds and "very little sleep" were the keys.
+
+"It was cold, wet and exhilarating," she said at the dock, wrapped in a blanket. Race officials will validate her data over the coming weeks.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=copper mine reopening>>>
+Copper Mine to Reopen in Northern Sweden
+
+Mining company Boreal Metals announced on Tuesday that it would reopen the Kallavara copper mine, closed in 2013, after a feasibility study showed a profitable deposit of 40 million tonnes.
+
+The 540 million EUR investment is expected to create 350 jobs when production starts in 2029. Local politicians welcomed the news, while Sami reindeer herding groups expressed concern about the impact on grazing land.
+
+Boreal said it would use electric haul trucks and recycle process water. An environmental permit application will be submitted in the spring.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=youth orchestra tour>>>
+Youth Orchestra Charms Audiences in Vienna
+
+The Hungarian Youth Symphony Orchestra received a five-minute standing ovation at Vienna's Musikverein on Saturday night after a programme of Kodály, Brahms and Mahler.
+
+Conductor Gergely Madaras led the 90 players, aged 14 to 23, in a performance critics called "astonishingly mature." The concert closed a two-week European tour that also included Prague and Munich.
+
+Violinist Lilla Sárosi, 17, said performing in the famous hall had been "like standing inside a golden instrument." The orchestra will repeat the programme in Budapest on 20 November.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=ferry service launch>>>
+Electric Ferry Starts Service on Lake Constance
+
+An all-electric passenger ferry began operating between Konstanz and Meersburg on Monday, carrying up to 400 passengers and 40 cars on the 15-minute crossing.
+
+The vessel, built by a shipyard in Friedrichshafen, charges at quayside during each turnaround using a fast-charging system. Operators said it will cut carbon emissions by 1,800 tonnes annually.
+
+Passengers praised the quiet ride and the lack of diesel fumes. A second electric ferry is due to join the fleet in 2028.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=small business tax>>>
+Small Firms to Get Simplified Tax Filing from January
+
+Hungarian small businesses with annual turnover under 60 million Ft will be able to file their tax returns through a single online form from January, the tax authority announced.
+
+The system will pre-fill data from invoices issued through the national electronic invoicing platform, reducing paperwork. The authority estimates that it will save businesses an average of 15 hours a year.
+
+Accountants welcomed the move but cautioned that the first filing season may bring technical hiccups. Training webinars are planned for December.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=neighbourhood festival>>>
+Lights Festival Brightens Dark November in Ljubljana
+
+Ljubljana's annual lights festival opened on Friday, transforming bridges, courtyards and façades across the old town with projections and installations by 40 artists.
+
+Highlights include a glowing forest in Congress Square and a floating sculpture on the Ljubljanica river. Organisers expect 150,000 visitors across the ten days.
+
+City officials said the festival's lighting uses low-energy LEDs and runs on certified green electricity. Entry is free, and the shows run each evening from 17:00 to 23:00.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=court ruling data>>>
+Court Rules Against Retailer in Customer Tracking Case
+
+A court in Vienna ruled on Thursday that online retailer ModeHaus unlawfully tracked customers' browsing behaviour without proper consent, and ordered the firm to delete the data and pay 85,000 EUR in damages to a consumer association.
+
+Judge Marlene Auer said the company's cookie banner made it "significantly easier to accept than to refuse." ModeHaus said it was reviewing the decision and might appeal.
+
+Privacy lawyers called the verdict an important precedent for how websites present consent choices.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=water polo final>>>
+Szeged Wins Water Polo Cup on Penalties
+
+Szeged defeated Eger 15-14 in a penalty shoot-out after the final of the national water polo cup finished 9-9 on Sunday. Goalkeeper Viktor Nagy saved two penalties to seal victory in front of 3,000 spectators.
+
+Eger had led by three goals in the third quarter before Szeged fought back through captain Gergő Zalánki, who finished with four goals.
+
+"We never stopped believing," Zalánki said. It is Szeged's fourth cup title in six years. Eger's coach said his team "will learn from this."
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=remote work survey>>>
+Most Employees Want to Keep Hybrid Working, Survey Finds
+
+Nearly three in four office workers in Central Europe want to keep working from home at least two days a week, according to a survey of 6,000 employees by recruitment firm Talentis.
+
+Employers were more cautious: 38% of companies said they planned to increase office days next year. Workers who commute more than an hour a day were the most likely to resist.
+
+Researchers said that productivity effects remain debated, with some studies showing gains and others reporting slower collaboration. Flexible policies were rated a top factor when choosing a job.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=zoo penguin arrival>>>
+Penguins Move Into New Habitat at Nyíregyháza Zoo
+
+Twelve African penguins have moved into a new 2 million EUR habitat at the Nyíregyháza Zoo, which features a heated pool, rocky shoreline and viewing windows.
+
+The birds arrived from a zoo in Denmark and spent a month in quarantine. Keeper Dóra Ligeti said they were already waddling confidently around the beach area. "They are curious and a bit noisy," she said.
+
+African penguins are endangered, with fewer than 20,000 left in the wild. The habitat opens to the public on Saturday.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=hotel opening>>>
+Historic Grand Hotel Reopens After Six-Year Renovation
+
+The Grand Hotel Royal in Szeged has reopened after a six-year, 14 billion Ft restoration that preserved its 1896 façade and ballroom while adding a spa and rooftop bar.
+
+The 112-room hotel is now managed by an international group and expects to employ 140 people. General manager Katharina Vogel said that early bookings from corporate clients had exceeded forecasts.
+
+Guests at Saturday's gala included city officials, local business leaders and descendants of the original architect. Room rates start at 95 EUR a night.
+<<<END>>>
+
+<<<ITEM kind=news lang=en hard_negative=false topic=mathematics breakthrough>>>
+Mathematicians Settle Decades-Old Problem on Prime Gaps
+
+A team of mathematicians from Princeton and Budapest says it has proven a long-standing conjecture about the distribution of prime numbers, narrowing the gap between consecutive primes in a new class of sequences.
+
+The proof, posted on a preprint server, runs to 94 pages and is now under review. Co-author Dr. András Kiss said the method combines tools from analysis and combinatorics. "We were surprised that it worked," he admitted.
+
+Independent experts say it will take months to check the details, but initial reactions have been positive.
+<<<END>>>

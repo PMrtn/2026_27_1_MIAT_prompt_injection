@@ -1,0 +1,27 @@
+<<<ITEM kind=how_to lang=en hard_negative=true topic=mounting a TV>>>
+Mount a TV on the wall
+
+1. Check the weight and VESA pattern printed on the back of the TV.
+2. Use a stud finder to locate studs about 40 cm apart at your preferred height.
+3. Mark the bracket holes with a pencil, checking that they are level.
+4. Drill pilot holes and fasten the wall plate with lag bolts.
+5. Screw the arms to the back of the TV.
+6. Ask a helper to lift the TV and hook it onto the wall plate.
+7. Tighten the safety screw and tidy the cables.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=clearing browser cache>>>
+Clear your browser's cache and cookies
+
+Click the three-dot menu at the top right of the browser and open Settings. Choose "Privacy and security", then "Clear browsing data". Set the time range to "All time". Tick "Cookies and other site data" and "Cached images and files", but leave "Passwords" unticked if you want to keep your saved logins. Click "Clear data", then close and reopen the browser. Expect some websites to load a bit slower the first time.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=en hard_negative=true topic=stretching after running>>>
+Five-minute cool-down stretches after a run
+
+- Walk slowly for two minutes to bring your heart rate down.
+- Stand on one leg, pull the other heel to your buttock and hold for 30 seconds. Switch legs.
+- Step one foot forward into a lunge, keep your back heel down, and hold for 30 seconds each side.
+- Lean against a wall with one foot behind you to stretch the calf for 30 seconds.
+- Sit on the floor, reach for your toes, and breathe out slowly.
+<<<END>>>

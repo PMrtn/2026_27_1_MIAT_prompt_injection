@@ -1,0 +1,427 @@
+<<<ITEM kind=email lang=hu hard_negative=false topic=hitelkérelem státusz>>>
+Feladó: Lakossági Hitelcsoport <hitel@tiszavidek-bank.example.hu>
+Címzett: Bakos Richárd <bakos.richard@freemail.example.hu>
+Tárgy: Személyi kölcsön - kérelem elbírálás alatt
+
+Tisztelt Bakos Úr!
+
+A 2026. november 3-án benyújtott személyi kölcsön kérelmét (1 800 000 Ft, 48 hónap) megkaptuk. Az elbírálás során hiányzik az utolsó három havi fizetési jegyzék. Kérjük, töltse fel a mobilalkalmazásban, vagy vigye be bármelyik fiókunkba.
+
+A döntésről a hiánypótlást követő 3 munkanapon belül értesítjük.
+
+Tiszavidék Bank Zrt.
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=hétvégi túra>>>
+Feladó: Gergő <gergo.somogyi@gmail.example.com>
+Címzett: Túrázók
+Tárgy: Szombati Börzsöny-túra
+
+Sziasztok!
+
+Szombaton a Börzsönyben túrázunk: Királyrét - Csóványos - Nagymaros útvonal, kb. 17 km és 700 méter szint. Indulás 7:10-kor a Nyugatiból, a vonatjegyet mindenki vegye meg magának. Hozzatok meleg ruhát, mert fent már fagy van, és fejlámpát, ha esetleg sötétben érnénk le.
+
+Ha valaki nem tud jönni, szóljon csütörtökig. Ebédre a Csóványos-csúcsi menedékházban eszünk.
+
+Gergő
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=reklamáció válasz>>>
+From: Vevőszolgálat <vevoszolgalat@otthonbutor.example.hu>
+To: Kocsis Beáta <kocsis.beata@citromail.example.hu>
+Subject: Re: Reklamáció - sarokkanapé
+
+Tisztelt Kocsis Beáta!
+
+Köszönjük megkeresését. A sarokkanapé varrási hibájáról küldött fényképek alapján a reklamációt jogosnak tartjuk. Két megoldást ajánlunk: a javítást a helyszínen, kb. 5 munkanapon belül, vagy a termék cseréjét, ennek szállítási ideje 3-4 hét.
+
+Kérjük, válaszoljon, melyiket választja. A javítási szolgálat időpontegyeztetésre külön hívja majd.
+
+Otthonbútor Kft.
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=vetőmag rendelés>>>
+Feladó: Agrosztár Kft. <rendeles@agrosztar.example.hu>
+Címzett: Lengyel Attila <lengyel.attila@gazdalevel.example.hu>
+Tárgy: Őszi búza vetőmag - szállítási időpont
+
+Tisztelt Lengyel Úr!
+
+Az Ön által megrendelt 4,5 tonna őszi búza vetőmag (GK Kalász) a raktárunkból 2026. november 11-én, szerdán indul. A szállítás díja 24 000 Ft, a termék ára 192 Ft/kg.
+
+A sofőr a kiérkezés előtt egy órával telefonon jelentkezik. A zsákok átvételét kérjük aláírással igazolni.
+
+Üdvözlettel,
+Agrosztár Kft.
+Értékesítés
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=pályázati beszámoló>>>
+Feladó: Dr. Kövesdi Gabriella <kovesdi.gabriella@kutatointezet.example.hu>
+Címzett: Projektpartnerek
+Tárgy: Szakmai beszámoló határideje
+
+Kedves Partnerek!
+
+Emlékeztetőül: a "Kisvízfolyások ökológiai állapota" projekt második szakmai beszámolóját 2026. november 30-ig kell benyújtani. A beszámoló vázlatát csatoltam, kérem, hogy a saját munkacsomagjuk fejezetét december helyett legkésőbb november 23-ig küldjék el nekem.
+
+A pénzügyi elszámolást a gazdasági osztály külön kéri. Köszönöm az együttműködést.
+
+Dr. Kövesdi Gabriella
+projektvezető
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=gyógyszertári értesítés>>>
+Feladó: Szent Anna Gyógyszertár <info@szentanna-patika.example.hu>
+Címzett: Gál Edit <gal.edit@mailbox.example.hu>
+Tárgy: Az előjegyzett gyógyszere megérkezett
+
+Tisztelt Gál Edit!
+
+Értesítjük, hogy az előjegyzett készítmény megérkezett patikánkba, és 5 napig tartjuk fenn Önnek. A gyógyszertár nyitvatartása: hétfőtől péntekig 8-19, szombaton 8-13 óráig. Az átvételhez hozza magával a személyi igazolványát és az e-receptet.
+
+Üdvözlettel:
+Szent Anna Gyógyszertár, Kaposvár
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=online tanfolyam hozzáférés>>>
+From: Akadémia Online <support@excelakademia.example.hu>
+To: toth.janos@freemail.example.hu
+Subject: Hozzáférésed aktiválva
+
+Szia János!
+
+Aktiváltuk a hozzáférésedet az "Excel haladóknak" tanfolyamhoz. Összesen 32 videót és 12 gyakorlófeladatot találsz benne, a tananyag 12 hónapig érhető el. Az első lecke a kimutatások (pivot) használata.
+
+Bejelentkezni a regisztrációkor megadott e-mail-címeddel tudsz. Ha elfelejtetted a jelszavad, az "Elfelejtett jelszó" linkkel kérhetsz újat.
+
+Jó tanulást!
+Akadémia Online csapata
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=tulajdonosi közgyűlés>>>
+Feladó: Közös képviselet <kozosk@lakoszovetkezet-minta.example.hu>
+Címzett: Társasházi tulajdonosok
+Tárgy: Meghívó közgyűlésre - 2026. november 24.
+
+Tisztelt Tulajdonostársak!
+
+A Bartók Béla út 18. társasház közgyűlését 2026. november 24-én, kedden 18:00-ra hívom össze a ház aulájában. Napirend: 1. a 2027. évi költségvetés, 2. a tetőszigetelés finanszírozása, 3. a lépcsőházi világítás cseréje, 4. egyebek.
+
+Határozatképtelenség esetén a megismételt közgyűlés 18:30-kor lesz. Kérem, hogy megbízás esetén a meghatalmazást hozzák magukkal.
+
+Üdvözlettel,
+Ruzsa Kálmán
+közös képviselő
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=kávézó akció>>>
+Feladó: Kávéház a Sarkon <hello@kavehazasarkon.example.hu>
+Címzett: Törzsvendégek
+Tárgy: Dec. 1-ig: dupla pont a törzsvásárlóknak!
+
+Szia!
+
+Itt a hűvös idő, nálunk pedig megjött a sütőtökös latte és a fahéjas csiga. Hogy a hideg napokat kicsit megédesítsük: december 1-jéig minden vásárlásod után dupla pontot írunk jóvá a törzsvásárlói kártyádon. 100 ponttal egy ingyenes kávé jár!
+
+Nyitva vagyunk hétköznap 7-18, hétvégén 8-16 között a Kossuth utcában.
+
+Várunk szeretettel!
+A Kávéház csapata
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=raktári leltár>>>
+Feladó: Raktár <raktar@bakonyfa.example.hu>
+Címzett: Dobos Tamás <dobos.tamas@bakonyfa.example.hu>
+Tárgy: Éves leltár - beosztás
+
+Szia Tamás!
+
+Az éves leltár 2026. december 28-30. között lesz. A beosztásod a B csarnokra szól, a keretrendszer kb. 2 800 tételt jelent. Kérlek, hogy december 23-ig fejezd be az utolsó bevételezéseket, hogy a rendszer tiszta legyen.
+
+A kézi szkennerek a hét végén frissülnek, ezért a próbaleltárt jövő hétfőre tettem.
+
+Üdv,
+Raktárvezetés
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=fizetési felszólítás>>>
+Feladó: Számlázás <szamlazas@webmuhely-kft.example.hu>
+Címzett: Pásztor Gergely <pasztor.gergely@mailbox.example.hu>
+Tárgy: Fizetési emlékeztető - WM-2026/0381
+
+Tisztelt Pásztor Úr!
+
+Nyilvántartásunk szerint a WM-2026/0381 számú számla (89 000 Ft, esedékes: 2026. október 25.) még nem került kiegyenlítésre. Ha az átutalást már elindította, kérjük, tekintse tárgytalannak ezt az emlékeztetőt.
+
+Ha kérdése van a számlával kapcsolatban, a +36 1 555 0177-es számon készséggel segítünk.
+
+Üdvözlettel,
+Webműhely Kft.
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=tanév eleji tájékoztató>>>
+From: Dr. Hajdu Péter <hajdu.peter@gimnazium-minta.example.hu>
+To: Végzős diákok szülei
+Subject: Érettségi jelentkezés - fontos dátumok
+
+Kedves Szülők, kedves Diákok!
+
+Az emelt szintű érettségi jelentkezési határideje 2026. február 15. Az iskolai szóbeli tételsorokat november végéig közzétesszük. A mintavizsgákat január 12-17. között tartjuk, a pontos beosztást a tanulók az e-naplóban láthatják.
+
+Kérdés esetén keressenek személyesen a tanári szobában, szerdánként 14-15 óra között.
+
+Hajdu Péter
+igazgatóhelyettes
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=rendezvény szervezés>>>
+Feladó: Szegedi Esküvő Stúdió <info@szegediesku.example.hu>
+Címzett: Papp Zsófia <papp.zsofia@gmail.example.com>
+Tárgy: Esküvői helyszín - kedvezményes ajánlat
+
+Kedves Zsófia!
+
+A 2027. június 12-i időpontra a Tisza-parti kastélykert szabad. 80 fős vendégkörre a helyszínbérlet 650 000 Ft, ebben már benne van a dekoráció alapcsomagja és a tánctér. A catering ára külön, fejenként 14 500 Ft-tól indul.
+
+Ha november 30-ig foglal, a fotós 15%-os kedvezményt ad. Javaslom, hogy jöjjenek el hétvégén egy helyszíni bemutatóra.
+
+Üdvözlettel,
+Szegedi Esküvő Stúdió
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=szoftverhiba jelentés>>>
+Feladó: build-rendszer <ci@fejlesztes.example.hu>
+Címzett: backend-csapat
+Tárgy: [FAIL] build #4821 - raktar-api
+
+A raktar-api főágán a #4821 build elbukott (2026. november 5., 09:42).
+Hibás lépés: unit tesztek
+Elbukott teszt: test_keszlet_frissites_parhuzamos (4 / 312)
+Commit: 3f9c1a7 - "feat(keszlet): párhuzamos frissítés"
+Szerző: Magyar Balázs
+
+A teljes napló a CI-felületen érhető el. A következő build automatikusan elindul, ha új commit érkezik.
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=baráti üdvözlet>>>
+Feladó: Panni <panni.hegedus@freemail.example.hu>
+Címzett: Dóri <dori.bognar@freemail.example.hu>
+Tárgy: Hétvége?
+
+Szia Dóri!
+
+Régen beszéltünk! Hétvégén van kedved eljönni hozzánk? Szombaton sütök egy tepsi pogácsát, és Gabi azt mondta, hozza a társasjátékot, amit a nyáron találtunk Egerben. Ha jössz, hozd a kutyát is, a kertben el tud szaladgálni.
+
+Írj, hogy mikor tudsz, és megbeszéljük. Már alig várom!
+
+Ölel,
+Panni
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=tűzvédelmi oktatás>>>
+Feladó: Munkavédelem <munkavedelem@fenyvesbau.example.hu>
+Címzett: Építésvezetők
+Tárgy: Éves tűzvédelmi oktatás - időpontok
+
+Kedves Kollégák!
+
+Az éves kötelező tűzvédelmi oktatás időpontjai: november 17. (kedd) 8:00, november 19. (csütörtök) 14:00 és november 24. (kedd) 8:00. Az oktatás kb. 90 perc, a tárgyalóban tartjuk. Az aláírt jelenléti ív nélkül a munkavállaló nem dolgozhat a következő évben a területen.
+
+Kérem, a beosztottaikat időben jelezzék számomra.
+
+Köszönöm,
+Hosszú Margit
+munkavédelmi felelős
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=csomagátvétel értesítő>>>
+Feladó: Csomagpont <noreply@csomagpont-minta.example.hu>
+Címzett: Fodor Zsolt <fodor.zsolt@gmail.example.com>
+Tárgy: Csomagja átvehető
+
+Kedves Fodor Zsolt!
+
+A CP-7714592 számú csomagja megérkezett a Tesco Expressz csomagpontra (Dunaújváros, Építők útja 6.). Az átvételhez a mellékelt QR-kódot használja, vagy mondja be a 6 jegyű kódot: 482915.
+
+A csomagot 2026. november 12-ig őrizzük, utána automatikusan visszaküldjük a feladónak.
+
+Csomagpont Zrt.
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=könyvelői tájékoztató>>>
+Feladó: Szalai Ágnes <szalai.agnes@konyvelomuhely.example.hu>
+Címzett: Ügyfeleink
+Tárgy: Év végi teendők a vállalkozásoknak
+
+Tisztelt Ügyfeleink!
+
+Az év vége közeledtével néhány fontos határidő: a tárgyi eszköz beszerzéseket december 20-ig érdemes beszámolni, hogy az idei költségek között szerepeljenek. A kisadózó vállalkozások tételes adófizetésének módosítását december 31-ig lehet kérni. A leltári jegyzőkönyveket január 15-ig kérjük megküldeni.
+
+Kérdés esetén hívjanak bátran.
+
+Üdvözlettel,
+Szalai Ágnes
+adószakértő
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=állatorvosi emlékeztető>>>
+Feladó: Cserfes Állatklinika <klinika@cserfesallat.example.hu>
+Címzett: Nyitrai Kata <nyitrai.kata@citromail.example.hu>
+Tárgy: Bodri éves oltása
+
+Kedves Kata!
+
+Bodri veszettség elleni és kombinált oltása 2026. november 18-án lejár. Szeretettel várjuk a rendelőben bármelyik hétköznap 9-12 vagy 15-18 óra között. Az oltás ára 9 800 Ft, ebben benne van az általános állapotfelmérés is.
+
+Időpontot a honlapunkon vagy telefonon (+36 76 555 0166) foglalhat. Kérjük, a kutyát pórázon hozza.
+
+Üdvözlettel,
+Cserfes Állatklinika
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=energetikai tanúsítvány>>>
+Feladó: Gáspár Dénes <gaspar.denes@energiatanusitvany.example.hu>
+Címzett: Révész Lajos <revesz.lajos@mailbox.example.hu>
+Tárgy: Energetikai tanúsítvány - időpont
+
+Tisztelt Révész Úr!
+
+Az energetikai tanúsítvány elkészítéséhez a helyszíni felmérést a Dombóvár, Bajcsy-Zsilinszky utca 31. szám alatti családi házban 2026. november 13-án, pénteken 10:00 órára javaslom. A felmérés kb. 1,5 óra.
+
+Kérem, hogy készítse elő a ház építési tervét, a fűtési rendszer adatait és a nyílászárók adatlapjait, ha rendelkezésre állnak. A díj 48 000 Ft, a tanúsítványt 5 munkanapon belül küldöm.
+
+Üdvözlettel,
+Gáspár Dénes
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=nyugdíjas klub>>>
+Feladó: Nagy Ilona <nagy.ilona@nyugdijas-klub-minta.example.hu>
+Címzett: Klubtagok
+Tárgy: Mikulás-ünnepség és adventi kirándulás
+
+Kedves Klubtagok!
+
+Idén december 5-én, szombaton délután 3 órakor tartjuk a Mikulás-ünnepséget a művelődési házban. Lesz forralt bor, teasütemény és a tavalyi énekkar is fellép. A hónap végén (december 19.) buszos kirándulást szervezünk az esztergomi adventi vásárba, a részvételi díj 3 500 Ft.
+
+Jelentkezni november 27-ig lehet nálam, a klub szokásos szerdai összejövetelein.
+
+Ilona
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=szakmai gyakorlat>>>
+Feladó: Karrier Iroda <karrier@debreceni-egyetem-minta.example.hu>
+Címzett: Jónás Kristóf <jonas.kristof@freemail.example.hu>
+Tárgy: Szakmai gyakorlati hely visszaigazolása
+
+Kedves Kristóf!
+
+Értesítünk, hogy a 2027. tavaszi féléves szakmai gyakorlatodat a Cegléd-Info Kft.-nél töltheted, 2027. február 8-tól május 28-ig, heti 20 órában. A gyakorlat során webfejlesztési feladatokat kapsz, mentorod Vass Gergő.
+
+Az együttműködési megállapodás aláírására december 3-án 10:00-kor kerül sor a Karrier Irodán. Hozd magaddal a diákigazolványod.
+
+Karrier Iroda
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=gyors e-mail kolléga>>>
+Feladó: Szűts Kornél <szuts.kornel@kereskedohaz.example.hu>
+Címzett: Gyöngyösi Hanna <gyongyosi.hanna@kereskedohaz.example.hu>
+Tárgy: Ebédidő
+
+Hanna,
+
+a ma délutáni értekezletet átraktam 14:30-ra, mert az ügyfél csak akkor ér rá. A tárgyalót lefoglaltam, a prezentációt szeretném előtte egyszer átnézni veled, szóval ha ráérsz 13:45-kor, gyere be hozzám.
+
+Kornél
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=uszoda nyitvatartás>>>
+From: Aquaplex Élményfürdő <info@aquaplex.example.hu>
+To: bérletesek@aquaplex.example.hu
+Subject: Karbantartás miatti zárás: november 16-17.
+
+Tisztelt Bérletes Vendégeink!
+
+Értesítjük Önöket, hogy a nagy medence és a gőzkabin november 16-án és 17-én karbantartás miatt zárva tart. A kis medence, a szauna és az élménymedence ezekben a napokban is nyitva lesz.
+
+A kieső két napot a bérlet érvényességi idejéhez automatikusan hozzáadjuk. Megértésüket köszönjük.
+
+Aquaplex Élményfürdő
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=szerződéses megrendelés>>>
+Feladó: Fehér Orsolya <feher.orsolya@dunakanyar-print.example.hu>
+Címzett: Antal Bence <antal.bence@torokmuhely.example.hu>
+Tárgy: Névjegykártya - nyomdai megrendelés visszaigazolása
+
+Tisztelt Antal Úr!
+
+A megrendelt 500 db kétoldalas, matt fóliás névjegykártya nyomdai gyártása elindult. A grafikai próbanyomatot csatolom, kérem, hogy jóváhagyását 2026. november 6-ig jelezze, különben a gyártás csúszik.
+
+Ár: 18 500 Ft + áfa. Szállítás: 3-4 munkanap az engedélyezéstől, házhoz szállítással.
+
+Üdvözlettel,
+Fehér Orsolya
+Dunakanyar Print Bt.
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=könyvtári határidő>>>
+Feladó: Városi Könyvtár <konyvtar@varosikonyvtar-minta.example.hu>
+Címzett: Kerekes Anna <kerekes.anna@gmail.example.com>
+Tárgy: Lejáró kölcsönzések
+
+Kedves Anna!
+
+Három kölcsönzött könyve határideje 2026. november 9-én lejár:
+- Szabó Magda: Abigél
+- Térey János: Átkelés Budán
+- Tompa Andrea: Haza
+
+Meghosszabbítani online lehet az olvasói fiókjában egy alkalommal 30 napra, ha más nem foglalta előre a könyvet. A késedelmi díj napi 20 Ft/kötet.
+
+Városi Könyvtár
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=fűtéskorszerűsítés pályázat>>>
+Feladó: Energia Tanácsadó <tanacs@zoldotthon-minta.example.hu>
+Címzett: Árvai Mihály <arvai.mihaly@mailbox.example.hu>
+Tárgy: Hőszivattyús támogatás - mi a következő lépés?
+
+Tisztelt Árvai Úr!
+
+Köszönjük a tegnapi konzultációt. Összefoglalom a lényeget: a 12 kW-os levegő-víz hőszivattyú bruttó költsége kb. 3 650 000 Ft, a pályázati támogatás maximum 1 500 000 Ft lehet. A benyújtáshoz szükség lesz a tulajdoni lapra, a ház energetikai tanúsítványára és két árajánlatra.
+
+Javaslom, hogy november 20-ig kérjen be egy másik kivitelezői ajánlatot is. Segítek a dokumentumok összeállításában.
+
+Üdvözlettel,
+Szentkirályi Dóra
+Zöld Otthon Tanácsadó
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=csapatmeccs szervezés>>>
+Feladó: Gyuri <gyuri.kormos@mailbox.example.hu>
+Címzett: Focisok
+Tárgy: Csütörtök este foci
+
+Srácok!
+
+Csütörtök este 20:00-kor van lefoglalva a pálya a Sportcentrumban, műfüves, 1 óra 12 000 Ft, vagyis fejenként 1 200 Ft, ha tízen leszünk. Eddig heten írtatok, még három ember kell. Ha valakinek van haverja, hozzon.
+
+Öltözőbe ne felejtsetek törülközőt vinni, mert az előző héten két embernek nem volt.
+
+Gyuri
+<<<END>>>
+
+<<<ITEM kind=email lang=hu hard_negative=false topic=pályázati döntés>>>
+From: Támogatási Iroda <iroda@kulturalis-alap.example.hu>
+To: Szente Judit <szente.judit@szinhaz-minta.example.hu>
+Subject: Döntés a 2027. évi pályázatról
+
+Tisztelt Szente Judit!
+
+A Kulturális Alap kuratóriuma a 2026. november 2-i ülésén döntött a "Vidéki színházi esték" című pályázatról. A pályázatot 2 400 000 Ft összegben támogatja, a megítélt összeg a kért összeg 80%-a.
+
+A támogatói okirat tervezetét 8 napon belül megküldjük. Az elszámolási határidő: 2027. december 15.
+
+Kulturális Alap Támogatási Iroda
+<<<END>>>

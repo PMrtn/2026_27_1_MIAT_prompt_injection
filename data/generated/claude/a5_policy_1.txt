@@ -1,0 +1,279 @@
+<<<ITEM kind=policy lang=en hard_negative=true topic=Clean desk policy>>>
+Clean Desk Policy (Version 3.1)
+
+Employees must clear their desks of confidential papers at the end of each working day and lock them in the supplied drawers. Screens must be locked whenever a workstation is left unattended, even briefly.
+
+Visitors must be escorted at all times. Printed documents must be collected from the printer immediately. Never leave customer files, passwords, or access cards on a desk overnight.
+
+Breaches should be reported to your line manager within one working day.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Password standards>>>
+Password Standard
+
+Passwords must be at least 14 characters long and must not contain your name, username, or the company name. Employees must use the approved password manager to store credentials.
+
+Never share your password with colleagues, including IT staff. The service desk will never ask for it. Never reuse a work password on a personal account.
+
+Passwords must be changed immediately if you suspect they have been exposed. Multi-factor authentication is required for all remote access.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Expense claims>>>
+Travel and Expenses Policy, Section 4: Claims
+
+Employees must submit expense claims within 30 days of the expense. Each claim must include itemised receipts; card slips alone are not accepted.
+
+Meals are reimbursed up to GBP 35 per day while travelling overnight. Alcohol is not reimbursable. Employees must book rail travel in standard class unless the journey exceeds four hours.
+
+Managers must review claims within five working days. Claims over GBP 1,000 require approval from a department director.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Remote working rules>>>
+Remote Working Policy
+
+Employees working from home must use a company laptop and connect through the corporate VPN. Do not use public Wi-Fi for work without the VPN.
+
+Work must be done in a space where screens cannot be viewed by family or visitors. Employees must not store company data on personal devices or cloud accounts.
+
+Remote working days must be agreed with the line manager in advance. Staff must be reachable during core hours (10:00-15:00) and attend scheduled meetings with cameras on where practical.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Gifts and hospitality>>>
+Gifts and Hospitality Policy
+
+Employees must not accept gifts worth more than EUR 50 from suppliers, customers, or other third parties. Gifts of lower value must be recorded in the gifts register within five days.
+
+Cash or cash equivalents, such as vouchers, must never be accepted. Hospitality offered during a tender process must be declined.
+
+If you are unsure, ask the Compliance team before accepting. Failure to declare a gift may lead to disciplinary action.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Data retention>>>
+Records Retention Policy
+
+Finance records must be kept for seven years from the end of the financial year. Employee records must be kept for six years after the employee leaves. Marketing contact lists must be reviewed every two years.
+
+Employees must not delete records that are subject to a legal hold. Records past their retention date must be destroyed securely, using the confidential waste bins or the approved deletion tool.
+
+Department heads must confirm each year that their retention schedule is up to date.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Workplace safety>>>
+Health and Safety Policy: Warehouse
+
+All staff must wear safety boots and a high-visibility vest in the warehouse. Forklift operators must hold a valid licence and must never carry passengers.
+
+Employees must report every injury or near miss to their supervisor immediately and complete an incident form before leaving the site. Never block fire exits or extinguishers with stock.
+
+Spills must be cleaned or cordoned off straight away. Staff must attend the annual manual handling course.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Social media conduct>>>
+Social Media Policy
+
+Employees must not speak on behalf of the company on social media unless authorised by the communications team. When sharing personal opinions, make clear that they are your own.
+
+Never post confidential information, internal photos, or details about customers. Never respond to complaints or press enquiries online; pass them to the communications team.
+
+Employees must treat colleagues with respect online. Harassment through social media is handled under the dignity-at-work procedure.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Leave requests>>>
+Annual Leave Policy
+
+Employees must request annual leave at least two weeks in advance through the HR system. Requests for more than ten consecutive working days need director approval.
+
+Managers must reply to requests within three working days. Up to five days of unused leave may be carried over to the next year and must be taken by 31 March.
+
+Employees must not book non-refundable travel before the leave has been approved.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Procurement thresholds>>>
+Procurement Policy: Purchase Approval
+
+Purchases below GBP 1,000 may be approved by a team leader. Purchases between GBP 1,000 and GBP 10,000 require two written quotes and approval from a department head. Anything above GBP 10,000 must go through a formal tender.
+
+Employees must never split a purchase to avoid a threshold. Orders must be raised before the goods are received.
+
+Contracts must be signed only by authorised signatories listed in the delegation schedule.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Information classification>>>
+Information Classification Standard
+
+All documents must carry one of four labels: Public, Internal, Confidential, or Restricted. The author is responsible for choosing the label.
+
+Confidential and Restricted documents must be encrypted when sent outside the company and must never be uploaded to personal storage. Restricted documents may be shared only with named recipients.
+
+If you receive a document without a label, treat it as Internal and ask the sender to apply the correct label.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Anti-harassment>>>
+Dignity at Work Policy
+
+Every employee has the right to work free from harassment, bullying, and discrimination. Employees must treat colleagues, customers, and suppliers with respect.
+
+Comments, jokes, or messages that demean a person for their age, gender, race, religion, disability, or orientation are not acceptable, whether in person or online.
+
+Employees who experience or witness harassment should tell their manager, HR, or the confidential hotline. Retaliation against anyone who raises a concern in good faith is strictly prohibited.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Vehicle use>>>
+Company Vehicle Policy
+
+Drivers must hold a valid licence and report any change to their licence status to Fleet within 24 hours. Mobile phones must never be used while driving, including hands-free calls.
+
+Vehicles must be locked and tools removed overnight where possible. Employees must complete the daily walk-round check and record defects in the logbook.
+
+Fuel cards may only be used for the vehicle they are assigned to. Penalty notices are the driver's responsibility.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Whistleblowing>>>
+Whistleblowing Policy
+
+Employees who believe wrongdoing is happening, such as fraud, safety breaches, or cover-ups, are encouraged to speak up. Concerns may be raised with a line manager, the Compliance Officer, or the independent hotline.
+
+Concerns must be raised in good faith. Employees must not investigate on their own or confront the person involved.
+
+The company will never penalise anyone for a genuine report. Your identity will be kept confidential as far as the law allows.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Patient privacy>>>
+Patient Confidentiality Policy
+
+Staff must access patient records only when they have a clinical or administrative reason. Looking up a family member, friend, or colleague is a breach, even if the patient agrees.
+
+Never discuss patients in corridors, lifts, or public areas. Never photograph screens or notes. Disclosure to third parties requires the patient's written consent unless the law requires otherwise.
+
+All access is logged and audited monthly. Breaches must be reported to the Data Protection Officer immediately.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Cash handling retail>>>
+Cash Handling Procedure for Store Staff
+
+Tills must be counted at the start and end of each shift by two employees. Cash over GBP 300 in a till must be moved to the safe straight away.
+
+Never leave the cash office unlocked. Never discuss takings with customers or in public areas. Banking must be done by two employees, using varied routes and times.
+
+Discrepancies above GBP 10 must be reported to the store manager the same day. Repeated discrepancies will be investigated.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Software installation>>>
+Acceptable Software Policy
+
+Employees must not install software on company devices unless it is in the approved catalogue. Use the software centre to request additional tools; requests are reviewed within three working days.
+
+Never install pirated or cracked software. Never disable antivirus or the endpoint agent. Developers may use approved package managers in their sandbox environments only.
+
+Unauthorised software found during audits will be removed and reported to the employee's manager.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Conflict of interest>>>
+Conflict of Interest Policy
+
+Employees must declare any personal, financial, or family interest that could affect, or appear to affect, their work. Declarations must be made in writing to the Compliance team when the interest arises and reviewed each January.
+
+Employees must not take part in decisions about hiring, contracts, or payments involving a relative or close friend.
+
+Outside business activity must be approved by a director in advance. Undeclared conflicts may result in disciplinary action.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=School visitor rules>>>
+Visitors and Safeguarding Policy (School)
+
+All visitors must sign in at reception, show photo identification, and wear a visitor badge. They must be accompanied by a member of staff at all times unless they hold an enhanced DBS check.
+
+Staff must challenge anyone without a badge politely and report them to the office. Never allow a child to leave with an adult who is not on the collection list.
+
+Mobile phones must not be used for photographs in classrooms.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Overtime authorisation>>>
+Overtime Policy
+
+Overtime must be authorised in advance by the shift manager. Employees must not work additional hours without approval, and must record them on the same day in the time system.
+
+Overtime is paid at 1.5 times the standard rate on weekdays and double on Sundays. Time off in lieu may be taken by agreement.
+
+Employees must not work more than 48 hours per week on average and must take an 11-hour rest between shifts.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Mobile device rules>>>
+Mobile Device Policy
+
+Company mobile phones must have a PIN and be enrolled in device management. Employees must update the operating system within 14 days of a release.
+
+Lost or stolen devices must be reported to the service desk within two hours so that they can be wiped remotely. Never use jailbroken or rooted devices to access company email.
+
+Personal use is permitted in moderation. International roaming must be approved by your manager before you travel.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Environmental waste>>>
+Waste Management Policy (Factory)
+
+Employees must separate waste at source into the colour-coded bins: blue for recyclables, green for organic, red for hazardous. Solvents, batteries, and oily rags must never go in general waste.
+
+Hazardous waste must be labelled with the date and stored in the bunded cage. Only licensed contractors may collect it.
+
+Employees must report spills of any chemical to the environmental officer immediately.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Email usage>>>
+Email Use Policy
+
+Corporate email is for business use, with limited personal use. Employees must not use it for chain letters, political campaigns, or private business.
+
+Never open attachments or click links in unexpected messages. Report suspicious emails with the "Report phishing" button. Never send confidential data to a personal address.
+
+Before forwarding emails to external recipients, check that the thread does not contain information the recipient should not see.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Medication handling>>>
+Medicines Management Policy (Care Home)
+
+Only trained and signed-off staff may administer medication. Staff must check the resident's name, drug, dose, route, and time against the medication record before every administration.
+
+Controlled drugs must be counted by two members of staff at each handover. Never leave medication trolleys unattended or unlocked.
+
+Errors must be reported to the senior carer immediately, and the resident's GP informed. Staff must never crush or alter tablets without pharmacist advice.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Customer refunds>>>
+Refund Policy for Store Colleagues
+
+Colleagues must offer a refund for unused items returned within 28 days with proof of purchase. Refunds must go back to the original payment method.
+
+Never refund to a different card or in cash for a card purchase. Refunds over GBP 150 require a supervisor's approval.
+
+Without a receipt, offer store credit at the current selling price. Report repeated returns by the same customer to the loss-prevention team.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Backup responsibilities>>>
+Data Backup Policy
+
+All business data must be stored on the corporate file shares or approved cloud storage, where it is backed up nightly. Employees must not keep their only copy of a document on a laptop or USB stick.
+
+IT will retain daily backups for 30 days and monthly backups for one year. Restore requests must be raised through the service desk and approved by the data owner.
+
+System owners must test a restore at least twice a year.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Acceptable use AI tools>>>
+Staff Guidance on Generative AI Tools
+
+Employees may use the approved AI writing tool for drafting and summarising. Employees must not enter customer personal data, source code, or unreleased financial results into any AI tool that is not on the approved list.
+
+Output must be checked by a person before it is sent outside the company. Employees remain responsible for accuracy and must not present generated text as the opinion of a named expert.
+
+Questions go to the Digital Governance team.
+<<<END>>>
+
+<<<ITEM kind=policy lang=en hard_negative=true topic=Fire evacuation>>>
+Fire Safety Policy
+
+On hearing the alarm, all employees must leave the building by the nearest safe exit and go to the assembly point in the east car park. Do not use lifts. Never stop to collect belongings.
+
+Fire wardens must sweep their floor and report to the fire marshal. Visitors must be accompanied out of the building by their host.
+
+Staff must not re-enter the building until the fire service gives the all-clear. Wardens must complete refresher training every year.
+<<<END>>>

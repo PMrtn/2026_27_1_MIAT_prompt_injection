@@ -1,0 +1,147 @@
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=termékbevezetés egyeztetés>>>
+Termékbevezetési egyeztetés, március 12. Jelen voltak: Anna, Dömötör, Priska, Tamás. Döntés: a bevezetés április 9-re kerül. Teendők: Anna péntekig elküldi a javított sajtóközleményt a jogásznak. Dömötör szerdáig egyeztet a Hartai Szállítmányozással a raktári időpontról. Priska frissíti az árlapot, és hétfőn körbeküldi a képernyőképeket. Tamás lefoglalja a bemutatótermet április 8-ra, és húsz főre rendel frissítőket. Következő megbeszélés: csütörtök, március 19., 10:00, ugyanitt.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=negyedéves költségvetés>>>
+Negyedéves költségvetés-áttekintés, emlékeztető. Jelen: Marosi Helga, Petrovics Olivér, Szabó Zsanett. A marketing a tervhez képest 6 százalékkal többet költött, főleg a kiállítási foglaló miatt. Olivér május 22-ig egyezteti a rendezvénysort, és beszámol róla. Helga megkérdezi a vezetőséget, hogy felhasználható-e a tartalékkeret. Zsanett egyoldalas eltérés-összefoglalót készít a keddi pénzügyi megbeszélésre. Mindhárman átnézik a tervezetet, mielőtt a pénzügyi igazgatóhoz kerül. Nyitott kérdés: elhalasztható-e a licencmegújítás?
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=sprint visszatekintés>>>
+A 14. sprint visszatekintője. Ami jól ment: kevesebb sürgős javítás, gördülékenyebb kódátnézés. Ami nem: ingadozó integrációs tesztek és homályos jegyek. Megbeszélt teendők: Marcell nyit egy jegyet a fizetési tesztcsomag stabilizálására, és a következő sprintben ő viszi végig. Lea szerdáig összeállít egy rövid ellenőrzőlistát az elfogadási kritériumok írásához, és megosztja a csapatcsatornán. József csütörtök délutánra szervez harmincperces bemutatót az új telepítési folyamatról. Mindenki péntek délig kommentel a táblán.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=ügyfél indító hívás>>>
+Indító hívás a Pilisi Szállodák képviselőivel, kedd. Jelen: Lakatos Laura (ügyfél), Sándor Szilárd, Zsolnai Évi, Rádi Rókus. Megerősített terjedelem: a foglalási portál újratervezése, tíz hét. Teendők: Szilárd a nap végéig elküldi az aláírt munkaleírást és az ütemtervet. Évi létrehozza a közös projektmappát, és meghívja az ügyfél csapatát. Rókus csütörtökig elkészíti a feltáró kérdőívet, és elküldi Laurának. Laura jövő héten kijelöli a kapcsolattartót, és átadja a arculati útmutatót.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=heti állórendezvény>>>
+Hétfői állómegbeszélés. Nóra a számlaexporttal végez, szerdáig átadja a minőségbiztosításnak. Benő megvizsgálja a lassú irányítópult-lekérdezést, és holnap beszámol az eredményről. Csilla még ma válaszol a beszállítónak a késő licenckulcsokról. Kálmán csütörtökön Benővel dolgozik párban. Akadály: még várunk a tesztkörnyezet belépési adataira; Nóra az új asztalfoglalások miatt a gondnokságot is megsürgeti. Egyéb hír nincs.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=igazgatósági anyag>>>
+Az igazgatósági anyag előkészítő megbeszélése. Cél: eldönteni, ki melyik fejezetért felel a júniusi csomagban. Elnöki levél: Eleonóra június 5-ig megírja. Pénzügyi összefoglaló: Rajmund készíti, a számokat hétfő előtt ellenőrzi a kontroller. Kockázati nyilvántartás: Mei-Lin frissíti az első öt kockázatot, és mellé írja a felelősöket. Irányítás: Patrik megerősíti a kihelyezett ülés időpontját és helyszínét. Az anyagot június 10-én Hanna állítja össze, a megjegyzéseket mindenki előző nap küldi el.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=irodaköltözés>>>
+Az irodaköltöztetési bizottság emlékeztetője. Október 1-jén költözünk a Csatorna utcai épületbe. Feladatok: Gergő három árajánlatot kér költöztető cégektől, és jövő hét végéig megosztja. Ildikó rövid űrlapon összegyűjti az asztalokra vonatkozó igényeket a csapatoktól. Kolos megkérdezi a szolgáltatótól az internetbekötés időpontját. Szofi megírja a bejelentést az összes dolgozónak, Gergő jóváhagyásával. Mindenki maga címkézze fel a dobozait. A bizottság legközelebb július 17-én ül össze.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=felvételi bizottság>>>
+Értékelés az adatelemzői állásra tartott interjúk után. Három jelölt volt, a bizottság B jelöltet javasolja, A jelölt a tartalék. Teendők: Mária holnap délelőtt felhívja B jelöltet szóbeli ajánlattal, a referenciák függvényében. János a mai munkanap végéig rögzíti az interjúpontszámokat a toborzórendszerben. Fatima Mária hívása előtt egyezteti a bérsávot a HR-rel. Albert péntekig udvarias elutasító leveleket küld C jelöltnek és a két korábbi jelentkezőnek. Ha B nemet mond, hétfőn újra áttekintjük.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=ügyfélszolgálati értékelés>>>
+Ügyfélszolgálati áttekintés, csütörtök. Az első válaszidő átlagosan 3,2 órára csökkent. Nyitott feladatok: Imre átírja a jelszó-visszaállítási válaszsablonokat, és véleményezésre elküldi a csapatnak. Beatrix megcímkézi a húsz legrégebbi jegyet, és kedden tájékoztatja az ügyfélkapcsolati vezetőket. Karcsi két hétig kipróbálja az új irányítási szabályokat a spanyol sorban, és beszámol a számokról. Tessza a hónap vége előtt egy felelevenítő képzést szervez a visszatérítésekről.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=marketingkampány terv>>>
+Őszi kampány tervezése. Cél: 1200 új hírlevél-feliratkozó november 30-ig. Felelősök: Piroska október 9-ig megírja a három nyitóoldal-változatot. Dusán elkészíti a közösségimédia-naptárat, és megosztja a mappában. Elemér két podcast-készítővel tárgyalja az árakat, és jövő pénteken beszámol. Noémi beállítja a követőlinkeket és egy egyszerű irányítópultot. A költségvetési engedélyek Piroskánál vannak. Október 16-án, 14:30-kor találkozunk az első vázlatok áttekintésére.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=munkavédelmi bizottság>>>
+A munkavédelmi bizottság emlékeztetője. Felmerült: egy laza korlát a keleti lépcsőn és a csomagolócsarnok beragadó tűzajtaja. Teendők: Dénes a korlát javítását jövő szerdáig elintézi, és írásban visszaigazolja. Rózsa megvizsgálja a tűzajtót, és jelent a bizottságnak. Jusztin frissíti az elsősegélynyújtók listáját a hirdetőtáblán. Lívia lefoglalja a kiürítési gyakorlatot májusra, a második hétre. Mindenki a majdnem-balesetekről a webes űrlapon számoljon be.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=architektúra átvilágítás>>>
+Architektúra-átvilágítás, jegyzet. Megállapodtunk, hogy egyelőre megtartjuk a monolitot, és először a riportmodult választjuk ki. Következő lépések: Szilvia csütörtök előtt kétoldalas javaslatot ír a modulhatárról, és körbeküldi. Viktor terhelési tesztet futtat az átmeneti adatbázison, és megosztja a grafikonokat. Pál összegyűjti a jelenlegi riportvégpontok minden külső felhasználóját. Csaba ellenőrzi a javasolt sorkezelő könyvtár licencfeltételeit. A döntési megbeszélés február 28-án lesz.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=vezetői műhely szervezése>>>
+A vezetői műhely tervezése. Javasolt időpont: november 14-15., a Mecsekaljai Konferenciaközpontban. Kiosztott feladatok: Dóra elküldi a meghívót negyven vezetőnek, és követi a visszajelzéseket. Márk megerősíti a tréner díját és az utazását. Jázmin október 30-ig elkészíti a visszajelzési beszélgetésekről szóló diákat, és véleményezésre küldi. Olivér megszervezi az étkezési igények felmérését és a terem elrendezését. Dóra október 24-én megsürgeti a nem válaszolókat. Az értékelőlapokat Jázmin tervezi.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=szállítói szerződéstárgyalás>>>
+Belső felkészülés a Solvik Rendszerekkel folytatandó tárgyalásra. Cél: az éves díj 8 százalékos csökkentése és kétéves árrögzítés. Szerepek: Gábor vezeti a tárgyalást. Pilar hétfőig kiveszi az elmúlt tizenkét hónap használati statisztikáit, és elküldi Gábornak. Andor átnézi a felmondási záradékot, és jelzi, ha valami szokatlant talál. Hunor két alternatív szállítóval tartalék-összehasonlítást készít. Mindenki bizalmasan kezeli a számokat a december 3-i találkozóig.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=negyedéves tervezés>>>
+A második negyedév tervezése, összefoglaló. Prioritások: beléptetési folyamat, számlázási fejlesztések, akadálymentesítési javítások. Felelősök: Zainab viszi a beléptetési folyamatot, és jövő kedden hoz egy durva tervet. Lukács a számlázás gazdája, március 20-ig három ügyféllel beszél. Hanna az akadálymentesítési auditot a külső szakértővel végzi. Ola frissíti az ütemtervet, és megosztja az értékesítéssel. Nyitott kérdés: felvegyünk-e még egy tervezőt; Zainab felveti a pénzügyön.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=jótékonysági futás>>>
+A falusi jótékonysági futás szervezőinek megbeszélése. A jegyeladás 142-nél tart. A következő találkozóig: Margit egyezteti az útvonalat a polgármesteri hivatallal, és beszerzi az útlezárási engedélyt. Béla pólókat és kulacsokat rendel, árajánlat péntekre kell. Józsa megkeresi a helyi boltokat, adnak-e nyereményeket a tombolára. Rajmund frissíti a rendezvény weboldalát, és felteszi a jelentkezési űrlapot. Paula szervezi az önkéntes irányítókat. Következő találkozó: kedd, június 6., a plébániai teremben, 19:00-kor.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=adatmigráció állapot>>>
+Adatmigrációs állapotfelmérés, szerda. Az első szakasz kész: az ügyfélrekordok 82 százaléka átkerült. Heti feladatok: Ferenc egyezteti az eltérő címeket, és elküldi a listát az ügyfélkapcsolati csapatoknak. Aida ma este újrafuttatja a hibás köteg importját, és reggel 8-ra visszaigazolja az eredményt. István leírja a visszaállítási eljárást, amit Ruth átnéz. Ruth szombatra beütemezi az átállási próbát. Az akadályokat a projektcsatornán kell jelezni.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=szülői munkaközösség>>>
+A szülői munkaközösség megbeszélése. Az őszi vásár október 21-én lesz. A önkéntesek beosztása megtörtént. Zsuzsa megtervezi a plakátot, és jóváhagyásra elküldi az igazgatónőnek. Mohácsi Mohamed az előző pénteken összegyűjti a süteményeket és kézműves adományokat a tornateremben. Eleni lefoglalja a délutáni ugrálóvárat. Teréz megkérdezi a gondnokot, kaphatunk-e több asztalt. A kasszát Gyöngyi pénztáros hozza. A változásokat kérjük e-mailben jelezni Zsuzsának. Fél kilenckor zárunk.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=minőségügyi audit utókövetés>>>
+Az ISO-audit záró megbeszélésének utókövetése. Az auditor két kisebb eltérést jelzett: hiányos kalibrálási nyilvántartás és elavult munkautasítások. Korrekciós intézkedések: Péter június 15-ig frissíti a 4-től 9-ig számozott gépek kalibrálási naplóit. Nóra átnézi és újra kiadja a 2-es sor munkautasításait, és összegyűjti a kezelők aláírásait. Szvetlána június 30-ig elkészíti az auditornak szóló korrekciós jelentést. Ines minőségügyi vezető a lezárásig minden hétfőn rövid egyeztetést tart.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=weboldal újratervezés>>>
+Weboldal-újratervezés, heti megbeszélés. A főoldal drótvázai elfogadva. Következő lépések: Karola csütörtökig átadja a vizuális terveket a fejlesztésnek. Idris fejlesztési vezető megbecsüli az új termékoldalak költségét, és elküldi Karolának. Jakab áttölti a blogbejegyzéseket az új tartalomkezelő átmeneti környezetébe. Olívia átolvassa az összes nyitóoldali szöveget, és egyetlen dokumentumban küldi el a megjegyzéseit. Karola hat további képet kér a stúdiótól. Bemutató a vezetőségnek július 4-én.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=értékesítési tölcsér>>>
+Hétfői értékesítési tölcsér áttekintés. A negyedéves előrejelzés szoros, két nagy üzlet csúszik. Teendők: Kata ma felhívja a Brenner és Társát, és megbeszélik a döntés időpontját. Olivér módosított ajánlatot készít a Mercer Csoportnak, fázisokra bontott opcióval. Lars holnap délig frissíti az összes fázisváltozást a CRM-ben. Tamás pénteken megosztja a nyert-elvesztett elemzést a csapattal. Péter vezető csatlakozik szerdán a Mercerrel tartott híváshoz, ha Olivér előtte elküldi a tájékoztató jegyzetet.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=éves konferencia>>>
+A konferencia szervezőbizottságának hívása. A helyszín le van foglalva, az előadók részben megerősítettek. Függőben lévő feladatok: Fruzsina csütörtökig megsürgeti a három előadót, aki még nem válaszolt. Hamid véglegesíti a szponzori csomagot, és elküldi az értékesítésnek. Júlia összeállítja a programot, és véleményezésre körbeküldi. György összehasonlítja a regisztrációs platformokat, és március 15-ig javaslatot tesz. Fruzsina a következő hívásra frissített költségbecslést hoz. A napirendi ötleteket a hét végéig küldjétek Júliának.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=üzemzavar utóelemzés>>>
+A múlt szombati leállás utóelemzése. A kiváltó ok: lejárt tanúsítvány a fizetési átjárón. Ügyféladat nem veszett el. Teendők: Terenc a hónap végéig riasztást állít be minden éles szolgáltatás tanúsítványának lejáratára. Ágnes megírja az ügyfeleknek szóló tájékoztatást, és átnézésre elküldi a támogatásnak. Mihály kiegészíti az üzemeltetési kézikönyvet a megújítás lépéseivel. Szunita ellenőrzi a többi tanúsítványt, és táblázatban jelenti a lejárati időket. A haladást szeptember 12-én nézzük át.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=kutatócsoport megbeszélés>>>
+Csoportmegbeszélés, 3-as labor. Átbeszéltük a bírálók megjegyzéseit a kéziratról. Az újraküldés előtti feladatok: Dr. Hajdú átírja a megvitatás részt, és válaszol a 2. megjegyzésre. Wei a javított kizárási feltételekkel újrafuttatja a statisztikai elemzést, és frissíti a táblázatokat. Izabella újrarajzolja a 4. ábrát színtévesztőknek is megfelelő színekkel. Tamás ellenőrzi a hivatkozásokat és a formázást. Mindenki február 18-ig elküldi észrevételeit Dr. Hajdúnak. Az újraküldés célja: február 28.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=étterem személyzeti értekezlet>>>
+Szolgálat előtti megbeszélés, Rézkanna étterem. Emlékeztetők és feladatok. Marci pénteki határidővel átveszi az új konyhai kisegítőkkel az allergénlapot. Csilla frissíti a napi ajánlat táblát, és hétvégére új étlapot nyomtat. Dénes hétfőn megszámolja a borkészletet, és elküldi a rendelési listát a tulajdonosnak. Pincérek: Bea átrendezi az asztalokat a szombati nagy foglaláshoz, és egyezteti a létszámot a szervezővel. Mindenki ma estig nézze meg a beosztást a csoportcsevegésben.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=lakóközösségi gyűlés>>>
+Lakóközösségi gyűlés, június 7. Téma volt a Szilfa soron kialudt utcai lámpa és az iskola környéki parkolás. Teendők: Csoma úr újra jelenti a lámpát az önkormányzatnak, és feljegyzi az ügyszámot. Alíz levelet ír az igazgatónak a gyerekek érkeztetési rendjéről. Gergely június 21-re szemétszedést szervez, és önkénteseket kér a hirdetőtáblán. Vilma jegyzőkönyvvezető a hét végéig elküldi a jegyzőkönyvet minden tagnak.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=beilleszkedési folyamat>>>
+Az új belépők fogadásának áttekintése. Az újonnan érkezők szerint későn jött meg a laptop, és hiányosak voltak a fiókok. Kiosztott teendők: Beáta péntekig összeállít egy kezdés előtti ellenőrzőlistát, és megosztja a vezetőkkel. Ráhel megbeszéli az IT-vel, hogy a hardvert két héttel a kezdés előtt rendeljék meg. Kamilla üdvözlőcsomagot készít, és kávézós beszélgetéseket szervez az első hetesekkel. Dániel rövid kérdőívben összegyűjti az utolsó hat felvett véleményét. Az eredményeket szeptember 9-én tárgyaljuk.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=biztonsági oktatás indítása>>>
+Jegyzet az adathalászat-tudatossági képzés indító megbeszéléséről. A kampány november 3-án indul. Teendők: Kolos keddig kiexportálja a dolgozói listát a HR-ből, és feltölti az oktatási platformra. Réka megírja a bejelentő levelet, és jóváhagyásra elküldi a kommunikációs vezetőnek. József beállítja a szimulált adathalász leveleket, kis nehézségű sablonnal kezdve. Alba összeállít egy rövid gyakori kérdések listát. Kolos és Alba november 12-én együtt átnézik az első hét kattintási arányait.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=hó végi zárás>>>
+Hó végi zárási hívás. Két időbeli elhatárolás még hiányzik, és a cégen belüli egyeztetés 4310 euróval eltér. Feladatok: Nóra megsürgeti a dublini egységet a hiányzó számlákért, és holnap délig könyvelteti őket. Vászoly kivizsgálja a különbséget, és szükség esetén helyesbítő tételt könyvel. Ada a kettő elkészülte után lefuttatja a főkönyvi kivonatot, és elküldi a kontrollernek. Mikael kontroller pénteken 15:00-kor írja alá, ha addigra minden beérkezik.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=dizájn kritika>>>
+Dizájnkritika, mobilos fizetés. A csapatnak tetszett az egyszerűsített címűrlap, de a fizetési lépésben szerintük még mindig túl sok a mező. Teendők: Mira csütörtök előtt prototípust készít egyoldalas fizetési lehetőségről, és megosztja a linket. Sándor jövő héten öt gyors használhatósági tesztet futtat, és írásban összefoglalja. Hugó ellenőrzi a hibaüzenetek színkontrasztját. Piroska összegyűjti a fizetési lépésnél lévő lemorzsolódás elemzési adatait, és összefoglalót tesz a csatornára.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=iskolai fenntartói ülés>>>
+Az iskolaszék ülésének teendői. Aldous elnökasszony levelet ír a tankerületnek a tetőjavítás ütemezéséről. Banerjee úr a hónap 14-ig körbeküldi a viselkedési szabályzat tervezetét minden tagnak. Cseh asszony jövő hónapban meglátogatja a hatodikos osztályokat, és írásban beszámol. A jegyző frissíti az összeférhetetlenségi nyilvántartást, és emlékeztetőt küld a három tagnak, akik nem adták vissza a nyomtatványt. A pénzügyi albizottság december 2-án ül össze a költési terv áttekintésére.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=logisztikai gyors egyeztetés>>>
+Logisztikai gyorsegyeztetés. A főszezon két hét múlva kezdődik, és a depóban kevés a sofőr. Teendők: Mustafa felveszi a kapcsolatot két ügynökséggel, és péntekig lefoglal hat ideiglenes sofőrt. Gréta átdolgozza az északi régió szállítási útvonalait, és megosztja az új térképet a tervezőkkel. Hákon átnézi a szervizre váró kisteherautókat, és időpontot foglal a műhelybe. Cecília tájékoztatót küld az ügyfeleknek a lehetséges késésekről és a rendelési határidőkről.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=jogi csapat heti>>>
+Jogi heti egyeztetés. Téma: a módosított adatfeldolgozási megállapodás, a spanyolországi védjegyvita és a bérleti szerződés megújítása. Következő lépések: Imola ma elküldi a módosított megállapodást a másik félnek, a változások követésével. Rafael megkeresi a spanyol ügyvivőt állásfrissítésért, és becsült határidőt kér. Walter átolvassa a bérleti feltételeket, és összefoglalja a három legnagyobb változást az ingatlanigazgatónak. Mindenki péntek előtt frissíti az ügykövetőt.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=termék ütemterv műhely>>>
+Ütemterv-műhely eredménye. A következő fél évre öt tételt tartottunk meg, kettőt félretettünk. Felelősök: Delfina a riportfrissítésért, április 14-ig írja meg az összefoglalót. Samu a mobilalkalmazás értesítéseiért, az első tervek április 21-re készülnek. Karin a tíz legfontosabb ügyféllel beszél az integrációkról, és rangsorolt listát hoz. Eivind az összefoglaló elkészülte után frissíti a nyilvános ütemterv-prezentációt. Ada termékigazgató májusban hagyja jóvá a végleges változatot.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=kórházi osztályértekezlet>>>
+A 4B osztály csapatértekezlete. Szó volt a létszámról és az új átadás-átvételi űrlapról. Teendők: Okoye főnővér szól a beosztást készítő kollégának a hónap 20-i hétvége éjszakai pótlásáról. Taylor nővér egy hétig kipróbálja az új átadás-átvételi űrlapot, és összegyűjti a véleményeket. Dr. Mehta egyeztet a gyógyszertárral a kiadási gyógyszerek késéséről. Pál egészségügyi asszisztens feltölti az eszközkocsit, és frissíti az ajtón lévő listát. Következő megbeszélés: a jövő hónap első hétfője.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=startup alapítói megbeszélés>>>
+Alapítók heti egyeztetése. A pénzünk tizenegy hónapra elég. Megegyeztünk, hogy januárban elkezdjük a befektetői beszélgetéseket. Ezen a héten: Lukács frissíti a pénzügyi modellt az új felvételi tervvel, és elküldi Sofiának. Sofia szerdáig megírja a novemberi befektetői levelet, és véleményezésre megosztja. Jin két ügyfélreferencia-hívást szervez a lehetséges befektetőknek. Lukács megkérdezi a könyvelőt a kutatás-fejlesztési adókedvezményről. Pénteken 9-kor találkozunk egy kávéra.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=építési terepi megbeszélés>>>
+A 17. helyszíni megbeszélés, Kikötőkilátó beruházás. A 3. szint betonozása az eső miatt csúszik. Teendők: Darázs építésvezető szerdáig kiadja a módosított ütemtervet minden szakágnak. Liam alvállalkozó visszaigazolja az ablakelemek érkezésének napját. Beatrix mérnök betonozás előtt megvizsgálja a vasalást, és aláírja az ellenőrzőlistát. Károly munkavédelmi felelős hétfő reggel eligazítást tart a magasban végzett munkáról. Osei úr, a megrendelő képviselője jóváhagyja a lépcsőház módosítási megrendelését.
+<<<END>>>

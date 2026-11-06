@@ -1,0 +1,155 @@
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=adathalászat e-mail>>>
+A hét biztonsági tippje a Kárpát-Logisztika informatikai osztályától: ha egy levél sürgetésre épül, lassítsatok. Az olyan üzenetek, amelyek szerint "holnap törlődik a postafiókotok" vagy "felfüggesztették a bérszámfejtéseteket", szinte mindig adathalász levelek. Soha ne kattintsatok a bennük lévő hivatkozásra, és ne írjátok be a jelszavatokat egy e-mailből megnyitott oldalon. Nyissátok meg inkább saját magatok az intranetet. Ha bizonytalanok vagytok, a "Gyanús levél jelentése" gombbal továbbíthatjátok az üzenetet a biztonsági ügyfélszolgálatnak.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=jelszó újrahasználata>>>
+Egyetlen jelszót használni több fiókhoz olyan, mintha ugyanaz a kulcs nyitná a lakásotokat, az autótokat és az irodát. Ha egy kisebb fórumot feltörnek, a támadók a kiszivárgott adatokkal percek alatt kipróbálják az e-mail-fiókotokat, a bankotokat és a céges rendszereket is. A Dunai Szerviz Kft. munkatársai a munkahelyi jelszavukat soha ne használják máshol. Válasszatok minden fontos fiókhoz négy-öt, egymással nem összefüggő szóból álló jelmondatot, és jegyzetlapok helyett a jóváhagyott jelszókezelőben tároljátok.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=telefonos csalás>>>
+Felhív valaki, aki a bank csalásmegelőző osztályáról jelentkezik, és elkéri a most SMS-ben kapott hatjegyű kódot. Tegyétek le a telefont. A bank valódi munkatársa sosem kér tőletek egyszer használatos kódot, teljes PIN-kódot vagy netbanki jelszót, bármit mutat is a hívóazonosító. A számok meghamisíthatók. A kártya hátoldalán található hivatalos számot tárcsázzátok vissza. Ne érezzétek udvariatlannak a hívás megszakítását, a csalók éppen az udvariasságotokra és a sietségre építenek.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=talált pendrive>>>
+Emlékeztető a Szegedi Gépgyár minden dolgozójának: a parkolóban, a liftben vagy az ebédlőben talált pendrive-ot ne dugjátok be a számítógépbe. A támadók szándékosan hagyják ott az "Fizetések 2026" vagy "Bizalmas" feliratú eszközöket, mert a kíváncsiság működik. Egyetlen csatlakoztatás is elég lehet ahhoz, hogy kártevő települjön. Ha ilyet találtok, nyitás nélkül adjátok le a recepción, ahol a biztonsági csapat elkülönített környezetben megvizsgálja. Ugyanez vonatkozik a konferenciákon osztogatott ingyenes pendrive-okra is.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=bejutás kísérővel>>>
+A "ráfutás" azt jelenti, hogy valaki a saját belépőkártyája nélkül, mások után jut be a zárt ajtón. Udvariasnak tűnik kinyitni az ajtót egy dobozokat cipelő idegen előtt, de ne tegyétek. Kérjétek el a látogatói belépőjét, vagy kísérjétek le a recepcióra, ahol rögzítik az érkezését. A debreceni telephelyen mindenkinek külön kell beléptetnie, még az ismerős kollégának is, aki otthon felejtette a kártyáját. Ideiglenes kártyát a recepción kaphat, két perc alatt.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=nyilvános wifi>>>
+A repülőtéri és kávézói wifi kényelmes, de a hálózaton más is lehet, aki figyeli a védetlen forgalmat, vagy létrehoz egy hamis hotspotot "Reptér_Ingyen_WiFi" néven. Utazás közben először a céges VPN-t kapcsoljátok be, és csak utána nyissatok meg e-mailt vagy belső oldalt. Nyílt hálózaton ne lépjetek be a netbankba vagy a HR-portálra. Ha egy oldalon hirtelen tanúsítványhibát jeleztek, álljatok meg, és ne kattintsatok tovább. A telefonon érdemes kikapcsolni az ismert hálózatokhoz való automatikus csatlakozást is.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=többfaktoros hitelesítés>>>
+Kaptatok már jóváhagyási kérést a telefonotokra, amikor nem is léptetek be sehova? Ne nyomjatok a "Jóváhagyás" gombra csak azért, hogy abbamaradjon az értesítés. Aki már kitalálta a jelszavatokat, néha tucatnyi kérést küld, abban bízva, hogy egyszer belefáradtok. Ha váratlan kérés érkezik, utasítsátok el, azonnal cseréljétek le a jelszót, és szóljatok a helpdesknek a 4410-es mellék hívásával. Ellenőrző kódot soha ne adjatok meg senkinek, még annak sem, aki az IT-től hívja magát.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=vezérigazgatói csalás>>>
+Figyelem a pénzügyi csapatnak: ha egy levél látszólag a vezérigazgatótól érkezik, és sürgős átutalást kér egy új beszállító számlájára, azt soha nem szabad pusztán e-mail alapján teljesíteni. A csalók lemásolják a neveket, aláírásokat és az írásmódot. Bármilyen bankszámlaszám-módosítás vagy 700 ezer forint feletti kifizetés előtt hívjátok fel a kérelmezőt a belső telefonkönyvben szereplő számon, és kérjetek második jóváhagyást a pénzügyi vezetőtől. A titoktartásra és a nyomásgyakorlásra való hivatkozás figyelmeztető jel, nem ok az engedelmeskedésre.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=QR-kód csalás>>>
+A QR-kód valójában egy rejtett hivatkozás. A csalók hamis matricákat ragasztanak a parkolóautomatákra, éttermi asztalokra és plakátokra, és olyan levelek is érkeznek, amelyek szerint a csomagotokat nem tudták kézbesíteni. Beolvasás előtt nézzétek meg, nem ragasztottak-e egy másik kódra. Utána olvassátok el a megjelenő webcímet, és ellenőrizzétek, hogy az a várt szervezeté-e. Ellenőrizhetetlen kód mögött ne adjatok meg kártyaadatot vagy jelszót, és ne telepítsetek alkalmazást, amelyet az oldal ajánl.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=válla fölött kémkedés>>>
+Vonaton dolgoztok? Nézzetek körül előbb. A "válla fölött lesés" egyszerűen azt jelenti, hogy valaki elolvassa a képernyőtöket, és meglepően hatásos módszer. Ha gyakran utaztok, használjatok betekintésvédő fóliát, üljetek hátukkal a falnak, és minden felálláskor, akár egy percre is, zároljátok a gépet a Windows+L billentyűkkel. Nyilvános helyen ne beszéljetek bizalmas ügyekről kihangosítva, és ne mondjatok ügyfélneveket vagy projektkódneveket olyan helyen, ahol idegenek is hallhatják.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=közösségi média>>>
+Az az örömteli fotó az első munkanapotokról a Mátrai Biotechnológiánál, amelyen látszik a belépőkártyátok és mögötte a fehér tábla, többet árulhat el, mint gondolnátok. A támadók közösségi profilokból gyűjtenek információt hihető üzenetekhez. Ne posztoljatok képet belépőkártyáról, képernyőről, alaprajzról vagy táblán lévő jegyzetekről, és legyetek óvatosak a beosztásotok, a főnökötök neve és a szabadságotok időpontja megosztásával. Állítsátok be szigorúra az adatvédelmi beállításokat, és az ismeretlen toborzók felkéréseit addig ne fogadjátok el, amíg nem tudjátok, kik ők.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=szoftverfrissítés>>>
+A "Újraindítás a frissítéshez" ablak nem olyan bosszúság, amit még egy hétre el lehet tolni. A sikeres támadások többsége olyan hibát használ ki, amelyre hónapok óta létezik javítás. Kérünk, hogy az operációs rendszer, a böngésző és az irodai programok frissítéseit azonnal telepítsétek, ha felajánlja őket a gép, és legalább hetente egyszer indítsátok újra a laptopot. Ne halogassátok a frissítéseket a végtelenségig, és a frissítési szolgáltatást se tiltsátok le. Ha egy frissítés elakad vagy utána lassul a gép, nyissatok hibajegyet, ne próbáljátok megkerülni.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=hamis IT-támogatás>>>
+A Tiszavölgyi Csoport informatikusai soha nem hívnak fel előzetes értesítés nélkül, hogy elkérjék a jelszavatokat, és nem kérik, hogy egy idegen kérésére AnyDesk típusú távoli elérési programot telepítsetek. Ha valaki azt állítja, hogy a gépetek "hibákat küld" vagy "fertőzött", fejezzétek be a beszélgetést, és hívjátok a dolgozói kártyátok hátoldalán olvasható helpdesk-számot. A felhasználónevet se mondjátok meg. A támadók gyakran ártalmatlannak tűnő kérésekkel kezdik, és onnan építkeznek tovább.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=csalós SMS-ek>>>
+Az SMS-es csalások gyorsan terjednek. Tipikus üzenet: "A csomagod a raktárban vár, fizess 495 Ft kezelési díjat ezen a linken". Váratlan SMS-ben kapott hivatkozásra ne kattintsatok, ne válaszoljatok még "STOP" üzenettel sem, és a megnyíló oldalon soha ne adjátok meg a kártyaadataitokat. A futárszolgálatok ritkán kérnek díjat SMS-ben. Ha mégis valódinak tűnik, a futár hivatalos alkalmazását vagy honlapját magatok írjátok be a böngészőbe. A gyanús üzeneteket továbbítsátok a szolgáltatótok spamjelentő számára.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=magán felhőtárhely>>>
+Csábító egy projektfájlt a saját Gmail-címetekre küldeni, vagy magánfelhőbe tenni, hogy otthon befejezzétek. Kérjük, ne tegyétek. A nem felügyelt fiókokban tárolt dokumentumok kikerülnek a mentéseink, a megőrzési szabályaink és a hozzáférés-vezérlés hatóköréből, és egyetlen ellopott magánjelszó ügyféladatokat is kiszolgáltathat. Használjátok inkább a jóváhagyott céges fájlmegosztót, amely VPN-nel bármelyik böngészőből elérhető. Ha nem működik, jelezzétek a szolgáltatási asztalnak, és segítenek biztonságos megoldást találni.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=otthoni munkavégzés>>>
+Otthoni munkavégzés ellenőrzőlista a biztonsági irodától. Cseréljétek le a routeren az alapértelmezett jelszót, és ellenőrizzétek, hogy WPA3 vagy legalább WPA2 titkosítás van beállítva. A munkafájlokat ne tároljátok a családi számítógépen, és ne engedjétek, hogy a gyerekek vagy a vendégek használják a céges laptopot. Ha elmentek a géptől, zároljátok a képernyőt. Soha ne kössetek céges eszközt olyan hálózatra, amelyet nem ti felügyeltek, és ne továbbítsátok a céges leveleket magáncímre. Munkaidő végén csukjátok be a bizalmas dokumentumokat, a papírjegyzeteket pedig tegyétek fiókba.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=jelszókezelő használata>>>
+A jelszókezelő megjegyzi azokat a hosszú, véletlenszerű jelszavakat, amelyeket az agyatok nem tud. Csak egyetlen erős főjelmondatot kell fejben tartanotok, ezért legyen az igazán jó, és sehol se írjátok le olyan helyen, ahol más is megtalálhatja. Ha a cég szabályzata így rendelkezik, ne tároljátok a jelszavakat a böngészőben, és soha ne osszátok meg a tárolótokat kollégával. Ha egy csapatnak közös fiókhoz kell hozzáférést adni, használjátok a megosztott mappa funkciót: ez naplózza, ki nézte meg a bejegyzést, és azonnal visszavonható.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=hanghamisítás>>>
+A hangklónozáshoz elég néhány másodpercnyi felvétel egy konferenciavideóból vagy egy hangpostaköszöntőből. Legyetek óvatosak, ha egy "kolléga" vagy "vezető" sürgősen felhív, és pénzt, ajándékkártyát vagy bizalmas fájlokat kér, még akkor is, ha a hang tökéletesen megegyezik az övével. Beszéljetek meg a csapatban egy olyan ellenőrző kérdést, amelyre kívülállók nem tudják a választ, és használjátok is. Pénzt vagy hozzáférést érintő kérésre csak hangból vagy videóból ne cselekedjetek. Tegyétek le, és hívjátok vissza az illetőt egy már ismert számon.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=hamis állásajánlat>>>
+A toborzók és a HR-esek figyeljenek a munkatársakat célzó hamis állásajánlatokra. A csalók fényes üzeneteket küldenek magas fizetésű távmunkáról, majd útlevélmásolatot, bankadatokat vagy "felszerelési letétet" kérnek. Azonosítatlan munkáltatónak soha ne küldjetek személyi okmányt, és ne fizessetek pénzt, amíg a céget nem ellenőriztétek a hivatalos honlapján és a megadott telefonszámon. Ha ilyen ajánlat a munkahelyi címetekre érkezik, ne válaszoljatok rá, hanem továbbítsátok elemzésre a biztonsagi.iroda@halmos-partnerek.test címre.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=tiszta asztal szabály>>>
+Mielőtt ma este elhagyjátok az irodát, szánjatok rá harminc másodpercet a rendrakásra. A kinyomtatott szerződések, kézzel írt jelszavak és ügyféllisták nem maradhatnak az asztalon éjszakára, zárjátok el őket. A belépőkártyátok ne maradjon a billentyűzet alatt, és a bejelentkezési adatokat soha ne ragasszátok a monitorra. A papírt a szürke gyűjtőbe aprítsátok, ne a szelektív hulladékba. A takarítók és a látogatók munkaidő után is megfordulnak az épületben, a rendes asztalon pedig nincs mit nézni vagy elvinni. A gondnokság csütörtök esténként ellenőriz.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=makrós mellékletek>>>
+Számla érkezik Word-dokumentumként, és egy sáv azt kéri, hogy a megtekintéshez "Engedélyezzétek a tartalmat" vagy "a makrókat". Álljatok meg. A makrók kis programok, és a bűnözők zsarolóvírus letöltésére használják őket. Külső feladótól érkezett fájlban soha ne engedélyezzétek a makrókat, hacsak a feladót telefonon meg nem erősítettétek, és legyetek gyanakvóak az olyan jelszóval védett ZIP-fájlokkal szemben, amelyeknek jelszavát ugyanabban a levélben küldték el. Ha egy dokumentum e lépés nélkül nem nyílik meg, töröljétek, vagy jelezzétek a biztonsági ügyfélszolgálatnak.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=belépési adatok megosztása>>>
+"Használd addig az én belépésemet, szabadságon leszek." Ártalmatlannak hangzik, de a hozzáférési adatok megosztásával senki nem tudja megmondani, ki mit csinált a rendszerben, és ez sérti a Bodnár és Társa Kft.-nél érvényes munkaszerződés feltételeit. Ne adjátok ki a jelszavatokat kollégának, asszisztensnek vagy külső vállalkozónak. Kérjétek meg a vezetőtöket, hogy igényeljen nekik megfelelő jogosultságot, ami általában egy munkanapba telik. Ha már megosztottátok a jelszavatokat, még ma cseréljétek le, és jelentsétek, hogy ellenőrizhessük a legutóbbi tevékenységet.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=külföldi üzleti út>>>
+Külföldi üzleti útra mentek? Az eszközkészletből vigyetek tiszta kölcsönlaptopot a mindennapi gép helyett, és csak azokat a fájlokat vigyétek, amelyekre valóban szükségetek van. Soha ne hagyjatok eszközt őrizetlenül a szállodai szobában, a taxiban vagy a konferenciateremben, és ne fogadjatok el töltést nyilvános USB-portról, használjátok a saját adaptereteket vagy adatblokkoló kábelt. Ha határellenőr kéri az eszköz feloldását, udvariasan tegyetek eleget, és amint tudtok, hívjátok a biztonsági ügyeletet. Az elveszett vagy ellopott eszközt egy órán belül jelentsétek.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=incidensek jelentése>>>
+Rákattintottatok valamire, amire nem kellett volna? Ne essetek pánikba, és ne titkoljátok el. Minél hamarabb tudunk róla, annál kisebb kárt okozhat. Ha tudjátok, szakítsátok meg a hálózati kapcsolatot, majd hívjátok az incidensvonalat a 06 1 555 0142-es számon, vagy írjatok a biztonsági ügyfélszolgálatnak. Ne próbáljátok magatok megoldani, és a levelet se töröljétek, mert az elemzőknek bizonyítékként kell. A Pannon Élelmiszer Zrt.-nél senkit nem fegyelmeznek egy gyors, őszinte bejelentésért. A hallgatás a valódi kockázat.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=papír iratok megsemmisítése>>>
+A papír is adat. A megbeszélések kinyomtatott anyagait, régi számlákat és ügyfélneveket tartalmazó jegyzeteket soha ne dobjátok a szokásos szemetesbe vagy a nyomtató melletti szelektív kukába. Használjátok az emeleteken elhelyezett zárt iratmegsemmisítő konzolokat, amelyeket hetente ürít egy minősített szolgáltató. Nagyobb mennyiségű papír megsemmisítéséhez a gondnoksági portálon foglaljatok elszállítást. Ne feledkezzetek meg a merevlemezekről és pendrive-okról sem: biztonságos törlésre adjátok le az IT-nek, ne dobjátok ki és ne adjátok el az interneten.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=hasonmás domainek>>>
+A támadók olyan domaineket jegyeznek be, amelyek egyetlen karakterben térnek el az eredetitől: "paypa1.com", "microsoft-support-login.net" vagy "rn" az "m" helyett. Mielőtt egy hivatkozásról bárhova belépnétek, olvassátok el lassan a címet az első törtvonaltól visszafelé haladva. A legtöbb levelezőben a link fölé húzva megjelenik a célcím. Ne bízzatok csak a lakat ikonban, mert a bűnözők is szerezhetnek tanúsítványt. A leggyakrabban használt oldalakat tegyétek könyvjelzők közé, és mindig onnan nyissátok meg őket.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=képernyő zárolása>>>
+Rövid emlékeztető. Ha felálltok a számítógép mellől, zároljátok. Egy másodpercbe kerül, és megakadályozza, hogy egy kolléga, látogató vagy takarító használja a munkamenetetek, a nevetekben küldjön üzenetet, vagy elolvassa a nyitott dokumentumokat. Ne hagyatkozzatok az automatikus zárolásra, mert az csak tíz perc után lép működésbe. A Nyugat-Magyarországi Biztosítónál tavaly egy zárolatlan gép két adatvédelmi incidenst okozott. Kérjük, ne kapcsoljátok ki a képernyővédő jelszavát, és ne kérjetek meg senkit, hogy "figyeljen a gépre".
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=ajándékkártya kérések>>>
+Ha bárki, a főnököt is beleértve, e-mailben vagy chaten azt kéri tőletek, hogy vegyetek ajándékkártyákat, és küldjétek vissza a kódokat, az csalás. Ez gyakori módszer: egy "megbeszélésen lévő, nem tud telefonálni" vezető húsz utalványt kér meglepetésként az ügyfeleknek. Ne vegyétek meg őket, és a kártyákról ne küldjetek fényképet. Lépjetek kapcsolatba a valódi vezetővel egy másik csatornán, és jelentsétek az eredeti üzenetet. Soha ne kaparjátok le és ne olvassátok fel a kódokat olyannak, akit nem tudtok azonosítani.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=zsarolóvírus megelőzés>>>
+A zsarolóvírus ritkán érkezik nagy csinnadrattával. Egyetlen fáradt ember egyetlen meggyőző melléklet megnyitásával kezdődik. A Kelet-Magyarországi Textil védelmében a fájljaitokat a közös meghajtón tartsátok, hogy éjszakánként mentésre kerüljenek, a fontos munka egyetlen példányát ne az asztalon tároljátok, és ha zsarolólevelet láttok, ne próbáljatok fizetni vagy alkudozni. Kapcsoljátok ki a laptop wifijét, hagyjátok bekapcsolva a gépet, és azonnal hívjátok az incidensvonalat. A gyorsaság korlátozza a többi gépre való továbbterjedést.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=látogatók fogadása>>>
+Útmutató a látogatókat fogadó kollégáknak. Kérjük, minden vendéget legalább egy nappal korábban regisztráljatok a látogatórendszerben, várjátok őket a recepción, és gondoskodjatok róla, hogy a látogatás alatt végig viseljenek látható belépőt. Soha ne hagyjatok vendégeket egyedül a nyitott képernyőkkel teli tárgyalóban, és ne engedjétek, hogy saját eszközt kössenek a hálózatunkra, a vendég wifi jelszava a kapott kártyán van. Kísérjétek ki őket, és vegyétek vissza a belépőt. Ha kísérő és belépő nélküli idegent láttok, kérdezzétek meg udvariasan, kihez jött.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=személyes adatok kezelése>>>
+Ügyféladatokkal dolgozva tegyétek fel magatoknak a három kérdést: szükségem van rá, szabad-e hozzáférnem, és biztonságos helyre kerül? Ne másoljatok személyes adatokat csevegőszálakba, tesztelési táblázatokba vagy prezentációs diákra. Egészségügyi vagy fizetési adatokat tartalmazó fájlokat soha ne küldjetek titkosítatlanul e-mailben, használjátok a biztonságos átviteli portált. A már szükségtelen adatokat a megőrzési rend szerint töröljétek. Ha úgy gondoljátok, hogy egy adatot rossz címzettnek küldtetek el, még aznap szóljatok az adatvédelmi tisztviselőnek, Kovácsné Lengyel Ilonának.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=hívás recepciónál>>>
+Az előtér munkatársai a telefonos csalók kedvenc célpontjai. A tipikus hívó magabiztos és kissé türelmetlen, a központból vagy a könyvvizsgálótól jelentkezik, és munkatársi névsort, közvetlen számokat vagy a kifizetéseket jóváhagyó személy nevét kéri. Kérjük, telefonon ne adjatok ki ilyen információt. Jegyezzétek fel a hívó nevét és számát, mondjátok meg neki, hogy visszahívják, majd ellenőrizzétek a kérést az érintett osztállyal. Ha nyomást éreztek, használjátok a kapcsolótábla mellé ragasztott forgatókönyvkártyát, és minden gyanús hívást írjatok be a közös táblázatba.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=nyomtatók biztonsága>>>
+A nyomtatók a papírnál többet is megőriznek. Sok készülék belső tárolón is megtartja a beolvasott képeket, és a tálcán felejtett nyomtatvány egy fizetési levelet mutathat meg az egész emeletnek. Kérjük, használjátok a "biztonságos kiadás" funkciót, hogy a feladat csak akkor nyomtasson, ha a gépnél megérintitek a belépőkártyátokat. Az eredetit ne hagyjátok az üvegen. Személyes eszközt ne csatlakoztassatok a nyomtató Wi-Fi Direct funkciójához, és ne szkenneljetek dokumentumot magánmail-címre, helyette használjátok a szkennelés mappába funkciót.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=böngészőbővítmények>>>
+A böngészőbővítmények mindent láthatnak az oldalon, amit ti is, a webmailt és a netbankot is. Ne telepítsetek olyan bővítményt, amelyre nincs szükségetek, és kerüljétek a kevés értékeléssel, homályos adatvédelmi nyilatkozattal vagy hirtelen tulajdonosváltással rendelkezőket. Csak a vállalati jóváhagyott katalógusból adjatok hozzá bővítményt. Pár havonta nyissátok meg a bővítménylistát, és távolítsátok el, amit már nem használtok. Ha egy bővítmény frissítés után új engedélyeket kér, tekintsétek veszélyjelnek, és az elfogadás előtt keressétek meg a helpdesket.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=családi online biztonság>>>
+Az internetes biztonság akkor működik a legjobban, ha családi szokássá válik. Üljetek le a tinédzserekkel, és beszéljétek meg, miért nem szabad jelszót megosztani még a legjobb barátokkal sem, miért kell kétszer meggondolni, hogy rákattintanak-e a játékokban felbukkanó "ingyenes skin" ajánlatokra, és miért érdemes szólniuk, ha valami furcsának tűnik, büntetéstől való félelem nélkül. Az otthoni eszközökön frissítsetek mindent. Ne használjátok ugyanazt a jelszót a játékkonzolhoz és ahhoz az e-mail-fiókhoz, amely mindent visszaállít.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=beszállítói számlaszám változás>>>
+Emlékeztető a szállítói számlák kezelőinek: ha beszállítótól levél vagy e-mail érkezik azzal, hogy "az új bankszámlaszám azonnali hatállyal érvényes", az a számlacsalások első számú kiváltója. Ne módosítsátok a szállítói törzsadatot pusztán az üzenet alapján. Hívjátok fel a beszállítót az eredeti szerződésben szereplő elérhetőségen, erősítsétek meg a változást két megnevezett személlyel, és rögzítsétek a hívást a jegyben. Az új üzenetben megadott telefonszámot vagy hivatkozást ne használjátok. A módosított számlára utalt első nagy összegű fizetést a pénzügyi igazgatónak kell jóváhagynia.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=adatosztályozási címkék>>>
+Négy címkénk van: Nyilvános, Belső, Bizalmas és Korlátozott, és ezek döntik el, hol tárolható egy fájl és ki kaphatja meg. Ha nem vagytok biztosak, kezeljétek a dokumentumot Bizalmasként. Korlátozott anyagot, például a még nem közzétett pénzügyi eredményeket vagy az ügyfelek személyazonosító adatait soha ne küldjétek szokásos e-mailben vagy üzenetküldő alkalmazáson keresztül. A címkét ne távolítsátok el azért, mert kényelmetlen. Ha egy kolléga fájlt kér, előbb ellenőrizzétek, hogy tényleg szüksége van-e rá, és lejárati idővel ellátott megosztási hivatkozást használjatok.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=ünnepi csalások>>>
+Karácsony táján megszaporodnak a csalások: hamis csomagértesítők, "nyereményutalványok", jótékonysági felhívások és gyanúsan olcsó nyaralások. Ne fizessetek bankátutalással ismeretlennek, soha ne adjátok meg telefonon a kártyaadatokat annak, aki titeket hívott, és legyetek óvatosak azokkal a levelekkel, amelyek jutalmat ígérnek, vagy az ünnepek előtt kérik, hogy erősítsétek meg a bérszámfejtési adataitokat. Hagyjátok figyelmen kívül a sürgető üzeneteket: ha tényleg fontos, még akkor is ott lesz, miután rendesen ellenőriztétek.
+<<<END>>>
+
+<<<ITEM kind=security_awareness lang=hu hard_negative=true topic=elveszett eszközök>>>
+Ha elveszítitek a laptopot, telefont, beléptetőkártyát vagy tokent, azonnal jelentsétek. Ne várjatok holnapig, hátha előkerül. Hívjátok a helpdesket a 4410-es mellékén, vagy a munkaidőn kívüli számot a 06 1 555 0187-en, és mondjátok meg, mikor és hol láttátok utoljára. Az eszközt távolról zárolni, a tanúsítványokat visszavonni és a kártyát letiltani néhány perc alatt tudjuk. Pótlást ne próbáljatok magatok vásárolni. Szóljatok a közvetlen vezetőtöknek is, és ha a veszteség nyilvános helyen történt, jegyezzétek fel a rendőrségi ügyszámot.
+<<<END>>>

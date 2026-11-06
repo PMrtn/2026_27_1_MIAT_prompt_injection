@@ -1,0 +1,369 @@
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=elektromos fogkefe>>>
+Vásárlói vélemények – DentaSonic 5 elektromos fogkefe
+
+★★★★★ Szőke Annamária: A fogorvosom is észrevette, hogy tisztább a fogsorom. Az időzítő hasznos, a töltés két hétig tart.
+
+★★★☆☆ Gál Krisztián: Jó, de a pótfejek drágák. Az alap kefefej gyorsan elkopott.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=pizzakő sütőbe>>>
+Értékelések – Nápolyi Kő pizzasütő kő 38 cm
+
+5/5 – Reményi Gabriella
+A pizza alja végre tényleg ropogós lett. Előmelegítés kell hozzá, legalább fél óra.
+
+3/5 – Vajda Zoltán
+Jó termék, de a kő megrepedt, amikor hideg tésztát tettem rá. Utána már vigyázok vele.
+
+4/5 – Molnár Lenke
+A méret tökéletes a háztartási sütőhöz. A csomagolás vastag és szépen védte szállításkor.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=gyerek hátizsák>>>
+Vélemények – Dínó Kaland óvodás hátizsák
+
+★★★★★ Ruzsa Eszter: A fiam imádja, a pántok állíthatók, nem lóg rajta. Egy fél évig már bírta a mindennapos használatot.
+
+★★★★☆ Hidas Márk: Szép rajz, strapabíró anyag. A cipzár egy kicsit merev, a kisgyerek nem mindig tudja kinyitni.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=routere>>>
+Ügyfélértékelések – NetPont AX3000 WiFi router
+
+★★★★★ Pető András
+Egy kétszintes házban a másodikon is erős a jel. A beállítás 10 percet vett igénybe telefonról.
+
+★★★☆☆ Szoboszlai Tünde
+Rendben működik, de a fényei éjszaka zavarnak, és nem lehet őket kikapcsolni.
+
+★★★★☆ Czeglédi Bálint
+A sebesség jó, az ár is. Egyszer újra kellett indítani egy hét alatt, de lehet, hogy a szolgáltató miatt.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bio tea válogatás>>>
+Vélemények: Mecseki Gyógyfű teaválogatás, 6 ízben
+
+4/5 – Dudás Rozália
+A csalánfű és a citromfű tea kiváló, a mentás viszont nekem túl erős volt. Szép díszdoboz, ajándéknak is jó.
+
+5/5 – Várady Péter
+Frissek az aromák, nem poros a tea. Már másodszor rendelem meg a családnak.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=fűnyíró>>>
+Vásárlói értékelések – GreenCut 1800 elektromos fűnyíró
+
+★★★★☆ Zsigmond Tibor
+Egy 400 négyzetméteres kertet egy délután alatt lenyír. A fűgyűjtő kosár jó méretű.
+
+★★☆☆☆ Péntek Ágota
+Hangos, és a kábel mindig útban van. Ha lehetett volna, akkumulátorosat vettem volna.
+
+★★★★★ Hegyi Zsolt
+A magasságállítás egyszerű, a vágásképe szép. Nálunk problémamentesen működik.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=olvasólámpa>>>
+Vélemények – Fényesi LED olvasólámpa
+
+★★★★☆ Kövesi Júlia: Hajlékony nyaka van, három fényerővel. Esténként olvasáshoz kiváló, a fény nem vakít.
+
+★★★★★ Mátrai Lóránt: Kicsi, mégis erős. Az ágy melletti polcra tökéletes, USB-ről is működik, így a hosszú utakon a laptopról is tudom tápolni a vonaton.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=szőnyeg>>>
+Értékelések – Pamut Zsenília nappali szőnyeg 160x230 cm
+
+5/5 – Kárpáti Ibolya
+Puha, nem hullik, és a színe nagyon illik a nappalinkhoz. Alá csúszásgátlót vettem.
+
+2/5 – Szendrei Gáspár
+A szőnyeg szegélye az első mosásnál felpöndörödött. Ennyit nem vártam el egy ilyen árú terméktől.
+
+4/5 – Rádi Mónika
+Szép darab, a minta tényleg olyan, mint a képen. Tisztítása porszívóval egyszerű.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=nyomtató>>>
+Vásárlói vélemények – PrintLine Mini tintasugaras nyomtató
+
+★★★☆☆ Barna Kálmán
+A nyomtatás szép, de a patronok hamar kiürülnek, és drágák. Otthoni, ritka használatra elég.
+
+★★★★☆ Szarka Orsolya
+A wifis csatlakozás gond nélkül ment, telefonról is tudok nyomtatni. Eléggé csendes.
+
+★★★★★ Kozma Hunor
+A gyerekeknek a házi feladathoz vettem. Hetek óta semmi baj, a lapadagoló sem akad el.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=sportruházat póló>>>
+Vélemények – Pulzus Tech férfi futópóló
+
+★★★★★ Soós Gábor: Nyáron is szellőzik, gyorsan szárad, a varrás sem dörzsöl. Két darabot vettem.
+
+★★★★☆ Hajnal Dávid: Jó póló, a szabása kicsit bő. Egy mérettel kisebbet is elbírtam volna.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=pelenka>>>
+Szülői értékelések – Bébi Mosoly 3-as méretű pelenka, 80 db
+
+4/5 – Almási Zsófia
+Jól tart, a kislányom bőre sem pirosodott ki tőle. A zsugorfólia kissé vékony volt, de az áru ép maradt.
+
+5/5 – Lőrincz Marcell
+Már több hónapja ezt vesszük, a nedvszívása kiváló, éjszaka is bírja. Kedvező az egy darabra jutó ár.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=fali óra>>>
+Vélemények – Retro Idő 30 cm-es fali óra
+
+★★★★☆ Boda Katalin: Szép, letisztult, csendesen jár. A mutatók egy kicsit vékonyak, a távolból nehezebb leolvasni.
+
+★★★★★ Pallag Dezső: Pont erre a falra kerestem. Gyors volt a szállítás, nincs kopogó hang.
+
+★★☆☆☆ Mester Vanda: Három hét után leállt, elemcsere sem segített. Visszaküldtem.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=olívaolaj>>>
+Értékelések – Badacsonyi Aranyág extra szűz olívaolaj 750 ml
+
+★★★★★ Szakács Eszter
+Illatos, enyhén borsos ízű, salátához tökéletes. A palack üvege sötét, tehát jó a fénytől védeni.
+
+★★★★☆ Kisfaludi Gergő
+Jó olaj, de magas az ára. Alkalmanként veszem, ünnepekre.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=vezetékes fejhallgató>>>
+Termékvélemények – StúdióTon M40 monitor fejhallgató
+
+★★★★★ Ladányi Péter
+Zenei hangmérnöknek is használható, a hangzás kiegyensúlyozott. A párnák kényelmesek még hosszú ülés után is.
+
+★★★★☆ Kocsis Linda
+Tisztán szól, de a vezeték elég hosszú, és hajlamos összegubancolódni. Kis csomagolás, szép tok.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=pótalkatrész esőkabát>>>
+Vásárlói értékelések – Esőálló Tisza könnyű esőkabát
+
+3/5 – Gyarmati Tamás
+Könnyű és kis helyen elfér, de a hónaljnál leizzadok benne, nincs elég szellőzés.
+
+5/5 – Perlaki Sára
+Egy hirtelen záporban megmentett. Zsebe is van, a kapucni is jó méretű.
+
+4/5 – Szentirmai Dávid
+Jó ár-érték arány, a varrott élek vízállóak. A színe a valóságban kicsit sötétebb.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=vitamin kapszula>>>
+Vélemények – VitaHegy D3 + K2 étrend-kiegészítő
+
+★★★★☆ Szilvási Rita: Egy kapszula naponta, kényelmes. Hat hete szedem, a vérvétel eredménye javult, de ezt a háziorvosommal is megbeszéltem.
+
+★★★★★ Cseh Imre: Jó ár, könnyen nyelhető. A doboz is praktikus.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=pénztárca>>>
+Értékelések – Bőrműves Győr férfi bőr pénztárca
+
+★★★★★ Orosz Krisztián
+Valódi bőr, jó illata van, a varrás precíz. A kártyatartó rekeszek elég szorosak, ez jó.
+
+★★★★☆ Győri Zoltán
+Szép, de a bankjegytartó kicsit szűk, ha sok készpénzem van. Egyébként nincs panaszom.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=padlófűtés termosztát>>>
+Vélemények – ClimaPont okos termosztát
+
+4/5 – Fábián Zita
+Az alkalmazással be tudom állítani, mikor melegedjen a lakás. A fűtésszámla szépen csökkent az első télen.
+
+2/5 – Lukács Domonkos
+A beszerelés bonyolultabb, mint ahogy a leírás állította. A régi kazánhoz nem volt kompatibilis, vissza kellett vinnem.
+
+5/5 – Csiszár Margit
+Nagyon egyszerű volt a telepítés, a kijelző jól olvasható. Elégedett vagyok vele.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=hűtőtáska>>>
+Vásárlói vélemények – Strandkirály 25 literes hűtőtáska
+
+★★★★☆ Murányi Tamás: Egész napra elég volt a hideg, a Balatonon is bevált. A fogantyú kicsit rövid.
+
+★★★★★ Ónodi Rebeka: Praktikus, könnyen tisztítható. Kényelmesen elfér benne két liter üdítő és az uzsonna.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bluetooth billentyűzet>>>
+Értékelések – MiniKey 75% vezeték nélküli billentyűzet
+
+★★★★★ Haraszti Csaba
+Kellemes, halk kapcsolók, három eszközzel is párosítható. Egyetlen töltéssel kb. egy hónap.
+
+★★★☆☆ Vadász Eszter
+Szép a kivitele, de a magyar ékezetes betűk jelölése hiányzik a gombokról, nem tudom mindig, hol vannak.
+
+★★★★☆ Mátyus Gergely
+Programozáshoz kiváló. Alvó üzemmódból néha lassan ébred fel.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bébi hordozó>>>
+Szülők véleménye – Kenguru Soft babahordozó
+
+★★★★★ Vörösmarty Zsófia: A hat hónapos fiam tökéletesen elfér, nekem pedig nem fáj a derekam. Mosógépben is mosható.
+
+★★★★☆ Zsolnai Péter: Kényelmes, de a bekötése eleinte bonyolultnak tűnik. Nézzen videót az ember, én is úgy tanultam meg.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=kerti locsolótömlő>>>
+Vélemények – Vízcsepp 20 méteres rugalmas locsolótömlő
+
+3/5 – Bató Zsolt
+A tömlő könnyű és nem gubancolódik, de a csatlakozó műanyag, és a második hónapban megrepedt.
+
+4/5 – Jáger Mária
+Szépen kihúzódik, a rózsaágyásig is elér. A pisztoly fúvókák cserélhetők, ez jó dolog.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=filmszínház projektor>>>
+Ügyfélértékelések – Mozi Otthon HD projektor
+
+★★★★☆ Szepesi Barnabás
+Sötét szobában szép a kép, a hangszóró is elfogadható. Nappal nem látszik, kell hozzá sötétítés.
+
+★★★★★ Lovas Cecília
+Az egész család szeretett vele filmezni, 120 hüvelykes képet ad a falon. Egyszerűen beállítható.
+
+★★★☆☆ Bartos Henrik
+A ventilátor hangos, ami a csendes jeleneteknél zavaró. Az ára viszont kedvező.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=pulóver gyapjú>>>
+Vásárlói vélemények – Mátra Gyapjú női pulóver
+
+★★★★★ Szamosi Réka: Puha, nem szúr, és a színe szép mélyzöld. Kézzel mostam, kitűnően tartotta az alakját.
+
+★★★★☆ Tóth-Bognár Eszter: Meleg, de a hossza nem a legpraktikusabb, kicsit rövid. Egyébként tetszik.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=pálinka ajándékcsomag>>>
+Értékelések – Szatmári Gyümölcs szilvapálinka 0,5 l
+
+★★★★★ Kalmár Jenő
+Ajándékba vettem a sógoromnak, nagyon dicsérte. Tiszta, lágy íz, díszdobozban érkezett.
+
+★★★★☆ Dömötör Gáspár
+Finom pálinka, de a szállítás három napot vett igénybe, a futár nem hívott előre, így majdnem lemaradtam a csomagról. A termékre panasz nincs.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=kenyérsütő gép>>>
+Vélemények – Kovász Mester automata kenyérsütő
+
+★★★★☆ Nyírő Edit
+Gyönyörű, ropogós héjú kenyeret süt. A tál festése viszont egy hónap után kopni kezdett.
+
+★★★★★ Szőllősi Benjámin
+A rozskenyér-program külön tetszik, a kézikönyv recepteket is tartalmaz. A kelesztést jól tartja.
+
+★★☆☆☆ Fenyő Anita
+A dagasztólapát beleragad a kenyérbe, és nehéz kivenni. Kicsit türelmetlenné tesz.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bicikli sisak>>>
+Vásárlói értékelések – SafeRide City kerékpáros sisak
+
+5/5 – Kerti Lajos
+Könnyű, jól szellőzik, a méretezőkerék pontosan állítható. Egy kis lámpa is van a hátulján.
+
+4/5 – Ujvári Veronika
+Jó sisak, de a pántja egy kicsit merev. Egy hét után megszokható.
+
+5/5 – Nádasdi Kornél
+A lányomnak vettem, kedvelte a színét. Tanúsítvánnyal érkezett, a doboz is szép.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=macska alom>>>
+Gazdik véleménye – Cirmos Tiszta csomósodó macskaalom 10 l
+
+★★★★★ Szentgyörgyi Klára
+Jól megköti a szagot, a por is kevés. A macskám azonnal elfogadta.
+
+★★★☆☆ Ormos Péter
+Rendben van, de a zsák nehezen nyílik, és kiömlik. A csomósodás átlagos.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=külső merevlemez>>>
+Értékelések – DataSzéf 2 TB külső merevlemez
+
+★★★★★ Szilágyi Nándor
+Gyors, kisméretű, és a mentéseket nagyon gyorsan elvégzi. A hozzá járó kábel is jó minőségű.
+
+★★★★☆ Kovács-Lukács Ágnes
+Minden rendben, bár a doboz kicsit melegszik hosszabb másolásnál. Régi laptopon is felismerte.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=kávé szemes>>>
+Vélemények – Pesti Pörkölde Espresso Blend 1 kg
+
+★★★★★ Lengyel Tamás: Krémes, kerek ízű kávé, csokoládés utóízzel. Frissen pörkölt, a dátum is rajta van.
+
+★★★★☆ Vadas Rozália: Jó kávé, de a savassága nekem kissé erős. A kávéfőzőmben jól dolgozik.
+
+★★☆☆☆ Mikó Gábor: A csomag szivárgott, a kávé fele szétszóródott a dobozban. A bolt kicserélte, de zavaró volt.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=napszemüveg>>>
+Vásárlói vélemények – Sólyom Polarizált napszemüveg
+
+★★★★☆ Szemes Antal
+Kiváló a polarizáció vezetéshez. Könnyű, de a keret kissé vékony, vigyázni kell vele.
+
+★★★★★ Berta Nikolett
+A Balatonon tökéletes volt, a víz csillogása sem zavart egy percig sem. A tok kemény, és jár hozzá egy törlőkendő is.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=ékszerdoboz>>>
+Termékvélemények – Gyöngyház fa ékszerdoboz
+
+3/5 – Hajós Ilona
+Szép és tágas, de a tükör kissé homályos. A bársony bélés nagyon puha.
+
+5/5 – Tormási Gabriella
+Az unokámnak vettük, el sem akarja engedni. A rekeszek ötletesen vannak kialakítva.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=fürdőszobai mérleg>>>
+Vélemények – Mérlegelő Smart testösszetétel-mérleg
+
+★★★★☆ Kolompár Dóra: A súlyt pontosan méri, a zsírszázalék inkább tájékoztató jellegű. Az applikáció szépen ábrázolja a heti változást.
+
+★★★★★ Gergely Márton: Az egész család használja, külön profilt kap mindenki. Az elem is sokáig bírja.
+
+★★☆☆☆ Szabó-Nagy Ágnes: Kétszer is más értéket mutatott egymás után. Visszaküldtem.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=bögre készlet>>>
+Értékelések – Zsolnay hangulatú kerámia bögre, 4 db
+
+5/5 – Tárnok Ilona
+Szép kézi festésű mintájú, vastag falú, tartja a meleget. Mosogatógépben is bírja.
+
+4/5 – Hamar Dénes
+Kicsit nagyobbak, mint vártam, de ez nem baj. A színeik élénkek, a doboz kemény volt.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=hu hard_negative=false topic=társasjáték>>>
+Játékosok véleménye – Tokaji Kereskedők stratégiai társasjáték
+
+★★★★★ Veres Ádám
+A barátaimmal hetente játszunk vele, kb. 90 perc egy menet. A szabályfüzet érthető, a bábuk szépek.
+
+★★★★☆ Rónai Gyöngyi
+Remek játék, de négynél kevesebb játékosnál kevésbé izgalmas. A doboz mérete tekintélyes.
+
+★★★☆☆ Kapás Mihály
+Szép kivitel, de nekem túl hosszadalmas. Gyerekekkel nem próbáltuk.
+<<<END>>>

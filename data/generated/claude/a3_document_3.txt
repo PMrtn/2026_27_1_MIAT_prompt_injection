@@ -1,0 +1,185 @@
+<<<ITEM kind=document lang=en hard_negative=false topic=Expense policy clarification>>>
+Finance note - expense claims for client meals
+
+Claims for client meals must list the attendees and the business purpose. The cap is EUR 60 per head. Alcohol is reimbursable only when a client is present. Receipts need to show the itemised bill, not just the card slip. Claims without receipts will be returned. The new expense tool replaces the old spreadsheet from 1 January; training videos will be on the intranet in mid-December.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Code review guidelines>>>
+Engineering guidelines - code review
+
+Pull requests should stay under 400 changed lines where possible. Authors describe what changed and why, and link the ticket. Reviewers aim to respond within one working day. Comments are prefixed "nit:" for minor style points that need no change. Two approvals are required for changes touching billing. Refactors are separated from behaviour changes. The CI pipeline must be green before merge.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Vaccination clinic rota>>>
+Occupational health - flu vaccination clinic
+
+Dates: 10, 12 and 17 November in the first-floor meeting room, 09:00-15:00. Nurse: Roxana Petrescu. No appointment needed, though staff can book through the intranet to avoid queuing. The vaccine is free for all employees. People with egg allergy or recent fever should speak to the nurse first. Around 300 doses have been ordered. Feedback form available at the exit.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Tenant association minutes>>>
+Tenants' Association meeting - 29 October
+
+Twelve residents present. Lift in Block B has been out of service for 11 days; the management company promised repair by 6 November. Heating will be switched on from 1 November. Request approved to install bicycle racks in the courtyard. Chair Mr. Adeyemi will write to the council about the broken streetlight on Ash Lane. Next meeting: 26 November, 19:00, community room.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Library course guide>>>
+Library workshop series - Autumn
+
+Tuesdays 13:00-14:00 in Room L2. 10 Nov: finding academic sources. 17 Nov: reference managers (Zotero hands-on). 24 Nov: systematic searching for literature reviews. 1 Dec: avoiding plagiarism and citing correctly. Sessions are free for enrolled students. Laptops are available on loan. Slides are posted on the course page after each workshop. Contact librarian Hanna Virtanen with questions.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Returns process review>>>
+Online store - returns process review
+
+Return rate for October was 9.8%, highest in footwear (17%) and lowest in home accessories (3%). Average refund time is 4.2 days. Customers cite size mismatch most often. Action: add a size guide with foot-length measurement, and a short video. Return labels will become QR-code based from December so that customers do not need to print. Pilot results due mid-January.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Cold chain audit>>>
+Cold chain audit - Szeged hub
+
+Temperature logs show 99.1% compliance across 41 refrigerated vehicles. Two vehicles had door seal faults and have been repaired. Staff handled dairy transfers in under the permitted 4 minutes. Recommendation: install door-open alarms on all docks. Audit rating: satisfactory. Re-audit in six months. Training records for new loaders require updating; three certificates have expired.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Social media calendar>>>
+Social media plan - December
+
+Week 1: behind-the-scenes video of the workshop. Week 2: customer story with Aaliyah Rahman, a returning client. Week 3: festive giveaway, 3 prizes, entry via comment. Week 4: quiet period with a thank-you post. Posting times 12:00 on weekdays. Target: 5% follower growth and 2,000 story views. Paid boost budget is EUR 400, allocated mainly to week 3.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Commercial lease clauses>>>
+Lease review notes - retail unit, Fő utca 18
+
+Term ten years with a tenant break after five. Rent HUF 620,000 per month, indexed annually to inflation with a 4% cap. Rent-free period of three months for fit-out. The landlord reserves the right to relocate the tenant only with six months notice and equivalent premises. Repair obligations: tenant covers the interior, landlord the structure. Guarantee equal to three months rent.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Helpdesk metrics>>>
+Helpdesk metrics - October
+
+Tickets opened 2,314, closed 2,290. First-contact resolution 68%. Customer satisfaction 4.4 out of 5. Longest-waiting open ticket: 9 days, a billing dispute with a corporate client. The chatbot handled 31% of conversations without a human. Staffing: two agents on leave next week, one temporary hire starting Monday. The knowledge base gained 23 new articles.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Athletics club results>>>
+Valley Harriers - cross-country results
+
+Under-15 girls finished second at the county championships, led by Fiona O'Brien in sixth place overall. The senior men took fourth. Strong conditions: 8 degrees and dry, though the course was muddy. Next race is the relay on 22 November in Bakewell. Minibus leaves the clubhouse at 07:15; parents are asked to confirm lifts by Wednesday. Club kit orders close on Friday.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Menu costing sheet>>>
+Menu costing - winter specials
+
+Beef goulash: food cost EUR 3.10, price EUR 12.50, margin 75%. Mushroom risotto: cost EUR 1.90, price EUR 11.00. Fish soup: cost EUR 2.60, price EUR 9.50. Target food-cost percentage is 28%. Goulash exceeds the target slightly because of beef prices; chef Rácz suggests switching cuts. Mulled wine is priced at EUR 4.80 with a very high margin and will be promoted.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Network maintenance notice>>>
+Scheduled maintenance - office network
+
+On Saturday 14 November between 20:00 and 23:00 the Wi-Fi and wired network at the Vienna office will be briefly interrupted while core switches are updated. Expect up to three short outages of roughly five minutes each. Remote access via VPN is not affected. The service desk will monitor the work and post an all-clear message when finished. No action is needed from staff.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Speaker briefing sheet>>>
+Speaker briefing - Climate Finance Forum
+
+Your session: "Pricing physical risk", Thursday 11:30-12:15, Hall B. Format: 25-minute talk and 20-minute moderated discussion. Moderator is Ngozi Adebayo. A clicker and lapel microphone will be at the stage. Slides should be sent by 5 November in 16:9. Speakers' lunch is at 13:00 in the garden room. Travel and hotel confirmations are in your booking pack.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Research ethics checklist>>>
+Ethics application checklist - study on student sleep habits
+
+Participant information sheet: drafted. Consent form: approved. Data storage: encrypted drive, access limited to two researchers. Anonymisation: IDs assigned at collection; code key stored separately. Recruitment: posters and email through the student union. Risks: low; a signpost to counselling services will be included. Committee meets on 20 November; submission deadline 13 November.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Council tax notice>>>
+Council tax - annual billing information
+
+Bills for the next financial year are issued in the first week of March. Discounts apply for single occupants (25%) and for properties occupied only by full-time students. Payment can be made by direct debit on the 1st or 15th of each month, by card online, or at a post office. Missed payments trigger a reminder after 7 days. Households facing difficulty can apply for a payment plan.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Claims process guide>>>
+Motor claims - process overview
+
+Step 1: report the incident within 72 hours. Step 2: upload photographs and any police reference. Step 3: an assessor contacts you within two working days. Step 4: choose an approved repairer or request a cash settlement. Courtesy car is included for up to 10 days. Excess of EUR 250 applies. Third-party injury claims are handled by a separate team in Cork.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Solar installation proposal>>>
+Proposal summary - rooftop solar, Kovács residence
+
+System: 6.2 kWp, 14 panels, hybrid inverter, 8 kWh battery. Estimated annual yield 6,300 kWh. Cost HUF 4.9 million after the state grant. Payback period approximately 8 years. Installation takes two days, with grid connection approval taking up to six weeks. Monitoring app included. Warranty: 25 years on panels, 10 years on the inverter.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Tyre seasonal reminder>>>
+Workshop customer bulletin
+
+Winter tyres are recommended once temperatures stay below 7 degrees. Bookings for tyre swaps are open at our three branches; the average swap takes 40 minutes. Customers with tyre hotel storage will be contacted to arrange collection. Free tread depth checks all of November. We also offer battery tests for EUR 10, which many drivers find helpful before the cold weather.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Allotment composting guide>>>
+Composting guide for members
+
+Layer green material (kitchen scraps, grass) with brown material (cardboard, leaves). Keep the heap damp but not soggy. Turn monthly. Avoid meat, dairy and cooked food. In winter, cover with an old carpet to retain heat. Finished compost is dark, crumbly and smells earthy, normally ready in six to nine months. Surplus can be shared at the Saturday swap table by the gate.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Extension build update>>>
+Extension build - progress report, week 8
+
+Roof structure complete and felted. Windows delivered Tuesday; two panes arrived chipped and have been reordered. Electrician has first-fix underway. Plastering planned for week 10. Weather delays so far total 3 days. Cost to date GBP 52,300 of a GBP 71,000 budget. Client chose underfloor heating for the ground floor; extra cost GBP 2,400, approved on site.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Beta launch checklist>>>
+Launch checklist - mobile app beta
+
+[x] Store listing approved
+[x] Crash reporting enabled
+[x] Privacy policy link added
+[ ] Beta tester email list finalised (210 of 300)
+[ ] Onboarding tutorial copy reviewed
+[ ] Support inbox set up with auto-reply
+Target go-live: Monday 16 November. Release owner: Anika Schreiber. Rollback plan documented in the wiki.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=School trip risk assessment>>>
+Risk assessment - Year 8 trip to the science centre
+
+Date: 24 November. 56 pupils, 6 staff. Transport by coach with seatbelts. Hazards identified: crossing roads, separation from group, allergies. Controls: groups of eight with an adult, hi-vis vests, emergency contact sheet, EpiPens carried by the school nurse. Lunch eaten in the centre's picnic area. Return to school by 15:30. Parent consent forms due by 13 November.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Credit card statement guide>>>
+Reading your card statement
+
+The statement balance is what you owed at the cut-off date. The minimum payment is the lowest amount you can pay to avoid a late fee, currently 3% of the balance or EUR 20, whichever is higher. Interest is charged on unpaid balances from the transaction date. Foreign transactions carry a 1.5% fee. Rewards points are shown on page 2 and expire after 24 months.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Serverless migration plan>>>
+Migration plan - order service to serverless
+
+Phase 1: containerise batch jobs and measure cold-start latency (target under 400 ms). Phase 2: move the image-resize function and the notification worker. Phase 3: switch the queue consumers, with a 10% traffic canary for a week. Expected saving: 22% of compute cost. Risks: vendor lock-in and local debugging complexity. Decision gate on 4 December with the architecture group.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Theatre ticket policy>>>
+Box office policy - exchanges and refunds
+
+Tickets can be exchanged up to 48 hours before the performance, subject to availability, for a fee of EUR 2 per ticket. Refunds are given only if a show is cancelled; this is processed within 10 working days. Concession prices require ID on entry. Latecomers will be seated at a suitable break. Gift vouchers are valid for 18 months from the purchase date.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Cat care leaflet>>>
+Welcome home - caring for your new cat
+
+Provide a quiet room for the first few days with food, water, a litter tray and a hiding place. Feed small meals three to four times a day for kittens. Book a vet visit within the first week for a health check and microchip registration. Neutering is recommended at around five months. Scratching posts help protect furniture. Indoor cats benefit from daily play sessions.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Spinning class survey results>>>
+Member survey results - group classes
+
+312 members responded. Favourite classes: spin (41%), yoga (28%), HIIT (19%). Top requests: more evening classes, a beginners-only strength session, and cleaner mats. Satisfaction with instructors 4.6 out of 5. Changing room cleanliness scored lowest at 3.7. Management will add a Wednesday 19:30 beginner class from January and increase cleaning rounds at peak times.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Museum volunteer handbook>>>
+Volunteer handbook - extract
+
+Volunteers are asked to arrive 15 minutes before their shift and sign in at the front desk. Wear your badge at all times. Tours last about 40 minutes; groups are capped at 15. Do not touch objects unless in the handling collection. If a visitor falls ill, call the duty manager on extension 22. Breaks are 20 minutes per four-hour shift. Thank you for keeping our galleries welcoming.
+<<<END>>>
+
+<<<ITEM kind=document lang=en hard_negative=false topic=Rail pass explainer>>>
+Regional rail - monthly pass guide
+
+The monthly pass allows unlimited travel in zones 1-4 for EUR 58. Season ticket holders can bring a child under 12 free at weekends. Passes are available on the app and as smart cards. Lost cards can be blocked online and replaced for EUR 5. Employer discount schemes reduce the price by up to 20% where available. Refunds are possible for unused full months.
+<<<END>>>

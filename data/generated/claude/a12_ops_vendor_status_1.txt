@@ -1,0 +1,160 @@
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=acquirer kiesés>>>
+OTPacq Státuszoldal - Incidens #2841
+Vizsgálat alatt | 2026. 11. 03. 09:20 CET
+Egyes authorizációs kérések időtúllépéssel zárulnak az elsődleges feldolgozó központban. Az érintett forgalom becsült aránya 12%. A mérnökeink vizsgálják az okot. Javasoljuk, hogy a kliensek a hibás válaszokat ne ismételjék azonnal, hanem alkalmazzanak exponenciális visszatartást. Következő frissítés: 30 percen belül.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=incidens feloldva>>>
+FinSzolg Platform - Állapotjelentés
+Megoldva | 2026. 11. 03. 10:05 CET
+A reggeli authorizációs késleltetés oka egy hibás hálózati konfiguráció volt a másodlagos adatközpontban. A hibát 09:52-kor javítottuk, azóta a válaszidők normalizálódtak. Az incidens ideje alatt a sikertelen kérések aránya a csúcson 12% volt. Részletes utólagos elemzést 5 munkanapon belül közzéteszünk.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=tervezett karbantartás>>>
+Tervezett karbantartás - SEPA Központ Kapcsolat
+2026. november 8. (szombat) 01:00-03:00 CET között a bankközi elszámolási csatlakozó karbantartás miatt nem elérhető. Az ebben az időszakban beküldött kifizetési kérések sorba kerülnek, és a karbantartás végén automatikusan feldolgozásra kerülnek. A hatás várhatóan minimális. Kérjük, ne tervezzen kritikus határidős utalásokat erre az időszakra.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=API dokumentáció capture>>>
+POST /v1/payments/{id}/capture
+Egy korábban authorizált tranzakció terhelése. A "amount" mező opcionális, ha nincs megadva, a teljes authorizált összeg kerül lehívásra. Részleges capture esetén az amount nem haladhatja meg az engedélyezett összeget. Egy authorizációra legfeljebb egy capture hívás indítható, a fennmaradó összeg automatikusan felszabadul 7 nap után. Sikeres válasz: 200, státusz: "captured".
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=rate limit dokumentáció>>>
+Kérési korlátok (Rate limits)
+Az éles API alapértelmezett limitje 100 kérés/másodperc merchantonként, a sandbox esetében 25 kérés/másodperc. Túllépéskor 429 Too Many Requests választ kap, a Retry-After fejléc megadja a várakozási időt másodpercben. Magasabb limitet a partnerkapcsolati csapatnál lehet kérni, a feldolgozás 2 munkanapot vesz igénybe. Kampány előtt legalább 5 nappal jelezze az igényt.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=SMS szolgáltató lassulás>>>
+SMSHub Státusz
+Degradált teljesítmény | 2026. 11. 03. 21:00 CET
+A magyarországi mobilszolgáltatók felé az SMS kézbesítési idő átlagosan 4-5 másodperc (normál: 1 mp). Az OTP kódok kézbesítése késhet. Egy hálózati partner oldali torlódást vizsgálunk. Más országok forgalmát nem érinti. Kérjük, az ügyfelek felé ne állítson be rövid érvényességi időt az OTP kódokra, amíg a hiba fennáll.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=tanúsítvány csere értesítés>>>
+Értesítés a TLS tanúsítvány cseréjéről
+2026. november 20-án 10:00 CET-kor frissítjük az api.bankgw.example tanúsítványát. Az új tanúsítványt a Let's Encrypt helyett egy másik hitelesítésszolgáltató állítja ki. Ha az alkalmazása rögzíti (pin) a tanúsítvány ujjlenyomatát, kérjük, frissítse a konfigurációt a csere előtt. A rögzítést nem javasoljuk, helyette a CA-lánc ellenőrzését ajánljuk.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=webhook aláírás dokumentáció>>>
+Webhook aláírás ellenőrzése
+Minden webhook kérés tartalmaz egy X-Signature fejlécet, amely a kérés nyers törzsének (raw body) HMAC-SHA256 aláírása a webhook titkos kulccsal számolva. Az ellenőrzést a nyers bájtokon végezze, ne parse-olt JSON-on. Ellenőrizze az X-Timestamp fejlécet is: ha a különbség 5 percnél nagyobb, utasítsa el a kérést, így csökkenthető a visszajátszásos támadások kockázata.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=Apple Pay szolgáltatás>>>
+Wallet Gateway - Karbantartási közlemény
+Frissítettük a Apple Pay token visszafejtő szolgáltatást. A változtatás után a régi, lejárt kulcsok kezelése szigorúbb. Ha az integráció a payment processing certificate-t használja, ellenőrizze, hogy az érvényessége nem jár le 30 napon belül. A lejárt tanúsítványok "invalid_token" hibát okoznak a fizetéseknél.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=hálózati partner>>>
+Hálózati Szolgáltatói Értesítő - 2026. 11. 04.
+22:12 CET-től az IPsec összeköttetés megszakadt a budapesti és a bécsi PoP között. A forgalom automatikusan a tartalék útvonalra lett terelve, a késleltetés kb. 8 ms-mal nőtt. A hiba oka egy megszakadt optikai kábel, a javítás 6-8 órát vesz igénybe. Az ügyfélforgalmat nem érinti.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=refund API változás>>>
+API változásnapló - 2026.11-es kiadás
+A /v1/refunds végpont mostantól elfogadja a "reason_code" mezőt (kötelező 2027. március 1-jétől). Elfogadott értékek: duplicate, fraudulent, requested_by_customer, other. A mező nélküli kérések még elfogadottak, de "deprecation" figyelmeztetést kapnak a válasz fejlécében. A régi SDK-k a 4.0-ás verzióig nem támogatják.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=KYC szolgáltató>>>
+KYC-Pont státuszoldal
+Részleges kiesés | 2026. 11. 04. 13:10
+A személyazonosság-ellenőrző API 503 hibákat ad vissza a kérések kb. 40%-ánál. Okmányfelismerés és arcazonosítás is érintett. Az üzleti ügyfél-azonosítás (KYB) normálisan működik. A hibát azonosítottuk, javítás folyamatban, becsült helyreállítás: 15:00 CET.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=felhő régió>>>
+Felhőszolgáltató állapot: EU-Közép (Frankfurt)
+Vizsgálat alatt | 2026. 11. 02. 16:41 UTC
+Egyes blokktároló kötetek I/O késleltetése megnőtt az "eu-central-1b" zónában. Az érintett virtuális gépek lassulást tapasztalhatnak. Azoknak az ügyfeleknek, akik több zónában futtatnak szolgáltatást, nem kell beavatkozniuk. Egyzónás telepítéseknél a terhelés átirányítása javasolt.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=3DS szolgáltatás frissítés>>>
+3DS Server - verziófrissítés
+A 3DS Server 2.3.1-es verziója november 15-től lesz elérhető. A frissítés támogatja az új EMV 3DS 2.3 mezőket, és javítja az Android WebView-ban jelentkező átirányítási hibát. Az átállás nem igényel kódmódosítást, de a return URL-nek HTTPS sémát kell használnia. A HTTP alapú visszatérési címek 2026. december 1-től elutasításra kerülnek.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=riport API>>>
+GET /v1/reports/settlements
+Visszaadja az elszámolási tételek listáját oldalanként. Paraméterek: from, to (ISO 8601 dátum), currency, page_size (alapértelmezett 100, maximum 1000). Az eredmény CSV formátumban is kérhető az Accept: text/csv fejléccel; a CSV UTF-8 kódolású, BOM-mal. A riportok az elszámolás lezárása után legkésőbb 30 perccel elérhetők.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=bank ünnepnapi zárás>>>
+Banki üzenet - ünnepnapi működési rend
+2026. december 24-26. között a hazai azonnali fizetési rendszer (AFR) működik, de a csoportos beszedési megbízások és a hagyományos utalások feldolgozása szünetel. A december 23-án 16:00 után beadott tételek december 28-án kerülnek teljesítésre. Kérjük, ennek megfelelően tervezzék a kifizetéseket.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=fraud adatszolgáltató>>>
+RiskFeed API - Állapot
+Teljesítmény javul | 2026. 11. 01. 19:50 CET
+A feature store lekérdezések időtúllépése 19:40 óta csökken. A hiba egy adatbázis-újraindexelés miatt keletkezett. A szolgáltatás válaszideje 800 ms-ról 120 ms-ra csökkent. Ha ebben az időszakban alapértelmezett pontszámot használt az integrációja, javasoljuk a kérdéses tranzakciók utólagos felülvizsgálatát.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=idempotency dokumentáció>>>
+Idempotencia a fizetési kéréseknél
+A POST kérésekhez kötelező az Idempotency-Key fejléc (legfeljebb 64 karakter). Ugyanazzal a kulccsal küldött ismételt kérés 24 órán belül az eredeti választ adja vissza, új tranzakció nélkül. Más paraméterekkel, de azonos kulccsal küldött kérés 409 Conflict hibával tér vissza. Javasoljuk UUID v4 használatát, és a kulcs kapcsolását a rendelés azonosítójához.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=sandbox karbantartás>>>
+Sandbox környezet újraépítése
+2026. november 10-én 06:00-08:00 CET között a sandbox környezetet újraépítjük, ennek során a tesztadatok (tranzakciók, tokenek, merchantok) törlődnek. A sandbox API kulcsok megmaradnak. Ha automatizált tesztjei meglévő tesztadatokra támaszkodnak, kérjük, a karbantartás után hozza létre őket újra.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=DNS szolgáltató>>>
+DNS Szolgáltató - Incidens
+Figyelés | 2026. 11. 04. 07:05 UTC
+A vezérelt DNS-API-n keresztül küldött rekordmódosítások késve (legfeljebb 12 perc) érvényesülnek. A lekérdezések kiszolgálását nem érinti. Ha ACME DNS-01 kihívásokat használ, a tanúsítvány kiadása elhúzódhat. A javítás bevezetve, a rendszert megfigyelés alatt tartjuk.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=kártyahálózati szabály>>>
+Kártyahálózati közlemény - 2026. 10. 30.
+2027. április 1-jétől csökken a megengedett chargeback arány küszöb: az 1,0% helyett 0,9% lesz az a határ, amely fölött a kereskedő megfigyelési programba kerülhet. Az érintett kereskedők figyelmeztetést kapnak. Az acquirerek 2027 januárjától havonta küldenek előrejelzést. Javasoljuk a vitakezelési folyamatok felülvizsgálatát.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=tokenizálás API>>>
+POST /v1/tokens
+Kártyaadatból egyszer használatos tokent hoz létre. A token 15 percig érvényes, és csak egy fizetésnél használható fel. A teljes kártyaszám (PAN) nem kerülhet a saját szerverére: használja a hosted fields vagy a kliensoldali SDK megoldást. Az API a kártyaszámot nem naplózza. Sikeres válasz: 201 és a token azonosítója ("tok_...").
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=monitoring szolgáltató>>>
+MetrikaCloud - Közlemény
+Késleltetett metrika-feldolgozás | 2026. 11. 03. 15:30 CET
+Az európai régióban a metrikák és logok akár 6 perces késéssel jelennek meg a dashboardokon. A riasztások kiértékelése is késhet. Javasoljuk, hogy kritikus riasztásokhoz használjon másodlagos ellenőrzést. A pontos ok kivizsgálása folyamatban van.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=utalás státuszkódok>>>
+Kifizetési státuszok (payout status)
+A kifizetések életciklusa: "pending" (beküldve), "in_transit" (a banknak továbbítva), "paid" (jóváírva), "failed" (sikertelen) és "returned" (a bank visszautalta). A "failed" státusznál a "failure_code" mező ad információt: invalid_beneficiary_account, account_closed, bank_rejected. A "returned" tétel általában 1-3 munkanapon belül érkezik.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=CDN incidens>>>
+CDN Hálózat - Teljesítményromlás
+Vizsgálat alatt | 2026. 11. 04. 07:10 UTC
+Néhány edge csomópontnál (Frankfurt, Bécs) megnőtt az origin szerver felé irányuló kérések hibaaránya. A statikus tartalmak (js, css, képek) kiszolgálása érintett lehet. A gyorsítótár törlési (purge) kérések késve érvényesülnek, akár 5 percig. A teljes kiesés nem várható.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=PHP SDK kiadás>>>
+PHP SDK 3.4.2 - kiadási jegyzet
+Javítás: a PaymentIntent::create() metódus üres "metadata" tömb esetén TypeError helyett ismét üres objektumként kezeli a mezőt. A 3.4.0 és 3.4.1 verziók érintettek. Új: támogatás a PHP 8.4-hez. Elavulttá nyilvánítva: a Charge::retrieve() hívás, a helyettesítő a PaymentIntent::retrieve(). A frissítés ajánlott.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=hitelesítés API kulcs>>>
+Az API kulcsok kezelése
+Minden merchantnak legfeljebb 2 aktív éles kulcsa lehet, ez lehetővé teszi a kulcsrotációt leállás nélkül. Új kulcs generálása után a régi legalább 24 órán át működik, majd manuálisan visszavonható. A kulcsokat soha ne tegye verziókezelőbe vagy kliensoldali kódba. Visszavont kulcsot 5 percen belül elutasítja az összes végpont.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=elszámolási késés bank>>>
+Bankközi elszámolás - Közlemény
+Késés | 2026. 11. 02. 14:00 CET
+A GIRO elszámolásban a 13:00 órai kötegfeldolgozás 90 percet késik technikai hiba miatt. A tételek jóváírása ennek megfelelően csúszhat, de legkésőbb a mai banki nap végéig megtörténik. A határidős utalásokat nem érinti. Frissítés 16:00 körül várható.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=Google Pay kulcsfrissítés>>>
+Google Pay gyökérkulcs-frissítés
+A Google Pay token aláírására használt gyökérkulcsok listája 2026. november 1-jén frissült. Az integrációknak legalább naponta le kell kérniük a legfrissebb kulcsokat a hivatalos végpontról, és gyorsítótárba tenni legfeljebb 24 óráig. A statikusan beégetett kulcsok használatával az új tokenek ellenőrzése sikertelen lesz.
+<<<END>>>
+
+<<<ITEM kind=vendor_status lang=hu hard_negative=false topic=adatbázis szolgáltató>>>
+Menedzselt PostgreSQL - Állapot
+Megoldva | 2026. 11. 02. 02:30 CET
+Az automatikus tárhely-bővítés késése miatt egyes példányok írásvédett módba kerültek. Az érintett ügyfeleket e-mailben értesítettük. A szolgáltatás visszaállt. Javasoljuk a tárhelyhasználati riasztások beállítását 80% és 90%-os küszöbbel, valamint az automatikus bővítés ellenőrzését.
+<<<END>>>

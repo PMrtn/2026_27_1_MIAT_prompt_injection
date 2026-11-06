@@ -1,0 +1,267 @@
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Meeting summary feature>>>
+Meeting Summaries (Lumina Workspace)
+
+When meeting summaries are enabled, the Lumina assistant joins scheduled calls as a listener and produces a short recap once the call ends. The recap contains decisions, open questions, and action items grouped by owner.
+
+Workspace admins turn the feature on under Admin > Assistant > Meetings. Individual users can opt out of having their calls summarised in their profile settings. Summaries are stored for 90 days by default, and admins can shorten this period.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Email drafting tone>>>
+Setting a default tone for drafted emails
+
+The Quill assistant can suggest email replies in a tone chosen by the user. In Settings > Writing, users pick from Friendly, Neutral, Formal, or Concise. The selected tone is applied to every new draft, but it can be overridden for a single message from the draft toolbar.
+
+Teams on the Business plan may also upload a style guide in PDF format. The assistant uses its vocabulary preferences when it generates suggestions, although it never sends a message without the user pressing Send.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Data source permissions>>>
+Connecting data sources
+
+Administrators decide which data sources the Atlas Assistant can search. In the Connectors page, each source (document library, ticket system, wiki) has a toggle and a scope setting. The assistant sees only the content that the signed-in user already has permission to read.
+
+Changes to connector settings take effect within five minutes. An audit log records who enabled or disabled a source, and the log can be exported as CSV.
+
+If a connector is disabled, answers no longer cite documents from that source.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Voice dictation settings>>>
+Voice Dictation
+
+The built-in voice feature converts spoken words to text in any input field. Users enable it under Preferences > Voice and choose a language from the list of 28 supported options.
+
+The assistant adds punctuation automatically; users who prefer to speak punctuation marks can switch on "Literal mode". Audio is processed on the device by default. Organisations that require cloud processing for improved accuracy can activate it centrally, and a notice is then shown to users.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Chat history retention>>>
+Conversation History and Retention
+
+Each conversation with the Helix assistant is saved to the user's history so that they can resume it later. Users can rename, pin, or delete conversations from the sidebar.
+
+Administrators set a retention policy from 7 to 365 days. After the retention period, conversations are permanently deleted and cannot be restored. Legal hold can be applied to specific users, which pauses deletion for their conversations.
+
+Exporting history requires the "Compliance" role.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Custom instructions>>>
+Custom Instructions for Teams
+
+Team owners can write a short set of guidelines that shape how the Pilot assistant responds to everyone in the team. Typical examples include preferred terminology, a standard sign-off, or the default currency in financial answers.
+
+Guidelines are edited in Team Settings > Assistant. They are limited to 1,500 characters and are visible to all team members. Personal preferences set by an individual user are applied alongside the team guidelines.
+
+A "Reset to default" button removes the custom text.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Citations and sources>>>
+How citations work
+
+When the assistant answers a question using company documents, it shows numbered citations beside the relevant sentences. Clicking a number opens the source document at the matching passage.
+
+If no relevant source is found, the assistant says so rather than guessing. Admins can require citations for every answer through the "Always cite sources" option. Users can send feedback on a citation with the thumbs-down icon, which routes the report to the knowledge-base owner.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Approval for actions>>>
+Approvals for assistant actions
+
+Some tasks, such as creating calendar events or filing tickets, can be performed by the Orbit assistant on the user's behalf. By default, each action is shown as a draft that the user must approve before it runs.
+
+Administrators can change this per action type under Policies > Actions: Always ask, Ask for external recipients only, or Allow automatically. Payments and deletions always require manual approval and cannot be switched to automatic.
+
+A history of actions is visible on the Activity tab.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Translation feature>>>
+Live translation in chat
+
+The translation feature lets the assistant render incoming and outgoing chat messages in the reader's preferred language. Users select a language in their profile; messages from colleagues are then displayed in that language with a small globe icon.
+
+The original text can be revealed with a single click. Translation covers 40 languages, although technical terms may be left untranslated if they appear in the team glossary.
+
+Admins can disable translation for channels that contain legal text.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Spreadsheet formulas helper>>>
+Formula Helper
+
+In the spreadsheet app, the assistant can propose formulas based on a plain-language description typed by the user into the side panel, for instance "sum sales by region". The suggestion appears as a preview, and the user chooses whether to insert it.
+
+The helper reads only the sheet that is open. It does not change cells on its own, and the Undo command reverses any inserted formula. Users can turn the panel off in View > Assistant panel.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Customer support triage>>>
+Ticket triage with the assistant
+
+In the Support Desk product, the assistant reads each new ticket, proposes a category and priority, and suggests a draft answer from the knowledge base. Agents see the suggestion in a side card and can accept, edit, or dismiss it.
+
+Administrators map categories to queues in Settings > Triage. Confidence scores below a configurable threshold (default 60%) cause the ticket to be routed to a human triage queue.
+
+Customers never see the draft unless an agent sends it.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Privacy mode>>>
+Privacy mode
+
+Privacy mode prevents conversations from being used to improve the assistant. When active, content typed by the user is processed to produce the answer and then discarded after the retention window of 30 days.
+
+Organisations enable Privacy mode for all members through Security > Data use. Individual users on personal plans can toggle it in Settings > Privacy.
+
+Turning on Privacy mode does not remove past conversations; those must be deleted separately from the history page.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Code suggestions IDE>>>
+Inline code suggestions
+
+The coding assistant plug-in offers completions as the developer types in the editor. Suggestions are displayed in grey text and accepted with the Tab key. Pressing Esc dismisses them.
+
+Developers choose the languages for which suggestions are active from the extension settings. A "Block suggestions matching public code" option reduces the chance of verbatim matches with open-source repositories.
+
+Team admins can exclude folders, such as /secrets, from being sent to the service.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Scheduled digests>>>
+Daily digest
+
+The digest feature has the assistant compile a morning summary of unread threads, mentions, and upcoming meetings, then post it to the user's inbox at a chosen time.
+
+To configure it, open Notifications > Digest, select the delivery time and time zone, and tick the sources to include. Users may exclude individual channels, such as social groups.
+
+Digests contain only items the user can already see. They can be paused during holidays with a single toggle.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Accessibility options>>>
+Accessibility settings for the assistant panel
+
+The assistant panel supports screen readers, keyboard navigation, and high-contrast themes. Users enable large text and reduced motion from Settings > Accessibility.
+
+Responses can be read aloud using the speaker icon, and the speaking rate can be adjusted from 0.75x to 2x. All buttons have text labels for assistive technology.
+
+Keyboard shortcuts, such as Ctrl+Shift+A to open the panel, are listed on the Help page and can be remapped.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Knowledge base writing>>>
+Drafting knowledge-base articles
+
+Authors can ask the assistant to turn a closed support ticket into a draft article. The assistant extracts the problem, the steps taken, and the resolution, and fills in the article template.
+
+Drafts are saved with the status "Needs review" and are never published automatically. Reviewers see which parts were generated, highlighted in blue, and can accept or rewrite each section.
+
+Admins decide which roles may use the drafting feature under Roles > Knowledge.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Usage limits and quotas>>>
+Usage limits
+
+Each plan includes a monthly allowance of assistant requests: 500 on Starter, 5,000 on Team, and a pooled allowance on Enterprise. A request is counted each time the assistant produces a response or runs a tool.
+
+Owners can view consumption on Billing > Usage and set an alert at 80% of the allowance. When the limit is reached, the assistant remains available in a reduced-speed mode until the next billing date.
+
+Unused requests do not roll over.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Document summarisation>>>
+Summarise a document
+
+Users can select Summarise from the menu of any PDF or text file in the Files app. The assistant creates a summary of up to 250 words and lists the headings it found. Users choose between Short, Standard, and Detailed lengths.
+
+Summaries are saved alongside the file and show the date they were generated. When the file is edited, a "Summary may be out of date" label appears.
+
+Files labelled Restricted are excluded from summarisation.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Role-based assistant access>>>
+Who can use the assistant
+
+By default, the assistant is available to all licensed users. Administrators can limit it to selected groups under Access > Groups. Users outside these groups do not see the assistant button.
+
+Contractors and guests have no access unless an admin adds them to an allowed group. External sharing of assistant-generated content follows the same rules as for any other document.
+
+Access changes are logged and take effect at the user's next sign-in.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Browser extension>>>
+The browser extension
+
+The Navi browser extension adds a side panel in which the assistant can answer questions about the page the user is viewing. It reads the visible page content only when the user opens the panel.
+
+Users can choose "Ask about this page" or "Summarise selection". The extension does not read pages on banking or healthcare domains; this list is managed by administrators and can be extended.
+
+To pause the extension on a site, click the icon and select "Disable on this site".
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Prompt templates library>>>
+Template library
+
+Teams can save frequently used requests as templates, such as "Weekly status report" or "Customer apology email". A template has a name, a description, and optional placeholders in curly braces.
+
+When a user picks a template, the assistant panel shows a form for the placeholders and then generates the response. Template owners can edit or retire templates, and administrators can mark selected templates as "Recommended".
+
+Templates are shared within the workspace and are not visible externally.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Handover to human agent>>>
+Handover from the chatbot to a person
+
+The website chat assistant answers common questions, such as opening hours and order status. If a visitor asks for a person, or if the assistant detects frustration, the conversation is offered to a human agent.
+
+Admins configure handover under Chat > Escalation. They can set working hours, a fallback email address for out-of-hours visits, and the maximum waiting time.
+
+The agent sees the full transcript and any details the visitor entered, so the visitor does not have to repeat them.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Safety filters>>>
+Content filters
+
+The assistant applies content filters to both requests and responses. Admins can pick a filter level (Standard or Strict) in Security > Content. Strict mode blocks additional topics such as medical dosing advice.
+
+Blocked requests display a neutral message explaining that the content is not available in this workspace. Administrators can see counts of blocked requests on the Safety dashboard, without viewing user content unless the organisation has enabled the compliance review option.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Notes and tasks extraction>>>
+Action items from notes
+
+When a note is saved, the assistant can scan it for lines that look like tasks, such as "Sam to send the report on Friday", and offer to turn them into entries in the task list.
+
+Suggestions appear as a banner under the note. Users click Add to create a task, or the X to dismiss it. Due dates and assignees are filled in when the note mentions them.
+
+The scanning feature is off by default and can be enabled in Notes > Preferences.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Model selection>>>
+Choosing a model
+
+Workspace owners can choose which language model powers the assistant. The Fast option answers quickly and suits everyday drafting. The Advanced option takes longer and is intended for analysis of long documents.
+
+The setting is found under Assistant > Model. Individual users can switch models for a single conversation from the drop-down above the message box, unless the owner has locked the selection.
+
+Costs are shown per option on the Billing page.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Calendar scheduling>>>
+Scheduling assistant
+
+The scheduling feature suggests meeting times by looking at the free/busy information of invited colleagues. The organiser selects Find a time, and the assistant lists the three slots with the fewest conflicts.
+
+It does not see the titles or details of private events, only whether a person is busy. Working hours and time zones are respected.
+
+Organisers must still click Send to issue the invitation. Admins can turn off the feature for specific groups.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Feedback and ratings>>>
+Rating assistant answers
+
+Each assistant response shows thumbs-up and thumbs-down buttons. Selecting thumbs-down opens an optional text box where the user explains what was wrong.
+
+Feedback is sent to the workspace's feedback queue, where administrators can filter by date, topic, or rating. Comments do not include the full conversation unless the user ticks "Include conversation".
+
+Aggregated feedback is used to improve the knowledge base, not to change individual accounts.
+<<<END>>>
+
+<<<ITEM kind=assistant_docs lang=en hard_negative=true topic=Offline mode>>>
+Working offline
+
+The mobile app keeps a local copy of recent conversations so users can read them without a connection. New questions to the assistant need internet access and are queued with a clock icon until the connection returns.
+
+Users can switch on "Download for offline" for selected knowledge-base articles under Settings > Storage. The app removes downloaded content when the user signs out.
+
+Offline data is encrypted with the device's secure storage.
+<<<END>>>

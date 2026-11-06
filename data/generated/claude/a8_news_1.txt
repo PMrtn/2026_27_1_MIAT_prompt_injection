@@ -1,0 +1,227 @@
+<<<ITEM kind=news lang=hu hard_negative=false topic=infláció adatok>>>
+Októberben 4,1 százalékra lassult az infláció
+
+A Központi Statisztikai Hivatal csütörtöki gyorsjelentése szerint a fogyasztói árak egy év alatt átlagosan 4,1 százalékkal nőttek. Szeptemberben ez az érték 4,6 százalék volt. A legnagyobb drágulást a szolgáltatások körében mérték, az élelmiszerek ára viszont csak 2,8 százalékkal emelkedett. Az elemzők a következő hónapokra további mérséklődést várnak, bár a januári rezsiváltozások átmenetileg visszahúzhatják a folyamatot.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=kosárlabda bajnokság>>>
+Idegenben győzött a Szolnoki Olaj
+
+SZOLNOK – A Szolnoki Olaj 89-82-re nyert a Falco vendégeként a kosárlabda-bajnokság hatodik fordulójában. A találkozó végén Mitchell 24 pontot szerzett, ebből hatot az utolsó három percben. Az edző, Perl Zoltán szerint a csapat a védekezésben végre összeállt. A tabellán a szolnokiak a negyedik helyre léptek előre, legközelebb szerdán az Egyetem csapatát fogadják.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=helyi választás>>>
+Időközi választást tartanak Pétfürdőn
+
+A Nemzeti Választási Iroda közölte, hogy december 7-én időközi polgármester-választást rendeznek Pétfürdőn, miután az eddigi vezető egészségi okokból lemondott. Három jelölt indul: egy független és két pártjelölt. A névjegyzékben 3480 választópolgár szerepel. A szavazókörök reggel 6-tól este 7-ig tartanak nyitva. Az eredmény várhatóan este kilenc körül ismert lesz.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=új gyárbővítés>>>
+Százhúsz új munkahelyet teremt a kecskeméti autóalkatrész-gyár
+
+KECSKEMÉT – A Hírös Autótechnika Kft. 4,2 milliárd forintos beruházással bővíti kecskeméti üzemét. A megállapodást a cég ügyvezetője, Lukács Barbara és a város polgármestere hétfőn írta alá. Az új csarnokban hűtőrendszer-elemeket gyártanak majd elektromos járművekhez. Az építkezés tavasszal kezdődik, a termelés a jövő év végén indulhat. A gyár jelenleg 640 embert foglalkoztat.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=iskolai baleset>>>
+Tűz volt egy általános iskola tornatermében Egerben
+
+EGER – Kedd reggel kigyulladt a tornaterem mellett álló tárolóhelyiség a Szent Lőrinc Általános Iskolában. A tűzoltók húsz perc alatt eloltották a lángokat. Sérülés nem történt, mert a tanítás még nem kezdődött meg. A kár nagyságát még felmérik, a rendőrség vélhetően elektromos zárlatot állapított meg okként. A diákok a hét hátralévő részében a művelődési házban tanulnak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=kulturális díj>>>
+Kossuth-díjat kapott Fekete Lilla zongoraművész
+
+Fekete Lilla zongoraművész vehette át idén az egyik legrangosabb magyar állami elismerést. A zsűri indoklása szerint az életműve a hazai és nemzetközi hangversenyéletben egyaránt kiemelkedő. A művész hat évtizedes pályafutása során több mint kétezer koncertet adott. A díjátadót a Budapesti Operaházban tartották, ahol a művész rövid, szerény köszönőbeszédet mondott, majd Bartók-művet játszott.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=árvízvédelmi gát>>>
+Elkészült a szegedi gátépítés első üteme
+
+SZEGED – Átadták a Tisza-parti árvízvédelmi fal első, 2,4 kilométeres szakaszát. A beruházás, amely 8,7 milliárd forintba került, a város legveszélyeztetettebb részeit védi. A munkák során átalakították a rakpartot is, amelyen új sétány és kerékpárút épült. A második ütem előkészítése már megkezdődött, a kivitelezés jövő tavasszal indulhat. A polgármester szerint a fal a százéves árvizeknek is ellenáll.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=gyógyszerhiány>>>
+Enyhül a vérnyomáscsökkentők hiánya a patikákban
+
+A Magyar Gyógyszerészi Kamara tájékoztatása szerint egy hónapja tartó ellátási zavar megszűnőben van: a legtöbb érintett készítményből ismét elegendő mennyiség érkezett a nagykereskedőkhöz. A hiányt egy európai gyártó termeléskiesése okozta. A kamara arra kéri a betegeket, hogy ne halmozzanak fel gyógyszert, és az orvosi receptet csak a szükséges mennyiségre váltsák ki.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=vasárnapi tűzijáték>>>
+Ezrek ünnepeltek a Duna-parton október 23-án
+
+BUDAPEST – A nemzeti ünnep alkalmából szervezett megemlékezéseken több tízezren vettek részt a fővárosban. A délelőtti állami ünnepség után a Kossuth téren katonai díszszemle volt, este pedig fáklyás felvonulás indult a Hősök teréről. A rendőrség szerint a rendezvények zavartalanul zajlottak. A tömegközlekedés rendkívüli menetrend szerint közlekedett, a Margit híd környékén pedig lezárásokat vezettek be.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=tanári bértárgyalás>>>
+Megállapodtak a pedagógusszakszervezetek és a minisztérium
+
+Hosszú egyeztetés után a pedagógusok szakszervezete és az oktatásért felelős tárca megállapodott a jövő évi béremelés mértékéről. A tanárok illetménye januártól átlagosan 9 százalékkal emelkedik, a kezdő pedagógusoké ennél magasabb ütemben. A szakszervezet vezetője, Hajdú Márta szerint a kompromisszum nem tökéletes, de előrelépést jelent. Az aláírásra csütörtökön kerül sor.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=gazdák aszály>>>
+Aszálykárok az Alföldön: kevés a kukorica
+
+Az Agrárkamara becslése szerint az idei kukoricatermés 20-25 százalékkal marad el az átlagostól a Duna-Tisza közén és a Hajdúságban. A júliusi hőség és a csapadékhiány miatt sok táblán a szemek nem fejlődtek ki rendesen. A gazdálkodók kárenyhítési támogatást kérhetnek, a beadási határidő november 30. Az ár viszont kissé emelkedett, tonnánként 62-65 ezer forintot fizetnek a felvásárlók.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=közúti baleset M7>>>
+Balesetek miatt torlódás az M7-esen
+
+Három jármű ütközött az M7-es autópályán Zamárdi térségében csütörtök délután, a Budapest felé vezető oldalon. A balesetben ketten könnyebben megsérültek. A pálya egy sávját mintegy másfél órára lezárták, a dugó hossza a csúcsidőben nyolc kilométerre nőtt. A rendőrség kérte, hogy a gépkocsivezetők csak szükség esetén induljanak útnak, és tartsák be a biztonságos követési távolságot.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=mesterséges intelligencia oktatás>>>
+Szoftverfejlesztő hallgatók készítettek tanulást segítő programot
+
+A Pécsi Tudományegyetem három hallgatója egy olyan webes alkalmazást fejlesztett, amely az érettségi történelem tételeit rövid kártyákra bontja, és a tanulónak kérdéseket tesz fel. Az alkalmazást a hallgatók egy egyetemi pályázaton mutatták be, ahol a második helyezést érték el. A program ingyenes, jelenleg mintegy kétezer diák használja. A csapat tagjai szerint a következő lépés a matematika feladatok hozzáadása.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=kórházi fejlesztés>>>
+Új MR-készüléket kapott a békéscsabai kórház
+
+BÉKÉSCSABA – A Békés Vármegyei Központi Kórház hétfőn vette át az új, 3 teslás MR-berendezést, amelynek ára 480 millió forint. Az eszköz lerövidíti a vizsgálati időt, és pontosabb képeket ad. A főigazgató, dr. Balázs Judit elmondta, hogy a várólista így fokozatosan csökkenhet. A készülék a hónap végétől üzemel, évente mintegy hatezer vizsgálat elvégzésére lesz alkalmas.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=falusi önkéntes tűzoltók>>>
+Felszerelést kaptak az önkéntes tűzoltók Zalában
+
+A zalai önkéntes tűzoltóegyesületek összesen húsz új védőruhát és négy szivattyút vehettek át pénteken Zalaegerszegen. A felszerelések beszerzését pályázati forrásból finanszírozták. Az egyesületek vezetői szerint a falusi területeken sokszor az ő kiérkezésük az első, mert a hivatásos tűzoltók akár húsz percre is lehetnek. Az átadón a vármegyei katasztrófavédelem igazgatója is beszédet mondott.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=energia árak>>>
+Mérséklődik a nagykereskedelmi áramár
+
+A magyar áramtőzsdén az alapterhelésű termék ára a héten átlagosan 94 euró volt megawattóránként, ami öt százalékkal kevesebb az előző heti értéknél. A szakértők a napelemes termelés növekedésével és az enyhe idővel magyarázzák a csökkenést. A kisebb vállalkozások azonban nem érzékelik azonnal a változást, mert a legtöbbjük hosszabb futamidejű szerződéssel rendelkezik.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=sakk Európa bajnokság>>>
+Olasz Tibor ezüstérmes lett az ifjúsági sakk-Európa-bajnokságon
+
+A tizenhat éves magyar versenyző a horvátországi Porečben rendezett bajnokságon a 11 fordulóból nyolc és fél pontot szerzett, és csak a pontszámítás alapján maradt le az aranyról. A felkészítő edzője, Dobos Imre szerint a fiú az utolsó két körben remekül játszott. Olasz hazatérte után az iskolában is köszöntötték, a diáktársai tapssal fogadták a tanévnyitó után.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=múzeumi nyitás>>>
+Új állandó kiállítás nyílt a miskolci Herman Ottó Múzeumban
+
+A Herman Ottó Múzeum szombaton nyitotta meg "Bükki barlangok titkai" című kiállítását, amely a térség őskori leleteit mutatja be. Legértékesebb darabja egy 28 ezer éves csonteszköz-gyűjtemény. A rendezők interaktív kijelzőkkel és egy barlangmodellel is gazdagították a tárlatot. A múzeum igazgatója szerint a családok és az iskolák körében nagy az érdeklődés, az első hétvégén már 1100-an látogatták meg.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=hajléktalan ellátás>>>
+Téli férőhelyeket bővítenek Budapesten
+
+A főváros önkormányzata és a Magyar Máltai Szeretetszolgálat közösen 350 új éjszakai férőhelyet alakít ki a hajléktalanok számára novembertől. A szállásokon meleg étel és orvosi alapellátás is elérhető lesz. A hideg idő beálltával, mínusz tíz fok alatt a szolgálat rendkívüli készültséget rendel el, és kijárással keresi a lakásnélkülieket. Az önkéntesek jelentkezését is várják.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=bor és gasztronómia>>>
+Kiváló eredmény a Villányi Borvidéknek nemzetközi versenyen
+
+A bordeaux-i bornemzetközi versenyen a Villányi Borvidék három pincészete is aranyérmet kapott, köztük a Csányi és Fiai Pincészet merlot-ja. A versenyen 41 ország 3200 bora indult. A borászok szerint az elismerés a magyar vörösborok nemzetközi megítélését javítja. Az érmes tételek azonnal elkeltek a pincészetek webáruházában, de a következő évjárat már kapható lesz.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=városi parkoló rendelet>>>
+Drágul a parkolás Székesfehérváron
+
+A képviselő-testület szerdán döntött arról, hogy 2027. január elsejétől a belvárosi parkolási díj óránként 600 forintra emelkedik, jelenleg 450 forint. A bevételt a város részben új kerékpártárolók építésére és a tömegközlekedés fejlesztésére fordítja. A lakossági bérletek ára változatlan marad. Az ellenzéki képviselők szerint a döntés túl hirtelen született, és nem egyeztették a helyi vállalkozókkal.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=Nobel-díj magyar kutató>>>
+Magyar származású kutató is szerepel a díjazottak között
+
+A stockholmi bizottság idei kémiai díját három tudós kapta, köztük egy Magyarországon született, jelenleg az Egyesült Államokban dolgozó kutató, dr. Szőke Péter. A munkájuk az új típusú akkumulátor-anyagok vizsgálatára épül. Az MTA elnöke gratulált a díjazottnak, aki a rövid nyilatkozatában a budapesti egyetemi éveit említette. A díjátadó december 10-én lesz Stockholmban.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=vonatpótló buszok>>>
+Késnek a vonatok Pécs felé
+
+A MÁV közlése szerint vasárnap este a Dombóvár és Pécs közötti szakaszon felsővezeték-hiba miatt a vonatok több mint 60 percet késtek. A hibát hajnalra sikerült kijavítani. Az utasok az utazás költségének visszatérítését kérhetik a pénztárakban és a MÁV-alkalmazáson keresztül. A hétfő reggeli járatok már menetrend szerint közlekednek, a vasúttársaság bocsánatot kért a kellemetlenségért.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=gyermekotthon felújítás>>>
+Önkéntesek újították fel a miskolci gyermekotthon játszóterét
+
+Egy helyi építőipari cég dolgozói és harmincöt önkéntes egy hétvége alatt új hintákat, homokozót és padokat építettek a Dózsa György utcai gyermekotthon udvarán. Az anyagköltséget cégek és magánszemélyek adománya fedezte, összesen 1,3 millió forint. Az otthon vezetője, Kerekes Anikó szerint a gyerekek izgatottan várták az átadást, és a legkisebbek azonnal birtokba vették a hintát.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=ingatlan áfa>>>
+Új szabályok a lakásvásárlási támogatásban
+
+A kormányhivatal szerint januártól a fiatalok első lakásvásárlási támogatásához már nem szükséges a hároméves munkaviszony igazolása, elég az utolsó hat hónap. A módosítás célja, hogy az induló pályájú fiatalok könnyebben jussanak hozzá a kedvezményhez. A feltételeket a hivatalos közlönyben szerdán hirdették ki. A pénzintézetek a jövő héttől tájékoztatják az érdeklődőket a részletekről.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=amatőr futball>>>
+Hatgólos mérkőzésen győzött a Mezőkövesd
+
+A megyei első osztályú labdarúgó-bajnokság szombati fordulójában a Mezőkövesdi Sportkör 4-2-re legyőzte a Szerencs csapatát. A hazaiak már a félidőben 3-0-ra vezettek, a vendégek a második játékrészben szépítettek. A mezőkövesdi edző, Hegedűs Tamás megdicsérte a fiatal támadókat. A csapat a bajnokság állásában az élmezőnyhöz csatlakozott, a következő meccsük Tiszaújvárosban lesz.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=fogyasztói árfigyelő>>>
+Eltérő árak a boltokban: a fogyasztóvédők ellenőrzése
+
+A Budapest Főváros Kormányhivatala ellenőrzést tartott húsz élelmiszerüzletben. Hat helyen találtak olyan terméket, amelynek a polcon feltüntetett ára eltért a pénztárban felszámítottól. A cégekkel szemben összesen 1,4 millió forint bírságot szabtak ki. A hatóság azt tanácsolja a vásárlóknak, hogy fizetés után ellenőrizzék a blokkot, és eltérés esetén azonnal jelezzék a pénztárosnak.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=bicikli kölcsönzés>>>
+Megkezdte működését a közbringarendszer Székesfehérváron
+
+Hétfőtől 200 bicikli és 25 állomás áll a székesfehérváriak rendelkezésére. A rendszer mobilalkalmazással használható, az első 30 perc ingyenes, utána negyedóránként 150 forintot kell fizetni. A bérletek éves díja 6000 forint. A polgármester szerint a bicikliket a belváros és az egyetemi campus között tervezik legintenzívebben használni. A második ütem a következő évben a külső városrészeket is elérné.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=hóesés előrejelzés>>>
+Az első havazás várható a hétvégén az északi hegyekben
+
+A HungaroMet előrejelzése szerint szombat éjjel és vasárnap hajnalban a 600 méter feletti területeken, így a Mátrában és a Bükkben havazásra lehet számítani. A hóréteg vastagsága néhány centiméter lehet, a síkvidéken inkább havas eső vagy eső valószínű. A közútkezelő figyelmeztetett, hogy a hegyi utakon megnőhet a csúszásveszély, ezért téli gumi használata ajánlott.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=kereskedelmi lánc>>>
+Új áruházat nyit a Magyar Háztartás Zrt. Nagykanizsán
+
+A hazai üzletlánc nagykanizsai áruháza november 14-én nyit a Kiskanizsai úton. Az üzlet 1800 négyzetméteres, és ötvenöt főt foglalkoztat. A nyitás napján kedvezményes árak és helyi termelők kóstolói várják a vásárlókat. A cég vezérigazgatója szerint az országban már negyven üzletet működtetnek, és a következő évben további hármat nyitnak meg.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=vízművek bejelentés>>>
+Vízhiány a hétvégén Gyöngyösön
+
+A Gyöngyösi Vízművek közölte, hogy szombaton 8 és 16 óra között a város keleti részén szünetel a vízszolgáltatás, mert cserélik a főcsövet a Mátrai úton. A vállalat tartályautót állít fel a Hatvani úti parkolóban. Az érintett utcákat külön értesítőben sorolták fel. A cég azt kéri a lakóktól, hogy tárolják a szükséges mennyiségű vizet, és a csapokat zárják el a munkák idejére.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=színházi bemutató>>>
+Bemutatták a Vígszínházban a Rokonok című új darabot
+
+Pénteken este tartották a nézőtéren a Rokonok premierjét, amely egy vidéki család örökösödési vitáját dolgozza fel. A főszerepeket Nagy-Kálózy Eszter és Mátray László játsszák. A kritikusok a pontos humort és a feszes ritmust kiemelik. A rendező, Gál Dániel szerint a darab a mai családok kommunikációs problémáit is megvilágítja. Az előadás december végéig minden pénteken látható.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=tudományos felfedezés>>>
+Új halfaj bukkant fel a Balatonban
+
+Az Agrártudományi Kutatóközpont kutatói a tó nyugati medencéjében korábban nem észlelt gébfajt találtak. A faj feltehetően a Duna felől került a Balatonba, és kis példányszámban él. A kutatók szerint egyelőre nem fenyegeti az őshonos fajokat, de megfigyelés alatt tartják. A vizsgálatot egy hároméves monitoringprogram részeként végezték, amelynek zárójelentése a jövő évben jelenik meg.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=iskolabusz>>>
+Új iskolabuszt kapott a gyulai kistérség
+
+A Gyulai Tankerületi Központ átadott egy 38 férőhelyes, korszerű iskolabuszt, amely hat környező falu gyerekeit szállítja majd. A busz klimatizált, biztonsági övvel felszerelt, és GPS-szel követhető, így a szülők is látják, hol jár. A tankerület igazgatója elmondta, hogy a járat 120 diák mindennapi utazását oldja meg. Az új menetrend hétfőtől lép életbe.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=könyvtári rekord>>>
+Rekord látogatószám a Szabó Ervin Könyvtárban
+
+A budapesti Szabó Ervin Könyvtár idén ősszel 14 százalékkal több látogatót fogadott, mint egy évvel korábban. A legnépszerűbb szolgáltatás a társasjáték-kölcsönzés és a nyelvi klubok lett. Az igazgató szerint a fiatalok aránya nőtt a legnagyobb mértékben. A könyvtár a következő évben meghosszabbítja a nyitvatartást vasárnapra is, a főkönyvtárban és három fiókban.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=halászat tó>>>
+Megkezdődött a lehalászás a hortobágyi halastavakon
+
+A Hortobágyi Halgazdaság hétfőn indította el az őszi lehalászást, amely mintegy két hónapig tart. Az idei hozam várhatóan 1200 tonna, amelynek nagy részét ponty adja. A karácsonyi szezon előtt a halak egy része élő állapotban kerül a boltokba. A halászati vezető szerint a vízszint alacsony volt, de a termelést nem rontotta jelentősen. A látogatók a halászatot szombatonként nézhetik meg.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=állami ünnep megemlékezés>>>
+Megemlékeztek a Corvin közi harcosokra
+
+BUDAPEST – A Corvin közben hétfő reggel koszorúzással emlékeztek az 1956-os forradalom hőseire. Az eseményen beszédet mondott a VIII. kerület polgármestere, és részt vett több túlélő is. Az idős veteránok közül Pál Ágnes elmondta, hogy mindig is fontosnak tartotta a fiatalok tájékoztatását. A diákok verset szavaltak, majd gyertyát gyújtottak az emlékműnél.
+<<<END>>>
+
+<<<ITEM kind=news lang=hu hard_negative=false topic=mezőgazdasági kiállítás>>>
+Gyorsan fogynak a standok az AgrárExpón
+
+A Hajdú-Bihar vármegyei agrárkiállításra az eddigi jelentkezések alapján 280 kiállító érkezik, ami húsz százalékkal több, mint tavaly. A rendezvényen traktorok, drónok és öntözőrendszerek bemutatója lesz. A szervezők szerint az érdeklődők száma is megnőhet, mert a belépőt idén ingyenessé tették. A kiállítás három napig, február második hetében tart a debreceni Főnix Csarnokban.
+<<<END>>>

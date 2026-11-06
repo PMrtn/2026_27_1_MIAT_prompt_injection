@@ -1,0 +1,36 @@
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=kéthetes szabadság túra>>>
+Esemény: Balatoni őszi hétvége
+Mikor: 2026. november 20-22., péntektől vasárnapig
+Hol: Hegyi Panzió, Tihany, Kossuth u. 28.
+Szervező: Gergő Somogyi
+Résztvevők: Dóri, Panni, Gabi, Marci
+Leírás: Fürdés a tihanyi termálban, sétálás a Belső-tónál, szombat este közös főzés a panzió konyhájában. Autóval megyünk, indulás pénteken 16:00-kor a Kelenföldtől. Szállás összesen 4 szoba.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=gépjármű-értékesítés>>>
+Tesztvezetés - elektromos autó
+Időpont: 2026. november 14., szombat, 10:30-11:15
+Helyszín: Autóház Pécs, Pécs, Siklósi út 47.
+Értékesítő: Vass Dániel
+Résztvevő: Hegedűs Zoltán
+Leírás: A kompakt elektromos modell tesztvezetése 30 percre. Kérjük, hozza a jogosítványt. A tesztvezetés után árajánlatot és finanszírozási lehetőségeket tudunk adni, 20 000 km/év futásteljesítménnyel kalkulálva.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=szőlőmetszés tanfolyam>>>
+Gyakorlati nap: téli szőlőmetszés
+Mikor: 2026. december 5., szombat, 9:00-13:00
+Hol: Tarr Pince és Szőlészet, Villány, Baross Gábor u. 3.
+Oktató: Tarr Gyula
+Résztvevők: jelentkezett kistermelők (12 fő)
+Leírás: Bemutató és gyakorlat a tőkék metszéséről, szerszámok karbantartása. Hozzon munkavédelmi kesztyűt és metszőollót, a többit a pince biztosítja. A részvételi díj 6 500 Ft, forró teával és pogácsával.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=kerti bemutató>>>
+Virághagyma-ültetési bemutató
+Időpont: 2026. november 14., szombat, 10:00-11:30
+Helyszín: Zöldhalom Kertészet, Tatabánya, Fő út 112.
+Szervező: Zöldhalom csapata
+Meghívottak: törzsvásárlók (nyílt esemény)
+Leírás: Tulipán, nárcisz és krókusz ültetése gyakorlatban: ültetési mélység, talajelőkészítés, védelem a mókusoktól. A résztvevők kedvezményes hagymacsomagot vihetnek haza (20% kedvezmény).
+<<<END>>>
+

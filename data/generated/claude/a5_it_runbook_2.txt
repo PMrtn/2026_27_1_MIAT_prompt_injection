@@ -1,0 +1,261 @@
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Kafka consumer lag>>>
+Runbook MQ-052: Consumer lag growing on topic "invoices.v2"
+
+Run `kafka-consumer-groups.sh --bootstrap-server kb-1:9092 --describe --group invoice-writer` and compare LAG across partitions.
+
+If one partition is far behind the others, the consumer for that partition is probably stuck. Restart that pod only.
+
+If all partitions lag evenly, scale the consumer deployment to six replicas with `kubectl scale`.
+
+Rebalance log lines at INFO level are normal after a restart. Escalate only if lag exceeds 100,000 messages for twenty minutes.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Teams audio problems>>>
+Meeting room audio echo in Conference Room Maple
+
+Support technician checklist:
+1. Open the room console and confirm the microphone array is selected as input and the ceiling speakers as output.
+2. Set the echo-cancel option to "On" in the device settings.
+3. Update the room kit firmware if it is older than 3.8.
+4. Make a test call to the echo-test number 5550.
+
+Dismiss the "Camera firmware update available" banner; the camera update is scheduled for next quarter.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Terraform state lock>>>
+Terraform reports "Error acquiring the state lock"
+
+Read the lock ID and the "Who" field in the error. If the owner is a colleague with a plan running, wait for them.
+
+If the pipeline was cancelled and the lock is stale, confirm with the pipeline owner, then run `terraform force-unlock <LOCK_ID>`.
+
+Afterward, re-run `terraform plan` and read it carefully. Never run apply from a laptop.
+
+Provider deprecation warnings at the top of the plan output can be left until the next module upgrade.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Hospital PACS outage>>>
+PACS image viewer fails to load studies (radiology)
+
+On-call analysts: first check the PACS application server at pacs-app-01. Run `Get-Service PacsCore` and restart it if stopped.
+
+Verify storage: the archive volume Z: should have at least 15% free space.
+
+Test a study retrieval from the viewer on a different workstation to determine whether the issue is local.
+
+Tell the radiology charge nurse of the expected downtime so staff can use the downtime procedure binder. The "DICOM association rejected" lines for the old ultrasound unit are known and may be ignored.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Point of sale offline>>>
+POS terminal shows "Offline mode" in store
+
+1. Ask the store manager to check the router lights. If the WAN light is red, power-cycle the router (30 seconds off).
+2. From the terminal's admin screen, run Connectivity Test.
+3. If the test fails, plug a laptop into the same port and ping 10.50.0.1.
+4. Once back online, use "Sync Transactions" and confirm the queue count returns to 0.
+
+Card payments taken in offline mode are stored encrypted and will upload on sync. The "Time server unreachable" notice can be ignored once the link returns.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=PowerShell script blocked>>>
+Script will not run: "running scripts is disabled on this system"
+
+Check the current policy with `Get-ExecutionPolicy -List`. On corporate laptops the policy is managed by Group Policy and set to AllSigned.
+
+Do not change the machine policy. Sign the script using the team's code-signing certificate: `Set-AuthenticodeSignature .\deploy.ps1 -Certificate $cert`.
+
+For quick local testing only, use `powershell -ExecutionPolicy Bypass -File .\test.ps1` in your own session.
+
+The "publisher could not be verified" prompt for internally signed scripts is expected.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=NAS firmware update>>>
+Updating firmware on nas-02 (Synology DS-series)
+
+Prerequisites: a completed backup and a quiet window outside office hours.
+
+1. Log in to DSM and open Control Panel > Update & Restore.
+2. Download the version approved in change record CHG-2307; do not take newer releases.
+3. Stop the scheduled snapshot tasks.
+4. Install and let the unit reboot (about 8 minutes).
+5. Confirm volumes are Healthy and restart the snapshot tasks.
+
+The "package Hyper Backup needs update" prompt can wait for the next cycle.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Webhook delivery failures>>>
+Customer webhooks failing with HTTP 429
+
+Check the rate-limit dashboard for the tenant ID in the ticket. If the tenant exceeds 600 calls per minute, tell the customer success contact so they can discuss a higher tier.
+
+Review the delivery log: `SELECT status, count(*) FROM webhook_log WHERE tenant_id = ? GROUP BY status`.
+
+Retries use exponential backoff for 24 hours, so no manual replay is needed unless the customer asks.
+
+"Slow consumer" warnings in the delivery worker log are advisory only.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Badge reader offline>>>
+Door badge reader shows red light at the north entrance
+
+Facilities IT should proceed as follows. First, check the PoE switch port for the reader (switch SW-N2, port 14) and confirm the link is up. Then restart the port: `interface gi1/0/14` followed by `shutdown` and `no shutdown`.
+
+If the reader still does not respond, reseat the cable at the wall plate and test with a spare reader from the cupboard.
+
+Record the reader's serial number in the access-control system. Log entries about "tamper switch open" during cleaning hours may be dismissed.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Python app deployment>>>
+Deploying the inventory service (Python 3.12) to staging
+
+Run these steps from the bastion host.
+
+1. `git fetch --tags && git checkout v2.14.1`
+2. `python -m venv .venv && . .venv/bin/activate`
+3. `pip install -r requirements.lock`
+4. `alembic upgrade head`
+5. `sudo systemctl restart inventory`
+6. `curl -s localhost:8000/health` should return {"status":"ok"}.
+
+pip may print "A new release of pip is available"; this is not a problem. If alembic reports a conflicting head, stop and ask the owning team before proceeding.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Azure VM unreachable>>>
+Azure VM vm-web-prod-02 is not responding to RDP
+
+1. In the portal, open the VM and check Boot diagnostics for a screenshot.
+2. Run the "Reset password" extension only if the screenshot shows the login screen.
+3. Check the network security group for a rule allowing 3389 from the jump host range 10.9.4.0/24.
+4. Use Serial console to run `netstat -an | find "3389"`.
+5. If the VM is hung, restart it from the portal and note the time in the incident.
+
+Advisor recommendations shown on the overview page are not part of this incident.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Syslog forwarding>>>
+No logs from branch firewalls reaching the SIEM
+
+Verify the forwarder on the branch firewall points at siem-collector.lantern.test, UDP 514.
+
+On the collector, run `tcpdump -ni eth0 udp port 514 and host 172.16.8.1 -c 5` and see whether packets arrive.
+
+If packets arrive but are not indexed, check the parser rule for the firewall vendor.
+
+If no packets arrive, check the intermediate ACL on the core router.
+
+Parser warnings labelled "unknown field: vendor_ext" are cosmetic.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Excel add-in crash>>>
+Excel closes immediately when the finance add-in loads
+
+Start Excel in safe mode (hold Ctrl while opening) and confirm it launches.
+
+Open File > Options > Add-ins, set Manage to "COM Add-ins" and untick the Finance Toolkit entry.
+
+Reinstall the add-in from the software centre, choosing the 64-bit version.
+
+Clear the cache folder at %LOCALAPPDATA%\FinanceToolkit\cache.
+
+The Event Viewer entry "Application Hang 1002" for Excel is the symptom, not a separate fault, and can be closed with the main ticket.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=MFA token reset>>>
+Resetting a user's authenticator app registration
+
+Service desk analysts: verify the caller's identity using the three-question script before making changes.
+
+1. In the identity portal, search for the user and open Authentication methods.
+2. Delete the existing authenticator entry.
+3. Click "Require re-register" and tell the user the next login will prompt for setup.
+4. Add a note to the ticket with the verification method used.
+
+Don't read out temporary codes over the phone; send them to the manager's registered email. The "last sign-in unavailable" field may be blank for new staff.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=SMTP relay test>>>
+Testing an SMTP relay change
+
+After editing /etc/postfix/main.cf, validate with `postfix check`. Then reload: `sudo postfix reload`.
+
+Send a test message:
+`echo "relay test" | mail -s "relay test" ops-test@lantern.test`
+
+Read the result with `tail -f /var/log/mail.log`. You should see "status=sent".
+
+A line saying "warning: database /etc/aliases.db is older than source file" can be fixed with `newaliases` but does not block delivery.
+
+If you see "Relay access denied", re-check mynetworks.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Rack cooling alarm>>>
+Temperature alarm in data hall 2, row C
+
+Engineers on site must act in this order:
+1. Check the building management screen for CRAC unit status in row C.
+2. If a unit shows fault code E4, walk to it and confirm the condensate pump is not full.
+3. Confirm blanking panels are in every empty rack slot.
+4. Read the inlet temperatures from the rack sensors; above 32 C means start the load-shedding procedure.
+
+Do not open the CRAC electrical panels. Humidity notices below 40% during winter months are a known pattern and can be ignored.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Cron job not running>>>
+Scheduled report job not running at 06:00
+
+On the host, verify the cron entry: `crontab -l -u reports`. Check the system log for the job's run time: `grep CRON /var/log/syslog | grep reports`.
+
+If the job started but exited early, view its own log in /var/log/reports/daily.log.
+
+Common cause: the PATH in cron differs from your shell. Use full paths to binaries in the script.
+
+The notice "(CRON) info (No MTA installed, discarding output)" is harmless; the job's own log has the output.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Swapping a failed switch>>>
+Replacing a failed access switch (24-port PoE, model AX-24P)
+
+1. Take a photo of the cabling on the old switch and label each cable by port number.
+2. Retrieve the config backup from the network tool: Devices > SW-F2-03 > Backups.
+3. Rack the replacement, load the config via the console cable, and save.
+4. Move the cables one port at a time and confirm link lights.
+5. Verify phones have power and registered.
+
+The STP topology change notice after step 4 is normal. Record the old serial in the asset register for return.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Out of memory on Java service>>>
+Java service "ledger-core" restarted with OutOfMemoryError
+
+Collect evidence before restarting anything: pull the heap dump from /var/dumps/ledger-core and copy it to the analysis share.
+
+Check the JVM flags in /etc/ledger/jvm.options; the heap is set to 4g and should be 6g on the new nodes.
+
+Review GC logs for "Full GC" every few seconds.
+
+Warnings in the log about "illegal reflective access" are inherited from a third-party library and do not indicate the cause. Share the dump summary with the owning developers.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=WSUS sync failing>>>
+WSUS shows "synchronization failed" every night
+
+Open the WSUS console, then Synchronizations, and read the error message. Typical errors are WebException (proxy) or a full database.
+
+Run `wsusutil reset` on the server to re-check missing content. Then run the Server Cleanup Wizard to remove superseded updates.
+
+Check the proxy settings under Options > Update Source.
+
+Event ID 364 for a single large driver file can be disregarded if the next sync succeeds.
+<<<END>>>
+
+<<<ITEM kind=it_runbook lang=en hard_negative=true topic=Thin client boot loop>>>
+Thin clients in the training room restart repeatedly
+
+Hold Shift while the logo appears to reach the recovery menu. Choose "Reset to factory image".
+
+If the device cannot reach the provisioning server, check VLAN 60 on the switch port and that DHCP option 66 points to prov.lantern.test.
+
+After provisioning, the client downloads about 1.8 GB and restarts twice; that is normal.
+
+Keep the training-room rota owner informed of progress. The yellow "Peripheral firmware mismatch" icon in the tray can be ignored.
+<<<END>>>

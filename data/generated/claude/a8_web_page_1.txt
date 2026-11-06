@@ -1,0 +1,360 @@
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=balatoni szezon>>>
+Hosszabb szezonra készülnek a balatoni szállásadók
+
+A Balatoni Szállásadók Egyesülete szerint idén október közepéig is a tavalyinál több foglalás érkezett a déli parti településekre. Siófokon és Balatonlellén a háromcsillagos szállodák átlagos kihasználtsága 64 százalék volt szeptemberben.
+
+Az egyesület elnöke, Kovács Ildikó elmondta, hogy a vendégek egyre gyakrabban érkeznek hosszú hétvégére, nem egész hétre. A gyógyfürdők és a borászatok is hosszabb nyitvatartást terveznek.
+
+Várható újdonságok:
+- őszi borfesztivál Balatonfüreden
+- bővített kerékpáros kölcsönzőpontok
+- téli wellness-csomagok Hévízen
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=helyi buszmenetrend>>>
+Változik a 24-es helyi autóbusz menetrendje Szolnokon
+
+Novembertől módosul a 24-es járat útvonala: a busz a Széchenyi lakótelep után már nem a Tiszaligeten, hanem a Kórház utcán halad tovább. A változás a Szolnoki Városi Közlekedési Kft. közlése szerint a kórházba tartó utasok időmegtakarítását szolgálja.
+
+Munkanapokon reggel 5:20 és 8:00 között tíz percenként indul majd járat, délután negyedóránként. Hétvégén továbbra is félóránként közlekedik a busz. A pontos időpontok a megállókban és a cég honlapján is megtekinthetők.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=receptoldal gulyásleves>>>
+Igazi alföldi gulyásleves bográcsban
+
+Hozzávalók 6 személyre:
+- 1 kg marhalábszár
+- 4 nagy fej vöröshagyma
+- 3 evőkanál sertészsír
+- 2 evőkanál édes paprika
+- 4 közepes krumpli, 3 sárgarépa, 1 petrezselyemgyökér
+- só, kömény, pici csípős paprika
+
+A hagymát üvegesre pároljuk a zsíron, ráhintjük a paprikát, majd hozzáadjuk a kockákra vágott húst. Két és fél órán át, lassú tűzön főzzük, közben apránként vizet töltünk alá. A zöldségeket a végén tesszük bele. Friss kenyérrel tálaljuk.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=egyetemi felvételi>>>
+Felvételi tájékoztató: Debreceni Egyetem, informatikai kar
+
+A 2027. évi felvételi eljárásban az informatikai karon összesen 420 államilag támogatott és 180 önköltséges hely hirdetett. A jelentkezési határidő február 15., az elbírálás június végén várható.
+
+A programtervező informatikus alapszakra minimum 360 pont szükséges, melybe a matematika emelt szintű érettségi is beleszámít. Külföldi hallgatók számára a felvételi levelezés angol nyelven zajlik.
+
+Nyílt napot tartanak december 6-án szombaton 10 órától az Egyetem téri épületben, előzetes regisztráció nélkül.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=lakáspiaci elemzés>>>
+Lakáspiac: lassul az áremelkedés a megyeszékhelyeken
+
+Az ingatlanközvetítők friss adatai szerint harmadik negyedévben az átlagos négyzetméterár Győrben 612 ezer, Pécsen 438 ezer, Miskolcon 351 ezer forint volt. Egy év alatt a növekedés mértéke 3 és 6 százalék között alakult.
+
+Az elemzők szerint a kamatok mérséklődése ugyan élénkíti a keresletet, de az új építésű lakások kínálata továbbra is szűk. A használt lakások eladása átlagosan 74 napig tart, ez tavaly ilyenkor még 61 nap volt.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=csillagászati megfigyelés>>>
+Perseida-meteorraj: mikor és hol érdemes nézni?
+
+A Magyar Csillagászati Egyesület szerint a legtöbb hullócsillag augusztus 12-én éjjel látható. Fényszennyezéstől mentes helyen óránként akár 60-80 meteor is felvillanhat.
+
+Tippek a megfigyeléshez:
+- keressenek sötét, nyílt területet, például a Bakony vagy a Zemplén néhány kilátóját
+- pihentessék a szemüket legalább húsz percig
+- hozzanak pokrócot és meleg ruhát
+
+A Hold fázisa ebben az évben kedvező, így az égbolt sötét lesz.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=fogyasztóvédelem garancia>>>
+Mit tehet, ha a termék a jótállási időn belül elromlik?
+
+Az új termékekre a törvény szerint legalább egyéves kötelező jótállás jár, amelynek kezdete a termék átadásának napja. Ha a hiba az első hónapban jelentkezik, a vásárló kérheti a csere lehetőségét is.
+
+A fogyasztói panaszt írásban érdemes megtenni, és meg kell őrizni a számlát és a jótállási jegyet. A vállalkozásnak 15 napon belül kell intézkednie. Ha ez nem történik meg, a megyei kormányhivatal fogyasztóvédelmi osztályához fordulhat a vásárló.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=tanyatúra Hortobágy>>>
+Hortobágyi látogatóközpont és tanyatúrák
+
+A Hortobágyi Nemzeti Park látogatóközpontja április 1. és október 31. között naponta 9-17 óráig tart nyitva. A belépő felnőtteknek 2200 forint, diákoknak 1100 forint.
+
+A szürke marhák és racka juhok megtekintésére naponta háromszor indul szekeres kirándulás, ennek díja 3500 forint fejenként. A csoportok előzetesen a központ e-mail-címén foglalhatnak. A madármegfigyelő tornyok ingyenesen látogathatók, távcsövet a recepción lehet kölcsönözni.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=sportegyesület hírek>>>
+Győzelemmel zárta az őszi idényt a Kaposvári Röplabda Klub
+
+A KRK női csapata szombaton este három-egyre nyert a hazai pályán a Kecskeméti Sasok ellen. Az első szettet vesztették el, majd Nagy Zsuzsanna vezetésével fordítottak: 25-21, 25-19, 25-23.
+
+Az edző, Bodor Péter elégedetten nyilatkozott: szerinte a védekezés rendeződött a szünet előtt. A csapat a tabella harmadik helyén telel, a tavaszi folytatás februárban kezdődik. A bérletek értékesítése januárban indul.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=energetikai pályázat>>>
+Napelemes pályázat családi házakra
+
+A kormányhivatal új támogatási programot hirdetett napelemes rendszerek telepítésére. A vissza nem térítendő támogatás mértéke legfeljebb 40 százalék, de legfeljebb 1,2 millió forint lehet.
+
+Jogosultak a saját tulajdonú, használatbavételi engedéllyel rendelkező lakóingatlanok tulajdonosai. A benyújtás elektronikus úton történik, az érdemi elbírálás 45 nap. A kivitelezést csak a támogatói döntés után szabad megkezdeni, különben a kérelem elutasításra kerül.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=könyvtári program>>>
+Őszi programok a Pécsi Városi Könyvtárban
+
+Novemberben négy író-olvasó találkozót szerveznek a belvárosi fiókkönyvtárban. Elsőként Horváth Dániel mutatja be a Mecsek mondáiról szóló új kötetét, november 12-én, szerdán 17 órakor.
+
+A gyerekeknek szóló meseolvasás minden szombaton délelőtt tizenegykor kezdődik, a részvétel ingyenes. Az idősebb korosztálynak számítógépes alapismeret tanfolyam indul kedden és csütörtökön. Jelentkezni a pult mellett lehet, legfeljebb 12 fő fér be a terembe.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=időjárás előrejelzés>>>
+Időjárás: hidegfront érkezik hétvégén
+
+Pénteken még napos, enyhe idő várható, a hőmérséklet délután 16-19 fok között alakul. Szombat éjjel azonban északnyugat felől hidegfront éri el az országot, ami főként a Dunántúlon hozhat zivatart.
+
+Vasárnapra a csúcshőmérséklet 9-12 fokra mérséklődik, az északi hegyekben a hajnali órákban fagyok is lehetnek. A HungaroMet szerint a hét elején fokozatosan javul az idő, kedden már újra napsütés valószínű.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=gazdasági kamara>>>
+Kisvállalkozói hitel: mire figyeljünk?
+
+A Dél-alföldi Gazdasági Kamara szerint a mikrovállalkozások számára kedvező kamatozású hitelek érhetők el az idei évben. A fix kamat 4,5 százalék, a futamidő legfeljebb tíz év.
+
+Mielőtt a cégvezető szerződést köt, érdemes összehasonlítania a teljes hiteldíj mutatót, nem csupán a kamatot. A kamara havonta ingyenes tanácsadást tart Szegeden, a Kárász utcai irodában. Időpontot telefonon vagy e-mailben lehet kérni.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=szőlészet borvidék>>>
+Egri borvidék: az idei szüret eredményei
+
+Az Egri Borvidék Hegyközségi Tanácsa szerint a 2026-os szüret mennyiségben közepes, minőségben kiváló. Az Eger környéki ültetvényeken átlagosan 7,8 tonna szőlő termett hektáronként.
+
+A bikavér alapborok cukorfoka idén átlagosan 21,4 mustfok. A pincészetek többsége a hosszabb érlelés mellett döntött. A borászok szerint az első palackozott tételek jövő év tavaszán kerülhetnek a boltokba, a Szépasszony-völgyben pedig már szombaton megnyílik a bormustra.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=mentőszolgálat tájékoztató>>>
+Az Országos Mentőszolgálat tájékoztatója az ügyeleti ellátásról
+
+Az 112-es segélyhívószám az egyetlen, amelyet életveszélyes állapotban hívni kell. A központi ügyelet nem életveszélyes esetekben a 1830-as számon érhető el.
+
+Az ügyeletet hétköznap 16 órától másnap reggel 8 óráig, hétvégén és ünnepnapokon egész nap veszik igénybe. Érdemes magukkal vinni a TAJ-kártyát és az aktuális gyógyszerek listáját. A felnőtt háziorvosi rendelők elérhetőségei az önkormányzatok honlapján találhatók.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=múzeumi kiállítás>>>
+"Fények és árnyak": életmű-kiállítás a Szépművészeti Múzeumban
+
+Szabó Magda festőművész hetvenéves pályáját összegző tárlat december 14-ig látható a Dózsa György úti kiállítótérben. A több mint száz alkotás között az olajfestmények mellett korai rajzok és vázlatfüzetek is szerepelnek.
+
+A kurátor, Tóth Eszter elmondta, hogy a kiállítás időrendben halad a hatvanas évektől napjainkig. Jegyek: 2500 forint, nyugdíjasoknak 1200 forint. Minden hónap első vasárnapján a belépés ingyenes. Vezetett séta szombatonként 14 órakor indul.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=állatmenhely örökbefogadás>>>
+Örökbefogadható kutyák a Miskolci Állatmenhelyen
+
+A menhelyen jelenleg 43 kutya és 28 macska vár gazdára. Az állatok chippel, oltással és ivartalanítva kerülnek új otthonba.
+
+Az örökbefogadás menete:
+1. Személyes ismerkedés a kiválasztott állattal
+2. Rövid beszélgetés a gondozókkal
+3. Szerződéskötés és az állat átvétele
+
+Az örökbefogadási díj kutyáknál 15 000, macskáknál 8000 forint. A menhely hétfőtől szombatig 9 és 16 óra között látogatható. Önkéntesek jelentkezését is várják a séráltatásra.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=szoftverfejlesztő képzés>>>
+Backend fejlesztő tanfolyam kezdőknek – Budapesti Kódműhely
+
+A 16 hetes képzés januárban indul, heti három esti alkalommal. A tananyag Python alapokat, adatbázis-kezelést és REST API-k készítését foglalja magában.
+
+Résztvevők száma: legfeljebb 18 fő. A tandíj 390 000 forint, amely két részletben fizethető. A záró projektmunkát egy szakmai zsűri értékeli, a legjobb három csapat állásinterjút kap partnercégeknél.
+
+Jelentkezni a honlapon keresztül, egy rövid logikai teszt kitöltésével lehet. A jelentkezési határidő december 19.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=vasúti felújítás>>>
+Felújítják a Budapest–Székesfehérvár vonalszakaszt
+
+A MÁV tájékoztatása szerint jövő hétfőtől három hétig a Kelenföld és Budaörs közötti pályaszakaszon pótlóbuszok közlekednek. A munkálatok során új sínszálakat fektetnek le és korszerűsítik a felsővezetéket.
+
+Az érintett vonatok menetideje átlagosan 18 perccel nő. Az utasok a pályaudvarokon és a menetrendi alkalmazásban láthatják a módosított járatokat. A bérletek érvényesek maradnak, a pótlóbuszokra külön jegy nem szükséges.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=zöldségtermesztés tanácsok>>>
+Hogyan vetsz hagymát ősszel?
+
+A téli fokhagyma és a vöröshagyma ültetésének legjobb ideje október második fele. A talajt előzőleg érdemes meglazítani, és komposzttal dúsítani.
+
+A gerezdeket 4-5 centiméter mélyre, tőtávolságra 10-12 centiméterre helyezzük. A sorok között 25 centiméter hely kell. Fagyos időben szalmával vagy száraz lombbal takarjuk be a területet, hogy tavaszig megvédjük a hajtásokat. Locsolni csak tartós szárazság esetén szükséges, hiszen a téli csapadék általában elegendő.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=önkormányzati közlemény>>>
+Hulladékszállítási rend változik Gödöllőn
+
+A Gödöllői Városgondozás Kft. december elsejétől új rendben szállítja el a kommunális hulladékot. A zöld hulladékot hetente egyszer, szerdánként, a szelektív zsákokat kéthetente, csütörtökön gyűjtik.
+
+A lakosok a megszokott gyűjtőedényt továbbra is kihelyezhetik reggel hat óráig. Az új naptár megtalálható a polgármesteri hivatal portálján, és kinyomtatott változatban a postaládákba is eljut. Kérdés esetén a 28/555-120-as telefonszámon kaphatnak segítséget.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=gyógyszertár ügyelet>>>
+Egészségügyi hírlevél: téli megfázás ellen
+
+Az őszi-téli időszakban a felső légúti fertőzések száma jelentősen emelkedik. Az orvosok szerint a legfontosabb a pihenés, a bőséges folyadékpótlás és a szobák rendszeres szellőztetése.
+
+Mikor forduljunk háziorvoshoz?
+- ha a láz három napnál tovább fennáll
+- ha nehézlégzés jelentkezik
+- ha a tünetek javulás után ismét rosszabbodnak
+
+A patikák ügyeleti rendjét a területi gyógyszerészi kamara honlapján lehet megtekinteni, itt a településenként keresett nyitvatartások is megtalálhatók.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=filmfesztivál program>>>
+Zempléni Filmnapok: itt a teljes program
+
+A hegyaljai kisváros október 24-től négy napon át adja otthont a fesztiválnak. A nyitófilm egy új magyar dokumentumfilm a tokaji szőlőművesekről, amelyet a rendező, Lakatos Gergő személyesen vezet be.
+
+Összesen 28 film szerepel a programban, ebből tíz bemutató előtti vetítés. A jegyek ára 1500 forint, a négynapos bérlet 4800 forint. A vetítések a művelődési házban, a református templomban és szabadtéri helyszíneken zajlanak majd. A nézők a helyszínen vásárolhatnak jegyet.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=mezőgazdasági gépek>>>
+Használt traktorok: mire figyeljünk vásárláskor?
+
+A gazdák számára a használt erőgép megvásárlása jelentős kiadás, ezért a mezőgazdasági gépkereskedők szerint érdemes alaposan átvizsgálni a gépet. Először az üzemóra-számlálót és a szervizkönyvet kell ellenőrizni.
+
+Fontos szempontok:
+- a hidraulika rendszer szivárgásmentessége
+- a hajtómű és a tengelykapcsoló állapota
+- az abroncsok kopása és a futómű holtjátéka
+
+Egy 8-10 éves, 100 lóerős traktor ára jelenleg 9-14 millió forint között mozog, állapottól és márkától függően.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=iskolai tanévnyitó>>>
+A Kodály Zoltán Általános Iskola hírei
+
+Szeptember elsején 214 elsős kisdiák kezdte meg tanulmányait a szegedi intézményben. A tanévnyitón Fehér Katalin igazgató köszöntötte a szülőket és a pedagógusokat, majd a negyedikes kórus adott rövid műsort.
+
+Az idei újdonság az iskolai konyhakert, ahol a diákok zöldségeket és fűszernövényeket termesztenek. A tanév első szülői értekezlete szeptember 18-án lesz, osztályonként eltérő időpontokban. Az étkezési térítési díjat a hónap tizedikéig kell befizetni.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=közlekedésbiztonság kerékpár>>>
+Kerékpárosoknak szóló téli tippek
+
+Sötétedés után lakott területen kívül kötelező az első fehér és a hátsó piros lámpa használata. Lakott területen is ajánlott, hiszen a láthatóság kulcsfontosságú.
+
+A téli időszakban a gumik nyomását érdemes alacsonyabbra venni, így jobb a tapadás. A fékeket havonta ellenőrizzük, a láncot pedig tisztítsuk meg a sótól. A közlekedésbiztonsági egyesület fényvisszaverő csíkokat oszt a nagyobb városokban november végéig.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=gyógyvizek termál>>>
+A hajdúszoboszlói gyógyvíz hatásai
+
+A városban feltörő hévíz 1925-ben, szénhidrogén-kutatás közben bukkant elő. Összetételében jelentős a jód, a bróm és a nátrium-klorid, ami a reumatikus és mozgásszervi panaszok kezelésében hasznos.
+
+A strandfürdő nyitvatartása hétfőtől vasárnapig 8 és 20 óra között. A jegyek ára felnőtteknek 5900 forint, gyerekeknek 4200 forint. A gyógyászati részlegen orvosi beutaló nélkül is lehet kezelésre jelentkezni, de ebben az esetben a költségeket a vendég viseli.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=családi vállalkozás sajt>>>
+Kecskesajt a Bakonyból: egy családi manufaktúra története
+
+Varga Tamás és felesége tizenkét éve kezdett kecskét tartani Zircen. Ma már hetven állattal és saját sajtüzemmel dolgoznak, hetente mintegy 120 kiló sajtot készítenek.
+
+A termékek között friss, érlelt és fűszeres sajtok is megtalálhatók. A szombati zirci piacon kívül három budapesti étterembe is szállítanak. A manufaktúra tavaly vendégfogadóhellyel bővült, ahol előzetes bejelentkezéssel kóstolni és megtekinteni lehet a tejfeldolgozást.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=levegőminőség mérések>>>
+Levegőminőség: mérőállomások adatai Budapesten
+
+Az Országos Meteorológiai Szolgálat mérőhálózata a főváros területén tizenegy állomáson mér porszennyezést. A múlt heti átlagos PM10-érték 31 mikrogramm volt köbméterenként, ami az egészségügyi határérték alatt van.
+
+Legmagasabb értéket az Erzsébet téri mérőpont regisztrált csütörtökön, 52 mikrogramm/köbméter körüli adattal. A hatóság szerint a hétvégi szélesebb légmozgás javítani fog a helyzeten. Az aktuális adatok óránként frissülnek a honlapon.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=utazási iroda ajánlat>>>
+Őszi városlátogatás Bécsben: háromnapos csomag
+
+A Dunatour Utazási Iroda hétvégi buszos kirándulást szervez Bécsbe november 21-23. között. Az ár 54 900 forint fő, amely tartalmazza az oda-vissza utat, két éjszakai szállást reggelivel és idegenvezetést.
+
+Programok: Schönbrunni kastély, Szent István-székesegyház, Naschmarkt és egy esti operaház-látogatás (felár ellenében). Indulás pénteken reggel 6 órakor a Népligetből. Jelentkezni a belvárosi irodában vagy telefonon lehet, a férőhelyek száma korlátozott.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=kutatási projekt méhek>>>
+Méhek viselkedését vizsgálják a Szegedi Tudományegyetemen
+
+A biológusokból álló kutatócsoport három éve követi nyomon a mézelő méhek tájékozódását. Apró, mindössze 5 milligrammos chipeket ragasztanak a dolgozók hátára, így követhető, merre repülnek a kaptárból.
+
+Az eddigi eredmények szerint az állatok a napsugárzás szögét és a tájékozódási pontokat egyaránt használják. A vezető kutató, dr. Mészáros Anna szerint a mérések segíthetnek a méhpusztulás okainak feltárásában. A projektet hazai és uniós forrásból finanszírozzák.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=bankfiók nyitvatartás>>>
+Fióki nyitvatartás és ügyfélszolgálat
+
+A Tisza-menti Takarékszövetkezet kecskeméti fiókja hétfőtől csütörtökig 8:30 és 16:00, pénteken 8:30 és 14:00 óra között várja az ügyfeleket. Szombaton és vasárnap zárva tart.
+
+Készpénzfelvétel és -befizetés az automatákon a nap 24 órájában elérhető. Az ügyfélszolgálati vonal munkanapokon 7 és 19 óra között hívható. Időpont-egyeztetés a hitelügyintézőkhöz az online felületen vagy személyesen lehetséges. Az ünnepi időszakban rövidebb nyitvatartás várható.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=sakk verseny>>>
+Nemzetközi sakkverseny Szegeden
+
+Október 30. és november 3. között nyolcvan versenyző vesz részt a Tisza-parti Sakkfesztiválon. A mezőnyben tizenkét nemzetközi mester és három nagymester is szerepel.
+
+A játékidő 90 perc plusz 30 másodperc lépésenként. A fődíj 1,5 millió forint. A mérkőzések a Móra Ferenc Művelődési Házban zajlanak, a nézők ingyen látogathatják őket. A helyszínen kivetítő mutatja a legizgalmasabb állásokat, a csütörtöki fordulót élőben közvetíti a szervezők videócsatornája is.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=okostelefon teszt>>>
+Teszt: Lumen Pro 12, a középkategória új ígérete
+
+A magyar piacra 139 990 forintos áron érkező Lumen Pro 12 6,4 hüvelykes OLED kijelzőt, 5000 mAh-s akkumulátort és 50 megapixeles főkamerát kapott. Az üzemidő közepes terhelés mellett másfél napot ért el a mérésünkben.
+
+Pozitívum a gyors töltés, amellyel 30 perc alatt 60 százalékig feltölthető a készülék. Negatívumként említhető, hogy a hangszóró mono, és a készülékhez nem adnak töltőfejet a dobozban. Összességében jó ár-érték arányú modell.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=vízügyi tájékoztatás>>>
+Tiszai vízállás: tovább apad a folyó
+
+Az Észak-magyarországi Vízügyi Igazgatóság szerint a Tisza Szolnoknál reggel 8 órakor 214 centiméteren állt, ami huszonöt centiméterrel alacsonyabb a hétfői értéknél. A folyó a hét második felében további apadásra számíthat.
+
+Árvízvédelmi készültség nincs érvényben. A hajózási útvonal egyes szakaszain azonban a vízmélység már alacsony, ezért a kikötők figyelmeztetést adtak ki. A hatóság naponta frissíti a mérések eredményeit.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=hagyományőrző népviselet>>>
+Matyó hímzés: a mezőkövesdi hagyomány
+
+A matyó népművészet legismertebb eleme a színes, virágmintás hímzés, amely fehér vásznon piros, kék és rózsaszín selyemmel készül. A minták régen a viselet díszítésére, ma már főként házi textíliákra és ajándéktárgyakra kerülnek.
+
+A Matyó Múzeum kézműves foglalkozásokat tart hétvégente, ahol a látogatók megtanulhatják az alapöltéseket. A kétórás foglalkozás díja 3000 forint, az anyagot a helyszínen biztosítják. Az idén tavaszi hímzőversenyre 46 pályamunka érkezett.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=elektromos autók töltés>>>
+Elektromos autók töltőállomásai: hol vannak és mennyibe kerülnek?
+
+Magyarországon jelenleg csaknem 2700 nyilvános töltőpont üzemel. A gyorstöltők kilowattóránkénti ára átlagosan 180 és 240 forint között mozog, a lassabb váltóáramú pontoké kedvezőbb.
+
+A legtöbb töltőoszlop mobilalkalmazáson keresztül aktiválható. A töltőhálózatok üzemeltetői egyre gyakrabban kínálnak havi előfizetést is, amelynél a kilowattóra ára akár 20 százalékkal alacsonyabb. A térképes alkalmazások valós időben mutatják az oszlopok foglaltságát.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=tűzoltóság figyelmeztetés>>>
+Fűtési szezon: így előzhetők meg a háztűzesetek
+
+Az országos katasztrófavédelem adatai szerint a lakástüzek harmada a fűtési időszakban keletkezik. A leggyakoribb ok a kémények tisztításának elmulasztása és a hibás fűtőberendezések használata.
+
+A szakemberek javaslata:
+- évente kétszer vegyék igénybe a kéményseprő szolgálatát
+- szén-monoxid-érzékelőt szereljenek fel
+- ne száradjon ruha a kályha közvetlen közelében
+
+A kéményseprő-ipari közszolgáltatás díját a lakossági ügyfelek az első alkalommal ingyenesen kapják.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=zeneiskola felvételi>>>
+Zenei előképző a Győri Zeneművészeti Iskolában
+
+A hatéves kortól látogatható előképző csoportban a gyerekek játékos módon ismerkednek a ritmusokkal, a hangszerekkel és az énekléssel. A foglalkozások hetente kétszer, 45 percesek.
+
+A felvételi hallásvizsgálatból és egy rövid beszélgetésből áll. Az időpontok január 12. és 16. között lesznek. A tandíj szociális alapon mérsékelhető. A szülők a nyílt órán megtekinthetik, hogyan zajlanak a foglalkozások, ezek az alkalmak minden hónap második keddjén vannak.
+<<<END>>>
+
+<<<ITEM kind=web_page lang=hu hard_negative=false topic=városi piac hírek>>>
+Megújult a Hunyadi téri piac
+
+A XIII. kerületi piacot hét hónapos felújítás után szombaton adták át. A csarnok teteje új, megerősített szerkezetet kapott, a standokat korszerű hűtőpultokkal szerelték fel, és akadálymentes bejáratot is létrehoztak.
+
+Hetven árus kapott helyet, köztük számos őstermelő. Nyitvatartás: hétfőtől péntekig 6-18, szombaton 6-14 óráig. Vasárnap zárva. A kerületi önkormányzat szerint a beruházás költsége 640 millió forint volt, melyet részben uniós forrásból fedeztek.
+<<<END>>>
+

@@ -1,0 +1,294 @@
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=router újraindítása>>>
+Hogyan indítsa újra a routert?
+
+1. Kapcsolja ki a routert, és húzza ki a tápkábelt a konnektorból.
+2. Várjon legalább harminc másodpercet, hogy a készülék teljesen kisüljön.
+3. Dugja vissza a tápkábelt, majd kapcsolja be a routert.
+4. Várja meg, amíg az internet jelű lámpa folyamatosan zölden világít, ez általában két-három percet vesz igénybe.
+5. Csatlakoztassa újra a telefonját vagy a laptopját a wifihez, és nyisson meg egy weboldalt a próbához.
+
+Ha a lámpa továbbra is villog, hívja a szolgáltatót.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=csöpögő csap javítása>>>
+Csöpögő csap javítása házilag
+
+Először zárja el a csap alatti elzárószelepet. Ha nincs ilyen, a főcsapot zárja el. Csavarja le a csap tetején lévő dekorfedelet egy lapos csavarhúzóval, majd lazítsa meg a belső csavart. Húzza le a fogantyút. Egy villáskulccsal csavarja ki a szelepházat, és vegye ki a régi tömítést. Vigye magával a boltba mintának, és vegyen ugyanolyat. Tegye be az újat, szerelje vissza a szelepházat, a fogantyút és a fedelet, végül nyissa ki a vizet, és figyelje meg, hogy csöpög-e még.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=kerékpár defektjavítás>>>
+Defekt javítása az út szélén
+
+Fordítsd fejre a biciklit, vagy támaszd meg valamin. Engedd le a maradék levegőt, és emeld le a gumit a felniről két gumiszerelő lapáttal. Vedd ki a belsőt, pumpáld fel kicsit, és hallgasd meg, honnan szökik a levegő. Ragaszd rá a foltot, hagyd száradni két percet. Nézd meg a köpenyt belülről, nem maradt-e benne szög vagy üvegszilánk. Tedd vissza a belsőt, szereld fel a köpenyt, és fújd fel az ajánlott nyomásra, ami az oldalán olvasható.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=mosógép vízkőtelenítés>>>
+Mosógép vízkőtelenítése citromsavval
+
+1. Ürítse ki a dobot, ne tegyen bele ruhát.
+2. Oldjon fel három evőkanál citromsavat fél liter meleg vízben.
+3. Öntse az oldatot a mosószertartó fő rekeszébe.
+4. Indítson el egy 60 fokos mosóprogramot.
+5. A program végén törölje át a gumigyűrűt nedves ruhával.
+6. Futtasson le még egy rövid öblítőprogramot, így a citromsav maradéka is eltávozik.
+
+Hagyja nyitva az ajtót, hogy a dob átszellőzzön. Évente kétszer elég megismételni.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=fotó biztonsági mentése>>>
+Így mentse el a telefonján lévő fotókat
+
+Csatlakoztassa a telefont wifihez, és töltse fel legalább 50 százalékra. Nyissa meg a Galéria alkalmazást, majd a beállításoknál válassza a felhőalapú szinkronizálást. Jelentkezzen be a Google-fiókjával, és jelölje be, hogy melyik mappákat szeretné menteni. Kattintson a „Mentés indítása” gombra. Hagyja a telefont egy éjszakára bekapcsolva, mert a nagy felbontású képeknél hosszabb ideig tart. Másnap ellenőrizze számítógépről, hogy minden kép megjelent-e a fiókban.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=muskátli teleltetése>>>
+Hogyan teleltesd át a muskátlit?
+
+Októberben, az első fagyok előtt hozd be a cserepeket. Vágd vissza a hajtásokat körülbelül a felére, és szedd le az elszáradt leveleket. Állítsd a növényt világos, hűvös helyre, ahol 8–12 fok van, például egy fűtetlen lépcsőházba vagy verandára. Télen ritkán, kéthetente egyszer önts alá egy keveset, mert a túl sok víztől elrohad a gyökér. Tavasszal, március végén tedd melegebb szobába, tegyél friss virágföldbe, és öntözd rendszeresen.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=laptop akkumulátor kalibrálás>>>
+Az akkumulátor kalibrálásának lépései
+
+1. Töltse fel a laptopot 100 százalékra, és hagyja még egy órát a töltőn.
+2. Húzza ki a töltőt, és használja a gépet addig, amíg magától ki nem kapcsol.
+3. Hagyja a gépet kikapcsolva legalább öt órán át.
+4. Csatlakoztassa újra a töltőt, és töltse fel teljesen anélkül, hogy közben használná.
+5. Indítsa el a gépet, és nézze meg, hogy a töltöttségi mutató helyesen jelez-e.
+
+Ezt a műveletet évente legfeljebb kétszer végezze el.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=radiátor légtelenítése>>>
+Radiátor légtelenítése
+
+Kapcsolja le a fűtést, és várja meg, amíg a radiátor kihűl. Tegyen a radiátor alá egy törölközőt és egy kis edényt. Illessze a légtelenítő kulcsot a radiátor felső sarkán lévő szelepre, és forgassa lassan balra negyed fordulatot. Hallani fogja a sziszegést, ahogy a levegő kiszökik. Amint víz kezd folyni, zárja vissza a szelepet. Ismételje meg a többi radiátornál, majd ellenőrizze a kazán nyomását, és szükség esetén pótolja a vizet.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=pdf aláírása>>>
+PDF dokumentum aláírása számítógépen
+
+Nyissa meg a dokumentumot a PDF-olvasóban. Válassza az „Aláírás” vagy a „Kitöltés és aláírás” funkciót az eszköztárban. Írja be a nevét, rajzolja le egérrel vagy fényképezze le a papíron írt aláírását. Kattintson az aláírásra, majd húzza a dokumentum megfelelő helyére. Igazítsa a méretét, és kattintson a „Mentés” gombra. Küldés előtt nyissa meg újra a mentett fájlt, és győződjön meg róla, hogy az aláírás látható.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=kenyér kovászolása>>>
+Kovász indítása otthon
+
+Keverj össze egy befőttesüvegben 50 gramm teljes kiőrlésű lisztet és 50 gramm langyos vizet. Fedd le lazán, és hagyd szobahőmérsékleten. Másnap öntsd ki a felét, és etesd újra ugyanannyi liszttel és vízzel. Ezt ismételd minden nap, körülbelül egy hétig. Amikor a kovász megduplázódik és buborékos, savanykás illatot kap, használhatod kenyérhez. Tárold a hűtőben, és hetente egyszer etesd meg.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=gumiabroncs csere>>>
+Téli gumi felszerelése
+
+1. Állítsa az autót sík, szilárd talajra, és húzza be a kéziféket.
+2. Lazítsa meg a kerékanyákat félfordulatnyit, mielőtt felemelné az autót.
+3. Helyezze az emelőt az előírt pontra, és emelje fel a kocsit.
+4. Csavarja le teljesen a kerékanyákat, és vegye le a kereket.
+5. Tegye fel az új kereket, kézzel húzza meg az anyákat keresztbe haladva.
+6. Engedje le az autót, és húzza meg az anyákat nyomatékkulccsal a gyártó által megadott értékre.
+7. Száz kilométer után ellenőrizze újra a meghúzást.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=ablaktisztítás>>>
+Csíkmentes ablaktisztítás
+
+Először porolja le az ablakkeretet egy száraz ruhával. Keverjen össze fél liter vizet, két evőkanál ecetet és egy csepp mosogatószert. Permetezze az oldatot az üvegre, és törölje át egy mikroszálas kendővel felülről lefelé. Ha csíkos marad, húzza át még egyszer egy tiszta, száraz kendővel vagy újságpapírral. Ne takarítson tűző napon, mert az oldat túl gyorsan megszárad, és foltokat hagy.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=zöldségeskert előkészítése>>>
+Hogyan készítsd elő a veteményest tavasszal?
+
+Márciusban, amint felengedett a talaj, ásd át egy ásóvillával az ágyást, és szedd ki a kövek és a gyökerek maradékát. Szórj rá három-négy cm vastag érett komposztot, és gereblyézd el. Húzd ki a sorokat zsineggel, és jelöld meg cövekkel. Az első vetést – retket, spenótot, borsót – április elején érdemes elvégezned. Vetés után öntözd meg gyengéden, és takard le agrofóliával, ha hidegre fordul az idő.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=nyomtató patron csere>>>
+Tintapatron cseréje
+
+Kapcsolja be a nyomtatót, és nyissa fel a fedelét. Várja meg, amíg a patrontartó középre áll. Nyomja le finoman a régi patron tetejét, és húzza ki. Vegye ki az új patront a csomagolásból, és távolítsa el a védőfóliát, de ne érjen az érintkezőkhöz. Tolja be a helyére, amíg kattanást nem hall. Csukja le a fedelet, és a kijelzőn indítsa el a fejtisztítást. Végül nyomtasson egy próbaoldalt.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=hűtőszekrény leolvasztása>>>
+A hűtő leolvasztása lépésről lépésre
+
+1. Húzd ki a hűtőt a konnektorból.
+2. Vedd ki az ételeket, és tedd őket hűtőtáskába vagy a kamrába.
+3. Terítsd a padlóra törölközőket a hűtő elé.
+4. Hagyd nyitva az ajtót, és egy edényben tegyél bele meleg vizet, ez gyorsítja az olvadást.
+5. Ne szúrd a jeget késsel, mert megsérülhet a hűtőtér fala.
+6. Töröld ki szárazra, majd dugd vissza a hűtőt.
+7. Várj egy órát, mielőtt visszarakod az ételt.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=kávéfőző vízkőmentesítése>>>
+Kávéfőző vízkőmentesítése
+
+Töltse a víztartályt félig vízzel, a másik felét töltse fel háztartási ecettel. Helyezzen egy nagy kancsót a kifolyó alá. Indítsa el a főzést, és amikor a tartály háromnegyede kiürült, kapcsolja ki a gépet. Várjon fél órát. Kapcsolja vissza, és engedje át a maradékot. Töltse meg a tartályt tiszta vízzel, és főzzön át kétszer, amíg az ecetszag el nem múlik. Legközelebb három hónap múlva ismételje meg.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=gyorsírás és billentyűzet>>>
+Tíz ujjas gépírás tanulása
+
+Ülj egyenesen, a csuklód legyen laza, a könyököd 90 fokban hajlítva. Tedd az ujjaidat a kiinduló sorra: bal kéz ASDF, jobb kéz JKLÉ. Ne nézz a billentyűzetre, még akkor sem, ha lassú vagy. Napi tizenöt percet gyakorolj, és először a pontosságra figyelj, ne a sebességre. Egy hét után kezdhetsz rövid szavakat gépelni, egy hónap után mondatokat. Használj ingyenes gyakorlóprogramot, és kövesd a fejlődésedet.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=ruha foltmosás>>>
+Vörösborfolt eltávolítása textilből
+
+Ne dörzsölje a foltot, csak itassa fel egy tiszta papírtörlővel. Szórjon rá bő sót, és hagyja állni tíz percig. Öblítse át hideg vízzel a folt hátuljáról. Keverjen össze fél csésze vizet és fél csésze fehér ecetet, és itassa át vele a foltot. Mossa ki a ruhát a rajta lévő címke szerinti hőfokon. Ha a folt megmaradt, ne szárítsa géppel, hanem ismételje meg a műveletet.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=sátor felállítása>>>
+Sátor felállítása szélben
+
+1. Válasszon sík, kőmentes helyet, lehetőleg szélvédett oldalon, fák vagy bokrok mögött.
+2. Terítse le a sátoralátétet, majd a sátrat.
+3. Először a szél felőli oldalt rögzítse cölöpökkel, mind a négy sarkot.
+4. Fűzze be a vázrudakat, és hajlítsa be őket óvatosan.
+5. Feszítse meg a zsinórokat, és rögzítse a cölöpöket 45 fokos szögben.
+6. Vizsgálja át a sátrat, és szükség esetén szorítsa utána a rögzítéseket.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=jelszó módosítása>>>
+Az e-mail jelszó megváltoztatása
+
+Jelentkezzen be a postafiókjába, és kattintson a jobb felső sarokban a profilképére. Válassza a „Fiók kezelése” menüt, majd a „Biztonság” fület. Kattintson a „Jelszó módosítása” gombra, és adja meg a régi jelszavát. Az új jelszó legyen legalább tizenkét karakter hosszú, és tartalmazzon számot is. Mentse el a változtatást, és jelentkezzen ki az összes eszközről. Ezután lépjen be újra az új jelszóval.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=cipőfűző kötése>>>
+Hogyan tanítsd meg a gyereket cipőt kötni?
+
+Ülj le a gyerek mellé, és vegyetek fel egy-egy cipőt. Mondd el, hogy „nyuszi” a két hurok. Kereszteld át a két fűzőt, és húzd szorosra. Formálj az egyikből hurkot, és fogd meg a hüvelyk- és mutatóujjaddal. Hurkolj körbe a másik fűzővel, és told át a lyukon. Húzd meg mindkét huroknál. Gyakoroljatok minden nap pár percet, és dicsérd, ha sikerül, akkor is, ha a masni még ferde.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=ping-pong asztal összerakása>>>
+Pingpongasztal összeszerelése
+
+Terítsd szét a csomag tartalmát egy nagy, sík helyen, és ellenőrizd az alkatrészeket a leltárlista alapján. Csavard rá a lábakat az asztallap alsó oldalán lévő foglalatokba. Két emberrel fordítsátok talpára az asztalt. Rögzítsd a hálótartó oszlopokat a csavarokkal, és feszítsd ki a hálót. Állítsd be a lábak magasságát a vízmérték segítségével, hogy az asztal pontosan vízszintes legyen. Végül húzd meg minden csavart még egyszer.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=laptop tisztítása>>>
+A laptop billentyűzetének tisztítása
+
+Kapcsolja ki a gépet, és húzza ki a töltőt. Fordítsa lejjebb a gépet, és óvatosan rázza meg, hogy a morzsák kihulljanak. Fújja ki a billentyűk közötti réseket sűrített levegővel. Nedvesítsen meg egy mikroszálas kendőt izopropil-alkohollal, és törölje át a billentyűk tetejét. Ne öntsön folyadékot közvetlenül a gépre. Várja meg, amíg minden megszárad, és csak azután kapcsolja be a laptopot.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=tűzifa rakás>>>
+Tűzifa tárolása télre
+
+Válassz száraz, szellős helyet, lehetőleg a ház déli oldalán. Tegyél le raklapot vagy gerendákat, hogy a fa ne érjen a földhöz. Rakd a fát keresztben, sorokban, a kéreg felfelé nézzen. A rakás két szélét kötözd meg, hogy ne dőljön el. Fedd le felülről egy vászonnal vagy deszkával, de az oldalakat hagyd szabadon, hogy átfújja a szél. Az új fát legalább egy évig szárítsd, mielőtt eltüzeled.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=biztosítékcsere>>>
+Biztosíték cseréje az autóban
+
+1. Állítsa le a motort, és vegye ki a kulcsot.
+2. Nézze meg a kézikönyvben, hol van a biztosítéktábla, általában a műszerfal alatt vagy a motortérben.
+3. Vegye le a fedelet, és keresse meg az elszakadt szálú biztosítékot.
+4. Húzza ki a csipesszel, amit a tábla fedelén talál.
+5. Helyezzen be pontosan ugyanolyan amperértékű pótbiztosítékot.
+6. Indítsa be az autót, és ellenőrizze a működést.
+
+Soha ne használjon nagyobb értékűt!
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=hóeltakarítás>>>
+Biztonságos hóeltakarítás
+
+Öltözz melegen, és viselj csúszásmentes talpú cipőt. Ne várd meg, amíg minden hó leesik: ha 10 cm-nél több esik, érdemes közben is egyszer ellapátolni. Kezdd az ajtótól, és haladj kifelé. Lapátolj kis adagokban, és ne csavard a derekadat. Szórj a járdára sót vagy homokot a jegesedés ellen, de ne szórd a növényekhez. Tarts szünetet, ha elfáradsz, főleg ha szívproblémáid vannak.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=szoftver telepítése>>>
+Új program telepítése Windowson
+
+Töltse le a telepítőt a gyártó hivatalos oldaláról. Nyissa meg a Letöltések mappát, és kattintson duplán a fájlra. Ha a rendszer rákérdez, engedélyezze a futtatást. Válassza ki a nyelvet, és olvassa el a licencfeltételeket. Jelölje ki a telepítési helyet, majd kattintson a „Telepítés” gombra. Zárja be a telepítőt, és indítsa el a programot az asztali ikonról. Ha újraindítást kér, mentse el a munkáját.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=bútorlap furnér javítás>>>
+Karcolás eltüntetése a fa asztalról
+
+Törölje át az asztalt nedves ruhával, és szárítsa meg. Válasszon az asztal színéhez illő viaszpiszkot vagy javítóceruzát. Rajzolja végig a karcot, és törölje le a felesleget puha ronggyal. Ha mélyebb a karc, töltse ki fa pótlóviasszal, és hagyja megszáradni. Csiszolja át nagyon finom, 400-as csiszolópapírral, majd vigye fel a polírozót. Hagyja egy napig száradni, mielőtt újra használná az asztalt.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=dolgozói szabadság igénylése>>>
+Szabadság igénylése a céges portálon
+
+1. Lépjen be a belső HR-portálra a céges azonosítójával.
+2. Kattintson a „Távollét” menüpontra, majd az „Új igény” gombra.
+3. Válassza ki a szabadság típusát: rendes, tanulmányi vagy fizetés nélküli.
+4. Adja meg a kezdő és befejező dátumot.
+5. Írja be a helyettesítő kolléga nevét.
+6. Küldje el a kérelmet a közvetlen vezetőnek jóváhagyásra.
+
+Az értesítést e-mailben is megkapja, ha a vezetője döntött.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=bonsai metszés>>>
+Hogyan metssz meg egy szobafikuszt?
+
+Tavasszal, a növekedés kezdetén dolgozz. Használj tiszta, éles ollót, amelyet előtte alkohollal fertőtlenítettél. Vágd le a száraz, sérült ágakat, majd a túl hosszú hajtásokat egy levélcsomó fölött, kb. fél centivel. A fikusz tejnedve ragacsos, ezért viselj kesztyűt, és terítsd le a padlót. Metszés után egy hétig ne műtrágyázd, és tartsd világos helyen, de ne tűző napon. Két hét múlva új hajtások jelennek meg.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=sütő tisztítása>>>
+A sütő tisztítása szódabikarbónával
+
+Vegye ki a rácsokat és a tepsit. Keverjen össze fél csésze szódabikarbónát három evőkanál vízzel, hogy sűrű pép legyen. Kenje szét a sütő falán, kerülve a fűtőszálakat. Hagyja egy éjszakán át hatni. Másnap törölje le nedves szivaccsal, és permetezzen rá egy kis ecetet a maradék pépre, mert az habzik és könnyebben lejön. Öblítse át tiszta ruhával, majd tegye vissza a rácsokat.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=memória kártya formázása>>>
+Memóriakártya formázása
+
+Csatlakoztasd a kártyát a számítógéphez kártyaolvasóval. Mentsd el róla a fontos adatokat, mert a formázás mindent töröl. Kattints a kártya meghajtóbetűjére a Sajátgépben jobb gombbal, és válaszd a „Formázás” lehetőséget. Fájlrendszernek 32 GB alatt FAT32-t, felette exFAT-ot válassz. Pipáld be a „Gyorsformázás” jelölőnégyzetet, majd kattints az „Indítás” gombra. Ha kész, add ki biztonságosan a kártyát, és tedd vissza a fényképezőgépbe.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=kutya fürdetése>>>
+Hogyan fürdessük meg a kutyát otthon?
+
+Szedje ki a kutya szőréből a gubancokat egy fésűvel még fürdetés előtt. Tegyen csúszásmentes gumiszőnyeget a kád aljába. Engedjen langyos, nem forró vizet. Nedvesítse át a szőrt a fejétől távolodva, és kenje be kutyasamponnal. Masszírozza át, és öblítse át alaposan, amíg a víz tiszta nem lesz. Ügyeljen, hogy a szemébe és a fülébe ne menjen víz. Tekerje törölközőbe, és hagyja kirázni magát.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=helyes futás kezdése>>>
+Az első futásod: ilyen legyen
+
+Nem kell rögtön maratonra készülnöd. Vegyél fel kényelmes cipőt, és válassz egy lapos útvonalat. Kezdd egy perc kocogással, utána két perc sétával, és ezt ismételd tízszer. Tartsd olyan tempóban, hogy közben beszélgetni tudj. Hetente háromszor edzel, mindig legyen köztük pihenőnap. Minden héten növeld egy perccel a kocogást. Négy-hat hét múlva már folyamatosan futhatsz fél órát.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=adóbevallás ellenőrzése>>>
+A személyi jövedelemadó-bevallás ellenőrzése
+
+1. Lépjen be az ügyfélkapun a NAV hivatalos oldalára.
+2. Keresse meg az „Adóbevallás tervezet” menüpontot.
+3. Nyissa meg a kitöltött tervezetet, és ellenőrizze a bevételi adatait a bérjegyzékével.
+4. Nézze meg, hogy kérte-e a családi kedvezményt, és ha igen, jók-e az adatok.
+5. Módosítsa, ha hibát talál, majd ellenőrizze újra.
+6. Hagyja jóvá a bevallást, és mentse el a visszaigazolást.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=gyertya készítése>>>
+Illatgyertya öntése otthon
+
+Olvassz fel 300 gramm szójaviaszt vízfürdőben, és közben ne hagyd magára. Amikor eléri a 70 fokot, keverj bele 20 gramm illóolajat. Ragaszd a kanócot egy üvegpohár aljára, és tartsd egy fapálcikával középen. Önts óvatosan a viaszt a pohárba. Hagyd szobahőmérsékleten, légmozgástól védve szilárdulni, legalább 24 órán át. Vágd le a kanócot kb. fél centire, és csak ezután gyújtsd meg.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=távirányító elemcsere>>>
+Elemcsere a távirányítóban
+
+Fordítsa meg a távirányítót, és csúsztassa le a hátoldali fedelet. Vegye ki a régi elemeket, és jegyezze meg, melyik oldalával néztek lefelé. Tisztítsa meg az érintkezőket száraz vattapamaccsal, ha korróziót lát. Tegyen be két új AAA elemet a plusz és mínusz jelzéseknek megfelelően. Zárja vissza a fedelet, és próbálja ki a készüléken. A régi elemeket ne dobja a szemétbe, vigye az üzletek gyűjtődobozába.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=lakásszellőztetés>>>
+Hogyan szellőztessünk télen?
+
+Nyisd ki teljesen az ablakot, ne csak billentsd, mert a billentett ablak kihűti a falat. Szellőztess napi háromszor-négyszer, öt percig. Közben zárd el a radiátor szelepét, hogy ne fűtsd feleslegesen az utcát. Nyisd ki a szemközti ablakokat is, így huzat keletkezik, és gyorsabban kicserélődik a levegő. Utána zárd be az ablakot, és engedd vissza a fűtést. Ha penészt látsz a sarkokban, ecettel töröld le.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=csomagfeladás online>>>
+Csomag feladása automatából
+
+Nyissa meg a futárszolgálat alkalmazását, és válassza a „Csomag feladása” opciót. Adja meg a címzett nevét, telefonszámát és az átvevőpont címét. Válassza ki a csomag méretét, majd fizesse ki a díjat. Kapni fog egy kódot. Csomagolja be az árut jól, és ragassza le. Menjen el a kijelölt automatához, írja be a kódot, és tegye a csomagot a kinyíló rekeszbe. Mentse el a feladóvevényt.
+<<<END>>>
+
+<<<ITEM kind=how_to lang=hu hard_negative=true topic=zuhanyfej vízkőmentesítése>>>
+Zuhanyrózsa vízkőtelenítése
+
+Töltsön egy nejlonzacskót félig ecettel, és húzza a zuhanyrózsára úgy, hogy a lyukak teljesen elmerüljenek. Rögzítse gumival vagy kötözővel. Hagyja ott egész éjszakára. Reggel vegye le a zacskót, és folyasson át a rózsán meleg vizet. Egy régi fogkefével dörzsölje ki a megmaradt lerakódást a fúvókák körül. Ha a rózsa krómozott, ne hagyja ott az ecetet két óránál tovább.
+<<<END>>>

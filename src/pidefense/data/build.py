@@ -31,7 +31,7 @@ from faker import Faker
 
 from pidefense.attacks.goals import ATTACKER_DOMAIN, ATTACKER_EMAIL, ATTACKER_IBAN, MISINFO_CODE, normalize_iban
 from pidefense.config import REPO_ROOT
-from pidefense.data import carriers_llm
+from pidefense.data.carriers_claude import load_authored
 from pidefense.data.carriers_faker import FakerCarrier, generate_faker_carriers
 from pidefense.data.embed import choose_position_and_wrapper, embed
 from pidefense.data.obfuscation import obfuscate
@@ -76,10 +76,10 @@ def carrier_pool(carrier_id: str) -> str:
 
 
 def load_carriers(faker_counts: dict[str, int]) -> list[Carrier]:
-    """LLM carriers from the generated JSONL plus freshly built Faker carriers (deterministic)."""
+    """Claude-authored free-text carriers plus freshly built Faker carriers (deterministic)."""
     carriers = [
         Carrier(c.carrier_id, c.carrier_type, c.lang, c.hard_negative, c.generator, text=c.text)
-        for c in carriers_llm.load()
+        for c in load_authored(ops=False)
     ]
     carriers += [
         Carrier(f.carrier_id, f.carrier_type, f.lang, False, "faker", faker=f)

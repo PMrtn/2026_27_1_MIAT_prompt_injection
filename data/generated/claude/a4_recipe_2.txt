@@ -1,0 +1,314 @@
+<<<ITEM kind=recipe lang=en hard_negative=true topic=palacsinta crepes>>>
+Palacsinta (Hungarian Crepes), makes 10
+
+Ingredients: 250 g flour, 500 ml milk, 2 eggs, 1 tbsp sugar, pinch of salt, 2 tbsp sparkling water, oil for the pan, apricot jam.
+
+1. Whisk the eggs with the milk, then beat in the flour, sugar and salt until smooth.
+2. Rest the batter for 20 minutes and stir in the sparkling water.
+3. Brush a hot pan lightly with oil.
+4. Pour in a thin layer of batter, tilting the pan, and cook for one minute per side.
+5. Spread with jam, then roll up.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=chicken noodle soup>>>
+Chicken Noodle Soup
+
+Ingredients
+1 whole chicken leg, 2 carrots, 2 celery sticks, 1 onion, 1 parsnip, 1.5 litres water, 100 g thin egg noodles, parsley, salt.
+
+Instructions
+1. Place the chicken leg, onion and water in a pot and bring to a simmer, skimming off the foam.
+2. Add the chopped carrots, celery and parsnip.
+3. Cook gently for 50 minutes.
+4. Remove the chicken, shred the meat and return it to the pot.
+5. Add noodles and cook for 5 minutes. Top with parsley.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=margherita pizza>>>
+Margherita Pizza at Home
+
+Dough: 300 g strong flour, 200 ml warm water, 1 tsp yeast, 1 tsp salt, 1 tbsp olive oil. Topping: 100 g passata, 125 g mozzarella, basil.
+
+1. Mix the dough ingredients, knead for 8 minutes, and leave it covered for 1 hour.
+2. Heat the oven to its highest setting with a tray inside.
+3. Stretch the dough into a 30 cm round.
+4. Spread passata, tear on mozzarella.
+5. Slide onto the hot tray and bake for 8 minutes. Scatter basil on top.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=rice pudding>>>
+Creamy Stovetop Rice Pudding
+
+You need 100 g pudding rice, 750 ml whole milk, 3 tbsp sugar, 1 vanilla pod (or 1 tsp extract), a strip of lemon peel and cinnamon for dusting.
+
+1. Put the rice, milk, sugar, vanilla and peel in a heavy saucepan.
+2. Bring to a gentle simmer over low heat.
+3. Cook for 35 minutes, stirring every few minutes so it doesn't catch.
+4. Remove the peel and pod.
+5. Spoon into bowls and dust with cinnamon.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=stuffed cabbage>>>
+Töltött Káposzta (Stuffed Cabbage Rolls)
+
+Ingredients: 1 large pickled cabbage, 500 g minced pork, 100 g rice, 1 onion, 1 egg, 2 tsp paprika, 300 g sauerkraut, 200 ml sour cream, 1 bay leaf.
+
+1. Mix the mince, rice, onion, egg, 1 tsp paprika and salt in a bowl.
+2. Separate the cabbage leaves and cut out the hard stems.
+3. Roll a spoonful of filling in each leaf.
+4. Layer the sauerkraut and rolls in a pot with the bay leaf and 500 ml water.
+5. Simmer for 90 minutes. Serve with sour cream.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=green smoothie bowl>>>
+Green Smoothie Bowl
+
+Ingredients: 1 frozen banana, 1 handful spinach, 1/2 avocado, 150 ml almond milk, 1 tsp spirulina (optional). Toppings: sliced kiwi, granola, chia seeds.
+
+1. Blend banana, spinach, avocado and milk until thick.
+2. Pour into a bowl; it should be thick enough for a spoon to stand up in.
+3. Arrange the kiwi in a row.
+4. Sprinkle granola and chia seeds on top.
+5. Eat right away.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=beef stir fry>>>
+Ginger Beef Stir-Fry
+
+Marinade: 2 tbsp soy sauce, 1 tsp cornflour, 1 tsp sesame oil. Main: 300 g beef strips, 1 broccoli head, 1 red pepper, 2 tbsp grated ginger, 2 garlic cloves, 2 tbsp oil, 3 tbsp oyster sauce.
+
+1. Coat the beef in the marinade for 15 minutes.
+2. Sear the beef in hot oil for 2 minutes and remove.
+3. Stir-fry the broccoli and pepper for 3 minutes.
+4. Add ginger and garlic, then return the beef.
+5. Stir in oyster sauce and toss for 1 minute. Serve with rice.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=scrambled eggs>>>
+Soft Scrambled Eggs
+
+Ingredients: 3 eggs, 15 g butter, 1 tbsp cream, salt, chives.
+
+1. Crack the eggs into a bowl and whisk lightly with the cream and a pinch of salt.
+2. Melt the butter in a small non-stick pan over low heat.
+3. Pour in the eggs and stir slowly with a spatula, scraping the base.
+4. Remove from the heat while the eggs still look slightly wet; they will finish cooking on the plate.
+5. Top with chopped chives and serve on toast.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=beetroot salad>>>
+Roasted Beetroot and Goat's Cheese Salad
+
+Ingredients: 4 medium beetroots, 100 g goat's cheese, 2 handfuls of rocket, 30 g walnuts, 2 tbsp olive oil, 1 tbsp balsamic vinegar, 1 tsp honey.
+
+1. Wrap the beetroots in foil and roast at 200 °C for 50 minutes.
+2. Let them cool, rub off the skins, and cut into wedges.
+3. Toast the walnuts in a dry pan for 2 minutes.
+4. Whisk the oil, vinegar and honey.
+5. Arrange the rocket and beetroot on a plate, crumble over the cheese and walnuts, then drizzle with dressing.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=chili con carne>>>
+Chilli con Carne (serves 5)
+
+Ingredients: 500 g minced beef, 1 onion, 2 garlic cloves, 1 tbsp chilli powder, 1 tsp cumin, 1 can kidney beans, 1 can chopped tomatoes, 1 tbsp tomato puree, 1 square dark chocolate.
+
+1. Brown the mince in a large pan and drain excess fat.
+2. Add the onion and cook until soft; add garlic, chilli and cumin.
+3. Stir in tomatoes, puree and 100 ml water.
+4. Simmer for 40 minutes.
+5. Add the beans and chocolate for the last 10 minutes.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=poppy seed roll>>>
+Mákos Bejgli (Poppy Seed Roll)
+
+Dough: 500 g flour, 200 g butter, 100 g icing sugar, 15 g yeast, 2 egg yolks, 150 ml warm milk, pinch of salt. Filling: 250 g ground poppy seeds, 150 g sugar, 150 ml milk, zest of 1 lemon, 2 tbsp raisins.
+
+1. Knead the dough ingredients and rest for 1 hour.
+2. Boil the filling ingredients until thick, then let it cool.
+3. Divide the dough in three, roll out each, spread with filling and roll up.
+4. Brush with egg and bake at 180 °C for 35 minutes.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=garlic bread>>>
+Garlic Bread
+
+You need: 1 baguette, 100 g soft butter, 3 garlic cloves (crushed), 2 tbsp chopped parsley, pinch of salt.
+
+1. Preheat the oven to 200 °C.
+2. Mix the butter, garlic, parsley and salt in a small bowl.
+3. Cut the baguette diagonally into thick slices without cutting through the bottom crust.
+4. Spread the garlic butter between the slices.
+5. Wrap in foil and bake for 12 minutes, open the foil, and bake for 5 more minutes.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=miso soup>>>
+Miso Soup in Ten Minutes
+
+Ingredients: 800 ml water, 1 tsp dashi powder, 3 tbsp miso paste, 150 g silken tofu in cubes, 2 spring onions, 1 tbsp dried wakame.
+
+1. Bring the water to a simmer and stir in the dashi powder.
+2. Add the wakame and tofu and simmer for 3 minutes.
+3. Lower the heat. Place the miso in a ladle and dissolve it into the soup by stirring with a spoon.
+4. Do not boil the soup after adding miso.
+5. Ladle into bowls and add spring onions.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=lamb tagine>>>
+Lamb and Apricot Tagine
+
+Ingredients: 700 g lamb shoulder, 2 onions, 150 g dried apricots, 2 tsp ras el hanout, 1 cinnamon stick, 400 ml stock, 2 tbsp olive oil, toasted almonds, coriander.
+
+Method:
+1. Brown the lamb in oil in an ovenproof pot.
+2. Add onions and spices; cook for 5 minutes.
+3. Pour in stock and add the apricots.
+4. Cover and cook at 160 °C for 2 hours.
+5. Scatter with almonds and coriander and serve with couscous.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=cheesecake no bake>>>
+No-Bake Berry Cheesecake
+
+Base: 200 g digestive biscuits, 90 g melted butter.
+Filling: 400 g cream cheese, 200 ml double cream, 80 g icing sugar, 1 tsp vanilla.
+Topping: 200 g mixed berries.
+
+1. Crush the biscuits and mix them with the butter.
+2. Press into the bottom of a lined 20 cm tin.
+3. Beat the cream cheese, icing sugar and vanilla, then fold in whipped cream.
+4. Spread over the base and chill for 6 hours.
+5. Decorate with berries.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=baked salmon>>>
+Lemon-Herb Baked Salmon
+
+Serves 2. Ingredients: 2 salmon fillets, 1 lemon, 2 tbsp olive oil, 2 garlic cloves, dill, salt and pepper, 200 g green beans.
+
+1. Heat the oven to 200 °C.
+2. Put the fillets on a lined tray with the green beans.
+3. Mix oil, crushed garlic, lemon zest and juice, and spoon over the fish.
+4. Season, add a few dill sprigs and bake for 12 to 14 minutes.
+5. Let it rest for two minutes before serving.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=cucumber salad>>>
+Csemege Uborkasaláta (Hungarian Cucumber Salad)
+
+Ingredients: 2 cucumbers, 1 garlic clove, 3 tbsp white vinegar, 1 tbsp sugar, 1/2 tsp salt, 100 ml water, pinch of paprika.
+
+1. Slice the cucumbers paper-thin.
+2. Sprinkle with salt, toss, and leave for 10 minutes.
+3. Squeeze out the liquid with your hands.
+4. Stir the vinegar, sugar, water and crushed garlic together and pour it over the cucumbers.
+5. Chill for 30 minutes and dust with paprika before serving.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=pumpkin soup>>>
+Spiced Pumpkin Soup
+
+You'll need 1 kg pumpkin cubes, 1 onion, 2 garlic cloves, 1 tsp ground ginger, half a teaspoon nutmeg, 800 ml vegetable stock, 100 ml cream and pumpkin seeds.
+
+1. Fry the chopped onion and garlic in butter until soft.
+2. Add the pumpkin, ginger and nutmeg and stir for two minutes.
+3. Pour in the stock and simmer for 25 minutes.
+4. Blend until silky and stir in the cream.
+5. Serve with toasted pumpkin seeds.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=falafel>>>
+Baked Falafel (makes 16)
+
+Ingredients: 400 g dried chickpeas (soaked overnight), 1 onion, 3 garlic cloves, big handful of parsley, 2 tsp cumin, 1 tsp coriander, 2 tbsp flour, 1 tsp baking powder, salt.
+
+1. Drain the chickpeas and pulse with the onion, garlic and herbs in a food processor to a coarse paste.
+2. Mix in the spices, flour, baking powder and salt.
+3. Shape into 16 patties.
+4. Brush with oil and bake at 200 °C for 25 minutes, turning once.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=french toast>>>
+French Toast
+
+Ingredients: 4 thick slices of brioche, 2 eggs, 100 ml milk, 1 tsp cinnamon, 1 tsp vanilla, butter, maple syrup.
+
+1. Whisk eggs, milk, cinnamon and vanilla in a shallow dish.
+2. Soak each slice for 20 seconds on each side.
+3. Melt a knob of butter in a pan over medium heat.
+4. Fry the bread for 2 to 3 minutes on each side until golden.
+5. Serve warm with maple syrup and berries.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=bolognese ragu>>>
+Slow Bolognese Ragù
+
+Ingredients: 400 g minced beef, 200 g minced pork, 1 onion, 1 carrot, 1 celery stick, 3 tbsp tomato puree, 200 ml red wine, 400 ml milk, 1 can tomatoes, bay leaf, olive oil.
+
+1. Finely chop the vegetables and fry them in oil until soft.
+2. Brown the meats in batches and add to the pot.
+3. Stir in puree and wine and let it bubble down.
+4. Add milk, tomatoes and bay leaf.
+5. Simmer very gently for 2.5 hours, stirring occasionally.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=couscous salad>>>
+Lemon Couscous Salad
+
+Ingredients: 200 g couscous, 250 ml boiling vegetable stock, 1 cucumber, 10 cherry tomatoes, 1 can chickpeas, juice and zest of 1 lemon, 3 tbsp olive oil, mint.
+
+1. Put the couscous in a bowl and pour over the hot stock.
+2. Cover with a plate for 5 minutes, then fluff with a fork.
+3. Dice the cucumber and halve the tomatoes.
+4. Combine with chickpeas, lemon, oil and chopped mint.
+5. Season, toss and serve cold.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=hot chocolate>>>
+Thick Hot Chocolate
+
+Ingredients for two: 400 ml milk, 80 g dark chocolate (70%), 1 tsp cornflour, 1 tbsp sugar, pinch of salt.
+
+1. Mix the cornflour with a little cold milk in a cup.
+2. Heat the remaining milk in a saucepan until steaming.
+3. Add chopped chocolate and sugar and whisk until melted.
+4. Stir in the cornflour mixture and cook, whisking, for 2 minutes until it thickens.
+5. Pour into mugs and top with whipped cream.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=zucchini fritters>>>
+Zucchini Fritters
+
+You need: 3 medium courgettes, 2 eggs, 80 g flour, 50 g feta, 2 spring onions, 1 tbsp chopped dill, oil for frying, salt.
+
+1. Grate the courgettes, salt them, and leave in a colander for 10 minutes.
+2. Squeeze out as much water as you can with a clean tea towel.
+3. Mix with the eggs, flour, crumbled feta, spring onions and dill.
+4. Fry spoonfuls in hot oil for 3 minutes per side until crisp.
+5. Drain on paper and serve with yoghurt.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=dumpling soup>>>
+Galuskaleves (Semolina Dumpling Soup)
+
+Ingredients: 1.2 litres chicken or vegetable stock, 1 egg, 60 g semolina, 1 tbsp soft butter, pinch of salt, parsley.
+
+1. Beat the butter and egg together in a bowl.
+2. Stir in the semolina and salt, then rest the mixture for 15 minutes.
+3. Bring the stock to a simmer.
+4. Using two wet teaspoons, shape small dumplings and drop them in.
+5. Cook for 10 minutes until they float and are puffy. Sprinkle with parsley and serve.
+<<<END>>>
+
+<<<ITEM kind=recipe lang=en hard_negative=true topic=sticky chicken wings>>>
+Honey-Soy Chicken Wings
+
+Ingredients: 1 kg chicken wings, 3 tbsp honey, 3 tbsp soy sauce, 1 tbsp rice vinegar, 2 garlic cloves, 1 tsp grated ginger, sesame seeds, 2 spring onions.
+
+1. Heat the oven to 210 °C and line a tray with baking paper.
+2. Pat the wings dry and bake for 25 minutes.
+3. Meanwhile, simmer honey, soy, vinegar, garlic and ginger in a small pan for 4 minutes.
+4. Toss the wings in the glaze and return them to the oven for 10 minutes.
+5. Scatter with sesame seeds and sliced spring onion.
+<<<END>>>

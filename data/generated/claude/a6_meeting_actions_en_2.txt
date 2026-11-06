@@ -1,0 +1,107 @@
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=security training rollout>>>
+Notes from the phishing-awareness rollout meeting. Campaign starts 3 November. Action items: Colm to export the staff list from HR and upload it to the training platform by Tuesday. Reema to write the announcement email and send it to the communications lead for approval. Josef to configure the simulated phishing emails, starting with a low-difficulty template. Alba to prepare a short FAQ. Colm and Alba to review the first week's click rates together on 12 November.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=finance month-end close>>>
+Month-end close call. Two accruals are still missing and the intercompany reconciliation is out by 4,310. Assignments: Nora to chase the Dublin entity for the missing invoices and have them posted by noon tomorrow. Vasil to investigate the intercompany difference and post a correcting journal if needed. Ada to run the trial balance after both are done and send it to the controller. Controller Mikael will sign off on Friday at 15:00 provided everything is in by then.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=design critique session>>>
+Design critique, mobile checkout. The team liked the simplified address form but felt the payment step still has too many fields. To do: Mira to prototype a one-screen payment option and share the link before Thursday. Sandeep to run five quick usability tests next week and write up the findings. Hugo to check the colour contrast of the error messages. Priya to collect existing analytics on drop-off at the payment step and post a summary in the channel.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=school governors meeting>>>
+Governors' meeting, summary of actions. Chair Mrs Aldous to write to the local authority about the roof repair timetable. Mr Banerjee to circulate the draft behaviour policy to all governors by the 14th. Ms Cole to visit the Year 6 classes next month and report back in writing. Clerk to update the register of interests and send reminders to the three governors who have not returned forms. The finance sub-committee will meet on 2 December to review the spending plan.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=logistics planning huddle>>>
+Logistics huddle. Peak season begins in two weeks and the depot is short of drivers. Actions: Mustafa to contact two agencies and book six temporary drivers by Friday. Greta to rework the delivery routes for the northern region and share the new map with the planners. Hakon to check the vans that are due for servicing and book garage slots. Cecilia to send a briefing to customers about the possible delays and the cut-off dates for orders.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=legal team sync>>>
+Legal weekly sync. Matters discussed: the revised data processing agreement, the trademark objection in Spain, and the lease renewal. Next steps. Imogen to send the revised DPA to the counterparty today with tracked changes. Rafael to contact the Spanish agent for a status update and ask for an estimated timeline. Walter to read the lease terms and summarise the three biggest changes for the property director. Everyone to update the matter tracker before Friday.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=product roadmap workshop>>>
+Roadmap workshop outcome. We kept five items for the next half year and parked two. Owners: Delphine for the reporting upgrade; she will write a brief by 14 April. Samir for the mobile app notifications; first designs due on 21 April. Karin to talk with the top ten customers about integrations and bring a ranked list. Eyvind to update the public roadmap slide deck when the brief is ready. Product director Ada to approve the final version in May.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=hospital ward meeting>>>
+Ward 4B team meeting. Staffing levels were discussed, as was the new handover form. Actions: Sister Okoye to speak to the rota coordinator about night shift cover for the weekend of the 20th. Nurse Taylor to pilot the new handover form for one week and gather comments. Dr Mehta to talk to pharmacy about delays in discharge medication. Healthcare assistant Paul to restock the equipment trolley and update the checklist on the door. Next meeting: first Monday of next month.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=startup founders catch-up>>>
+Founders' catch-up. Runway is at eleven months. We agreed to start fundraising conversations in January. To do this week: Lukas to update the financial model with the new hiring plan and send it to Sofia. Sofia to draft the investor update for November and share it for comments by Wednesday. Jin to arrange two customer reference calls for potential investors. Lukas to ask the accountant about the research tax credit. We meet Friday at 9:00 over coffee.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=construction site meeting>>>
+Site meeting no. 17, Harbour View development. Concrete pour for level 3 delayed by rain. Actions: Site manager Darren to issue a revised programme to all trades by Wednesday. Subcontractor Liam to confirm the arrival date of the window units. Engineer Beatrice to inspect the reinforcement before the pour and sign the checklist. Safety officer Karl to carry out a toolbox talk on working at height on Monday morning. Client representative Mr Osei to approve the change order for the stairwell.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=content team editorial>>>
+Editorial planning meeting. Theme for next month: sustainable travel. Assignments: Rhiannon to commission three freelance features and brief the writers by 8 May. Tobias to edit the interview with the rail operator and send it to design by Tuesday. Maya to prepare the newsletter outline and share it with the group. Jorge to review image rights for the photo essay. All drafts due in the shared folder by 20 May; Rhiannon to chair a quick editorial check on the 21st.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=IT infrastructure review>>>
+Infrastructure review, summary. The aging file server will be replaced before March. Actions: Kofi to get quotes for two replacement options and email them to the group by Friday. Laura to list all shares and identify those no longer used. Shan to plan a weekend migration window and inform department heads. Brandon to test the backup restore from last week and share the timing results. Decision at the meeting on 8 February, with a budget request to follow.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=community garden>>>
+Community garden planning evening. Spring planting begins on the 12th. Jobs: Hilda to order seeds and compost from the garden centre, using the donations fund. Pete to repair the two raised beds and tidy the shed on Saturday. Amara to put up a sign-up sheet at the library for water rota volunteers. Chen to ask the council about a new water butt. Anyone with spare tools should bring them to the next meeting, which is on 5 March at the community hall.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=procurement committee>>>
+Procurement committee minutes. The committee reviewed three bids for office furniture. Chosen supplier: Norden Interiors, subject to references. Actions: Gail to contact two of Norden's previous clients and report back on delivery and quality. Harold to negotiate the delivery schedule so that it avoids the week of the audit. Zoe to prepare the purchase order for signature. Ravi to inform the two unsuccessful bidders in writing after the order is confirmed.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=ux research debrief>>>
+Debrief after the first round of user interviews. Eight participants; main finding was confusion around the account settings page. Next steps: Carla to transcribe the remaining two interviews and send them to the team on Monday. Joon to cluster the findings and produce a one-page summary by Wednesday. Mehmet to draft three alternative layouts for the settings page. Carla and Joon to present to product managers at the Thursday forum. Participants will be thanked by Carla with the promised vouchers.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=family reunion planning>>>
+Family reunion planning call, notes for everybody. We have booked the barn at Willow Farm for 16 August. Please remember: Aunt Rosa to make the seating list and send it by the end of the month. Dan to sort out the music and bring the speaker. Cousin Mia to set up the group photo schedule and ask who needs accommodation. Uncle Tom to order the catering and confirm the number of vegetarian meals. Everyone to pay their share to Dan by 1 July.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=compliance training review>>>
+Compliance review. Annual training completion stands at 91 percent, below the 98 percent target. Actions: Marguerite to produce a list of staff with overdue modules and send it to department heads by Tuesday. Department heads to remind their teams and confirm completion by the end of the month. Ismail to extend the deadline for the night shift teams. Natalia to update the training catalogue with the new anti-bribery module before it goes live on 1 October.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=api integration call>>>
+Integration call with the partner's developers. Both sides agreed to use OAuth and a sandbox environment. Follow-ups: Arvid to send the API documentation and sandbox credentials to the partner's team via the secure portal. Their engineer Mina to confirm the callback URLs by Thursday. Pooja to write the test plan and share it with both teams. Arvid to arrange a follow-up call for the 18th to review the first test results. Questions can be sent to Pooja by email.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=town council briefing>>>
+Briefing on the new cycle lane proposal. The council approved the consultation phase. Action list. Councillor Vega to publish the consultation notice on the website and in the local paper by 4 March. Officer Dalton to prepare a map with the proposed route and share it with the councillors. Mr Ndlovu to organise a public meeting at the library on 18 March. Clerk Anne to collect responses and make a summary for the April committee.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=theatre production meeting>>>
+Production meeting for "The Winter Orchard". Opening night is in five weeks. Tasks: Director Ellis to finalise the cast list and email it to everyone by tonight. Stage manager Rina to draw up the rehearsal schedule and confirm the venue for tech week. Costume lead Femke to measure the actors on Saturday. Sound designer Joao to deliver the first cues on the 10th. Publicity: Sam to send the press release to the three local newspapers and put up posters on Monday.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=cross-team dependency sync>>>
+Dependency sync between the platform and app teams. The platform team's auth upgrade blocks the app release planned for 6 June. Actions: Victor (platform) to give a firm delivery date for the auth upgrade by Wednesday. Hanna (app) to prepare a fallback plan in case of slippage and share it with Victor. Ilya to update the shared board with the dependencies and mark the critical ones. Both leads to speak briefly on Friday morning to confirm whether the release date still holds.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=sports club committee>>>
+Committee notes, Riverside Rowing Club. The boathouse roof will be repaired in September. Responsible persons: Treasurer Alan to collect three quotes from roofers and bring them to the next meeting. Captain Sue to arrange the junior regatta on 14 July and recruit marshals. Membership secretary Dev to send renewal reminders by the end of the month. Safety officer Ilona to check the life jackets and order replacements where necessary. Anyone able to help with the barbecue should tell Sue.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=remote team retrospective>>>
+Retro for the distributed support team across four time zones. Pain points: late handovers and unclear ownership of weekend tickets. Actions: Valentina to draft a simple handover template and test it for two weeks with Sydney and Lisbon. Kwesi to propose a weekend rota and share it with everyone by Tuesday. Mattias to set up a shared status channel and pin the rules at the top. Each person to write one improvement idea in the retro document by Friday.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=tender response team>>>
+Tender response kickoff for the regional library system. Deadline: 30 June at noon. Allocation: Odette as bid manager will keep the master timeline. Francis to write the technical approach by the 10th. Gloria to collate case studies and references and send them to Odette. Haruto to prepare the pricing model and have it reviewed by finance. Legal to read the terms by 12 June. Odette will hold a red-team review on the 24th, so drafts must be ready by 23 June.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=nonprofit volunteer meeting>>>
+Volunteer coordination meeting, Harbourside Food Bank. Demand is up by a fifth since September. To do: Louise to contact the two supermarkets about extra weekly donations and report on Friday. Ahmed to build the new volunteer rota and email it to everybody by Wednesday. Grace to order sixty crates and label them before Saturday. Joel to update the website with new opening hours. Please tell Louise if you can cover an additional Thursday shift. Thank you all for the hard work.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=performance review calibration>>>
+Calibration session for mid-year reviews. We went through all 34 ratings and agreed adjustments for six people. Actions for managers: Neil to rewrite two of his review summaries and resubmit them to HR by Monday. Parisa to schedule the feedback conversations before the end of next week. Olu to collect examples of promotion-ready work for the committee. HR partner Tania to send the final templates and remind everyone of the confidentiality rules, in writing, today.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=en hard_negative=true topic=warehouse stocktake>>>
+Stocktake planning meeting. The count takes place on Saturday 14th and Sunday 15th. Assignments: Raymond to print count sheets and organise the tags for each aisle. Dolores to brief the team leaders on Friday afternoon. Teams A and B to freeze all stock movements from 18:00 on Friday. Isaac to collect the handheld scanners from IT and check the batteries. Finance contact Pia to be on site Saturday morning for the first reconciliation. Pizza on Saturday is courtesy of the managing director.
+<<<END>>>

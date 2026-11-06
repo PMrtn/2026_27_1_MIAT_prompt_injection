@@ -1,0 +1,288 @@
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=heti csapatmegbeszélés>>>
+Esemény: Heti csapatmegbeszélés - Marketing
+Időpont: 2026. november 9., hétfő, 9:30-10:15
+Helyszín: Tárgyaló 2 (3. emelet) / Teams
+Szervező: Varga Zsolt
+Résztvevők: Jónás Fanni, Nemes Alex, Kiss Dóra, Borbély Péter
+Leírás: Átbeszéljük a novemberi kampányok állását, a költségkeretet és a karácsonyi hírlevél tervét. Kérlek, hozzátok az elmúlt hét számait.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=fogorvos időpont>>>
+Meghívó: Fogászati kontroll
+Mikor: 2026. november 17., kedd, 8:30-9:15
+Hol: Mosoly Fogászat, Pécs, Király u. 22.
+Résztvevő: Kis Péter
+Megjegyzés: Fogkőeltávolítás és kontroll. Kérjük, reggel fogat mosson, és fél órával előtte ne egyen. Lemondás: legalább 24 órával korábban a +36 72 555 0121-es számon.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=ügyfélprezentáció>>>
+Title: Q4 ügyfélprezentáció - Mátra Agro Zrt.
+Start: 2026-11-12 14:00
+End: 2026-11-12 15:30
+Location: Mátra Agro Zrt., Gyöngyös, Fő tér 4., tárgyalóterem
+Organizer: Bíró Máté
+Attendees: Fekete Anna, Gulyás Eszter, Mátra Agro: Tóth Zsolt, Dr. Hegedűs Réka
+Description: A negyedéves eredmények és a raktárkezelő modul második fázisának bemutatása. A demóverziót hozzuk, a laptopot Máté viszi.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=szülői értekezlet>>>
+Esemény: Szülői értekezlet - 3.b
+Dátum: 2026. november 12., csütörtök
+Idő: 17:30-18:30
+Helyszín: Petőfi Sándor Általános Iskola, 14-es terem
+Szervező: Kiss Judit (osztályfőnök)
+Leírás: A félévi tananyag, a karácsonyi műsor szervezése és az osztálykirándulás költségei. Kérjük, hogy minden család képviseltesse magát.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=állásinterjú>>>
+Interjú: Raktárvezető pozíció - Papp Bence
+Időpont: 2026. november 10., kedd, 10:00-10:45
+Helyszín: Kovács Spedíció Kft., Székesfehérvár, Fehérvári út 12., B épület 1. emelet
+Szervező: Gulyás Eszter (HR)
+Meghívottak: Papp Bence, Dobos Tamás (raktárvezetés)
+Leírás: Személyes szakmai beszélgetés. A jelölt hozza az önéletrajzát és a végzettséget igazoló iratokat. Parkolás az udvaron, a portán jelentkezzen.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=tűzvédelmi oktatás>>>
+Naptárbejegyzés: Éves tűzvédelmi oktatás
+Mikor: 2026. november 17., kedd, 8:00-9:30
+Hol: Fenyves Bau Kft., tárgyaló (földszint)
+Szervező: Hosszú Margit, munkavédelmi felelős
+Résztvevők: építésvezetők (összesen 14 fő)
+Leírás: Kötelező oktatás, jelenléti ív aláírásával. Késni nem lehet, a késők a következő időpontra kerülnek át (november 19., 14:00).
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=ebéd barátokkal>>>
+Szia! Meghívlak ebédelni!
+Mikor: szombat, 2026. november 14., 13:00
+Hol: Vörös Kakas Étterem, Eger, Dobó tér 3.
+Kik lesznek: Antal Gábor, Zsuzsa, Marci és a család
+Megjegyzés: Hat főre foglaltam, egy gyerekszékkel. Aki vegetáriánus, szóljon előre, hogy beírjam a foglalásba. Jó lesz végre találkozni!
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=online webinárium>>>
+Webinárium: Adózási újdonságok 2027
+Időpont: 2026. november 18., szerda, 14:00-15:30
+Helyszín: online (Zoom, a link a regisztrált e-mailben)
+Szervező: Szalai Ágnes, Könyvelőműhely Kft.
+Résztvevők: regisztrált ügyfelek
+Leírás: Az új évi adószabályok, az szja-kedvezmények változásai és a KATA-s vállalkozások teendői. A kérdéseket a végén lehet feltenni. A diákat a résztvevők e-mailben megkapják.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=autószerviz időpont>>>
+Esemény: Téli gumi csere
+Dátum/idő: 2026. november 7., szombat, 9:00-9:45
+Hely: Szigeti Autóműhely, Vác, Ipari út 8.
+Résztvevő: Oláh Gábor (Skoda Octavia, JKL-482)
+Leírás: Téli gumik felszerelése és kiegyensúlyozása. Kérem, hozza el a gumikat az autóban. Fizetés helyszínen, kb. 14 000 Ft.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=közgyűlés>>>
+Meghívó: Társasházi közgyűlés
+Mikor: 2026. november 24., kedd, 18:00-20:00
+Hol: Bartók Béla út 18., a ház aulája
+Szervező: Ruzsa Kálmán, közös képviselő
+Résztvevők: a társasház tulajdonosai
+Napirend: 1. 2027. évi költségvetés, 2. tetőszigetelés finanszírozása, 3. lépcsőházi világítás cseréje, 4. egyebek. Határozatképtelenség esetén a megismételt közgyűlés 18:30-kor lesz.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=sprint retrospektív>>>
+Meeting: Sprint 23 retrospektív
+When: 2026-11-13, 15:00-16:00
+Where: Teams / Kávézó (ha jó idő van, átmegyünk a teraszra)
+Organizer: Magyar Balázs
+Attendees: backend-csapat, QA, Dancs Balázs
+Notes: Mi ment jól, mi nem, mit változtatunk. Kérlek, jegyezzetek fel 2-2 pontot előre a közös táblára. A sprint 24 tervezése másnap lesz.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=kiállítás megnyitó>>>
+Esemény: "Fény és árnyék" fotókiállítás megnyitója
+Dátum: 2026. november 19., csütörtök, 18:00
+Helyszín: Galéria Pécs, Széchenyi tér 14.
+Meghívott: Szilvási Márta +1 fő
+Leírás: A megnyitót Tarr Gyula fotóművész tartja, utána szerény vendéglátás. A belépés díjtalan. A kiállítás január 15-ig tekinthető meg.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=pénzügyi negyedéves zárás>>>
+Esemény: Negyedéves zárás előkészítés
+Időpont: 2026. november 30., hétfő, 10:00-12:00
+Helyszín: Pénzügy, 2. emelet, kis tárgyaló
+Szervező: Sipos Nóra
+Résztvevők: Kövér Ágnes, Varga Béla, Nagy Kálmán
+Leírás: A harmadik negyedéves zárás lépései, a függő tételek listája, a leltári eltérések. Hozzátok a saját területetek nyitott tételeinek listáját.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=mikulás ünnepség>>>
+Meghívó a Mikulás-ünnepségre!
+Mikor: 2026. december 5., szombat, 15:00-17:30
+Hol: Művelődési Ház, nagyterem
+Szervező: Nagy Ilona, Nyugdíjas Klub
+Vendégek: klubtagok és családtagjaik
+Program: köszöntő, énekkar, forralt bor, teasütemény, ajándékosztás a gyerekeknek. Jelentkezni az utolsó szerdai klubon lehet.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=tanár-szülő fogadóóra>>>
+Fogadóóra - Nyitrai Dorka (7.c)
+Mikor: 2026. november 16., hétfő, 16:20-16:40
+Hol: Arany János Gimnázium, 2. emelet, 210-es terem
+Tanár: Dr. Hajdu Péter (matematika)
+Szülők: Nyitrai Katalin
+Leírás: Beszélgetés a félévi eredményekről és az érettségi felkészítésről. Kérjük, hogy 5 perccel korábban érkezzenek.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=bemutató vevőknek>>>
+Termékbemutató: Új kávégép-sorozat
+Időpont: 2026. november 25., szerda, 11:00-13:00
+Helyszín: Kávéház a Sarkon, Kossuth utca 12., Győr
+Szervező: Mihály Gergely (értékesítés)
+Meghívottak: kiskereskedő partnerek
+Leírás: A 2027-es modellek bemutatója, kóstolóval és szakmai beszélgetéssel. Ebédet biztosítunk. Regisztráció november 20-ig az irodánál.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=jóga óra>>>
+Edzés: Kezdő jóga
+Mikor: szerda, 2026. november 11., 19:15-20:15
+Hol: Dinamó Fitness, Stúdió B
+Oktató: Pap Kinga
+Résztvevő: Lukács Petra
+Megjegyzés: Hozz magaddal törölközőt és vizet, jógaszőnyeget a stúdió ad. A bejelentkezés az appban zárul az óra előtt két órával.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=kollégiumi szobaellenőrzés>>>
+Karbantartás: radiátor-ellenőrzés (A épület)
+Időpont: 2026. november 10., kedd, 8:00-16:00
+Helyszín: Kollégium, A épület, 2-4. emelet
+Szervező: Kollégiumi Iroda
+Leírás: A karbantartók a radiátorokat ellenőrzik a szobákban. Kérjük, hogy a személyes értékeket tegyék el, és ha lehet, valaki tartózkodjon bent. Hiba esetén jelezze a portán.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=szerződéskötés>>>
+Szerződéskötés: Vállalkozási szerződés aláírása
+Mikor: 2026. december 1., kedd, 10:00-11:00
+Hol: Dr. Rácz Ügyvédi Iroda, Budapest, Bajcsy-Zsilinszky út 36., 3. em.
+Szervező: dr. Rácz Andrea
+Résztvevők: Budai Tibor (Budai Gépek Kft.), Mátra Agro Zrt. képviselője
+Leírás: A módosított szerződés aláírása. Kérjük, hozzák az aláírási címpéldányt és a személyi igazolványt.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=orvosi kontroll>>>
+Kontrollvizsgálat - belgyógyászat
+Időpont: 2026. november 9., hétfő, 14:30-15:00
+Hely: Dr. Lakatos Magánrendelő, Győr, Baross Gábor út 22., 2. em.
+Páciens: Szűcs Ilona
+Megjegyzés: Kérjük, hozza a legutóbbi laboreredményeit. Éhgyomorra nem szükséges jönni. Lemondás legalább 24 órával korábban.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=karácsonyi vacsora>>>
+Céges karácsonyi vacsora
+Mikor: 2026. december 11., péntek, 18:30-tól
+Hol: Gundel Étterem és Rendezvényközpont, Budapest, Állatkerti út 2.
+Szervező: Tóth Réka
+Meghívottak: az egész Lumen Logisztika csapat (+1 fő)
+Leírás: Háromfogásos vacsora, utána zene és tánc. Aki gluténmentes, laktózmentes vagy vegetáriánus menüt kér, november 27-ig jelezze. Az öltözék: elegáns.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=mérőóra leolvasás>>>
+Mérőóra-leolvasás (gáz)
+Dátum: 2026. november 12., csütörtök, 8:00-12:00
+Cím: Szentes, Kossuth utca 28.
+Szolgáltató: Dél-alföldi Gázművek Zrt.
+Résztvevő: Kovács Sándor
+Megjegyzés: A mérőhöz való hozzáférést biztosítani kell. Ha nem tartózkodik otthon, a mérőállást online megadhatja november 15-ig.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=könyvbemutató>>>
+Könyvbemutató: "A Tisza menti városok"
+Mikor: 2026. november 20., péntek, 17:00-18:30
+Hol: Városi Könyvtár, olvasóterem, Szolnok
+Vendég: Rónai Gabriella (szerző)
+Beszélgetőtárs: Kerekes Anna
+Leírás: A könyv a 19. századi folyami kereskedelemről és a helyi családi vállalkozásokról szól. A szerző dedikál, a helyszínen a könyv kedvezményes áron kapható. Belépés ingyenes.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=bérlemegbeszélés>>>
+Éves bérmegbeszélés - Dobos Tamás
+Időpont: 2026. december 3., csütörtök, 13:00-13:45
+Helyszín: Bakonyfa Kft., HR iroda
+Szervező: Rácz Judit (HR-vezető)
+Résztvevők: Dobos Tamás, Kardos Gábor (közvetlen vezető)
+Leírás: Az éves teljesítményértékelés és a 2027-es bérkeret megbeszélése. Kérjük, hogy a teljesítményértékelő lapot kitöltve hozza magával.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=agrár továbbképzés>>>
+Méhészeti téli továbbképzés
+Mikor: 2026. december 12., szombat, 9:00-15:00
+Hol: Agrárkamara tanácsterem, Kecskemét, Rákóczi út 1.
+Szervező: Magyar Méhészek Egyesülete
+Résztvevők: egyesületi tagok
+Program: varroa-kezelés, a méztermelés új szabályai, pályázati lehetőségek. A részvételi díj 3 000 Ft, ebéddel. Jelentkezés november 30-ig.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=gyors egyeztetés>>>
+Gyors egyeztetés: árajánlat
+Mikor: ma, 2026. november 5., 16:00-16:20
+Hol: telefon (Zoltán hív)
+Szervező: Szűts Kornél
+Meghívott: Gyöngyösi Hanna
+Leírás: Átnézzük az utolsó árajánlat sorait, mielőtt elküldjük. Max. 20 perc, nem kell előkészülni.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=esküvői helyszínbejárás>>>
+Helyszínbejárás: Tisza-parti kastélykert
+Időpont: 2026. november 14., szombat, 11:00-12:00
+Hely: Szeged, Tisza-parti kastélykert, főbejárat
+Szervező: Szegedi Esküvő Stúdió
+Résztvevők: Papp Zsófia, a vőlegény, Zsófia szülei
+Leírás: A kert és a díszterem megtekintése, catering kóstoló, kérdések. A részleteket és a 2027. június 12-i időpontot ott beszéljük meg. Parkolás a kastély előtt.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=pályázati határidő emlékeztető>>>
+Emlékeztető: Pályázat beküldési határidő
+Mikor: 2026. november 16., hétfő, 16:00
+Szervező: Szegedi Ferenc
+Leírás: A pályázatot (Kisvállalkozói gépbeszerzés) 16:00-ig kell beküldeni a pályázati portálon. A 3. mellékletet (pénzügyi terv) két részre kell bontani, mert a limit 5 MB/fájl. Tervezett beküldés: 13:00, hogy legyen tartalék.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=ovis szülői beszélgetés>>>
+Beszoktatási beszélgetés - Napsugár Bölcsőde
+Időpont: 2026. december 10., csütörtök, 16:00-16:45
+Helyszín: Napsugár Bölcsőde, Tatabánya, Mátyás király u. 5., iroda
+Meghívott: Pintér Viktória, Pintér Lili
+Résztvevő a bölcsődéből: Fodor Rita (gondozónő)
+Leírás: Ismerkedés a gondozónővel, a napirend és a beszoktatás menetének megbeszélése. Kérjük, hozza a szükséges iratokat.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=kosármeccs>>>
+Kosárlabda: KKK - Szolnok
+Mikor: 2026. november 14., szombat, 18:00
+Hol: Városi Sportcsarnok, Kecskemét
+Szervező: Kecskeméti Kosárlabda Klub
+Meghívottak: szurkolók
+Megjegyzés: Bérletesek ingyen, jegy 1 500 Ft, diák 800 Ft. A kapu 17:00-kor nyílik. Szurkolói sálat hozzatok!
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=hőszivattyú konzultáció>>>
+Konzultáció: hőszivattyús pályázat
+Időpont: 2026. november 24., kedd, 15:00-16:00
+Helyszín: online (Google Meet)
+Szervező: Szentkirályi Dóra, Zöld Otthon Tanácsadó
+Résztvevő: Árvai Mihály
+Leírás: A pályázat dokumentumainak áttekintése: tulajdoni lap, energetikai tanúsítvány, két kivitelezői ajánlat. Kérem, hogy az ajánlatokat előtte küldje el e-mailben.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=csapatépítő kirándulás>>>
+Csapatépítő: pécsi borvidéki túra
+Mikor: 2026. november 27., péntek, 8:00-19:00
+Hol: indulás: iroda parkolója, Budapest, Váci út 76.
+Szervező: Tóth Réka
+Résztvevők: az egész csapat
+Program: buszos kirándulás, túra a villányi borvidéken, ebéd, borkóstoló. Hozzatok kényelmes cipőt és esőkabátot. Hazaérkezés kb. 19:00.
+<<<END>>>
+
+<<<ITEM kind=calendar_invite lang=hu hard_negative=false topic=műszaki vizsga>>>
+Műszaki vizsga
+Mikor: 2026. november 11., szerda, 7:30-8:30
+Hol: Vizsgaállomás, Győr, Fehérvári út 105.
+Résztvevő: Dobos Szilárd (VW Golf, BTD-318)
+Megjegyzés: Hozza a forgalmi engedélyt és a törzskönyvet. Díj 18 900 Ft, fizetés a helyszínen, bankkártyával is lehet.
+<<<END>>>

@@ -1,0 +1,11 @@
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=közösségi kert tervezés>>>
+Közösségi kert tervezőestje. A tavaszi ültetés a hónap 12-én kezdődik. Feladatok: Hilda a perselypénzből magot és komposztot rendel a kertészetből. Pista szombaton megjavítja a két magaságyást, és rendet rak a szerszámos fészerben. Amarilla kiteszi a könyvtárba a vízhordási beosztás jelentkezőlapját. Csaba megkérdezi az önkormányzatot egy új esővízgyűjtő hordóról. Akinek van fölösleges szerszáma, hozza el a következő alkalomra, amely március 5-én lesz a közösségi házban.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=sportegyesületi vezetőségi ülés>>>
+Vezetőségi ülés jegyzete, Duna-parti Evezős Egylet. A hajóház tetejét szeptemberben javítják. Felelősök: Alajos pénztáros három árajánlatot kér tetőfedőktől, és hozza a következő ülésre. Szilvia csapatkapitány megszervezi a július 14-i ifjúsági regattát, és szervezőket toboroz. Dénes tagnyilvántartó a hónap végéig elküldi a tagdíj-emlékeztetőket. Ilona biztonsági felelős átnézi a mentőmellényeket, és szükség esetén újat rendel. Aki segítene a grillezésben, szóljon Szilviának.
+<<<END>>>
+
+<<<ITEM kind=meeting_actions lang=hu hard_negative=true topic=pályázati csapat indítás>>>
+A regionális könyvtárrendszer pályázatának indító megbeszélése. Határidő: június 30., délben. Feladatok: Odett pályázatvezetőként viszi az ütemtervet. Ferenc a hónap 10-ig megírja a műszaki megközelítést. Gloria összegyűjti a referenciamunkákat és ajánlásokat, és átadja Odettnek. Haruto elkészíti az árazási modellt, amit a pénzügy átnéz. A jogi csapat június 12-ig átolvassa a feltételeket. Odett a 24-én belső ellenpróbát tart, ezért a vázlatoknak június 23-ig készen kell lenniük.
+<<<END>>>

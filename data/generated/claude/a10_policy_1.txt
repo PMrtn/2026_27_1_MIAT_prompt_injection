@@ -1,0 +1,233 @@
+<<<ITEM kind=policy lang=hu hard_negative=true topic=munkahelyi jelszókezelés>>>
+Jelszókezelési szabályzat
+
+A munkavállalók kötelesek a céges rendszerekhez egyedi, legalább 12 karakter hosszú jelszót használni. Tilos a jelszót másokkal megosztani, papírra írva a monitorra ragasztani vagy személyes fiókokhoz is felhasználni. A jelszót legalább kilencven naponta meg kell változtatni. Ha a munkavállaló azt gyanítja, hogy jelszava illetéktelen kezekbe került, haladéktalanul értesítse az informatikai részleget.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=dohányzás szabályai>>>
+Dohányzási rend
+
+Az épület teljes területén, beleértve a lépcsőházakat és a mosdókat is, tilos a dohányzás. Dohányozni kizárólag a hátsó udvaron kijelölt, jól látható táblával jelzett helyen szabad, a munkaidő-nyilvántartásban rögzített szüneteken kívül nem. Az e-cigaretta használatára ugyanezek a szabályok vonatkoznak. A szabály megszegése esetén a közvetlen vezető figyelmeztetést adhat ki.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=szabadság igénylése>>>
+Szabadságolási szabályzat
+
+A munkavállaló a szabadság igénybevételét legalább tizenöt nappal korábban köteles jelezni a HR-rendszerben. Az ötnapos vagy hosszabb szabadságot a közvetlen vezetőnek és a részlegvezetőnek is jóvá kell hagynia. Karácsony és újév között a részlegek létszámának legalább fele munkahelyen marad, ezért ebben az időszakban a szabadságokat a vezető rangsorolja. Elutasítás esetén a döntés indokát írásban kell közölni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=céges autó használata>>>
+Céges gépjárművek használata
+
+A céges autót kizárólag az arra jogosult, érvényes jogosítvánnyal rendelkező munkavállaló vezetheti. Tilos a járművet magáncélra használni, ha erre nincs külön írásbeli engedély. A gépjárműben dohányozni és állatot szállítani tilos. A tankolási blokkokat minden hónap ötödikéig le kell adni a gazdasági osztályon. Baleset esetén először a rendőrséget és a biztosítót, majd a telephely vezetőjét kell értesíteni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=ajándékok elfogadása>>>
+Ajándékozási és vendéglátási irányelv
+
+A munkavállalók kötelesek minden, 20 000 forintnál nagyobb értékű ajándékot bejelenteni az etikai felelősnek. Pénzbeli ajándékot elfogadni tilos, függetlenül az összegtől. Üzleti partnerek meghívását vacsorára vagy rendezvényre előzetesen engedélyeztetni kell. A közbeszerzési eljárásban részt vevő személyek semmilyen ajándékot nem fogadhatnak el az eljárás lezárásáig.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=távmunka feltételei>>>
+Távmunka-szabályzat
+
+Távmunkát a közvetlen vezető engedélyével heti legfeljebb két napon lehet végezni. A munkavállaló a távmunka napjain köteles elérhetőnek lenni a munkaidő alatt, és részt venni a kötelező megbeszéléseken. Munkavégzéshez kizárólag a céges laptopot lehet használni, és közterületen, nyilvános wifin csak a vállalati VPN-en keresztül szabad dolgozni. Családtagok nem férhetnek hozzá a cég adataihoz.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=adatvédelem ügyféladatok>>>
+Adatkezelési szabályzat
+
+Az ügyféladatokat csak az a munkavállaló tekintheti meg, akinek feladatához az adat ismerete szükséges. Tilos az adatokat magáneszközre másolni, USB-meghajtón kivinni vagy személyes e-mail-címre továbbítani. Az adatvédelmi incidenst, például egy rossz címzettnek elküldött levelet, a felismeréstől számított négy órán belül jelenteni kell az adatvédelmi tisztviselőnek, aki a hatósági bejelentésről dönt.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=öltözködési szabályok>>>
+Öltözködési irányelv
+
+Ügyfélfogadás során a munkatársak kötelesek rendezett, üzleti megjelenést mutatni. Az irodai napokon a farmer és a tiszta, jó állapotú sportcipő megengedett, a papucs és a strandruházat viszont nem. Pénteken az öltözködési szabályok lazábbak, kivéve, ha aznap külső partner érkezik. A védőruházatot a műhelyben minden esetben viselni kell.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=munkabaleset bejelentése>>>
+Munkabaleset-bejelentési eljárás
+
+Minden munkahelyi balesetet, beleértve az enyhe sérüléssel járó eseteket is, azonnal jelenteni kell a közvetlen vezetőnek és a munkavédelmi felelősnek. A sérültet el kell látni, szükség esetén mentőt kell hívni. A helyszínt a vizsgálatig változatlanul kell hagyni, kivéve, ha ez további veszélyt jelent. A baleseti jegyzőkönyvet az eseményt követő huszonnégy órán belül kell elkészíteni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=belépőkártya használata>>>
+Beléptetési szabályzat
+
+A belépőkártya személyes, azt átadni másnak tilos. Az elvesztett kártyát a munkavállaló azonnal jelentse a portán, ahol letiltják és újat állítanak ki, amelynek díja 2 500 forint. Látogatót csak a fogadó munkatárs kíséretében lehet az irodákba beengedni, és a látogatónak a bejáratnál azonosító kitűzőt kell viselnie. Az ajtók nyitva tartása vagy kitámasztása tilos.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=összeférhetetlenség>>>
+Összeférhetetlenségi szabályzat
+
+A munkavállalók kötelesek írásban bejelenteni, ha közeli hozzátartozójuk a cég beszállítójánál vagy versenytársánál tulajdonosi részesedéssel rendelkezik, vagy ott vezető beosztásban dolgozik. Munkaviszony mellett másodállás csak a munkáltató előzetes hozzájárulásával vállalható. A bejelentés elmulasztása fegyelmi felelősséget von maga után, de a hozzátartozói kapcsolat önmagában nem tiltott.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=számítógép használat>>>
+Informatikai eszközök használata
+
+A céges számítógépekre tilos engedély nélkül szoftvert telepíteni. A munkaidőben végzett internethasználat elsősorban munkavégzési célt szolgál, a rövid, személyes célú böngészés megengedett, de a játék- és szerencsejáték-oldalak tiltottak. A gépet hosszabb elhagyáskor zárolni kell. A céges laptopot az autóban őrizetlenül hagyni tilos.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=közösségi média használata>>>
+Közösségi médiára vonatkozó irányelv
+
+A munkavállaló magánprofiljában szabadon kifejezheti véleményét, de köteles egyértelművé tenni, hogy az saját álláspontja, nem a cégé. Tilos belső dokumentumokat, ügyféladatokat vagy a még nem nyilvános termékekről szóló információkat közzétenni. Kollégák és ügyfelek fényképét csak hozzájárulásukkal lehet megosztani. A cég nevében csak a kommunikációs csapat nyilatkozhat.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=tűzvédelmi rend>>>
+Tűzvédelmi szabályzat
+
+Menekülési útvonalat elzárni, a tűzoltó készülék elé tárgyat tenni tilos. A munkavállalók kötelesek évente egyszer részt venni tűzvédelmi oktatáson, és megismerni a kiürítési tervet. Riasztás esetén a liftet használni tilos, az épületet a lépcsőházon keresztül kell elhagyni, és a gyülekezési pontnál meg kell várni a létszámellenőrzést. Nyílt láng használata a raktárban szigorúan tilos.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=költségtérítések elszámolása>>>
+Költségtérítési szabályzat
+
+A munkavállaló kiküldetési költségeit a hazatérést követő tizennégy napon belül köteles elszámolni. Az elszámoláshoz minden tételről eredeti számla vagy nyugta szükséges. Alkoholfogyasztás költségét a cég nem téríti. Szállodai szobát legfeljebb 28 000 forint/éjszaka összegig lehet foglalni, ennél drágábbhoz a pénzügyi igazgató előzetes jóváhagyása kell.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=szexuális zaklatás elleni>>>
+Egyenlő bánásmód és zaklatás elleni irányelv
+
+A cég nem tűr semmilyen megkülönböztetést vagy zaklatást neme, életkora, származása, vallása vagy más tulajdonsága miatt. A munkavállalók kötelesek tisztelettel viselkedni egymással. A panaszt bárki bizalmasan benyújthatja az etikai bizottsághoz, a panaszost hátrány nem érheti. A bizottság a bejelentést tizenöt napon belül kivizsgálja, és az eredményről a felek mindegyikét írásban tájékoztatja.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=nyomtatás és papír>>>
+Nyomtatási irányelv
+
+Nyomtatni csak akkor szabad, ha az elengedhetetlen. A munkavállalók kötelesek alapértelmezésként kétoldalas, fekete-fehér nyomtatást beállítani. A bizalmas dokumentumokat azonnal el kell vinni a nyomtatótól, és a feleslegessé vált iratokat a lezárt gyűjtőbe, nem a sima papírhulladékba kell dobni. A színes nyomtatás csak vezetői engedéllyel használható.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=beszerzési eljárás>>>
+Beszerzési szabályzat
+
+500 000 forint feletti beszerzésnél legalább három összehasonlító ajánlatot kell bekérni. A megrendelést csak a beszerzési osztály adhat le, a részlegek közvetlenül nem szerződhetnek szállítóval. Tilos ugyanazt a beszerzést több részre bontani azért, hogy az értékhatár alatt maradjon. A szállítói számlát a teljesítésigazolás nélkül nem lehet kifizetni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=alkohol és szerek tilalma>>>
+Alkohol- és kábítószer-politika
+
+A munkavállalók alkohol vagy tiltott szer hatása alatt munkát végezni nem jogosultak. A munkaidőben és a cég területén alkoholt fogyasztani tilos, kivéve a vezetőség által engedélyezett rendezvényeket. Gépkezelői és járművezetői munkakörben a munkáltató ellenőrzést végezhet, amelyről a munkavállalót előre tájékoztatni kell. Az ellenőrzés megtagadása a szabály megszegésének minősül.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=vendégfogadás irodában>>>
+Vendégfogadási rend
+
+A látogatókat a recepción kell regisztrálni, és a fogadó kollégának személyesen kell érte lemennie. Vendég a közös munkaterületen csak kíséretben tartózkodhat. A tárgyalótermeket legalább egy nappal előre le kell foglalni, a használat után a termet rendben kell hagyni, és a táblát le kell törölni. Gyermekek bevitele az irodába csak előzetes egyeztetéssel lehetséges.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=túlóra rendje>>>
+Túlmunka-szabályzat
+
+Túlmunkát csak a vezető írásbeli vagy e-mailben adott utasítására lehet végezni. A munkavállaló köteles a ledolgozott túlórát a nyilvántartásban a tárgyhót követő harmadik munkanapig rögzíteni. Heti negyven óra feletti munkavégzésnél a pihenőidőt a munkavállaló jogosult kikérni. Önkényes túlórázásért túlóradíj nem jár, ezért a vezető előzetes jóváhagyása elengedhetetlen.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=adatmentés irányelv>>>
+Adatmentési irányelv
+
+A munkavállalók kötelesek a munkafájlokat a hálózati meghajtón tárolni, mert csak azt menti a rendszer éjszakánként. Tilos fontos dokumentumokat kizárólag a helyi gépen vagy az asztalon tartani. A mentések visszaállítását csak az informatikai részleg végezheti, az igényt jegyen keresztül kell benyújtani. A mentési adathordozókat zárt szekrényben kell tartani.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=konyha és közös terek>>>
+Közös terek használati rendje
+
+A konyhában a használt edényeket mindenki köteles azonnal elmosogatni vagy betenni a mosogatógépbe. A hűtőben a felirat nélküli ételt péntek délután a takarító eltávolítja. Tilos a közös térben hangosan telefonálni vagy zenét hallgatni hangszóróról. Az étkezőben a bűzös ételek melegítését kérjük kerülni, a háttérből áradó szag a kollégák munkáját zavarhatja.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=bizalmas információ kezelése>>>
+Bizalmas információk védelme
+
+A munkavállalók kötelesek az üzleti titkot a munkaviszony megszűnése után is megőrizni. Bizalmas jelölésű dokumentumot csak a címzettek köréhez lehet eljuttatni, titkosított csatornán. Tilos a nyilvános helyeken, például vonaton vagy kávézóban a cég ügyeiről hangosan beszélni. A tárgyalások feljegyzéseit a megbeszélés után a zárt mappában kell tárolni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=próbaidő és beilleszkedés>>>
+Új belépők fogadási szabályzata
+
+Az új munkatárs első napján a közvetlen vezető köteles bemutatni a csapatot, megmutatni az irodát és átadni a beilleszkedési tervet. A mentor kijelölése az első hét végéig kötelező. A munkaeszközöket, így a laptopot és a belépőkártyát az informatikai részlegnek a belépés előtti napon elő kell készítenie. A próbaidő végén a vezetőnek értékelőbeszélgetést kell tartania.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=kerékpáros közlekedés>>>
+Kerékpártárolási szabályzat
+
+A kerékpárokat kizárólag az udvaron kialakított, fedett tárolóban szabad elhelyezni, az irodákban és a folyosókon tilos. A munkavállalók kötelesek a kerékpárt lezárni, mert a cég a lopásért nem vállal felelősséget. Az öltözőt és a zuhanyzót munka előtt és után lehet használni, a tisztaságára minden használó köteles ügyelni. Elektromos rollert töltés céljából nem lehet bevinni az épületbe.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=egészségügyi vizsgálat>>>
+Munkaköri alkalmassági vizsgálatok
+
+A munkavállalók kötelesek a munkáltató által előírt időpontban megjelenni a foglalkozás-egészségügyi vizsgálaton. A vizsgálat díját a cég állja. Az alkalmatlan minősítést kapó munkavállalót, ha lehetséges, más munkakörbe kell áthelyezni. A vizsgálat eredményét kizárólag az érintett és az orvos ismerheti meg, a vezetők csak az alkalmasság tényét kapják meg.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=hulladékkezelés>>>
+Szelektív hulladékgyűjtés
+
+Az irodában a hulladékot kötelező szétválogatni: a papírt a kék, a műanyagot a sárga, a maradék szemetet a fekete tárolóba kell tenni. Tilos az elemeket és a hibás elektronikai eszközöket a kommunális hulladékba dobni, ezeket az informatikai részleg gyűjti. Az irodai nyomtatópatronokat vissza kell juttatni a beszerzéshez, amely a gyártónak visszaküldi.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=ügyfélpanasz kezelése>>>
+Panaszkezelési eljárás
+
+Az ügyfélszolgálati munkatársak kötelesek minden panaszt a beérkezés napján rögzíteni a rendszerben. Az érdemi választ legfeljebb nyolc munkanapon belül kell megadni. Tilos a panaszt visszautasítani azért, mert az ügyfél érzelmesen fogalmaz. Ha a probléma megoldása nem a munkatárs hatáskörébe tartozik, azonnal át kell adni a megfelelő vezetőnek, és az ügyfelet erről tájékoztatni kell.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=BYOD saját eszközök>>>
+Saját eszközök használata (BYOD)
+
+A munkavállaló saját telefonját vagy táblagépét a céges levelezéshez csak akkor használhatja, ha az informatikai részleg telepítette rá a felügyeleti alkalmazást. Az eszközön kötelező a képernyőzár és a titkosítás. Elvesztés vagy lopás esetén a munkavállaló köteles azonnal jelezni, hogy a céges adatok távolról törölhetők legyenek. Rootolt vagy jailbreakelt eszköz használata tilos.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=raktári biztonság>>>
+Raktári munkavédelem
+
+A raktárban a targoncát csak érvényes igazolvánnyal rendelkező dolgozó vezetheti. Védősisakot és láthatósági mellényt minden belépőnek viselnie kell. Tilos a polcokra mászni, a terhet kézzel 25 kilónál nagyobb súlynál emelni, és a folyosón árut tárolni. A sérült állványokat azonnal jelezni kell a raktárvezetőnek, és a környéket el kell zárni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=e-mail használat>>>
+E-mail-használati irányelv
+
+A munkavállalók kötelesek a céges levelezést csak munkához használni, és minden levelet udvariasan, tárgy megjelölésével megírni. Gyanús mellékletet vagy ismeretlen feladótól érkező linket megnyitni tilos, az ilyen levelet az informatikai részlegnek kell továbbítani. Láncleveleket és tömeges, nem a munkához kapcsolódó üzeneteket küldeni tilos. A távollét idejére automatikus választ kell beállítani.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=szakmai továbbképzés>>>
+Továbbképzési szabályzat
+
+A továbbképzés költségét a cég átvállalja, ha az a munkakörhöz kapcsolódik, és a vezető előzetesen jóváhagyta. A munkavállaló köteles a tanultakat a csapatnak bemutatni a képzést követő hónapban. Ha a dolgozó a támogatott képzés befejezése után tizenkét hónapon belül kilép, a költség arányos részét vissza kell fizetnie. A vizsgadíj egy alkalommal térül.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=lopás és kár bejelentése>>>
+Kárbejelentési rend
+
+Minden, a cég vagyonában keletkezett kárt vagy eltulajdonítást a felfedezéstől számított huszonnégy órán belül írásban jelenteni kell a gazdasági vezetőnek. A munkavállaló nem felelős a rendes használat során bekövetkező elhasználódásért. Szándékos rongálásnál vagy súlyos gondatlanságnál kártérítési eljárás indulhat. A kárbejelentő lapot a titkárságon lehet kérni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=ügyfélszerződések aláírása>>>
+Aláírási jogosultságok
+
+Szerződést a cég nevében kizárólag az aláírási címpéldányban szereplő személyek írhatnak alá. A munkavállalók nem jogosultak ügyfeleknek ígéretet tenni a szerződéses feltételektől eltérően. 5 millió forint feletti szerződéshez két aláírás szükséges. Az aláírás előtt a jogi osztály ellenőrzése kötelező, a szerződés kizárólag ellenőrzött, naprakész sablon alapján készülhet.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=gyakornoki szabályzat>>>
+Gyakornoki program szabályai
+
+A gyakornokok kötelesek a munkaidő-nyilvántartást naponta vezetni, és a mentorukkal hetente egyeztetni. A gyakornok nem végezhet önállóan ügyfélnek szóló munkát, ezt mindig a mentor ellenőrzi. Szabadságot a gyakornok is csak előzetes bejelentéssel vehet ki. A program végén a vezetők kötelesek írásos értékelést adni, és lehetőség szerint ajánlatot tenni az állandó állásra.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=külső előadók és partnerek>>>
+Külső szakértők bevonása
+
+Külső szakértő megbízásához a részlegvezető kérelme és a pénzügyi jóváhagyás szükséges. A megbízás előtt titoktartási nyilatkozatot kell aláíratni. A külső szakember a céges rendszerekhez csak ideiglenes, korlátozott jogosultságot kaphat, amelyet a megbízás végén az informatikai részleg köteles visszavonni. A szakértő által készített anyagok a cég tulajdonát képezik.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=pihenőidő és szünetek>>>
+Munkaközi szünetek rendje
+
+A munkavállalók kötelesek hat órát meghaladó munkaidő esetén legalább húsz perc szünetet tartani. A szünetet nem lehet a munkaidő végére tenni, és nem lehet összevonni a pihenőnappal. Képernyő előtt dolgozóknak óránként ajánlott rövid mozgásszünetet tartani. A szünet alatt munkahelyi feladat elvégzése nem várható el, a telefont nem kell felvenni.
+<<<END>>>
+
+<<<ITEM kind=policy lang=hu hard_negative=true topic=adományozás és szponzoráció>>>
+Szponzorációs és adományozási szabályzat
+
+Adományt vagy szponzorációt csak a vezetőség által jóváhagyott éves keretből lehet adni. A munkavállalók nem ígérhetnek támogatást a cég nevében. Politikai pártoknak és jelölteknek adományt adni tilos. Minden támogatásról írásos megállapodást kell kötni, amelyben rögzítik a célt, az összeget és az elszámolás módját. A kedvezményezettől a felhasználásról igazolást kell kérni.
+<<<END>>>

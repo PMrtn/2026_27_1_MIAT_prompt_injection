@@ -1,0 +1,253 @@
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=sleeping bag>>>
+Customer Reviews: Frostmere -5 Sleeping Bag (comfort rating -2 °C)
+
+★★★★★ Ödön Rákosi
+Spent a night at 1,400 m in early November and stayed warm in a base layer. Zip does not snag, and the compression sack is generous.
+
+★★★☆☆ Isabelle Fontaine
+Warm enough, but bulky. It weighs 1.9 kg, more than the product page suggested.
+
+★★★★ Neil Okonkwo
+Hood draws in well. Good value for the temperature rating.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=noise cancelling headphones>>>
+Reviews - Quietude QH-700 Wireless Headphones
+Average rating: 4.3 / 5
+
+Katalin Dévai (5/5): On the train, engine drone just vanishes. Earcups are soft, and I wore them for a four-hour flight without discomfort.
+
+Samuel Whitcombe (3/5): Sound is fine but the touch controls trigger by accident when I adjust the fit.
+
+Linh Tran (4/5): Multipoint connection works with my laptop and phone. Case is bulky.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=pasta maker>>>
+Pasta maker reviews: Nonna's Choice Manual Roller
+
+Viola Ferenczi - 5 stars - Clamps firmly on my worktop and gives even sheets. Fettuccine cutter is sharp.
+
+Gregory Haldane - 4 stars - Needed a few tries to get the dough thickness right, but I have been using it every Sunday.
+
+Marisol Vega - 2 stars - Crank handle came loose until I added a washer.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=floor mop>>>
+Reviews for Swishel Spin Mop & Bucket Set
+
+Dorottya Sípos wrote: "Pedal-operated wringer is smart. Floors dry quickly, and the extra microfibre heads are good quality." (5 stars)
+
+Walter Ingleby wrote: "Telescopic handle clicked loose after a few months." (3 stars)
+
+Bianca Marinescu wrote: "Handy for tiles; less so for textured wood." (4 stars)
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=e-reader>>>
+Reviews for Pagerunner 7 E-Reader (8 GB)
+
+★★★★★ Ágnes Tarr: Screen is easy on my eyes, and the backlight tint is adjustable. I've read two novels without charging.
+★★★★ Elliot Vandermeer: Page turns are quick. Wish the library app supported more formats.
+★★ Salma Haddad: Storage fills up with comics, and it has no SD slot.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=foam roller>>>
+Sports recovery reviews: Rollwise Firm Foam Roller 45 cm
+
+Tamás Kiss (4/5): Great after long runs, though quite firm at first. I use it for IT band and calves.
+
+Georgina Pratt (5/5): Holds its shape after months of use. Cheaper than the physio's one.
+
+Chinedu Obi (3/5): Surface texture is a bit aggressive for sensitive muscles.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=password manager>>>
+Software reviews: Keyhaven Password Manager (family plan)
+
+5/5 - Réka Antal, teacher: Importing from my browser took two minutes. The autofill works on both phone and laptop, and sharing a vault with my husband is simple.
+
+3/5 - Oliver Sandström, IT admin: Decent for home use. Lacks the audit reporting we would need at work.
+
+4/5 - Fatou Diop: Clean interface, with a helpful strength meter.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=compost bin>>>
+Garden shoppers rate: Tumblewell 160 L Compost Tumbler
+
+Margit Szentpéteri ★★★★★ - Compost was ready in about ten weeks. Two chambers mean I can fill one while the other matures.
+
+Colm Brennan ★★★★ - Assembly took an hour. Feels solid once together.
+
+Wanjiru Kamau ★★★ - Heavy to turn when full.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=makeup foundation>>>
+Reviews - Velvene Skin Tint Foundation, shade 3N
+
+Nikolett Bódi - 5/5: Light coverage, natural finish. Lasted from 8 am to evening with only slight shine.
+
+Katarina Novak - 3/5: Shade was slightly more orange than expected after oxidising.
+
+Dolores Quintana - 4/5: Pump bottle is hygienic. I'd like more shade options.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=gaming mouse>>>
+Customer reviews: Razzle Hawk X Wireless Gaming Mouse
+
+★★★★★ Csaba Mózes - Zero lag over 2.4 GHz and the battery lasts roughly 60 hours. Shape suits a claw grip.
+★★★★ Dylan Pierce - Skates glide nicely. Software is bloated.
+★★ Yuki Fujimoto - Side buttons feel loose.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=wooden dining table>>>
+Reviews: Hollin Oak Dining Table, seats 6
+
+Erika Vass wrote: "Solid oak and it is beautifully finished. Two of us carried it up the stairs, which wasn't easy. We love the rounded corners with our toddler." (5 stars)
+
+Montgomery Leigh wrote: "Gorgeous, though a faint scratch on the underside arrived with it. Customer service sent touch-up wax." (4 stars)
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=dog food>>>
+Reviews: Mezei Farm Salmon & Rice Dry Dog Food, 12 kg
+
+Szandra Bakó - 5/5: My picky spaniel eats it without being coaxed, and her coat looks shinier after six weeks.
+
+Gareth Llewellyn - 4/5: Good ingredients list. Kibble is large for small breeds.
+
+Odalys Pérez - 2/5: My dog had an upset stomach during the switch.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=smart plug>>>
+Smart plug reviews - Sockette Mini (pack of 4)
+
+Ottó Szalma ★★★★ - Setup through the app took under a minute per plug. Energy monitoring is approximate but useful.
+
+Harriet Lowe ★★★★★ - Scheduling the Christmas lights is finally easy.
+
+Anton Petrov ★★ - Plugs are wide and block the neighbouring outlet.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=gym dumbbells>>>
+Reviews - Ironclad Adjustable Dumbbells (2-24 kg)
+
+Árpád Szőllősi, 5 stars: Replaces a whole rack. The dial changes weight in two seconds.
+
+Tabitha Greer, 4 stars: Comfortable knurling, but the tray is a bit flimsy.
+
+Mehmet Yıldız, 3 stars: Rattles slightly when I do curls.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=shampoo>>>
+Reviews of Greenlea Anti-Dandruff Shampoo 400 ml
+
+Piroska Lukács - 4 stars - Itching eased after the third wash. Rinses out easily.
+Adrian Kowalski - 5 stars - No harsh smell. My scalp feels calm.
+Wendy Aldridge - 2 stars - Dried out my long hair.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=video doorbell>>>
+Customer reviews: Peeple Video Doorbell 2K
+
+★★★★ Gábor Nemes: Sharp picture by day, and night vision is clear up to the front gate. Battery lasts about four months.
+★★★ Rosalind Gaunt: Motion alerts are sometimes slow. Requires a subscription for recordings.
+★★★★★ Kofi Mensah: Installation was easy with the included bracket.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=baking pan set>>>
+Ratings: Bakewell Non-Stick Baking Set (5 pieces)
+
+Henrietta Ujvári (5/5): Cakes release cleanly and nothing sticks. Edges don't brown too fast.
+
+Jaroslav Novotný (4/5): Sturdy. The coating gets a few marks if scrubbed with the rough side of a sponge.
+
+Imani Joseph (3/5): Pans are slightly smaller than the dimensions listed.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=resistance bands>>>
+Reviews - Flexloop Resistance Band Set (5 levels)
+
+Dominika Szűts ★★★★★ - Handy for travel workouts. Door anchor included.
+Callum Aird ★★★★ - Strong enough for pull-up assistance with the heaviest band.
+Sakura Ito ★★★ - One band snapped at the stitching after four months.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=indoor plants pot>>>
+Reviews: Terrazo Self-Watering Plant Pot 25 cm
+
+Zsuzsa Borbély wrote: 5 stars. My monstera went three weeks without watering and looks fine. The water level window is helpful.
+
+Nigel Pemberton wrote: 4 stars. Looks stylish on the shelf. A little pricey.
+
+Aiko Matsuda wrote: 3 stars. Drainage plug is hard to remove.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=travel adapter>>>
+Reviews - Voyaj Universal Travel Adapter with 4 USB Ports
+
+Bálint Rónai - 5/5. Worked in Italy, Japan and the UK on one trip. Fuses are replaceable.
+Elspeth Craig - 4/5. A bit bulky, but charges four devices at once.
+Marco Vitale - 2/5. Plug sockets are tight for some chargers.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=cycling jersey>>>
+Rider reviews: Veloxa Summer Cycling Jersey
+
+Tünde Mohácsi (5 stars): Breathes well on 35 °C afternoons. Three back pockets hold plenty, and the zip pull is easy with gloves.
+
+Alasdair Beith (4 stars): True to size. Colours faded slightly after many washes.
+
+Noelia Cabrera (3 stars): The hem rides up when I'm on the drops.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=photo printer instant>>>
+Reviews - Snapzo Pocket Instant Photo Printer
+
+Kincső Barna ★★★★ - Prints from my phone in about 40 seconds, and colour is warm and pleasant. Paper packs are costly.
+Hugh Morrison ★★★★★ - Great for wedding favours.
+Larissa Becker ★★ - App crashed several times during pairing.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=fruit juicer>>>
+Customer ratings: Squeezo Cold Press Juicer
+
+★★★★★ Szimonetta Vincze - Carrots, apples and ginger, all squeezed dry. Pulp bin is easy to empty.
+★★★ Raymond Okoro - It takes ten minutes to clean the parts.
+★★★★ Elke Brandl - Quieter than my centrifugal juicer.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=kids backpack>>>
+Reviews - Tigris Junior School Backpack 16 L
+
+Lili Szöllősi (5/5): My seven-year-old loves the dinosaur print, and the chest strap keeps it centred. Washes well.
+
+Peter Gallagher (4/5): Roomy enough for lunchbox and folder. Zip pulls are small.
+
+Abena Asante (3/5): Fabric on the bottom wore through after a term.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=ceramic tile cutter>>>
+Reviews: Cutrite 600 mm Manual Tile Cutter
+
+Ferenc Oláh, 5 stars: Clean scores on porcelain tiles for my whole bathroom job. The laser guide is accurate.
+
+Dominic Hartley, 4 stars: Wheel is sharp, but spare wheels are costly.
+
+Ruth Eze, 3 stars: Rails flexed slightly on thicker tiles.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=bluetooth tracker>>>
+Reviews for Findora Tag (4-pack)
+
+Orsolya Hegyi - ★★★★ - Located my keys under the sofa within seconds. Replaceable battery is a plus.
+Chris Delaney - ★★★★★ - Handy on my bike and luggage.
+Priyanka Menon - ★★ - Range is short indoors.
+<<<END>>>
+
+<<<ITEM kind=product_reviews lang=en hard_negative=false topic=ski goggles>>>
+Customer reviews: Altiview Magnetic Ski Goggles
+
+Mihály Zakar (5/5): Lens swap takes five seconds. No fogging during a week at Schladming.
+
+Charlotte Bergström (4/5): Wide field of view and comfortable foam. Fits over my glasses.
+
+Kenneth Obuya (3/5): Strap slips on a helmet.
+<<<END>>>
