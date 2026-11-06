@@ -45,7 +45,7 @@ DEFENDED = ("guardrails", "ml", "combined")
 WITH_ACTION_POLICY = frozenset({"guardrails", "combined"})
 
 
-def undefended(office_path: Path, ops_path: Path) -> pd.DataFrame:
+def undefended(office_path: Path, ops_paths: list[Path]) -> pd.DataFrame:
     """One row per undefended attack episode: domain, prompt variant, attack id, family group, goal reached."""
     frames = []
     if office_path.exists():
@@ -63,9 +63,10 @@ def undefended(office_path: Path, ops_path: Path) -> pd.DataFrame:
                 }
             )
         )
-    if ops_path.exists():
+    existing = [path for path in ops_paths if path.exists()]
+    if existing:
         payloads = {attack.attack_id: attack.payload for attack in load_ops_attacks(ATTACKS_PATH)}
-        ops = ops_frame(ops_load(ops_path), payloads)
+        ops = ops_frame(ops_load(existing), payloads)
         ops = ops[ops["is_attack"] & ops["error"].isna() & (ops["config"] == "none")]
         frames.append(
             pd.DataFrame(
@@ -168,7 +169,12 @@ def main() -> None:
     """CLI entry point: writes results/counterfactual/{summary,per_attack}.csv."""
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--office-episodes", type=Path, default=E2E_DIR / "episodes.jsonl")
-    parser.add_argument("--ops-episodes", type=Path, default=OPS_DIR / "sample_episodes.jsonl")
+    parser.add_argument(
+        "--ops-episodes",
+        type=Path,
+        nargs="+",
+        default=[OPS_DIR / "sample_episodes.jsonl", OPS_DIR / "rest_episodes.jsonl"],
+    )
     parser.add_argument("--layers", type=Path, default=LAYERS_DIR / "attack_outputs.csv")
     args = parser.parse_args()
     setup_logging()

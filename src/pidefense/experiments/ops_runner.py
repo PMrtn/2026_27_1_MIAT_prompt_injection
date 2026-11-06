@@ -54,6 +54,7 @@ ATTACKS_PATH = OPS_DIR / "attacks.jsonl"
 SUBSET_PATH = OPS_DIR / "subset.json"
 CACHE_PATH = OPS_DIR / "llm_cache.jsonl"
 MAX_STEPS_PER_LEVEL = 8
+MAX_STEPS_ERROR = "max_steps_reached"
 BENIGN_REPS = 3
 VARIANTS = ("A", "B")
 
@@ -143,8 +144,8 @@ def verify_plan(
     return specs
 
 
-def sample_successes(path: Path) -> list[str]:
-    """Attack ids that reached their goal (any level, any variant) in the config-none sample, sorted."""
+def successful_attacks(path: Path) -> list[str]:
+    """Attack ids that reached their goal (any level, any variant) in an episode file, sorted."""
     ids: set[str] = set()
     with path.open(encoding="utf-8") as handle:
         for line in handle:
@@ -156,15 +157,28 @@ def sample_successes(path: Path) -> list[str]:
     return sorted(ids)
 
 
-def repro_plan(attacks: list[OpsAttack], ids: list[str], reps: int) -> list[OpsSpec]:
-    """Config none, both variants: repetitions 1..reps of the given attacks (repetition 0 is the sample run)."""
+def repro_plan(
+    attacks: list[OpsAttack], ids: list[str], reps: int, variants: tuple[str, ...] = VARIANTS
+) -> list[OpsSpec]:
+    """Config none: repetitions 1..reps of the given attacks (repetition 0 is the original run)."""
     none = DefenseConfig(guardrails=False, ml=False)
     by_id = {attack.attack_id: attack for attack in attacks}
     return [
         OpsSpec(f"{variant}|none|{attack_id}|rep{rep}", variant, none, by_id[attack_id].task_id, by_id[attack_id], rep)
         for rep in range(1, reps + 1)
-        for variant in VARIANTS
+        for variant in variants
         for attack_id in ids
+    ]
+
+
+def rest_plan(attacks: list[OpsAttack], subset: list[OpsAttack], variant: str) -> list[OpsSpec]:
+    """Config none, one prompt variant: every pre-registered attack that is not in the sample subset."""
+    none = DefenseConfig(guardrails=False, ml=False)
+    sampled = {attack.attack_id for attack in subset}
+    return [
+        OpsSpec(f"{variant}|none|{attack.attack_id}", variant, none, attack.task_id, attack, 0)
+        for attack in attacks
+        if attack.attack_id not in sampled
     ]
 
 
@@ -218,7 +232,8 @@ def _done(path: Path) -> set[str]:
         for line in handle:
             if line.strip():
                 record = json.loads(line)
-                status[record["episode_id"]] = record.get("error") is None
+                # Hitting the step limit is an outcome (levels are scored), not a failure to re-run.
+                status[record["episode_id"]] = record.get("error") in (None, MAX_STEPS_ERROR)
     return {key for key, ok in status.items() if ok}
 
 
@@ -317,7 +332,10 @@ def main() -> None:
     parser.add_argument("--verify", type=int, default=0)
     parser.add_argument("--pilot", type=int, default=0)
     parser.add_argument("--l2", type=int, default=0)
-    parser.add_argument("--repro", type=int, default=0, help="repetitions of the sample's successful attacks")
+    parser.add_argument("--repro", type=int, default=0, help="repetitions of the successful attacks of --repro-from")
+    parser.add_argument("--repro-from", type=Path, default=OPS_DIR / "sample_episodes.jsonl")
+    parser.add_argument("--repro-variants", default="A,B")
+    parser.add_argument("--rest", choices=VARIANTS, help="run the attacks outside the sample subset (config none)")
     parser.add_argument("--configs", default="none,guardrails,ml,combined")
     parser.add_argument("--concurrency", type=int, default=3)
     args = parser.parse_args()
@@ -351,9 +369,13 @@ def main() -> None:
         specs = verify_plan(tasks, subset_attacks(attacks), [c for c in configs if c.name != "none"], args.verify)
         out, stop_on_success = OPS_DIR / "verify_episodes.jsonl", True
     elif args.repro:
-        ids = sample_successes(OPS_DIR / "sample_episodes.jsonl")
-        logger.info("Reproducing %d successful sample attacks: %s", len(ids), ", ".join(ids))
-        specs, out = repro_plan(attacks, ids, args.repro), OPS_DIR / "repro_episodes.jsonl"
+        ids = successful_attacks(args.repro_from)
+        variants = tuple(v for v in args.repro_variants.split(",") if v in VARIANTS)
+        logger.info("Reproducing %d successful attacks of %s in %s: %s", len(ids), args.repro_from.name, variants, ids)
+        specs, out = repro_plan(attacks, ids, args.repro, variants), OPS_DIR / "repro_episodes.jsonl"
+        stop_on_success = True
+    elif args.rest:
+        specs, out = rest_plan(attacks, subset_attacks(attacks), args.rest), OPS_DIR / "rest_episodes.jsonl"
         stop_on_success = True
     elif args.pilot:
         specs, out = pilot_plan(attacks, args.pilot), OPS_DIR / "pilot_episodes.jsonl"

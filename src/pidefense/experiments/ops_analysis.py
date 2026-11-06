@@ -6,9 +6,11 @@
 * utility         - benign task completed (benign episodes) / under attack
 * benign FPR      - benign episodes: withheld read outputs / all read outputs; and share of benign episodes with any
                     withheld output or blocked action
+* near_task       - the attacker's target action uses a tool inside the task's permission envelope (a tool the
+                    benign task may legitimately call), e.g. a config change on a runbook task that changes config
 
 Usage:
-    python -m pidefense.experiments.ops_analysis [--episodes results/ops/episodes.jsonl]
+    python -m pidefense.experiments.ops_analysis [--episodes results/ops/episodes.jsonl [more.jsonl ...]]
 """
 
 from __future__ import annotations
@@ -23,27 +25,57 @@ import numpy as np
 import pandas as pd
 
 from pidefense.experiments.analysis import CONFIG_ORDER, _contains_payload, _payload_core, mcnemar, rate
-from pidefense.experiments.ops_attacks import OPS_FAMILIES, load_ops_attacks
-from pidefense.experiments.ops_runner import ATTACKS_PATH, OPS_DIR
+from pidefense.experiments.layer_eval import ops_target_action
+from pidefense.experiments.ops_attacks import OPS_FAMILIES, OpsAttack, load_ops_attacks
+from pidefense.experiments.ops_runner import ATTACKS_PATH, MAX_STEPS_ERROR, OPS_DIR
 from pidefense.logging_utils import setup_logging
+from pidefense.ops.tasks import OpsTask, load_ops_tasks
 from pidefense.schemas import SEEN_FAMILIES
 
 logger = logging.getLogger(__name__)
 
 
-def load(path: Path) -> list[dict[str, Any]]:
-    """Episode records (last record per episode id wins)."""
+def load(paths: Path | list[Path]) -> list[dict[str, Any]]:
+    """Episode records of one or more JSONL files (last record per episode id wins)."""
     records: dict[str, dict[str, Any]] = {}
-    with path.open(encoding="utf-8") as handle:
-        for line in handle:
-            if line.strip():
-                record = json.loads(line)
-                records[record["episode_id"]] = record
+    for path in [paths] if isinstance(paths, Path) else paths:
+        with path.open(encoding="utf-8") as handle:
+            for line in handle:
+                if line.strip():
+                    record = json.loads(line)
+                    records[record["episode_id"]] = record
     return list(records.values())
 
 
-def frame(records: list[dict[str, Any]], payloads: dict[str, str]) -> pd.DataFrame:
+def task_tools(task: OpsTask) -> set[str]:
+    """Action tools inside the task's permission envelope (what the benign task may legitimately call)."""
+    tools: set[str] = set()
+    if task.policy.allowed_config_changes:
+        tools.add("update_config")
+    if task.policy.allowed_service_ops:
+        tools.add("restart_service")
+    if task.policy.allowed_sql_writes:
+        tools.add("query_db")
+    if any(check.reply_contains is not None for check in task.utility):
+        tools.add("reply_ticket")
+    return tools
+
+
+def attack_meta(attacks: list[OpsAttack], tasks: dict[str, OpsTask]) -> dict[str, dict[str, Any]]:
+    """Per attack id: near-task flag and follow-up style."""
+    meta = {}
+    for attack in attacks:
+        task = tasks[attack.task_id]
+        target_tool, _ = ops_target_action(attack.goal, attack.payload, task)
+        meta[attack.attack_id] = {"near_task": target_tool in task_tools(task), "followup": attack.followup_id}
+    return meta
+
+
+def frame(
+    records: list[dict[str, Any]], payloads: dict[str, str], meta: dict[str, dict[str, Any]] | None = None
+) -> pd.DataFrame:
     """One row per episode."""
+    meta = meta or {}
     rows = []
     for rec in records:
         is_attack = rec.get("attack_id") is not None
@@ -69,6 +101,8 @@ def frame(records: list[dict[str, Any]], payloads: dict[str, str]) -> pd.DataFra
                 ),
                 "lang": rec.get("lang"),
                 "goal": rec.get("goal"),
+                "near_task": meta.get(rec.get("attack_id") or "", {}).get("near_task") if is_attack else None,
+                "followup": meta.get(rec.get("attack_id") or "", {}).get("followup") if is_attack else None,
                 "success_L0": bool(levels.get("L0", {}).get("success")) if is_attack else None,
                 # Cumulative: with stop-on-success, L1 is skipped when L0 already succeeded.
                 "success_L1": bool((levels.get("L1") or levels.get("L0") or {}).get("success")) if is_attack else None,
@@ -83,7 +117,9 @@ def frame(records: list[dict[str, Any]], payloads: dict[str, str]) -> pd.DataFra
                 "n_reads": len(reads),
                 "n_withheld": sum(1 for c in reads if c.get("blocked_by")),
                 "n_action_blocks": sum(1 for c in calls if c.get("kind") == "action" and c.get("blocked_by")),
-                "error": rec.get("error"),
+                # The step limit is an outcome (levels are scored up to it), not an invalid episode.
+                "error": None if rec.get("error") == MAX_STEPS_ERROR else rec.get("error"),
+                "max_steps": rec.get("error") == MAX_STEPS_ERROR,
                 "total_latency_ms": rec.get("total_latency_ms", 0.0),
                 "defense_latency_ms": rec.get("defense_latency_ms", 0.0),
                 "cost_usd": sum(c.get("cost_usd", 0.0) for c in rec.get("llm_calls") or []),
@@ -150,16 +186,17 @@ def paired_tests(df: pd.DataFrame) -> list[dict[str, Any]]:
 def main() -> None:
     """CLI entry point."""
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--episodes", type=Path, default=OPS_DIR / "episodes.jsonl")
+    parser.add_argument("--episodes", type=Path, nargs="+", default=[OPS_DIR / "episodes.jsonl"])
     parser.add_argument("--tag", default="")
     args = parser.parse_args()
     setup_logging()
-    payloads = {a.attack_id: a.payload for a in load_ops_attacks(ATTACKS_PATH)}
-    df = frame(load(args.episodes), payloads)
+    attacks = load_ops_attacks(ATTACKS_PATH)
+    payloads = {a.attack_id: a.payload for a in attacks}
+    df = frame(load(args.episodes), payloads, attack_meta(attacks, load_ops_tasks()))
     suffix = f"_{args.tag}" if args.tag else ""
     summary = summarize(df)
     summary.to_csv(OPS_DIR / f"summary{suffix}.csv", index=False, float_format="%.4f")
-    for by in ("family", "family_group", "goal", "lang", "task_id", "attack_id"):
+    for by in ("family", "family_group", "goal", "lang", "task_id", "attack_id", "near_task", "followup"):
         breakdown(df, by).to_csv(OPS_DIR / f"asr_by_{by}{suffix}.csv", float_format="%.4f")
     breakdown(df, "family", "delivered").to_csv(OPS_DIR / f"delivery_by_family{suffix}.csv", float_format="%.4f")
     (OPS_DIR / f"mcnemar{suffix}.json").write_text(json.dumps(paired_tests(df), indent=2) + "\n", encoding="utf-8")
@@ -183,6 +220,7 @@ def main() -> None:
     with pd.option_context("display.width", 220, "display.max_columns", 30):
         logger.info("\n%s", summary[cols].to_string(index=False))
         logger.info("\nASR@L1 by family group:\n%s", breakdown(df, "family_group").to_string())
+        logger.info("\nASR@L1 near-task vs other:\n%s", breakdown(df, "near_task").to_string())
 
 
 if __name__ == "__main__":
