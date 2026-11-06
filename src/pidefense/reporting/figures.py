@@ -36,8 +36,20 @@ GRID = "#e1e0d9"
 BASELINE = "#c3c2b7"
 CONFIG_COLORS = {"none": "#2a78d6", "guardrails": "#eb6834", "ml": "#1baf7a", "combined": "#eda100"}
 CONFIG_LABELS = {"none": "1 none", "guardrails": "2 guardrails", "ml": "3 ML", "combined": "4 combined"}
-MODEL_COLORS = {"regex_guardrail": "#eb6834", "tfidf_lr": "#6250d6", "distilbert": "#1baf7a"}
-MODEL_LABELS = {"regex_guardrail": "Regex (R1+R2)", "tfidf_lr": "TF-IDF + LR", "distilbert": "DistilBERT"}
+MODEL_COLORS = {
+    "regex_guardrail": "#eb6834",
+    "tfidf_lr": "#6250d6",
+    "distilbert_base": "#2a78d6",
+    "distilbert": "#1baf7a",
+}
+MODEL_LABELS = {
+    "regex_guardrail": "Regex (R1+R2)",
+    "tfidf_lr": "TF-IDF + LR",
+    "distilbert_base": "DistilBERT base",
+    "distilbert": "DistilBERT focus",
+}
+LAYER_COLORS = {"r2": "#eb6834", "ml_base": "#2a78d6", "ml_focus": "#1baf7a"}
+LAYER_LABELS = {"r2": "Regex R2", "ml_base": "DistilBERT base", "ml_focus": "DistilBERT focus"}
 CONFIG_ORDER = ["none", "guardrails", "ml", "combined"]
 DEFENDED = ["guardrails", "ml", "combined"]
 WITH_ACTION_POLICY = frozenset({"guardrails", "combined"})
@@ -45,7 +57,8 @@ FAMILY_GROUPS = {"S": "Known families\n(S1-S5)", "U": "Unseen families\n(U1-U3)"
 EVAL_SETS = [
     ("test_seen", "Known families\n(test split)"),
     ("test_unseen", "Unseen families\n(test split)"),
-    ("ood_ops_all", "OpsPilot domain\n(never trained on)"),
+    ("ood_ops_all", "OpsPilot domain set\n(never trained on)"),
+    ("focus_all", "Delegated documents\n(focus test split)"),
     ("external", "deepset public set\n(chat prompts)"),
 ]
 
@@ -120,9 +133,9 @@ def _grouped_bars(
 
 def fig_generalization(metrics: dict[str, dict[str, dict[str, float]]]) -> None:
     """Recall of each classifier on increasingly unfamiliar evaluation sets (thresholds fixed on validation)."""
-    models = [m for m in ("regex_guardrail", "tfidf_lr", "distilbert") if m in metrics]
+    models = [m for m in ("regex_guardrail", "tfidf_lr", "distilbert_base", "distilbert") if m in metrics]
     sets = [(key, label) for key, label in EVAL_SETS if all(key in metrics[m] for m in models)]
-    fig, ax = plt.subplots(figsize=(7.4, 3.3))
+    fig, ax = plt.subplots(figsize=(8.6, 3.3))
     _grouped_bars(
         ax,
         [label for _, label in sets],
@@ -173,6 +186,34 @@ def fig_layers(attacks: pd.DataFrame) -> None:
     handles, labels = ax_w.get_legend_handles_labels()
     fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.0), ncol=len(configs))
     _save(fig, "layers")
+
+
+def fig_runbook(table: pd.DataFrame) -> None:
+    """Withheld share of OpsPilot outputs per layer: attacks at L1 (recall) and benign outputs (false positives)."""
+    rows = [
+        ("OpsPilot undefended successes", "L1", "The attacks\nthat worked"),
+        ("OpsPilot runbook attacks (P03/P04)", "L1", "All runbook\nattacks"),
+        ("OpsPilot other attacks", "L1", "Attacks in tickets,\nlogs, DB, web"),
+        ("benign OpsPilot runbooks (FPR)", "-", "Benign runbooks\n(false alarm)"),
+        ("benign OpsPilot outputs (FPR)", "-", "All benign outputs\n(false alarm)"),
+    ]
+    picked = []
+    for slice_name, level, label in rows:
+        sub = table[(table["slice"] == slice_name) & (table["level"] == level)]
+        if not sub.empty:
+            picked.append((sub.iloc[0], label))
+    fig, ax = plt.subplots(figsize=(8.6, 3.3))
+    _grouped_bars(
+        ax,
+        [f"{label}\nn={int(row['n'])}" for row, label in picked],
+        {layer: [float(row[layer]) for row, _ in picked] for layer in LAYER_COLORS},
+        LAYER_COLORS,
+        LAYER_LABELS,
+    )
+    ax.axvline(2.5, color=BASELINE, linewidth=1, linestyle="--")
+    ax.set_title("OpsPilot tool outputs withheld by each output layer (attacks: after the follow-up)", loc="left")
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.25), ncol=3)
+    _save(fig, "runbook")
 
 
 def fig_latency(latency: pd.DataFrame) -> None:
@@ -356,11 +397,17 @@ def main() -> None:
     if (DET_DIR / "metrics.json").exists():
         metrics = json.loads((DET_DIR / "metrics.json").read_text(encoding="utf-8"))
         fig_classifier(metrics)
+        if (DET_DIR / "metrics_base.json").exists():
+            base = json.loads((DET_DIR / "metrics_base.json").read_text(encoding="utf-8"))
+            if "distilbert" in base:
+                metrics["distilbert_base"] = base["distilbert"]
         fig_generalization(metrics)
     if (DET_DIR / "latency.csv").exists():
         fig_latency(pd.read_csv(DET_DIR / "latency.csv"))
     if (LAYERS_DIR / "attack_outputs.csv").exists():
         fig_layers(pd.read_csv(LAYERS_DIR / "attack_outputs.csv"))
+    if (LAYERS_DIR / "model_comparison.csv").exists():
+        fig_runbook(pd.read_csv(LAYERS_DIR / "model_comparison.csv"))
 
 
 if __name__ == "__main__":

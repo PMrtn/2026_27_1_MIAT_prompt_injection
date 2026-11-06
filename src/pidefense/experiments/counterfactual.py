@@ -176,14 +176,16 @@ def main() -> None:
         default=[OPS_DIR / "sample_episodes.jsonl", OPS_DIR / "rest_episodes.jsonl"],
     )
     parser.add_argument("--layers", type=Path, default=LAYERS_DIR / "attack_outputs.csv")
+    parser.add_argument("--tag", default="", help="suffix of the output files, e.g. base (with --layers ..._base.csv)")
     args = parser.parse_args()
     setup_logging()
+    suffix = f"_{args.tag}" if args.tag else ""
     outcomes = undefended(args.office_episodes, args.ops_episodes)
     estimates = estimate(outcomes, layer_decisions(args.layers))
     summary = summarize(outcomes, estimates)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    estimates.to_csv(OUT_DIR / "per_attack.csv", index=False)
-    summary.to_csv(OUT_DIR / "summary.csv", index=False, float_format="%.4f")
+    estimates.to_csv(OUT_DIR / f"per_attack{suffix}.csv", index=False)
+    summary.to_csv(OUT_DIR / f"summary{suffix}.csv", index=False, float_format="%.4f")
     with pd.option_context("display.width", 200):
         logger.info("\n%s", summary.to_string(index=False))
 
