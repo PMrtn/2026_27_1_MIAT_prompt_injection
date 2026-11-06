@@ -7,6 +7,9 @@ uses custom MCP tools.
 - **Report:** [`docs/report/report.md`](docs/report/report.md) (PDF: `docs/report/report.pdf`)
 - **Slides:** [`docs/presentation/`](docs/presentation/) (5-minute deck)
 - **Dataset card:** [`docs/data_card.md`](docs/data_card.md)
+- **Findings log:** [`docs/findings.md`](docs/findings.md) (every run, result and open question)
+- **Model checkpoints:** release `v1.0`. `distilbert-focus.zip` is the detector of configurations 3-4;
+  `distilbert-base.zip` is the comparison model. Unzip one into `artifacts/detector/best`.
 
 Four configurations are compared on the same tasks and attacks:
 
