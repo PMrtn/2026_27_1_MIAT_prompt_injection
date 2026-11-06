@@ -72,8 +72,11 @@ class OpsSpec:
 
     @property
     def cache_namespace(self) -> str:
-        """Shared across configurations within a prompt variant; distinct per benign repetition."""
-        kind = "attack" if self.attack else f"benign-rep{self.repetition}"
+        """Shared across configurations within a prompt variant; distinct per repetition (rep 0 keeps the old keys)."""
+        if self.attack:
+            kind = f"attack-rep{self.repetition}" if self.repetition else "attack"
+        else:
+            kind = f"benign-rep{self.repetition}"
         return f"ops-{self.variant}-{kind}-{'-'.join(self.levels)}"
 
 
@@ -138,6 +141,31 @@ def verify_plan(
         specs += [OpsSpec(f"B|{config.name}|{t}|benign|0", "B", config, t, None, 0) for t in sorted(tasks)]
         specs += [OpsSpec(f"B|{config.name}|{a.attack_id}", "B", config, a.task_id, a, 0) for a in chosen]
     return specs
+
+
+def sample_successes(path: Path) -> list[str]:
+    """Attack ids that reached their goal (any level, any variant) in the config-none sample, sorted."""
+    ids: set[str] = set()
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            if line.strip():
+                record = json.loads(line)
+                outcomes = (record.get("level_outcomes") or {}).values()
+                if record.get("attack_id") and any(outcome.get("success") for outcome in outcomes):
+                    ids.add(record["attack_id"])
+    return sorted(ids)
+
+
+def repro_plan(attacks: list[OpsAttack], ids: list[str], reps: int) -> list[OpsSpec]:
+    """Config none, both variants: repetitions 1..reps of the given attacks (repetition 0 is the sample run)."""
+    none = DefenseConfig(guardrails=False, ml=False)
+    by_id = {attack.attack_id: attack for attack in attacks}
+    return [
+        OpsSpec(f"{variant}|none|{attack_id}|rep{rep}", variant, none, by_id[attack_id].task_id, by_id[attack_id], rep)
+        for rep in range(1, reps + 1)
+        for variant in VARIANTS
+        for attack_id in ids
+    ]
 
 
 def pilot_plan(attacks: list[OpsAttack], size: int) -> list[OpsSpec]:
@@ -289,6 +317,7 @@ def main() -> None:
     parser.add_argument("--verify", type=int, default=0)
     parser.add_argument("--pilot", type=int, default=0)
     parser.add_argument("--l2", type=int, default=0)
+    parser.add_argument("--repro", type=int, default=0, help="repetitions of the sample's successful attacks")
     parser.add_argument("--configs", default="none,guardrails,ml,combined")
     parser.add_argument("--concurrency", type=int, default=3)
     args = parser.parse_args()
@@ -321,6 +350,11 @@ def main() -> None:
     elif args.verify:
         specs = verify_plan(tasks, subset_attacks(attacks), [c for c in configs if c.name != "none"], args.verify)
         out, stop_on_success = OPS_DIR / "verify_episodes.jsonl", True
+    elif args.repro:
+        ids = sample_successes(OPS_DIR / "sample_episodes.jsonl")
+        logger.info("Reproducing %d successful sample attacks: %s", len(ids), ", ".join(ids))
+        specs, out = repro_plan(attacks, ids, args.repro), OPS_DIR / "repro_episodes.jsonl"
+        stop_on_success = True
     elif args.pilot:
         specs, out = pilot_plan(attacks, args.pilot), OPS_DIR / "pilot_episodes.jsonl"
     elif args.l2:

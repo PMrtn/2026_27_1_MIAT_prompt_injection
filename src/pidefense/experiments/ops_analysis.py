@@ -159,7 +159,7 @@ def main() -> None:
     suffix = f"_{args.tag}" if args.tag else ""
     summary = summarize(df)
     summary.to_csv(OPS_DIR / f"summary{suffix}.csv", index=False, float_format="%.4f")
-    for by in ("family", "family_group", "goal", "lang", "task_id"):
+    for by in ("family", "family_group", "goal", "lang", "task_id", "attack_id"):
         breakdown(df, by).to_csv(OPS_DIR / f"asr_by_{by}{suffix}.csv", float_format="%.4f")
     breakdown(df, "family", "delivered").to_csv(OPS_DIR / f"delivery_by_family{suffix}.csv", float_format="%.4f")
     (OPS_DIR / f"mcnemar{suffix}.json").write_text(json.dumps(paired_tests(df), indent=2) + "\n", encoding="utf-8")
