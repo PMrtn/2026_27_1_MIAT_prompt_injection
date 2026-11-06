@@ -14,7 +14,7 @@ uses custom MCP tools.
 Four configurations are compared on the same tasks and attacks:
 
 | # | Configuration | Layers on tool outputs | Layers on actions |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | `none` | – | – |
 | 2 | `guardrails` | R1 sanitizer, R2 EN/HU regex signatures | R3 action policy / ops permissions |
 | 3 | `ml` | DistilBERT detector | – |
